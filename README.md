@@ -2,7 +2,7 @@
 
 Install this module by pasting this link: https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/main/module.json
 
-into the Foundry Add-on Module tab.
+into the install mopule dialog on the Foundry Add-on Module tab.
 
 Once enabled in a world it will add 3 compendiums:
 - The first contains all the animal companions released as of March 2021 statted up as ancestries to enable Foundry automation, as well as an Animal Companion class.  Just drag the correct ones to the PC sheet you are using for your Animal Companion.
