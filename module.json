@@ -3,7 +3,7 @@
     "title": "PF2e Animal Companion Compendia",
     "description": "Compendia containing a class, ancestries, and feats to support PF2e animal companions",
     "version": "0.1",
-    "author": "Tikael [Tikael#6851]",
+    "author": "Tikael",
     "packs": [
     {
       "label": "AC Ancestries and Class",
@@ -31,4 +31,7 @@
     }
   ],
     "systems": ["pf2e"]
+     "url": "https://https://github.com/TikaelSol/PF2e-Animal-Companions",
+    "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.json",
+    "download": "https://github.com/TikaelSol/PF2e-Animal-Companions/archive/master.zip",
 }
