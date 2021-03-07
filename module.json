@@ -30,7 +30,7 @@
       "package": "pf2e-animal-companions"
     }
   ],
-    "systems": ["pf2e"]
+    "systems": ["pf2e"],
     "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
     "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.json",
     "download": "https://github.com/TikaelSol/PF2e-Animal-Companions/archive/master.zip",
