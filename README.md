@@ -1,6 +1,7 @@
 # PF2e-Animal-Companions
 
 Install this module by pasting this link: https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/main/module.json
+
 into the Foundry Add-on Module tab.
 
 Once enabled in a world it will add 3 compendiums:
