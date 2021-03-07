@@ -30,12 +30,5 @@
       "package": "pf2e-animal-companions"
     }
   ],
-    "esmodules": [],
-    "styles": [],
-    "socket": false,
-    "systems": ["pf2e"],
-    "compatibleCoreVersion": "0.7.9",
-    "minimumCoreVersion": "0.7.5",
-    "manifest": "",
-    "download": "",
-    "url": ""
+    "systems": ["pf2e"]
+}
