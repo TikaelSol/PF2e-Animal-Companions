@@ -1,0 +1,41 @@
+{
+    "name": "pf2e-animal-companions",
+    "title": "PF2e Animal Companion Compendia",
+    "description": "Compendia containing a class, ancestries, and feats to support PF2e animal companions",
+    "version": "0.1",
+    "author": "Tikael [Tikael#6851]",
+    "packs": [
+    {
+      "label": "AC Ancestries and Class",
+      "entity": "Item",
+      "name": "AC-Ancestries-and-Class",
+      "path": "./packs/ac-ancestries-and-class.db",
+      "system": "pf2e",
+      "package": "pf2e-animal-companions"
+    },
+    {
+      "label": "AC Feats",
+      "entity": "Item",
+      "name": "AC-Feats",
+      "path": "./packs/ac-feats.db",
+      "system": "pf2e",
+      "package": "pf2e-animal-companions"
+    },
+    {
+      "label": "AC Features",
+      "entity": "Item",
+      "name": "AC-Features",
+      "path": "./packs/ac-features.db",
+      "system": "pf2e",
+      "package": "pf2e-animal-companions"
+    }
+  ],
+    "esmodules": [],
+    "styles": [],
+    "socket": false,
+    "systems": ["pf2e"],
+    "compatibleCoreVersion": "0.7.9",
+    "minimumCoreVersion": "0.7.5",
+    "manifest": "",
+    "download": "",
+    "url": ""
