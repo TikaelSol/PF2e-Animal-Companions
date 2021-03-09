@@ -15,3 +15,4 @@ An Animal Companion specific sheet is in the works for the PF2e system, but unti
 
 # Known Issues
 - Scorpion stinger does not automatically switch to 2d4 damage as no specialized companion feats were included.  To fix this if you take specialized companion edit the rule element on the Stinger feat to change the poison damage from 1 die to 2.
+- Talon attack on bird companion is mislabeled as wing.  This can be fixed by editing the label on the rule element on the talon feat, or a new version of the feat will be uploaded soon.
