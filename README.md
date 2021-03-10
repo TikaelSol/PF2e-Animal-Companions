@@ -12,6 +12,3 @@ Once enabled in a world it will add 3 compendiums:
 The name of the Animal Companion class and the ancestry can be edited once dragged to your sheet.
 
 An Animal Companion specific sheet is in the works for the PF2e system, but until that is ready this can serve as a way to use the PF2e system automation.
-
-# Known Issues
-- Scorpion stinger does not automatically switch to 2d4 damage as no specialized companion feats were included.  To fix this if you take specialized companion edit the rule element on the Stinger feat to change the poison damage from 1 die to 2.
