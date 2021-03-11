@@ -30,7 +30,7 @@
       "package": "pf2e-animal-companions"
     },
     {
-      "label": "AC Advanced Maneuvers"
+      "label": "AC Advanced Maneuvers",
       "entity": "Item",
       "name": "AC-Advanced-Maneuvers",
       "path": "./packs/ac-advanced-maneuvers.db",
