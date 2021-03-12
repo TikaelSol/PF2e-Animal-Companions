@@ -13,3 +13,7 @@ Once enabled in a world it will add 4 compendiums:
 The name of the Animal Companion class and the ancestry can be edited once dragged to your sheet.
 
 An Animal Companion specific sheet is in the works for the PF2e system, but until that is ready this can serve as a way to use the PF2e system automation.
+
+
+# Known Issues
+- Right now ruele elements set the size of the animal companion, but this does not work to automate the size changes of the companions that can start at medium or large.  I am looking into active effects that can handle this but since size is not stored in a numeric value in the data structure the few companions that start larger than small may have to have their size adjusted manually.
