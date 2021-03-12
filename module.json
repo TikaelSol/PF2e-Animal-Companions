@@ -21,7 +21,7 @@
       "system": "pf2e",
       "package": "pf2e-animal-companions"
     },
-	{
+    {
       "label": "AC Advanced Maneuvers",
       "entity": "Item",
       "name": "AC-Advanced-Maneuvers",
