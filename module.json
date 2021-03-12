@@ -2,7 +2,7 @@
     "name": "pf2e-animal-companions",
     "title": "PF2e Animal Companion Compendia",
     "description": "Compendia containing a class, ancestries, actions, and feats to support PF2e animal companions",
-    "version": "1.1",
+    "version": "1.2",
     "author": "Tikael",
     "packs": [
     {
@@ -21,7 +21,7 @@
       "system": "pf2e",
       "package": "pf2e-animal-companions"
     },
-    {
+	{
       "label": "AC Advanced Maneuvers",
       "entity": "Item",
       "name": "AC-Advanced-Maneuvers",
