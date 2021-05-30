@@ -40,7 +40,7 @@
   ],
     "systems": ["pf2e"],
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "0.8.6",
     "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
     "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.json",
     "download": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.zip"
