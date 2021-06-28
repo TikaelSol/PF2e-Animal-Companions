@@ -2,7 +2,7 @@
     "name": "pf2e-animal-companions",
     "title": "PF2e Animal Companion Compendia",
     "description": "Compendia containing a class, ancestries, actions, and feats to support PF2e animal companions",
-    "version": "1.3.1",
+    "version": "2.0.0",
     "author": "Tikael",
     "packs": [
     {
@@ -40,7 +40,7 @@
   ],
     "systems": ["pf2e"],
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "0.8.6",
+	"compatibleCoreVersion": "0.8.8",
     "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
     "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.json",
     "download": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.zip"
