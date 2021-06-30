@@ -34,6 +34,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 Open Game License v 1.0a © 2000, Wizards of the Coast, Inc.
 System Reference Document © 2000, Wizards of the Coast, Inc.; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
 Pathfinder Core Rulebook (Second Edition) © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.
+Pathfinder Aventure The Fall of Plaguestone © 2019, Paizo Inc.; Author: Jason Bulmahn
 Pathfinder Adventure Path #149: Against the Scarlet Triad © 2019, Paizo Inc; Author: John Compton
 Pathfinder Adventure Path #154: Siege of the Dinosaurs © 2020, Paizo Inc; Author: Kate Baker
 Pathfinder Advanced Player's Guide (Second Edition) © 2020, Paizo Inc; Authors: Logan Bonner, Lyz Liddell, and Mark Seifter.
