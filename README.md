@@ -4,10 +4,11 @@ Install this module by pasting this link: https://raw.githubusercontent.com/Tika
 
 into the install module dialog on the Foundry Add-on Module tab.
 
-Once enabled in a world it will add 4 compendiums:
+Once enabled in a world it will add 5 compendiums:
 - The first contains all the animal companions released as of March 2021 statted up as ancestries to enable Foundry automation, as well as an Animal Companion class.  Just drag the correct ones to the PC sheet you are using for your Animal Companion.
 - The second contains feats to automate the Mature, Nimble, Indomitable, Savage, and Specialized bonuses.  Drag these feats to the animal companion sheet when your PC takes the associated feat.
 - The third compendium contains actions for the Advanced Maneuvers. These are not automatically added to the sheet and must be added when your companion gains access.
+- The fourth contains support actions for your animal companion.  These are not automatically added since some may make more sense on the PC.
 - The last contains the ancestry features linked to by the Ancestries.  You should not need to drag these to the sheet, they should automatically be added by the ancestries.
 
 The name of the Animal Companion class and the ancestry can be edited once dragged to your sheet.
@@ -24,4 +25,3 @@ This is a big change to this module and a legacy version has been set up that do
 - Barding proficiency is not automated.  Barding is not currently in the system as an armor type, adding barding proficiency manually or through Active effects adds it as a weapon group instead of an armor type.  For barding use one of the armor proficiency groups and make custom armor items.
 - The rules currently leave open the possibility of some Animal Companion types gaining more than one specialization.  The base ability improvements of Specialized currently do not account for this.  Since the Active effects panel is not accessible from non developement builds of the PF2e system this will need to be fixed manually.  If you take more than one specialization feat enter 8 as the dexterity score and 6 as the intelligence score (Despite the displayed number the actual value is 10, with the Active Effects providing behind the scenes increases).  This offsets the additional 2 and 4 that are added to those stats respectively.
 - The fist attack on the PC sheet is hard coded in, the fix is ignoring it until there is an animal companion sheet that lacks this feature or some way to override it.  The only animal companion this should really impact is ape, since their attack is also called fist.  You can rename the ape's fist attack to anything you want by editing the rule element "label":"fist" line
-- There is still a generic Specialized Animal Companion entry in the feats compendium.  This is not necessary.  Every specialization adds the specialized flag on its own so just ignore that entry.
