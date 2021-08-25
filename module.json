@@ -1,17 +1,27 @@
 {
-    "name": "pf2e-animal-companions",
-    "title": "PF2e Animal Companion Compendia",
-    "description": "Compendia containing a class, ancestries, actions, and feats to support PF2e animal companions",
-    "version": "3.0.0",
-    "author": "Tikael",
-    "packs": [
+  "name": "pf2e-animal-companions",
+  "title": "PF2e Animal Companion Compendia",
+  "description": "Compendia containing a class, ancestries, actions, and feats to support PF2e animal companions",
+  "author": "Tikael",
+  "authors": [],
+  "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
+  "flags": {},
+  "version": "3.1.4",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "0.8.9",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
     {
       "label": "AC Ancestries and Class",
       "entity": "Item",
       "name": "AC-Ancestries-and-Class",
       "path": "./packs/ac-ancestries-and-class.db",
       "system": "pf2e",
-      "package": "pf2e-animal-companions"
+      "package": "pf2e-animal-companions",
+      "private": false
     },
     {
       "label": "AC Feats",
@@ -19,15 +29,17 @@
       "name": "AC-Feats",
       "path": "./packs/ac-feats.db",
       "system": "pf2e",
-      "package": "pf2e-animal-companions"
+      "package": "pf2e-animal-companions",
+      "private": false
     },
-  	{
+    {
       "label": "AC Advanced Maneuvers",
       "entity": "Item",
       "name": "AC-Advanced-Maneuvers",
       "path": "./packs/ac-advanced-maneuvers.db",
       "system": "pf2e",
-      "package": "pf2e-animal-companions"
+      "package": "pf2e-animal-companions",
+      "private": false
     },
     {
       "label": "AC Features",
@@ -35,7 +47,8 @@
       "name": "AC-Features",
       "path": "./packs/ac-features.db",
       "system": "pf2e",
-      "package": "pf2e-animal-companions"
+      "package": "pf2e-animal-companions",
+      "private": false
     },
     {
       "label": "AC Support Benefits",
@@ -43,14 +56,19 @@
       "name": "AC-Support",
       "path": "./packs/ac-support-benefits.db",
       "system": "pf2e",
-      "package": "pf2e-animal-companions"
+      "package": "pf2e-animal-companions",
+      "private": false
     }
-    ],
-    "system": ["pf2e"],
-    "minimumCoreVersion": "0.8.8",
-    "compatibleCoreVersion": "0.8.8",
-    "minimumSystemVersion": "2.10",
-    "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
-    "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.json",
-    "download": "https://github.com/TikaelSol/PF2e-Animal-Companions/archive/refs/heads/main.zip"
+  ],
+  "system": [
+    "pf2e"
+  ],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.json",
+  "download": "https://github.com/TikaelSol/PF2e-Animal-Companions/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "minimumSystemVersion": "2.12.4",
+  "library": false
 }

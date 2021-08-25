@@ -1,3 +1,8 @@
+Version 3.1.4
+- Correct an error stemming from 2.12.2 system changes to class items.
+- Actually update the changelog
+- Updated the version number to an arbitrary number not at all inspired by it being dinnertime.
+
 Version 1.3
 - Fix icons after system png -> webp change.
 
