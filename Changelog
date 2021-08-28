@@ -1,3 +1,7 @@
+Version 3.7.7.7
+- Correct base animal companion AC after system changes.
+- Update version number to NumberA's favorite.
+
 Version 3.1.4
 - Correct an error stemming from 2.12.2 system changes to class items.
 - Actually update the changelog
