@@ -38,6 +38,7 @@ Pathfinder Aventure The Fall of Plaguestone © 2019, Paizo Inc.; Author: Jason B
 Pathfinder Adventure Path #149: Against the Scarlet Triad © 2019, Paizo Inc; Author: John Compton
 Pathfinder Adventure Path #154: Siege of the Dinosaurs © 2020, Paizo Inc; Author: Kate Baker
 Pathfinder Advanced Player's Guide (Second Edition) © 2020, Paizo Inc; Authors: Logan Bonner, Lyz Liddell, and Mark Seifter.
+Pathfinder Secrets of Magic © 2021, Paizo Inc; Authors: Logan Bonner, Mark Seifter, and Amirali Attar Olyaee, Kate Baker, Minty Belmont, Logan Bonner, James Case, Jessica Catalan, John Compton, Katina Davis, Jesse Decker, Chris Eng, Eleanor Ferron, Leo Glass, Joan Hong, Vanessa Hoskins, Jason Keeley, Joshua Kim, Luis Loza, Ron Lundeen, Liane Merciel, David N. Ross, Ianara Natividad, Chesley Oxendine, Stephen Radney‑MacFarland, Shiv Ramdas, Mikhail Rekun, Simone D. Sallé, Michael Sayre, Mark Seifter, Sen H.H.S., Shay Snow, Kendra Leigh Speedling, Tan Shao Han, Calliope Lee Taylor, Mari Tokuda, Jason Tondro, Clark Valentine, Ruvaid Virk, Andrew White, Landon Winkler, Tonya Woldridge, and Isis Wozniakowska
 
 This product is compliant with the Open Game License (OGL) and is suitable for use with the Pathfinder Roleplaying Game (Second Edition).
 
