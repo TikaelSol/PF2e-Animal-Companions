@@ -1,3 +1,9 @@
+Version 4.3.2.1
+- Add Guns and Gears Inventor Construct Companions
+- Add Grand Bazaar Animal Companion
+- Fix base speeds of all animal companions with non land speeds.
+- Automate resistance, weakness, and immunity traits for companions.
+
 Version 4.0
 - Add Secrets of Magic animal companion and specialization.
 
