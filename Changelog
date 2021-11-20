@@ -1,3 +1,6 @@
+Version 4.4.5
+- Ran PF2e migration to make the module compatible with 2.19.0
+
 Version 4.4.4
 - Added the missing construct companion option
 - Added the missing rule elements to construct companion
