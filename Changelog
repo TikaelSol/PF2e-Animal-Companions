@@ -1,3 +1,7 @@
+Version 4.4.6
+- Add thrown trait to throw rock strike
+- Add flag to indomitable companions to increase damage properly.
+
 Version 4.4.5
 - Ran PF2e migration to make the module compatible with 2.19.0
 
