@@ -1,3 +1,9 @@
+Version 4.5
+- Add missing Extinction Curse companion
+- Add Ulgrem-Lurann companion from Monsters of Myth
+- Auto add animal companion class when adding the ancestry
+- Remove no longer needed text from rule elements
+
 Version 4.4.6
 - Add thrown trait to throw rock strike
 - Add flag to indomitable companions to increase damage properly.
