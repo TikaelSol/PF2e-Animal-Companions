@@ -6,7 +6,7 @@
   "authors": [],
   "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
   "flags": {},
-  "version": "5.0.1",
+  "version": "5.0.2",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
   "scripts": [],
@@ -105,6 +105,6 @@
   "download": "https://github.com/TikaelSol/example-repository/archive/refs/heads/main.zip",
   "protected": false,
   "coreTranslation": false,
-  "minimumSystemVersion": "3.2",
+  "minimumSystemVersion": "3.1",
   "library": false
 }
