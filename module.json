@@ -1,12 +1,12 @@
 {
   "name": "pf2e-animal-companions",
-  "title": "PF2e Animal Companion Compendia",
-  "description": "Compendia containing a class, ancestries, actions, and feats to support PF2e animal companions",
+  "title": "PF2e Companion Compendia",
+  "description": "Compendia containing a class, ancestries, actions, and feats to support PF2e companions",
   "author": "Tikael",
   "authors": [],
   "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
   "flags": {},
-  "version": "4.5",
+  "version": "5.0.1",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
   "scripts": [],
@@ -67,6 +67,33 @@
       "system": "pf2e",
       "package": "pf2e-animal-companions",
       "private": false
+    },
+    {
+      "label": "AC Construct Breakthroughs",
+      "entity": "Item",
+      "name": "AC-Construct-Breakthroughs",
+      "path": "./packs/ac-construct-breakthroughs.db",
+      "system": "pf2e",
+      "package": "pf2e-animal-companions",
+      "private": false
+    },
+    {
+      "label": "AC Eidolons",
+      "entity": "Item",
+      "name": "AC-Eidolons",
+      "path": "./packs/ac-eidolons.db",
+      "system": "pf2e",
+      "package": "pf2e-animal-companions",
+      "private": false
+    },
+    {
+      "label": "AC Evolution Feats",
+      "entity": "Item",
+      "name": "AC-Evolution-Feats",
+      "path": "./packs/ac-evolution-feats.db",
+      "system": "pf2e",
+      "package": "pf2e-animal-companions",
+      "private": false
     }
   ],
   "system": [
@@ -74,10 +101,10 @@
   ],
   "dependencies": [],
   "socket": false,
-  "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.json",
-  "download": "https://github.com/TikaelSol/PF2e-Animal-Companions/archive/refs/heads/main.zip",
+  "manifest": "https://raw.githubusercontent.com/TikaelSol/example-repository/master/module.json",
+  "download": "https://github.com/TikaelSol/example-repository/archive/refs/heads/main.zip",
   "protected": false,
   "coreTranslation": false,
-  "minimumSystemVersion": "3.1.0",
+  "minimumSystemVersion": "3.2",
   "library": false
 }
