@@ -1,7 +1,10 @@
+Version 5.0.4
+- Fix missing traits from several companion strikes
+
 Version 5.0
 - Adds support for Eidolons!
-- Rebuild Animal and Construct Companions from the ground up.
-- Adds support for multiple specializations for Beastmaster.
+- Rebuild Animal and Construct Companions from the ground up
+- Adds support for multiple specializations for Beastmaster
 - Adds support for Inventor construct modifications
 
 Version 4.5
@@ -12,8 +15,8 @@ Version 4.5
 
 Version 4.4.6
 - Add thrown trait to throw rock strike
-- Add flag to indomitable companions to increase damage properly.
-- Remove size change on mature companions to avoid wrong sizes for large companions.
+- Add flag to indomitable companions to increase damage properly
+- Remove size change on mature companions to avoid wrong sizes for large companions
 
 Version 4.4.5
 - Ran PF2e migration to make the module compatible with 2.19.0
@@ -24,32 +27,32 @@ Version 4.4.4
 - Changed the images for construct companions unarmed attack 2
 
 Version 4.4
-- I didn't forget that Grand Bazaar had 5 animal companions.
-- I just didn't know.
-- You're the forgetful one.
+- I didn't forget that Grand Bazaar had 5 animal companions
+- I just didn't know
+- You're the forgetful one
 
 Version 4.3.2.1
 - Add Guns and Gears Inventor Construct Companions
 - Add Grand Bazaar Animal Companion
-- Fix base speeds of all animal companions with non land speeds.
-- Automate resistance, weakness, and immunity traits for companions.
+- Fix base speeds of all animal companions with non land speeds
+- Automate resistance, weakness, and immunity traits for companions
 
 Version 4.0
-- Add Secrets of Magic animal companion and specialization.
+- Add Secrets of Magic animal companion and specialization
 
 Version 3.7.7.7
-- Correct base animal companion AC after system changes.
-- Update version number to NumberA's favorite.
+- Correct base animal companion AC after system changes
+- Update version number to NumberA's favorite
 
 Version 3.1.4
-- Correct an error stemming from 2.12.2 system changes to class items.
+- Correct an error stemming from 2.12.2 system changes to class items
 - Actually update the changelog
-- Updated the version number to an arbitrary number not at all inspired by it being dinnertime.
+- Updated the version number to an arbitrary number not at all inspired by it being dinnertime
 
 Version 1.3
-- Fix icons after system png -> webp change.
+- Fix icons after system png -> webp change
 
 Version 1.2
 
-- Active Effects have been added to auto-calculate animal companion ability scores and proficiencies.
--- See README.md on the github page for how to use this module and known issues.
+- Active Effects have been added to auto-calculate animal companion ability scores and proficiencies
+-- See README.md on the github page for how to use this module and known issues
