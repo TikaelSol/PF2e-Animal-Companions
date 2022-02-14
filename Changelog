@@ -1,3 +1,8 @@
+Version 5.0.5
+- Fix traits and rarities of several animal companions
+- Fix Construct companion's second strike
+- Move classes to the features compendium, these should not be added manually
+
 Version 5.0.4
 - Fix missing traits from several companion strikes
 
