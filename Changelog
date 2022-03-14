@@ -1,3 +1,6 @@
+Version 5.0.9
+- Roll back to 5.0.6 db files to fix circular item grants caused by export failure
+
 Version 5.0.8
 - Fix Dragon Eidolon
 
