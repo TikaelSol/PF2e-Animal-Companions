@@ -1,3 +1,12 @@
+Version 5.1
+- Add Undead companions from Book of the Dead
+- Add Megafauna companions from Quest for the Frozen Flame
+- Add missing Gibtas companion from Abomination Vaults
+- Add missing Towering Size evolution feat
+- Fix multiple mispellings
+- Fix an error causing specialized companions to not get all their ability boosts.
+- - This fix requires the ancestry be added to your companions again.
+
 Version 5.0.9
 - Roll back to 5.0.6 db files to fix circular item grants caused by export failure
 
