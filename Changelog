@@ -1,3 +1,8 @@
+Version 5.2
+- Remove errant rule element adding HP back to eidolons
+- Fix rule elements on Hallowed Strikes
+- Fix missing traits on Projectile Launcher
+
 Version 5.1
 - Add Undead companions from Book of the Dead
 - Add Megafauna companions from Quest for the Frozen Flame
