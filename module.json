@@ -1,12 +1,12 @@
 {
   "name": "pf2e-animal-companions",
   "title": "PF2e Companion Compendia",
-  "description": "Compendia containing a class, ancestries, actions, and feats to support PF2e companions",
+  "description": "Compendia containing everything you need to support PF2e companions",
   "author": "Tikael",
   "authors": [],
   "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
   "flags": {},
-  "version": "5.2",
+  "version": "5.3",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
   "scripts": [],
@@ -15,7 +15,7 @@
   "languages": [],
   "packs": [
     {
-      "label": "AC Ancestries",
+      "label": "CC Animal Companion Ancestries",
       "entity": "Item",
       "name": "AC-Ancestries-and-Class",
       "path": "./packs/ac-ancestries-and-class.db",
@@ -24,7 +24,7 @@
       "private": false
     },
     {
-      "label": "AC Feats",
+      "label": "CC Animal Companion Feats",
       "entity": "Item",
       "name": "AC-Feats",
       "path": "./packs/ac-feats.db",
@@ -33,7 +33,7 @@
       "private": false
     },
     {
-      "label": "AC Advanced Maneuvers",
+      "label": "CC Advanced Maneuvers",
       "entity": "Item",
       "name": "AC-Advanced-Maneuvers",
       "path": "./packs/ac-advanced-maneuvers.db",
@@ -42,7 +42,7 @@
       "private": false
     },
     {
-      "label": "AC Features",
+      "label": "CC Features",
       "entity": "Item",
       "name": "AC-Features",
       "path": "./packs/ac-features.db",
@@ -51,7 +51,7 @@
       "private": false
     },
     {
-      "label": "AC Support Benefits",
+      "label": "CC Support Benefits",
       "entity": "Item",
       "name": "AC-Support",
       "path": "./packs/ac-support-benefits.db",
@@ -60,7 +60,7 @@
       "private": false
     },
     {
-      "label": "AC Construct Companions",
+      "label": "CC Construct Companions",
       "entity": "Item",
       "name": "AC-Construct-Companions",
       "path": "./packs/ac-construct-companions.db",
@@ -69,7 +69,7 @@
       "private": false
     },
     {
-      "label": "AC Construct Breakthroughs",
+      "label": "CC Construct Breakthroughs",
       "entity": "Item",
       "name": "AC-Construct-Breakthroughs",
       "path": "./packs/ac-construct-breakthroughs.db",
@@ -78,7 +78,7 @@
       "private": false
     },
     {
-      "label": "AC Eidolons",
+      "label": "CC Eidolons",
       "entity": "Item",
       "name": "AC-Eidolons",
       "path": "./packs/ac-eidolons.db",
@@ -87,7 +87,7 @@
       "private": false
     },
     {
-      "label": "AC Evolution Feats",
+      "label": "CC Evolution Feats",
       "entity": "Item",
       "name": "AC-Evolution-Feats",
       "path": "./packs/ac-evolution-feats.db",
@@ -105,6 +105,6 @@
   "download": "https://github.com/TikaelSol/PF2e-Animal-Companions/archive/refs/heads/main.zip",
   "protected": false,
   "coreTranslation": false,
-  "minimumSystemVersion": "3.9.2",
+  "minimumSystemVersion": "3.13",
   "library": false
 }

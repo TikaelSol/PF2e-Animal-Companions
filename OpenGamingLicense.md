@@ -46,6 +46,8 @@ Pathfinder Guns & Gears © 2021, Paizo Inc.; Authors: Logan Bonner, Jessica Cata
 Pathfinder Lost Omens Monsters of Myth © 2021, Paizo Inc.; Authors: James Case, John Compton, Dana Ebert, Joshua Kim, Aaron Lascano, Luis Loza, Ron Lundeen, Stephanie Lundeen, Liane Merciel, Andrew Mullen, Michael Sayre, Sen H.H.S., Shay Snow, and Jason Tondro.
 Pathfinder Adventure Path #177: Burning Tundra © 2022, Paizo Inc.; Author: Jason Tondro.
 Pathfinder Book of the Dead © 2022, Paizo Inc.; Authors: Brian Bauman, Tineke Bolleman. Logan Bonner, Jason Bulmahn, Jessica Catalan, John Compton, Chris Eng, Logan Harper, Michelle Jones, Jason Keeley, Luis Loza, Ron Lundeen, Liane Merciel, Patchen Mortimer, Quinn Murphy, Jessica Redekop, Mikhail Rekun, Solomon St. John, Michael Sayre, Mark Seifter, Sen.H.H.S., Kendra Leigh Speedling, Jason Tondro, Andrew White.
+Pathfinder Adventure Path #181: Zombie Feast © 2022, Paizo Inc.; Author: Mike Kimmel.
+Pathfinder Dark Archive © 2022, Paizo Inc.; Authors: Rigby Bendele, Logan Bonner, James Case, Dan Cascone, Jessica Catalan, Banana Chan, Kay Hashimoto, Sen H.H.S., Patrick Hurley, Joshua Kim, Avi Kool, Daniel Kwan, Kendra Leigh Speedling, Luis Loza, Ron Lundeen, Liane Merciel, Jacob W. Michaels, Andrew Mullen, Quinn Murphy, K. Tessa Newton, Mikhail Rekun, Patrick Renie, Solomon St. John, Michael Sayre, Mark Seifter, Shay Snow, Alex Speidel, Geoffrey Suthers, Ruvaid Virk, Jabari Weathers, and Isis Wozniakowska.
 
 This product is compliant with the Open Game License (OGL) and is suitable for use with the Pathfinder Roleplaying Game (Second Edition).
 

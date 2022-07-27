@@ -1,12 +1,14 @@
 # PF2e-Animal-Companions
 
-Once enabled in a world it will add 7 compendiums:
-- The first contains all the animal companions statted up as ancestries to enable Foundry automation, as well as an Animal Companion class.  Just drag the correct ones to the PC sheet you are using for your Animal Companion.
-- The second contains feats to automate the Mature, Nimble, Indomitable, Savage, and Specialized bonuses.  Drag these feats to the animal companion sheet when your PC takes the associated feat.
+Once enabled in a world it will add several new compendiums, all of which start with "CC":
+- "CC Animal Companion Ancestries" contains all the animal companions statted up as ancestries to enable Foundry automation.  Just drag the correct one to the PC sheet you are using for your Animal Companion.
+- "CC Animal Companion Feats" contains feats to automate the Mature, Nimble, Specialized, etc. bonuses.  Drag these feats to the animal companion sheet when your PC takes the associated feat.
 - The third compendium contains actions for the Advanced Maneuvers. These are automatically added to the sheet when your companion gains access.
 - The fourth contains support actions for your animal companion.  These are automatically added.
-- The fifth contains a class, ancestry, and features for Inventor Construct Companions.
-- The last contains the ancestry features linked to by the Ancestries.  You should not need to drag these to the sheet, they should automatically be added by the ancestries.
+- "CC Construct Companions" contains an ancestry and features for Inventor Construct Companions. You can rename the feats and change the image on the feature to change the strike name / image.
+- "CC Eidolons" contains the ancestries for automating eidolons. You can rename or select new images for the items in your inventory or modify the strikes as needed.
+- "CC Evolution Feats" contains special versions of the evolution feats that contain automation for your eidolon. Put these on the eidolno, and the regular system version of the feats on your summoner.
+- The other compendiums contain features that will be added automatically to your companion as you take things that grant them.
 
 # Known Issues
-- Barding proficiency is not automated.  Barding is not currently in the system as an armor type, adding barding proficiency manually or through Active effects adds it as a weapon group instead of an armor type.  For barding use one of the armor proficiency groups and make custom armor items.
+- Barding proficiency is not automated.  Barding is not currently in the system as an armor type, adding barding proficiency is not currently possible.  For barding, use one of the armor proficiency groups and make custom armor items.
