@@ -1,5 +1,19 @@
 # PF2e-Animal-Companions
 
+Making a companion:
+
+Animal Companions:
+
+https://user-images.githubusercontent.com/80183198/181280792-0b396945-073a-482a-a5dc-b207d41d882e.mp4
+
+Construct Companions:
+
+https://user-images.githubusercontent.com/80183198/181280872-bb566b9b-b40a-407d-addb-f63f2b854745.mp4
+
+Eidolons:
+
+https://user-images.githubusercontent.com/80183198/181280927-f7e80f80-3162-404b-a63e-32b95452b84b.mp4
+
 Once enabled in a world it will add several new compendiums, all of which start with "CC":
 - "CC Animal Companion Ancestries" contains all the animal companions statted up as ancestries to enable Foundry automation.  Just drag the correct one to the PC sheet you are using for your Animal Companion.
 - "CC Animal Companion Feats" contains feats to automate the Mature, Nimble, Specialized, etc. bonuses.  Drag these feats to the animal companion sheet when your PC takes the associated feat.
