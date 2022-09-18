@@ -1,3 +1,9 @@
+Version 5.4
+- Update module to v10 compatibility
+- Fix incorrect acrobatics and athletics training for animal companions
+- Fix default size of several companions
+- Add missing undead eidolon ability
+
 Version 5.3
 - Fix minor text errors
 - Update for CRB errata
