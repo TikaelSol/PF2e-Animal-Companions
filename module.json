@@ -2,98 +2,113 @@
   "title": "PF2e Companion Compendia",
   "description": "Compendia containing everything you need to support PF2e companions",
   "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
-  "version": "5.4.1",
-  "packs": [{
-    "label": "CC Animal Companion Ancestries",
-    "name": "AC-Ancestries-and-Class",
-    "path": "packs/ac-ancestries-and-class.db",
-    "system": "pf2e",
-    "private": false,
-    "type": "Item",
-    "flags": {}
-  }, {
-    "label": "CC Animal Companion Feats",
-    "name": "AC-Feats",
-    "path": "packs/ac-feats.db",
-    "system": "pf2e",
-    "private": false,
-    "type": "Item",
-    "flags": {}
-  }, {
-    "label": "CC Advanced Maneuvers",
-    "name": "AC-Advanced-Maneuvers",
-    "path": "packs/ac-advanced-maneuvers.db",
-    "system": "pf2e",
-    "private": false,
-    "type": "Item",
-    "flags": {}
-  }, {
-    "label": "CC Features",
-    "name": "AC-Features",
-    "path": "packs/ac-features.db",
-    "system": "pf2e",
-    "private": false,
-    "type": "Item",
-    "flags": {}
-  }, {
-    "label": "CC Support Benefits",
-    "name": "AC-Support",
-    "path": "packs/ac-support-benefits.db",
-    "system": "pf2e",
-    "private": false,
-    "type": "Item",
-    "flags": {}
-  }, {
-    "label": "CC Construct Companions",
-    "name": "AC-Construct-Companions",
-    "path": "packs/ac-construct-companions.db",
-    "system": "pf2e",
-    "private": false,
-    "type": "Item",
-    "flags": {}
-  }, {
-    "label": "CC Construct Breakthroughs",
-    "name": "AC-Construct-Breakthroughs",
-    "path": "packs/ac-construct-breakthroughs.db",
-    "system": "pf2e",
-    "private": false,
-    "type": "Item",
-    "flags": {}
-  }, {
-    "label": "CC Eidolons",
-    "name": "AC-Eidolons",
-    "path": "packs/ac-eidolons.db",
-    "system": "pf2e",
-    "private": false,
-    "type": "Item",
-    "flags": {}
-  }, {
-    "label": "CC Evolution Feats",
-    "name": "AC-Evolution-Feats",
-    "path": "packs/ac-evolution-feats.db",
-    "system": "pf2e",
-    "private": false,
-    "type": "Item",
-    "flags": {}
-  }],
+  "version": "5.4.2",
+  "packs": [
+    {
+      "label": "CC Animal Companion Ancestries",
+      "name": "AC-Ancestries-and-Class",
+      "path": "packs/ac-ancestries-and-class.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "CC Animal Companion Feats",
+      "name": "AC-Feats",
+      "path": "packs/ac-feats.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "CC Advanced Maneuvers",
+      "name": "AC-Advanced-Maneuvers",
+      "path": "packs/ac-advanced-maneuvers.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "CC Features",
+      "name": "AC-Features",
+      "path": "packs/ac-features.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "CC Support Benefits",
+      "name": "AC-Support",
+      "path": "packs/ac-support-benefits.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "CC Construct Companions",
+      "name": "AC-Construct-Companions",
+      "path": "packs/ac-construct-companions.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "CC Construct Breakthroughs",
+      "name": "AC-Construct-Breakthroughs",
+      "path": "packs/ac-construct-breakthroughs.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "CC Eidolons",
+      "name": "AC-Eidolons",
+      "path": "packs/ac-eidolons.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "CC Evolution Feats",
+      "name": "AC-Evolution-Feats",
+      "path": "packs/ac-evolution-feats.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    }
+  ],
   "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.json",
   "download": "https://github.com/TikaelSol/PF2e-Animal-Companions/archive/refs/heads/main.zip",
   "id": "pf2e-animal-companions",
   "compatibility": {
     "minimum": "10",
-    "verified": "10"
+    "verified": "10.288"
   },
   "relationships": {
-    "systems": [{
-      "id": "pf2e",
-      "type": "system",
-      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
-      "compatibility": {
-        "minimum": "4.0.6"
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "4.2.6"
+        }
       }
-    }]
+    ]
   },
-  "authors": [{
-    "name": "Tikael"
-  }]
+  "authors": [
+    {
+      "name": "Tikael",
+      "flags": {}
+    }
+  ]
 }
