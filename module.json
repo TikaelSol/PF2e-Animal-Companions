@@ -2,7 +2,7 @@
   "title": "PF2e Companion Compendia",
   "description": "Compendia containing everything you need to support PF2e companions",
   "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
-  "version": "5.4.2",
+  "version": "5.5",
   "packs": [
     {
       "label": "CC Animal Companion Ancestries",
@@ -91,7 +91,7 @@
   "id": "pf2e-animal-companions",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.288"
+    "verified": "10.290"
   },
   "relationships": {
     "systems": [
@@ -100,7 +100,7 @@
         "type": "system",
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
-          "minimum": "4.2.6"
+          "minimum": "4.3.4"
         }
       }
     ]
