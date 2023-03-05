@@ -25,4 +25,4 @@ Once enabled in a world it will add several new compendiums, all of which start 
 - The other compendiums contain features that will be added automatically to your companion as you take things that grant them.
 
 # Known Issues
-- Barding proficiency is not automated.  Barding is not currently in the system as an armor type, adding barding proficiency is not currently possible.  For barding, use one of the armor proficiency groups and make custom armor items.
+- Multiclass summoners have an extra feature they can add to make the ability scores of the eidolon correct. The proficiencies will be fixed in a future update.
