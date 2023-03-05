@@ -2,7 +2,7 @@
   "title": "PF2e Companion Compendia",
   "description": "Compendia containing everything you need to support PF2e companions",
   "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
-  "version": "5.5",
+  "version": "5.6",
   "packs": [
     {
       "label": "CC Animal Companion Ancestries",
@@ -26,6 +26,15 @@
       "label": "CC Advanced Maneuvers",
       "name": "AC-Advanced-Maneuvers",
       "path": "packs/ac-advanced-maneuvers.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "CC Equipment",
+      "name": "ac-equipment",
+      "path": "packs/ac-equipment.db",
       "system": "pf2e",
       "private": false,
       "type": "Item",
@@ -90,8 +99,8 @@
   "download": "https://github.com/TikaelSol/PF2e-Animal-Companions/archive/refs/heads/main.zip",
   "id": "pf2e-animal-companions",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10.290"
+    "minimum": "10.291",
+    "verified": "10.291"
   },
   "relationships": {
     "systems": [
@@ -100,7 +109,7 @@
         "type": "system",
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
-          "minimum": "4.3.4"
+          "minimum": "4.8.3"
         }
       }
     ]
