@@ -1,4 +1,4 @@
-# PF2e-Animal-Companions
+# PF2e Companion Compendia
 
 Making a companion:
 
