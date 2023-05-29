@@ -1,3 +1,9 @@
+Version 5.7
+- Add slugs to all compendium items to help other modules have stable references.
+- Fix label on Racer ChoiceSet
+- Update persistent damage inline links.
+- Fix evil damage of Demonic Strikes
+
 Version 5.6
 - Fix traits of companion strikes when taking specialized options
 - Fix errant actor trait on beast eidolon
