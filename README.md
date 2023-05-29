@@ -8,7 +8,5 @@ Once enabled in a world it will add several new compendiums, all of which start 
 - "CC Construct Companions" contains an ancestry and features for Inventor Construct Companions. You can rename the feats and change the image on the feature to change the strike name / image.
 - "CC Eidolons" contains the ancestries for automating eidolons. You can rename or select new images for the items in your inventory or modify the strikes as needed.
 - "CC Evolution Feats" contains special versions of the evolution feats that contain automation for your eidolon. Put these on the eidolno, and the regular system version of the feats on your summoner.
+- Multiclass summoners have an extra feature they can add to make the ability scores of the eidolon correct. The proficiencies will be fixed in a future update.
 - The other compendiums contain features that will be added automatically to your companion as you take things that grant them.
-
-# Known Issues
-- Barding proficiency is not automated.  Barding is not currently in the system as an armor type, adding barding proficiency is not currently possible.  For barding, use one of the armor proficiency groups and make custom armor items.
