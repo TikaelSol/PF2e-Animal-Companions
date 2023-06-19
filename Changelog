@@ -1,3 +1,7 @@
+Version 5.7.1
+- Fix display of specialized companion ability scores
+- Fix damage on Spirit Touch ability
+
 Version 5.7
 - Add slugs to all compendium items to help other modules have stable references.
 - Fix label on Racer ChoiceSet
