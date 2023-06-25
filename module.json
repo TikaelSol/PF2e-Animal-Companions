@@ -3,6 +3,25 @@
   "description": "Compendia containing everything you need to support PF2e companions",
   "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
   "version": "5.7.1",
+  "packFolders": [
+    {
+        "name": "Companion Compendia",
+        "sorting": "a",
+        "color": "#ff0000",
+        "packs": [
+          "AC-Ancestries-and-Class",
+          "AC-Feats",
+          "AC-Advanced-Maneuvers",
+          "ac-equipment",
+          "AC-Features",
+          "AC-Evolution-Feats",
+          "AC-Eidolons",
+          "AC-Construct-Breakthroughs",
+          "AC-Construct-Companions",
+          "AC-Support"
+        ]
+    }
+  ],
   "packs": [
     {
       "label": "CC Animal Companion Ancestries",
