@@ -1,0 +1,5 @@
+2023/06/27-14:21:50.809 cdc Recovering log #26
+2023/06/27-14:21:50.809 cdc Level-0 table #28: started
+2023/06/27-14:21:50.816 cdc Level-0 table #28: 25225 bytes OK
+2023/06/27-14:21:50.822 cdc Delete type=0 #26
+2023/06/27-14:21:50.823 cdc Delete type=3 #24

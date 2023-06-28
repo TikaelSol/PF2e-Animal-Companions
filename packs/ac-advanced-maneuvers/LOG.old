@@ -1,0 +1,5 @@
+2023/06/27-14:21:50.777 10ec Recovering log #26
+2023/06/27-14:21:50.777 10ec Level-0 table #28: started
+2023/06/27-14:21:50.782 10ec Level-0 table #28: 30414 bytes OK
+2023/06/27-14:21:50.790 10ec Delete type=0 #26
+2023/06/27-14:21:50.791 10ec Delete type=3 #24

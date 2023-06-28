@@ -2,105 +2,169 @@
   "title": "PF2e Companion Compendia",
   "description": "Compendia containing everything you need to support PF2e companions",
   "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
-  "version": "5.7.1",
+  "version": "5.8",
   "packs": [
     {
-      "label": "CC Animal Companion Ancestries",
+      "label": "Animal Companion Ancestries",
       "name": "AC-Ancestries-and-Class",
-      "path": "packs/ac-ancestries-and-class.db",
+      "path": "packs/ac-ancestries-and-class",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
-      "private": false,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
       "type": "Item",
       "flags": {}
     },
     {
-      "label": "CC Animal Companion Feats",
+      "label": "Animal Companion Feats",
       "name": "AC-Feats",
-      "path": "packs/ac-feats.db",
+      "path": "packs/ac-feats",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
-      "private": false,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
       "type": "Item",
       "flags": {}
     },
     {
-      "label": "CC Advanced Maneuvers",
+      "label": "Advanced Maneuvers",
       "name": "AC-Advanced-Maneuvers",
-      "path": "packs/ac-advanced-maneuvers.db",
+      "path": "packs/ac-advanced-maneuvers",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
-      "private": false,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
       "type": "Item",
       "flags": {}
     },
     {
-      "label": "CC Equipment",
+      "label": "Equipment",
       "name": "ac-equipment",
-      "path": "packs/ac-equipment.db",
+      "path": "packs/ac-equipment",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
-      "private": false,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
       "type": "Item",
       "flags": {}
     },
     {
-      "label": "CC Features",
+      "label": "Features",
       "name": "AC-Features",
-      "path": "packs/ac-features.db",
+      "path": "packs/ac-features",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
-      "private": false,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
       "type": "Item",
       "flags": {}
     },
     {
-      "label": "CC Support Benefits",
+      "label": "Support Benefits",
       "name": "AC-Support",
-      "path": "packs/ac-support-benefits.db",
+      "path": "packs/ac-support-benefits",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
-      "private": false,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
       "type": "Item",
       "flags": {}
     },
     {
-      "label": "CC Construct Companions",
+      "label": "Construct Companions",
       "name": "AC-Construct-Companions",
-      "path": "packs/ac-construct-companions.db",
+      "path": "packs/ac-construct-companions",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
-      "private": false,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
       "type": "Item",
       "flags": {}
     },
     {
-      "label": "CC Construct Breakthroughs",
+      "label": "Construct Breakthroughs",
       "name": "AC-Construct-Breakthroughs",
-      "path": "packs/ac-construct-breakthroughs.db",
+      "path": "packs/ac-construct-breakthroughs",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
-      "private": false,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
       "type": "Item",
       "flags": {}
     },
     {
-      "label": "CC Eidolons",
+      "label": "Eidolons",
       "name": "AC-Eidolons",
-      "path": "packs/ac-eidolons.db",
+      "path": "packs/ac-eidolons",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
-      "private": false,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
       "type": "Item",
       "flags": {}
     },
     {
-      "label": "CC Evolution Feats",
+      "label": "Evolution Feats",
       "name": "AC-Evolution-Feats",
-      "path": "packs/ac-evolution-feats.db",
+      "path": "packs/ac-evolution-feats",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
-      "private": false,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
       "type": "Item",
       "flags": {}
     }
   ],
+  "packFolders": [
+    {
+        "name": "Companion Compendia",
+        "sorting": "m",
+        "packs": [
+          "AC-Ancestries-and-Class",
+          "AC-Feats",
+          "AC-Advanced-Maneuvers",
+          "ac-equipment",
+          "AC-Features",
+          "AC-Evolution-Feats",
+          "AC-Eidolons",
+          "AC-Construct-Breakthroughs",
+          "AC-Construct-Companions",
+          "AC-Support"
+        ]
+    }
+  ],
+  "media": [
+    {
+        "type": "setup",
+        "caption": "Pathfinder 2e Companion Compendia",
+        "thumbnail": "modules/pf2e-animal-companions/art/preview.webp"
+  }],
   "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.json",
   "download": "https://github.com/TikaelSol/PF2e-Animal-Companions/archive/refs/heads/main.zip",
   "id": "pf2e-animal-companions",
   "compatibility": {
-    "minimum": "10.291",
-    "verified": "10.291"
+    "minimum": "11",
+    "verified": "11"
   },
   "relationships": {
     "systems": [
@@ -109,7 +173,7 @@
         "type": "system",
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
-          "minimum": "4.8.3"
+          "minimum": "5.0.2"
         }
       }
     ]
