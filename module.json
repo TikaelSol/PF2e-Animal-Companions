@@ -2,7 +2,7 @@
   "title": "PF2e Companion Compendia",
   "description": "Compendia containing everything you need to support PF2e companions",
   "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
-  "version": "5.8",
+  "version": "5.9",
   "packs": [
     {
       "label": "Animal Companion Ancestries",
@@ -11,7 +11,7 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
       "ownership": {
-        "PLAYER": "LIMITED",
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
@@ -24,7 +24,7 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
       "ownership": {
-        "PLAYER": "LIMITED",
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
@@ -37,7 +37,7 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
       "ownership": {
-        "PLAYER": "LIMITED",
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
@@ -50,7 +50,7 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
       "ownership": {
-        "PLAYER": "LIMITED",
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
@@ -63,7 +63,7 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
       "ownership": {
-        "PLAYER": "LIMITED",
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
@@ -76,7 +76,7 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
       "ownership": {
-        "PLAYER": "LIMITED",
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
@@ -89,7 +89,7 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
       "ownership": {
-        "PLAYER": "LIMITED",
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
@@ -102,7 +102,7 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
       "ownership": {
-        "PLAYER": "LIMITED",
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
@@ -115,7 +115,7 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
       "ownership": {
-        "PLAYER": "LIMITED",
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
@@ -128,7 +128,7 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "system": "pf2e",
       "ownership": {
-        "PLAYER": "LIMITED",
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "type": "Item",

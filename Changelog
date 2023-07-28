@@ -1,3 +1,9 @@
+Version 5.9
+- Fix speeds of goat
+- Add assumed armor bonuses for undead eidolons
+- Fix predicate in unseen eidolon
+- Change compendium permissions to allow players to see them.
+
 Version 5.8
 - Add new companions from Lost Omens: Highhelm
 - Add missing companions from Pathfinder Treasure Vault
