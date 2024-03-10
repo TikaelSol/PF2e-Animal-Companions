@@ -1,21 +1,150 @@
-Version 2.0.3
-- Fix amps adding extra focus points, but this time I mean it.
-- Fix some missed errata
-- Add ranged variants for produce flame
+Version 6.1
+- Apply remaster errata to angel and demon eidolons.
+- Include copy of Megaton Strike feat for construct companions
+- Add "(CC)" to eidolon feats to be clear they are the companion compendia versions
 
-Version 2.0.2
-- Fix amps adding extra focus points
+Version 6.0
+- Add new companions from Rage of Elements
 
-Version 2.0.1
-- Include remaster errata
+Version 5.9
+- Fix speeds of goat
+- Add assumed armor bonuses for undead eidolons
+- Fix predicate in unseen eidolon
+- Change compendium permissions to allow players to see them.
 
-Version 2.0
-- Fiiiiiinnnne
-- Turns out it's more work to keep getting the github URL and explaining than just getting the dumb thing listed.
-- I still may close issues immediately out of spite.
-- Added all the other ampable spells while I'm at it, why not?
+Version 5.8
+- Add new companions from Lost Omens: Highhelm
+- Add missing companions from Pathfinder Treasure Vault
+- Fix undead eidolon intelligence score
+- Add compendium folders, banners, and a module preview image
 
-Version 1.0
-- The first and only version
--- No, seriously, I'm not even fixing bugs.
--- Issues will be closed with "Won't Fix" tags faster than you can say "but what about..."
+Version 5.7.1
+- Fix display of specialized companion ability scores
+- Fix damage on Spirit Touch ability
+
+Version 5.7
+- Add slugs to all compendium items to help other modules have stable references.
+- Fix label on Racer ChoiceSet
+- Update persistent damage inline links.
+- Fix evil damage of Demonic Strikes
+
+Version 5.6
+- Fix traits of companion strikes when taking specialized options
+- Fix errant actor trait on beast eidolon
+- Fix Zombie companion support benefit
+- Fix disable ABP flag on construct companion
+- Adds barding items and automates barding proficiency on animal companions.
+
+Version 5.5
+- Adds Water Wraith companion from Lost Omens: Impossible Lands
+- Adds item to adjust eidolon stats for Summoner Dedication in CC Evolution Feats
+
+Version 5.4.2
+- Fix acrobatics training for eidolons
+- Fix old REs preventing homebrew
+- Fix ability scores of tyrannosaurus
+
+Version 5.4.1
+- Fix undead eidolons crashing Foundry
+
+Version 5.4
+- Update module to v10 compatibility
+- Fix incorrect acrobatics and athletics training for animal companions
+- Fix default size of several companions
+- Add missing undead eidolon ability
+
+Version 5.3
+- Fix minor text errors
+- Update for CRB errata
+- Add companions from Zombie Feast
+- Add Unseen Companions
+
+Version 5.2
+- Remove errant rule element adding HP back to eidolons
+- Fix rule elements on Hallowed Strikes
+- Fix missing traits on Projectile Launcher
+
+Version 5.1
+- Add Undead companions from Book of the Dead
+- Add Megafauna companions from Quest for the Frozen Flame
+- Add missing Gibtas companion from Abomination Vaults
+- Add missing Towering Size evolution feat
+- Fix multiple mispellings
+- Fix an error causing specialized companions to not get all their ability boosts.
+- - This fix requires the ancestry be added to your companions again.
+
+Version 5.0.9
+- Roll back to 5.0.6 db files to fix circular item grants caused by export failure
+
+Version 5.0.8
+- Fix Dragon Eidolon
+
+Version 5.0.7
+- Migrate items for pf2e system version 3.7
+
+Version 5.0.6
+- Fix damage of Bird talon
+
+Version 5.0.5
+- Fix traits and rarities of several animal companions
+- Fix Construct companion's second strike
+- Move classes to the features compendium, these should not be added manually
+
+Version 5.0.4
+- Fix missing traits from several companion strikes
+
+Version 5.0
+- Adds support for Eidolons!
+- Rebuild Animal and Construct Companions from the ground up
+- Adds support for multiple specializations for Beastmaster
+- Adds support for Inventor construct modifications
+
+Version 4.5
+- Add missing Extinction Curse companion
+- Add Ulgrem-Lurann companion from Monsters of Myth
+- Auto add animal companion class when adding the ancestry
+- Remove no longer needed text from rule elements
+
+Version 4.4.6
+- Add thrown trait to throw rock strike
+- Add flag to indomitable companions to increase damage properly
+- Remove size change on mature companions to avoid wrong sizes for large companions
+
+Version 4.4.5
+- Ran PF2e migration to make the module compatible with 2.19.0
+
+Version 4.4.4
+- Added the missing construct companion option
+- Added the missing rule elements to construct companion
+- Changed the images for construct companions unarmed attack 2
+
+Version 4.4
+- I didn't forget that Grand Bazaar had 5 animal companions
+- I just didn't know
+- You're the forgetful one
+
+Version 4.3.2.1
+- Add Guns and Gears Inventor Construct Companions
+- Add Grand Bazaar Animal Companion
+- Fix base speeds of all animal companions with non land speeds
+- Automate resistance, weakness, and immunity traits for companions
+
+Version 4.0
+- Add Secrets of Magic animal companion and specialization
+
+Version 3.7.7.7
+- Correct base animal companion AC after system changes
+- Update version number to NumberA's favorite
+
+Version 3.1.4
+- Correct an error stemming from 2.12.2 system changes to class items
+- Actually update the changelog
+- Updated the version number to an arbitrary number not at all inspired by it being dinnertime
+
+Version 1.3
+- Fix icons after system png -> webp change
+
+Version 1.2
+
+- Active Effects have been added to auto-calculate animal companion ability scores and proficiencies
+-- See README.md on the github page for how to use this module and known issues
