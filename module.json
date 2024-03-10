@@ -1,187 +1,70 @@
 {
-  "title": "PF2e Companion Compendia",
-  "description": "Compendia containing everything you need to support PF2e companions",
-  "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
-  "version": "6.0",
-  "packs": [
-    {
-      "label": "Animal Companion Ancestries",
-      "name": "AC-Ancestries-and-Class",
-      "path": "packs/ac-ancestries-and-class",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "type": "Item",
-      "flags": {}
-    },
-    {
-      "label": "Animal Companion Feats",
-      "name": "AC-Feats",
-      "path": "packs/ac-feats",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "type": "Item",
-      "flags": {}
-    },
-    {
-      "label": "Advanced Maneuvers",
-      "name": "AC-Advanced-Maneuvers",
-      "path": "packs/ac-advanced-maneuvers",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "type": "Item",
-      "flags": {}
-    },
-    {
-      "label": "Equipment",
-      "name": "ac-equipment",
-      "path": "packs/ac-equipment",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "type": "Item",
-      "flags": {}
-    },
-    {
-      "label": "Features",
-      "name": "AC-Features",
-      "path": "packs/ac-features",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "type": "Item",
-      "flags": {}
-    },
-    {
-      "label": "Support Benefits",
-      "name": "AC-Support",
-      "path": "packs/ac-support-benefits",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "type": "Item",
-      "flags": {}
-    },
-    {
-      "label": "Construct Companions",
-      "name": "AC-Construct-Companions",
-      "path": "packs/ac-construct-companions",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "type": "Item",
-      "flags": {}
-    },
-    {
-      "label": "Construct Breakthroughs",
-      "name": "AC-Construct-Breakthroughs",
-      "path": "packs/ac-construct-breakthroughs",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "type": "Item",
-      "flags": {}
-    },
-    {
-      "label": "Eidolons",
-      "name": "AC-Eidolons",
-      "path": "packs/ac-eidolons",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "type": "Item",
-      "flags": {}
-    },
-    {
-      "label": "Evolution Feats",
-      "name": "AC-Evolution-Feats",
-      "path": "packs/ac-evolution-feats",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "type": "Item",
-      "flags": {}
-    }
-  ],
-  "packFolders": [
-    {
-        "name": "Companion Compendia",
-        "sorting": "m",
-        "packs": [
-          "AC-Ancestries-and-Class",
-          "AC-Feats",
-          "AC-Advanced-Maneuvers",
-          "ac-equipment",
-          "AC-Features",
-          "AC-Evolution-Feats",
-          "AC-Eidolons",
-          "AC-Construct-Breakthroughs",
-          "AC-Construct-Companions",
-          "AC-Support"
-        ]
-    }
-  ],
-  "media": [
-    {
-        "type": "setup",
-        "caption": "Pathfinder 2e Companion Compendia",
-        "thumbnail": "modules/pf2e-animal-companions/art/preview.webp"
-  }],
-  "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.json",
-  "download": "https://github.com/TikaelSol/PF2e-Animal-Companions/archive/refs/heads/main.zip",
-  "id": "pf2e-animal-companions",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
-        "compatibility": {
-          "minimum": "5.0.2"
-        }
-      }
-    ]
-  },
+  "id": "pf2e-psychic-amps",
+  "title": "PF2e Psychic Amps",
+  "description": "A collection of Psi and Amp spells for PF2e Psychics on Foundry VTT.",
   "authors": [
     {
       "name": "Tikael",
       "flags": {}
     }
-  ]
+  ],
+  "url": "https://github.com/TikaelSol/PF2e-Psychic-Amps",
+  "version": "2.0.4",
+  "compatibility": {
+    "minimum": "11.315",
+    "verified": "11.315"
+  },
+  "packs": [
+    {
+      "label": "Psychic Psi and Amped Cantrips",
+      "name": "psychic-psi-cantrips",
+      "path": "/packs/psychic-cantrips",
+      "system": "pf2e",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Psychic Amped Effects",
+      "name": "psychic-amped-effects",
+      "path": "/packs/effects",
+      "system": "pf2e",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Psychic Amps",
+      "sorting": "m",
+      "packs": [
+        "psychic-psi-cantrips",
+        "psychic-amped-effects"
+      ],
+      "folders": []
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.9"
+        }
+      }
+    ]
+  },
+  "scripts": [
+    "retired.mjs"
+  ],
+  "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Psychic-Amps/master/module.json",
+  "download": "https://github.com/TikaelSol/PF2e-Psychic-Amps/archive/refs/heads/main.zip"
 }
