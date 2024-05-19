@@ -1,3 +1,16 @@
+Version 6.2
+- Enable support for third party eidolons (Thanks Vauxs)
+- - **This update requires you to add your eidolon ancestry again.** No way around it other than me writing a migration for the module, which wouldn't be safe, sorry.
+- Add the Chetamog companion from Pactbreaker (Thanks Ambrose)
+- Fix several issues with eidolons:
+- - Eidolons now properly start trained in perception (Thanks Vauxs)
+- - Elemental eidolon is no longer actually a renamed dragon eidolon (Thanks Vauxs)
+- - Fixed Eidolon weapon specialization and greater weapon specialization, and just cleaned up the REs to make the damage dialog cleaner.
+- - The size change feats now properly increase reach.
+- Fix several issues with animal companions:
+- - Spirit Touch rule elements should now work properly, including the ghost touch effect
+- - Skeletal Mount now gives its support benefit properly
+
 Version 6.1
 - Apply remaster errata to angel and demon eidolons.
 - Include copy of Megaton Strike feat for construct companions
