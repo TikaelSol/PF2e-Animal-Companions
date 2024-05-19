@@ -1,14 +1,7 @@
-2024/05/19-11:22:46.110554 ffff957bc100 Recovering log #232
-2024/05/19-11:22:46.117853 ffff957bc100 Delete type=0 #232
-2024/05/19-11:22:46.117883 ffff957bc100 Delete type=3 #230
-2024/05/19-11:58:17.188625 fffe74bad100 Level-0 table #237: started
-2024/05/19-11:58:17.193151 fffe74bad100 Level-0 table #237: 117079 bytes OK
-2024/05/19-11:58:17.195594 fffe74bad100 Delete type=0 #235
-2024/05/19-11:58:17.201415 fffe74bad100 Manual compaction at level-0 from '!items!1YJoaMhZPvLGvj1J' @ 72057594037927935 : 1 .. '!items!zjIVbS6nGX6BS2UD' @ 0 : 0; will stop at '!items!zjIVbS6nGX6BS2UD' @ 90 : 1
-2024/05/19-11:58:17.201432 fffe74bad100 Compacting 1@0 + 1@1 files
-2024/05/19-11:58:17.205108 fffe74bad100 Generated table #238@0: 12 keys, 26891 bytes
-2024/05/19-11:58:17.205131 fffe74bad100 Compacted 1@0 + 1@1 files => 26891 bytes
-2024/05/19-11:58:17.207355 fffe74bad100 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/05/19-11:58:17.207449 fffe74bad100 Delete type=2 #237
-2024/05/19-11:58:17.207596 fffe74bad100 Delete type=2 #185
-2024/05/19-11:58:17.210296 fffe74bad100 Manual compaction at level-0 from '!items!zjIVbS6nGX6BS2UD' @ 90 : 1 .. '!items!zjIVbS6nGX6BS2UD' @ 0 : 0; will stop at (end)
+2024/05/19-11:59:52.942462 ffff957bc100 Recovering log #236
+2024/05/19-11:59:52.949565 ffff957bc100 Delete type=0 #236
+2024/05/19-11:59:52.949599 ffff957bc100 Delete type=3 #234
+2024/05/19-12:04:41.069080 fffe74bad100 Level-0 table #242: started
+2024/05/19-12:04:41.069098 fffe74bad100 Level-0 table #242: 0 bytes OK
+2024/05/19-12:04:41.072236 fffe74bad100 Delete type=0 #240
+2024/05/19-12:04:41.077898 fffe74bad100 Manual compaction at level-0 from '!items!1YJoaMhZPvLGvj1J' @ 72057594037927935 : 1 .. '!items!zjIVbS6nGX6BS2UD' @ 0 : 0; will stop at (end)
