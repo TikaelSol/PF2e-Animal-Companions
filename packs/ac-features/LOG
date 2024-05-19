@@ -1,14 +1,14 @@
-2024/05/19-11:59:52.903283 ffff957bc100 Recovering log #241
-2024/05/19-11:59:52.910157 ffff957bc100 Delete type=0 #241
-2024/05/19-11:59:52.910187 ffff957bc100 Delete type=3 #239
-2024/05/19-12:04:41.046461 fffe74bad100 Level-0 table #247: started
-2024/05/19-12:04:41.049613 fffe74bad100 Level-0 table #247: 3010 bytes OK
-2024/05/19-12:04:41.052035 fffe74bad100 Delete type=0 #245
-2024/05/19-12:04:41.055366 fffe74bad100 Manual compaction at level-0 from '!items!0i2ZSrRpjKG0KV4U' @ 72057594037927935 : 1 .. '!items!zF6bLjVwj7Njkqan' @ 0 : 0; will stop at '!items!xPn27nNxcLOByTXJ' @ 680 : 1
-2024/05/19-12:04:41.055376 fffe74bad100 Compacting 1@0 + 1@1 files
-2024/05/19-12:04:41.059935 fffe74bad100 Generated table #248@0: 116 keys, 94628 bytes
-2024/05/19-12:04:41.059959 fffe74bad100 Compacted 1@0 + 1@1 files => 94628 bytes
-2024/05/19-12:04:41.062537 fffe74bad100 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/05/19-12:04:41.062650 fffe74bad100 Delete type=2 #243
-2024/05/19-12:04:41.062878 fffe74bad100 Delete type=2 #247
-2024/05/19-12:04:41.068959 fffe74bad100 Manual compaction at level-0 from '!items!xPn27nNxcLOByTXJ' @ 680 : 1 .. '!items!zF6bLjVwj7Njkqan' @ 0 : 0; will stop at (end)
+2024/05/19-12:06:57.067320 ffff95fbd100 Recovering log #246
+2024/05/19-12:06:57.074866 ffff95fbd100 Delete type=0 #246
+2024/05/19-12:06:57.075049 ffff95fbd100 Delete type=3 #244
+2024/05/19-12:15:31.837786 fffe74bad100 Level-0 table #252: started
+2024/05/19-12:15:31.841808 fffe74bad100 Level-0 table #252: 105478 bytes OK
+2024/05/19-12:15:31.844128 fffe74bad100 Delete type=0 #250
+2024/05/19-12:15:31.844348 fffe74bad100 Manual compaction at level-0 from '!items!0i2ZSrRpjKG0KV4U' @ 72057594037927935 : 1 .. '!items!zF6bLjVwj7Njkqan' @ 0 : 0; will stop at '!items!I8ZJ99qzuGDEDbII' @ 682 : 1
+2024/05/19-12:15:31.844352 fffe74bad100 Compacting 1@0 + 1@1 files
+2024/05/19-12:15:31.849057 fffe74bad100 Generated table #253@0: 116 keys, 94836 bytes
+2024/05/19-12:15:31.849081 fffe74bad100 Compacted 1@0 + 1@1 files => 94836 bytes
+2024/05/19-12:15:31.851423 fffe74bad100 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/05/19-12:15:31.851524 fffe74bad100 Delete type=2 #248
+2024/05/19-12:15:31.851621 fffe74bad100 Delete type=2 #252
+2024/05/19-12:15:31.859939 fffe74bad100 Manual compaction at level-0 from '!items!I8ZJ99qzuGDEDbII' @ 682 : 1 .. '!items!zF6bLjVwj7Njkqan' @ 0 : 0; will stop at (end)
