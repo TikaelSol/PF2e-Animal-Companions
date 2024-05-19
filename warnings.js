@@ -17,7 +17,7 @@ Hooks.once("ready", async () => {
         if (game.user.getFlag("world", "eidolon-changes-to-be-read")) {
             new Dialog({
                 title: "Eidolon Changes",
-                content: "<p>With the release of 6.2, In order to support Summoners+ and other third party eidolons, we had to change how <b>Eidolon Abilities</b> are granted.</p><p>You need to update your Eidolon's ancestries. Simply drag and drop the same ancestry again onto your Eidolon sheet in order to update.</p>",
+                content: "<p>With the release of version 6.2, in order to support Summoners+ and other third party eidolons, we had to change how <b>Eidolon Abilities</b> are granted.</p><p>You need to update your Eidolon's ancestries. Simply drag and drop the same ancestry again onto your Eidolon sheet in order to update.</p>",
                 buttons: {
                     one: {
                         icon: '<i class="fas fa-check"></i>',
