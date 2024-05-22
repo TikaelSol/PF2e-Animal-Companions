@@ -1,8 +1,9 @@
 {
+  "id": "pf2e-animal-companions",
   "title": "PF2e Companion Compendia",
   "description": "Compendia containing everything you need to support PF2e companions",
   "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
-  "version": "6.1",
+  "version": "6.2",
   "packs": [
     {
       "label": "Animal Companion Ancestries",
@@ -137,31 +138,31 @@
   ],
   "packFolders": [
     {
-        "name": "Companion Compendia",
-        "sorting": "m",
-        "packs": [
-          "AC-Ancestries-and-Class",
-          "AC-Feats",
-          "AC-Advanced-Maneuvers",
-          "ac-equipment",
-          "AC-Features",
-          "AC-Evolution-Feats",
-          "AC-Eidolons",
-          "AC-Construct-Breakthroughs",
-          "AC-Construct-Companions",
-          "AC-Support"
-        ]
+      "name": "Companion Compendia",
+      "sorting": "m",
+      "packs": [
+        "AC-Ancestries-and-Class",
+        "AC-Feats",
+        "AC-Advanced-Maneuvers",
+        "ac-equipment",
+        "AC-Features",
+        "AC-Evolution-Feats",
+        "AC-Eidolons",
+        "AC-Construct-Breakthroughs",
+        "AC-Construct-Companions",
+        "AC-Support"
+      ]
     }
   ],
   "media": [
     {
-        "type": "setup",
-        "caption": "Pathfinder 2e Companion Compendia",
-        "thumbnail": "modules/pf2e-animal-companions/art/preview.webp"
-  }],
+      "type": "setup",
+      "caption": "Pathfinder 2e Companion Compendia",
+      "thumbnail": "modules/pf2e-animal-companions/art/preview.webp"
+    }
+  ],
   "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Animal-Companions/master/module.json",
   "download": "https://github.com/TikaelSol/PF2e-Animal-Companions/archive/refs/heads/main.zip",
-  "id": "pf2e-animal-companions",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -178,6 +179,9 @@
       }
     ]
   },
+  "esmodules": [
+    "warnings.js"
+  ],
   "authors": [
     {
       "name": "Tikael",
