@@ -1,0 +1,92 @@
+{
+  "_id": "U0J8J5ukmqnOskE8",
+  "name": "Cat Pounce",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 4200000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.U0J8J5ukmqnOskE8"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The cat Strides and then Strikes. If it was undetected at the start of its Cat Pounce, it remains undetected until after the attack.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "has-advanced-maneuver",
+        "priority": 1
+      }
+    ],
+    "slug": "cat-pounce",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.444-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "weapon": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.U0J8J5ukmqnOskE8",
+    "duplicateSource": null
+  },
+  "_key": "!items!U0J8J5ukmqnOskE8"
+}

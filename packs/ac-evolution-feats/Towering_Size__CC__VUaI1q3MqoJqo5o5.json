@@ -1,0 +1,94 @@
+{
+  "name": "Towering Size (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.ixIKF2LMmbFthI8Z"
+    }
+  },
+  "_id": "VUaI1q3MqoJqo5o5",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon becomes even bigger. It becomes Huge, instead of Large, and the reach on all its attacks increases to 15 feet.</p>"
+    },
+    "rules": [
+      {
+        "key": "CreatureSize",
+        "value": "huge",
+        "reach": {
+          "override": 15
+        }
+      }
+    ],
+    "slug": "towering-size",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Hulking Size"
+        }
+      ]
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:58.655-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.ixIKF2LMmbFthI8Z",
+    "duplicateSource": null
+  },
+  "_key": "!items!VUaI1q3MqoJqo5o5"
+}

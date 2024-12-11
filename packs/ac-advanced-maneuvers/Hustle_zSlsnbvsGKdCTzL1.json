@@ -1,0 +1,77 @@
+{
+  "name": "Hustle",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 7300000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.VJDtqINNuKBqW7Hs"
+    }
+  },
+  "_id": "zSlsnbvsGKdCTzL1",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The beetle moves at incredible speed. It Strides three times.</p>"
+    },
+    "rules": [],
+    "slug": "hustle",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.413-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.VJDtqINNuKBqW7Hs",
+    "duplicateSource": null
+  },
+  "_key": "!items!zSlsnbvsGKdCTzL1"
+}

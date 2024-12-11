@@ -1,0 +1,77 @@
+{
+  "_id": "bEkXle5FLNxnp3IE",
+  "name": "Undead Bird of Prey Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5600000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.bEkXle5FLNxnp3IE"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The bird flaps around and throws your foe off balance. Until the start of your next turn, when you damage a creature in the bird's reach with a Strike, that creature becomes @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 1} until the end of your next turn.</p>"
+    },
+    "rules": [],
+    "slug": "undead-bird-of-prey-support-benefit",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #181: Zombie Feast"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:03.602-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.bEkXle5FLNxnp3IE",
+    "duplicateSource": null
+  },
+  "_key": "!items!bEkXle5FLNxnp3IE"
+}

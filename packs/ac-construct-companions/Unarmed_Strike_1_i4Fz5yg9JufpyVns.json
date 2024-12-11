@@ -1,0 +1,96 @@
+{
+  "_id": "i4Fz5yg9JufpyVns",
+  "name": "Unarmed Strike 1",
+  "type": "feat",
+  "img": "systems/pf2e/icons/unarmed-attacks/fist-earth-elemental.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 600000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.r0BretFLl3eDhEUg"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Rename this feat to rename the strike created by it, the image of this feat can also be adjusted to the image you want for the strike.</p>"
+    },
+    "rules": [
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": "unarmed-strike-1",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:51.980-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.r0BretFLl3eDhEUg",
+    "duplicateSource": null
+  },
+  "_key": "!items!i4Fz5yg9JufpyVns"
+}

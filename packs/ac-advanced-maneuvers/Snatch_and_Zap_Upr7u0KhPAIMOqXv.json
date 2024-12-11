@@ -1,0 +1,84 @@
+{
+  "_id": "Upr7u0KhPAIMOqXv",
+  "name": "Snatch and Zap",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 4300000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.6tNMgEQAqjMgD3WY"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Ulgrem-Lurann bites down hard and unleashes an electrical discharge. It makes a jaws Strike. If the Strike hits, the target creature automatically becomes @Compendium[pf2e.conditionitems.Grabbed]{Grabbed} by the Ulgrem-Lurann and takes [[/r 1d4[electricity]]] damage ([[/r 2d4[electricity]]] for a mature Ulgrem-Lurann or [[/r 3d4[electricity]]] for a specialized companion). The grabbed condition lasts until the end of your next turn, though the Ulgrem-Lurann can use @Compendium[pf2e.actionspf2e.Grapple]{Grapple} to attempt to extend the duration as normal.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "has-advanced-maneuver",
+        "priority": 1
+      }
+    ],
+    "slug": "snatch-and-zap",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.443-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.6tNMgEQAqjMgD3WY",
+    "duplicateSource": null
+  },
+  "_key": "!items!Upr7u0KhPAIMOqXv"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "HiVt4B5bE2hi0FWc",
+  "name": "Draconic Frenzy",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.HiVt4B5bE2hi0FWc"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon makes one Strike with their primary unarmed attack and two Strikes with their secondary unarmed attack (in any order). If any of these attacks critically hits an enemy, your eidolon instantly recovers the use of their Breath Weapon.</p>"
+    },
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "rules": [],
+    "slug": "draconic-frenzy",
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.226-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "traits": {
+      "value": [
+        "eidolon"
+      ],
+      "rarity": "common"
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.HiVt4B5bE2hi0FWc",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 3100000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!HiVt4B5bE2hi0FWc"
+}

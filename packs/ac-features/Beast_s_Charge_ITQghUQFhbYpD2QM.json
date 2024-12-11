@@ -1,0 +1,84 @@
+{
+  "_id": "ITQghUQFhbYpD2QM",
+  "name": "Beast's Charge",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.ITQghUQFhbYpD2QM"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon rushes forward, using its momentum to increase the power of its attack. Your eidolon Strides twice and then Strikes. If the eidolon moved at least 20 feet away from its starting position and moved entirely in a straight line, it gains a +1 circumstance bonus to this attack roll.</p>"
+    },
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "attack-roll",
+        "option": "beastsCharge",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "beastsCharge"
+        ]
+      }
+    ],
+    "slug": "beasts-charge",
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.225-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "traits": {
+      "value": [
+        "eidolon"
+      ],
+      "rarity": "common"
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.ITQghUQFhbYpD2QM",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 3400000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!ITQghUQFhbYpD2QM"
+}

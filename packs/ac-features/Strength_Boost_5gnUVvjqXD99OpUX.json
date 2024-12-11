@@ -1,0 +1,100 @@
+{
+  "_id": "5gnUVvjqXD99OpUX",
+  "name": "Strength Boost",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/enduring-might.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.DNpa1GdDXz8L4Fra"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": {
+          "brackets": [
+            {
+              "end": 3,
+              "start": -4,
+              "value": 1
+            },
+            {
+              "start": 4,
+              "value": 0.5
+            }
+          ],
+          "field": "actor|system.abilities.str.mod"
+        },
+        "mode": "add",
+        "path": "system.abilities.str.mod",
+        "priority": 50
+      }
+    ],
+    "slug": "strength-boost",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.240-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.DNpa1GdDXz8L4Fra",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!5gnUVvjqXD99OpUX"
+}

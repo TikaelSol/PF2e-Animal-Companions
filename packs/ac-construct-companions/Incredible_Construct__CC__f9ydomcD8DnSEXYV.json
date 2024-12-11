@@ -1,0 +1,134 @@
+{
+  "_id": "f9ydomcD8DnSEXYV",
+  "name": "Incredible Construct (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 500000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.pSbtGxTCyS32FZrY"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>To improve an advanced construct companion to an incredible construct companion, make the following adjustments.</p>\n<ul>\n<li>Increase its Strength, Dexterity, Constitution and Wisdom modifiers by 2.</li>\n<li>It deals 2 additional damage with its unarmed attacks. Its attacks become magical, allowing it to bypass resistances to non-magical attacks.</li>\n<li>Increase its proficiency ranks in Athletics and Acrobatics to expert.\n<p> </p>\n</li>\n</ul>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": 2,
+        "predicate": [
+          "unarmed"
+        ],
+        "label": "Incredible Construct",
+        "roll-options": [
+          "all"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.skills.acr.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.skills.ath.rank"
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "magical"
+      }
+    ],
+    "slug": "incredible-construct",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:51.981-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.pSbtGxTCyS32FZrY",
+    "duplicateSource": null
+  },
+  "_key": "!items!f9ydomcD8DnSEXYV"
+}

@@ -1,0 +1,95 @@
+{
+  "_id": "o3P8heIfNr1z53Ay",
+  "name": "Demonic Strikes",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/all-is-one-one-is-all.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.jSDsKX3BOHhvtgsD"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon's attacks are corrupted by the Abyss and imbued with pure evil and shifting chaos. Your eidolon's unarmed Strikes gain the unholy trait and deal 1 extra spirit damage to holy creatures and creatures with weakness to unholy. Additionally, choose one of your eidolon's unarmed attacks that deals physical damage; it gains the versatile trait for a different type of physical damage you choose.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          "target:trait:holy"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "traits",
+        "value": "unholy"
+      }
+    ],
+    "slug": "demonic-strikes",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.095-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.jSDsKX3BOHhvtgsD",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 9100000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!o3P8heIfNr1z53Ay"
+}

@@ -1,0 +1,154 @@
+{
+  "_id": "fvGz8fdP3iW8IBda",
+  "name": "Psychopomp Eidolon",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 900000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.QlhL9vPXzjhkYd8W"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon is a psychopomp, a creature whose sworn duty is to usher souls safely to the afterlife and maintain the courts of the dead. Psychopomp eidolons have a variety of appearances, but since they often traffic with mortals, their form typically includes an elaborate mask. You and your psychopomp eidolon share an important fate together, whether it relates directly to your own soul or to a mission that will somehow protect the souls of others.</p>\n<p><strong>Tradition</strong> divine</p>\n<p><strong>Traits</strong> eidolon, monitor, psychopomp</p>\n<p><strong>Alignment</strong> must be true neutral</p>\n<p><strong>Home Plane</strong> The Boneyard</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Suggested Attacks</strong> beak (piercing), claw (slashing), fist (bludgeoning), jaws (piercing), unarmed attacks shaped like a weapon</p>\n<p><strong>Soul Guardian</strong> Str 18, Dex 14, Con 16, Int 10, Wis 12, Cha 8; +2 AC (+3 Dex cap)</p>\n<p><strong>Scribe of the Dead</strong> Str 12, Dex 18, Con 12, Int 14, Wis 12, Cha 10; +1 AC (+4 Dex cap)</p>\n<p><strong>Skills</strong> Intimidation, Religion</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Language</strong> Requian</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.AC-Features.gyI9aHjkO84BQ3tR]{spirit touch}; Symbiosis @UUID[Compendium.pf2e-animal-companions.AC-Features.qFYR3I9XcjBZckUf]{hidden watcher}; Transcendence @UUID[Compendium.pf2e-animal-companions.AC-Features.rFuzSio2a1VOd2Ch]{spirit taker}</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.YkevbtGldcm34DlT"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.VXlVUNQjQls2ubwX"
+          }
+        ],
+        "flag": "eidolonType",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.eidolonType}",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.itm.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.rel.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.xPn27nNxcLOByTXJ",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.eidolon-features",
+        "value": {
+          "initial": "Compendium.pf2e-animal-companions.AC-Features.gyI9aHjkO84BQ3tR",
+          "symbiosis": "Compendium.pf2e-animal-companions.AC-Features.qFYR3I9XcjBZckUf",
+          "transcendence": "Compendium.pf2e-animal-companions.AC-Features.rFuzSio2a1VOd2Ch"
+        }
+      }
+    ],
+    "slug": "psychopomp-eidolon",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eidolon",
+        "monitor",
+        "psychopomp"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 0,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "requian"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "dvkxn": {
+        "img": "systems/pf2e/icons/features/classes/eidolon.webp",
+        "name": "Eidolon Ability",
+        "level": 1,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.5E71mdImeRE9Fh1D"
+      }
+    },
+    "vision": "darkvision",
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:53.837-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.QlhL9vPXzjhkYd8W",
+    "duplicateSource": null
+  },
+  "_key": "!items!fvGz8fdP3iW8IBda"
+}

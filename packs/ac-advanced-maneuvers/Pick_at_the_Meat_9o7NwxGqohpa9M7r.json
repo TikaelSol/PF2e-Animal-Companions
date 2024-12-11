@@ -1,0 +1,77 @@
+{
+  "_id": "9o7NwxGqohpa9M7r",
+  "name": "Pick at the Meat",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 2200000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.9o7NwxGqohpa9M7r"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> The animal companion's last action was a successful jaws Strike.</p>\n<hr />\n<p>Your bird picks at the wound it just created. The target of its jaws Strike takes [[/r 1d8[persistent,bleed]]], or [[/r 2d8[persistent,bleed]]] if the bird is specialized.</p>"
+    },
+    "rules": [],
+    "slug": "pick-at-the-meat",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #181: Zombie Feast"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.462-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.9o7NwxGqohpa9M7r",
+    "duplicateSource": null
+  },
+  "_key": "!items!9o7NwxGqohpa9M7r"
+}

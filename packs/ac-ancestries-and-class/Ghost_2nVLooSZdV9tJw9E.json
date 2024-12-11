@@ -1,0 +1,225 @@
+{
+  "_id": "2nVLooSZdV9tJw9E",
+  "name": "Ghost",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 400000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.2nVLooSZdV9tJw9E"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is a ghost, bound to an item in your possession. Due to this bond, your ghost companion can move beyond the area of a single dwelling, but it's easier to disrupt than most incorporeal creatures. A ghost companion can be formed from a humanoid, animal, or other creature. The ghost isn't sapient and is unable to speak with the living.</p>\n<p><strong>Size</strong> Small or Medium</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> ghostly touch (finesse, magical), <strong>Damage</strong> 1d8 negative (doesn't apply the ghost's Strength modifier)</p>\n<p><strong>Str</strong> -5, <strong>Dex</strong> +3, <strong>Con</strong> +0, <strong>Int</strong> -4, <strong>Wis</strong> +1, <strong>Cha</strong> +2</p>\n<p><strong>Hit Points</strong> 4</p>\n<p><strong>Skill</strong> Stealth</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Speed</strong> fly 20 feet</p>\n<p><strong>Special</strong> @Compendium[pf2e-animal-companions.AC-Features.BjE6osOFlAishRbh]{Anchored Incorporeality}</p>\n<p><strong>Support Benefit</strong> Your ghost spooks and scares your foes as you attack them. Until the start of your next turn, if you hit and deal damage to a creature in your ghost's reach, the creature becomes @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.NMaMTiDB40L5O41S]{Telekinetic Assault}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": -5,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.cha.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.ste.rank"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "negative",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/spells/diamond-dust.webp",
+        "key": "Strike",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "magical",
+          "finesse"
+        ],
+        "label": "Ghostly Touch"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:ancestry:ghost",
+        "priority": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.4kkcfQdHAb4YTVNw"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": "-1*@actor.abilities.str.mod"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 20
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.movement.flying",
+        "value": true,
+        "priority": 10
+      },
+      {
+        "key": "Immunity",
+        "type": "death-effects"
+      },
+      {
+        "key": "Immunity",
+        "type": "disease"
+      },
+      {
+        "key": "Immunity",
+        "type": "poison"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "value": "sm"
+          }
+        ],
+        "flag": "companionSize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.traits.size.value",
+        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+      }
+    ],
+    "slug": "ghost",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "undead"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 4,
+    "size": "med",
+    "reach": 5,
+    "speed": 0,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "ru3kw": {
+        "img": "systems/pf2e/icons/spells/adapt-self.webp",
+        "name": "Anchored Incorporeality",
+        "level": 0,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.BjE6osOFlAishRbh"
+      },
+      "a33mo": {
+        "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+        "name": "Negative Healing",
+        "level": 0,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.3mUx8vXEQkiIuBcR"
+      }
+    },
+    "vision": "darkvision",
+    "source": {
+      "value": "Pathfinder Book of the Dead"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:44.760-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.2nVLooSZdV9tJw9E",
+    "duplicateSource": null
+  },
+  "_key": "!items!2nVLooSZdV9tJw9E"
+}

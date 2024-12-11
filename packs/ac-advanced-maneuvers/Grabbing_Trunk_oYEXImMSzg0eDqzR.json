@@ -1,0 +1,77 @@
+{
+  "_id": "oYEXImMSzg0eDqzR",
+  "name": "Grabbing Trunk",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 6100000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.oYEXImMSzg0eDqzR"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The elephant grabs its foe with its trunk and carries it off. The elephant uses Athletics to @Compendium[pf2e.actionspf2e.Grapple]{Grapple} a creature up to two sizes smaller than the elephant in its trunk. If its target is @Compendium[pf2e.conditionitems.Grabbed]{Grabbed} or @Compendium[pf2e.conditionitems.Restrained]{Restrained}, the elephant repositions the target to another space in the elephant's reach.</p>"
+    },
+    "rules": [],
+    "slug": "grabbing-trunk",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #177: Burning Tundra"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.429-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.oYEXImMSzg0eDqzR",
+    "duplicateSource": null
+  },
+  "_key": "!items!oYEXImMSzg0eDqzR"
+}

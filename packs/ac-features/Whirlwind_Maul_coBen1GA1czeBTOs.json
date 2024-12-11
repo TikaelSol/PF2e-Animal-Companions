@@ -1,0 +1,84 @@
+{
+  "name": "Whirlwind Maul",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/whirlwind.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.0c7E7Hc86apMDLJj"
+    }
+  },
+  "_id": "coBen1GA1czeBTOs",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon thrashes violently, damaging many foes in its reach. It gains the @Compendium[pf2e-animal-companions.AC-Features.W4VCL85CO77MYkQH]{Whirlwind Maul} activity.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.W4VCL85CO77MYkQH"
+      }
+    ],
+    "slug": "whirlwind-maul",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.102-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.0c7E7Hc86apMDLJj",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 7100000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!coBen1GA1czeBTOs"
+}

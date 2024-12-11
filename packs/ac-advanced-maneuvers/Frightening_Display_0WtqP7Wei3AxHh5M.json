@@ -1,0 +1,92 @@
+{
+  "_id": "0WtqP7Wei3AxHh5M",
+  "name": "Frightening Display",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 1700000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.0WtqP7Wei3AxHh5M"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your ape makes a loud and frightening display, throwing a foe off balance. The ape attempts to @Compendium[pf2e.action-macros.nEwqNNWX6scLt4sc]{Demoralize: Intimidation} the target creature; this display gains the visual trait and doesn't require language. While frightened by this ability, the target is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} to your ape.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "has-advanced-maneuver",
+        "priority": 1
+      }
+    ],
+    "slug": "frightening-display",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "visual"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.464-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "weapon": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.0WtqP7Wei3AxHh5M",
+    "duplicateSource": null
+  },
+  "_key": "!items!0WtqP7Wei3AxHh5M"
+}

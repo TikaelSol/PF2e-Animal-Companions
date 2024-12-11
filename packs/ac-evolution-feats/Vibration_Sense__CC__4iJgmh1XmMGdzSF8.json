@@ -1,0 +1,115 @@
+{
+  "_id": "4iJgmh1XmMGdzSF8",
+  "name": "Vibration Sense (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.TgYs2m9scSyEJwdr"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon gains @Compendium[pf2e.bestiary-ability-glossary-srd.j2wsK6IsW5yMW1jW]{Tremorsense} as an imprecise sense with a range of 30 feet. If aquatic, it gains @Compendium[pf2e.bestiary-ability-glossary-srd.VdSMQ6yRZ3YXNXHL]{Wavesense} as an imprecise sense with a range of 30 feet instead. If amphibious, it gains both.</p>"
+    },
+    "rules": [
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "tremorsense",
+        "predicate": [
+          {
+            "or": [
+              "self:trait:amphibious",
+              {
+                "not": "self:trait:aquatic"
+              }
+            ]
+          }
+        ],
+        "force": false,
+        "label": "PF2E.SensesTremorsense"
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "wavesense",
+        "predicate": [
+          {
+            "or": [
+              "self:trait:amphibious",
+              "self:trait:aquatic"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "vibration-sense",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:58.661-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.TgYs2m9scSyEJwdr",
+    "duplicateSource": null
+  },
+  "_key": "!items!4iJgmh1XmMGdzSF8"
+}

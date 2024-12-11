@@ -1,0 +1,153 @@
+{
+  "_id": "BMq4ZwfyZ4dbjjRR",
+  "name": "Djinni-Touched Animal Companion",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/punishing-winds.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.h262IUT47dLqZLFZ"
+    },
+    "exportSource": {
+      "world": "ac",
+      "system": "pf2e",
+      "coreVersion": "0.8.8",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>If you take a feat that would normally allow you to choose to have a savage or nimble animal companion, you can instead choose to for it to become a genie-touched companion. When you choose the feat, select the type of genie whose power infuses your companion. The genies and their elemental traits are as follows: djinni (air), efreeti (fire), marid (water), or shaitan (earth). A genie-touched companion increases its Wisdom modifier by 2 and its Strength, Dexterity, and Constitution modifiers by 1. It deals 3 additional damage with its unarmed attacks; this damage is fire damage for an efreet-touched companion or of the same type as the unarmed attack for the others. It gains resistance 5 to damage of a type depending on the genie: acid for djinni, fire for efreeti or marid, and electricity for shaitan. If the companion is djinni-touched or efreeti-touched, increase its proficiency rank in Acrobatics to expert; if it is marid-touched or shaitan-touched, increase its proficiency rank in Athletics to expert. It also learns the advanced maneuver for its type. Its attacks count as magical for the purpose of ignoring resistances and gain the genie's elemental trait.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.skills.acr.rank"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:genie-touched",
+        "priority": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.custom.modifiers.additionalDamage",
+        "priority": 49
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": "@actor.system.custom.modifiers.additionalDamage"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB"
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "magical"
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "air"
+      }
+    ],
+    "slug": "djinni-touched-animal-companion",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:47.352-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "vD7HMkL8eJh8gXaP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.h262IUT47dLqZLFZ",
+    "duplicateSource": null
+  },
+  "_key": "!items!BMq4ZwfyZ4dbjjRR"
+}

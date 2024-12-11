@@ -1,0 +1,77 @@
+{
+  "_id": "r7QN2lUVWXlcynMW",
+  "name": "Elephant Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 6800000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.r7QN2lUVWXlcynMW"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your elephant trumpets noisily and menaces your enemy. The first creature within your elephant's reach that you hit and deal damage to before the start of your next turn has difficulty hearing as its ears ring from the noise, taking a -4 status penalty to purely auditory Perception checks until the end of your next turn.</p>"
+    },
+    "rules": [],
+    "slug": "elephant-support-benefit",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #177: Burning Tundra"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:03.597-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.r7QN2lUVWXlcynMW",
+    "duplicateSource": null
+  },
+  "_key": "!items!r7QN2lUVWXlcynMW"
+}

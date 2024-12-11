@@ -1,0 +1,172 @@
+{
+  "_id": "1YJoaMhZPvLGvj1J",
+  "name": "Devotion Phantom Eidolon",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.QlhL9vPXzjhkYd8W"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon is a lost soul, unable to escape the mortal world due to a strong sense of duty, an undying devotion, or a need to complete an important task. Most phantom eidolons are humanoid with a spectral or ectoplasmic appearance, though some take far stranger forms. Your link with your eidolon prevents them from succumbing to corruption and undeath, and together, you will grow in strength and fulfill your phantom's devotion.</p>\n<p><strong>Tradition</strong> occult</p>\n<p><strong>Traits</strong> eidolon, ethereal, phantom</p>\n<p><strong>Home Plane</strong> Ethereal Plane</p>\n<p><strong>Size</strong> Medium or Small</p>\n<p><strong>Suggested Attacks</strong> fist (bludgeoning), tendril (bludgeoning), unarmed attacks shaped like a weapon</p>\n<p><strong>Stalwart Guardian</strong> Str 18, Dex 14, Con 16, Int 10, Wis 10, Cha 10; +2 AC (+3 Dex cap)</p>\n<p><strong>Swift Protector</strong> Str 14, Dex 18, Con 16, Int 10, Wis 10, Cha 10; +1 AC (+4 Dex cap)</p>\n<p><strong>Skills</strong> Medicine, Occultism</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Language</strong> one common mortal language the eidolon spoke in life</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.V5bcYgKbJTHdOBHI]{dutiful retaliation}; Symbiosis @UUID[Compendium.pf2e-animal-companions.AC-Features.N47g9LDkOdZZdgup]{steadfast devotion}; Transcendence @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.oOBWRXPtYIXWp5Sm]{devotion aura}</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.WRWGcHidHQz4ef2W"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.TDWe85aZadixqmRU"
+          }
+        ],
+        "flag": "eidolonType",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.eidolonType}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.med.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.occ.rank",
+        "value": 1
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "value": "sm"
+          }
+        ],
+        "flag": "companionSize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.traits.size.value",
+        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.xPn27nNxcLOByTXJ"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.eidolon-features",
+        "value": {
+          "initial": "Compendium.pf2e-animal-companions.AC-Features.Item.V5bcYgKbJTHdOBHI",
+          "symbiosis": "Compendium.pf2e-animal-companions.AC-Features.N47g9LDkOdZZdgup",
+          "transcendence": "Compendium.pf2e-animal-companions.AC-Features.oOBWRXPtYIXWp5Sm"
+        }
+      }
+    ],
+    "slug": "devotion-phantom-eidolon",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eidolon",
+        "ethereal",
+        "phantom"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 0,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "tww0l": {
+        "img": "systems/pf2e/icons/features/classes/eidolon.webp",
+        "name": "Eidolon Ability",
+        "level": 1,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.5E71mdImeRE9Fh1D"
+      }
+    },
+    "vision": "darkvision",
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:53.837-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.QlhL9vPXzjhkYd8W",
+    "duplicateSource": null
+  },
+  "_key": "!items!1YJoaMhZPvLGvj1J"
+}

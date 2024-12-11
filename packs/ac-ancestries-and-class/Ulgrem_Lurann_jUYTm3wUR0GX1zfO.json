@@ -1,0 +1,201 @@
+{
+  "_id": "jUYTm3wUR0GX1zfO",
+  "name": "Ulgrem-Lurann",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 4200000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.vbBkKVl9tgnVasFU"
+    },
+    "exportSource": {
+      "world": "ac",
+      "system": "pf2e",
+      "coreVersion": "0.8.8",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is one of the few surviving members of a formerly lost species, hatched from the last clutch of Ulgrem-Axaan. As it's so young, its intelligence hasn't developed yet, but some day, it will become a highly intelligent creature. An Ulgrem-Lurann has the beast trait instead of the animal trait but otherwise functions normally as an animal companion.</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Melee</strong> <span class=\"\\&quot;pf2-icon\\&quot;\">1</span> jaws, <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Melee</strong> <span class=\"\\&quot;pf2-icon\\&quot;\">1</span> tail, <strong>Damage</strong> 1d6 bludgeoning</p>\n<p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> -4, <strong>Wis</strong> 0, <strong>Cha</strong> +1</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Skill</strong> Intimidation</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Speed</strong> 20 feet, swim 25 feet</p>\n<p><strong>Special</strong> The Ulgrem-Lurann has the amphibious trait.</p>\n<p><strong>Support Benefit</strong> The Ulgrem-Lurann grabs at your foe and zaps it. Until the start of your next turn, each time you hit a creature in the Ulgrem-Lurann's reach with a Strike, the creature takes an additional [[/r 1d4[piercing]]] damage and [[/r 1d4[electricity]]] damage from the Ulgrem-Lurann. If the Ulgrem-Lurann is nimble or savage, the piercing damage and electricity damage each increase to [[/r 2d4]]{2d4}.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.Upr7u0KhPAIMOqXv]{Snatch and Zap}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.itm.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.cha.mod"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Tail",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/tail.webp"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.jaws",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": "25"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:ancestry:ulgrem-lurann",
+        "priority": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.uZLtEOimbFnEDUKh"
+      }
+    ],
+    "slug": "ulgrem-lurann",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "amphibious",
+        "animal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 6,
+    "size": "med",
+    "reach": 5,
+    "speed": 20,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision",
+    "source": {
+      "value": "Pathfinder Lost Omens: Monsters of Myth"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:44.542-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "rDxs69lNqIFN75Bl": 3,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.vbBkKVl9tgnVasFU",
+    "duplicateSource": null
+  },
+  "_key": "!items!jUYTm3wUR0GX1zfO"
+}

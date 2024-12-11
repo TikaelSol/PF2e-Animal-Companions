@@ -1,0 +1,224 @@
+{
+  "_id": "iRlcl9MOhoEL943l",
+  "name": "Eidolon Ability Boosts (10th)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/devour-life.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.YJMXRVKBk4uEOFeV"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.5gnUVvjqXD99OpUX"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.nhFkOYRdlT5iLzdQ"
+          },
+          {
+            "label": "PF2E.AbilityCon",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.RQd8FPcVP3hrVXCr"
+          },
+          {
+            "label": "PF2E.AbilityInt",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.RvCQCutoKANEqw5C"
+          },
+          {
+            "label": "PF2E.AbilityWis",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.At61D9oWr39Ss6Ea"
+          },
+          {
+            "label": "PF2E.AbilityCha",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.qhUxX4BhaZc0griR"
+          }
+        ],
+        "flag": "abilityBoostOne",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.AbilityBoost"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.abilityBoostOne}"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.5gnUVvjqXD99OpUX"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.nhFkOYRdlT5iLzdQ"
+          },
+          {
+            "label": "PF2E.AbilityCon",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.RQd8FPcVP3hrVXCr"
+          },
+          {
+            "label": "PF2E.AbilityInt",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.RvCQCutoKANEqw5C"
+          },
+          {
+            "label": "PF2E.AbilityWis",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.At61D9oWr39Ss6Ea"
+          },
+          {
+            "label": "PF2E.AbilityCha",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.qhUxX4BhaZc0griR"
+          }
+        ],
+        "flag": "abilityBoostTwo",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.AbilityBoost"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.abilityBoostTwo}"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.5gnUVvjqXD99OpUX"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.nhFkOYRdlT5iLzdQ"
+          },
+          {
+            "label": "PF2E.AbilityCon",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.RQd8FPcVP3hrVXCr"
+          },
+          {
+            "label": "PF2E.AbilityInt",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.RvCQCutoKANEqw5C"
+          },
+          {
+            "label": "PF2E.AbilityWis",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.At61D9oWr39Ss6Ea"
+          },
+          {
+            "label": "PF2E.AbilityCha",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.qhUxX4BhaZc0griR"
+          }
+        ],
+        "flag": "abilityBoostThree",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.AbilityBoost"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.abilityBoostThree}"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.5gnUVvjqXD99OpUX"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.nhFkOYRdlT5iLzdQ"
+          },
+          {
+            "label": "PF2E.AbilityCon",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.RQd8FPcVP3hrVXCr"
+          },
+          {
+            "label": "PF2E.AbilityInt",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.RvCQCutoKANEqw5C"
+          },
+          {
+            "label": "PF2E.AbilityWis",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.At61D9oWr39Ss6Ea"
+          },
+          {
+            "label": "PF2E.AbilityCha",
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.qhUxX4BhaZc0griR"
+          }
+        ],
+        "flag": "abilityBoostFour",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.AbilityBoost"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.abilityBoostFour}"
+      }
+    ],
+    "slug": "eidolon-ability-boosts-10th",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.098-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.YJMXRVKBk4uEOFeV",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 8200000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!iRlcl9MOhoEL943l"
+}

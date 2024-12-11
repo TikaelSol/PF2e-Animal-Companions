@@ -1,0 +1,161 @@
+{
+  "_id": "eh6Kd7ozEyeRgd3l",
+  "name": "Ranged Combatant (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.oVSlTmdmho8ZQo2k"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Spines, flame jets, and holy blasts are just some of the ways your eidolon might strike from a distance. It gains a ranged unarmed attack with a range increment of 30 feet that deals 1d4 damage and has the magical and propulsive traits.</p>\n<p>When you select this feat, choose a damage type: acid, bludgeoning, cold, electricity, fire, negative, piercing, positive, or slashing. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can choose a damage type in its alignment.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitPositive",
+            "value": "positive"
+          },
+          {
+            "label": "PF2E.TraitNegative",
+            "value": "negative"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing"
+          },
+          {
+            "label": "PF2E.TraitLawful",
+            "value": "lawful"
+          },
+          {
+            "label": "PF2E.TraitChaotic",
+            "value": "chaotic"
+          },
+          {
+            "label": "PF2E.TraitGood",
+            "value": "good"
+          },
+          {
+            "label": "PF2E.TraitEvil",
+            "value": "evil"
+          }
+        ],
+        "flag": "damageChoice",
+        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt",
+        "key": "ChoiceSet"
+      },
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "{item|flags.pf2e.rulesSelections.damageChoice}",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "range": 30,
+        "img": "systems/pf2e/icons/spells/zenith-star.webp",
+        "traits": [
+          "magical",
+          "propulsive",
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": "ranged-combatant",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:58.653-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.oVSlTmdmho8ZQo2k",
+    "duplicateSource": null
+  },
+  "_key": "!items!eh6Kd7ozEyeRgd3l"
+}

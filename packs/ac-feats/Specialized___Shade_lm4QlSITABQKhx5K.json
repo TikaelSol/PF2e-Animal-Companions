@@ -1,0 +1,179 @@
+{
+  "_id": "lm4QlSITABQKhx5K",
+  "name": "Specialized - Shade",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/aerial-form.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.lm4QlSITABQKhx5K"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Specialized animal companions are more intelligent and engage in more complex behaviors. The first time an animal gains a specialization, it gains the following: Its proficiency rank for unarmed attacks increases to expert. Its proficiency ranks for saving throws and Perception increase to master. Increase its Dexterity modifier by 1 and its Intelligence modifier by 2. Its unarmed attack damage increases from two dice to three dice, and it increases its additional damage with unarmed attacks from 2 to 4 or from 3 to 6.</p>\n<p>Your companion's physical form is made, in whole or in part, of shadow. It gains darkvision, resistance 5 to all damage except force, and in areas of dim light or darkness, it can Step 10 feet instead of 5 feet. Its proficiency rank in unarmored defense increases to expert.</p>"
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "label": "PF2E.SensesDarkvision",
+        "selector": "darkvision"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.martial.unarmed.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.saves.fortitude.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.saves.reflex.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.saves.will.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.attributes.perception.rank"
+      },
+      {
+        "key": "Striking",
+        "predicate": [
+          "unarmed"
+        ],
+        "selector": "strike-damage",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 6,
+        "mode": "upgrade",
+        "path": "system.custom.modifiers.additionalDamage",
+        "priority": 50,
+        "predicate": [
+          {
+            "or": [
+              "self:savage",
+              "self:genie-touched",
+              "self:indomitable",
+              "self:unseen"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "upgrade",
+        "path": "system.custom.modifiers.additionalDamage",
+        "priority": 50,
+        "predicate": [
+          "self:nimble"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:specialized",
+        "priority": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.martial.unarmored.rank"
+      },
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "value": 5,
+        "exceptions": [
+          "force"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB",
+        "predicate": [
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ]
+      }
+    ],
+    "slug": "specialized-shade",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:47.344-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "vD7HMkL8eJh8gXaP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.lm4QlSITABQKhx5K",
+    "duplicateSource": null
+  },
+  "_key": "!items!lm4QlSITABQKhx5K"
+}

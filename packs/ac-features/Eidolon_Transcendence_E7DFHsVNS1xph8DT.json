@@ -1,0 +1,123 @@
+{
+  "_id": "E7DFHsVNS1xph8DT",
+  "name": "Eidolon Transcendence",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/classes/eidolon-transcendence.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.E7DFHsVNS1xph8DT"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your connection with your eidolon approaches its peak, granting your eidolon access to a powerful new ability depending on its type, as described in Eidolon Abilities in each eidolon's entry. This ability also increases one of the eidolon's ability scores by 2.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "str"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "dex"
+          },
+          {
+            "label": "PF2E.AbilityCon",
+            "value": "con"
+          },
+          {
+            "label": "PF2E.AbilityInt",
+            "value": "int"
+          },
+          {
+            "label": "PF2E.AbilityWis",
+            "value": "wis"
+          },
+          {
+            "label": "PF2E.AbilityCha",
+            "value": "cha"
+          }
+        ],
+        "flag": "abilityIncrease",
+        "key": "ChoiceSet",
+        "prompt": "Choose an Ability Score to Increase"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.{item|flags.pf2e.rulesSelections.abilityIncrease}.mod",
+        "priority": 50
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{actor|flags.pf2e.eidolon-features.transcendence}"
+      }
+    ],
+    "slug": "eidolon-transcendence",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.229-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.E7DFHsVNS1xph8DT",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 2400000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!E7DFHsVNS1xph8DT"
+}

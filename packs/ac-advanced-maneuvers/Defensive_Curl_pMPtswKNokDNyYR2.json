@@ -1,0 +1,98 @@
+{
+  "_id": "pMPtswKNokDNyYR2",
+  "name": "Defensive Curl",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 6500000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.tvBQEtzLWUR1PlcL"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The pangolin coils into a ball to defend itself. It gains a +2 circumstance bonus to AC. Any creature that hits the pangolin with a melee unarmed attack while it's in its Defensive Curl take [[/r 2d6[persistent,bleed]]] damage. The pangolin can't move, use its unarmed attacks, or take other actions that require it to use its limbs while in its Defensive Curl, but it can unfurl as a single action, ending the effects of Defensive Curl.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "defensiveCurl",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": 2,
+        "predicate": [
+          "defensiveCurl"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "has-advanced-maneuver",
+        "priority": 1
+      }
+    ],
+    "slug": "defensive-curl",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.427-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.tvBQEtzLWUR1PlcL",
+    "duplicateSource": null
+  },
+  "_key": "!items!pMPtswKNokDNyYR2"
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "VZQ3CcjOZFG57R0O",
+  "name": "Fey Chicanery",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/fey-disapperance.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.VZQ3CcjOZFG57R0O"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Ever full of tricks, your fey eidolon twists magical protections into your shared life force, granting it a contingency in its back pocket for desperate situations. During your daily preparations, your eidolon can cast a @Compendium[pf2e.spells-srd.WG91Z5TiR6oO5FOw]{Contingency} spell. The 4th-level spell it chooses must come from the primal or fey gift list, and must either be common or be another spell you have access to.</p>"
+    },
+    "rules": [],
+    "slug": "fey-chicanery",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.214-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.VZQ3CcjOZFG57R0O",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 5400000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!VZQ3CcjOZFG57R0O"
+}

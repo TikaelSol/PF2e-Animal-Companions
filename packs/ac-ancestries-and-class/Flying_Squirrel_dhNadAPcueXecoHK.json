@@ -1,0 +1,180 @@
+{
+  "name": "Flying Squirrel",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is a giant flying squirrel or sugar glider.</p>\n<p><strong>Size </strong>Small</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> jaws (finesse), Damage 1d6 piercing</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> claw (agile, finesse), Damage 1d4 slashing</p>\n<p><strong>Str </strong>+2, <strong>Dex </strong>+3, <strong>Con </strong>+1, <strong>Int </strong>–4, <strong>Wis </strong>+2, <strong>Cha </strong>+0</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Skill </strong>Stealth</p>\n<p><strong>Senses </strong>low-light vision, scent (imprecise) 30 feet</p>\n<p><strong>Speed </strong>25 feet, climb 25 feet</p>\n<p><strong>Special </strong>When your flying squirrel falls, it can glide, falling only 5 feet at the beginning of your turn and moving up to 25 feet horizontally. It cannot glide if it's unable to act.</p>\n<p><strong>Support Benefit</strong> Your flying squirrel wraps your foes in its skin flaps, hampering their movement. Until the end of your next turn, if your Strike damages a creature in your giant flying squirrel's reach, that creature takes a –10-foot circumstance penalty to its Speeds for 1 round.</p>\n<p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.OYzEhVH6zMgf64Tg]{Death from Above}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.ste.rank"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 25
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "scent"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.jaws",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "finesse"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.claw",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "finesse",
+          "agile"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/claw.webp"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:ancestry:flying-squirrel",
+        "priority": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.V2kspaYOoLbHV5vb"
+      }
+    ],
+    "slug": "flying-squirrel",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "animal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "hp": 6,
+    "size": "sm",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "low-light-vision"
+  },
+  "_id": "dhNadAPcueXecoHK",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "80e9ceba02e82d109b94d92813fa277d335008cb"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dhNadAPcueXecoHK"
+}

@@ -1,0 +1,194 @@
+{
+  "_id": "KCbNpQElh8V0QX1Z",
+  "name": "Specialized - Deep Diver (Speed Bonus)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/feet-to-fins.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.KCbNpQElh8V0QX1Z"
+    },
+    "exportSource": {
+      "world": "ac",
+      "system": "pf2e",
+      "coreVersion": "0.8.8",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Specialized animal companions are more intelligent and engage in more complex behaviors. The first time an animal gains a specialization, it gains the following: Its proficiency rank for unarmed attacks increases to expert. Its proficiency ranks for saving throws and Perception increase to master. Increase its Dexterity modifier by 1 and its Intelligence modifier by 2. Its unarmed attack damage increases from two dice to three dice, and it increases its additional damage with unarmed attacks from 2 to 4 or from 3 to 6.</p>\n<p>Your companion gains a swim Speed of 30 feet or a +10-foot status bonus to its existing swim Speed and can breathe underwater if it couldn't already. Its Constitution modifier increases by 1. Its proficiency rank for Athletics increases to master and for barding increases to expert. This specialization can only be selected by marid-touched companions.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.martial.unarmed.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.saves.fortitude.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.saves.reflex.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.saves.will.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.attributes.perception.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.skills.ath.rank"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:specialized",
+        "priority": 1
+      },
+      {
+        "key": "Striking",
+        "predicate": [
+          "unarmed"
+        ],
+        "selector": "strike-damage",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "upgrade",
+        "path": "system.custom.modifiers.additionalDamage",
+        "priority": 50,
+        "predicate": [
+          "self:nimble"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 6,
+        "mode": "upgrade",
+        "path": "system.custom.modifiers.additionalDamage",
+        "priority": 50,
+        "predicate": [
+          {
+            "or": [
+              "self:savage",
+              "self:genie-touched",
+              "self:indomitable",
+              "self:unseen"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB",
+        "predicate": [
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "swim-speed",
+        "value": 10,
+        "type": "status"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.light.rank",
+        "priority": 41,
+        "value": 2
+      }
+    ],
+    "slug": "specialized-deep-diver-speed-bonus",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:47.350-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.KCbNpQElh8V0QX1Z",
+    "duplicateSource": null
+  },
+  "_key": "!items!KCbNpQElh8V0QX1Z"
+}

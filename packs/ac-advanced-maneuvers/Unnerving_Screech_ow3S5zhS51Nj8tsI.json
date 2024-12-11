@@ -1,0 +1,79 @@
+{
+  "_id": "ow3S5zhS51Nj8tsI",
+  "name": "Unnerving Screech",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 6300000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ow3S5zhS51Nj8tsI"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your skeletal bird of prey makes an earsplitting, unnatural screech, deafening and startling an enemy within 30 feet. The target must attempt a Fortitude save. The target is then temporarily immune for 1 hour. The frightened condition is a mental, emotion, and fear effect, but the creature can still be @Compendium[pf2e.conditionitems.Deafened]{Deafened} if it's immune to these.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is deafened for 1 round and @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target is deafened for 1 minute and frightened 1.</p>\n<p><strong>Critical Failure</strong> The target is deafened for 10 minutes and @Compendium[pf2e.conditionitems.Frightened]{Frightened 2}.</p>"
+    },
+    "rules": [],
+    "slug": "unnerving-screech",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #181: Zombie Feast"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.427-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ow3S5zhS51Nj8tsI",
+    "duplicateSource": null
+  },
+  "_key": "!items!ow3S5zhS51Nj8tsI"
+}

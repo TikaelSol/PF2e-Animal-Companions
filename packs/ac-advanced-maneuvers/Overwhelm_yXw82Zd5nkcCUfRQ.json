@@ -1,0 +1,77 @@
+{
+  "_id": "yXw82Zd5nkcCUfRQ",
+  "name": "Overwhelm",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 7200000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.yXw82Zd5nkcCUfRQ"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The tyrannosaurus bears down on an enemy and pins it with its jaws. The tyrannosaurus makes a jaws Strike; on a hit, the target is @Compendium[pf2e.conditionitems.Grabbed]{Grabbed}.</p>"
+    },
+    "rules": [],
+    "slug": "overwhelm",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #177: Burning Tundra"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.421-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.yXw82Zd5nkcCUfRQ",
+    "duplicateSource": null
+  },
+  "_key": "!items!yXw82Zd5nkcCUfRQ"
+}

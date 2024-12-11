@@ -1,0 +1,16 @@
+{
+  "name": "pf2e-animal-companions",
+  "version": "6.0",
+  "description": "",
+  "scripts": {
+    "build": "node build.mjs",
+    "extractPacks": "node extract-packs.mjs",
+    "link": "node link.mjs"
+  },
+  "author": "Ian Blackstone",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "@types/prompts": "^2.4.9"
+  }
+}

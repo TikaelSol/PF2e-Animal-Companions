@@ -1,0 +1,56 @@
+{
+  "name": "Float",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> The umbrella mushroom is falling.</p>\n<hr />\n<p>The umbrella mushroom inflates buoyant air bladders and begins rotating to arrest the fall. It slows its descent to 60 feet per round. It can take this reaction even when @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>"
+    },
+    "rules": [],
+    "slug": "float",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "VSsW37hmpmXNOUwd",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "99b2f01ad6890ccfdb0a097aef6ab50f5fb9b6ea"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!VSsW37hmpmXNOUwd"
+}

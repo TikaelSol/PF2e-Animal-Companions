@@ -1,0 +1,77 @@
+{
+  "name": "Water Wraith Support Benefit",
+  "type": "action",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your water wraith hisses and changes colors swiftly in an iridescent clash, overwhelming your foes in an avalanche of shades and hues. Until the start of your next turn, each time you hit a creature within your water wraith's reach, the creature is @Compendium[pf2e.conditionitems.Dazzled]{Dazzled} for 1 round.</p>"
+    },
+    "rules": [],
+    "slug": "water-wraith-support-benefit",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder Lost Omens: Impossible Lands"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:03.607-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.pk04uZmpsxCuJozL"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.pk04uZmpsxCuJozL",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 4700000,
+  "_id": "IUXX1lUd9kMzV4bq",
+  "_key": "!items!IUXX1lUd9kMzV4bq"
+}

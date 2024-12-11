@@ -1,0 +1,143 @@
+{
+  "_id": "mJhZ1znkGreEMjTn",
+  "name": "Unseen Animal Companion",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/pass-without-trace.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.xsxAPvjWZLCUpyNR"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Cryptid animal companions look a touch peculiar, often with uncanny features or ones that seem to come from a different animal. If you take a feat that would normally allow you to choose to have your companion become a savage or nimble animal companion, you can choose to make it an unseen animal companion instead. An unseen companion increases its Wisdom modifier by 2 and its Strength, Dexterity, and Constitution modifiers by 1. It deals 3 additional Damage with its unarmed attacks and deals an extra 1d4 precision damage against @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} targets (if the animal companion already deals precision damage, such as a cat, combine the precision damage). Increase its proficiency rank in Stealth to expert. It also learns the advanced maneuver for its type.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.skills.ste.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.custom.modifiers.additionalDamage",
+        "priority": 49
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "damage",
+        "value": "@actor.system.custom.modifiers.additionalDamage"
+      },
+      {
+        "category": "precision",
+        "dieSize": "d4",
+        "key": "DamageDice",
+        "predicate": [
+          "target:off-guard"
+        ],
+        "selector": "damage",
+        "diceNumber": 1
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:unseen",
+        "priority": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "unseen-animal-companion",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder Dark Archive"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:47.329-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.xsxAPvjWZLCUpyNR",
+    "duplicateSource": null
+  },
+  "_key": "!items!mJhZ1znkGreEMjTn"
+}

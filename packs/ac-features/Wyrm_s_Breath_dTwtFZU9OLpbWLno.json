@@ -1,0 +1,69 @@
+{
+  "_id": "dTwtFZU9OLpbWLno",
+  "name": "Wyrm's Breath",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.dTwtFZU9OLpbWLno"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p>Your eidolon gathers the power of the mightiest wyrms to make its magical breath even more spectacular. If your eidolon's next action is to use Breath Weapon, both the number of damage dice and area of the Breath Weapon are doubled.</p>"
+    },
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "rules": [],
+    "slug": "wyrms-breath",
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.101-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "eidolon"
+      ],
+      "rarity": "common"
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.dTwtFZU9OLpbWLno",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 7200000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!dTwtFZU9OLpbWLno"
+}

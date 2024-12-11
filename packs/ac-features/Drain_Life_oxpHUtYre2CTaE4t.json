@@ -1,0 +1,85 @@
+{
+  "_id": "oxpHUtYre2CTaE4t",
+  "name": "Drain Life",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/vampiric-touch.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.oxpHUtYre2CTaE4t"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon's link with you sustains it, but it still craves the life essence of the living, whether through blood or pure essence. It gains the @Compendium[pf2e-animal-companions.AC-Features.3Ns5BmFpAcoGQIY5]{Drain Life} activity.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.3Ns5BmFpAcoGQIY5",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "drain-life",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder Book of the Dead"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.092-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.oxpHUtYre2CTaE4t",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 9700000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!oxpHUtYre2CTaE4t"
+}

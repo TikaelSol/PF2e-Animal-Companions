@@ -1,0 +1,56 @@
+{
+  "name": "Long Stomp",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your giraffe Strides twice and then makes a hoof Strike. As long as it moved at least 20 feet, it deals an additional @Damage[1d6[bludgeoning]] damage. Increase this to @Damage[2d6[bludgeoning]] if your giraffe is specialized.</p>"
+    },
+    "rules": [],
+    "slug": "long-stomp",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "_id": "9IqqECMTmfbaBY0C",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b8c9b958cdb9231fbf5adfc280821db146b7f0a7"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9IqqECMTmfbaBY0C"
+}

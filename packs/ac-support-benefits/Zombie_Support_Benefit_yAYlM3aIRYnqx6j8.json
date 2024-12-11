@@ -1,0 +1,80 @@
+{
+  "_id": "yAYlM3aIRYnqx6j8",
+  "name": "Zombie Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 7400000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.yAYlM3aIRYnqx6j8"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The zombie emits an aura of rot, causing wounds to fester. Until the start of your next turn, each time you hit a creature that's within 10 feet of the zombie and you deal damage, the creature takes an additional [[/r 1d6]] damage as the wound festers. If your zombie is nimble or savage, the damage increases to [[/r 2d6]]. This is a disease and necromancy effect.</p>"
+    },
+    "rules": [],
+    "slug": "zombie-support-benefit",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disease",
+        "necromancy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder Book of the Dead"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:03.595-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.yAYlM3aIRYnqx6j8",
+    "duplicateSource": null
+  },
+  "_key": "!items!yAYlM3aIRYnqx6j8"
+}

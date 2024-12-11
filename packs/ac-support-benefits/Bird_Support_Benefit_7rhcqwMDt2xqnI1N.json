@@ -1,0 +1,80 @@
+{
+  "_id": "7rhcqwMDt2xqnI1N",
+  "name": "Bird Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 3600000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.7rhcqwMDt2xqnI1N"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The bird pecks at your foes' eyes when you create an opening. Until the start of your next turn, your Strikes that damage a creature that your bird threatens also deal [[/r 1d4[bleed]]] Damage, and the target is @Compendium[pf2e.conditionitems.Dazzled]{Dazzled} until it removes the bleed damage. If your bird is nimble or savage, the persistent bleed damage increases to [[/r 2d4[bleed]]]{2d4}.</p>"
+    },
+    "rules": [],
+    "slug": "bird-support-benefit",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:03.610-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "weapon": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "WG8TaxGEQOxXBO1S": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.7rhcqwMDt2xqnI1N",
+    "duplicateSource": null
+  },
+  "_key": "!items!7rhcqwMDt2xqnI1N"
+}

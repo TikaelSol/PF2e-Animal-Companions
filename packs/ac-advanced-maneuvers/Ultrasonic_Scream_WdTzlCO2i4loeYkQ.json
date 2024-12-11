@@ -1,0 +1,84 @@
+{
+  "_id": "WdTzlCO2i4loeYkQ",
+  "name": "Ultrasonic Scream",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 4600000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.tvBQEtzLWUR1PlcL"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The moth flaps its wings and emits ultrasonic squeaks that scramble the senses of nearby creatures. Choose one creature within 30 feet of the moth. That creature must attempt a Fortitude save. This uses a trained DC using the moth's Constitution modifier or an expert DC if the moth is specialized.</p>\n<hr />\n<p><strong>Success</strong> The target treats all creatures as @Compendium[pf2e.conditionitems.Concealed]{Concealed} on its next attack before the start of your next turn.</p>\n<p><strong>Failure</strong> The target treats all creatures as concealed until the start of your next turn.</p>\n<p><strong>Critical Failure</strong> As failure, and the target is also @Compendium[pf2e.conditionitems.Stunned]{Stunned 1}.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "has-advanced-maneuver",
+        "priority": 1
+      }
+    ],
+    "slug": "ultrasonic-scream",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.441-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.tvBQEtzLWUR1PlcL",
+    "duplicateSource": null
+  },
+  "_key": "!items!WdTzlCO2i4loeYkQ"
+}

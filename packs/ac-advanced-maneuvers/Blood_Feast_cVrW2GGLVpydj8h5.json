@@ -1,0 +1,93 @@
+{
+  "_id": "cVrW2GGLVpydj8h5",
+  "name": "Blood Feast",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5100000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.cVrW2GGLVpydj8h5"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your vampiric animal companion attacks a bleeding foe and drinks its blood. Your companion attempts a Strike against a creature currently taking persistent bleed damage. The Strike deals [[/r 2d8[additional]]]{2d8 additional damage}. If the Strike hits and deals damage, your vampiric animal companion gains temporary Hit Points equal to half your level that last for up to 1 minute.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "blood-feast",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "damage",
+        "diceNumber": 2,
+        "dieSize": "d8",
+        "traits": [
+          "blood-feast"
+        ]
+      }
+    ],
+    "slug": "blood-feast",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder Book of the Dead"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.437-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.cVrW2GGLVpydj8h5",
+    "duplicateSource": null
+  },
+  "_key": "!items!cVrW2GGLVpydj8h5"
+}

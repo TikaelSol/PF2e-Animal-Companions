@@ -1,0 +1,77 @@
+{
+  "_id": "AH3kNbdGLYaRjVAr",
+  "name": "Bony Constriction",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 2300000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.AH3kNbdGLYaRjVAr"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> The constrictor has a creature @Compendium[pf2e.conditionitems.Grabbed]{Grabbed}.</p>\n<hr />\n<p>The skeletal constrictor deals [[/r 12[piercing]]]{12 piercing Damage} to the grabbed creature with its sharp ribs; the creature must attempt a @Check[type:fortitude|dc:resolve(12+@actor.level+@actor.abilities.con.mod)|basic:true] save. If the constrictor is a specialized companion, increase this damage to [[/r 20[piercing]]]{20}. This uses a trained DC using the constrictor's Constitution modifier, or an expert DC (@Check[type:fortitude|dc:resolve(14+@actor.level+@actor.abilities.con.mod)|basic:true]) if the constrictor is specialized.</p>"
+    },
+    "rules": [],
+    "slug": "bony-constriction",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #181: Zombie Feast"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.461-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.AH3kNbdGLYaRjVAr",
+    "duplicateSource": null
+  },
+  "_key": "!items!AH3kNbdGLYaRjVAr"
+}

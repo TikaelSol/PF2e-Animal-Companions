@@ -1,0 +1,80 @@
+{
+  "_id": "wf20kx6pPGBWwUn2",
+  "name": "Horse Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 7100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your horse adds momentum to your charge. Until the start of your next turn, if you moved at least 10 feet on the action before your Strike, add a circumstance bonus to damage to that Strike equal to twice the number of damage dice. If your weapon already has the jousting weapon trait, increase the trait's damage bonus by 2 per die instead.</p>"
+    },
+    "rules": [],
+    "slug": "horse-support-benefit",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:03.596-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "weapon": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "WG8TaxGEQOxXBO1S": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2",
+    "duplicateSource": null
+  },
+  "_key": "!items!wf20kx6pPGBWwUn2"
+}

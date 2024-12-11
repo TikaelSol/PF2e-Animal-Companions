@@ -1,0 +1,180 @@
+{
+  "name": "Shotalashu",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is a shotalashu, a telepathic creature originally from the planet of Castrovel but now introduced in small numbers to Golarion. Acquiring a shotalashu typically requires that the prospective rider bond with it first by spending a week of time with it and succeeding on a @Check[type:occultism|dc:21] check to establish a telepathic link. A rider who fails the check can attempt it again after another week with the shotalashu for each attempt. Any creature with telepathic capabilities, such as telepathy, touch telepathy, empathic sense, or the ability to cast spells such as telepathy, gains a +4 circumstance bonus to this check. The GM is the final arbiter of whether a given ability counts as telepathy for the purposes of forming a link. This link remains, and neither can form a new link until one member dies. The shock of a bonded partner dying leaves the survivor @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 24 hours and prevents them from forming a new link for at least a month.</p>\n<p>A shotalashu has the beast trait instead of the animal trait but otherwise functions normally as an animal companion.</p>\n<p><strong>Size </strong>Medium or Large</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> claw (agile), Damage 1d6 slashing</p>\n<p><strong>Str </strong>+2, <strong>Dex </strong>+3, <strong>Con </strong>+2, <strong>Int </strong>–3, <strong>Wis </strong>+1, <strong>Cha </strong>+2</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill</strong> Survival</p>\n<p><strong>Senses </strong>darkvision</p>\n<p><strong>Speed </strong>40 feet</p>\n<p><strong>Special</strong> @UUID[Compendium.pf2e.actionspf2e.Item.PM5jvValFkbFH3TV]{Mount}</p>\n<p><strong>Support Benefit</strong> The shotalashu telepathically assails your enemies when you create an opening. Until the start of your next turn, each time you hit a creature in the shotalashu's reach with a Strike, the creature takes @Damage[1d6[mental]] damage from the shotalashu. If your shotalashu is nimble or savage, the mental damage increases to [[/r 2d6]].</p>\n<p><strong>Advanced Maneuver </strong>@UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.i8RWZ5XkR6DYbOCp]{Telepathic Pounce}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.cha.mod"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "1",
+        "value": 1,
+        "type": "ability",
+        "ability": "int"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.claw",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "agile"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:ancestry:shotalashu",
+        "priority": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.ufAZJqCN7ZOBhMSJ"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.sur.rank"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeLarge",
+            "value": "lg"
+          }
+        ],
+        "flag": "companionSize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      }
+    ],
+    "slug": "shotalashu",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "beast"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "hp": 8,
+    "size": "med",
+    "reach": 5,
+    "speed": 40,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": [
+          "int"
+        ]
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision"
+  },
+  "_id": "hxN1RjBfKIIMe7WF",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "33f07050fe0ea614117632009ea6c6ca26bf0c1f"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hxN1RjBfKIIMe7WF"
+}

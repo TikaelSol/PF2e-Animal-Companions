@@ -1,0 +1,173 @@
+{
+  "_id": "7a1ei105k24XkJG0",
+  "name": "Plant Eidolon",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 300000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.QlhL9vPXzjhkYd8W"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon is an intelligent plant, formed from the same disembodied fragments of nature's life energy that become leshys. Plant eidolons tend to be curious and adaptable, with temperaments based on the parts of mortal culture they feel affinity toward. Despite coming from the same source, plant eidolons don't always look like leshys. Plant eidolons have forms that vary greatly and can look like almost any kind of plant creature in existence. Some even resemble plant creatures so strange they are impossible to identify.</p>\n<p><strong>Tradition</strong> primal</p>\n<p><strong>Traits</strong> eidolon, plant</p>\n<p><strong>Home Plane</strong> Material Plane</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Suggested Attacks</strong> vine (bludgeoning), branch (bludgeoning), root (bludgeoning)</p>\n<p><strong>Guardian Plant</strong> Str 18, Dex 14, Con 16, Int 8, Wis 12, Cha 10; +2 AC (+3 Dex cap)</p>\n<p><strong>Creeping Plant</strong> Str 12, Dex 18, Con 16, Int 8, Wis 14, Cha 10; +1 AC (+4 Dex cap)</p>\n<p><strong>Skills</strong> Nature, Survival</p>\n<p><strong>Senses</strong> low-light vision</p>\n<p><strong>Language</strong> Sylvan</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.AC-Features.iunzITJGz0QUudUk]{tendril strike}; Symbiosis @UUID[Compendium.pf2e-animal-companions.AC-Features.sSfOct37bkinwW5E]{growing vines}; Transcendence @UUID[Compendium.pf2e-animal-companions.AC-Features.kpcL3Iz1KJnmEKwC]{field of roots}</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.5I9rbPGBER1gzqXT"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.1maDsT21my4REUEX"
+          }
+        ],
+        "flag": "eidolonType",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.eidolonType}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.nat.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.sur.rank",
+        "value": 1
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "value": "sm"
+          }
+        ],
+        "flag": "companionSize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.traits.size.value",
+        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.xPn27nNxcLOByTXJ"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.eidolon-features",
+        "value": {
+          "initial": "Compendium.pf2e-animal-companions.AC-Features.iunzITJGz0QUudUk",
+          "symbiosis": "Compendium.pf2e-animal-companions.AC-Features.sSfOct37bkinwW5E",
+          "transcendence": "Compendium.pf2e-animal-companions.AC-Features.kpcL3Iz1KJnmEKwC"
+        }
+      }
+    ],
+    "slug": "plant-eidolon",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eidolon",
+        "plant"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 0,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "fey"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "safrb": {
+        "img": "systems/pf2e/icons/features/classes/eidolon.webp",
+        "name": "Eidolon Ability",
+        "level": 1,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.5E71mdImeRE9Fh1D"
+      }
+    },
+    "vision": "lowLightVision",
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:53.836-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.QlhL9vPXzjhkYd8W",
+    "duplicateSource": null
+  },
+  "_key": "!items!7a1ei105k24XkJG0"
+}

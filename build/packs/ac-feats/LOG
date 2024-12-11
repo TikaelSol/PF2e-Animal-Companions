@@ -1,0 +1,5 @@
+2024/12/10-20:21:10.006 2bd0 Recovering log #10
+2024/12/10-20:21:10.006 2bd0 Level-0 table #12: started
+2024/12/10-20:21:10.009 2bd0 Level-0 table #12: 2273 bytes OK
+2024/12/10-20:21:10.013 2bd0 Delete type=0 #10
+2024/12/10-20:21:10.013 2bd0 Delete type=3 #8

@@ -1,0 +1,77 @@
+{
+  "name": "Gulp Blood",
+  "type": "action",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> The water wraith's last action was a successful jaws attack against a foe.</p>\n<hr />\n<p>The water wraith gains [[/r 2d8 #Temporary Hit Points]]{2d8} temporary Hit Points that last for 1 round, and the foe takes [[/r 2d6[persistent,bleed]]] damage. If the water wraith has a specialization, the water wraith instead gains [[/r 3d8 #Temporary Hit Points]]{3d8} temporary Hit Points, and the target takes [[/r 3d6[persistent,bleed]]] damage. If the targeted creature has absolutely no vital fluids, this ability might not function, at the GM's discretion.</p>"
+    },
+    "rules": [],
+    "slug": "gulp-blood",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder Lost Omens: Impossible Lands"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.439-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.g1QzcWAHw8EjBxNs"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.g1QzcWAHw8EjBxNs",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 4900000,
+  "_id": "aDuPDWgutiDIoWjW",
+  "_key": "!items!aDuPDWgutiDIoWjW"
+}

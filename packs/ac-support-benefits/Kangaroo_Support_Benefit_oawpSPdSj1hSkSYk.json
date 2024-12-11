@@ -1,0 +1,56 @@
+{
+  "name": "Kangaroo Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your kangaroo bounces and shifts back and forth. Until the start of your next turn, it counts as being in its space or an empty space of your choice within 5 feet when determining whether you and your companion are flanking; you can choose a different space for each of your attacks.</p>"
+    },
+    "rules": [],
+    "slug": "kangaroo-support-benefit",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "oawpSPdSj1hSkSYk",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8aebf8e1b19bf2c699e0719605d463b85f02709a"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oawpSPdSj1hSkSYk"
+}

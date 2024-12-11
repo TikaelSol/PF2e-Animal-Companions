@@ -1,0 +1,757 @@
+{
+  "_id": "KrHyF5BSvYM6tFbB",
+  "name": "Advanced Maneuver",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.4GUtdDCKZynlVWmC"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ODGf6brAHHKrSAPo",
+        "predicate": [
+          "self:ancestry:bat",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.WdTzlCO2i4loeYkQ",
+        "predicate": [
+          "self:ancestry:moth",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.q0Vh2V6KlzdMi1Pv",
+        "predicate": [
+          "self:ancestry:cave-gecko",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.FKh7ZMNyKxgnV7kI",
+        "predicate": [
+          "self:ancestry:arboreal-sapling",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.Upr7u0KhPAIMOqXv",
+        "predicate": [
+          "self:ancestry:ulgrem-lurann",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.F98ajoIakyOPEuwj",
+        "predicate": [
+          "self:ancestry:shark",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.PAXJgysWqv3T0tTD",
+        "predicate": [
+          "self:ancestry:camel",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.7C9iFWBpEOJs4Uo2",
+        "predicate": [
+          "self:ancestry:pterosaur",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.uR3j6TAJFeOVUHpY",
+        "predicate": [
+          "self:ancestry:monitor-lizard",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.xssFjTXqGlsaddvl",
+        "predicate": [
+          "self:ancestry:wolf",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.7H8wqKtsAaSgyLyp",
+        "predicate": [
+          "self:ancestry:scorpion",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.oisXYTTYE0TABboA",
+        "predicate": [
+          "self:ancestry:hyena",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.tsOaXTRWQvsKTyaL",
+        "predicate": [
+          {
+            "or": [
+              "self:ancestry:horse",
+              "self:ancestry:skeletal-mount"
+            ]
+          },
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.0WtqP7Wei3AxHh5M",
+        "predicate": [
+          "self:ancestry:ape",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.X4VjMfVVAjZjwcrT",
+        "predicate": [
+          "self:ancestry:bird",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.g4JEtCnKXyY4LJpm",
+        "predicate": [
+          "self:ancestry:vulture",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.pMPtswKNokDNyYR2",
+        "predicate": [
+          "self:ancestry:pangolin",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.cpMkN79PdNci3nGp",
+        "predicate": [
+          "self:ancestry:capybara",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ttJ1CanrAuehoSV8",
+        "predicate": [
+          "self:ancestry:crocodile",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ClUiCoBn3lHBBK5c",
+        "predicate": [
+          "self:ancestry:dromaeosaur",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.kKW68gi1FNJlNSOp",
+        "predicate": [
+          "self:ancestry:snake",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.U0J8J5ukmqnOskE8",
+        "predicate": [
+          "self:ancestry:cat",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.lrchn6ROZcuKCg3C",
+        "predicate": [
+          "self:ancestry:legchair",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.8JdETVTpbZAgtBA3",
+        "predicate": [
+          "self:ancestry:riding-drake",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.EwCqdvU8WOw2SSxm",
+        "predicate": [
+          "self:ancestry:boar",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.oCgdnQP5bMDD02YC",
+        "predicate": [
+          "self:ancestry:bear",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.EvuMVR9ut9wIHOtq",
+        "predicate": [
+          "self:ancestry:shadow-hound",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9",
+        "predicate": [
+          "self:ancestry:badger",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.zSlsnbvsGKdCTzL1",
+        "predicate": [
+          "self:ancestry:beetle",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.6LvtdtVVwtbzqUXG",
+        "predicate": [
+          "self:ancestry:skeletal-servant",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.cVrW2GGLVpydj8h5",
+        "predicate": [
+          "self:ancestry:vampiric-animal",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.LaBfTYUsvoI3nscv",
+        "predicate": [
+          "self:ancestry:zombie",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.oYEXImMSzg0eDqzR",
+        "predicate": [
+          "self:ancestry:elephant",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.NMaMTiDB40L5O41S",
+        "predicate": [
+          "self:ancestry:ghost",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.Uv49tQCwUUjaMCj5",
+        "predicate": [
+          "self:ancestry:gibtas",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.JMHoCFb886K6dT1n",
+        "predicate": [
+          "self:ancestry:rhinoceros",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.H1ElYt6KovGYGzLD",
+        "predicate": [
+          "self:ancestry:triceratops",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.yXw82Zd5nkcCUfRQ",
+        "predicate": [
+          "self:ancestry:tyrannosaurus",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ow3S5zhS51Nj8tsI",
+        "predicate": [
+          "self:ancestry:skeletal-bird-of-prey",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.AH3kNbdGLYaRjVAr",
+        "predicate": [
+          "self:ancestry:skeletal-constrictor",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.MQv67R7KBIrJkshN",
+        "predicate": [
+          "self:ancestry:undead-hand",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.9o7NwxGqohpa9M7r",
+        "predicate": [
+          "self:ancestry:zombie-carrion-bird",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.h1Rldre8WVjUR5XO",
+        "predicate": [
+          "self:ancestry:zombie-mount",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.aDuPDWgutiDIoWjW",
+        "predicate": [
+          "self:ancestry:water-wraith",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.IoWvKP6WDijlkrin",
+        "predicate": [
+          "self:ancestry:goat",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.MNiXOHI1Ezh0D24r",
+        "predicate": [
+          "self:ancestry:draft-lizard",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.IJYikMs3TzYGpdHm",
+        "predicate": [
+          "self:ancestry:augdunar",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.gzefJocgdWbXWWPi",
+        "predicate": [
+          "self:ancestry:oozeform-chair",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.Xd4dnyHWexQRVyXn",
+        "predicate": [
+          "self:ancestry:rootball-chair",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ePNzRvGvBqzIujJr",
+        "predicate": [
+          "self:ancestry:air-elemental",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.W6zkL0y4MqvlR0yW",
+        "predicate": [
+          "self:ancestry:earth-elemental",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.LCilgiiIZp408R3k",
+        "predicate": [
+          "self:ancestry:fire-elemental",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.oyNZpuQ6EU3prvo2",
+        "predicate": [
+          "self:ancestry:metal-elemental",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.x4clojDNIvYB5V7X",
+        "predicate": [
+          "self:ancestry:water-elemental",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.gvOo0KSSHkqfW3j5",
+        "predicate": [
+          "self:ancestry:wood-elemental",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.AJ7hsZCvwLIzalYA",
+        "predicate": [
+          "self:ancestry:chetamog",
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "replaceSelf": true,
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "advanced-maneuver",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.223-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.4GUtdDCKZynlVWmC",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 3800000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!KrHyF5BSvYM6tFbB"
+}

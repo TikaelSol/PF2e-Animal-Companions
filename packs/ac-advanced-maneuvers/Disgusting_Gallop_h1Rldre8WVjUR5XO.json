@@ -1,0 +1,80 @@
+{
+  "_id": "h1Rldre8WVjUR5XO",
+  "name": "Disgusting Gallop",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5700000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.h1Rldre8WVjUR5XO"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The zombie mount Strides twice, spraying putrid spittle as it runs. Once during this movement, choose a creature adjacent to the zombie mount. The spittle splashes on it, and the creature must succeed at a @Check[type:fortitude|dc:resolve(12+@actor.level+@actor.abilities.con.mod)] save or be @Compendium[pf2e.conditionitems.Sickened]{Sickened 1}. The creature is then temporarily immune to the spittle for 24 hours. This uses a trained DC using the zombie mount's Constitution modifier, or an expert DC (@Check[type:fortitude|dc:resolve(14+@actor.level+@actor.abilities.con.mod)]) if the mount is specialized.</p>"
+    },
+    "rules": [],
+    "slug": "disgusting-gallop",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disease",
+        "move"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #181: Zombie Feast"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.432-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.h1Rldre8WVjUR5XO",
+    "duplicateSource": null
+  },
+  "_key": "!items!h1Rldre8WVjUR5XO"
+}

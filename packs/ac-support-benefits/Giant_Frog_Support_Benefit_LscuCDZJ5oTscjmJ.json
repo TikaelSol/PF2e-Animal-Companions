@@ -1,0 +1,56 @@
+{
+  "name": "Giant Frog Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your giant frog's tongue darts into openings you create and sticks to opponents to disrupt their movements. Until the start of your next turn, whenever you successfully Strike a creature your giant frog threatens, that creature can't use reactions triggered by your actions unless its level is higher than yours.</p>"
+    },
+    "rules": [],
+    "slug": "giant-frog-support-benefit",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "LscuCDZJ5oTscjmJ",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1e239ee16961663ed947f48dc93004ba91d1a7b2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LscuCDZJ5oTscjmJ"
+}

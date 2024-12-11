@@ -1,0 +1,77 @@
+{
+  "_id": "kecawjDhBFz5QA4f",
+  "name": "Rhinoceros Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 6200000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.kecawjDhBFz5QA4f"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your rhino swings its heavy head to unbalance your enemy. The first creature within your rhino's reach that you hit and deal damage to before the start of your next turn becomes @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 1} until the end of your next turn.</p>"
+    },
+    "rules": [],
+    "slug": "rhinoceros-support-benefit",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #177: Burning Tundra"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:03.599-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.kecawjDhBFz5QA4f",
+    "duplicateSource": null
+  },
+  "_key": "!items!kecawjDhBFz5QA4f"
+}

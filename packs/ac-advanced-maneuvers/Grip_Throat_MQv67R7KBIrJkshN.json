@@ -1,0 +1,77 @@
+{
+  "_id": "MQv67R7KBIrJkshN",
+  "name": "Grip Throat",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 3700000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.MQv67R7KBIrJkshN"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The hand attempts to @Compendium[pf2e.actionspf2e.Grapple]{Grapple} a Medium or smaller creature by the throat. If the Grapple succeeds, in addition to the normal effects, the creature has difficulty speaking. While it remains @Compendium[pf2e.conditionitems.Grabbed]{Grabbed} or @Compendium[pf2e.conditionitems.Restrained]{Restrained} by the hand, it must spend an extra action to perform any action that has the verbal trait.</p>"
+    },
+    "rules": [],
+    "slug": "grip-throat",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #181: Zombie Feast"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.450-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.MQv67R7KBIrJkshN",
+    "duplicateSource": null
+  },
+  "_key": "!items!MQv67R7KBIrJkshN"
+}

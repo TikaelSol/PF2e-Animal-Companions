@@ -1,0 +1,176 @@
+{
+  "name": "Roc",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is a younger example of the legendary bird of prey.</p>\n<p><strong>Size </strong>Huge</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> beak, Damage 1d10 piercing</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> talon (agile), Damage 1d8 slashing plus Grab</p>\n<p><strong>Str </strong>+3, <strong>Dex </strong>+1, <strong>Con </strong>+3, <strong>Int </strong>–4, <strong>Wis </strong>+1, <strong>Cha </strong>+0</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill </strong>Intimidation</p>\n<p><strong>Senses </strong>low-light vision</p>\n<p><strong>Speed </strong>15 feet, fly 60 feet</p>\n<p><strong>Special </strong>@UUID[Compendium.pf2e.actionspf2e.Item.PM5jvValFkbFH3TV]{Mount}</p>\n<p><strong>Support Benefit</strong> Your roc beats its wings, creating a powerful downdraft. Until the start of your next turn, your Strikes that damage a creature that your roc threatens push the target 5 feet away from your roc.</p>\n<p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HzGLDKNJJBs7fsYN]{Snatch}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.itm.rank"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 60
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d10"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Beak",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/beak.webp"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Talon",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "agile"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/talon.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:ancestry:roc",
+        "priority": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.R0e3jHpB7nTzIUPm"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "animal"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "hp": 8,
+    "size": "huge",
+    "reach": 5,
+    "speed": 15,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "low-light-vision"
+  },
+  "_id": "MTLituSKaObePjOL",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "10d074f85697334bfeccac86b40d68e1cf0f29ae"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MTLituSKaObePjOL"
+}
