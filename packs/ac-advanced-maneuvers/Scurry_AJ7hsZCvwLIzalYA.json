@@ -1,0 +1,69 @@
+{
+  "name": "Scurry",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your chetamog takes any combination of two Stride or Climb actions. It has a +10-foot circumstance bonus to its Speed during these Strides.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "has-advanced-maneuver",
+        "priority": 1
+      }
+    ],
+    "slug": "scurry",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "move"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder #201: Pactbreaker",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "pf2e-test-world",
+      "system": "pf2e",
+      "coreVersion": "11.315",
+      "systemVersion": "5.15.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "AJ7hsZCvwLIzalYA",
+  "sort": 5000000,
+  "_key": "!items!AJ7hsZCvwLIzalYA"
+}

@@ -1,0 +1,158 @@
+{
+  "_id": "JG6DlMcAdHpL2Hr7",
+  "name": "Prototype Construct",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 400000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.KsKXlXnc0oxcO3Kt"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.traits.size.value",
+        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "value": "sm"
+          }
+        ],
+        "flag": "companionSize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.OJePkZgnguu5Z8cA",
+        "predicate": [
+          {
+            "not": "class:construct-companion"
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.disableABP",
+        "value": true,
+        "priority": 10
+      }
+    ],
+    "slug": "prototype-construct",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "construct",
+        "minion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 10,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "qmtw9": {
+        "img": "systems/pf2e/icons/unarmed-attacks/fist-earth-elemental.webp",
+        "name": "Unarmed Strike 1",
+        "level": 1,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Construct-Companions.Item.i4Fz5yg9JufpyVns"
+      },
+      "v1ive": {
+        "img": "systems/pf2e/icons/spells/impaling-spike.webp",
+        "name": "Unarmed Strike 2",
+        "level": 1,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Construct-Companions.Item.mjDtydpNNfI9SuFq"
+      }
+    },
+    "vision": "normal",
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:51.981-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.KsKXlXnc0oxcO3Kt",
+    "duplicateSource": null
+  },
+  "_key": "!items!JG6DlMcAdHpL2Hr7"
+}

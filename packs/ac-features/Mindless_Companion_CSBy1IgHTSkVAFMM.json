@@ -1,0 +1,86 @@
+{
+  "_id": "CSBy1IgHTSkVAFMM",
+  "name": "Mindless Companion",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/mind-of-menace.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.CSBy1IgHTSkVAFMM"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Some undead companions are mindless. The mindless trait makes them immune to all mental effects, as normal. The only skills in which a mindless companion is trained are Acrobatics and Athletics, and it can't become trained in other skills. Even if a mindless companion gains a limited ability to act in combat without being commanded, such as from the Mature Animal Companion feat, it can repeat only the last command; it can't take a new action on its own. A mindless companion can't take specializations that would raise its Intelligence or grant it benefits to skills other than Acrobatics or Athletics, and it can't use or benefit from feats or other options for animal companions that normally require a creature to have a mind, think, or make a decision. When in doubt, the GM determines what abilities a mindless companion can use.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActorTraits",
+        "add": [
+          "mindless"
+        ]
+      }
+    ],
+    "slug": "mindless-companion",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder Book of the Dead"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.230-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.CSBy1IgHTSkVAFMM",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 2200000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!CSBy1IgHTSkVAFMM"
+}

@@ -1,0 +1,158 @@
+{
+  "_id": "Mld98WoM7R1wOQtX",
+  "name": "Zombie Mount",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 1800000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.Mld98WoM7R1wOQtX"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is the rotting, reanimated corpse of a horse, camel, or similar riding animal.</p>\n<p><strong>Size</strong> Large</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> hoof, <strong>Damage</strong> 1d8 bludgeoning</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +1, <strong>Con</strong> +3, <strong>Int</strong> -5, <strong>Wis</strong> +0, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill</strong> none (see Special)</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Speed</strong> 30 feet</p>\n<p><strong>Special</strong> mindless, mount</p>\n<p><strong>Support Benefit</strong> Your zombie mount chews on your enemies. Until the start of your next turn, each time you Strike while riding the zombie mount and hit a creature in the zombie mount's reach, the creature takes [[/r 1d4[bludgeoning]]] damage from the zombie mount. If your zombie mount is nimble or savage, the bludgeoning damage increases to [[/r 2d4]]{2d4}. This benefit is based on a zombie horse or camel, but might deal piercing damage if your mount has sharp teeth.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.h1Rldre8WVjUR5XO]{Disgusting Gallop}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -5,
+        "mode": "override",
+        "path": "system.abilities.int.mod",
+        "priority": 60
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Hoof",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/foot.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:ancestry:zombie-mount",
+        "priority": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.N9fYaUuIgD6RQ7CY"
+      }
+    ],
+    "slug": "zombie-mount",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "minion",
+        "undead"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 8,
+    "size": "lg",
+    "reach": 5,
+    "speed": 30,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision",
+    "source": {
+      "value": "Pathfinder #181: Zombie Feast"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:44.562-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "voluntaryBoosts": {},
+    "voluntaryFlaws": {}
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.Mld98WoM7R1wOQtX",
+    "duplicateSource": null
+  },
+  "_key": "!items!Mld98WoM7R1wOQtX"
+}

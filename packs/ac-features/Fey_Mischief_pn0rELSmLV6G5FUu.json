@@ -1,0 +1,84 @@
+{
+  "_id": "pn0rELSmLV6G5FUu",
+  "name": "Fey Mischief",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/mislead.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.pn0rELSmLV6G5FUu"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon's fey magic becomes more powerful and mischievous. Your eidolon gains the @Compendium[pf2e.feats-srd.b1eGMNjBY3iqIt2S]{Magical Adept} feat, despite not meeting the prerequisite level, and can choose from fey gift spells in addition to primal spells.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.b1eGMNjBY3iqIt2S"
+      }
+    ],
+    "slug": "fey-mischief",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.092-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.pn0rELSmLV6G5FUu",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 9800000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!pn0rELSmLV6G5FUu"
+}

@@ -1,0 +1,202 @@
+{
+  "_id": "UjTUvPAdzj3Ybg8s",
+  "name": "Undead Eidolon",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 500000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Eidolons.Item.UjTUvPAdzj3Ybg8s"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon is an undead spirit pulled from the Ethereal Plane or Negative Energy Plane, embodied, and bound to your life force in an unusual, potentially antithetical way that even other summoners can't quite understand. Undead eidolons take about every imaginable shape and form, as their bodies manifest from their connection to you. Their ultimate form can be influenced by an amalgamation of the echoes and memories of their old life before becoming undead, their cause of death, their encounters in the afterlife, and portions of your own essences. Together, you and your eidolon need to explore the mysteries of life, death, and undeath to understand what your bond means for both of your futures.</p>\n<p><strong>Tradition</strong> divine</p>\n<p><strong>Traits</strong> eidolon, undead</p>\n<p><strong>Home Plane</strong> Ethereal Plane or Negative Energy Plane</p>\n<p><strong>Size</strong> Medium or Small</p>\n<p><strong>Suggested Attacks</strong> claw (slashing), fist (bludgeoning), jaws (piercing)</p>\n<p><strong>Undead Brute</strong> Str 18, Dex 14, Con 16, Int 8, Wis 10, Cha 12</p>\n<p><strong>Undead Stalker</strong> Str 14, Dex 18, Con 16, Int 8, Wis 12, Cha 10</p>\n<p><strong>Skills</strong> Intimidation, Religion</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Language</strong> Necril</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.CdQUkt9tPINNqSok]{negative essence}; Symbiosis @UUID[Compendium.pf2e-animal-companions.AC-Features.oxpHUtYre2CTaE4t]{drain life}; Transcendence @UUID[Compendium.pf2e-animal-companions.AC-Features.ISKjzLSNysEr7Kit]{rejuvenation}</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.drVBJuBlzQDb9sS0"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.xE3lRxl1t4ulQyLa"
+          }
+        ],
+        "flag": "eidolonType",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.eidolonType}",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.itm.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.rel.rank",
+        "value": 1
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "value": "sm"
+          }
+        ],
+        "flag": "companionSize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.traits.size.value",
+        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          {
+            "or": [
+              "disease",
+              "death-effect",
+              "poison"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.xPn27nNxcLOByTXJ",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.eidolon-features",
+        "value": {
+          "initial": "Compendium.pf2e-animal-companions.AC-Features.Item.CdQUkt9tPINNqSok",
+          "symbiosis": "Compendium.pf2e-animal-companions.AC-Features.oxpHUtYre2CTaE4t",
+          "transcendence": "Compendium.pf2e-animal-companions.AC-Features.ISKjzLSNysEr7Kit"
+        }
+      }
+    ],
+    "slug": "undead-eidolon",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eidolon",
+        "undead"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 0,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "necril"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "ryll6": {
+        "img": "systems/pf2e/icons/features/classes/eidolon.webp",
+        "name": "Eidolon Ability",
+        "level": 0,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.5E71mdImeRE9Fh1D"
+      },
+      "qe0pb": {
+        "img": "systems/pf2e/icons/spells/bestial-curse.webp",
+        "name": "Negative Essence",
+        "level": 0,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.CdQUkt9tPINNqSok"
+      },
+      "if96p": {
+        "img": "systems/pf2e/icons/spells/vampiric-touch.webp",
+        "name": "Drain Life",
+        "level": 0,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.oxpHUtYre2CTaE4t"
+      }
+    },
+    "vision": "darkvision",
+    "source": {
+      "value": "Pathfinder Book of the Dead"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:53.838-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Eidolons.Item.UjTUvPAdzj3Ybg8s",
+    "duplicateSource": null
+  },
+  "_key": "!items!UjTUvPAdzj3Ybg8s"
+}

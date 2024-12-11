@@ -1,0 +1,93 @@
+{
+  "_id": "g4JEtCnKXyY4LJpm",
+  "name": "Feast on the Fallen",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5400000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.g4JEtCnKXyY4LJpm"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency </strong>once per hour</p>\n<p><strong>Trigger </strong>A creature adjacent to the vulture is reduced to 0 Hit Points</p>\n<hr />\n<p>The vulture consumes a piece of the defeated foe, regaining [[/r 18]] Hit Points. If the vulture is a specialized animal companion, increase the Hit Points regained to [[/r 30]].</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "has-advanced-maneuver",
+        "priority": 1
+      }
+    ],
+    "slug": "feast-on-the-fallen",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "healing",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.433-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "weapon": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.g4JEtCnKXyY4LJpm",
+    "duplicateSource": null
+  },
+  "_key": "!items!g4JEtCnKXyY4LJpm"
+}

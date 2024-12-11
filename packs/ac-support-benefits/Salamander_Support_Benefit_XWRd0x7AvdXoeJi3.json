@@ -1,0 +1,56 @@
+{
+  "name": "Salamander Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>AYour salamander secretes a poisonous, viscous fluid from its skin. Until the start of your next turn, if you or your salamander are hit by a creature adjacent to the salamander, that creature takes @Damage[1d6[poison]] damage. This damage increases to @Damage[2d6[poison]] if the salamander is nimble or savage.</p>"
+    },
+    "rules": [],
+    "slug": "salamander-support-benefit",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "XWRd0x7AvdXoeJi3",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d20b6e72af5f785744b275506a6162d23145c28d"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XWRd0x7AvdXoeJi3"
+}

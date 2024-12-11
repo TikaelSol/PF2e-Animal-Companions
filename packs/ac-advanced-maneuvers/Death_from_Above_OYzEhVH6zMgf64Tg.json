@@ -1,0 +1,58 @@
+{
+  "name": "Death from Above",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The flying squirrel crashes down onto a target, furiously clawing at it. The flying squirrel falls to an empty space next to the target, taking no damage, and makes two claw Strikes. Both attacks count toward its multiple attack penalty, but the penalty doesn't increase until after both attacks have been made.</p>"
+    },
+    "rules": [],
+    "slug": "death-from-above",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "OYzEhVH6zMgf64Tg",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ed3b4809febdc369d9c54acbeb477d3724a20be4"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!OYzEhVH6zMgf64Tg"
+}

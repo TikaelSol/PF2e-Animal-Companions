@@ -1,0 +1,96 @@
+{
+  "_id": "3Q7nASFamnMm7cBz",
+  "name": "Turret Configuration",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Construct-Breakthroughs.Item.3Q7nASFamnMm7cBz"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your innovation can transform from a mobile construct to a stationary turret. Your construct companion can transform as a single action, which has the manipulate trait, turning into a turret in its space (or transforming back from a turret into its normal configuration). While it's a turret, your innovation is @Compendium[pf2e.conditionitems.Immobilized]{Immobilized}, but the damage die from its projectile launcher increases to 1d6 and the range increment increases to 60 feet. You must have the projectile launcher modification to select this modification.</p>\n<p><em>Note: If you renamed the Projectile Launcher breakthrough you will need to modify the rule element selector on this to the new name.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "turretMode",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "projectile-launcher-damage",
+        "override": {
+          "dieSize": "d6"
+        },
+        "predicate": [
+          "turretMode"
+        ]
+      }
+    ],
+    "slug": "turret-configuration",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:49.831-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Construct-Breakthroughs.Item.3Q7nASFamnMm7cBz",
+    "duplicateSource": null
+  },
+  "_key": "!items!3Q7nASFamnMm7cBz"
+}

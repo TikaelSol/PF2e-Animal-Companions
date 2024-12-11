@@ -1,0 +1,5 @@
+2024/12/10-20:19:38.656 ebc Recovering log #7
+2024/12/10-20:19:38.656 ebc Level-0 table #9: started
+2024/12/10-20:19:38.661 ebc Level-0 table #9: 24093 bytes OK
+2024/12/10-20:19:38.668 ebc Delete type=0 #7
+2024/12/10-20:19:38.668 ebc Delete type=3 #6

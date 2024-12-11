@@ -1,0 +1,103 @@
+{
+  "_id": "wOtKDptwbz9hU9ZR",
+  "name": "Energy Resistance (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.lVXk0fhZqjqKilhB"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon has stronger resistance. Its resistance from Energy Heart and Dual Energy Heart increase to your level.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "{actor|system.custom.evolutionFeats.dualEnergyHeartChoice}",
+        "value": "@actor.level",
+        "predicate": [
+          "feat:dual-energy-heart"
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "{actor|system.custom.evolutionFeats.energyHeartChoice}",
+        "value": "@actor.level",
+        "predicate": [
+          "feat:energy-heart"
+        ]
+      }
+    ],
+    "slug": "energy-resistance",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Energy Heart"
+        }
+      ]
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:58.648-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.lVXk0fhZqjqKilhB",
+    "duplicateSource": null
+  },
+  "_key": "!items!wOtKDptwbz9hU9ZR"
+}

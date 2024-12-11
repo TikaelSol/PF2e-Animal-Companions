@@ -1,0 +1,77 @@
+{
+  "_id": "N9fYaUuIgD6RQ7CY",
+  "name": "Zombie Mount Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 4800000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.N9fYaUuIgD6RQ7CY"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your zombie mount chews on your enemies. Until the start of your next turn, each time you Strike while riding the zombie mount and hit a creature in the zombie mount's reach, the creature takes [[/r 1d4[bludgeoning]]] damage from the zombie mount. If your zombie mount is nimble or savage, the bludgeoning damage increases to [[/r 2d4[bludgeoning]]]{2d4}. This benefit is based on a zombie horse or camel, but might deal piercing damage if your mount has sharp teeth.</p>"
+    },
+    "rules": [],
+    "slug": "zombie-mount-support-benefit",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #181: Zombie Feast"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:03.606-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.N9fYaUuIgD6RQ7CY",
+    "duplicateSource": null
+  },
+  "_key": "!items!N9fYaUuIgD6RQ7CY"
+}

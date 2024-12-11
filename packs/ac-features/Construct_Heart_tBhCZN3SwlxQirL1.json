@@ -1,0 +1,98 @@
+{
+  "_id": "tBhCZN3SwlxQirL1",
+  "name": "Construct Heart",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/ancestral-memories.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.tBhCZN3SwlxQirL1"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your construct eidolon has a link directly to your life force, which renders it a living creature and therefore susceptible to many ailments that bother only the living, though it does possess some resistances to these effects. It doesn't have a construct's normal immunities, but does gain a +2 circumstance bonus to saving throws against death effects, disease, necromancy, and poison effects, as well as effects causing the @Compendium[pf2e.conditionitems.Fatigued]{Fatigued} or sickened conditions. Additionally, its astral essence bleeds off slowly, and it only needs to succeed at a <span data-pf2-check=\"flat\" data-pf2-dc=\"10\" data-pf2-show-dc=\"owner\">Flat Check</span> to remove persistent bleed damage (or a <span data-pf2-check=\"flat\" data-pf2-dc=\"5\" data-pf2-show-dc=\"owner\">Flat Check</span> after receiving particularly effective aid).</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "death-effects",
+              "disease",
+              "necromancy",
+              "poison",
+              "fatigued",
+              "sickened"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "construct-heart",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.090-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.tBhCZN3SwlxQirL1",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 10500000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!tBhCZN3SwlxQirL1"
+}

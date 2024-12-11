@@ -1,0 +1,84 @@
+{
+  "_id": "EvuMVR9ut9wIHOtq",
+  "name": "Bay",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 2500000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.EvuMVR9ut9wIHOtq"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The shadow hound releases an eerie bay, attempting to <span data-pf2-action=\"demoralize\" data-pf2-glyph=\"A\">Demoralize</span> each foe in a <span data-pf2-effect-area=\"emanation\\\" data-pf2-distance=\"20\">20-foot emanation</span>. These Demoralize attempts don't require a language and don't take any penalty due to not sharing a language.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "has-advanced-maneuver",
+        "priority": 1
+      }
+    ],
+    "slug": "bay",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.461-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "vD7HMkL8eJh8gXaP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.EvuMVR9ut9wIHOtq",
+    "duplicateSource": null
+  },
+  "_key": "!items!EvuMVR9ut9wIHOtq"
+}

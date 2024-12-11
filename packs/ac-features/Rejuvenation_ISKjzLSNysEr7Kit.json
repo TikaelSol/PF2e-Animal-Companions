@@ -1,0 +1,79 @@
+{
+  "name": "Rejuvenation",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/false-life.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon's unusual connection with you allows you both to rejuvenate when defeated. The first time each day your turn begins while you're dying, you instantly regain a number of Hit Points equal to three times your level and wake up. (Increase your wounded condition as normal.) You can immediately Manifest Your Eidolon as a free action. You can then take your turn as normal.</p>"
+    },
+    "rules": [],
+    "slug": "rejuvenation",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.225-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.1KoqDkZR0xt9nEBI"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.1KoqDkZR0xt9nEBI",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 3300000,
+  "_id": "ISKjzLSNysEr7Kit",
+  "_key": "!items!ISKjzLSNysEr7Kit"
+}

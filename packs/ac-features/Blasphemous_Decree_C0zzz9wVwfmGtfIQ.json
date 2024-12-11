@@ -1,0 +1,79 @@
+{
+  "_id": "C0zzz9wVwfmGtfIQ",
+  "name": "Blasphemous Decree",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/divine-decree.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.C0zzz9wVwfmGtfIQ"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your demon utters indescribable words writhing with its associated sin. It can cast an evil <em>@Compendium[pf2e.spells-srd.sX2o0HH4RjJDAZ8C]{Divine Decree}</em> once per day as a 9th-level spell. You are unaffected by this decree, even if you aren't evil. At 19th level, this becomes a 10th-level divine decree instead.</p>"
+    },
+    "rules": [],
+    "slug": "blasphemous-decree",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.230-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.C0zzz9wVwfmGtfIQ",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!C0zzz9wVwfmGtfIQ"
+}

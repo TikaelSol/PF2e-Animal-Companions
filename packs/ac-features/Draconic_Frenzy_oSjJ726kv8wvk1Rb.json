@@ -1,0 +1,84 @@
+{
+  "name": "Draconic Frenzy",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/summon-draconic-legion.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.cgEzBx3hVSOw6Xpk"
+    }
+  },
+  "_id": "oSjJ726kv8wvk1Rb",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon can make a furious assault, potentially recovering the use of their Breath Weapon. They gain the @Compendium[pf2e-animal-companions.AC-Features.HiVt4B5bE2hi0FWc]{Draconic Frenzy} activity.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.HiVt4B5bE2hi0FWc"
+      }
+    ],
+    "slug": "draconic-frenzy",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.093-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.1",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.cgEzBx3hVSOw6Xpk",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 9500000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!oSjJ726kv8wvk1Rb"
+}

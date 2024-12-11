@@ -1,0 +1,77 @@
+{
+  "_id": "TDMhLC16cQOYBbmA",
+  "name": "Triceratops Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5300000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.TDMhLC16cQOYBbmA"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your triceratops gores @Compendium[pf2e.conditionitems.Prone]{Prone} targets in your wake. Until the start of your next turn, your Strikes that damage a prone creature in your triceratops's reach also deal [[/r 1d8[bleed]]] damage. If your triceratops is nimble or savage, the persistent bleed damage increases to [[/r 2d8]]{2d8}.</p>"
+    },
+    "rules": [],
+    "slug": "triceratops-support-benefit",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #177: Burning Tundra"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:03.605-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.TDMhLC16cQOYBbmA",
+    "duplicateSource": null
+  },
+  "_key": "!items!TDMhLC16cQOYBbmA"
+}

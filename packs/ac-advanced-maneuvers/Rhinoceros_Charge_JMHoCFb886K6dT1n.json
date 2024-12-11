@@ -1,0 +1,116 @@
+{
+  "_id": "JMHoCFb886K6dT1n",
+  "name": "Rhinoceros Charge",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 3300000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.JMHoCFb886K6dT1n"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The rhino Strides and makes a horn Strike at the end of its Stride. As long as the rhino moved at least 20 feet, the horn Strike deals 1d8 additional piercing damage, or 2d8 additional damage if your rhino is nimble or savage.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "rhino-charge",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "damage",
+        "damageType": "piercing",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "predicate": [
+          "rhino-charge",
+          {
+            "nor": [
+              "self:savage",
+              "self:nimble"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "DamageDice",
+        "selector": "damage",
+        "damageType": "piercing",
+        "diceNumber": 2,
+        "dieSize": "d8",
+        "predicate": [
+          "rhino-charge",
+          {
+            "or": [
+              "self:savage",
+              "self:nimble"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "rhinoceros-charge",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder #177: Burning Tundra"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.455-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.JMHoCFb886K6dT1n",
+    "duplicateSource": null
+  },
+  "_key": "!items!JMHoCFb886K6dT1n"
+}

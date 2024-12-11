@@ -1,0 +1,60 @@
+{
+  "name": "Chetamog Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A chetamog ignores difficult terrain and greater difficult terrain from non-magical foliage.</p>"
+    },
+    "rules": [],
+    "slug": "chetamog-support-benefit",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #201: Pactbreaker",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": null,
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "pf2e-test-world",
+      "system": "pf2e",
+      "coreVersion": "11.315",
+      "systemVersion": "5.15.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "5y5rpOAEPs2fP0l4",
+  "sort": 900000,
+  "_key": "!items!5y5rpOAEPs2fP0l4"
+}

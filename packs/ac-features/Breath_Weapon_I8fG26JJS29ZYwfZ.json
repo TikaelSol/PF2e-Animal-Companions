@@ -1,0 +1,113 @@
+{
+  "_id": "I8fG26JJS29ZYwfZ",
+  "name": "Breath Weapon",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/dragon-breath.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.I8fG26JJS29ZYwfZ"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon has a powerful breath weapon, which they are able to use regularly to wreak havoc upon your foes. They gain the Breath Weapon activity. Choose a damage type from among acid, cold, electricity, fire, negative, piercing, or poison, and choose whether the area is a @Template[type:line|distance:60] or a @Template[type:cone|distance:30]. Unless you chose piercing damage, both Breath Weapon and your eidolon gain the trait matching the damage type.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.mzeQIa11p6ASSxIm"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.LoOw9anYYf7LDNZ7"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.MmMaKe7G1PQULBjL"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.mL6vuNanUJoubOjL"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.ExCuxQ4A31rmtr8Q"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.wHIXVGxc57t8Va4G"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.hzuu7aoFjo0Hwrub"
+          }
+        ],
+        "flag": "breathWeapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.UI.RuleElemnts.ChoiceSet.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.breathWeapon}"
+      }
+    ],
+    "slug": "breath-weapon",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.225-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.I8fG26JJS29ZYwfZ",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 3200000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!I8fG26JJS29ZYwfZ"
+}

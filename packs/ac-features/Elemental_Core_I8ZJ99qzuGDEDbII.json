@@ -1,0 +1,284 @@
+{
+  "name": "Elemental Core",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your elemental eidolon is an amalgam of elemental matter and mortal life force, which helps protect them from certain effects that are more harmful to mortals than elementals. They gain a +2 circumstance bonus to saving throws against poison and sleep effects, as well as effects causing the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} condition. Additionally, their elemental essence bleeds less easily than flesh, so the DC of any flat check they make to remove persistent bleed damage is 10 (or 5 after receiving particularly effective aid). Choose for your eidolon to be an air, earth, fire, metal, wood, or water elemental. Your eidolon and all their unarmed attacks gain the trait of the chosen element, and the eidolon gains additional effects based on your choice.</p>\n<p><strong>Air</strong>: Your eidolon is formed from elemental air and is light as a breeze. Your eidolon can @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}, @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump}, and @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} twice as far, and doesn't take falling damage.</p>\n<p><strong>Earth</strong>: Your eidolon is formed from elemental earth, and is incredibly hard to move by force. Your eidolon gains a +2 circumstance bonus to their Fortitude or Reflex DCs against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} them. This bonus also applies to saving throws against spells or effects that attempt to knock them @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. In addition, if any effect would force them to move 10 feet or more, they're moved only half the distance.</p>\n<p><strong>Fire</strong>: Your eidolon is formed from elemental fire and burns with embers of flame. Your eidolon gains resistance equal to half your level (minimum 1) to fire and an equal amount of weakness to cold and water. Their unarmed attacks deal 1 additional fire damage.</p>\n<p><strong>Metal</strong>: Your eidolon is formed from elemental metal and can adapt their metallic form to battle. One of your eidolon's starting melee unarmed attacks gains the versatile bludgeoning, piercing, or slashing trait, as your eidolon learns how to shift the metal into various weaponlike forms.</p>\n<p><strong>Water</strong>: Your eidolon is formed from elemental water and swims with ease. Your eidolon gains the amphibious trait, allowing them to breathe in water and air and to avoid the normal –2 penalty for making bludgeoning and slashing unarmed Strikes underwater. Your eidolon's land Speed is reduced to 15 feet, and they gain a swim Speed of 25 feet. You can take the Amphibious Form feat to increase their land Speed back up to 25 feet, as described in the feat.</p>\n<p><strong>Wood</strong>: Your eidolon is formed from elemental wood, and its living wooden form twists and regrows as you focus your elemental energies. You can choose to have your eidolon gain the plant trait. Whenever you Refocus, your eidolon regains a number of Hit Points equal to double your level.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "poison",
+              "sleep",
+              "inflicts:paralyzed"
+            ]
+          }
+        ],
+        "slug": "elemental-core-base"
+      },
+      {
+        "choices": [
+          {
+            "label": "PF2E.TraitAir",
+            "value": "air"
+          },
+          {
+            "label": "PF2E.TraitEarth",
+            "value": "earth"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitMetal",
+            "value": "metal"
+          },
+          {
+            "label": "PF2E.TraitWater",
+            "value": "water"
+          },
+          {
+            "label": "PF2E.TraitWood",
+            "value": "wood"
+          }
+        ],
+        "flag": "element",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Element",
+        "rollOption": "elemental-core"
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "{item|flags.pf2e.rulesSelections.element}"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "{item|flags.pf2e.rulesSelections.element}"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 2,
+        "predicate": [
+          "elemental-core:earth",
+          {
+            "or": [
+              "action:shove",
+              "action:trip",
+              "inflicts:prone"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "fire",
+        "value": "max(1,floor(@actor.level/2))",
+        "predicate": [
+          "elemental-core:fire"
+        ]
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "amphibious"
+        ],
+        "predicate": [
+          "elemental-core:water"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "value": -10,
+        "predicate": [
+          "elemental-core:water"
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 25,
+        "predicate": [
+          "elemental-core:water"
+        ]
+      },
+      {
+        "choices": [
+          {
+            "label": "Gain the plant trait",
+            "value": "plant"
+          },
+          {
+            "label": "Don't gain the plant trait",
+            "value": "eidolon"
+          }
+        ],
+        "flag": "newTrait",
+        "key": "ChoiceSet",
+        "prompt": "Gain the plant trait?",
+        "predicate": [
+          "elemental-core:wood"
+        ]
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "{item|flags.pf2e.rulesSelections.newTrait}"
+        ],
+        "predicate": [
+          "elemental-core:wood"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.granted",
+        "predicate": [
+          "elemental-core:air"
+        ],
+        "value": {
+          "slug": "sussuran",
+          "source": "Elemental Eidolon"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.granted",
+        "predicate": [
+          "elemental-core:earth"
+        ],
+        "value": {
+          "slug": "petran",
+          "source": "Elemental Eidolon"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.granted",
+        "predicate": [
+          "elemental-core:fire"
+        ],
+        "value": {
+          "slug": "pyric",
+          "source": "Elemental Eidolon"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.granted",
+        "predicate": [
+          "elemental-core:metal"
+        ],
+        "value": {
+          "slug": "talican",
+          "source": "Elemental Eidolon"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.granted",
+        "predicate": [
+          "elemental-core:water"
+        ],
+        "value": {
+          "slug": "thalassic",
+          "source": "Elemental Eidolon"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.granted",
+        "predicate": [
+          "elemental-core:wood"
+        ],
+        "value": {
+          "slug": "muran",
+          "source": "Elemental Eidolon"
+        }
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder Rage of Elements"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "version": {
+          "schema": 0.854,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    }
+  },
+  "img": "systems/pf2e/icons/spells/eclipse-burst.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "I8ZJ99qzuGDEDbII",
+  "sort": 9300000,
+  "_key": "!items!I8ZJ99qzuGDEDbII"
+}

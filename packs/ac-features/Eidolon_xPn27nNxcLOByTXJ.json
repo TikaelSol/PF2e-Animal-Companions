@@ -1,0 +1,255 @@
+{
+  "_id": "xPn27nNxcLOByTXJ",
+  "name": "Eidolon",
+  "type": "class",
+  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.4yrittMrVNhR2woZ"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.8dyatrsCMoIPuOlE"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.8IodRUpyU4nXGyAv"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.cIAB28BfwNA2uTQv"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.GEVoWzCBjidkO6DG"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.8EJNylotPDelRtZK"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.XNgPUKsnRQO2OS2O"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.ZXrAWVLwKxz5kovL"
+          }
+        ],
+        "flag": "primaryStrike",
+        "key": "ChoiceSet",
+        "prompt": "Select the Details of the Primary Strike. These can be edited on the inventory tab later."
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.primaryStrike}",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.v5dfcKYsaD0EvvtH",
+        "allowDuplicate": false
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "hp-per-level",
+        "type": "item",
+        "value": "-@actor.system.abilities.con.mod"
+      }
+    ],
+    "slug": "eidolon",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "keyAbility": {
+      "value": []
+    },
+    "items": {
+      "il5oe": {
+        "img": "systems/pf2e/icons/spells/devour-life.webp",
+        "name": "Eidolon Ability Boosts (5th)",
+        "level": 5,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.jQBe4yXTAcMt2kKQ"
+      },
+      "qnt39": {
+        "img": "systems/pf2e/icons/spells/devour-life.webp",
+        "name": "Eidolon Ability Boosts (20th)",
+        "level": 20,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.0i2ZSrRpjKG0KV4U"
+      },
+      "k0uzu": {
+        "img": "systems/pf2e/icons/spells/devour-life.webp",
+        "name": "Eidolon Ability Boosts (15th)",
+        "level": 15,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.GpeinpTPNrfAijp2"
+      },
+      "m99vd": {
+        "img": "systems/pf2e/icons/spells/devour-life.webp",
+        "name": "Eidolon Ability Boosts (10th)",
+        "level": 10,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.iRlcl9MOhoEL943l"
+      },
+      "46m9q": {
+        "img": "systems/pf2e/icons/features/classes/shared-vigilance.webp",
+        "name": "Shared Vigilance",
+        "level": 3,
+        "uuid": "Compendium.pf2e.classfeatures.Item.QiMlJ33kNEoyh1M0"
+      },
+      "qs3dj": {
+        "img": "systems/pf2e/icons/features/classes/resolve.webp",
+        "name": "Shared Resolve",
+        "level": 15,
+        "uuid": "Compendium.pf2e.classfeatures.Item.eZPfHVz14j42jCnS"
+      },
+      "v3p8l": {
+        "img": "systems/pf2e/icons/features/classes/lightning-reflexes.webp",
+        "name": "Shared Reflexes",
+        "level": 9,
+        "uuid": "Compendium.pf2e.classfeatures.Item.dZNAXTQovlWVvAyX"
+      },
+      "acx0x": {
+        "img": "systems/pf2e/icons/features/classes/juggerenaut.webp",
+        "name": "Twin Juggernauts",
+        "level": 11,
+        "uuid": "Compendium.pf2e.classfeatures.Item.q1Y12Pg2gQg2FJPR"
+      },
+      "o16um": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-symbiosis.webp",
+        "name": "Eidolon Symbiosis",
+        "level": 7,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.RsDBv9TwwNMnofud"
+      },
+      "znxxl": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-transcendence.webp",
+        "name": "Eidolon Transcendence",
+        "level": 17,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.E7DFHsVNS1xph8DT"
+      },
+      "sl284": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-weapon-specialization.webp",
+        "name": "Eidolon Weapon Specialization",
+        "level": 7,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.a6supDv34hhqsktB"
+      },
+      "7hpon": {
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Greater Eidolon Specialization",
+        "level": 15,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.VzJuYopRKC81GteD"
+      },
+      "njojj": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-defensive-expertise.webp",
+        "name": "Eidolon Defensive Expertise",
+        "level": 11,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.8PDmjqUZ1qfVhnFx"
+      },
+      "0pcmz": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-defensive-mastery.webp",
+        "name": "Eidolon Defensive Mastery",
+        "level": 19,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.bFHz5ZHKMGTDkggN"
+      },
+      "dw7ap": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-unarmed-mastery.webp",
+        "name": "Eidolon Unarmed Mastery",
+        "level": 13,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.rbOOv8FqBFQlTDeu"
+      },
+      "86i1y": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-unarmed-expertise.webp",
+        "name": "Eidolon Unarmed Expertise",
+        "level": 5,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.zF6bLjVwj7Njkqan"
+      }
+    },
+    "hp": 0,
+    "trainedSkills": {
+      "value": [],
+      "additional": 0,
+      "custom": ""
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 0,
+      "martial": 0,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 0,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "ancestryFeatLevels": {
+      "value": []
+    },
+    "classFeatLevels": {
+      "value": []
+    },
+    "generalFeatLevels": {
+      "value": []
+    },
+    "skillFeatLevels": {
+      "value": []
+    },
+    "skillIncreaseLevels": {
+      "value": []
+    },
+    "source": {
+      "value": "Pathfinder Secrets of Magic"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:18:01.326-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "classDC": 0
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.3",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.4yrittMrVNhR2woZ",
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 11000000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!xPn27nNxcLOByTXJ"
+}

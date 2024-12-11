@@ -1,0 +1,56 @@
+{
+  "name": "Aerial Retreat",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The hippogriff makes a talon Strike, then Flies with a +10-foot circumstance bonus to its fly Speed. The hippogriff and its rider gain a +2 circumstance bonus to AC against reactions triggered by this movement.</p>"
+    },
+    "rules": [],
+    "slug": "aerial-retreat",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "_id": "SkVl3yomdYZoS7Hx",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ab67af8de4329cb18f29ceb8ec95e50c03e8808f"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!SkVl3yomdYZoS7Hx"
+}

@@ -1,0 +1,82 @@
+{
+  "_id": "6LvtdtVVwtbzqUXG",
+  "name": "Screaming Skull",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 1800000,
+  "flags": {
+    "core": {
+      "sourceId": "Item.6LvtdtVVwtbzqUXG"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The skeleton removes its skull and throws it, making a jaws Strike with a range of 20 feet. Regardless of whether it hits, the target and all enemies within 10 feet must attempt a Will save or be @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}, or @Compendium[pf2e.conditionitems.Frightened]{Frightened 2} on a critical failure. This uses a trained DC using the skeleton's Charisma modifier or an expert DC if the skeleton is specialized. At the start of the skeleton's next turn, the head bounces, rolls, or flies back to reattach. The skeleton is blind while its head is away.</p>"
+    },
+    "rules": [],
+    "slug": "screaming-skull",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "emotion",
+        "fear",
+        "mental"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Pathfinder Book of the Dead"
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:42.464-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": "Item.6LvtdtVVwtbzqUXG",
+    "duplicateSource": null
+  },
+  "_key": "!items!6LvtdtVVwtbzqUXG"
+}

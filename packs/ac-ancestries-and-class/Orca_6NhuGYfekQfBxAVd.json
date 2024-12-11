@@ -1,0 +1,159 @@
+{
+  "name": "Orca",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is a killer whale.</p>\n<p><strong>Size </strong>Large</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> jaws, Damage 1d8 piercing</p>\n<p><strong>Str </strong>+3, <strong>Dex </strong>+2, <strong>Con </strong>+3, <strong>Int </strong>–4, <strong>Wis </strong>+0, <strong>Cha </strong>+0</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill </strong>Survival</p>\n<p><strong>Senses </strong>echolocation 30 feet (the orca can use hearing as a precise sense within this range while underwater)</p>\n<p><strong>Speed </strong>5 feet, swim 40 feet</p>\n<p><strong>Special</strong> @UUID[Compendium.pf2e.actionspf2e.Item.PM5jvValFkbFH3TV]{Mount}; the orca can hold its breath for 20 minutes.</p>\n<p><strong>Support Benefit </strong>Your orca attempts to drag down unwary swimmers. Until the start of your next turn, each time you hit a swimming creature in the orca's reach, the target is pulled 5 feet down into the water. This is forced movement.</p>\n<p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HY6rzDpBJ4L5OmgI]{Breach}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 0,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.sur.rank"
+      },
+      {
+        "acuity": "precise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "echolocation"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 40
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.jaws",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:ancestry:orca",
+        "priority": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.EkyB80qlJ6VbC7bi"
+      }
+    ],
+    "slug": "orca",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "animal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "hp": 8,
+    "size": "lg",
+    "reach": 5,
+    "speed": 5,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "normal"
+  },
+  "_id": "6NhuGYfekQfBxAVd",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d7a2e37fc09d8537b27be51215213400b33a4fa6"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!6NhuGYfekQfBxAVd"
+}

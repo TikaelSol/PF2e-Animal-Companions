@@ -1,0 +1,59 @@
+{
+  "name": "Poisonous Sweep",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The salamander secretes poison from the glands on its tail and bludgeons an enemy to apply it to them. It makes a tail Strike. If the Strike hits, the target takes an additional @Damage[1d6[persistent,poison]] damage. If your salamander is nimble or savage, increase this damage to @Damage[2d6[persistent,poison]] damage.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish",
+        "poison"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "l3aasm0to5RvUkU0",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d82b2ed997c7a48b592048093b365c63e478b0d3"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.4",
+    "coreVersion": "12.331",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!l3aasm0to5RvUkU0"
+}
