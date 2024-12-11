@@ -1,0 +1,112 @@
+{
+  "_id": "Sb8e7jIDTGghYvEk",
+  "name": "Wildfire Scorcher",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/summon-draconic-legion.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.Sb8e7jIDTGghYvEk"
+    },
+    "exportSource": {
+      "world": "ac",
+      "system": "pf2e",
+      "coreVersion": "0.8.8",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion gains resistance to fire equal to your level. Any creature that attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} or Grab your companion, hits your companion with a melee unarmed attack, or hits your companion with a melee weapon Strike while adjacent to your companion takes @Damage[2d6[fire]] damage. Its Dexterity modifier increases by 1 and its proficiency rank increases to legendary for Reflex saves and to expert for unarmored defense. This specialization can only be selected by efreeti-touched companions.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "fire",
+        "value": "@actor.level"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      }
+    ],
+    "slug": "specialized-wildfire-scorcher",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "specialized-companion-benefit"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:47.348-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "reflex": {
+          "rank": 4
+        },
+        "unarmored": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.Sb8e7jIDTGghYvEk",
+    "duplicateSource": null
+  },
+  "_key": "!items!Sb8e7jIDTGghYvEk"
+}

@@ -1,0 +1,141 @@
+{
+  "_id": "c04kGEFIMMwsKCEP",
+  "name": "Wind Chaser",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/familiar-form.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.c04kGEFIMMwsKCEP"
+    },
+    "exportSource": {
+      "world": "ac",
+      "system": "pf2e",
+      "coreVersion": "0.8.8",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion gains a +20-foot status bonus to its Speed or fly Speed (your choice if it has both). Its proficiency in Acrobatics increases to master and its Dexterity modifier increases by 1. Its proficiency rank increases to legendary for Reflex saves and to expert for unarmored defense. This specialization can only be selected by djinni-touched companions.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "PF2E.Actor.Speed.Type.Land",
+            "value": "land-speed",
+            "predicate": [
+              "speed:land"
+            ]
+          },
+          {
+            "label": "PF2E.Actor.Speed.Type.Fly",
+            "value": "fly-speed",
+            "predicate": [
+              "speed:fly"
+            ]
+          }
+        ],
+        "flag": "speed",
+        "prompt": "Which speed should gain a bonus?"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|flags.pf2e.rulesSelections.speed}",
+        "value": 20,
+        "type": "status"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      }
+    ],
+    "slug": "specialized-wind-chaser",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "specialized-companion-benefit"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:47.346-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "reflex": {
+          "rank": 4
+        },
+        "unarmored": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.c04kGEFIMMwsKCEP",
+    "duplicateSource": null
+  },
+  "_key": "!items!c04kGEFIMMwsKCEP"
+}

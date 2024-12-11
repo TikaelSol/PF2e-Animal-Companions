@@ -14,9 +14,15 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Cryptid animal companions look a touch peculiar, often with uncanny features or ones that seem to come from a different animal. If you take a feat that would normally allow you to choose to have your companion become a savage or nimble animal companion, you can choose to make it an unseen animal companion instead. An unseen companion increases its Wisdom modifier by 2 and its Strength, Dexterity, and Constitution modifiers by 1. It deals 3 additional Damage with its unarmed attacks and deals an extra 1d4 precision damage against @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} targets (if the animal companion already deals precision damage, such as a cat, combine the precision damage). Increase its proficiency rank in Stealth to expert. It also learns the advanced maneuver for its type.</p>"
+      "value": "<p>Cryptid animal companions look a touch peculiar, often with uncanny features or ones that seem to come from a different animal. If you take a feat that would normally allow you to choose to have your companion become a savage or nimble animal companion, you can choose to make it an unseen animal companion instead. An unseen companion increases its Wisdom modifier by 2 and its Strength, Dexterity, and Constitution modifiers by 1. It deals 3 additional damage with its unarmed attacks and deals an extra 1d4 precision damage against flat‑footed targets (if the animal companion already deals precision damage, such as a cat, combine the precision damage). Increase its proficiency rank in Stealth to expert. It also learns the advanced maneuver for its type.</p>"
     },
     "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 1,
@@ -36,44 +42,32 @@
         "path": "system.abilities.con.mod"
       },
       {
-        "key": "ActiveEffectLike",
-        "value": 2,
-        "mode": "add",
-        "path": "system.abilities.wis.mod"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 2,
-        "mode": "upgrade",
-        "path": "system.skills.ste.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 3,
-        "mode": "upgrade",
-        "path": "system.custom.modifiers.additionalDamage",
-        "priority": 49
-      },
-      {
         "key": "FlatModifier",
-        "selector": "damage",
-        "value": "@actor.system.custom.modifiers.additionalDamage"
+        "selector": "unarmed-damage",
+        "value": 3,
+        "slug": "companion-additional-damage"
+      },
+      {
+        "key": "RollOption",
+        "label": "PF2E.SpecificRule.TOTMToggle.OffGuard",
+        "option": "target:condition:off-guard",
+        "toggleable": "totm"
       },
       {
         "category": "precision",
         "dieSize": "d4",
         "key": "DamageDice",
         "predicate": [
-          "target:off-guard"
+          "target:condition:off-guard"
         ],
-        "selector": "damage",
+        "selector": "unarmed-damage",
         "diceNumber": 1
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:unseen",
-        "priority": 1
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.skills.stealth.rank"
       },
       {
         "key": "GrantItem",
@@ -134,7 +128,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.xsxAPvjWZLCUpyNR",
     "duplicateSource": null

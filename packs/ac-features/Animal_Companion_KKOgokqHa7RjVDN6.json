@@ -18,21 +18,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": ""
+      "value": "<p>The following are the base statistics for a young animal companion, the first animal companion most characters get. You adjust these statistics depending on the type of animal you choose. Animal companions calculate their modifiers and DCs just as you do with one difference: the only item bonuses they can benefit from are to Speed and AC (their maximum item bonus to AC is +3). As you gain levels, you might be able to make your companion stronger by advancing it.</p><p>An animal companion's starting statistics are as follows.</p><ul><li><strong>Level:</strong> Your animal companion's level is equal to yours.</li><li><strong>Proficiencies:</strong> Your animal companion is trained in its unarmed attacks, unarmored defense, barding (a type of armor for animals), all saving throws, Perception, Acrobatics, and Athletics. Animal companions can't use abilities that require greater Intelligence, such as @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Coerce} or Decipher Writing, even if trained in the appropriate skill, unless they have a specialization that allows it.</li><li><strong>Attribute Modifiers:</strong> An animal companion begins with base attribute modifiers listed in its stat block.</li><li><strong>Hit Points:</strong> Your animal companion has ancestry Hit Points from its type, plus a number of Hit Points equal to 6 plus its Constitution modifier for each level you have.</li></ul>"
     },
     "rules": [
-      {
-        "key": "ActiveEffectLike",
-        "value": 1,
-        "mode": "upgrade",
-        "path": "system.attributes.perception.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 1,
-        "mode": "upgrade",
-        "path": "system.martial.unarmed.rank"
-      },
       {
         "key": "ActiveEffectLike",
         "value": -4,
@@ -47,26 +35,6 @@
         "priority": 10
       },
       {
-        "key": "ActiveEffectLike",
-        "value": 2,
-        "mode": "add",
-        "path": "system.abilities.int.mod",
-        "predicate": [
-          "self:specialized"
-        ],
-        "priority": 51
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 1,
-        "mode": "add",
-        "path": "system.abilities.dex.mod",
-        "predicate": [
-          "self:specialized"
-        ],
-        "priority": 51
-      },
-      {
         "key": "ActorTraits",
         "add": [
           "minion"
@@ -75,14 +43,14 @@
       {
         "key": "ActiveEffectLike",
         "mode": "upgrade",
-        "path": "system.martial.light-barding.rank",
+        "path": "system.proficiencies.defenses.light-barding.rank",
         "priority": 41,
         "value": 1
       },
       {
         "key": "ActiveEffectLike",
         "mode": "upgrade",
-        "path": "system.martial.heavy-barding.rank",
+        "path": "system.proficiencies.defenses.heavy-barding.rank",
         "priority": 41,
         "value": 1
       }
@@ -174,7 +142,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.2",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.h6Ybhv5URar01WPk",
     "duplicateSource": null

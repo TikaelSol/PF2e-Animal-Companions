@@ -1,0 +1,124 @@
+{
+  "_id": "lm4QlSITABQKhx5K",
+  "name": "Shade",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/aerial-form.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.lm4QlSITABQKhx5K"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Access</strong> Shadowcaster</p><hr /><p>Your companion's physical form is made, in whole or in part, of shadow. It gains darkvision, resistance 5 to all damage except force, and in areas of dim light or darkness, it can Step 10 feet instead of 5 feet. Its proficiency rank in unarmored defense increases to expert, or master if it's nimble.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "shade-resistance",
+        "label": "PF2E.SkillVariant.DimLightOrDarkness",
+        "toggleable": true
+      },
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "exceptions": [
+          "force"
+        ],
+        "value": 5,
+        "predicate": [
+          {
+            "or": [
+              "shade-resistance",
+              "lighting:dim",
+              "lighting:darkness"
+            ]
+          }
+        ]
+      },
+      {
+        "path": "system.proficiencies.defenses.unarmored.rank",
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "value": 3,
+        "predicate": [
+          "feature:nimble-animal-companion"
+        ]
+      }
+    ],
+    "slug": "specialized-shade",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "specialized-companion-benefit"
+      ],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:47.344-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "subfeatures": {
+      "senses": {
+        "darkvision": {}
+      },
+      "proficiencies": {
+        "unarmored": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "vD7HMkL8eJh8gXaP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.lm4QlSITABQKhx5K",
+    "duplicateSource": null
+  },
+  "_key": "!items!lm4QlSITABQKhx5K"
+}

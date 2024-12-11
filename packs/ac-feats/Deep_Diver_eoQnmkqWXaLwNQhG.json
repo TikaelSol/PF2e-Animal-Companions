@@ -1,0 +1,145 @@
+{
+  "_id": "eoQnmkqWXaLwNQhG",
+  "name": "Deep Diver",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/feet-to-fins.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.KCbNpQElh8V0QX1Z"
+    },
+    "exportSource": {
+      "world": "ac",
+      "system": "pf2e",
+      "coreVersion": "0.8.8",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion gains a swim Speed of 30 feet or a +10-foot status bonus to its existing swim Speed and can breathe underwater if it couldn't already. Its Constitution modifier increases by 1. Its proficiency rank for Athletics increases to master and for barding increases to expert. This specialization can only be selected by marid-touched companions.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Gain a swim speed",
+            "value": "gain-swim-speed"
+          },
+          {
+            "label": "Increase existing swim speed",
+            "value": "increase-swim-speed"
+          }
+        ],
+        "rollOption": "deep-diver"
+      },
+      {
+        "key": "BaseSpeed",
+        "value": 30,
+        "selector": "swim",
+        "predicate": [
+          "deep-diver:gain-swim-speed"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "swim-speed",
+        "value": 10,
+        "type": "status",
+        "predicate": [
+          "deep-diver:increase-swim-speed"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank"
+      }
+    ],
+    "slug": "specialized-deep-diver-base-speed",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "specialized-companion-benefit"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:47.346-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "heavy-barding": {
+          "rank": 2
+        },
+        "light-barding": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.KCbNpQElh8V0QX1Z",
+    "duplicateSource": null
+  },
+  "_key": "!items!eoQnmkqWXaLwNQhG"
+}
