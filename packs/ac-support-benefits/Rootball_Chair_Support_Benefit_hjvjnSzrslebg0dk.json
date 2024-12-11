@@ -19,17 +19,17 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Treasure Vault",
       "authors": "",
       "license": "OGL",
       "remaster": false
     },
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "category": "offensive",
     "actions": {
-      "value": ""
+      "value": 1
     },
     "deathNote": false,
     "source": {
@@ -53,7 +53,7 @@
       "value": ""
     }
   },
-  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3
@@ -63,7 +63,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null
