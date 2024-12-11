@@ -1,0 +1,116 @@
+{
+  "_id": "Pa0h9IoePPvnEvUn",
+  "name": "Daredevil",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/animal-messenger.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.Pa0h9IoePPvnEvUn"
+    },
+    "exportSource": {
+      "world": "ac",
+      "system": "pf2e",
+      "coreVersion": "0.8.8",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion joins the fray with graceful leaps and dives. It gains the deny advantage ability, so it isn't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected}, or flanking creatures unless such a creature's level is greater than yours. Its proficiency rank in Acrobatics increases to master, and its Dexterity modifier increases by 1. Its proficiency rank in unarmored defense increases to expert.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.flanking.offGuardable",
+        "value": "@actor.level"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.skills.acrobatics.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      }
+    ],
+    "slug": "daredevil",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "specialized-companion-benefit"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:47.348-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "unarmored": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.Pa0h9IoePPvnEvUn",
+    "duplicateSource": null
+  },
+  "_key": "!items!Pa0h9IoePPvnEvUn"
+}

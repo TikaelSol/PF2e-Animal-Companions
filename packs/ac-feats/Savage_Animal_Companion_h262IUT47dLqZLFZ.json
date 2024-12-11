@@ -24,6 +24,11 @@
     },
     "rules": [
       {
+        "key": "CreatureSize",
+        "value": 1,
+        "maximumSize": "lg"
+      },
+      {
         "key": "ActiveEffectLike",
         "value": 2,
         "mode": "add",
@@ -51,40 +56,28 @@
         "key": "ActiveEffectLike",
         "value": 2,
         "mode": "upgrade",
-        "path": "system.skills.ath.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 3,
-        "mode": "upgrade",
-        "path": "system.custom.modifiers.additionalDamage",
-        "priority": 49
-      },
-      {
-        "key": "CreatureSize",
-        "value": 1,
-        "maximumSize": "lg"
-      },
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:savage",
-        "priority": 1
+        "path": "system.skills.athletics.rank"
       },
       {
         "key": "FlatModifier",
-        "selector": "strike-damage",
-        "value": "@actor.system.custom.modifiers.additionalDamage"
+        "selector": "unarmed-damage",
+        "value": 3,
+        "slug": "companion-additional-damage"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "magical",
+        "predicate": [
+          "item:category:unarmed"
+        ],
+        "itemType": "weapon"
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB"
-      },
-      {
-        "key": "AdjustStrike",
-        "mode": "add",
-        "property": "weapon-traits",
-        "value": "magical"
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB",
+        "allowDuplicate": false
       }
     ],
     "slug": "savage-animal-companion",
@@ -143,7 +136,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.h262IUT47dLqZLFZ",
     "duplicateSource": null

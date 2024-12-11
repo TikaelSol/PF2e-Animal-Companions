@@ -1,0 +1,121 @@
+{
+  "name": "Specialized Animal Companion",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Specialized animal companions are more intelligent and engage in more complex behaviors. Most animal companions can have only one specialization. The first time an animal gains a specialization, it also gains the following.</p><ul><li>Its proficiency rank for unarmed attacks increases to expert.</li><li>Its proficiency ranks for saving throws and Perception increase to master.</li><li>Increase its Dexterity modifier by 1 and its Intelligence modifier by 2.</li><li>Its unarmed attack damage increases from two dice to three dice, and it increases its additional damage with unarmed attacks from 2 to 4 or from 3 to 6.</li></ul>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "unarmed-damage"
+        ],
+        "value": 3,
+        "mode": "upgrade",
+        "property": "dice-number"
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "unarmed-damage",
+        "mode": "multiply",
+        "slug": "companion-additional-damage",
+        "value": 2
+      },
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": {
+          "filter": [
+            "item:tag:specialized-companion-benefit"
+          ]
+        },
+        "flag": "benefit",
+        "prompt": "Select a specialized companion you have access to"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.benefit}"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "unarmed": {
+          "rank": 2
+        },
+        "fortitude": {
+          "rank": 3
+        },
+        "reflex": {
+          "rank": 3
+        },
+        "will": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "_id": "alc3ET2e0J4TSbfD",
+  "img": "icons/creatures/abilities/paw-print-orange.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "AhhBYTk3xYRMuz4T": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2"
+  },
+  "_key": "!items!alc3ET2e0J4TSbfD"
+}

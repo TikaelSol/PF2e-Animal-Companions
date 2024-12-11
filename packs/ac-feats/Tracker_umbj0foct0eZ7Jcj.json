@@ -1,0 +1,109 @@
+{
+  "_id": "umbj0foct0eZ7Jcj",
+  "name": "Tracker",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/juvenile-companion.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.umbj0foct0eZ7Jcj"
+    },
+    "exportSource": {
+      "world": "ac",
+      "system": "pf2e",
+      "coreVersion": "0.8.8",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is an incredible tracker. It can move at full Speed while following tracks. Its proficiency rank in Survival increases to expert (or master if it was already an expert from its type), and its Wisdom modifier increases by 1.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.survival.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "downgrade",
+        "path": "system.skills.survival.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      }
+    ],
+    "slug": "tracker",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "specialized-companion-benefit"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:47.328-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.umbj0foct0eZ7Jcj",
+    "duplicateSource": null
+  },
+  "_key": "!items!umbj0foct0eZ7Jcj"
+}

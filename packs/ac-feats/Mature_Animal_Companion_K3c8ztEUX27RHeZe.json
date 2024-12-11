@@ -20,9 +20,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>To advance a young animal companion to a mature animal companion (usually a result of one of your class feat choices), increase its Strength, Dexterity, Constitution, and Wisdom modifiers by 1. Increase its unarmed attack damage from one die to two dice (for instance 1d8 to 2d8), and its proficiency rank for Perception and all saving throws to expert. Increase its proficiency ranks in Intimidation, Stealth, and Survival to trained, and if it was already trained in one of those skills from its type, increase its proficiency rank in that skill to expert. If your companion is Medium or smaller, it grows by one size.</p>"
+      "value": "<p>When you advance a young animal companion to a mature animal companion:</p><ul><li>If your companion is Medium or smaller, it grows by one size.</li><li>Increase its Strength, Dexterity, Constitution, and Wisdom modifiers by 1.</li><li>Increase its proficiency rank for Perception and all saving throws to expert. Increase its proficiency ranks in Intimidation, Stealth, and Survival to trained, and if it was already trained in one of those skills from its type, increase its proficiency rank in that skill to expert.</li><li>Increase its unarmed attack damage from one die to two dice (for instance 1d8 to 2d8)</li></ul>"
     },
     "rules": [
+      {
+        "key": "CreatureSize",
+        "value": 1,
+        "maximumSize": "lg"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 1,
@@ -51,62 +56,28 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.itm.rank"
+        "path": "system.skills.intimidation.rank"
       },
       {
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.ste.rank"
+        "path": "system.skills.stealth.rank"
       },
       {
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
+        "path": "system.skills.survival.rank"
       },
       {
-        "key": "ActiveEffectLike",
-        "value": 2,
-        "mode": "upgrade",
-        "path": "system.attributes.perception.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 2,
-        "mode": "upgrade",
-        "path": "system.saves.fortitude.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 2,
-        "mode": "upgrade",
-        "path": "system.saves.will.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 2,
-        "mode": "upgrade",
-        "path": "system.saves.reflex.rank"
-      },
-      {
-        "key": "Striking",
-        "predicate": [
-          "unarmed"
+        "key": "DamageAlteration",
+        "selectors": [
+          "unarmed-damage"
         ],
-        "selector": "strike-damage",
-        "value": 1
-      },
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:mature",
-        "priority": 1
-      },
-      {
-        "key": "CreatureSize",
-        "value": 1,
-        "maximumSize": "lg"
+        "value": 2,
+        "mode": "upgrade",
+        "property": "dice-number"
       }
     ],
     "slug": "mature-animal-companion",
@@ -157,6 +128,22 @@
     },
     "rarity": {
       "value": "common"
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "perception": {
+          "rank": 2
+        },
+        "fortitude": {
+          "rank": 2
+        },
+        "reflex": {
+          "rank": 2
+        },
+        "will": {
+          "rank": 2
+        }
+      }
     }
   },
   "ownership": {
@@ -165,7 +152,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.K3c8ztEUX27RHeZe",
     "duplicateSource": null

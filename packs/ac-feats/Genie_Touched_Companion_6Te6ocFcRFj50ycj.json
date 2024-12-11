@@ -1,0 +1,187 @@
+{
+  "name": "Genie-Touched Companion",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>If you take a feat that would normally allow you to choose to have a savage or nimble animal companion, you can instead choose to for it to become a genie-touched companion. When you choose the feat, select the type of genie whose power infuses your companion. The genies and their elemental traits are as follows: djinni (air), efreeti (fire), marid (water), or shaitan (earth). A genie-touched companion increases its Wisdom modifier by 2 and its Strength, Dexterity, and Constitution modifiers by 1. It deals 3 additional damage with its unarmed attacks; this damage is fire damage for an efreet-touched companion or of the same type as the unarmed attack for the others. It gains resistance 5 to damage of a type depending on the genie: acid for djinni, fire for efreeti or marid, and electricity for shaitan. If the companion is djinni-touched or efreeti-touched, increase its proficiency rank in Acrobatics to expert; if it is marid-touched or shaitan-touched, increase its proficiency rank in Athletics to expert. It also learns the advanced maneuver for its type. Its attacks count as magical for the purpose of ignoring resistances and gain the genie's elemental trait. Genie-touched companions can choose from the following options when they become specialized animal companions.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Djinni",
+            "value": {
+              "genie": "djinni",
+              "resistance": "acid",
+              "skill": "acrobatics",
+              "trait": "air"
+            }
+          },
+          {
+            "label": "Efreeti",
+            "value": {
+              "genie": "efreeti",
+              "resistance": "fire",
+              "skill": "acrobatics",
+              "trait": "fire"
+            }
+          },
+          {
+            "label": "Marid",
+            "value": {
+              "genie": "marid",
+              "resistance": "fire",
+              "skill": "athletics",
+              "trait": "water"
+            }
+          },
+          {
+            "label": "Shaitan",
+            "value": {
+              "genie": "shaitan",
+              "resistance": "electricity",
+              "skill": "athletics",
+              "trait": "earth"
+            }
+          }
+        ],
+        "flag": "genieTouchedCompanion"
+      },
+      {
+        "key": "RollOption",
+        "option": "genie-touched-companion:{item|flags.pf2e.rulesSelections.genieTouchedCompanion.genie}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "unarmed-damage",
+        "value": 3,
+        "slug": "companion-additional-damage"
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "unarmed-damage"
+        ],
+        "predicate": [
+          "modifier:slug:companion-additional-damage",
+          "genie-touched-companion:efreeti"
+        ],
+        "mode": "override",
+        "value": "fire",
+        "property": "damage-type"
+      },
+      {
+        "key": "Resistance",
+        "value": 5,
+        "type": "{item|flags.pf2e.rulesSelections.genieTouchedCompanion.resistance}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.genieTouchedCompanion.skill}.rank"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "magical",
+        "predicate": [
+          "item:category:unarmed"
+        ],
+        "itemType": "weapon"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "{item|flags.pf2e.rulesSelections.genieTouchedCompanion.trait}",
+        "predicate": [
+          "item:category:unarmed"
+        ],
+        "itemType": "weapon"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "6Te6ocFcRFj50ycj",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "AhhBYTk3xYRMuz4T": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2"
+  },
+  "_key": "!items!6Te6ocFcRFj50ycj"
+}

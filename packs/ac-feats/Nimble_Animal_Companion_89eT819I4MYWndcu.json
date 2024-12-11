@@ -20,20 +20,20 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>To advance a mature animal companion to a nimble animal companion, increase its Dexterity modifier by 2 and its Strength, Constitution, and Wisdom modifiers by 1. It deals 2 additional damage with its unarmed attacks. Increase its proficiency ranks in Acrobatics to expert. It also learns the advanced maneuver for its type. Its attacks become magical for the purpose of ignoring resistances.</p>"
+      "value": "<p>To advance a mature animal companion to a nimble animal companion:</p><ul><li>Increase its Dexterity modifier by 2 and its Strength, Constitution, and Wisdom modifiers by 1.</li><li>Increase its proficiency ranks in Acrobatics to expert.</li><li>It deals 2 additional damage with its unarmed attacks. Its attacks become magical for the purpose of ignoring resistances.</li><li>It learns the advanced maneuver for its type.</li></ul>"
     },
     "rules": [
-      {
-        "key": "ActiveEffectLike",
-        "value": 1,
-        "mode": "add",
-        "path": "system.abilities.str.mod"
-      },
       {
         "key": "ActiveEffectLike",
         "value": 2,
         "mode": "add",
         "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
       },
       {
         "key": "ActiveEffectLike",
@@ -51,35 +51,28 @@
         "key": "ActiveEffectLike",
         "value": 2,
         "mode": "upgrade",
-        "path": "system.skills.acr.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 2,
-        "mode": "upgrade",
-        "path": "system.custom.modifiers.additionalDamage",
-        "priority": 49
-      },
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:nimble",
-        "priority": 1
+        "path": "system.skills.acrobatics.rank"
       },
       {
         "key": "FlatModifier",
-        "selector": "strike-damage",
-        "value": "@actor.system.custom.modifiers.additionalDamage"
+        "selector": "unarmed-damage",
+        "value": 2,
+        "slug": "companion-additional-damage"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "magical",
+        "predicate": [
+          "item:category:unarmed"
+        ],
+        "itemType": "weapon"
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB"
-      },
-      {
-        "key": "AdjustStrike",
-        "mode": "add",
-        "property": "weapon-traits",
-        "value": "magical"
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB",
+        "allowDuplicate": false
       }
     ],
     "slug": "nimble-animal-companion",
@@ -138,7 +131,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.89eT819I4MYWndcu",
     "duplicateSource": null

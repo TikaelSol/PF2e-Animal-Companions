@@ -1,0 +1,128 @@
+{
+  "_id": "wDiFVxRBktQVj7uI",
+  "name": "Racer",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/heal-animal.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.wDiFVxRBktQVj7uI"
+    },
+    "exportSource": {
+      "world": "ac",
+      "system": "pf2e",
+      "coreVersion": "0.8.8",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion races. It gains a +10-foot status bonus to its Speed, swim Speed, or fly Speed (your choice). Its proficiency in Fortitude saves increases to legendary, and its Constitution modifier increases by 1.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "PF2E.Actor.Speed.Type.Fly",
+            "value": "fly-speed"
+          },
+          {
+            "label": "PF2E.Actor.Speed.Type.Land",
+            "value": "land-speed"
+          },
+          {
+            "label": "PF2E.Actor.Speed.Type.Swim",
+            "value": "swim-speed"
+          }
+        ],
+        "flag": "speed"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|flags.pf2e.rulesSelections.speed}",
+        "value": 10,
+        "type": "status"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      }
+    ],
+    "slug": "racer",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "specialized-companion-benefit"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": {
+        "datetime": "2023-06-27T14:17:47.327-04:00",
+        "version": {
+          "schema": 0.845,
+          "foundry": "11.307",
+          "system": "5.3.1"
+        }
+      }
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "fortitude": {
+          "rank": 4
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "coreVersion": "12.331",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.wDiFVxRBktQVj7uI",
+    "duplicateSource": null
+  },
+  "_key": "!items!wDiFVxRBktQVj7uI"
+}
