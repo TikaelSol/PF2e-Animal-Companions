@@ -24,15 +24,15 @@
       "remaster": false
     },
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "category": null,
     "actions": {
-      "value": null
+      "value": 1
     },
     "deathNote": false
   },
-  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
   "folder": null,
   "ownership": {
     "default": 0,
@@ -49,7 +49,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

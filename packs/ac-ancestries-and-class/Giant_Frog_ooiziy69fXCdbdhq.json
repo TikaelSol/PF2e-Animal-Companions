@@ -89,10 +89,10 @@
         "group": "brawling",
         "key": "Strike",
         "label": "PF2E.BattleForm.Attack.Tongue",
-        "range": 15,
+        "range": null,
         "traits": [
           "unarmed",
-          "reach"
+          "reach-15"
         ],
         "img": "systems/pf2e/icons/unarmed-attacks/tongue.webp",
         "replaceBasicUnarmed": true
