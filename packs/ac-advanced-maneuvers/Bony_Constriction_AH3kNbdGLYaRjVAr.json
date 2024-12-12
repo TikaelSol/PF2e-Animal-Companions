@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> The constrictor has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p><hr /><p>The skeletal constrictor deals @Damage[12[piercing]] damage to the grabbed creature with its sharp ribs; the creature must attempt a @Check[fortitude|basic|dc:resolve(@actor.flags.pf2e.companionCompendia.fbonyConstrictionDC)] save. If the constrictor is a specialized companion, increase this damage to @Damage[20[piercing]|shortLabel]. This uses a trained DC using the constrictor's Constitution modifier, or an expert DC if the constrictor is specialized.</p>"
+      "value": "<p><strong>Requirements</strong> The constrictor has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p><hr /><p>The skeletal constrictor deals @Damage[12[piercing]] damage to the grabbed creature with its sharp ribs; the creature must attempt a @Check[fortitude|basic|dc:resolve(@actor.flags.pf2e.companionCompendia.bonyConstrictionDC)] save. If the constrictor is a specialized companion, increase this damage to @Damage[20[piercing]|shortLabel]. This uses a trained DC using the constrictor's Constitution modifier, or an expert DC if the constrictor is specialized.</p>"
     },
     "rules": [
       {
