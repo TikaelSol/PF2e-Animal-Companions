@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 4500000,
+  "sort": 7300000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.kbPrh3KBomvQcLOn"
@@ -14,9 +14,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Access</strong> You're a shadowcaster.</p>\n<hr />\n<p>Your companion is a canine creature related to the Shadow Plane denizens known as shadow mastiffs.</p>\n<p><strong>Size </strong>Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Str </strong>+2, <strong>Dex </strong>+3, <strong>Con </strong>+1, <strong>Int </strong>-4, <strong>Wis </strong>+1, <strong>Cha </strong>+1</p>\n<p><strong>Hit Points</strong> 4</p>\n<p><strong>Skill </strong>Intimidation</p>\n<p><strong>Senses </strong>darkvision, scent (imprecise) 30 feet</p>\n<p><strong>Speed </strong>30 feet</p>\n<p><strong>Support Benefit</strong> Your shadow hound shrouds your foes in shadow when you leave an opening. Until the start of your next turn, when you damage a creature with a Strike and that creature is within reach of your shadow hound, both you and your shadow hound become @Compendium[pf2e.conditionitems.Concealed]{Concealed} to the creature until the end of your next turn.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.EvuMVR9ut9wIHOtq]{Bay}</p>"
+      "value": "<p><strong>Access</strong> You're a shadowcaster.</p><hr /><p>Your companion is a canine creature related to the Shadow Plane denizens known as shadow mastiffs.</p><p><strong>Size </strong>Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p><p><strong>Str </strong>+2, <strong>Dex </strong>+3, <strong>Con </strong>+1, <strong>Int </strong>-4, <strong>Wis </strong>+1, <strong>Cha </strong>+1</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill </strong>Intimidation</p><p><strong>Senses </strong>darkvision, scent (imprecise) 30 feet</p><p><strong>Speed </strong>30 feet</p><p><strong>Support Benefit</strong> Your shadow hound shrouds your foes in shadow when you leave an opening. Until the start of your next turn, when you damage a creature with a Strike and that creature is within reach of your shadow hound, both you and your shadow hound become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to the creature until the end of your next turn.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.EvuMVR9ut9wIHOtq]{Bay}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 2,
@@ -37,6 +41,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -45,11 +55,13 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.itm.rank"
+        "path": "system.abilities.cha.mod"
       },
       {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.intimidation.rank"
       },
       {
         "acuity": "imprecise",
@@ -78,14 +90,14 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:shadow-hound",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.h65iGxPkfrT8DdPv"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.EvuMVR9ut9wIHOtq"
       }
     ],
     "slug": "shadow-hound",
@@ -118,14 +130,7 @@
         "value": []
       },
       "2": {
-        "value": [
-          "str",
-          "dex",
-          "con",
-          "int",
-          "wis",
-          "cha"
-        ]
+        "value": []
       }
     },
     "flaws": {
@@ -134,9 +139,7 @@
       }
     },
     "languages": {
-      "value": [
-        "common"
-      ],
+      "value": [],
       "custom": ""
     },
     "additionalLanguages": {
@@ -167,7 +170,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.kbPrh3KBomvQcLOn",
     "duplicateSource": null

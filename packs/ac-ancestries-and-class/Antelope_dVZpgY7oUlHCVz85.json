@@ -6,9 +6,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is an antelope or other similar animal, such as a dik-dik, gazelle, or wildebeest.</p>\n<p><strong>Size </strong>Medium or Large</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> horns (finesse), Damage 1d6 piercing</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> hoof (agile, finesse), Damage 1d4 bludgeoning</p>\n<p><strong>Str</strong> +2, <strong>Dex </strong>+3, <strong>Con </strong>+2, <strong>Int </strong>–4, <strong>Wis </strong>+1, <strong>Cha </strong>+0</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Senses </strong>low-light vision</p>\n<p><strong>Speed </strong>40 feet</p>\n<p><strong>Special </strong>@UUID[Compendium.pf2e.actionspf2e.Item.PM5jvValFkbFH3TV]{Mount}</p>\n<p><strong>Support Benefit</strong> The antelope impales your distracted foes. Until the start of your next turn, while riding your antelope, your Strikes that damage a creature in your antelope's reach also deal @Damage[1d6[persistent,bleed]] damage. If your antelope is nimble or savage, the persistent bleed damage increases to [[/r 2d6]].</p>\n<p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.yCbm5XbAzPc6U82H]{Bounding Retreat}</p>"
+      "value": "<p>Your companion is an antelope or other similar animal, such as a dik-dik, gazelle, or wildebeest.</p><p><strong>Size </strong>Medium or Large</p><p><strong>Melee </strong><span class=\"pf2-icon\">1</span> horns (finesse), Damage 1d6 piercing</p><p><strong>Melee </strong><span class=\"pf2-icon\">1</span> hoof (agile, finesse), Damage 1d4 bludgeoning</p><p><strong>Str</strong> +2, <strong>Dex </strong>+3, <strong>Con </strong>+2, <strong>Int </strong>–4, <strong>Wis </strong>+1, <strong>Cha </strong>+0</p><p><strong>Hit Points</strong> 6</p><p><strong>Senses </strong>low-light vision</p><p><strong>Speed </strong>40 feet</p><p><strong>Special </strong>@UUID[Compendium.pf2e.actionspf2e.Item.PM5jvValFkbFH3TV]{Mount}</p><p><strong>Support Benefit</strong> The antelope impales your distracted foes. Until the start of your next turn, while riding your antelope, your Strikes that damage a creature in your antelope's reach also deal 1d6 persistent bleed damage. If your antelope is nimble or savage, the persistent bleed damage increases to 2d6.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.yCbm5XbAzPc6U82H]{Bounding Retreat}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 2,
@@ -29,6 +33,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -37,7 +47,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
+        "path": "system.skills.survival.rank"
       },
       {
         "adjustName": false,
@@ -56,14 +66,8 @@
         "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "system.traits.size.value",
+        "key": "CreatureSize",
         "value": "{item|flags.pf2e.rulesSelections.companionSize}"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
       },
       {
         "category": "unarmed",
@@ -107,15 +111,14 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:antelope",
-        "priority": 1
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.yIB4qKV5sqcXlOmB"
       },
       {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.yIB4qKV5sqcXlOmB",
-        "allowDuplicate": false
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.yCbm5XbAzPc6U82H"
       }
     ],
     "slug": "antelope",
@@ -184,12 +187,12 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "dVZpgY7oUlHCVz85",
-  "sort": 0,
+  "sort": 1900000,
   "_key": "!items!dVZpgY7oUlHCVz85"
 }

@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 3500000,
+  "sort": 6500000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.eVcgERbL1hyeqCaW"
@@ -14,9 +14,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a humanoid skeleton, mindless but capable of assisting in rudimentary chores. Like the skeletal mount, it can be collapsed for easy storage.</p>\n<p><strong>Size</strong> Small or Medium</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> claw (agile), <strong>Damage</strong> 1d6 slashing</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> -5, <strong>Wis</strong> +0, <strong>Cha</strong> +1</p>\n<p><strong>Hit Points</strong> 4</p>\n<p><strong>Skill</strong> none (mindless)</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Speed</strong> 20 feet</p>\n<p><strong>Special</strong> @Compendium[pf2e-animal-companions.AC-Features.CSBy1IgHTSkVAFMM]{Mindless Companion}</p>\n<p><strong>Support Benefit</strong> Your skeletal servant jabs bones into your enemies to distract them while you attack. Until the start of your next turn, when a Strike you make hits and deals damage to a creature within your skeletal servant's reach, that target becomes @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.6LvtdtVVwtbzqUXG]{Screaming Skull}</p>"
+      "value": "<p>Your companion is a humanoid skeleton, mindless but capable of assisting in rudimentary chores. Like the skeletal mount, it can be collapsed for easy storage.</p><p><strong>Size</strong> Small or Medium</p><p>Melee <span class=\"pf2-icon\">1</span> jaws, Damage 1d8 piercing</p><p>Melee <span class=\"pf2-icon\">1</span> claw (agile), Damage 1d6 slashing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> –5, <strong>Wis</strong> +0, <strong>Cha</strong> +1</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> none (mindless)</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 20 feet</p><p><strong>Special</strong> @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.CSBy1IgHTSkVAFMM]{Mindless Companion}</p><p><strong>Support Benefit</strong> Your skeletal servant jabs bones into your enemies to distract them while you attack. Until the start of your next turn, when a Strike you make hits and deals damage to a creature within your skeletal servant's reach, that target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.6LvtdtVVwtbzqUXG]{Screaming Skull}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 2,
@@ -38,19 +42,33 @@
       {
         "key": "ActiveEffectLike",
         "value": -5,
-        "mode": "override",
-        "path": "system.abilities.int.mod",
-        "priority": 60
+        "mode": "add",
+        "path": "system.abilities.int.mod"
       },
       {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.cha.mod"
       },
       {
-        "acuity": "imprecise",
-        "key": "Sense",
-        "range": 30,
-        "selector": "scent"
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Jaws",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+        "replaceBasicUnarmed": true
       },
       {
         "category": "unarmed",
@@ -73,49 +91,17 @@
         "replaceBasicUnarmed": true
       },
       {
-        "category": "unarmed",
-        "damage": {
-          "base": {
-            "damageType": "piercing",
-            "dice": 1,
-            "die": "d8"
-          }
-        },
-        "group": "brawling",
-        "key": "Strike",
-        "label": "PF2E.BattleForm.Attack.Jaws",
-        "range": null,
-        "traits": [
-          "unarmed"
-        ],
-        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
-        "replaceBasicUnarmed": true
-      },
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:skeletal-servant",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.bHaJZSm7SakAsk00"
       },
       {
         "key": "Immunity",
-        "type": "death-effects"
-      },
-      {
-        "key": "Immunity",
-        "type": "disease"
-      },
-      {
-        "key": "Immunity",
-        "type": "poison"
-      },
-      {
-        "key": "Immunity",
-        "type": "mental"
+        "type": [
+          "death-effects",
+          "disease",
+          "poison",
+          "mental"
+        ]
       },
       {
         "adjustName": false,
@@ -134,10 +120,14 @@
         "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
       },
       {
+        "key": "CreatureSize",
+        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+      },
+      {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "system.traits.size.value",
-        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.6LvtdtVVwtbzqUXG"
       }
     ],
     "slug": "skeletal-servant",
@@ -223,7 +213,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.eVcgERbL1hyeqCaW",
     "duplicateSource": null

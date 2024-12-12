@@ -4,7 +4,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> The water wraith's last action was a successful jaws attack against a foe.</p>\n<hr />\n<p>The water wraith gains [[/r 2d8 #Temporary Hit Points]]{2d8} temporary Hit Points that last for 1 round, and the foe takes [[/r 2d6[persistent,bleed]]] damage. If the water wraith has a specialization, the water wraith instead gains [[/r 3d8 #Temporary Hit Points]]{3d8} temporary Hit Points, and the target takes [[/r 3d6[persistent,bleed]]] damage. If the targeted creature has absolutely no vital fluids, this ability might not function, at the GM's discretion.</p>"
+      "value": "<p><strong>Requirements</strong> The water wraith's last action was a successful jaws attack against a foe.</p><hr /><p>The water wraith gains 2d8 temporary Hit Points that last for 1 round, and the foe takes @Damage[2d6[persistent,bleed]] damage. If the water wraith has a specialization, the water wraith instead gains 3d8 temporary Hit Points, and the target takes @Damage[3d6[persistent,bleed]] damage. If the targeted creature has absolutely no vital fluids, this ability might not function, at the GM's discretion.</p>"
     },
     "rules": [],
     "slug": "gulp-blood",
@@ -65,7 +65,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.g1QzcWAHw8EjBxNs",
     "duplicateSource": null

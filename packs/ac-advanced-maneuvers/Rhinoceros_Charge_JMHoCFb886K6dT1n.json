@@ -18,7 +18,6 @@
     },
     "rules": [
       {
-        "domain": "all",
         "key": "RollOption",
         "option": "rhino-charge",
         "toggleable": true
@@ -30,29 +29,25 @@
         "diceNumber": 1,
         "dieSize": "d8",
         "predicate": [
-          "rhino-charge",
-          {
-            "nor": [
-              "self:savage",
-              "self:nimble"
-            ]
-          }
+          "rhino-charge"
         ]
       },
       {
-        "key": "DamageDice",
-        "selector": "damage",
-        "damageType": "piercing",
-        "diceNumber": 2,
-        "dieSize": "d8",
+        "key": "DamageAlteration",
+        "mode": "upgrade",
+        "value": 2,
+        "property": "dice-number",
         "predicate": [
-          "rhino-charge",
+          "dice:slug:rhinoceros-charge",
           {
             "or": [
-              "self:savage",
-              "self:nimble"
+              "feature:nimble-animal-companion",
+              "feature:savage-animal-companion"
             ]
           }
+        ],
+        "selectors": [
+          "horn-damage"
         ]
       }
     ],
@@ -107,7 +102,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.JMHoCFb886K6dT1n",
     "duplicateSource": null

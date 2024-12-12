@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your triceratops Strides up to 10 feet, then makes a horns Strike. On a success, the target is knocked @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</p>"
+      "value": "<p>Your triceratops Strides up to 10 feet, then makes a horns Strike. On a success, the target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
     },
     "rules": [],
     "slug": "lumbering-knockdown",
@@ -68,7 +68,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.H1ElYt6KovGYGzLD",
     "duplicateSource": null

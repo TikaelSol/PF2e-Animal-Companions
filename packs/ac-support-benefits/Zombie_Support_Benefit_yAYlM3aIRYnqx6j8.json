@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The zombie emits an aura of rot, causing wounds to fester. Until the start of your next turn, each time you hit a creature that's within 10 feet of the zombie and you deal damage, the creature takes an additional [[/r 1d6]] damage as the wound festers. If your zombie is nimble or savage, the damage increases to [[/r 2d6]]. This is a disease and necromancy effect.</p>"
+      "value": "<p>The zombie emits an aura of rot, causing wounds to fester. Until the start of your next turn, each time you hit a creature that's within 10 feet of the zombie and you deal damage, the creature takes an additional @Damage[1d6[untyped]] damage as the wound festers. If your zombie is nimble or savage, the damage increases to @Damage[2d6[untyped]|shortLabel]. This is a disease and necromancy effect.</p>"
     },
     "rules": [],
     "slug": "zombie-support-benefit",
@@ -25,8 +25,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "disease",
-        "necromancy"
+        "disease"
       ],
       "rarity": "common"
     },
@@ -71,7 +70,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.yAYlM3aIRYnqx6j8",
     "duplicateSource": null

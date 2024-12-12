@@ -1,30 +1,23 @@
 {
-  "_id": "8JdETVTpbZAgtBA3",
-  "name": "Breath Weapon",
+  "_id": "xssFjTXqGlsaddvl",
+  "name": "Takedown",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 2100000,
+  "sort": 7100000,
   "flags": {
     "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.8JdETVTpbZAgtBA3"
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.xssFjTXqGlsaddvl"
     }
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency </strong>once per hour</p>\n<hr />\n<p>The riding drake breathes a 30-foot cone of fire, dealing 1d6 fire damage for every 2 levels the drake has to all creatures in the area (basic Reflex save). This uses a trained DC using the drake's Constitution modifier or an expert DC if the drake is specialized.</p>"
+      "value": "<p><strong>Requirements</strong> The animal companion's last action was a successful jaws Strike.</p><hr /><p>The wolf automatically knocks the target of its jaws Strike @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
     },
-    "rules": [
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
-      }
-    ],
-    "slug": "breath-weapon",
+    "rules": [],
+    "slug": "takedown",
     "_migration": {
       "version": null,
       "lastMigration": null
@@ -45,7 +38,7 @@
     },
     "category": "offensive",
     "actions": {
-      "value": 2
+      "value": 1
     },
     "deathNote": false,
     "source": {
@@ -54,7 +47,7 @@
     "schema": {
       "version": 0.854,
       "lastMigration": {
-        "datetime": "2023-06-27T14:17:42.462-04:00",
+        "datetime": "2023-06-27T14:17:42.422-04:00",
         "version": {
           "schema": 0.845,
           "foundry": "11.307",
@@ -81,10 +74,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.8JdETVTpbZAgtBA3",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.xssFjTXqGlsaddvl",
     "duplicateSource": null
   },
-  "_key": "!items!8JdETVTpbZAgtBA3"
+  "_key": "!items!xssFjTXqGlsaddvl"
 }

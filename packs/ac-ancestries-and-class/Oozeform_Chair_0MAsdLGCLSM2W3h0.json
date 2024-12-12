@@ -10,9 +10,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is an alchemical ooze that extends pseudopods to move around.</p>\n<p><strong>Size</strong> Medium or Large</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> pseudopod (agile), <strong>Damage</strong> 1d6 bludgeoning</p>\n<p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +3, <strong>Int</strong> –4, <strong>Wis</strong> +0, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Skill</strong> Athletics Motion Sense Your oozeform chair can sense nearby creatures through vibration in the air. This is an imprecise sense with a range of 30 feet.</p>\n<p><strong>Speed</strong> 20 feet</p>\n<p><strong>Special</strong> mount</p>\n<p><strong>Support Benefit</strong> A pseudopod extends out from your chair, retrieving an unattended object within 15 feet. If you don't have a hand free to receive the object, the chair drops it in your space.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.gzefJocgdWbXWWPi]{Extend Pseudopod}</p>"
+      "value": "<p>Your companion is an alchemical ooze that extends pseudopods to move around.</p><p><strong>Size</strong> Medium or Large</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> pseudopod (agile), <strong>Damage</strong> 1d6 bludgeoning</p><p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +3, <strong>Int</strong> –4, <strong>Wis</strong> +0, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 6</p><p><strong>Skill</strong> Athletics</p><p><strong>Motion Sense</strong> Your oozeform chair can sense nearby creatures through vibration in the air. This is an imprecise sense with a range of 30 feet.</p><p><strong>Speed</strong> 20 feet</p><p><strong>Special</strong> mount</p><p><strong>Support Benefit</strong> A pseudopod extends out from your chair, retrieving an unattended object within 15 feet. If you don't have a hand free to receive the object, the chair drops it in your space.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.gzefJocgdWbXWWPi]{Extend Pseudopod}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
       {
         "key": "ActiveEffectLike",
         "value": 3,
@@ -33,20 +38,15 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.ath.rank"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
-        "allowDuplicate": false
-      },
-      {
-        "acuity": "imprecise",
-        "key": "Sense",
-        "range": 30,
-        "selector": "motionsense"
+        "path": "system.skills.athletics.rank"
       },
       {
         "category": "unarmed",
@@ -68,10 +68,10 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:oozeform-chair",
-        "priority": 1
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "motion-sense"
       },
       {
         "key": "GrantItem",
@@ -95,13 +95,17 @@
         "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
       },
       {
+        "key": "CreatureSize",
+        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+      },
+      {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "system.traits.size.value",
-        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.gzefJocgdWbXWWPi"
       }
     ],
-    "slug": "ankylosaurus",
+    "slug": "oozeform-chair",
     "_migration": {
       "version": null,
       "lastMigration": null
@@ -173,12 +177,12 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "0MAsdLGCLSM2W3h0",
-  "sort": 200000,
+  "sort": 7100000,
   "_key": "!items!0MAsdLGCLSM2W3h0"
 }

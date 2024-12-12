@@ -14,16 +14,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Ulgrem-Lurann bites down hard and unleashes an electrical discharge. It makes a jaws Strike. If the Strike hits, the target creature automatically becomes @Compendium[pf2e.conditionitems.Grabbed]{Grabbed} by the Ulgrem-Lurann and takes [[/r 1d4[electricity]]] damage ([[/r 2d4[electricity]]] for a mature Ulgrem-Lurann or [[/r 3d4[electricity]]] for a specialized companion). The grabbed condition lasts until the end of your next turn, though the Ulgrem-Lurann can use @Compendium[pf2e.actionspf2e.Grapple]{Grapple} to attempt to extend the duration as normal.</p>"
+      "value": "<p>The Ulgrem-Lurann bites down hard and unleashes an electrical discharge. It makes a jaws Strike. If the Strike hits, the target creature automatically becomes @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the Ulgrem-Lurann and takes @Damage[1d4[electricity]] damage (@Damage[2d4[electricity]|shortLabel] for a mature Ulgrem-Lurann or @Damage[3d4[electricity]|shortLabel] for a specialized companion). The grabbed condition lasts until the end of your next turn, though the Ulgrem-Lurann can use @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} to attempt to extend the duration as normal.</p>"
     },
-    "rules": [
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
-      }
-    ],
+    "rules": [],
     "slug": "snatch-and-zap",
     "_migration": {
       "version": null,
@@ -75,7 +68,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.6tNMgEQAqjMgD3WY",
     "duplicateSource": null

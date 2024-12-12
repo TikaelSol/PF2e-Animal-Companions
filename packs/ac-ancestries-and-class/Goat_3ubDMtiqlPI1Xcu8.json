@@ -10,9 +10,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a breed of mountain goat populous in the Five Kings Mountains.</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> headbutt (shove), <strong>Damage</strong> 1d8 bludgeoning</p>\n<p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill</strong> Acrobatics</p>\n<p><strong>Senses</strong> scent (imprecise) 30 feet</p>\n<p><strong>Speed</strong> 35 feet, climb 15 feet</p>\n<p><strong>Special</strong> mount</p>\n<p><strong>Support Benefit</strong> Your goat boosts you up a wall, allowing you to reach greater heights. You climb up a surface as if you had rolled a success on a Climb action.</p>\n<p><strong>Advanced Maneuver</strong> Knock Aside</p>"
+      "value": "<p>Your companion is a breed of mountain goat populous in the Five Kings Mountains.</p><p><strong>Size</strong> Medium</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> headbutt (shove), <strong>Damage</strong> 1d8 bludgeoning</p><p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Acrobatics</p><p><strong>Senses</strong> scent (imprecise) 30 feet</p><p><strong>Speed</strong> 35 feet, climb 15 feet</p><p><strong>Special</strong> mount</p><p><strong>Support Benefit</strong> Your goat boosts you up a wall, allowing you to reach greater heights. You climb up a surface as if you had rolled a success on a Climb action.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.IoWvKP6WDijlkrin]{Knock Aside}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 3,
@@ -33,6 +37,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -41,12 +51,12 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.acr.rank"
+        "path": "system.skills.acrobatics.rank"
       },
       {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
-        "allowDuplicate": false
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 15
       },
       {
         "acuity": "imprecise",
@@ -75,20 +85,15 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:goat",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.ugEUIh47YrNUIsnd",
         "allowDuplicate": false
       },
       {
-        "key": "BaseSpeed",
-        "selector": "climb",
-        "value": 15
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.IoWvKP6WDijlkrin"
       }
     ],
     "slug": "ankylosaurus",
@@ -163,12 +168,12 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "3ubDMtiqlPI1Xcu8",
-  "sort": 500000,
+  "sort": 6900000,
   "_key": "!items!3ubDMtiqlPI1Xcu8"
 }

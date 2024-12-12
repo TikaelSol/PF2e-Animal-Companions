@@ -10,9 +10,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a giant lizard, used in the depths of Highhelm as mounts and pack animals.</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 1d8 piecing</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> tail (finesse), <strong>Damage</strong> 1d6 bludgeoning</p>\n<p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill</strong> Athletics</p>\n<p><strong>Senses</strong> darkvision, scent (imprecise) 30 feet</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Special</strong> mount</p>\n<p><strong>Support Benefit</strong> Your draft lizard assists you in battle. You gain a +1 circumstance bonus on your next attack roll to Strike a foe within your draft lizard's reach. The bonus lasts until the first time you use it or until the beginning of your next turn, whichever comes first.</p>\n<p><strong>Advanced Maneuver</strong> Tail Swipe</p>"
+      "value": "<p>Your companion is a giant lizard, used in the depths of Highhelm as mounts and pack animals.</p><p><strong>Size</strong> Medium</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 1d8 piecing</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> tail (finesse), <strong>Damage</strong> 1d6 bludgeoning</p><p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Athletics</p><p><strong>Senses</strong> darkvision, scent (imprecise) 30 feet</p><p><strong>Speed</strong> 25 feet</p><p><strong>Special</strong> mount</p><p><strong>Support Benefit</strong> Your draft lizard assists you in battle. You gain a +1 circumstance bonus on your next attack roll to Strike a foe within your draft lizard's reach. The bonus lasts until the first time you use it or until the beginning of your next turn, whichever comes first.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.MNiXOHI1Ezh0D24r]{Tail Swipe}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
       {
         "key": "ActiveEffectLike",
         "value": 3,
@@ -33,6 +38,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -41,18 +52,32 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.ath.rank"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
-        "allowDuplicate": false
+        "path": "system.skills.athletics.rank"
       },
       {
         "acuity": "imprecise",
         "key": "Sense",
         "range": 30,
         "selector": "scent"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Jaws",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/foot.webp",
+        "replaceBasicUnarmed": true
       },
       {
         "category": "unarmed",
@@ -75,34 +100,14 @@
         "replaceBasicUnarmed": true
       },
       {
-        "category": "unarmed",
-        "damage": {
-          "base": {
-            "damageType": "piercing",
-            "dice": 1,
-            "die": "d8"
-          }
-        },
-        "group": "brawling",
-        "key": "Strike",
-        "label": "PF2E.BattleForm.Attack.Jaws",
-        "range": null,
-        "traits": [
-          "unarmed"
-        ],
-        "img": "systems/pf2e/icons/unarmed-attacks/foot.webp",
-        "replaceBasicUnarmed": true
-      },
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:draft-lizard",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.g3Wol5lNhQdxqs7t",
-        "allowDuplicate": false
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.g3Wol5lNhQdxqs7t"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.MNiXOHI1Ezh0D24r"
       }
     ],
     "slug": "ankylosaurus",
@@ -177,12 +182,12 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "iv5aYjofYAabH5c0",
-  "sort": 6100000,
+  "sort": 4800000,
   "_key": "!items!iv5aYjofYAabH5c0"
 }

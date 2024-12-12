@@ -10,9 +10,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is an air elemental, such as a zephyr hawk.</p>\n<p><strong>Access</strong> You are a member of the storm order.</p>\n<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> gust (finesse), <strong>Damage</strong> 1d6 bludgeoning</p>\n<p><strong>Str</strong> +1, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +1</p>\n<p><strong>Hit Points</strong> 4</p>\n<p><strong>Skill</strong> Stealth</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Speed</strong> fly 50 feet</p>\n<p><strong>Support Benefit</strong> Your air elemental swirls around you with concealing gusts, making it harder for your foes to hit you and possibly giving you a moment to hide. Until the start of your next turn, if you hit with a Strike and deal damage to a creature in your air elemental's reach, you are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to that creature until the start of your next turn.</p>\n<p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ePNzRvGvBqzIujJr]{Circling Flyby}</p>"
+      "value": "<p>Your companion is an air elemental, such as a zephyr hawk.</p><p><strong>Access</strong> You are a member of the @UUID[Compendium.pf2e.classfeatures.Item.acqqlYmti8D9QJi0]{Storm Order}.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> gust (finesse), <strong>Damage</strong> 1d6 bludgeoning</p><p><strong>Str</strong> +1, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +1</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> Stealth</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> fly 50 feet</p><p><strong>Support Benefit</strong> Your air elemental swirls around you with concealing gusts, making it harder for your foes to hit you and possibly giving you a moment to hide. Until the start of your next turn, if you hit with a Strike and deal damage to a creature in your air elemental's reach, you are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to that creature until the start of your next turn.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ePNzRvGvBqzIujJr]{Circling Flyby}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
       {
         "key": "ActiveEffectLike",
         "value": 1,
@@ -33,6 +38,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -41,12 +52,18 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.ste.rank"
+        "path": "system.skills.stealth.rank"
       },
       {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
-        "allowDuplicate": false
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.cha.mod"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 50
       },
       {
         "category": "unarmed",
@@ -65,30 +82,23 @@
           "unarmed",
           "finesse"
         ],
-        "img": "systems/pf2e/icons/spells/gust-of-wind.webp",
+        "img": "icons/magic/air/wind-tornado-funnel-blue-grey.webp",
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:air-elemental",
-        "priority": 1
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "value": -5
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.aMFtyZ3QNQkduwqR",
-        "allowDuplicate": false
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.aMFtyZ3QNQkduwqR"
       },
       {
         "key": "ActiveEffectLike",
-        "value": 1,
-        "mode": "add",
-        "path": "system.abilities.cha.mod"
-      },
-      {
-        "key": "BaseSpeed",
-        "selector": "fly",
-        "value": 50
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ePNzRvGvBqzIujJr"
       }
     ],
     "slug": "ankylosaurus",
@@ -113,7 +123,7 @@
     "hp": 4,
     "size": "sm",
     "reach": 5,
-    "speed": 0,
+    "speed": 5,
     "boosts": {
       "0": {
         "value": []
@@ -160,13 +170,13 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "folder": null,
-  "sort": 6000000,
+  "sort": 2600000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

@@ -7,14 +7,7 @@
       "gm": "",
       "value": "<p>Your chetamog takes any combination of two Stride or Climb actions. It has a +10-foot circumstance bonus to its Speed during these Strides.</p>"
     },
-    "rules": [
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
-      }
-    ],
+    "rules": [],
     "slug": "scurry",
     "_migration": {
       "version": 0.926,
@@ -58,7 +51,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The elephant grabs its foe with its trunk and carries it off. The elephant uses Athletics to @Compendium[pf2e.actionspf2e.Grapple]{Grapple} a creature up to two sizes smaller than the elephant in its trunk. If its target is @Compendium[pf2e.conditionitems.Grabbed]{Grabbed} or @Compendium[pf2e.conditionitems.Restrained]{Restrained}, the elephant repositions the target to another space in the elephant's reach.</p>"
+      "value": "<p>The elephant grabs its foe with its trunk and carries it off. The elephant uses Athletics to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} a creature up to two sizes smaller than the elephant in its trunk. If its target is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, the elephant repositions the target to another space in the elephant's reach.</p>"
     },
     "rules": [],
     "slug": "grabbing-trunk",
@@ -68,7 +68,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.oYEXImMSzg0eDqzR",
     "duplicateSource": null

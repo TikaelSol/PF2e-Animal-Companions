@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 3300000,
+  "sort": 6200000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.lOzvLCCy9QRnYw6w"
@@ -20,9 +20,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d6 piercing</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> claw (agile, finesse), <strong>Damage</strong> 1d4 slashing</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Int</strong> -4, <strong>Wis</strong> +2, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 4</p>\n<p><strong>Skill</strong> Stealth</p>\n<p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p>\n<p><strong>Speed</strong> 35 feet</p>\n<p><strong>Special</strong> Your cat deals 1d4 extra precision damage against off-guard targets.</p>\n<p><strong>Support Benefit</strong> Your cat throws your enemies off-balance when you create an opening. Until the start of your next turn, your Strikes that deal damage to a creature that your cat threatens make the target @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} until the end of your next turn.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.U0J8J5ukmqnOskE8]{Cat Pounce}</p>\n<p><strong>Immunities</strong> fire <strong>Weaknesses</strong> cold 5</p>\n<p><strong>Flaming Attacks</strong> (fire) The fiery leopard's natural attacks deal 1 fire damage (in addition to the bonus damage dealt to off-guard targets). This damage increases to 1d4 when the fiery leopard becomes a nimble or savage animal companion.</p>\n<p><strong>Fiery Pelt</strong> (fire) Creatures that start their turn grappled by the fiery leopard take 1d4 fire damage. Anyone attempting to grapple the fiery leopard takes 1d4 fire damage for each attempt.</p>\n<p><strong>Burning Glow</strong> The fiery leopard sheds dim light in a 10-foot radius which gives it a -2 circumstance penalty on Stealth checks made at night or in a dark environment.</p>"
+      "value": "<p>Your companion is a big cat, such as a leopard or tiger.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d6 piercing</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> claw (agile, finesse), <strong>Damage</strong> 1d4 slashing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +2, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> Stealth</p><p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p><p><strong>Speed</strong> 35 feet</p><p><strong>Special</strong> Your cat deals 1d4 extra precision damage against @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} targets.</p><p><strong>Support Benefit</strong> Your cat throws your enemies off-balance when you create an opening. Until the start of your next turn, your Strikes that deal damage to a creature within your cat's reach make the target off-guard until the end of your next turn.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.U0J8J5ukmqnOskE8]{Cat Pounce}</p><p><strong>Immunities</strong> fire</p><p><strong>Weaknesses</strong> cold 5</p><p><strong>Flaming Attacks</strong> (fire) The fiery leopard's natural attacks deal 1 fire damage (in addition to the bonus damage dealt to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] targets). This damage increases to 1d4 when the fiery leopard becomes a nimble or savage animal companion.</p><p><strong>Fiery Pelt</strong> (fire) Creatures that start their turn grappled by the fiery leopard take @Damage[1d4[fire]] damage. Anyone attempting to grapple the fiery leopard takes @Damage[1d4[fire]] damage for each attempt.</p><p><strong>Burning Glow</strong> The fiery leopard sheds dim light in a 10-foot radius which gives it a –2 circumstance penalty on Stealth checks made at night or in a dark environment.</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 2,
@@ -43,6 +47,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 2,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -51,69 +61,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.ste.rank"
-      },
-      {
-        "key": "DamageDice",
-        "selector": "strike-damage",
-        "predicate": [
-          {
-            "or": [
-              "self:savage",
-              "self:nimble",
-              "self:genie-touched",
-              "self:indomitable"
-            ]
-          }
-        ],
-        "diceNumber": 1,
-        "dieSize": "d4",
-        "damageType": "fire"
-      },
-      {
-        "key": "FlatModifier",
-        "selector": "strike-damage",
-        "damageType": "fire",
-        "value": 1,
-        "predicate": [
-          {
-            "nor": [
-              "self:savage",
-              "self:nimble",
-              "self:genie-touched",
-              "self:indomitable"
-            ]
-          }
-        ]
-      },
-      {
-        "key": "Immunity",
-        "type": "fire"
-      },
-      {
-        "key": "Weakness",
-        "type": "cold",
-        "value": 5
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
-      },
-      {
-        "acuity": "imprecise",
-        "key": "Sense",
-        "range": 30,
-        "selector": "scent"
-      },
-      {
-        "category": "precision",
-        "dieSize": "d4",
-        "key": "DamageDice",
-        "predicate": [
-          "target:condition:off-guard"
-        ],
-        "selector": "strike-damage",
-        "diceNumber": 1
+        "path": "system.skills.stealth.rank"
       },
       {
         "category": "unarmed",
@@ -157,13 +105,87 @@
       },
       {
         "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:fiery-leopard",
-        "priority": 1
+        "label": "PF2E.SpecificRule.TOTMToggle.OffGuard",
+        "option": "target:condition:off-guard",
+        "toggleable": "totm"
+      },
+      {
+        "category": "precision",
+        "dieSize": "d4",
+        "key": "DamageDice",
+        "predicate": [
+          "target:condition:off-guard"
+        ],
+        "selector": "strike-damage",
+        "diceNumber": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "damageType": "fire",
+        "value": 1,
+        "predicate": [
+          {
+            "nor": [
+              "feature:nimble-animal-companion",
+              "feature:savage-animal-companion"
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "hideIfDisabled": true,
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "predicate": [
+          {
+            "or": [
+              "feature:nimble-animal-companion",
+              "feature:savaga-animal-companion"
+            ]
+          }
+        ],
+        "diceNumber": 1,
+        "dieSize": "d4",
+        "damageType": "fire"
+      },
+      {
+        "key": "Immunity",
+        "type": "fire"
+      },
+      {
+        "key": "Weakness",
+        "type": "cold",
+        "value": 5
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "scent"
+      },
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": 10,
+          "bright": 0,
+          "animation": {
+            "type": "pulse"
+          },
+          "alpha": 0.2,
+          "color": "#ffa53d"
+        }
       },
       {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.HCQXxqMtH81jE1W5"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.U0J8J5ukmqnOskE8"
       }
     ],
     "slug": "fiery-leopard",
@@ -176,7 +198,7 @@
       "value": [
         "animal"
       ],
-      "rarity": "common"
+      "rarity": "unique"
     },
     "publication": {
       "title": "",
@@ -196,14 +218,7 @@
         "value": []
       },
       "2": {
-        "value": [
-          "str",
-          "dex",
-          "con",
-          "int",
-          "wis",
-          "cha"
-        ]
+        "value": []
       }
     },
     "flaws": {
@@ -246,7 +261,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.lOzvLCCy9QRnYw6w",
     "duplicateSource": null

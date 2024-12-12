@@ -45,19 +45,6 @@
       "flags": {}
     },
     {
-      "label": "Equipment",
-      "name": "ac-equipment",
-      "path": "packs/ac-equipment",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "type": "Item",
-      "flags": {}
-    },
-    {
       "label": "Features",
       "name": "AC-Features",
       "path": "packs/ac-features",

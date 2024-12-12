@@ -19,9 +19,17 @@
     "rules": [
       {
         "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
+        "option": "gallop",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "value": 10,
+        "type": "circumstance",
+        "predicate": [
+          "gallop"
+        ]
       }
     ],
     "slug": "gallop",
@@ -81,7 +89,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.tsOaXTRWQvsKTyaL",
     "duplicateSource": null

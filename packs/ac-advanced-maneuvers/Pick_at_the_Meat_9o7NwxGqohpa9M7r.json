@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> The animal companion's last action was a successful jaws Strike.</p>\n<hr />\n<p>Your bird picks at the wound it just created. The target of its jaws Strike takes [[/r 1d8[persistent,bleed]]], or [[/r 2d8[persistent,bleed]]] if the bird is specialized.</p>"
+      "value": "<p><strong>Requirements</strong> The animal companion's last action was a successful jaws Strike.</p><hr /><p>Your bird picks at the wound it just created. The target of its jaws Strike takes @Damage[1d8[bleed]] damage, or @Damage[2d8[bleed]] damage if the bird is specialized.</p>"
     },
     "rules": [],
     "slug": "pick-at-the-meat",
@@ -68,7 +68,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.9o7NwxGqohpa9M7r",
     "duplicateSource": null

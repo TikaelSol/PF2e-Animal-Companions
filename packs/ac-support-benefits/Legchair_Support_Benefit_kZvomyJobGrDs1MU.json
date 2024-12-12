@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your legchair moves its limbs in the way of enemy attacks. You gain @Compendium[pf2e.equipment-effects.lKkQvMzNG55Yhyef]{Lesser Cover} from your legchair against all attacks, not just ones where the legchair would be in the way.</p>"
+      "value": "<p>Your legchair moves its limbs in the way of enemy attacks. You gain lesser cover from your legchair against all attacks, not just ones where the legchair would be in the way.</p>"
     },
     "rules": [],
     "slug": "legchair-support-benefit",
@@ -71,7 +71,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2",
     "duplicateSource": null

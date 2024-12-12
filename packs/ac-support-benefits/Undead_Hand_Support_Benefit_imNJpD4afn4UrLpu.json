@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The hand viciously batters the foes you attack. Until the start of your next turn, each time you hit a creature in the hand's reach with a Strike, the creature takes [[/r 1d6[bludgeoning]]] damage from the hand. If your hand is nimble or savage, the bludgeoning damage increases to [[/r 2d6[bludgeoning]]]{2d6}.</p>"
+      "value": "<p>The hand viciously batters the foes you attack. Until the start of your next turn, each time you hit a creature in the hand's reach with a Strike, the creature takes @Damage[1d6[bludgeoning]] damage from the hand. If your hand is nimble or savage, the bludgeoning damage increases to @Damage[2d6[bludgeoning]|shortLabel].</p>"
     },
     "rules": [],
     "slug": "undead-hand-support-benefit",
@@ -68,7 +68,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.imNJpD4afn4UrLpu",
     "duplicateSource": null

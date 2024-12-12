@@ -14,9 +14,26 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p>Your ghost unleashes a flurry of emotions, causing small objects and debris to fly about in a @Template[type:emanation|distance:20], dealing [[/r 1d6[bludgeoning]]] damage for every 2 levels the ghost has (basic Reflex save). This uses a trained DC using the ghost's Charisma modifier or an expert DC if the ghost is specialized.</p>"
+      "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>Your ghost unleashes a flurry of emotions, causing small objects and debris to fly about in a 20‑foot emanation, dealing @Damage[(floor(@actor.level / 2))d6[bludgeoning]|options:area-damage]{1d6 bludgeoning damage for every 2 levels} the ghost has (@Check[fortitude|basic|dc:resolve(@actor.flags.pf2e.companionCompendia.telekineticAssaultDC)|options:area-effect] save). This uses a trained DC using the ghost's Charisma modifier or an expert DC if the ghost is specialized.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.telekineticAssaultDC",
+        "value": "@actor.system.abilities.cha.mod + @actor.level + 12"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "flags.pf2e.companionCompendia.telekineticAssaultDC",
+        "value": "@actor.system.abilities.cha.mod + @actor.level + 14",
+        "priority": 51,
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
     "slug": "telekinetic-assault",
     "_migration": {
       "version": null,
@@ -63,6 +80,10 @@
     },
     "trigger": {
       "value": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
     }
   },
   "ownership": {
@@ -71,7 +92,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.NMaMTiDB40L5O41S",
     "duplicateSource": null

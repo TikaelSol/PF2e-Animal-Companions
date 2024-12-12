@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your giraffe Strides twice and then makes a hoof Strike. As long as it moved at least 20 feet, it deals an additional @Damage[1d6[bludgeoning]] damage. Increase this to @Damage[2d6[bludgeoning]] if your giraffe is specialized.</p>"
+      "value": "<p>Your giraffe Strides twice and then makes a hoof Strike. As long as it moved at least 20 feet, it deals an additional @Damage[1d6[bludgeoning]] damage. Increase this to @Damage[2d6[bludgeoning]|shortLabel] if your giraffe is specialized.</p>"
     },
     "rules": [],
     "slug": "long-stomp",
@@ -47,7 +47,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

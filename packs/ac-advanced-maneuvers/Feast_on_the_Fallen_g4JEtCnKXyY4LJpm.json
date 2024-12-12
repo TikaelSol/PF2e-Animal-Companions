@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency </strong>once per hour</p>\n<p><strong>Trigger </strong>A creature adjacent to the vulture is reduced to 0 Hit Points</p>\n<hr />\n<p>The vulture consumes a piece of the defeated foe, regaining [[/r 18]] Hit Points. If the vulture is a specialized animal companion, increase the Hit Points regained to [[/r 30]].</p>"
+      "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> A creature adjacent to the vulture is reduced to 0 Hit Points</p><hr /><p>The vulture consumes a piece of the defeated foe, regaining @Damage[18[healing]] Hit Points. If the vulture is a specialized animal companion, increase the Hit Points regained to @Damage[30[healing]|shortLabel].</p>"
     },
     "rules": [
       {
@@ -76,6 +76,10 @@
     },
     "weapon": {
       "value": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
     }
   },
   "ownership": {
@@ -84,7 +88,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.g4JEtCnKXyY4LJpm",
     "duplicateSource": null

@@ -5,9 +5,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a younger example of the legendary bird of prey.</p>\n<p><strong>Size </strong>Huge</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> beak, Damage 1d10 piercing</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> talon (agile), Damage 1d8 slashing plus Grab</p>\n<p><strong>Str </strong>+3, <strong>Dex </strong>+1, <strong>Con </strong>+3, <strong>Int </strong>–4, <strong>Wis </strong>+1, <strong>Cha </strong>+0</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill </strong>Intimidation</p>\n<p><strong>Senses </strong>low-light vision</p>\n<p><strong>Speed </strong>15 feet, fly 60 feet</p>\n<p><strong>Special </strong>@UUID[Compendium.pf2e.actionspf2e.Item.PM5jvValFkbFH3TV]{Mount}</p>\n<p><strong>Support Benefit</strong> Your roc beats its wings, creating a powerful downdraft. Until the start of your next turn, your Strikes that damage a creature that your roc threatens push the target 5 feet away from your roc.</p>\n<p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HzGLDKNJJBs7fsYN]{Snatch}</p>"
+      "value": "<p>Your companion is a younger example of the legendary bird of prey.</p><p><strong>Size </strong>Huge</p><p><strong>Melee </strong><span class=\"pf2-icon\">1</span> beak, Damage 1d10 piercing</p><p><strong>Melee </strong><span class=\"pf2-icon\">1</span> talon (agile), Damage 1d8 slashing plus Grab</p><p><strong>Str </strong>+3, <strong>Dex </strong>+1, <strong>Con </strong>+3, <strong>Int </strong>–4, <strong>Wis </strong>+1, <strong>Cha </strong>+0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill </strong>Intimidation</p><p><strong>Senses </strong>low-light vision</p><p><strong>Speed </strong>15 feet, fly 60 feet</p><p><strong>Special </strong>mount</p><p><strong>Support Benefit</strong> Your roc beats its wings, creating a powerful downdraft. Until the start of your next turn, your Strikes that damage a creature that your roc threatens push the target 5 feet away from your roc.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HzGLDKNJJBs7fsYN]{Snatch}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 3,
@@ -28,6 +32,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -36,16 +46,12 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.itm.rank"
+        "path": "system.skills.intimidation.rank"
       },
       {
         "key": "BaseSpeed",
         "selector": "fly",
         "value": 60
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
       },
       {
         "category": "unarmed",
@@ -86,18 +92,18 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:roc",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.R0e3jHpB7nTzIUPm"
       },
       {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HzGLDKNJJBs7fsYN"
       }
     ],
     "slug": null,
@@ -139,9 +145,7 @@
       }
     },
     "languages": {
-      "value": [
-        "common"
-      ],
+      "value": [],
       "custom": ""
     },
     "additionalLanguages": {
@@ -155,7 +159,7 @@
   "_id": "MTLituSKaObePjOL",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "folder": null,
-  "sort": 0,
+  "sort": 3500000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -167,7 +171,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

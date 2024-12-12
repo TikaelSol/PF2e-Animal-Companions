@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 3700000,
+  "sort": 6600000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.hynwj4kRnb7yLNGu"
@@ -14,9 +14,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a wolf, weasel, fox, or other predator with fangs and the blood thirst of a vampire. They often serve vampires who willingly shared their blood to bind the animal to their vampiric whims.</p>\n<p><strong>Size</strong> Small or Medium</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> -4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 4</p>\n<p><strong>Skill</strong> Survival</p>\n<p><strong>Senses</strong> low‑light vision, scent (imprecise 30 feet)</p>\n<p><strong>Speed</strong> 30 feet</p>\n<p><strong>Special</strong> Vampiric animal companions are particularly attuned to the scent of blood. If a creature has persistent bleed damage, your vampiric animal companion can smell the creature if it's within 120 feet rather than 30 feet.</p>\n<p><strong>Support Benefit</strong> When your vampiric animal senses blood it tears into your enemies. Until the start of your next turn, your Strikes that damage a creature in your vampiric animal's reach also deal [[/r 1d6[persistent,bleed]]] damage. If your vampiric animal is nimble or savage, the persistent bleed damage increases to [[/r 2d6]]{2d6}.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.cVrW2GGLVpydj8h5]{Blood Feast}</p>"
+      "value": "<p>Your companion is a wolf, weasel, fox, or other predator with fangs and the blood thirst of a vampire. They often serve vampires who willingly shared their blood to bind the animal to their vampiric whims.</p><p><strong>Size</strong> Small or Medium</p><p>Melee <span class=\"pf2-icon\">1</span> jaws (finesse), Damage 1d8 piercing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> Survival</p><p><strong>Senses</strong> low‑light vision, scent (imprecise 30 feet)</p><p><strong>Speed</strong> 30 feet</p><p><strong>Special</strong> Vampiric animal companions are particularly attuned to the scent of blood. If a creature has persistent bleed damage, your vampiric animal companion can smell the creature if it's within 120 feet rather than 30 feet.</p><p><strong>Support Benefit</strong> When your vampiric animal senses blood it tears into your enemies. Until the start of your next turn, your Strikes that damage a creature in your vampiric animal's reach also deal 1d6 persistent bleed damage. If your vampiric animal is nimble or savage, the persistent bleed damage increases to 2d6.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.cVrW2GGLVpydj8h5]{Blood Feast}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 2,
@@ -37,6 +41,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -45,11 +55,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+        "path": "system.skills.survival.rank"
       },
       {
         "acuity": "imprecise",
@@ -78,26 +84,16 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:vampiric-animal",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.3jZOVJsYwBQ7GPDi"
       },
       {
         "key": "Immunity",
-        "type": "death-effects"
-      },
-      {
-        "key": "Immunity",
-        "type": "disease"
-      },
-      {
-        "key": "Immunity",
-        "type": "poison"
+        "type": [
+          "death-effects",
+          "disease",
+          "poison"
+        ]
       },
       {
         "adjustName": false,
@@ -116,10 +112,14 @@
         "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
       },
       {
+        "key": "CreatureSize",
+        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+      },
+      {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "system.traits.size.value",
-        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.cVrW2GGLVpydj8h5"
       }
     ],
     "slug": "vampiric-animal",
@@ -199,7 +199,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.hynwj4kRnb7yLNGu",
     "duplicateSource": null

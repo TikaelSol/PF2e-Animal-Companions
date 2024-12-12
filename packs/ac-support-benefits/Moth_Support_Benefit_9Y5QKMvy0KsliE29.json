@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your moth releases a shower of dust to reveal your foes. Until the start of your next turn, if you damage a @Compendium[pf2e.conditionitems.Concealed]{Concealed} or @Compendium[pf2e.conditionitems.Hidden]{Hidden} creature in your moth's reach with a Strike, that creature requires only a <span data-pf2-check=\"flat\" data-pf2-traits=\"concealed\" data-pf2-label=\"\" data-pf2-dc=\"3\" data-pf2-show-dc=\"all\">Flat Check</span> to target it if it's concealed, or <span data-pf2-check=\"flat\" data-pf2-traits=\"hidden\" data-pf2-label=\"\" data-pf2-dc=\"9\" data-pf2-show-dc=\"all\">Flat Check</span> if it's hidden. The reduced DC lasts until the end of your next turn.</p>"
+      "value": "<p>Your moth releases a shower of dust to reveal your foes. Until the start of your next turn, if you damage a @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} creature in your moth's reach with a Strike, that creature requires only a @Check[flat|dc:3|showDC:all] to target it if it's concealed, or @Check[flat|dc:9|showDC:all] if it's hidden. The reduced DC lasts until the end of your next turn.</p>"
     },
     "rules": [],
     "slug": "moth-support-benefit",
@@ -71,7 +71,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2",
     "duplicateSource": null

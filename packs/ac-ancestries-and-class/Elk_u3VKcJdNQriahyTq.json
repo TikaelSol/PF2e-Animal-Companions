@@ -9,6 +9,10 @@
     },
     "rules": [
       {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
         "key": "ActiveEffectLike",
         "value": 3,
         "mode": "add",
@@ -28,6 +32,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -36,11 +46,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.itm.rank"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+        "path": "system.skills.intimidation.rank"
       },
       {
         "category": "unarmed",
@@ -98,21 +104,18 @@
         "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "system.traits.size.value",
+        "key": "CreatureSize",
         "value": "{item|flags.pf2e.rulesSelections.companionSize}"
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:elk",
-        "priority": 1
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.60lThr6OM9zZtqK2"
       },
       {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.60lThr6OM9zZtqK2",
-        "allowDuplicate": false
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.gFZCyLnqeWrK6u0P"
       }
     ],
     "slug": "elk",
@@ -170,7 +173,7 @@
   "_id": "u3VKcJdNQriahyTq",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "folder": null,
-  "sort": 0,
+  "sort": 1800000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -182,7 +185,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

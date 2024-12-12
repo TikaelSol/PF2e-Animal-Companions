@@ -9,6 +9,10 @@
     },
     "rules": [
       {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
         "key": "ActiveEffectLike",
         "value": 3,
         "mode": "add",
@@ -28,15 +32,15 @@
       },
       {
         "key": "ActiveEffectLike",
-        "value": 0,
+        "value": -4,
         "mode": "add",
-        "path": "system.abilities.wis.mod"
+        "path": "system.abilities.int.mod"
       },
       {
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
+        "path": "system.skills.survival.rank"
       },
       {
         "acuity": "precise",
@@ -48,10 +52,6 @@
         "key": "BaseSpeed",
         "selector": "swim",
         "value": 40
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
       },
       {
         "category": "unarmed",
@@ -73,14 +73,14 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:orca",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.EkyB80qlJ6VbC7bi"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HY6rzDpBJ4L5OmgI"
       }
     ],
     "slug": "orca",
@@ -138,7 +138,7 @@
   "_id": "6NhuGYfekQfBxAVd",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "folder": null,
-  "sort": 0,
+  "sort": 400000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -150,7 +150,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

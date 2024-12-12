@@ -14,16 +14,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements </strong>The badger isn't fatigued or raging.</p>\n<hr />\n<p>@Compendium[pf2e-animal-companions.AC-Features.Kgt1NyBesS3rohzb]{Badger Rage}</p>\n<p>The badger enters a state of pure rage that lasts for 1 minute, until there are no enemies it can perceive, or until it falls unconscious, whichever comes first. It can't voluntarily stop raging. While raging, the badger is affected in the following ways.</p>\n<p>It deals 4 additional damage with its bite attacks and 2 additional damage with its claw attacks.</p>\n<p>It takes a &ndash;1 penalty to AC.</p>\n<p>It can't use actions that have the concentrate trait unless they also have the rage trait. The animal companion can Seek even while raging.</p>\n<p>After it has stopped raging, it can't use Badger Rage again for 1 minute.</p>"
+      "value": "<p><strong>Requirements</strong> The badger isn't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} or raging.</p><hr /><p>The badger enters a state of pure rage that lasts for 1 minute, until there are no enemies it can perceive, or until it falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, whichever comes first. It can't voluntarily stop raging. While raging, the badger is affected in the following ways.</p><ul><li>It deals 4 additional damage with its bite attacks and 2 additional damage with its claw attacks.</li><li>It takes a –1 penalty to AC.</li><li>It can't use actions that have the concentrate trait. The animal companion can @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} even while raging. After it has stopped raging, it can't use Badger Rage again for 1 minute.</li></ul>"
     },
-    "rules": [
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
-      }
-    ],
+    "rules": [],
     "slug": "badger-rage",
     "_migration": {
       "version": null,
@@ -77,6 +70,10 @@
     },
     "weapon": {
       "value": ""
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.Kgt1NyBesS3rohzb",
+      "name": "Effect: Badger Rage"
     }
   },
   "ownership": {
@@ -85,7 +82,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9",
     "duplicateSource": null

@@ -27,7 +27,10 @@
         ],
         "value": 3,
         "mode": "upgrade",
-        "property": "dice-number"
+        "property": "dice-number",
+        "predicate": [
+          "dice:slug:base"
+        ]
       },
       {
         "key": "AdjustModifier",

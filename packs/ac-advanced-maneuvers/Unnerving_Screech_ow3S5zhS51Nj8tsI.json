@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your skeletal bird of prey makes an earsplitting, unnatural screech, deafening and startling an enemy within 30 feet. The target must attempt a Fortitude save. The target is then temporarily immune for 1 hour. The frightened condition is a mental, emotion, and fear effect, but the creature can still be @Compendium[pf2e.conditionitems.Deafened]{Deafened} if it's immune to these.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is deafened for 1 round and @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target is deafened for 1 minute and frightened 1.</p>\n<p><strong>Critical Failure</strong> The target is deafened for 10 minutes and @Compendium[pf2e.conditionitems.Frightened]{Frightened 2}.</p>"
+      "value": "<p>Your skeletal bird of prey makes an earsplitting, unnatural screech, deafening and startling an enemy within 30 feet. The target must attempt a @Check[fortitude] save. The target is then temporarily immune for 1 hour. The frightened condition is a mental, emotion, and fear effect, but the creature can still be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} if it's immune to these.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target is deafened for 1 round and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p><strong>Failure</strong> The target is deafened for 1 minute and frightened 1.</p><p><strong>Critical Failure</strong> The target is deafened for 10 minutes and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>"
     },
     "rules": [],
     "slug": "unnerving-screech",
@@ -70,7 +70,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ow3S5zhS51Nj8tsI",
     "duplicateSource": null

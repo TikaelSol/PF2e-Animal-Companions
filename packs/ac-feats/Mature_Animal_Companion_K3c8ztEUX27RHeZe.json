@@ -77,7 +77,10 @@
         ],
         "value": 2,
         "mode": "upgrade",
-        "property": "dice-number"
+        "property": "dice-number",
+        "predicate": [
+          "dice:slug:base"
+        ]
       }
     ],
     "slug": "mature-animal-companion",
