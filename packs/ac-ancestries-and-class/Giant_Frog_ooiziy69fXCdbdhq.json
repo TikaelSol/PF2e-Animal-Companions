@@ -36,7 +36,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
+        "path": "system.skills.survival.rank"
       },
       {
         "key": "BaseSpeed",
@@ -83,10 +83,10 @@
         "group": "brawling",
         "key": "Strike",
         "label": "PF2E.BattleForm.Attack.Tongue",
-        "range": 15,
+        "range": null,
         "traits": [
           "unarmed",
-          "reach"
+          "reach-15"
         ],
         "img": "systems/pf2e/icons/unarmed-attacks/tongue.webp",
         "replaceBasicUnarmed": true
@@ -170,7 +170,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null
