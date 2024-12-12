@@ -14,9 +14,26 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The zombie mount Strides twice, spraying putrid spittle as it runs. Once during this movement, choose a creature adjacent to the zombie mount. The spittle splashes on it, and the creature must succeed at a @Check[type:fortitude|dc:resolve(12+@actor.level+@actor.abilities.con.mod)] save or be @Compendium[pf2e.conditionitems.Sickened]{Sickened 1}. The creature is then temporarily immune to the spittle for 24 hours. This uses a trained DC using the zombie mount's Constitution modifier, or an expert DC (@Check[type:fortitude|dc:resolve(14+@actor.level+@actor.abilities.con.mod)]) if the mount is specialized.</p>"
+      "value": "<p>The zombie mount Strides twice, spraying putrid spittle as it runs. Once during this movement, choose a creature adjacent to the zombie mount. The spittle splashes on it, and the creature must succeed at a @Check[fortitude|dc:resolve(@actor.flags.pf2e.companionCompendia.disgustingGallopDC)] save or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><p>The creature is then temporarily immune to the spittle for 24 hours. This uses a trained DC using the zombie mount's Constitution modifier, or an expert DC if the mount is specialized.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.disgustingGallopDC",
+        "value": "@actor.system.abilities.con.mod + @actor.level + 12"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "flags.pf2e.companionCompendia.disgustingGallopDC",
+        "value": "@actor.system.abilities.con.mod + @actor.level + 14",
+        "priority": 51,
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
     "slug": "disgusting-gallop",
     "_migration": {
       "version": null,
@@ -71,7 +88,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.h1Rldre8WVjUR5XO",
     "duplicateSource": null

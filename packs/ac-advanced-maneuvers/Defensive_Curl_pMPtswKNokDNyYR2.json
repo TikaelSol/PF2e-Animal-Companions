@@ -19,8 +19,8 @@
     "rules": [
       {
         "key": "RollOption",
-        "domain": "all",
-        "option": "defensiveCurl",
+        "domain": "ac",
+        "option": "defensive-curl",
         "toggleable": true
       },
       {
@@ -28,14 +28,9 @@
         "selector": "ac",
         "value": 2,
         "predicate": [
-          "defensiveCurl"
-        ]
-      },
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
+          "defensive-curl"
+        ],
+        "type": "circumstance"
       }
     ],
     "slug": "defensive-curl",
@@ -89,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.tvBQEtzLWUR1PlcL",
     "duplicateSource": null

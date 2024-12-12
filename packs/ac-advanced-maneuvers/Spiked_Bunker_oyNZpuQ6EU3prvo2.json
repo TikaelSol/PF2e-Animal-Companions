@@ -22,12 +22,6 @@
         "selector": "ac",
         "type": "circumstance",
         "value": 2
-      },
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
       }
     ],
     "slug": "spiked-bunker",
@@ -71,7 +65,7 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

@@ -9,6 +9,10 @@
     },
     "rules": [
       {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
@@ -28,6 +32,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -36,7 +46,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
+        "path": "system.skills.survival.rank"
       },
       {
         "key": "BaseSpeed",
@@ -66,14 +76,8 @@
         "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "system.traits.size.value",
+        "key": "CreatureSize",
         "value": "{item|flags.pf2e.rulesSelections.companionSize}"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
       },
       {
         "category": "unarmed",
@@ -114,14 +118,14 @@
         "img": "systems/pf2e/icons/unarmed-attacks/claw.webp"
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:chetamog",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.5y5rpOAEPs2fP0l4"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.AJ7hsZCvwLIzalYA"
       }
     ],
     "slug": "chetamog",
@@ -163,9 +167,7 @@
       }
     },
     "languages": {
-      "value": [
-        "common"
-      ],
+      "value": [],
       "custom": ""
     },
     "additionalLanguages": {
@@ -193,12 +195,12 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "1FSDSwD1f6Fn8d0f",
-  "sort": 2900000,
+  "sort": 6100000,
   "_key": "!items!1FSDSwD1f6Fn8d0f"
 }

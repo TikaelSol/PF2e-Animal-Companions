@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a massive hairy spider.</p>\n<p><strong>Size </strong>Large</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> fangs (finesse), Damage 1d6 piercing plus poison</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> leg (agile, finesse), Damage 1d4 piercing</p>\n<p><strong>Str </strong>+2, <strong>Dex </strong>+3, <strong>Con </strong>+1, <strong>Int </strong>–4, <strong>Wis </strong>+2, <strong>Cha </strong>+0</p>\n<p><strong>Skill </strong>Stealth</p>\n<p><strong>Senses </strong>darkvision</p>\n<p><strong>Speed </strong>30 feet, climb 30 feet</p>\n<p><strong>Special </strong>@UUID[Compendium.pf2e.actionspf2e.Item.PM5jvValFkbFH3TV]{Mount} at 8th level; your riding tarantula's fangs attack deals an additional @Damage[1d4[poison]] damage or @Damage[2d4[poison]] damage if the riding tarantula is a specialized companion</p>\n<p><strong>Support Benefit</strong> Your riding tarantula flicks urticating hairs at your foe, disrupting their focus. Until the start of your next turn, if you hit and deal damage to a creature your riding tarantula threatens, the target must succeed at a @Check[type:flat|dc:5] whenever it takes a concentrate action or that action is lost.</p>\n<p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.eFZtA8LHdw4mWJVt]{Hair Barrage}</p>"
+      "value": "<p>Your companion is a massive hairy spider.</p><p><strong>Size </strong>Large</p><p><strong>Melee </strong><span class=\"pf2-icon\">1</span> fangs (finesse), Damage 1d6 piercing plus poison</p><p><strong>Melee </strong><span class=\"pf2-icon\">1</span> leg (agile, finesse), Damage 1d4 piercing</p><p><strong>Str </strong>+2, <strong>Dex </strong>+3, <strong>Con </strong>+1, <strong>Int </strong>–4, <strong>Wis </strong>+2, <strong>Cha </strong>+0</p><p><strong>Skill </strong>Stealth</p><p><strong>Senses </strong>darkvision</p><p><strong>Speed </strong>30 feet, climb 30 feet</p><p><strong>Special </strong>mount at 8th level; your riding tarantula's fangs attack deals an additional 1d4 poison damage or 2d4 poison damage if the riding tarantula is a specialized companion</p><p><strong>Support Benefit</strong> Your riding tarantula flicks urticating hairs at your foe, disrupting their focus. Until the start of your next turn, if you hit and deal damage to a creature your riding tarantula threatens, the target must succeed at a DC 5 flat check whenever it takes a concentrate action or that action is lost.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.eFZtA8LHdw4mWJVt]{Hair Barrage}</p>"
     },
     "rules": [
       {
@@ -36,7 +36,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.ste.rank"
+        "path": "system.skills.stealth.rank"
       },
       {
         "key": "BaseSpeed",
@@ -50,24 +50,25 @@
       {
         "key": "DamageDice",
         "selector": "fangs-damage",
-        "predicate": [
-          {
-            "not": "self:specialized"
-          }
-        ],
         "diceNumber": 1,
         "dieSize": "d4",
-        "damageType": "poison"
+        "damageType": "poison",
+        "tags": [
+          "tarantula-poison"
+        ]
       },
       {
-        "key": "DamageDice",
-        "selector": "fangs-damage",
-        "predicate": [
-          "self:specialized"
+        "key": "DamageAlteration",
+        "selectors": [
+          "fangs-damage"
         ],
-        "diceNumber": 2,
-        "dieSize": "d4",
-        "damageType": "poison"
+        "predicate": [
+          "feature:specialized-animal-companion",
+          "dice:tag:tarantula-poison"
+        ],
+        "value": 2,
+        "property": "dice-number",
+        "mode": "upgrade"
       },
       {
         "category": "unarmed",
@@ -86,7 +87,8 @@
           "unarmed",
           "finesse"
         ],
-        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp"
+        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+        "slug": "fangs"
       },
       {
         "category": "unarmed",
@@ -110,14 +112,14 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:riding-tarantula",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.NKgFIZQYkL3bb6xn"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.eFZtA8LHdw4mWJVt"
       }
     ],
     "slug": "riding-tarantula",
@@ -175,7 +177,7 @@
   "_id": "bBy7LGZB2GamqkML",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "folder": null,
-  "sort": 0,
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -187,7 +189,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

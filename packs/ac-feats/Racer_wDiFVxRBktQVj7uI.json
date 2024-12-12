@@ -24,19 +24,29 @@
     },
     "rules": [
       {
+        "adjustName": false,
         "key": "ChoiceSet",
         "choices": [
           {
             "label": "PF2E.Actor.Speed.Type.Fly",
-            "value": "fly-speed"
+            "value": "fly-speed",
+            "predicate": [
+              "speed:fly"
+            ]
           },
           {
             "label": "PF2E.Actor.Speed.Type.Land",
-            "value": "land-speed"
+            "value": "land-speed",
+            "predicate": [
+              "speed:land"
+            ]
           },
           {
             "label": "PF2E.Actor.Speed.Type.Swim",
-            "value": "swim-speed"
+            "value": "swim-speed",
+            "predicate": [
+              "speed:swim"
+            ]
           }
         ],
         "flag": "speed"

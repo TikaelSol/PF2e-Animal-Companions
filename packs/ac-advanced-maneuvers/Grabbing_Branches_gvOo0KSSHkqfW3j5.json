@@ -7,14 +7,7 @@
       "gm": "",
       "value": "<p>Your wood elemental surrounds a foe with branches, grabbing it in place. Your wood elemental makes a branch Strike; on a success, the target is also @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the wood elemental until the end of your next turn unless your wood elemental moves or the target Escapes.</p>"
     },
-    "rules": [
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
-      }
-    ],
+    "rules": [],
     "slug": null,
     "_migration": {
       "version": null,
@@ -56,7 +49,7 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Ulgrem-Lurann grabs at your foe and zaps it. Until the start of your next turn, each time you hit a creature in the Ulgrem-Lurann's reach with a Strike, the creature takes an additional [[/r 1d4[piercing]]] damage and [[/r 1d4[electricity]]] damage from the Ulgrem-Lurann. If the Ulgrem-Lurann is nimble or savage, the piercing damage and electricity damage each increase to [[/r 2d4]]{2d4}.</p>"
+      "value": "<p>The Ulgrem-Lurann grabs at your foe and zaps it. Until the start of your next turn, each time you hit a creature in the Ulgrem-Lurann's reach with a Strike, the creature takes an additional @Damage[1d4[piercing],1d4[electricity]] damage from the Ulgrem-Lurann. If the Ulgrem-Lurann is nimble or savage, the piercing damage and electricity damage each increase to @Damage[2d4[piercing],2d4[electricity]]{2d4}.</p>"
     },
     "rules": [],
     "slug": "ulgrem-lurann-support-benefit",
@@ -68,7 +68,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.qTD1AGkv9Vd9mXRn",
     "duplicateSource": null

@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The bird flaps around and throws your foe off balance. Until the start of your next turn, when you damage a creature in the bird's reach with a Strike, that creature becomes @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 1} until the end of your next turn.</p>"
+      "value": "<p>The bird flaps around and throws your foe off balance. Until the start of your next turn, when you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p>"
     },
     "rules": [],
     "slug": "undead-bird-of-prey-support-benefit",
@@ -68,7 +68,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.bEkXle5FLNxnp3IE",
     "duplicateSource": null

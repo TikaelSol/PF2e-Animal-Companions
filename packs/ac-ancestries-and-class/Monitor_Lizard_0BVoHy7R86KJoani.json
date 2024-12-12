@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 100000,
+  "sort": 5900000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.0BVoHy7R86KJoani"
@@ -20,9 +20,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a stocky-limbed lizard with a long, almost serpentine body.</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">a </span>jaws, <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> -4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill</strong> Survival</p>\n<p><strong>Senses</strong> low-light vision, scent (imprecise) 30 feet</p>\n<p><strong>Speed</strong> 30 feet</p>\n<p><strong>Special</strong> mount</p>\n<p><strong>Support Benefit</strong> The monitor lizard distracts an adjacent opponent with snapping jaws and rapid movements. Until the start of your next turn, if your Strike damages a foe, any time the foe attempts an action with the manipulate trait until the end of your next turn, it must attempt a DC 5 flat check. On a failure, the action is disrupted.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.uR3j6TAJFeOVUHpY]{Lurching Rush}</p>"
+      "value": "<p>Your companion is a stocky-limbed lizard with a long, almost serpentine body.</p><p><strong>Size</strong> Medium</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 1d8 piercing</p><p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Survival</p><p><strong>Senses</strong> low-light vision, scent (imprecise) 30 feet</p><p><strong>Speed</strong> 30 feet</p><p><strong>Special</strong> mount</p><p><strong>Support Benefit</strong> The monitor lizard distracts an adjacent opponent with snapping jaws and rapid movements. Until the start of your next turn, if your Strike damages a foe, any time the foe attempts an action with the manipulate trait until the end of your next turn, it must attempt a @Check[flat|dc:5|showDC:all]. On a failure, the action is disrupted.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.uR3j6TAJFeOVUHpY]{Lurching Rush}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 3,
@@ -43,6 +47,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -51,11 +61,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+        "path": "system.skills.survival.rank"
       },
       {
         "acuity": "imprecise",
@@ -83,14 +89,14 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:monitor-lizard",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.2Jaz98WiQMNnqKCD"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.uR3j6TAJFeOVUHpY"
       }
     ],
     "slug": "monitor-lizard",
@@ -123,14 +129,7 @@
         "value": []
       },
       "2": {
-        "value": [
-          "str",
-          "dex",
-          "con",
-          "int",
-          "wis",
-          "cha"
-        ]
+        "value": []
       }
     },
     "flaws": {
@@ -173,7 +172,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.0BVoHy7R86KJoani",
     "duplicateSource": null

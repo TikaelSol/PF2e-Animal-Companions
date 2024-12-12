@@ -9,7 +9,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a water elemental, such as a brine shark.</p>\n<p><strong>Access</strong> You are a member of the wave order SoM .</p>\n<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> wave, <strong>Damage</strong> 1d8 bludgeoning</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Skill</strong> Survival</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Speed</strong> 15 feet, swim 35 feet</p>\n<p><strong>Special</strong> Resistances fire (equal to the water elemental's level)</p>\n<p><strong>Support Benefit</strong> Your water elemental waterlogs a foe. The first time before the start of your next turn you hit with a Strike that deals damage to a creature within your water elemental's reach, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p>\n<p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.x4clojDNIvYB5V7X]{Drench}</p>"
+      "value": "<p>Your companion is a water elemental, such as a brine shark.</p><p><strong>Access</strong> You are a member of the @UUID[Compendium.pf2e.classfeatures.Item.FuUXyv2yBs7zRgqT]{Wave Order}.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> wave, <strong>Damage</strong> 1d8 bludgeoning</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 6</p><p><strong>Skill</strong> Survival</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 15 feet, swim 35 feet</p><p><strong>Special</strong> <em>Resistances</em> fire (equal to the water elemental's level)</p><p><strong>Support Benefit</strong> Your water elemental waterlogs a foe. The first time before the start of your next turn you hit with a Strike that deals damage to a creature within your water elemental's reach, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.x4clojDNIvYB5V7X]{Drench}</p>"
     },
     "rules": [
       {
@@ -32,7 +32,13 @@
       },
       {
         "key": "ActiveEffectLike",
-        "value": 2,
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
       },
@@ -40,7 +46,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
+        "path": "system.skills.survival.rank"
       },
       {
         "key": "GrantItem",
@@ -63,27 +69,31 @@
         "traits": [
           "unarmed"
         ],
-        "img": "systems/pf2e/icons/spells/crashing-wave.webp",
+        "img": "icons/magic/water/wave-water-blue.webp",
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:water-elemental",
-        "priority": 1
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.BFvS1wnFxgUqgX8m",
-        "allowDuplicate": false
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 35
       },
       {
         "key": "Resistance",
         "type": "fire",
         "value": "@actor.level"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.BFvS1wnFxgUqgX8m"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.x4clojDNIvYB5V7X"
       }
     ],
-    "slug": "ankylosaurus",
+    "slug": "water-elemental",
     "_migration": {
       "version": null,
       "lastMigration": null
@@ -105,7 +115,7 @@
     "hp": 6,
     "size": "sm",
     "reach": 5,
-    "speed": 25,
+    "speed": 15,
     "boosts": {
       "0": {
         "value": []
@@ -152,14 +162,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "mdbWMaCPpShOKrmR",
   "folder": null,
-  "sort": 4800000,
+  "sort": 2300000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

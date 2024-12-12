@@ -7,14 +7,7 @@
       "gm": "",
       "value": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p>The fire elemental makes a tendril Strike against all creatures in a @Template[type:line|distance:60], even those that aren't in the tendril Strike's reach. All these Strikes count toward the fire elemental's multiple attack penalty, but it doesn't increase until all the Strikes.</p>"
     },
-    "rules": [
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
-      }
-    ],
+    "rules": [],
     "slug": null,
     "_migration": {
       "version": null,
@@ -60,7 +53,7 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

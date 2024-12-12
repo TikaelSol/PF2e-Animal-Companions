@@ -9,6 +9,11 @@
     },
     "rules": [
       {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
+      {
         "key": "ActiveEffectLike",
         "value": 3,
         "mode": "add",
@@ -28,6 +33,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -36,7 +47,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.ste.rank"
+        "path": "system.skills.stealth.rank"
       },
       {
         "key": "BaseSpeed",
@@ -48,11 +59,6 @@
         "key": "Sense",
         "range": 30,
         "selector": "scent"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
-        "allowDuplicate": false
       },
       {
         "category": "unarmed",
@@ -93,14 +99,14 @@
         "img": "systems/pf2e/icons/unarmed-attacks/claw.webp"
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:mole",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.vvuB2kEzRYSs4IpH"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.PZAHlaN4aG6NkSjj"
       }
     ],
     "slug": "mole",
@@ -153,12 +159,12 @@
       "custom": ""
     },
     "items": {},
-    "vision": "normal"
+    "vision": "low-light-vision"
   },
   "_id": "qbnExhXh5IqzWQmy",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "folder": null,
-  "sort": 0,
+  "sort": 1400000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -170,7 +176,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

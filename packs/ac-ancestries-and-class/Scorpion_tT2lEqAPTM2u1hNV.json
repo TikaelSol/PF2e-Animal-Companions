@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 5300000,
+  "sort": 3800000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.tT2lEqAPTM2u1hNV"
@@ -20,9 +20,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is one of the various species of giant scorpion.</p>\n<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> stinger, <strong>Damage</strong> 1d6 piercing plus poison (see Special)</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> pincer (agile), <strong>Damage</strong> 1d6 slashing</p>\n<p><strong>Str</strong> +3, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Int</strong> -4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Skill</strong> Stealth</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Speed</strong> 30 feet</p>\n<p><strong>Special</strong> The scorpion's stinger attack deals an additional [[/r 1d4[poison]]] damage or [[/r 2d4[poison]]] damage if the scorpion is a specialized companion.</p>\n<p><strong>Support Benefit</strong> Your scorpion drips poison from its stinger when you create an opening. Until the start of your next turn, your Strikes that damage a creature in your scorpion's reach also deal [[/r 1d6[persistent,poison]]] damage. If your scorpion is nimble or savage, the persistent poison damage increases to [[/r 2d6]]{2d6}.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.7H8wqKtsAaSgyLyp]{Grab and Sting}</p>"
+      "value": "<p>Your companion is one of the various species of giant scorpion.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> stinger, <strong>Damage</strong> 1d6 piercing plus poison (see Special)</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> pincer (agile), <strong>Damage</strong> 1d6 slashing</p><p><strong>Str</strong> +3, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 6</p><p><strong>Skill</strong> Stealth</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 30 feet</p><p><strong>Special</strong> The scorpion's stinger attack deals an additional 1d4 poison damage or 2d4 poison damage if the scorpion is a specialized companion.</p><p><strong>Support Benefit</strong> Your scorpion drips poison from its stinger when you create an opening. Until the start of your next turn, your Strikes that damage a creature in your scorpion's reach also deal 1d6 persistent poison damage. If your scorpion is nimble or savage, the persistent poison damage increases to 2d6.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.7H8wqKtsAaSgyLyp]{Grab and Sting}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 3,
@@ -43,6 +47,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -51,33 +61,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.ste.rank"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
-      },
-      {
-        "key": "DamageDice",
-        "selector": "stinger-damage",
-        "predicate": [
-          {
-            "not": "self:specialized"
-          }
-        ],
-        "diceNumber": 1,
-        "dieSize": "d4",
-        "damageType": "poison"
-      },
-      {
-        "key": "DamageDice",
-        "selector": "stinger-damage",
-        "predicate": [
-          "self:specialized"
-        ],
-        "diceNumber": 2,
-        "dieSize": "d4",
-        "damageType": "poison"
+        "path": "system.skills.stealth.rank"
       },
       {
         "category": "unarmed",
@@ -95,7 +79,8 @@
         "traits": [
           "unarmed"
         ],
-        "img": "systems/pf2e/icons/unarmed-attacks/stinger.webp"
+        "img": "systems/pf2e/icons/unarmed-attacks/stinger.webp",
+        "slug": "stinger"
       },
       {
         "category": "unarmed",
@@ -118,14 +103,37 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:scorpion",
-        "priority": 1
+        "key": "DamageDice",
+        "selector": "stinger-damage",
+        "diceNumber": 1,
+        "dieSize": "d4",
+        "damageType": "poison",
+        "tags": [
+          "scorpion-poison"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "stinger-damage"
+        ],
+        "predicate": [
+          "feature:specialized-animal-companion",
+          "dice:tag:scorpion-poison"
+        ],
+        "value": 2,
+        "mode": "upgrade",
+        "property": "dice-number"
       },
       {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.xtXdDC5KrUqh7eCu"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.7H8wqKtsAaSgyLyp"
       }
     ],
     "slug": "scorpion",
@@ -141,10 +149,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "hp": 6,
     "size": "sm",
@@ -158,14 +166,7 @@
         "value": []
       },
       "2": {
-        "value": [
-          "str",
-          "dex",
-          "con",
-          "int",
-          "wis",
-          "cha"
-        ]
+        "value": []
       }
     },
     "flaws": {
@@ -208,7 +209,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.tT2lEqAPTM2u1hNV",
     "duplicateSource": null

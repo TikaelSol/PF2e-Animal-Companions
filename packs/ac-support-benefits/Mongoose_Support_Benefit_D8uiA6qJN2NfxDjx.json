@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>AThe mongoose bounds to your side, alert and at the ready. Until the end of your next turn, creatures adjacent to the mongoose cannot flank you.</p>"
+      "value": "<p>The mongoose bounds to your side, alert and at the ready. Until the end of your next turn, creatures adjacent to the mongoose cannot flank you.</p>"
     },
     "rules": [],
     "slug": "mongoose-support-benefit",
@@ -47,7 +47,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

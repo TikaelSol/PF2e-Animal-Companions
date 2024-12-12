@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The shadow hound releases an eerie bay, attempting to <span data-pf2-action=\"demoralize\" data-pf2-glyph=\"A\">Demoralize</span> each foe in a <span data-pf2-effect-area=\"emanation\\\" data-pf2-distance=\"20\">20-foot emanation</span>. These Demoralize attempts don't require a language and don't take any penalty due to not sharing a language.</p>"
+      "value": "<p>The shadow hound releases an eerie bay, attempting to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} each foe in a @Template[type:emanation|distance:20]. These Demoralize attempts don't require a language and don't take any penalty due to not sharing a language.</p>"
     },
     "rules": [
       {
@@ -75,7 +75,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.EvuMVR9ut9wIHOtq",
     "duplicateSource": null

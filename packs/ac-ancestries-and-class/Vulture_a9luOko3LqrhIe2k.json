@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 3200000,
+  "sort": 5700000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.a9luOko3LqrhIe2k"
@@ -20,9 +20,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a vulture, condor, or other large scavenging bird.</p>\n<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> -4, <strong>Wis</strong> +2, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Skill</strong> Survival</p>\n<p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p>\n<p><strong>Speed</strong> 10 feet, fly 45 feet</p>\n<p><strong>Special</strong> Your vulture gains a +1 status bonus to all saves against disease, and if it rolls a success on a save against a disease, the result is a critical success instead.</p>\n<p><strong>Support Benefit</strong> The vulture retches and vomits onto a foe within 10 feet. Until the start of your next turn, if you hit and deal damage to the target, the target must succeed at a Fortitude save or become @Compendium[pf2e.conditionitems.Sickened]{Sickened 1} (@Compendium[pf2e.conditionitems.Sickened]{Sickened 2} on a critical failure). The DC of the Fortitude save is 12 (or 14, if the vulture is a specialized animal companion) + your level + the vulture's Constitution modifier.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.g4JEtCnKXyY4LJpm]{Feast on the Fallen}</p>"
+      "value": "<p>Your companion is a vulture, condor, or other large scavenging bird.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +2, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 6</p><p><strong>Skill</strong> Survival</p><p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p><p><strong>Speed</strong> 10 feet, fly 45 feet</p><p><strong>Special</strong> Your vulture gains a +1 status bonus to all saves against disease, and if it rolls a success on a save against a disease, the result is a critical success instead.</p><p><strong>Support Benefit</strong> The vulture retches and vomits onto a foe within 10 feet. Until the start of your next turn, if you hit and deal damage to the target, the target must succeed at a Fortitude save or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure). The DC of the Fortitude save is 12 (or 14, if the vulture is a specialized animal companion) + your level + the vulture's Constitution modifier.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.g4JEtCnKXyY4LJpm]{Feast on the Fallen}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 2,
@@ -43,6 +47,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 2,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -51,16 +61,12 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
+        "path": "system.skills.survival.rank"
       },
       {
         "key": "BaseSpeed",
         "selector": "fly",
         "value": 45
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
       },
       {
         "category": "unarmed",
@@ -89,46 +95,33 @@
         "selector": "scent"
       },
       {
-        "key": "Note",
-        "selector": "saving-throw",
-        "text": "<p class='compact-text'><strong>Vulture</strong> When your vulture rolls a success on a save against a disease, the result is a critical success instead.</p>",
-        "predicate": [
-          "disease"
-        ],
-        "outcome": [
-          "success"
-        ],
-        "title": ""
-      },
-      {
         "key": "FlatModifier",
         "selector": "saving-throw",
         "value": 1,
         "type": "status",
         "predicate": [
-          "disease"
+          "item:trait:disease"
         ]
       },
       {
         "key": "AdjustDegreeOfSuccess",
-        "type": "save",
         "selector": "saving-throw",
         "adjustment": {
           "success": "one-degree-better"
         },
         "predicate": [
-          "disease"
+          "item:trait:disease"
         ]
-      },
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:vulture",
-        "priority": 1
       },
       {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.QEZUnvbdrgQJAUs0"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.g4JEtCnKXyY4LJpm"
       }
     ],
     "slug": "vulture",
@@ -213,7 +206,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.a9luOko3LqrhIe2k",
     "duplicateSource": null

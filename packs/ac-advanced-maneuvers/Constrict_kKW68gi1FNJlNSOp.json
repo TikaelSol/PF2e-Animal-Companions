@@ -14,16 +14,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements </strong>The snake has a smaller creature grabbed.</p>\n<hr />\n<p>The snake deals [[/r 12]] bludgeoning damage to the grabbed creature; the creature must attempt a basic Fortitude save. If the snake is a specialized animal companion, increase this damage to [[/r 20]].</p>"
+      "value": "<p><strong>Requirements</strong> The snake has a smaller creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p><hr /><p>The snake deals @Damage[12[bludgeoning]] damage to the grabbed creature; the creature must attempt a @Check[fortitude|basic] save against your class DC. If the snake is a specialized animal companion, increase this damage to @Damage[20[bludgeoning]|shortLabel].</p>"
     },
-    "rules": [
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
-      }
-    ],
+    "rules": [],
     "slug": "constrict",
     "_migration": {
       "version": null,
@@ -81,7 +74,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.kKW68gi1FNJlNSOp",
     "duplicateSource": null

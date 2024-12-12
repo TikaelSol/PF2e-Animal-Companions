@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The antelope impales your distracted foes. Until the start of your next turn, while riding your antelope, your Strikes that damage a creature in your antelope's reach also deal @Damage[1d6[persistent,bleed]] damage. If your antelope is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]].</p>"
+      "value": "<p>The antelope impales your distracted foes. Until the start of your next turn, while riding your antelope, your Strikes that damage a creature in your antelope's reach also deal @Damage[1d6[persistent,bleed]] damage. If your antelope is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]|shortLabel].</p>"
     },
     "rules": [],
     "slug": "antelope-support-benefit",
@@ -47,7 +47,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

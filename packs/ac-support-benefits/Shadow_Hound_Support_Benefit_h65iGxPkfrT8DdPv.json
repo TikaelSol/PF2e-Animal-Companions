@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your shadow hound shrouds your foes in shadow when you leave an opening. Until the start of your next turn, when you damage a creature with a Strike and that creature is within reach of your shadow hound, both you and your shadow hound become @Compendium[pf2e.conditionitems.Concealed]{Concealed} to the creature until the end of your next turn.</p>"
+      "value": "<p>Your shadow hound shrouds your foes in shadow when you leave an opening. Until the start of your next turn, when you damage a creature with a Strike and that creature is within reach of your shadow hound, both you and your shadow hound become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to the creature until the end of your next turn.</p>"
     },
     "rules": [],
     "slug": "shadow-hound-support-benefit",
@@ -68,7 +68,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.h65iGxPkfrT8DdPv",
     "duplicateSource": null

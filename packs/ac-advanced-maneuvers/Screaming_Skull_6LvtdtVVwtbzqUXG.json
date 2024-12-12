@@ -14,9 +14,26 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The skeleton removes its skull and throws it, making a jaws Strike with a range of 20 feet. Regardless of whether it hits, the target and all enemies within 10 feet must attempt a Will save or be @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}, or @Compendium[pf2e.conditionitems.Frightened]{Frightened 2} on a critical failure. This uses a trained DC using the skeleton's Charisma modifier or an expert DC if the skeleton is specialized. At the start of the skeleton's next turn, the head bounces, rolls, or flies back to reattach. The skeleton is blind while its head is away.</p>"
+      "value": "<p>The skeleton removes its skull and throws it, making a jaws Strike with a range of 20 feet. Regardless of whether it hits, the target and all enemies within 10 feet must attempt a @Check[will|dc:resolve(@actor.flags.pf2e.companionCompendia.screamingSkullDC)] save or be @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical failure. This uses a trained DC using the skeleton's Charisma modifier or an expert DC if the skeleton is specialized.</p><p>At the start of the skeleton's next turn, the head bounces, rolls, or flies back to reattach. The skeleton is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blind} while its head is away.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.screamingSkullDC",
+        "value": "@actor.system.abilities.cha.mod + @actor.level + 12"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "flags.pf2e.companionCompendia.screamingSkullDC",
+        "value": "@actor.system.abilities.cha.mod + @actor.level + 14",
+        "priority": 51,
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
     "slug": "screaming-skull",
     "_migration": {
       "version": null,
@@ -73,7 +90,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.6LvtdtVVwtbzqUXG",
     "duplicateSource": null

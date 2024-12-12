@@ -19,9 +19,17 @@
     "rules": [
       {
         "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
+        "option": "boar-charge",
+        "domain": "strike-attack-roll"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "tusk-attack-roll",
+        "value": 2,
+        "predicate": [
+          "boar-charge"
+        ],
+        "type": "circumstance"
       }
     ],
     "slug": "boar-charge",
@@ -81,7 +89,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.EwCqdvU8WOw2SSxm",
     "duplicateSource": null

@@ -16,14 +16,7 @@
       "gm": "",
       "value": "<p>The monitor lizard Strides and then makes a jaws Strike. If it moved at least 20 feet away from its starting position, it gains a +2 circumstance bonus to this attack roll.</p>"
     },
-    "rules": [
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
-      }
-    ],
+    "rules": [],
     "slug": "lurching-rush",
     "_migration": {
       "version": null,
@@ -81,7 +74,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.uR3j6TAJFeOVUHpY",
     "duplicateSource": null

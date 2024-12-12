@@ -14,16 +14,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The cat Strides and then Strikes. If it was undetected at the start of its Cat Pounce, it remains undetected until after the attack.</p>"
+      "value": "<p>The cat Strides and then Strikes. If it was @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} at the start of its Cat Pounce, it remains undetected until after the attack.</p>"
     },
-    "rules": [
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
-      }
-    ],
+    "rules": [],
     "slug": "cat-pounce",
     "_migration": {
       "version": null,
@@ -83,7 +76,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.U0J8J5ukmqnOskE8",
     "duplicateSource": null

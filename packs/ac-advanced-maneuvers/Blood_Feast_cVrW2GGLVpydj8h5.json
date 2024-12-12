@@ -14,21 +14,21 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your vampiric animal companion attacks a bleeding foe and drinks its blood. Your companion attempts a Strike against a creature currently taking persistent bleed damage. The Strike deals [[/r 2d8[additional]]]{2d8 additional damage}. If the Strike hits and deals damage, your vampiric animal companion gains temporary Hit Points equal to half your level that last for up to 1 minute.</p>"
+      "value": "<p>Your vampiric animal companion attacks a bleeding foe and drinks its blood. Your companion attempts a Strike against a creature currently taking persistent bleed damage. The Strike deals 2d8 additional damage. If the Strike hits and deals damage, your vampiric animal companion gains temporary Hit Points equal to half your level that last for up to 1 minute.</p>"
     },
     "rules": [
       {
         "key": "RollOption",
-        "domain": "all",
         "option": "blood-feast",
-        "toggleable": true
+        "toggleable": true,
+        "domain": "strike-damage"
       },
       {
         "key": "DamageDice",
-        "selector": "damage",
+        "selector": "strike-damage",
         "diceNumber": 2,
         "dieSize": "d8",
-        "traits": [
+        "predicate": [
           "blood-feast"
         ]
       }
@@ -84,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.cVrW2GGLVpydj8h5",
     "duplicateSource": null

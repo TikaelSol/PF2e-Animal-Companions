@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 5200000,
+  "sort": 2800000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.qLvwY3aKGHVrbgfk"
@@ -20,9 +20,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is an ape or other primate.</p>\n<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> fist, <strong>Damage</strong> 1d8 bludgeoning</p>\n<p><strong>Str</strong> +3, <strong>Dex</strong> +1, <strong>Con</strong> +2, <strong>Int</strong> -4, <strong>Wis</strong> +2, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill</strong> Intimidation</p>\n<p><strong>Senses</strong> low-light vision</p>\n<p><strong>Speed</strong> 25 feet, climb 25 feet</p>\n<p><strong>Support Benefit</strong> Your ape threatens your foes with menacing growls. Until the start of your next turn, if you hit and deal damage to a creature in your ape's reach, the creature becomes @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.0WtqP7Wei3AxHh5M]{Frightening Display}</p>"
+      "value": "<p>Your companion is an ape or other primate.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> fist, <strong>Damage</strong> 1d8 bludgeoning</p><p><strong>Str</strong> +3, <strong>Dex</strong> +1, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +2, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Intimidation</p><p><strong>Senses</strong> low-light vision</p><p><strong>Speed</strong> 25 feet, climb 25 feet</p><p><strong>Support Benefit</strong> Your ape threatens your foes with menacing growls. Until the start of your next turn, if you hit and deal damage to a creature in your ape's reach, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.0WtqP7Wei3AxHh5M]{Frightening Display}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
       {
         "key": "ActiveEffectLike",
         "value": 3,
@@ -43,6 +48,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 2,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -51,17 +62,12 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.itm.rank"
+        "path": "system.skills.intimidation.rank"
       },
       {
         "key": "BaseSpeed",
         "selector": "climb",
         "value": 25
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
-        "allowDuplicate": false
       },
       {
         "category": "unarmed",
@@ -83,21 +89,14 @@
         "label": "PF2E.Weapon.Base.fist"
       },
       {
-        "key": "ActiveEffectLike",
-        "value": "0WtqP7Wei3AxHh5M",
-        "mode": "override",
-        "path": "system.custom.modifiers.advancedManeuver"
-      },
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:ape",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.Qm0iwIYyy2gbnYXe",
-        "allowDuplicate": false
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.Qm0iwIYyy2gbnYXe"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.0WtqP7Wei3AxHh5M"
       }
     ],
     "slug": "ape",
@@ -113,10 +112,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "hp": 8,
     "size": "sm",
@@ -130,14 +129,7 @@
         "value": []
       },
       "2": {
-        "value": [
-          "str",
-          "dex",
-          "con",
-          "int",
-          "wis",
-          "cha"
-        ]
+        "value": []
       }
     },
     "flaws": {
@@ -180,7 +172,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.qLvwY3aKGHVrbgfk",
     "duplicateSource": null

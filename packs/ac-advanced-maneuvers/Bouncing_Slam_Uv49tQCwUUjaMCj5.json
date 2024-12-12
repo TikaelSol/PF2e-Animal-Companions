@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The gibtas Leaps toward a Medium or smaller creature, landing in the creature's space and @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shoving} the creature. If the Shove fails, the gibtas bounces out of the target's square to an adjacent square of the target's choosing.</p>"
+      "value": "<p>The gibtas Leaps toward a Medium or smaller creature, landing in the creature's space and @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shoving} the creature. If the Shove fails, the gibtas bounces out of the target's square to an adjacent square of the target's choosing.</p>"
     },
     "rules": [],
     "slug": "bouncing-slam",
@@ -68,7 +68,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.Uv49tQCwUUjaMCj5",
     "duplicateSource": null

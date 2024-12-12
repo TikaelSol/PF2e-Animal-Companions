@@ -9,6 +9,11 @@
     },
     "rules": [
       {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
+      {
         "key": "ActiveEffectLike",
         "value": 2,
         "mode": "add",
@@ -28,6 +33,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -42,12 +53,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
-        "allowDuplicate": false
+        "path": "system.skills.survival.rank"
       },
       {
         "category": "unarmed",
@@ -93,14 +99,14 @@
         "value": 10
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:salamander",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.XWRd0x7AvdXoeJi3"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.l3aasm0to5RvUkU0"
       }
     ],
     "slug": "salamander",
@@ -142,9 +148,7 @@
       }
     },
     "languages": {
-      "value": [
-        "common"
-      ],
+      "value": [],
       "custom": ""
     },
     "additionalLanguages": {
@@ -158,7 +162,7 @@
   "_id": "cLYMOs1OMaEmMzSI",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "folder": null,
-  "sort": 0,
+  "sort": 1200000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -170,7 +174,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

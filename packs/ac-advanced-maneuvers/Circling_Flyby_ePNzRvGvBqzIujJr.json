@@ -7,14 +7,7 @@
       "gm": "",
       "value": "<p>Your air elemental flies in a circle, blowing gusts at your foes before returning back to its starting position. The air elemental Flies up to half its Speed, makes two gust Strikes, then Flies up to half its Speed again to return to its original location. Both attacks count toward the air elemental's multiple attack penalty, but the penalty doesn't increase until after it makes both attacks.</p>"
     },
-    "rules": [
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
-      }
-    ],
+    "rules": [],
     "slug": null,
     "_migration": {
       "version": null,
@@ -57,7 +50,7 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

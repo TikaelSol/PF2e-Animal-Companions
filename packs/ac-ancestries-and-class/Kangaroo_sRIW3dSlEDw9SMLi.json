@@ -9,6 +9,10 @@
     },
     "rules": [
       {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
         "key": "ActiveEffectLike",
         "value": 3,
         "mode": "add",
@@ -28,6 +32,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -36,11 +46,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+        "path": "system.skills.survival.rank"
       },
       {
         "category": "unarmed",
@@ -56,20 +62,21 @@
         "label": "PF2E.BattleForm.Attack.Foot",
         "range": null,
         "traits": [
-          "unarmed"
+          "unarmed",
+          "agile"
         ],
         "img": "systems/pf2e/icons/unarmed-attacks/foot.webp",
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:kangaroo",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.oawpSPdSj1hSkSYk"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.hjYmAzurrzcGyds4"
       }
     ],
     "slug": "kangaroo",
@@ -127,7 +134,7 @@
   "_id": "sRIW3dSlEDw9SMLi",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "folder": null,
-  "sort": 0,
+  "sort": 1500000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -139,7 +146,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

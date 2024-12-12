@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The tyrannosaurus bears down on an enemy and pins it with its jaws. The tyrannosaurus makes a jaws Strike; on a hit, the target is @Compendium[pf2e.conditionitems.Grabbed]{Grabbed}.</p>"
+      "value": "<p>The tyrannosaurus bears down on an enemy and pins it with its jaws. The tyrannosaurus makes a jaws Strike; on a hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>"
     },
     "rules": [],
     "slug": "overwhelm",
@@ -68,7 +68,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.yXw82Zd5nkcCUfRQ",
     "duplicateSource": null

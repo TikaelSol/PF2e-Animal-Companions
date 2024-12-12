@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The camel makes a ranged attack to spit a long string of saliva at a foe within 10 feet. On a hit, the foe is @Compendium[pf2e.conditionitems.Dazzled]{Dazzled} for 1 round.</p>"
+      "value": "<p>The camel makes a ranged attack to spit a long string of saliva at a foe within 10 feet. On a hit, the foe is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>"
     },
     "rules": [],
     "slug": "camel-support-benefit",
@@ -71,7 +71,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.lzaNwsSxjVPH1nzn",
     "duplicateSource": null

@@ -24,6 +24,7 @@
     },
     "rules": [
       {
+        "adjustName": false,
         "key": "ChoiceSet",
         "choices": [
           {

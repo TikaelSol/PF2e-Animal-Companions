@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 1900000,
+  "sort": 3900000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.MpqwqLf7AaLOfyZh"
@@ -20,9 +20,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a constrictor snake, such as a boa or python.</p>\n<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Str</strong> +3, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Int</strong> -4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Skill</strong> Stealth</p>\n<p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p>\n<p><strong>Speed</strong> 20 feet, climb 20 feet, swim 20 feet</p>\n<p><strong>Support Benefit</strong> Your snake holds your enemies with its coils, interfering with reactions. Until the start of your next turn, any creature your snake threatens can't use reactions triggered by your actions unless its level is higher than yours.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.kKW68gi1FNJlNSOp]{Constrict}</p>"
+      "value": "<p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p><p><strong>Str</strong> +3, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 6</p><p><strong>Skill</strong> Stealth</p><p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p><p><strong>Speed</strong> 20 feet, climb 20 feet, swim 20 feet</p><p><strong>Support Benefit</strong> Your snake holds your enemies with its coils, interfering with reactions. Until the start of your next turn, any creature your snake threatens can't use reactions triggered by your actions unless its level is higher than yours.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.kKW68gi1FNJlNSOp]{Constrict}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 3,
@@ -43,6 +47,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -51,7 +61,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.ste.rank"
+        "path": "system.skills.stealth.rank"
       },
       {
         "key": "BaseSpeed",
@@ -62,10 +72,6 @@
         "key": "BaseSpeed",
         "selector": "swim",
         "value": 20
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
       },
       {
         "acuity": "imprecise",
@@ -94,14 +100,14 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:snake",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.trujzLuDqjQ7nJEO"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.kKW68gi1FNJlNSOp"
       }
     ],
     "slug": "snake",
@@ -186,7 +192,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.MpqwqLf7AaLOfyZh",
     "duplicateSource": null

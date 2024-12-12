@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The terror bird makes a beak Strike; on a successful hit, the target takes [[/r 2d6[persistent,bleed]]] damage.</p>"
+      "value": "<p>The terror bird makes a beak Strike; on a successful hit, the target takes @Damage[2d6[persistent,bleed]] damage.</p>"
     },
     "rules": [
       {
@@ -75,7 +75,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.tvBQEtzLWUR1PlcL",
     "duplicateSource": null

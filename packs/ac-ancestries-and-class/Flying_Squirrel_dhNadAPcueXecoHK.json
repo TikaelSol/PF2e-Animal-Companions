@@ -9,6 +9,10 @@
     },
     "rules": [
       {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
         "key": "ActiveEffectLike",
         "value": 2,
         "mode": "add",
@@ -28,6 +32,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 2,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -36,12 +46,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.ste.rank"
-      },
-      {
-        "key": "BaseSpeed",
-        "selector": "climb",
-        "value": 25
+        "path": "system.skills.stealth.rank"
       },
       {
         "acuity": "imprecise",
@@ -50,8 +55,9 @@
         "selector": "scent"
       },
       {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 25
       },
       {
         "category": "unarmed",
@@ -94,14 +100,14 @@
         "img": "systems/pf2e/icons/unarmed-attacks/claw.webp"
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:flying-squirrel",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.V2kspaYOoLbHV5vb"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.OYzEhVH6zMgf64Tg"
       }
     ],
     "slug": "flying-squirrel",
@@ -159,7 +165,7 @@
   "_id": "dhNadAPcueXecoHK",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "folder": null,
-  "sort": 0,
+  "sort": 1700000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -171,7 +177,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

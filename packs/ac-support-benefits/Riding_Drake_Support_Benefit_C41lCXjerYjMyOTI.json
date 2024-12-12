@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your drake snorts fire in your foes' faces. Until the start of your next turn, each time you Strike while riding the drake and hit a creature in the drake's reach, the creature takes [[/r 1d4 # fire damage]]{1d4 fire damage} from the drake. If your drake is nimble or savage, the fire damage increases to [[/r 2d4 # fire]]{2d4}.</p>"
+      "value": "<p>Your drake snorts fire in your foes' faces. Until the start of your next turn, each time you Strike while riding the drake and hit a creature in the drake's reach, the creature takes @Damage[1d4[fire]] damage from the drake. If your drake is nimble or savage, the fire damage increases to @Damage[2d4[fire]|shortLabel].</p>"
     },
     "rules": [],
     "slug": "riding-drake-support-benefit",
@@ -71,7 +71,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.C41lCXjerYjMyOTI",
     "duplicateSource": null

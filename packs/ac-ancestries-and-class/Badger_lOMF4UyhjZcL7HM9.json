@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 4600000,
+  "sort": 2900000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.lOMF4UyhjZcL7HM9"
@@ -20,9 +20,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a badger, wolverine, or other big mustelid.</p>\n<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> claw (agile), <strong>Damage</strong> 1d6 slashing</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> -4, <strong>Wis</strong> +2, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill</strong> Survival</p>\n<p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p>\n<p><strong>Speed</strong> 25 feet, burrow 10 feet, climb 10 feet</p>\n<p><strong>Support Benefit</strong> Your badger digs around your foe's position, interfering with its footing. Until the start of your next turn, if you hit and deal damage to a creature your badger threatens, the target can't use a Step action (unless it can Step through difficult terrain) until it moves from its current position.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.HLD4JW6SUn5Oy8C9]{Badger Rage}</p>"
+      "value": "<p>Your companion is a badger, wolverine, or other big mustelid.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 1d8 piercing</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> claw (agile), <strong>Damage</strong> 1d6 slashing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +2, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Survival</p><p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p><p><strong>Speed</strong> 25 feet, burrow 10 feet, climb 10 feet</p><p><strong>Support Benefit</strong> Your badger digs around your foe's position, interfering with its footing. Until the start of your next turn, if you hit and deal damage to a creature your badger threatens, the target can't use a Step action (unless it can Step through difficult terrain) until it moves from its current position.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9]{Badger Rage}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
       {
         "key": "ActiveEffectLike",
         "value": 2,
@@ -43,6 +48,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 2,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -51,7 +62,13 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
+        "path": "system.skills.survival.rank"
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "scent"
       },
       {
         "key": "BaseSpeed",
@@ -62,10 +79,6 @@
         "key": "BaseSpeed",
         "selector": "climb",
         "value": 10
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
       },
       {
         "category": "unarmed",
@@ -106,20 +119,14 @@
         "img": "systems/pf2e/icons/unarmed-attacks/claw.webp"
       },
       {
-        "acuity": "imprecise",
-        "key": "Sense",
-        "range": 30,
-        "selector": "scent"
-      },
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:badger",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.nQwTbiyTHahsvmBi"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9"
       }
     ],
     "slug": "badger",
@@ -135,10 +142,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "hp": 8,
     "size": "sm",
@@ -152,14 +159,7 @@
         "value": []
       },
       "2": {
-        "value": [
-          "str",
-          "dex",
-          "con",
-          "int",
-          "wis",
-          "cha"
-        ]
+        "value": []
       }
     },
     "flaws": {
@@ -202,7 +202,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.lOMF4UyhjZcL7HM9",
     "duplicateSource": null

@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 2700000,
+  "sort": 7500000,
   "flags": {
     "core": {
       "sourceId": "Item.WthugGo14WNxa3L5"
@@ -14,9 +14,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is the skeleton of a constrictor snake such as a boa or python. Red lights burn deep in its eye sockets.</p>\n<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> -5, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 4</p>\n<p><strong>Skill</strong> none (mindless)</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Speed</strong> 20 feet, climb 20 feet, swim 20 feet</p>\n<p><strong>Special</strong> mindless</p>\n<p><strong>Support Benefit</strong> Your snake sways, captivating an enemy. Choose one creature within 20 feet of the constrictor that can see it. Until the start of your next turn, your Strikes that deal damage to the chosen creature make the target @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} until the end of your next turn.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.AH3kNbdGLYaRjVAr]{Bony Constriction}</p>"
+      "value": "<p>Your companion is the skeleton of a constrictor snake such as a boa or python. Red lights burn deep in its eye sockets.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> -5, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> none (mindless)</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 20 feet, climb 20 feet, swim 20 feet</p><p><strong>Special</strong> mindless</p><p><strong>Support Benefit</strong> Your snake sways, captivating an enemy. Choose one creature within 20 feet of the constrictor that can see it. Until the start of your next turn, your Strikes that deal damage to the chosen creature make the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.AH3kNbdGLYaRjVAr]{Bony Constriction}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 2,
@@ -37,16 +41,15 @@
       },
       {
         "key": "ActiveEffectLike",
-        "value": 1,
+        "value": -5,
         "mode": "add",
-        "path": "system.abilities.wis.mod"
+        "path": "system.abilities.int.mod"
       },
       {
         "key": "ActiveEffectLike",
-        "value": -5,
-        "mode": "override",
-        "path": "system.abilities.int.mod",
-        "priority": 60
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
       },
       {
         "key": "BaseSpeed",
@@ -57,10 +60,6 @@
         "key": "BaseSpeed",
         "selector": "swim",
         "value": 20
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
       },
       {
         "category": "unarmed",
@@ -87,10 +86,10 @@
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.Si13B4VFANZN8mi1"
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:skeletal-constrictor",
-        "priority": 1
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.AH3kNbdGLYaRjVAr"
       }
     ],
     "slug": "skeletal-constrictor",
@@ -141,7 +140,14 @@
       "value": [],
       "custom": ""
     },
-    "items": {},
+    "items": {
+      "REPrl": {
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.CSBy1IgHTSkVAFMM",
+        "img": "systems/pf2e/icons/spells/mind-of-menace.webp",
+        "name": "Mindless Companion",
+        "level": 0
+      }
+    },
     "vision": "darkvision",
     "source": {
       "value": "Pathfinder #181: Zombie Feast"
@@ -166,7 +172,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Item.WthugGo14WNxa3L5",
     "duplicateSource": null

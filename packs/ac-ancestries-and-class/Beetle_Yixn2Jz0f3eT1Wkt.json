@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 3100000,
+  "sort": 4900000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.8gSeDqJLLQRlQWis"
@@ -20,9 +20,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your animal companion is a large, flightless stag beetle.</p>\n<p><strong>Size</strong> Medium or Large</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> mandible, <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> foot (agile), <strong>Damage</strong> 1d6 bludgeoning</p>\n<p><strong>Str</strong> +3, <strong>Dex</strong> +1, <strong>Con</strong> +3, <strong>Int</strong> -4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill</strong> Survival</p>\n<p><strong>Senses</strong> low-light vision</p>\n<p><strong>Speed</strong> 35 feet</p>\n<p><strong>Special</strong> mount</p>\n<p><strong>Support Benefit</strong> Your beetle stomps around and smashes into foes, knocking them off balance or pushing them aside when you create an opening. Until the start of your next turn, while riding on your beetle, your Strikes that deal damage either make the target @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} until the end of your next turn or move the target 5 feet away from the beetle (this is forced movement). The target chooses which effect occurs.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.zSlsnbvsGKdCTzL1]{Hustle}</p>"
+      "value": "<p>Your animal companion is a large, flightless stag beetle.</p><p><strong>Size</strong> Medium or Large</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> mandible, <strong>Damage</strong> 1d8 piercing</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> foot (agile), <strong>Damage</strong> 1d6 bludgeoning</p><p><strong>Str</strong> +3, <strong>Dex</strong> +1, <strong>Con</strong> +3, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Survival</p><p><strong>Senses</strong> low-light vision</p><p><strong>Speed</strong> 35 feet</p><p><strong>Special</strong> mount</p><p><strong>Support Benefit</strong> Your beetle stomps around and smashes into foes, knocking them off balance or pushing them aside when you create an opening. Until the start of your next turn, while riding on your beetle, your Strikes that deal damage either make the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] until the end of your next turn or move the target 5 feet away from the beetle (this is forced movement). The target chooses which effect occurs.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.zSlsnbvsGKdCTzL1]{Hustle}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 3,
@@ -43,6 +47,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -51,12 +61,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.sur.rank"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
-        "allowDuplicate": false
+        "path": "system.skills.survival.rank"
       },
       {
         "category": "unarmed",
@@ -113,21 +118,18 @@
         "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "system.traits.size.value",
+        "key": "CreatureSize",
         "value": "{item|flags.pf2e.rulesSelections.companionSize}"
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:beetle",
-        "priority": 1
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.mFTzDCqNL5EdwlGm"
       },
       {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.mFTzDCqNL5EdwlGm",
-        "allowDuplicate": false
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.zSlsnbvsGKdCTzL1"
       }
     ],
     "slug": "beetle",
@@ -203,7 +205,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.8gSeDqJLLQRlQWis",
     "duplicateSource": null

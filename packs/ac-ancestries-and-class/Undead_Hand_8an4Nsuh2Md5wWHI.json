@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 1000000,
+  "sort": 7600000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.8an4Nsuh2Md5wWHI"
@@ -14,9 +14,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a large skeletal or fleshy humanoid hand, similar to a giant crawling hand (Pathfinder Bestiary 2 56).</p>\n<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> claw (agile, finesse), <strong>Damage</strong> 1d6 slashing</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> -5, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 4</p>\n<p><strong>Skill</strong> none (mindless)</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Speed</strong> 20 feet, climb 20 feet</p>\n<p><strong>Special</strong> mindless</p>\n<p><strong>Support Benefit</strong> The hand viciously batters the foes you attack. Until the start of your next turn, each time you hit a creature in the hand's reach with a Strike, the creature takes [[/r 1d6[bludgeoning]]] damage from the hand. If your hand is nimble or savage, the bludgeoning damage increases to [[/r 2d6]]{2d6}.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.MQv67R7KBIrJkshN]{Grip Throat}</p>"
+      "value": "<p>Your companion is a large skeletal or fleshy humanoid hand, similar to a giant crawling hand.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> claw (agile, finesse), <strong>Damage</strong> 1d6 slashing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> -5, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> none (mindless)</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 20 feet, climb 20 feet</p><p><strong>Special</strong> mindless</p><p><strong>Support Benefit</strong> The hand viciously batters the foes you attack. Until the start of your next turn, each time you hit a creature in the hand's reach with a Strike, the creature takes 1d6 bludgeoning damage from the hand. If your hand is nimble or savage, the bludgeoning damage increases to 2d6.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.MQv67R7KBIrJkshN]{Grip Throat}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 2,
@@ -38,19 +42,14 @@
       {
         "key": "ActiveEffectLike",
         "value": -5,
-        "mode": "override",
-        "path": "system.abilities.int.mod",
-        "priority": 60
+        "mode": "add",
+        "path": "system.abilities.int.mod"
       },
       {
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
       },
       {
         "category": "unarmed",
@@ -78,14 +77,14 @@
         "value": 20
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:undead-hand",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.imNJpD4afn4UrLpu"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.MQv67R7KBIrJkshN"
       }
     ],
     "slug": "undead-hand",
@@ -136,7 +135,14 @@
       "value": [],
       "custom": ""
     },
-    "items": {},
+    "items": {
+      "KQuYe": {
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.CSBy1IgHTSkVAFMM",
+        "img": "systems/pf2e/icons/spells/mind-of-menace.webp",
+        "name": "Mindless Companion",
+        "level": 0
+      }
+    },
     "vision": "darkvision",
     "source": {
       "value": "Pathfinder #181: Zombie Feast"
@@ -161,7 +167,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.8an4Nsuh2Md5wWHI",
     "duplicateSource": null

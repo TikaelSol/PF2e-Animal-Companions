@@ -14,16 +14,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your ape makes a loud and frightening display, throwing a foe off balance. The ape attempts to @Compendium[pf2e.action-macros.nEwqNNWX6scLt4sc]{Demoralize: Intimidation} the target creature; this display gains the visual trait and doesn't require language. While frightened by this ability, the target is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} to your ape.</p>"
+      "value": "<p>Your ape makes a loud and frightening display, throwing a foe off balance. The ape attempts to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} the target creature; this display gains the visual trait and doesn't require language. While @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} by this ability, the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to your ape.</p>"
     },
-    "rules": [
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "has-advanced-maneuver",
-        "priority": 1
-      }
-    ],
+    "rules": [],
     "slug": "frightening-display",
     "_migration": {
       "version": null,
@@ -83,7 +76,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.0WtqP7Wei3AxHh5M",
     "duplicateSource": null

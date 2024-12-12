@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 5000000,
+  "sort": 3200000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.oB8ylf56HRtXE9yq"
@@ -20,9 +20,13 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a shark of any kind, such as a hammerhead, great white, or jigsaw shark.</p>\n<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> -4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Skill</strong> Stealth</p>\n<p><strong>Senses</strong> blood scent, scent (imprecise, 60 feet)</p>\n<p><strong>Speed</strong> swim 40 feet</p>\n<p><strong>Special</strong> The shark has the aquatic trait. Its blood scent enables it to smell blood in the water from up to 1 mile away.</p>\n<p><strong>Support Benefit</strong> When your shark senses blood, it tears into your enemies. Until the start of your next turn, each time you hit a creature in the shark's reach with a Strike and deal slashing or piercing damage, the creature takes [[/r 1d8[slashing]]] damage from the shark. If your shark is nimble or savage, the slashing damage increases to [[/r 2d8]]{2d8}.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.F98ajoIakyOPEuwj]{Shred}</p>"
+      "value": "<p>Your companion is a shark of any kind, such as a hammerhead, great white, or jigsaw shark.</p><p><strong>Size</strong> Small</p><p>Melee <span class=\"pf2-icon\">1</span> jaws, Damage 1d8 piercing</p><p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 6</p><p><strong>Skill</strong> Stealth</p><p><strong>Senses</strong> blood scent, scent (imprecise, 60 feet)</p><p><strong>Speed</strong> swim 40 feet</p><p><strong>Special</strong> The shark has the aquatic trait. Its blood scent enables it to smell blood in the water from up to 1 mile away.</p><p><strong>Support Benefit</strong> When your shark senses blood, it tears into your enemies. Until the start of your next turn, each time you hit a creature in the shark's reach with a Strike and deal slashing or piercing damage, the creature takes 1d8 slashing damage from the shark. If your shark is nimble or savage, the slashing damage increases to 2d8.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.F98ajoIakyOPEuwj]{Shred}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 3,
@@ -43,6 +47,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -51,16 +61,12 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.ste.rank"
+        "path": "system.skills.stealth.rank"
       },
       {
         "key": "BaseSpeed",
         "selector": "swim",
         "value": 40
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
       },
       {
         "acuity": "imprecise",
@@ -88,14 +94,19 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:shark",
-        "priority": 1
-      },
-      {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.YsLLV4J7L6fgzTXf"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.F98ajoIakyOPEuwj"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "value": -5
       }
     ],
     "slug": "shark",
@@ -112,15 +123,15 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "hp": 6,
     "size": "sm",
     "reach": 5,
-    "speed": 0,
+    "speed": 5,
     "boosts": {
       "0": {
         "value": []
@@ -179,7 +190,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.oB8ylf56HRtXE9yq",
     "duplicateSource": null

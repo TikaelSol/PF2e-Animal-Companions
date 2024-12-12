@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
-  "sort": 5100000,
+  "sort": 2700000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.pAiHiUC9NfbndLNG"
@@ -20,9 +20,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a swift, flightless drake with limited intelligence, less vicious than most drakes but fiercely loyal to you. A riding drake has the dragon trait instead of the animal trait, but it otherwise functions normally as an animal companion.</p>\n<p><strong>Size</strong> Large</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> tail, <strong>Damage</strong> 1d6 bludgeoning</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +1, <strong>Con</strong> +2, <strong>Int</strong> -4, <strong>Wis</strong> +1, <strong>Cha</strong> +2</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill</strong> Intimidation</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Speed</strong> 45 feet</p>\n<p><strong>Special</strong> mount</p>\n<p><strong>Support Benefit</strong> Your drake snorts fire in your foes' faces. Until the start of your next turn, each time you Strike while riding the drake and hit a creature in the drake's reach, the creature takes [[/r 1d4[fire]]] damage from the drake. If your drake is nimble or savage, the fire damage increases to [[/r 2d4]]{2d4}.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.8JdETVTpbZAgtBA3]{Breath Weapon}</p>"
+      "value": "<p>Your companion is a swift, flightless drake with limited intelligence, less vicious than most drakes but fiercely loyal to you. A riding drake has the dragon trait instead of the animal trait, but it otherwise functions normally as an animal companion.</p><p><strong>Size</strong> Large</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 1d8 piercing</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> tail, <strong>Damage</strong> 1d6 bludgeoning</p><p><strong>Str</strong> +2, <strong>Dex</strong> +1, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +2</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Intimidation</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 45 feet</p><p><strong>Special</strong> mount</p><p><strong>Support Benefit</strong> Your drake snorts fire in your foes' faces. Until the start of your next turn, each time you Strike while riding the drake and hit a creature in the drake's reach, the creature takes 1d4 fire damage from the drake. If your drake is nimble or savage, the fire damage increases to 2d4.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.8JdETVTpbZAgtBA3]{Fire Breath}</p>"
     },
     "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
       {
         "key": "ActiveEffectLike",
         "value": 2,
@@ -43,6 +48,12 @@
       },
       {
         "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
         "path": "system.abilities.wis.mod"
@@ -57,29 +68,7 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.skills.itm.rank"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
-      },
-      {
-        "category": "unarmed",
-        "damage": {
-          "base": {
-            "damageType": "bludgeoning",
-            "dice": 1,
-            "die": "d6"
-          }
-        },
-        "group": "brawling",
-        "key": "Strike",
-        "label": "PF2E.BattleForm.Attack.Tail",
-        "range": null,
-        "traits": [
-          "unarmed"
-        ],
-        "img": "systems/pf2e/icons/unarmed-attacks/tail.webp"
+        "path": "system.skills.intimidation.rank"
       },
       {
         "category": "unarmed",
@@ -101,14 +90,32 @@
         "replaceBasicUnarmed": true
       },
       {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:ancestry:riding-drake",
-        "priority": 1
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Tail",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/tail.webp"
       },
       {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.C41lCXjerYjMyOTI"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.8JdETVTpbZAgtBA3"
       }
     ],
     "slug": "riding-drake",
@@ -121,13 +128,13 @@
       "value": [
         "dragon"
       ],
-      "rarity": "common"
+      "rarity": "uncommon"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "hp": 8,
     "size": "lg",
@@ -191,7 +198,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.pAiHiUC9NfbndLNG",
     "duplicateSource": null
