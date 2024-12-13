@@ -20,11 +20,13 @@
         "selector": "strike-damage",
         "value": 2,
         "predicate": [
-          "proficiency:rank:2",
-          "unarmed",
           {
-            "not": "feature:greater-eidolon-specialization"
-          }
+            "gte": [
+              "item:proficiency:rank",
+              2
+            ]
+          },
+          "unarmed"
         ],
         "slug": "weapon-specialization"
       },
@@ -33,11 +35,8 @@
         "selector": "strike-damage",
         "value": 3,
         "predicate": [
-          "proficiency:rank:3",
-          "unarmed",
-          {
-            "not": "feature:greater-eidolon-specialization"
-          }
+          "item:proficiency:rank:3",
+          "unarmed"
         ],
         "slug": "weapon-specialization",
         "mode": "upgrade"
@@ -47,11 +46,8 @@
         "selector": "strike-damage",
         "value": 4,
         "predicate": [
-          "proficiency:rank:4",
-          "unarmed",
-          {
-            "not": "feature:greater-eidolon-specialization"
-          }
+          "item:proficiency:rank:4",
+          "unarmed"
         ],
         "slug": "weapon-specialization",
         "mode": "upgrade"
@@ -106,7 +102,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.a6supDv34hhqsktB",
     "duplicateSource": null

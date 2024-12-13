@@ -17,10 +17,11 @@
     "rules": [
       {
         "key": "AdjustModifier",
-        "selector": "strike-damage",
-        "value": 2,
-        "slug": "weapon-specialization",
         "mode": "multiply",
+        "relabel": "PF2E.GreaterWeaponSpecialization",
+        "selector": "strike-damage",
+        "slug": "weapon-specialization",
+        "value": 2,
         "priority": 90
       }
     ],
@@ -73,7 +74,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.7.2",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.VzJuYopRKC81GteD",
     "duplicateSource": null
