@@ -14,21 +14,27 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The vulture retches and vomits onto a foe within 10 feet. Until the start of your next turn, if you hit and deal damage to the target, the target must succeed at a @Check[fortitude|dc:resolve(@actor.flags.pf2e.companionCompendia.vultureSupportDC)] save or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure). The DC of the Fortitude save is 12 (or 14, if the vulture is a specialized animal companion) + your level + the vulture's Constitution modifier.</p>"
+      "value": "<p>The vulture retches and vomits onto a foe within 10 feet. Until the start of your next turn, if you hit and deal damage to the target, the target must succeed at a @Check[fortitude|against:vulture-support] save or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure). The DC of the Fortitude save is 12 (or 14, if the vulture is a specialized animal companion) + your level + the vulture's Constitution modifier.</p>"
     },
     "rules": [
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.companionCompendia.vultureSupportDC",
-        "value": "@actor.system.abilities.con.mod + @actor.level + 12"
+        "attribute": "con",
+        "key": "SpecialStatistic",
+        "slug": "vulture-support"
       },
       {
-        "key": "ActiveEffectLike",
+        "key": "FlatModifier",
+        "selector": "vulture-support",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "vulture-support-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
         "mode": "upgrade",
-        "path": "flags.pf2e.companionCompendia.vultureSupportDC",
-        "value": "@actor.system.abilities.con.mod + @actor.level + 14",
-        "priority": 51,
+        "slug": "vulture-support-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "vulture-support",
         "predicate": [
           "feature:specialized-animal-companion"
         ]

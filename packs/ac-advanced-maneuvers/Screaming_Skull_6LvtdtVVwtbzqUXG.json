@@ -14,21 +14,27 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The skeleton removes its skull and throws it, making a jaws Strike with a range of 20 feet. Regardless of whether it hits, the target and all enemies within 10 feet must attempt a @Check[will|dc:resolve(@actor.flags.pf2e.companionCompendia.screamingSkullDC)] save or be @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical failure. This uses a trained DC using the skeleton's Charisma modifier or an expert DC if the skeleton is specialized.</p><p>At the start of the skeleton's next turn, the head bounces, rolls, or flies back to reattach. The skeleton is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blind} while its head is away.</p>"
+      "value": "<p>The skeleton removes its skull and throws it, making a jaws Strike with a range of 20 feet. Regardless of whether it hits, the target and all enemies within 10 feet must attempt a @Check[will|against:screaming-skull] save or be @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical failure. This uses a trained DC using the skeleton's Charisma modifier or an expert DC if the skeleton is specialized.</p><p>At the start of the skeleton's next turn, the head bounces, rolls, or flies back to reattach. The skeleton is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blind} while its head is away.</p>"
     },
     "rules": [
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.companionCompendia.screamingSkullDC",
-        "value": "@actor.system.abilities.cha.mod + @actor.level + 12"
+        "attribute": "cha",
+        "key": "SpecialStatistic",
+        "slug": "screaming-skull"
       },
       {
-        "key": "ActiveEffectLike",
+        "key": "FlatModifier",
+        "selector": "screaming-skull",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "screaming-skull-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
         "mode": "upgrade",
-        "path": "flags.pf2e.companionCompendia.screamingSkullDC",
-        "value": "@actor.system.abilities.cha.mod + @actor.level + 14",
-        "priority": 51,
+        "slug": "screaming-skull-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "screaming-skull",
         "predicate": [
           "feature:specialized-animal-companion"
         ]

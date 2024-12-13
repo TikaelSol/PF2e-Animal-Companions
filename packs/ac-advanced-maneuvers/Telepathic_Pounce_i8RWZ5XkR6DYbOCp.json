@@ -5,21 +5,27 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The shotalashu hunts by pinning its foes with not just its claws, but with its mind as well. One creature within 30 feet must attempt a @Check[reflex|dc:resolve(@actor.flags.pf2e.companionCompendia.telepathicPounceDC)] save, with the following effects. This uses a trained DC using the shotalashu's Charisma modifier or an expert DC if the shotalashu is specialized.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes a –5 foot status penalty to its Speeds for one round.</p><p><strong>Failure</strong> The creature takes a –10 foot status penalty to its Speeds for one round. The shotalashu can then @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for one round. The shotalashu can then Leap.</p>"
+      "value": "<p>The shotalashu hunts by pinning its foes with not just its claws, but with its mind as well. One creature within 30 feet must attempt a @Check[reflex|against:telepathic-pounce] save, with the following effects. This uses a trained DC using the shotalashu's Charisma modifier or an expert DC if the shotalashu is specialized.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes a –5 foot status penalty to its Speeds for one round.</p><p><strong>Failure</strong> The creature takes a –10 foot status penalty to its Speeds for one round. The shotalashu can then @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for one round. The shotalashu can then Leap.</p>"
     },
     "rules": [
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.companionCompendia.telepathicPounceDC",
-        "value": "@actor.system.abilities.cha.mod + @actor.level + 12"
+        "attribute": "cha",
+        "key": "SpecialStatistic",
+        "slug": "telepathic-pounce"
       },
       {
-        "key": "ActiveEffectLike",
+        "key": "FlatModifier",
+        "selector": "telepathic-pounce",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "telepathic-pounce-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
         "mode": "upgrade",
-        "path": "flags.pf2e.companionCompendia.telepathicPounceDC",
-        "value": "@actor.system.abilities.cha.mod + @actor.level + 14",
-        "priority": 51,
+        "slug": "telepathic-pounce-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "telepathic-pounce",
         "predicate": [
           "feature:specialized-animal-companion"
         ]
