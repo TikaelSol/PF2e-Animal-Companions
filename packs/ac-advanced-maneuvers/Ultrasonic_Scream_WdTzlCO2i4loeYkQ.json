@@ -14,21 +14,27 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The moth flaps its wings and emits ultrasonic squeaks that scramble the senses of nearby creatures. Choose one creature within 30 feet of the moth. That creature must attempt a @Check[fortitude|dc:resolve(@actor.flags.pf2e.companionCompendia.ultrasonicScreamDC)] save. This uses a trained DC using the moth's Constitution modifier or an expert DC if the moth is specialized.</p><hr /><p><strong>Success</strong> The target treats all creatures as @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} on its next attack before the start of your next turn.</p><p><strong>Failure</strong> The target treats all creatures as concealed until the start of your next turn.</p><p><strong>Critical Failure</strong> As failure, and the target is also @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
+      "value": "<p>The moth flaps its wings and emits ultrasonic squeaks that scramble the senses of nearby creatures. Choose one creature within 30 feet of the moth. That creature must attempt a @Check[fortitude|against:ultrasonic-scream] save. This uses a trained DC using the moth's Constitution modifier or an expert DC if the moth is specialized.</p><hr /><p><strong>Success</strong> The target treats all creatures as @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} on its next attack before the start of your next turn.</p><p><strong>Failure</strong> The target treats all creatures as concealed until the start of your next turn.</p><p><strong>Critical Failure</strong> As failure, and the target is also @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
     },
     "rules": [
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.companionCompendia.ultrasonicScreamDC",
-        "value": "@actor.system.abilities.con.mod + @actor.level + 12"
+        "attribute": "con",
+        "key": "SpecialStatistic",
+        "slug": "ultrasonic-scream"
       },
       {
-        "key": "ActiveEffectLike",
+        "key": "FlatModifier",
+        "selector": "ultrasonic-scream",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "ultrasonic-scream-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
         "mode": "upgrade",
-        "path": "flags.pf2e.companionCompendia.ultrasonicScreamDC",
-        "value": "@actor.system.abilities.con.mod + @actor.level + 14",
-        "priority": 51,
+        "slug": "ultrasonic-scream-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "ultrasonic-scream",
         "predicate": [
           "feature:specialized-animal-companion"
         ]

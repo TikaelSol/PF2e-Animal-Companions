@@ -14,21 +14,27 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>The riding drake breathes a @Template[type:cone|distance:30] of fire, dealing @Damage[(max(1,floor(@actor.level/2)))d6[fire]|options:area-damage]{1d6 fire damage for every 2 levels} the drake has to all creatures in the area (@Check[reflex|basic|options:area-effect|dc:resolve(@actor.flags.pf2e.companionCompendia.fireBreathDC)] save). This uses a trained DC using the drake's Constitution modifier or an expert DC if the drake is specialized.</p>"
+      "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>The riding drake breathes a @Template[type:cone|distance:30] of fire, dealing @Damage[(max(1,floor(@actor.level/2)))d6[fire]|options:area-damage]{1d6 fire damage for every 2 levels} the drake has to all creatures in the area (@Check[reflex|basic|options:area-effect|against:fire-breath] save). This uses a trained DC using the drake's Constitution modifier or an expert DC if the drake is specialized.</p>"
     },
     "rules": [
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.companionCompendia.fireBreathDC",
-        "value": "@actor.system.abilities.con.mod + @actor.level + 12"
+        "attribute": "con",
+        "key": "SpecialStatistic",
+        "slug": "fire-breath"
       },
       {
-        "key": "ActiveEffectLike",
+        "key": "FlatModifier",
+        "selector": "fire-breath",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "fire-breath-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
         "mode": "upgrade",
-        "path": "flags.pf2e.companionCompendia.fireBreathDC",
-        "value": "@actor.system.abilities.con.mod + @actor.level + 14",
-        "priority": 51,
+        "slug": "fire-breath-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "fire-breath",
         "predicate": [
           "feature:specialized-animal-companion"
         ]

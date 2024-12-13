@@ -14,21 +14,27 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The zombie mount Strides twice, spraying putrid spittle as it runs. Once during this movement, choose a creature adjacent to the zombie mount. The spittle splashes on it, and the creature must succeed at a @Check[fortitude|dc:resolve(@actor.flags.pf2e.companionCompendia.disgustingGallopDC)] save or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><p>The creature is then temporarily immune to the spittle for 24 hours. This uses a trained DC using the zombie mount's Constitution modifier, or an expert DC if the mount is specialized.</p>"
+      "value": "<p>The zombie mount Strides twice, spraying putrid spittle as it runs. Once during this movement, choose a creature adjacent to the zombie mount. The spittle splashes on it, and the creature must succeed at a @Check[fortitude|against:disgusting-gallop] save or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><p>The creature is then temporarily immune to the spittle for 24 hours. This uses a trained DC using the zombie mount's Constitution modifier, or an expert DC if the mount is specialized.</p>"
     },
     "rules": [
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.companionCompendia.disgustingGallopDC",
-        "value": "@actor.system.abilities.con.mod + @actor.level + 12"
+        "attribute": "con",
+        "key": "SpecialStatistic",
+        "slug": "disgusting-gallop"
       },
       {
-        "key": "ActiveEffectLike",
+        "key": "FlatModifier",
+        "selector": "disgusting-gallop",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "disgusting-gallop-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
         "mode": "upgrade",
-        "path": "flags.pf2e.companionCompendia.disgustingGallopDC",
-        "value": "@actor.system.abilities.con.mod + @actor.level + 14",
-        "priority": 51,
+        "slug": "disgusting-gallop-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "disgusting-gallop",
         "predicate": [
           "feature:specialized-animal-companion"
         ]
