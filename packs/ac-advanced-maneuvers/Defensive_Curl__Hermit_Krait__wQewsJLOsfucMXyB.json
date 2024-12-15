@@ -1,0 +1,52 @@
+{
+  "folder": null,
+  "name": "Defensive Curl (Hermit Krait)",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The hermit krait pulls its heads into its shell to protect itself. It gains a +2 circumstance bonus to AC and a +4 circumstance bonus to any check to pretend to be a mundane shell. Any creature that hits the hermit krait with a melee unarmed attack while it's in its Defensive Curl takes @Damage[2d6[persistent,poison]] damage as one of the krait's heads lashes out from within the shell. While in its shell, the hermit krait can't move or take other actions that require using its limbs, but it can extend out of the shell as a single action, ending the effects of Defensive Curl.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Tian Xia Character Guide",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "defensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "8KoEr2ej1d0aIHVv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2"
+  },
+  "_id": "wQewsJLOsfucMXyB",
+  "sort": 0,
+  "_key": "!items!wQewsJLOsfucMXyB"
+}
