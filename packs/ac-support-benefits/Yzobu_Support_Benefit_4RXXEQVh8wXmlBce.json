@@ -1,0 +1,52 @@
+{
+  "folder": null,
+  "name": "Yzobu Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The next creature to make a melee attack against the yzobu or its rider before the start of your next turn is overwhelmed by the creature's terrible stench and must attempt a Fortitude save. This DC is equal to your class DC or spell DC, whichever is higher. On a failure, the attacker takes a –2 circumstance penalty to its attack roll. This ability has the olfactory trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Tian Xia Character Guide",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "8KoEr2ej1d0aIHVv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2"
+  },
+  "_id": "4RXXEQVh8wXmlBce",
+  "sort": 0,
+  "_key": "!items!4RXXEQVh8wXmlBce"
+}

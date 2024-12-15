@@ -1,0 +1,52 @@
+{
+  "folder": null,
+  "name": "Crab Cannon",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your durian crab curls itself up tightly, taking the shape of a ball. It then launches itself with its powerful claw at a target within 20 feet. When it lands, it makes a claw Strike, except the damage is bludgeoning instead of piercing. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round and the Strike deals an additional @Damage[1d8[untyped]] damage, or 2d8 additional damage if your crab is specialized.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Tian Xia Character Guide",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "ownership": {
+    "default": 0,
+    "8KoEr2ej1d0aIHVv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2"
+  },
+  "_id": "Di4yucWH3akIJXOr",
+  "sort": 0,
+  "_key": "!items!Di4yucWH3akIJXOr"
+}
