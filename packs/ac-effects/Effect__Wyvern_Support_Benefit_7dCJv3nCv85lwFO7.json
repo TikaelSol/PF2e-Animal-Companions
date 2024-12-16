@@ -1,0 +1,88 @@
+{
+  "name": "Effect: Wyvern Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.3ZYwTYI4ORCz4xQg]{Wyvern Support Benefit}</p><p>Your Strikes that damage a creature in your wyvern's reach also deal persistent poison damage.</p>"
+    },
+    "rules": [
+      {
+        "category": "persistent",
+        "key": "DamageDice",
+        "selector": "stinger-damage",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "damageType": "poison",
+        "tags": [
+          "wyvern-poison"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "stinger-damage"
+        ],
+        "predicate": [
+          "feature:specialized-animal-companion",
+          "dice:tag:scorpion-poison"
+        ],
+        "value": 2,
+        "mode": "upgrade",
+        "property": "dice-number"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #209: Destroyer’s Doom",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "7dCJv3nCv85lwFO7",
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "8KoEr2ej1d0aIHVv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2"
+  },
+  "_key": "!items!7dCJv3nCv85lwFO7"
+}
