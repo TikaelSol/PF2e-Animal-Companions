@@ -40,6 +40,12 @@
         "path": "system.skills.stealth.rank"
       },
       {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
         "key": "BaseSpeed",
         "selector": "climb",
         "value": 20
@@ -102,6 +108,12 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.Ep4MMKK1rtTJHa8d"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.Di4yucWH3akIJXOr"
       }
     ],
     "slug": null,
