@@ -10,8 +10,12 @@
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -34,28 +38,10 @@
       "value": 2
     },
     "deathNote": false,
-    "source": {
-      "value": "Pathfinder Rage of Elements"
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "version": {
-          "schema": 0.854,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
-    "requirements": {
-      "value": ""
-    },
-    "trigger": {
-      "value": ""
-    },
     "frequency": {
       "max": 1,
-      "per": "PT10M"
+      "per": "PT10M",
+      "value": 1
     }
   },
   "img": "systems/pf2e/icons/actions/TwoActions.webp",
@@ -69,9 +55,9 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": null,
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.9P5AFhhbU1I2sOEN",
     "duplicateSource": null
   },
   "_id": "9P5AFhhbU1I2sOEN",

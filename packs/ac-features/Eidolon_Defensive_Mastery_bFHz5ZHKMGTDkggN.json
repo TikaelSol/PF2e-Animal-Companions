@@ -18,14 +18,19 @@
       {
         "key": "ActiveEffectLike",
         "mode": "upgrade",
-        "path": "system.martial.unarmored.rank",
+        "path": "system.proficiencies.defenses.unarmored.rank",
         "value": 3
       }
     ],
     "slug": "eidolon-defensive-mastery",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -33,7 +38,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Secrets of Magic",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -53,25 +58,11 @@
     "prerequisites": {
       "value": []
     },
-    "location": null,
-    "source": {
-      "value": "Pathfinder Secrets of Magic"
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:18:01.106-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    }
+    "location": null
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.bFHz5ZHKMGTDkggN",
     "duplicateSource": null

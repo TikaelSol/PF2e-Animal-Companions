@@ -110,8 +110,13 @@
     ],
     "slug": null,
     "_migration": {
-      "version": 0.926,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -175,7 +180,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.7.2",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

@@ -14,27 +14,13 @@
       "gm": "",
       "value": "<p>Your eidolon extends its roots underground to entangle and possibly damage all foes nearby. All enemies within your eidolon's reach take damage of the same type and amount as your eidolon's most damaging Strike, depending on their Reflex saves. Any ongoing effects of the save last until the enemy either Escapes or leaves your eidolon's reach. After using Field of Roots, your eidolon is @Compendium[pf2e.conditionitems.Immobilized]{Immobilized} until it takes a single action, which has the manipulate trait, to detach from the ground; this also ends any remaining effects on enemies from Field of Roots.</p>\n<hr />\n<p><strong>Critical Success</strong> The enemy is unaffected.</p>\n<p><strong>Success</strong> The enemy takes no damage, but takes a -10 foot circumstance penalty to its Speeds.</p>\n<p><strong>Failure</strong> The enemy takes half damage, takes a -10-foot circumstance penalty to its Speeds, and, at the end of each of its turns, takes half damage again.</p>\n<p><strong>Critical Failure</strong> The enemy is immobilized, takes full damage, and, at the end of each of its turns, takes full damage again.</p>"
     },
-    "source": {
-      "value": "Pathfinder Secrets of Magic"
-    },
     "rules": [],
     "slug": "field-of-roots",
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:18:01.322-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
     "traits": {
       "value": [
         "eidolon"
       ],
-      "rarity": "common"
+      "otherTags": []
     },
     "actionType": {
       "value": "action"
@@ -43,17 +29,25 @@
     "actions": {
       "value": 2
     },
-    "requirements": {
-      "value": ""
+    "deathNote": false,
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
     },
-    "trigger": {
-      "value": ""
-    },
-    "deathNote": false
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
+    }
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.4ZCaD8Y817JjbrX2",
     "duplicateSource": null

@@ -38,13 +38,13 @@
       {
         "key": "ActiveEffectLike",
         "mode": "upgrade",
-        "path": "system.skills.med.rank",
+        "path": "system.skills.medicine.rank",
         "value": 1
       },
       {
         "key": "ActiveEffectLike",
         "mode": "upgrade",
-        "path": "system.skills.occ.rank",
+        "path": "system.skills.occultism.rank",
         "value": 1
       },
       {
@@ -86,8 +86,13 @@
     ],
     "slug": "devotion-phantom-eidolon",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -99,12 +104,12 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Secrets of Magic",
       "authors": "",
       "license": "OGL",
       "remaster": false
     },
-    "hp": 0,
+    "hp": 1,
     "size": "med",
     "reach": 5,
     "speed": 25,
@@ -141,21 +146,7 @@
         "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.5E71mdImeRE9Fh1D"
       }
     },
-    "vision": "darkvision",
-    "source": {
-      "value": "Pathfinder Secrets of Magic"
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:53.837-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    }
+    "vision": "darkvision"
   },
   "ownership": {
     "default": 0,
@@ -163,9 +154,9 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.3",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": "Item.QlhL9vPXzjhkYd8W",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Eidolons.Item.1YJoaMhZPvLGvj1J",
     "duplicateSource": null
   },
   "_key": "!items!1YJoaMhZPvLGvj1J"

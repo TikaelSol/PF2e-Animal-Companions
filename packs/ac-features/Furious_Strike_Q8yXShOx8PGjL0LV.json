@@ -14,13 +14,10 @@
       "gm": "",
       "value": "<p>Your eidolon channels its anger into a furious attack. It makes a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, your eidolon deals an extra die of weapon damage and gains a +1 circumstance bonus to the damage roll.</p>\n<p>If you're at least 10th level, increase this to two extra dice with a +2 circumstance bonus, and if you're at least 18th level, increase it to three extra dice with a +3 circumstance bonus.</p>"
     },
-    "source": {
-      "value": "Pathfinder Secrets of Magic"
-    },
     "rules": [
       {
         "key": "RollOption",
-        "domain": "damage-roll",
+        "domain": "damage",
         "option": "furious-strike",
         "toggleable": true
       },
@@ -83,22 +80,11 @@
       }
     ],
     "slug": "furious-strike",
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:18:01.219-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
     "traits": {
       "value": [
         "eidolon"
       ],
-      "rarity": "common"
+      "otherTags": []
     },
     "actionType": {
       "value": "action"
@@ -107,19 +93,27 @@
     "actions": {
       "value": 2
     },
-    "requirements": {
-      "value": ""
+    "deathNote": false,
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
     },
-    "trigger": {
-      "value": ""
-    },
-    "deathNote": false
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
+    }
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": "Item.Q8yXShOx8PGjL0LV",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.Q8yXShOx8PGjL0LV",
     "duplicateSource": null
   },
   "folder": null,

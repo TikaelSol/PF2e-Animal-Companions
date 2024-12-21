@@ -14,29 +14,14 @@
       "gm": "",
       "value": "<p><strong>Trigger</strong> An enemy within 15 feet of you hits you with a Strike and deals damage to you.</p>\n<p><strong>Requirements</strong> Your eidolon is within 15 feet of you.</p>\n<hr />\n<p>Your eidolon instinctively flashes with ectoplasmic energy, allowing them to strike back against an enemy who dares to harm you. Your eidolon makes a melee unarmed Strike against the triggering enemy, even if that enemy isn't within your eidolon's reach.</p>"
     },
-    "source": {
-      "value": "Pathfinder Secrets of Magic"
-    },
     "rules": [],
     "slug": "dutiful-retaliation",
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:18:01.323-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
     "traits": {
       "value": [
         "eidolon",
-        "occult",
-        "transmutation"
+        "occult"
       ],
-      "rarity": "common"
+      "otherTags": []
     },
     "actionType": {
       "value": "reaction"
@@ -45,17 +30,25 @@
     "actions": {
       "value": null
     },
-    "requirements": {
-      "value": ""
+    "deathNote": false,
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
     },
-    "trigger": {
-      "value": ""
-    },
-    "deathNote": false
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
+    }
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.4NuAF8jxWDWzia9Z",
     "duplicateSource": null

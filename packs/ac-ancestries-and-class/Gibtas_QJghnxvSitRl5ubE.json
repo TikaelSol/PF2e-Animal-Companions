@@ -120,8 +120,13 @@
     ],
     "slug": "gibtas",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -131,7 +136,7 @@
       "rarity": "rare"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder #164: Hands of the Devil",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -174,20 +179,6 @@
     },
     "items": {},
     "vision": "darkvision",
-    "source": {
-      "value": "Pathfinder #164: Hands of the Devil"
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:44.559-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
     "rarity": {
       "value": "common"
     }
@@ -198,7 +189,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.7.2",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.eBgMfYf0PVbsGOYp",
     "duplicateSource": null

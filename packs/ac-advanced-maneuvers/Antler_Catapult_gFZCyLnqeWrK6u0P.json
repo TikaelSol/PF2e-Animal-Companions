@@ -10,8 +10,12 @@
     "rules": [],
     "slug": "antler-catapult",
     "_migration": {
-      "version": 0.926,
-      "lastMigration": null
+      "version": 0.935,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -47,7 +51,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

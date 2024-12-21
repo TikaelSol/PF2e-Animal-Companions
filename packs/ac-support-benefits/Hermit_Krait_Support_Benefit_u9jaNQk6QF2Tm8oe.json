@@ -40,11 +40,11 @@
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": null,
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.u9jaNQk6QF2Tm8oe",
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.7.2"
+    "systemVersion": "6.8.0"
   },
   "_id": "u9jaNQk6QF2Tm8oe",
   "sort": 0,

@@ -77,8 +77,13 @@
     ],
     "slug": "unseen-animal-companion",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -86,7 +91,7 @@
       "rarity": "uncommon"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Dark Archive",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -106,21 +111,7 @@
     "prerequisites": {
       "value": []
     },
-    "location": null,
-    "source": {
-      "value": "Pathfinder Dark Archive"
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:47.329-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    }
+    "location": null
   },
   "ownership": {
     "default": 0,
@@ -128,7 +119,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.7.2",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": "Item.xsxAPvjWZLCUpyNR",
     "duplicateSource": null

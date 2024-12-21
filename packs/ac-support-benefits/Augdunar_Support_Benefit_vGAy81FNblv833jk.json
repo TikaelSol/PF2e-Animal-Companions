@@ -9,10 +9,14 @@
       "value": "<p>The augdunar shifts its weight, proffering you an item. You Interact to draw a weapon or item that is being carried by the augdunar.</p>"
     },
     "rules": [],
-    "slug": "",
+    "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -31,27 +35,7 @@
     "actions": {
       "value": 1
     },
-    "deathNote": false,
-    "source": {
-      "value": "Pathfinder Lost Omens: Highhelm"
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:18:03.596-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
-    "requirements": {
-      "value": ""
-    },
-    "trigger": {
-      "value": ""
-    }
+    "deathNote": false
   },
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "ownership": {
@@ -63,9 +47,9 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": null,
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.vGAy81FNblv833jk",
     "duplicateSource": null
   },
   "_id": "vGAy81FNblv833jk",

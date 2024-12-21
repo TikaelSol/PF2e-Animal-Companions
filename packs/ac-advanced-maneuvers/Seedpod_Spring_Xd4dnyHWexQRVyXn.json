@@ -9,10 +9,14 @@
       "value": "<p>A seedpod within the chair bursts and uncoils, releasing a light clump of cottony material. Your rootball chair Leaps up to 30 feet vertically or horizontally and drifts down, sinking 5 feet for every 5 feet traveled horizontally and causing you to take no falling damage. The cottony material disperses when you land.</p>"
     },
     "rules": [],
-    "slug": "",
+    "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -31,27 +35,7 @@
     "actions": {
       "value": 2
     },
-    "deathNote": false,
-    "source": {
-      "value": "Pathfinder Treasure Vault"
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:42.440-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
-    "requirements": {
-      "value": ""
-    },
-    "trigger": {
-      "value": ""
-    }
+    "deathNote": false
   },
   "img": "systems/pf2e/icons/actions/TwoActions.webp",
   "ownership": {
@@ -63,7 +47,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.4",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

@@ -100,8 +100,13 @@
     ],
     "slug": "summoner-dedication-adjustment",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -129,21 +134,7 @@
     "prerequisites": {
       "value": []
     },
-    "location": null,
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:58.660-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    }
+    "location": null
   },
   "img": "systems/pf2e/icons/default-icons/feats.webp",
   "effects": [],
@@ -158,9 +149,9 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.13.6",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": "Item.XmqBgNFwv1mz4BO3",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.BRad9X7kjcTcj1mf",
     "duplicateSource": null
   },
   "folder": null,

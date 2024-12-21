@@ -51,7 +51,7 @@
         "key": "ActiveEffectLike",
         "value": 3,
         "mode": "upgrade",
-        "path": "system.custom.modifiers.additionalDamage",
+        "path": "flags.pf2e.additionalDamage",
         "priority": 49
       },
       {
@@ -68,7 +68,7 @@
       {
         "key": "FlatModifier",
         "selector": "strike-damage",
-        "value": "@actor.system.custom.modifiers.additionalDamage"
+        "value": "@actor.flags.pf2e.additionalDamage"
       },
       {
         "key": "GrantItem",
@@ -77,7 +77,7 @@
       {
         "key": "ActiveEffectLike",
         "mode": "upgrade",
-        "path": "system.martial.light.rank",
+        "path": "system.proficiencies.defenses.light.rank",
         "priority": 41,
         "value": 2
       },
@@ -90,8 +90,13 @@
     ],
     "slug": "indomitable-animal-companion",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -120,20 +125,6 @@
       "value": []
     },
     "location": null,
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:47.328-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
     "rarity": {
       "value": "common"
     }
@@ -144,7 +135,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.u9dXZwKANlsC9MDM",
     "duplicateSource": null

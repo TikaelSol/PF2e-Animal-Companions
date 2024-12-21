@@ -51,8 +51,13 @@
     ],
     "slug": "animal-companion",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -72,8 +77,8 @@
     "hp": 6,
     "trainedSkills": {
       "value": [
-        "acr",
-        "ath"
+        "acrobatics",
+        "athletics"
       ],
       "additional": 0
     },
@@ -115,30 +120,15 @@
     "skillIncreaseLevels": {
       "value": []
     },
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:18:01.224-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
-    "classDC": 0,
     "rarity": {
       "value": "common"
     }
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.7.2",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.h6Ybhv5URar01WPk",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
     "duplicateSource": null
   },
   "folder": null,

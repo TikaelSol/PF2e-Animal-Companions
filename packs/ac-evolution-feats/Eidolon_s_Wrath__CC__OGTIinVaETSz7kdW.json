@@ -14,20 +14,18 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon gains the <em>@Compendium[pf2e.spells-srd.kuZnUNrhXHRYQ2eM]{Eidolon's Wrath}</em>&nbsp;focus spell, which it casts, instead of you. You determine the damage type when you gain the feat: acid, cold, electricity, fire, negative, positive, or sonic. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can choose a damage type in its alignment.</p>\n<p>Increase the number of Focus Points in your focus pool by 1. As normal, your eidolon shares your Focus Points.</p>"
+      "value": "<p>Your eidolon gains the <em>@Compendium[pf2e.spells-srd.kuZnUNrhXHRYQ2eM]{Eidolon's Wrath}</em> focus spell, which it casts, instead of you. You determine the damage type when you gain the feat: acid, cold, electricity, fire, negative, positive, or sonic. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can choose a damage type in its alignment.</p>\n<p>Increase the number of Focus Points in your focus pool by 1. As normal, your eidolon shares your Focus Points.</p>"
     },
-    "rules": [
-      {
-        "key": "ActiveEffectLike",
-        "mode": "add",
-        "path": "system.resources.focus.max",
-        "value": 1
-      }
-    ],
+    "rules": [],
     "slug": "eidolons-wrath",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -58,21 +56,7 @@
     "prerequisites": {
       "value": []
     },
-    "location": null,
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:58.658-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    }
+    "location": null
   },
   "ownership": {
     "default": 0,
@@ -80,9 +64,9 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.13.6",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.eNeSl5UNaqDwyNkp",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.OGTIinVaETSz7kdW",
     "duplicateSource": null
   },
   "_key": "!items!OGTIinVaETSz7kdW"

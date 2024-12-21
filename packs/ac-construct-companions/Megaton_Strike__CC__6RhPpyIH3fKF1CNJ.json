@@ -50,9 +50,13 @@
     ],
     "slug": "megaton-strike",
     "_migration": {
-      "version": 0.922,
+      "version": 0.935,
       "lastMigration": null,
-      "previous": null
+      "previous": {
+        "schema": 0.922,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -100,9 +104,9 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.13.6",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": null,
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Construct-Companions.Item.6RhPpyIH3fKF1CNJ",
     "duplicateSource": null
   },
   "_id": "6RhPpyIH3fKF1CNJ",

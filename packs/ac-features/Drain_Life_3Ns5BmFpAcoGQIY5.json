@@ -14,30 +14,15 @@
       "gm": "",
       "value": "<p>Your eidolon attacks a living creature and drains some of the creature's life force to feed your shared link. Your eidolon Strikes a living enemy. If the Strike hits and deals damage, the target must attempt a Fortitude save, with the following effects. On a critical hit, the enemy uses the result one degree worse than it rolled.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect.</p>\n<p><strong>Success</strong> Your eidolon drains a small amount of life force. The enemy takes additional negative damage equal to half your level.</p>\n<p><strong>Failure</strong> Your eidolon drains enough life force to satisfy itself. The enemy takes additional negative damage equal to half your level and is @Compendium[pf2e.conditionitems.Drained]{Drained 1}. Your eidolon gains temporary Hit Points equal to the enemy's level, which last for 1 minute.</p>\n<p><strong>Critical Failure</strong> Your eidolon drains an incredible amount of life force and is thoroughly glutted with energy. As failure, but the enemy is @Compendium[pf2e.conditionitems.Drained]{Drained 2} and the temporary Hit Points are equal to double the enemy's level.</p>"
     },
-    "source": {
-      "value": "Pathfinder Book of the Dead"
-    },
     "rules": [],
     "slug": "drain-life",
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:18:01.323-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
     "traits": {
       "value": [
         "divine",
         "eidolon",
-        "necromancy",
-        "negative"
+        "void"
       ],
-      "rarity": "common"
+      "otherTags": []
     },
     "actionType": {
       "value": "action"
@@ -46,17 +31,25 @@
     "actions": {
       "value": 2
     },
-    "requirements": {
-      "value": ""
+    "deathNote": false,
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
     },
-    "trigger": {
-      "value": ""
-    },
-    "deathNote": false
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
+    }
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.3Ns5BmFpAcoGQIY5",
     "duplicateSource": null
