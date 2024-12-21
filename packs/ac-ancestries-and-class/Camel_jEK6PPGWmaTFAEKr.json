@@ -121,8 +121,13 @@
     ],
     "slug": "camel",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -132,7 +137,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder #149: Against the Scarlet Triad",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -167,21 +172,7 @@
       "custom": ""
     },
     "items": {},
-    "vision": "lowLightVision",
-    "source": {
-      "value": "Pathfinder #149: Against the Scarlet Triad"
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:44.543-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
+    "vision": "low-light-vision",
     "rarity": {
       "value": "common"
     }
@@ -192,7 +183,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.7.2",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.jEK6PPGWmaTFAEKr",
     "duplicateSource": null

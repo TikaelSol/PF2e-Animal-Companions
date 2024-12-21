@@ -14,28 +14,14 @@
       "gm": "",
       "value": "<p>Your eidolon unleashes a primal roar or other such terrifying noise that fits your eidolon's form. Your eidolon attempts Intimidation checks to @Compendium[pf2e.actionspf2e.Demoralize]{Demoralize} each enemy that can hear the roar; these Demoralize attempts don't take any penalty for not sharing a language.</p>"
     },
-    "source": {
-      "value": "Pathfinder Secrets of Magic"
-    },
     "rules": [],
     "slug": "primal-roar",
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:18:01.099-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
     "traits": {
       "value": [
         "auditory",
         "eidolon"
       ],
-      "rarity": "common"
+      "otherTags": []
     },
     "actionType": {
       "value": "action"
@@ -44,17 +30,25 @@
     "actions": {
       "value": 2
     },
-    "requirements": {
-      "value": ""
+    "deathNote": false,
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
     },
-    "trigger": {
-      "value": ""
-    },
-    "deathNote": false
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
+    }
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.hcQsGAZQgqdCckCm",
     "duplicateSource": null

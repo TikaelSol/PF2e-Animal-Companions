@@ -19,8 +19,12 @@
     "rules": [],
     "slug": "badger-rage",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -28,8 +32,7 @@
         "concentrate",
         "emotion",
         "mental"
-      ],
-      "rarity": "common"
+      ]
     },
     "publication": {
       "title": "",
@@ -45,32 +48,6 @@
       "value": 1
     },
     "deathNote": false,
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:42.457-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
-    "requirements": {
-      "value": ""
-    },
-    "trigger": {
-      "value": ""
-    },
-    "rarity": {
-      "value": "common"
-    },
-    "weapon": {
-      "value": ""
-    },
     "selfEffect": {
       "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.Kgt1NyBesS3rohzb",
       "name": "Effect: Badger Rage"
@@ -82,7 +59,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.7.2",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9",
     "duplicateSource": null

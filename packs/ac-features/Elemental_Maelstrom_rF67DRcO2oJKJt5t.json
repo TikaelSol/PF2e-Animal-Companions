@@ -7,25 +7,13 @@
       "gm": "",
       "value": "<p>Your eidolon temporarily shifts its form into a swirling vortex of elemental matter and rampages through their foes. Your eidolon Strides. During their movement, they can attempt a Strike against each enemy that is within their reach. If an enemy comes within your eidolon's reach more than once, your eidolon makes only a single Strike against a given enemy. These attacks all count towards your eidolon's multiple attack penalty, but the penalty doesn't increase until after all the attacks. If your eidolon has the appropriate Speed, they can Climb, Fly, or Swim instead of Stride.</p>"
     },
-    "source": {
-      "value": "Pathfinder Rage of Elements"
-    },
     "rules": [],
     "slug": null,
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "version": {
-          "schema": 0.854,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
     "traits": {
       "value": [
         "eidolon"
-      ]
+      ],
+      "otherTags": []
     },
     "actionType": {
       "value": "action"
@@ -34,13 +22,21 @@
     "actions": {
       "value": 3
     },
-    "requirements": {
-      "value": ""
+    "deathNote": false,
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
     },
-    "trigger": {
-      "value": ""
-    },
-    "deathNote": false
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
+    }
   },
   "img": "systems/pf2e/icons/actions/ThreeActions.webp",
   "folder": null,
@@ -53,9 +49,9 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": null,
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.rF67DRcO2oJKJt5t",
     "duplicateSource": null
   },
   "_id": "rF67DRcO2oJKJt5t",

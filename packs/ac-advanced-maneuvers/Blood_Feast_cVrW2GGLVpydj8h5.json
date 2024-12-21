@@ -35,13 +35,16 @@
     ],
     "slug": "blood-feast",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
-      "value": [],
-      "rarity": "common"
+      "value": []
     },
     "publication": {
       "title": "",
@@ -56,27 +59,7 @@
     "actions": {
       "value": 2
     },
-    "deathNote": false,
-    "source": {
-      "value": "Pathfinder Book of the Dead"
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:42.437-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
-    "requirements": {
-      "value": ""
-    },
-    "trigger": {
-      "value": ""
-    }
+    "deathNote": false
   },
   "ownership": {
     "default": 0,
@@ -84,7 +67,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.7.2",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": "Item.cVrW2GGLVpydj8h5",
     "duplicateSource": null

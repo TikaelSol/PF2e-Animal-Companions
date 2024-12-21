@@ -19,8 +19,13 @@
     "rules": [],
     "slug": "eidolons-opportunity",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -52,21 +57,7 @@
     "prerequisites": {
       "value": []
     },
-    "location": null,
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:58.659-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    }
+    "location": null
   },
   "ownership": {
     "default": 0,
@@ -74,9 +65,9 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.13.6",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.588O3jurogttvqgm",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.DzQ1melMWQPbbcyu",
     "duplicateSource": null
   },
   "_key": "!items!DzQ1melMWQPbbcyu"

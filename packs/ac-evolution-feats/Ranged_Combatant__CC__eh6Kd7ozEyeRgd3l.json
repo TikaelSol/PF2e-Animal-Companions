@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Spines, flame jets, and holy blasts are just some of the ways your eidolon might strike from a distance. It gains a ranged unarmed attack with a range increment of 30 feet that deals 1d4 damage and has the magical and propulsive traits.</p>\n<p>When you select this feat, choose a damage type: acid, bludgeoning, cold, electricity, fire, negative, piercing, positive, or slashing. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can choose a damage type in its alignment.</p>"
+      "value": "<p>Spines, flame jets, and holy blasts are just some of the ways your eidolon might strike from a distance. It gains a ranged unarmed attack with a range increment of 30 feet that deals 1d4 damage and has the magical and propulsive traits.</p>\n<p>When you select this feat, choose a damage type: acid, bludgeoning, cold, electricity, fire, void, piercing, vitality, or slashing. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can choose a damage type in its alignment.</p>"
     },
     "rules": [
       {
@@ -41,12 +41,12 @@
             "value": "electricity"
           },
           {
-            "label": "PF2E.TraitPositive",
-            "value": "positive"
+            "label": "PF2E.TraitVitality",
+            "value": "vitality"
           },
           {
-            "label": "PF2E.TraitNegative",
-            "value": "negative"
+            "label": "PF2E.TraitVoid",
+            "value": "void"
           },
           {
             "label": "PF2E.TraitPiercing",
@@ -55,22 +55,6 @@
           {
             "label": "PF2E.TraitSlashing",
             "value": "slashing"
-          },
-          {
-            "label": "PF2E.TraitLawful",
-            "value": "lawful"
-          },
-          {
-            "label": "PF2E.TraitChaotic",
-            "value": "chaotic"
-          },
-          {
-            "label": "PF2E.TraitGood",
-            "value": "good"
-          },
-          {
-            "label": "PF2E.TraitEvil",
-            "value": "evil"
           }
         ],
         "flag": "damageChoice",
@@ -87,7 +71,9 @@
             "die": "d4"
           }
         },
-        "range": 30,
+        "range": {
+          "increment": 30
+        },
         "img": "systems/pf2e/icons/spells/zenith-star.webp",
         "traits": [
           "magical",
@@ -98,8 +84,13 @@
     ],
     "slug": "ranged-combatant",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -130,21 +121,7 @@
     "prerequisites": {
       "value": []
     },
-    "location": null,
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:58.653-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    }
+    "location": null
   },
   "ownership": {
     "default": 0,
@@ -152,9 +129,9 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.13.6",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.oVSlTmdmho8ZQo2k",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.eh6Kd7ozEyeRgd3l",
     "duplicateSource": null
   },
   "_key": "!items!eh6Kd7ozEyeRgd3l"

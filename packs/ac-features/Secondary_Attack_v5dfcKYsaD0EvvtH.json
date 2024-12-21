@@ -17,8 +17,13 @@
     "rules": [],
     "slug": "secondary-attack",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -41,7 +46,7 @@
     "quantity": 1,
     "baseItem": null,
     "bulk": {
-      "value": 0.1
+      "value": 0
     },
     "hp": {
       "value": 0,
@@ -105,9 +110,7 @@
       "striking": 0,
       "property": []
     },
-    "specific": {
-      "value": false
-    },
+    "specific": null,
     "subitems": [],
     "property1": {
       "value": "",
@@ -122,64 +125,13 @@
       "strikeConditionValue": null,
       "criticalConditionType": "",
       "criticalConditionValue": null
-    },
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:18:01.088-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
-    "weight": {
-      "value": "-"
-    },
-    "equippedBulk": {
-      "value": ""
-    },
-    "stackGroup": null,
-    "negateBulk": {
-      "value": "0"
-    },
-    "preciousMaterial": {
-      "value": null
-    },
-    "preciousMaterialGrade": {
-      "value": null
-    },
-    "MAP": {
-      "value": ""
-    },
-    "potencyRune": {
-      "value": 0
-    },
-    "strikingRune": {
-      "value": ""
-    },
-    "propertyRune1": {
-      "value": null
-    },
-    "propertyRune2": {
-      "value": null
-    },
-    "propertyRune3": {
-      "value": null
-    },
-    "propertyRune4": {
-      "value": null
     }
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.1",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": "Item.plHqkYSxSSPZ4mHQ",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.v5dfcKYsaD0EvvtH",
     "duplicateSource": null
   },
   "folder": null,

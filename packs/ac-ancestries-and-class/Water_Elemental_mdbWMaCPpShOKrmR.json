@@ -95,8 +95,13 @@
     ],
     "slug": "water-elemental",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -107,10 +112,10 @@
       "rarity": "uncommon"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Rage of Elements",
       "authors": "",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "hp": 6,
     "size": "sm",
@@ -143,26 +148,12 @@
     },
     "items": {},
     "vision": "darkvision",
-    "source": {
-      "value": "Pathfinder Rage of Elements"
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:44.556-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    },
     "voluntaryBoosts": {},
     "voluntaryFlaws": {}
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.7.2",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

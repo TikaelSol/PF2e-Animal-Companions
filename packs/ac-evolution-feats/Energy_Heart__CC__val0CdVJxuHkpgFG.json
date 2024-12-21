@@ -37,12 +37,12 @@
             "value": "electricity"
           },
           {
-            "label": "PF2E.TraitPositive",
-            "value": "positive"
+            "label": "PF2E.TraitVitality",
+            "value": "vitality"
           },
           {
-            "label": "PF2E.TraitNegative",
-            "value": "negative"
+            "label": "PF2E.TraitVoid",
+            "value": "void"
           },
           {
             "label": "PF2E.TraitSonic",
@@ -56,19 +56,24 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "system.custom.evolutionFeats.energyHeartChoice",
+        "path": "flags.pf2e.evolutionFeats.energyHeartChoice",
         "value": "{item|flags.pf2e.rulesSelections.damageChoice}"
       },
       {
         "key": "Resistance",
-        "type": "{actor|system.custom.evolutionFeats.energyHeartChoice}",
+        "type": "{actor|flags.pf2e.evolutionFeats.energyHeartChoice}",
         "value": "max(1,floor(@actor.level/2))"
       }
     ],
     "slug": "energy-heart",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -99,21 +104,7 @@
     "prerequisites": {
       "value": []
     },
-    "location": null,
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": {
-        "datetime": "2023-06-27T14:17:58.649-04:00",
-        "version": {
-          "schema": 0.845,
-          "foundry": "11.307",
-          "system": "5.3.1"
-        }
-      }
-    }
+    "location": null
   },
   "ownership": {
     "default": 0,
@@ -121,9 +112,9 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.13.6",
+    "systemVersion": "6.8.0",
     "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.0PCDkVnRxVqxsp9j",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.val0CdVJxuHkpgFG",
     "duplicateSource": null
   },
   "_key": "!items!val0CdVJxuHkpgFG"
