@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>This companion makes two tail @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strikes} against different creatures within its reach, increasing its multiple attack penalty as normal. On a hit, it pushes a target back 5 feet or 10 feet on a critical hit. This is forced movement.</p>"
+      "value": "<p>This companion makes two tail Strikes against different creatures within its reach, increasing its multiple attack penalty as normal. On a hit, it pushes a target back 5 feet or 10 feet on a critical hit. This is forced movement.</p>"
     },
     "rules": [],
     "slug": null,
@@ -19,7 +19,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Howl of the Wild",
+      "title": "Pathfinder Howl of the Wild",
       "authors": "",
       "license": "ORC",
       "remaster": true

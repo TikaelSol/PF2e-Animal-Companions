@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Make two claw, fist, pincer, or talon @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strikes} against the same target, applying the multiple attack penalty as normal. If both Strikes hit, the target takes an additional @Damage[1d6[bleed, persistent]]{1d6 persistent bleed} damage. This damage increases to @Damage[2d6[bleed, persistent]]{2d6} if your companion is specialized.</p>"
+      "value": "<p>Make two claw, fist, pincer, or talon Strikes against the same target, applying the multiple attack penalty as normal. If both Strikes hit, the target takes an additional @Damage[1d6[bleed]] damage. This damage increases to 2d6 if your companion is specialized.</p>"
     },
     "rules": [],
     "slug": null,
@@ -19,7 +19,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Howl of the Wild",
+      "title": "Pathfinder Howl of the Wild",
       "authors": "",
       "license": "ORC",
       "remaster": true

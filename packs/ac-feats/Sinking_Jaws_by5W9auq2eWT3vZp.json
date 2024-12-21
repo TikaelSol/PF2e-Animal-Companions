@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> This companion has a creature grabbed or restrained with its jaws or fangs</p><hr /><p><strong>Effect</strong> This companion’s grabbed or restrained foe takes piercing damage equal to the companion’s level plus Strength modifier</p><p>@Damage[(@actor.level + @actor.abilities.str.mod)[piercing]]{Leveled Piercing Damage}</p>"
+      "value": "<p><strong>Requirements</strong> This companion has a creature grabbed or restrained with its jaws or fangs</p><hr /><p><strong>Effect</strong> This companion's grabbed or restrained foe takes piercing damage equal to the companion's level plus Strength modifier (@Damage[(@actor.level + @actor.abilities.str.mod)[piercing]])</p>"
     },
     "rules": [],
     "slug": null,
@@ -19,7 +19,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Howl of the Wild",
+      "title": "Pathfinder Howl of the Wild",
       "authors": "",
       "license": "ORC",
       "remaster": true

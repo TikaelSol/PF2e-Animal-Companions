@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The companion @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Strides} up to twice its Speed in a straight line and makes an antlers, head, or horn @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}. If it moved at least 20 feet, it deals an additional @Damage[1d8] damage. This damage increases to @Damage[2d8] if your companion is specialized. The companion can use Ferocious Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if it has the corresponding movement type.</p>"
+      "value": "<p>The companion Strides up to twice its Speed in a straight line and makes an antlers, head, or horn Strike. If it moved at least 20 feet, it deals an additional 1d8 damage. This damage increases to 2d8 if your companion is specialized. The companion can use Ferocious Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if it has the corresponding movement type.</p>"
     },
     "rules": [
       {
@@ -57,7 +57,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Howl of the Wild",
+      "title": "Pathfinder Howl of the Wild",
       "authors": "",
       "license": "ORC",
       "remaster": true

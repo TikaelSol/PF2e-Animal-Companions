@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You’ve trained your winged companions to gather air in their wings, whipping up a concentrated gust of wind at opponents, potentially staggering them.</p><p>Your companions with wings gain a gust ranged unarmed attack, which deals @Damage[1d4[bludgeoning]] damage with a range of 30 feet and has the air and propulsive traits. On a critical hit, the target is pushed back 5 feet. This is forced movement.</p>"
+      "value": "<p>You've trained your winged companions to gather air in their wings, whipping up a concentrated gust of wind at opponents, potentially staggering them.</p><p>Your companions with wings gain a gust ranged unarmed attack, which deals 1d4 bludgeoning damage with a range of 30 feet and has the air and propulsive traits. On a critical hit, the target is pushed back 5 feet. This is forced movement.</p>"
     },
     "rules": [
       {
@@ -19,7 +19,7 @@
           }
         },
         "group": "brawling",
-        "label": "Gust",
+        "label": "PF2E.BattleForm.Attack.Gust",
         "traits": [
           "air",
           "propulsive",
@@ -52,7 +52,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Howl of the Wild",
+      "title": "Pathfinder Howl of the Wild",
       "authors": "",
       "license": "ORC",
       "remaster": true
@@ -60,7 +60,7 @@
     "level": {
       "value": 12
     },
-    "category": "ancestryfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {

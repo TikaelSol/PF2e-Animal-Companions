@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You’ve worked to sharpen your companions’ instincts to supernatural levels. When one of your companions rolls a success on a saving throw, it gets a critical success instead.</span></p>"
+      "value": "<p>You've worked to sharpen your companions' instincts to supernatural levels. When one of your companions rolls a success on a saving throw, it gets a critical success instead.</p>"
     },
     "rules": [
       {
@@ -27,7 +27,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Howl of the Wild",
+      "title": "Pathfinder Howl of the Wild",
       "authors": "",
       "license": "ORC",
       "remaster": true
