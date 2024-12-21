@@ -5,9 +5,32 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The tarantula flicks its legs, flinging spiky hairs in a @Template[type:cone|distance:15]. This deals @Damage[(4 + max(0,floor((@actor.level - 6) / 4)))d6[piercing]] damage with a @Check[type:reflex|basic:true] save against your class DC. This damage increases by an additional 1d6 for every 4 levels you have beyond 6th.</p>"
+      "value": "<p>The tarantula flicks its legs, flinging spiky hairs in a @Template[type:cone|distance:15]. This deals @Damage[(4 + max(0,floor((@actor.level - 6) / 4)))d6[piercing]] damage with a @Check[type:reflex|against:hair-barrage|basic:true]. This uses a trained DC using the tarantula's Dexterity modifier or an expert DC if the tarantula is specialized. This damage increases by an additional 1d6 for every 4 levels you have beyond 6th.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "attribute": "dex",
+        "key": "SpecialStatistic",
+        "slug": "hair-barrage"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "hair-barrage",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "hair-barrage-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "hair-barrage-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "hair-barrage",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
     "slug": "hair-barrage",
     "_migration": {
       "version": 0.926,
