@@ -45,6 +45,19 @@
       "flags": {}
     },
     {
+      "label": "Effects",
+      "name": "AC-effects",
+      "path": "packs/ac-effects",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item",
+      "flags": {}
+    },
+    {
       "label": "Features",
       "name": "AC-Features",
       "path": "packs/ac-features",
@@ -131,7 +144,7 @@
         "AC-Ancestries-and-Class",
         "AC-Feats",
         "AC-Advanced-Maneuvers",
-        "ac-equipment",
+        "AC-effects",
         "AC-Features",
         "AC-Evolution-Feats",
         "AC-Eidolons",

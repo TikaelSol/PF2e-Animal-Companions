@@ -60,7 +60,7 @@
     "level": {
       "value": 12
     },
-    "category": "class",
+    "category": "ancestryfeature",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -88,7 +88,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.7.2"
+    "systemVersion": "6.8.0"
   },
   "_key": "!items!p83NzvyOMMa5Dgdh"
 }

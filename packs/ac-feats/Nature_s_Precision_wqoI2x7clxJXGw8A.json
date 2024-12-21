@@ -21,31 +21,24 @@
               "item:trait:finesse"
             ]
           },
-          {
-            "not": "self:specialized"
-          },
           "target:condition:off-guard"
         ]
       },
       {
-        "key": "DamageDice",
-        "selector": "unarmed-damage",
-        "diceNumber": 2,
-        "dieSize": "d4",
-        "category": "precision",
+        "selectors": [
+          "strike-damage"
+        ],
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "dice-number",
+        "value": 2,
         "predicate": [
-          {
-            "or": [
-              "item:trait:agile",
-              "item:trait:finesse"
-            ]
-          },
-          "self:specialized",
-          "target:condition:off-guard"
+          "feature:specialized-animal-companion",
+          "dice:slug:natures-precision"
         ]
       }
     ],
-    "slug": null,
+    "slug": "natures-precision",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -92,7 +85,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.7.2"
+    "systemVersion": "6.8.0"
   },
   "_key": "!items!wqoI2x7clxJXGw8A"
 }
