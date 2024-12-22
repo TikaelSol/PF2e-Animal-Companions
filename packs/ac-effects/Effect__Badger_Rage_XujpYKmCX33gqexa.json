@@ -1,0 +1,94 @@
+{
+  "name": "Effect: Badger Rage",
+  "type": "effect",
+  "img": "systems/pf2e/icons/features/classes/rage.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.Kgt1NyBesS3rohzb"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9]{Badger Rage}</p><p>You deal 4 additional damage with your bite attack and 2 additional damage with your claw attack, and you take a –1 penalty to AC</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": -1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "jaws-damage",
+        "value": 4
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "claw-damage",
+        "value": 2
+      }
+    ],
+    "slug": "badger-rage",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "rarity": {
+      "value": "common"
+    },
+    "unidentified": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.Kgt1NyBesS3rohzb",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.0"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "_id": "XujpYKmCX33gqexa",
+  "sort": 0,
+  "_key": "!items!XujpYKmCX33gqexa"
+}

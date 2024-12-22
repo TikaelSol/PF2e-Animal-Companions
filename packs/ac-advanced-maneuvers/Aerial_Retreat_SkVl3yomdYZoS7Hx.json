@@ -5,9 +5,34 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The hippogriff makes a talon Strike, then Flies with a +10-foot circumstance bonus to its fly Speed. The hippogriff and its rider gain a +2 circumstance bonus to AC against reactions triggered by this movement.</p>"
+      "value": "<p>The hippogriff makes a talon Strike, then Flies with a +10-foot circumstance bonus to its fly Speed. The hippogriff and its rider gain a +2 circumstance bonus to AC against reactions triggered by this movement.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.evvqmXIieuMwFMJT]{Effect: Retreat (Rider)}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "aerial-retreat",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fly-speed",
+        "value": 10,
+        "type": "circumstance",
+        "predicate": [
+          "aerial-retreat"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "aerial-retreat"
+        ]
+      }
+    ],
     "slug": "aerial-retreat",
     "_migration": {
       "version": 0.935,

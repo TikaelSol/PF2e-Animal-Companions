@@ -5,9 +5,33 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The hippocampus makes a tail Strike, then Swims with a +10-foot circumstance bonus to its swim Speed. The hippocampus and its rider gain a +2 circumstance bonus to AC against reactions triggered by this movement.</p>"
+      "value": "<p>The hippocampus makes a tail Strike, then Swims with a +10-foot circumstance bonus to its swim Speed. The hippocampus and its rider gain a +2 circumstance bonus to AC against reactions triggered by this movement.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.evvqmXIieuMwFMJT]{Effect: Retreat (Rider)}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "sudden-retreat",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "swim-speed",
+        "value": 10,
+        "predicate": [
+          "sudden-retreat"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": 2,
+        "predicate": [
+          "sudden-retreat"
+        ],
+        "type": "circumstance"
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.935,

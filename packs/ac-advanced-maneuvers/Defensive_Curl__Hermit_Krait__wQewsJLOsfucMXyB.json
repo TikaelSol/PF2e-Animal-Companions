@@ -31,7 +31,11 @@
       "value": 1
     },
     "category": "defensive",
-    "deathNote": false
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-animal-companions.AC-effects.Item.HVrPzKRW1BCwlOFL",
+      "name": "Effect: Defensive Curl (Hermit Krait)"
+    }
   },
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "ownership": {
