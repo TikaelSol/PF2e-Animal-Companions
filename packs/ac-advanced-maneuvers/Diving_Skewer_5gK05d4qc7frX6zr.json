@@ -18,7 +18,38 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "diving-skewer",
+        "toggleable": true
+      },
+      {
+        "key": "Note",
+        "selector": "stinger-attack",
+        "text": "The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}",
+        "outcome": [
+          "success"
+        ],
+        "title": "{item|name}",
+        "predicate": [
+          "diving-skewer"
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": "stinger-attack",
+        "text": "The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and takes @Damage[2d6[persistent,poison]] damage.",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "title": "{item|name}",
+        "predicate": [
+          "diving-skewer"
+        ]
+      }
+    ],
     "slug": null,
     "traits": {
       "otherTags": [],

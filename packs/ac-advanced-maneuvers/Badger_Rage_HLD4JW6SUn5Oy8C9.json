@@ -35,10 +35,10 @@
       ]
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "actionType": {
       "value": "action"
@@ -49,7 +49,7 @@
     },
     "deathNote": false,
     "selfEffect": {
-      "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.Kgt1NyBesS3rohzb",
+      "uuid": "Compendium.pf2e-animal-companions.AC-effects.Item.XujpYKmCX33gqexa",
       "name": "Effect: Badger Rage"
     }
   },
