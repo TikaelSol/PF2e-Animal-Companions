@@ -26,7 +26,7 @@
         ],
         "predicate": [
           "feature:specialized-animal-companion",
-          "dice:tag:scorpion-poison"
+          "dice:tag:wyvern-poison"
         ],
         "value": 2,
         "mode": "upgrade",
@@ -82,7 +82,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.7.2"
+    "systemVersion": "6.8.0"
   },
   "_key": "!items!7dCJv3nCv85lwFO7"
 }
