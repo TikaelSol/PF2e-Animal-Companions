@@ -1,0 +1,105 @@
+{
+  "name": "Effect: Spiked Bunker",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.oyNZpuQ6EU3prvo2]{Spiked Bunker}</p><p>You gain a +2 circumstance bonus to AC. Any creature that hits you are in the Spiked Bunker takes 2d6 piercing damage (or 3d6 piercing damage if your metal elemental has a specialization).</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              {
+                "not": "feature:specialized-animal-companion"
+              }
+            ],
+            "value": 1
+          },
+          {
+            "predicate": [
+              "feature:specialized-animal-companion"
+            ],
+            "value": 2
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "Is companion specialized?",
+        "flag": "isSpecialized"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "circumstance",
+        "value": 2
+      },
+      {
+        "key": "Note",
+        "selector": "damage-received",
+        "text": "You take @Damage[({item|flags.pf2e.rulesSelections.isSpecialized})d6[piercing]] damage.",
+        "predicate": [
+          {
+            "or": [
+              "melee",
+              "unarmed"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/commodities/metal/mail-chain-steel.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1"
+  },
+  "_id": "CulrguIVl7HYwo54",
+  "sort": 0,
+  "_key": "!items!CulrguIVl7HYwo54"
+}

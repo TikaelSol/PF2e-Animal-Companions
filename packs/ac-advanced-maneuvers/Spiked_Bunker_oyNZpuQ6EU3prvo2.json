@@ -7,23 +7,7 @@
       "gm": "",
       "value": "<p>Your metal elemental surrounds itself with protective metal spikes, hunkering down defensively. It gains a +2 circumstance bonus to AC. Any creature that hits the metal elemental with a melee unarmed attack while it's in its Spiked Bunker takes @Damage[2d6[piercing]] damage (or @Damage[3d6[piercing]] damage if your metal elemental has a specialization). The metal elemental can't move, Strike, or take other actions that require it to use its body while in its Spiked Bunker, but it can retract the bunker as a single action, ending the effects.</p>"
     },
-    "rules": [
-      {
-        "domain": "ac",
-        "key": "RollOption",
-        "option": "spiked-bunker",
-        "toggleable": true
-      },
-      {
-        "key": "FlatModifier",
-        "predicate": [
-          "spiked-bunker"
-        ],
-        "selector": "ac",
-        "type": "circumstance",
-        "value": 2
-      }
-    ],
+    "rules": [],
     "slug": "spiked-bunker",
     "_migration": {
       "version": 0.935,
@@ -50,13 +34,17 @@
     "actions": {
       "value": 1
     },
-    "deathNote": false
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-animal-companions.AC-effects.Item.CulrguIVl7HYwo54",
+      "name": "Effect: Spiked Bunker"
+    }
   },
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.1",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

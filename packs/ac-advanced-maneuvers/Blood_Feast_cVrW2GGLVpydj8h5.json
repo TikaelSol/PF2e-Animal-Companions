@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your vampiric animal companion attacks a bleeding foe and drinks its blood. Your companion attempts a Strike against a creature currently taking persistent bleed damage. The Strike deals 2d8 additional damage. If the Strike hits and deals damage, your vampiric animal companion gains temporary Hit Points equal to half your level that last for up to 1 minute.</p>"
+      "value": "<p>Your vampiric animal companion attacks a bleeding foe and drinks its blood. Your companion attempts a Strike against a creature currently taking persistent bleed damage. The Strike deals 2d8 additional damage. If the Strike hits and deals damage, your vampiric animal companion gains temporary Hit Points equal to half your level that last for up to 1 minute.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.q6fSAYeFEf1B5Bu7]{Effect: Blood Feast}</p>"
     },
     "rules": [
       {
@@ -67,7 +67,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.1",
     "coreVersion": "12.331",
     "compendiumSource": "Item.cVrW2GGLVpydj8h5",
     "duplicateSource": null

@@ -16,23 +16,7 @@
       "gm": "",
       "value": "<p>The pangolin coils into a ball to defend itself. It gains a +2 circumstance bonus to AC. Any creature that hits the pangolin with a melee unarmed attack while it's in its Defensive Curl take [[/r 2d6[persistent,bleed]]] damage. The pangolin can't move, use its unarmed attacks, or take other actions that require it to use its limbs while in its Defensive Curl, but it can unfurl as a single action, ending the effects of Defensive Curl.</p>"
     },
-    "rules": [
-      {
-        "key": "RollOption",
-        "domain": "ac",
-        "option": "defensive-curl",
-        "toggleable": true
-      },
-      {
-        "key": "FlatModifier",
-        "selector": "ac",
-        "value": 2,
-        "predicate": [
-          "defensive-curl"
-        ],
-        "type": "circumstance"
-      }
-    ],
+    "rules": [],
     "slug": "defensive-curl",
     "_migration": {
       "version": 0.935,
@@ -59,7 +43,11 @@
     "actions": {
       "value": 2
     },
-    "deathNote": false
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-animal-companions.AC-effects.Item.PaL4Sz1bVcjxCGU3",
+      "name": "Effect: Defensive Curl"
+    }
   },
   "ownership": {
     "default": 0,
@@ -67,7 +55,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.1",
     "coreVersion": "12.331",
     "compendiumSource": "Item.tvBQEtzLWUR1PlcL",
     "duplicateSource": null

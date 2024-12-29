@@ -16,7 +16,37 @@
       "gm": "",
       "value": "<p>The shark viciously rips into the wound. The target of the shark's Strike takes @Damage[1d8[slashing]] damage (@Damage[2d8[slashing]|shortLabel] for a mature shark or @Damage[3d8[slashing]|shortLabel] for a specialized companion).</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "domain": "strike-damage",
+        "key": "RollOption",
+        "option": "shred",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "damageType": "slashing",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "predicate": [
+          "shred"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "upgrade",
+        "value": 2,
+        "property": "dice-number",
+        "predicate": [
+          "dice:slug:shred",
+          "feature:specialized-animal-companion"
+        ],
+        "selectors": [
+          "strike-damage"
+        ]
+      }
+    ],
     "slug": "shred",
     "_migration": {
       "version": 0.935,
@@ -51,7 +81,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.1",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.F98ajoIakyOPEuwj",
     "duplicateSource": null

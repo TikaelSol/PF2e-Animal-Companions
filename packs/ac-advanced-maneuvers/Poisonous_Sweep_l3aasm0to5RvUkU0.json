@@ -7,7 +7,46 @@
       "gm": "",
       "value": "<p>The salamander secretes poison from the glands on its tail and bludgeons an enemy to apply it to them. It makes a tail Strike. If the Strike hits, the target takes an additional @Damage[1d6[persistent,poison]] damage. If your salamander is nimble or savage, increase this damage to @Damage[2d6[persistent,poison]] damage.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "poisonous-sweep",
+        "toggleable": true,
+        "domain": "tail-damage"
+      },
+      {
+        "category": "persistent",
+        "damageType": "poison",
+        "key": "DamageDice",
+        "selector": "tail-damage",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "predicate": [
+          "poisonous-sweep"
+        ],
+        "tags": [
+          "poisonous-sweep-damage"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "tail-damage"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          },
+          "dice:tag:poisonous-sweep-damage"
+        ],
+        "value": 2,
+        "mode": "upgrade",
+        "property": "dice-number"
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.935,
@@ -54,7 +93,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.1",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null
