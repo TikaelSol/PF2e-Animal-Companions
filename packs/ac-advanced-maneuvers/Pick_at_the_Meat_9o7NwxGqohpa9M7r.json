@@ -16,7 +16,40 @@
       "gm": "",
       "value": "<p><strong>Requirements</strong> The animal companion's last action was a successful jaws Strike.</p><hr /><p>Your bird picks at the wound it just created. The target of its jaws Strike takes @Damage[1d8[bleed]] damage, or @Damage[2d8[bleed]] damage if the bird is specialized.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "pick-at-the-meat",
+        "toggleable": true,
+        "domain": "strike-damage"
+      },
+      {
+        "damageType": "bleed",
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "predicate": [
+          "pick-at-the-meat"
+        ],
+        "tags": [
+          "pick-at-the-meat-damage"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "strike-damage"
+        ],
+        "predicate": [
+          "feature:specialized-animal-companion",
+          "dice:tag:pick-at-the-meat-damage"
+        ],
+        "value": 2,
+        "mode": "upgrade",
+        "property": "dice-number"
+      }
+    ],
     "slug": "pick-at-the-meat",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.1",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.9o7NwxGqohpa9M7r",
     "duplicateSource": null

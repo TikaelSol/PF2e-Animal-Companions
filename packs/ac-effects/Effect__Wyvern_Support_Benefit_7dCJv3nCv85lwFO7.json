@@ -71,7 +71,7 @@
   "_id": "7dCJv3nCv85lwFO7",
   "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
   "folder": null,
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "8KoEr2ej1d0aIHVv": 3

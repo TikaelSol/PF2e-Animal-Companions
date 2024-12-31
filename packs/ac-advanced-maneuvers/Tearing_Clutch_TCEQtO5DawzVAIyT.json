@@ -22,6 +22,22 @@
         "domain": "all",
         "option": "has-advanced-maneuver",
         "priority": 1
+      },
+      {
+        "domain": "beak-damage",
+        "key": "RollOption",
+        "option": "tearing-clutch",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "beak-damage",
+        "damageType": "bleed",
+        "diceNumber": 2,
+        "dieSize": "d6",
+        "predicate": [
+          "tearing-clutch"
+        ]
       }
     ],
     "slug": "tearing-clutch",
@@ -58,7 +74,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.1",
     "coreVersion": "12.331",
     "compendiumSource": "Item.tvBQEtzLWUR1PlcL",
     "duplicateSource": null
