@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your capybara assists you in battle. You gain a +1 circumstance bonus on your next attack roll to Strike a foe within your capybara's reach. The bonus lasts until the first time you use it or until the beginning of your next turn, whichever comes first.</p>"
+      "value": "<p>Your capybara assists you in battle. You gain a +1 circumstance bonus on your next attack roll to Strike a foe within your capybara's reach. The bonus lasts until the first time you use it or until the beginning of your next turn, whichever comes first.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.vh7CqhkZY85PnvMm]{Effect: Capybara Support Benefit}</p>"
     },
     "rules": [],
     "slug": "capybara-support-benefit",
@@ -51,7 +51,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.3",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.Fl1VEpYhmScEEon8",
     "duplicateSource": null

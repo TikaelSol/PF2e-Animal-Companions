@@ -14,9 +14,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your boar gores your foes. Until the start of your next turn, your Strikes that damage a creature in your boar's reach also deal @Damage[1d6[persistent,bleed]] damage. If your boar is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]|shortLabel].</p>"
+      "value": "<p>Your boar gores your foes. Until the start of your next turn, your Strikes that damage a creature in your boar's reach also deal @Damage[1d6[persistent,bleed]] damage. If your boar is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.GZN0Vc8JHVZl1Io4]{Effect: Boar Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:boar-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:boar-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:boar"
+      }
+    ],
     "slug": "boar-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.3",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.8re1d4lM0Dn4sLto",
     "duplicateSource": null

@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your wyvern whips its stinger at your foes. Until the start of your next turn, your Strikes that damage a creature in your wyvern's reach also deal @Damage[1d6[persistent,poison]] damage. If your wyvern is nimble or savage, the persistent damage increases to @Damage[2d6[persistent,poison]].</p>",
+      "value": "<p>Your wyvern whips its stinger at your foes. Until the start of your next turn, your Strikes that damage a creature in your wyvern's reach also deal @Damage[1d6[persistent,poison]] damage. If your wyvern is nimble or savage, the persistent damage increases to @Damage[2d6[persistent,poison]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.7dCJv3nCv85lwFO7]{Effect: Wyvern Support Benefit}</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,40 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:wyvern-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:wyvern-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:wyvern"
+      }
+    ],
     "slug": null,
     "traits": {
       "otherTags": [],
@@ -32,10 +65,7 @@
     },
     "category": "offensive",
     "deathNote": false,
-    "selfEffect": {
-      "uuid": "Compendium.pf2e-animal-companions.AC-effects.Item.7dCJv3nCv85lwFO7",
-      "name": "Effect: Wyvern Support Benefit"
-    }
+    "selfEffect": null
   },
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "ownership": {
@@ -48,7 +78,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.8.0"
+    "systemVersion": "6.8.3"
   },
   "_id": "3ZYwTYI4ORCz4xQg",
   "sort": 0,

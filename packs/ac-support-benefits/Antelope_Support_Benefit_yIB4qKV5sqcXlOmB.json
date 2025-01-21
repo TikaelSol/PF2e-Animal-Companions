@@ -5,9 +5,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The antelope impales your distracted foes. Until the start of your next turn, while riding your antelope, your Strikes that damage a creature in your antelope's reach also deal @Damage[1d6[persistent,bleed]] damage. If your antelope is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]|shortLabel].</p>"
+      "value": "<p>The antelope impales your distracted foes. Until the start of your next turn, while riding your antelope, your Strikes that damage a creature in your antelope's reach also deal @Damage[1d6[persistent,bleed]] damage. If your antelope is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.NzqqTKnlVxubDeRv]{Effect: Antelope Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:antelope-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:antelope-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:antelope"
+      }
+    ],
     "slug": "antelope-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.1",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.yIB4qKV5sqcXlOmB",
     "duplicateSource": null
