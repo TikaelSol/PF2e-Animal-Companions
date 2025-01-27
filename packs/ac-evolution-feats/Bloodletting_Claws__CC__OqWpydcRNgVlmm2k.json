@@ -14,20 +14,30 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon inflicts bleeding wounds on a telling blow. If your eidolon critically hits with a melee unarmed Strike that deals slashing or piercing damage, its target takes [[/r 1d6[persistent,bleed]]] damage. Your eidolon gains an item bonus to this bleed damage equal to the unarmed attack's item bonus to attack rolls. This is a critical specialization effect.</p>"
+      "value": "<p>Your eidolon inflicts bleeding wounds on a telling blow. If your eidolon critically hits with a melee unarmed Strike that deals slashing or piercing damage, its target takes 1d6 persistent bleed damage. Your eidolon gains an item bonus to this bleed damage equal to the unarmed attack's item bonus to attack rolls. This is a critical specialization effect.</p>"
     },
     "rules": [
       {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "If your eidolon critically hits with a melee unarmed Strike that deals slashing or piercing damage, its target takes [[/r 1d6[persistent,bleed]]] damage. Your eidolon gains an item bonus to this bleed damage equal to the unarmed attack's item bonus to attack rolls. This is a critical specialization effect.",
+        "alternate": true,
+        "key": "CriticalSpecialization",
         "predicate": [
-          "unarmed"
+          "item:trait:unarmed"
         ],
-        "outcome": [
-          "criticalSuccess"
-        ],
-        "title": "{item|_id}"
+        "damageDice": {
+          "number": 1,
+          "damageType": "bleed",
+          "faces": 6
+        },
+        "modifier": {
+          "damageType": "bleed",
+          "value": "@weapon.system.runes.potency"
+        }
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:trait:unarmed"
+        ]
       }
     ],
     "slug": "bloodletting-claws",
@@ -77,7 +87,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.4",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.OqWpydcRNgVlmm2k",
     "duplicateSource": null

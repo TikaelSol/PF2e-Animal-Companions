@@ -59,6 +59,12 @@
         "selector": "hp-per-level",
         "type": "item",
         "value": "-@actor.system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 0,
+        "mode": "override",
+        "path": "system.build.attributes.allowedBoosts"
       }
     ],
     "slug": "eidolon",
@@ -230,7 +236,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.4",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.xPn27nNxcLOByTXJ",
     "duplicateSource": null
