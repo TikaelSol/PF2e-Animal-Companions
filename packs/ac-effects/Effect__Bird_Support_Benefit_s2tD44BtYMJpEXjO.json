@@ -1,11 +1,11 @@
 {
-  "name": "Effect: Wyvern Support Benefit",
+  "name": "Effect: Bird Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.3ZYwTYI4ORCz4xQg]{Wyvern Support Benefit}</p><p>Your Strikes that damage a creature in your wyvern's reach also deal persistent poison damage.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.7rhcqwMDt2xqnI1N]{Bird Support Benefit}</p><p>Your Strikes that damage a creature that your bird threatens also deal persistent bleed damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the bleed damage.</p>"
     },
     "rules": [
       {
@@ -14,37 +14,37 @@
           {
             "predicate": [
               {
-                "not": "parent:origin:item:tag:support-benefit:wyvern"
+                "not": "parent:origin:item:tag:support-benefit:bird"
               }
             ],
             "value": 1
           },
           {
             "predicate": [
-              "parent:origin:item:tag:support-benefit:wyvern"
+              "parent:origin:item:tag:support-benefit:bird"
             ],
             "value": 2
           }
         ],
         "key": "ChoiceSet",
         "prompt": "Is companion nimble or savage.",
-        "flag": "wyvernSupportBenefit"
+        "flag": "birdSupportBenefit"
       },
       {
         "key": "TokenMark",
-        "slug": "wyvern-support-benefit"
+        "slug": "bird-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage a creature in your wyvern's reach also deal @Damage[({item|flags.pf2e.rulesSelections.wyvernSupportBenefit})d6[persistent,poison]] damage.",
+        "text": "Your Strikes that damage a creature that your bird threatens also deal @Damage[({item|flags.pf2e.rulesSelections.birdSupportBenefit})d4[persistent,bleed]] damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the bleed damage.",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:wyvern-support-benefit"
+          "target:mark:bird-support-benefit"
         ]
       }
     ],
@@ -58,10 +58,10 @@
       "value": []
     },
     "publication": {
-      "title": "Pathfinder #209: Destroyer's Doom",
+      "title": "",
       "authors": "",
-      "license": "ORC",
-      "remaster": true
+      "license": "OGL",
+      "remaster": false
     },
     "level": {
       "value": 1
@@ -83,13 +83,13 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "7dCJv3nCv85lwFO7",
-  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "_id": "s2tD44BtYMJpEXjO",
+  "img": "icons/creatures/birds/raptor-owl-flying-moon.webp",
   "folder": null,
-  "sort": 100000,
+  "sort": 50000,
   "ownership": {
     "default": 0,
-    "8KoEr2ej1d0aIHVv": 3
+    "Ru2wEyHuelWGF0uy": 3
   },
   "flags": {},
   "_stats": {
@@ -99,5 +99,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.3"
   },
-  "_key": "!items!7dCJv3nCv85lwFO7"
+  "_key": "!items!s2tD44BtYMJpEXjO"
 }

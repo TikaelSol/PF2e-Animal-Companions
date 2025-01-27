@@ -1,0 +1,78 @@
+{
+  "name": "Effect: Draft Lizard Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.g3Wol5lNhQdxqs7t]{Draft Lizard Support Benefit}</p><p>You gain a +1 circumstance bonus on your next attack roll to Strike a foe within your draft lizard's reach.</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenMark",
+        "slug": "draft-lizard-support-benefit"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "target:mark:draft-lizard-support-benefit"
+        ],
+        "removeAfterRoll": "if-enabled"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "xrdIXhRDUHgC8wAe",
+  "img": "icons/creatures/reptiles/lizard-mouth-glowing-red.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.3"
+  },
+  "_key": "!items!xrdIXhRDUHgC8wAe"
+}

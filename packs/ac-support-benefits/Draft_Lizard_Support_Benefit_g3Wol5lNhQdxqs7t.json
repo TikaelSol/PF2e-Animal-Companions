@@ -9,7 +9,7 @@
       "value": "<p>Your draft lizard assists you in battle. You gain a +1 circumstance bonus on your next attack roll to Strike a foe within your draft lizard's reach. The bonus lasts until the first time you use it or until the beginning of your next turn, whichever comes first.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "draft-lizard-support-benefit",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -47,7 +47,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.3",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.g3Wol5lNhQdxqs7t",
     "duplicateSource": null

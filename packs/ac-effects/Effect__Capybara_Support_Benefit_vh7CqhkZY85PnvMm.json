@@ -1,0 +1,78 @@
+{
+  "name": "Effect: Capybara Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Fl1VEpYhmScEEon8]{Capybara Support Benefit}</p><p>You gain a +1 circumstance bonus on your next attack roll to Strike a foe within your capybara's reach. </p>"
+    },
+    "rules": [
+      {
+        "key": "TokenMark",
+        "slug": "capybara-support-benefit"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "target:mark:capybara-support-benefit"
+        ],
+        "removeAfterRoll": "if-enabled"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "vh7CqhkZY85PnvMm",
+  "img": "icons/creatures/mammals/rodent-rat-green.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.3"
+  },
+  "_key": "!items!vh7CqhkZY85PnvMm"
+}
