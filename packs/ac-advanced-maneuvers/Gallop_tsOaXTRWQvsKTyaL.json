@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The companion Strides twice at a +10-foot circumstance bonus to Speed.</p>"
+      "value": "<p>The horse Strides twice at a +10-foot circumstance bonus to Speed.</p>"
     },
     "rules": [
       {
@@ -46,10 +46,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "actionType": {
       "value": "action"
