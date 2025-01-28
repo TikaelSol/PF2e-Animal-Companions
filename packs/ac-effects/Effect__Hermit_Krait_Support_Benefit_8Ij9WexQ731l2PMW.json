@@ -1,11 +1,11 @@
 {
-  "name": "Effect: Bird Support Benefit",
+  "name": "Effect: Hermit Krait Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.7rhcqwMDt2xqnI1N]{Bird Support Benefit}</p><p>Your Strikes that damage a creature that your bird threatens also deal persistent bleed damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the bleed damage.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.u9jaNQk6QF2Tm8oe]{Hermit Krait Support Benefit}</p><p>Your Strikes that damage a creature in your hermit krait's reach also deal 1d6 persistent poison damage. If your hermit krait is nimble or savage, the persistent poison damage increases to 2d6.</p>"
     },
     "rules": [
       {
@@ -14,37 +14,37 @@
           {
             "predicate": [
               {
-                "not": "parent:origin:item:tag:support-benefit:bird"
+                "not": "parent:origin:item:tag:support-benefit:hermit-krait"
               }
             ],
             "value": 1
           },
           {
             "predicate": [
-              "parent:origin:item:tag:support-benefit:bird"
+              "parent:origin:item:tag:support-benefit:hermit-krait"
             ],
             "value": 2
           }
         ],
         "key": "ChoiceSet",
         "prompt": "Is companion nimble or savage.",
-        "flag": "birdSupportBenefit"
+        "flag": "hermitKraitSupportBenefit"
       },
       {
         "key": "TokenMark",
-        "slug": "bird-support-benefit"
+        "slug": "hermit-krait-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage a creature that your bird threatens also deal @Damage[({item|flags.pf2e.rulesSelections.birdSupportBenefit})d4[bleed]] damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the bleed damage.",
+        "text": "Your Strikes that damage a creature in your hermit krait's reach also deal @Damage[({item|flags.pf2e.rulesSelections.hermitKraitSupportBenefit})d6[persistent,poison]] damage.",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:bird-support-benefit"
+          "target:mark:hermit-krait-support-benefit"
         ]
       }
     ],
@@ -83,10 +83,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "s2tD44BtYMJpEXjO",
-  "img": "icons/creatures/birds/raptor-owl-flying-moon.webp",
+  "_id": "8Ij9WexQ731l2PMW",
+  "img": "icons/magic/acid/dissolve-pool-bubbles.webp",
   "folder": null,
-  "sort": 50000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -99,5 +99,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.4"
   },
-  "_key": "!items!s2tD44BtYMJpEXjO"
+  "_key": "!items!8Ij9WexQ731l2PMW"
 }
