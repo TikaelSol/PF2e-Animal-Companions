@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your griffon adopts a noble pose, inspiring you to defy the horrors before you. Until the start of your next turn, you and your griffon gain a +2 circumstance bonus to saves against emotion effects.</p>"
+      "value": "<p>Your griffon adopts a noble pose, inspiring you to defy the horrors before you. Until the start of your next turn, you and your griffon gain a +2 circumstance bonus to saves against emotion effects.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.ixEu5vNQCKPtUbBQ]{Effect: Griffon Support Benefit}</p>"
     },
     "rules": [],
     "slug": "griffon-support-benefit",
@@ -51,7 +51,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.4",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.ShKTegi69Hizn0vB",
     "duplicateSource": null
