@@ -62,7 +62,7 @@
       },
       {
         "key": "ActiveEffectLike",
-        "value": 0,
+        "value": [],
         "mode": "override",
         "path": "system.build.attributes.allowedBoosts"
       }

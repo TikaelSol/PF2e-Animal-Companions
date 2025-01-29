@@ -47,6 +47,30 @@
         "path": "system.proficiencies.defenses.heavy-barding.rank",
         "priority": 41,
         "value": 1
+      },
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "bonus:type:item"
+        ],
+        "selectors": [
+          "attack",
+          "damage",
+          "skill-check",
+          "saving-throw"
+        ],
+        "suppress": true
+      },
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "bonus:type:item"
+        ],
+        "selectors": [
+          "ac"
+        ],
+        "mode": "downgrade",
+        "value": 3
       }
     ],
     "slug": "animal-companion",
@@ -126,7 +150,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.4",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
     "duplicateSource": null
