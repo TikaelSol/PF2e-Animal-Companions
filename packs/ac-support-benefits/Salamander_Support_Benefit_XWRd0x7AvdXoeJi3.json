@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>AYour salamander secretes a poisonous, viscous fluid from its skin. Until the start of your next turn, if you or your salamander are hit by a creature adjacent to the salamander, that creature takes @Damage[1d6[poison]] damage. This damage increases to @Damage[2d6[poison]|shortLabel] if the salamander is nimble or savage.</p>"
+      "value": "<p>Your salamander secretes a poisonous, viscous fluid from its skin. Until the start of your next turn, if you or your salamander are hit by a creature adjacent to the salamander, that creature takes @Damage[1d6[poison]] damage. This damage increases to @Damage[2d6[poison]|shortLabel] if the salamander is nimble or savage.</p>"
     },
     "rules": [],
     "slug": "salamander-support-benefit",
