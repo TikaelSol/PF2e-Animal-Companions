@@ -42,7 +42,7 @@
         ],
         "flag": "breathWeapon",
         "key": "ChoiceSet",
-        "prompt": "PF2E.UI.RuleElemnts.ChoiceSet.Prompt"
+        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
       },
       {
         "key": "GrantItem",

@@ -33,7 +33,7 @@
           }
         ],
         "force": false,
-        "label": "PF2E.SensesTremorsense"
+        "label": "PF2E.Actor.Creature.Sense.Type.Tremorsense"
       },
       {
         "acuity": "imprecise",
