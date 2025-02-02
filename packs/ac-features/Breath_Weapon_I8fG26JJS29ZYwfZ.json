@@ -16,37 +16,8 @@
     },
     "rules": [
       {
-        "adjustName": false,
-        "choices": [
-          {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.mzeQIa11p6ASSxIm"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.LoOw9anYYf7LDNZ7"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.MmMaKe7G1PQULBjL"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.mL6vuNanUJoubOjL"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.ExCuxQ4A31rmtr8Q"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.wHIXVGxc57t8Va4G"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.hzuu7aoFjo0Hwrub"
-          }
-        ],
-        "flag": "breathWeapon",
-        "key": "ChoiceSet",
-        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
-      },
-      {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.breathWeapon}"
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.y3TG1Vs5HRh0wTMe"
       }
     ],
     "slug": "breath-weapon",
@@ -89,7 +60,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.I8fG26JJS29ZYwfZ",
     "duplicateSource": null
