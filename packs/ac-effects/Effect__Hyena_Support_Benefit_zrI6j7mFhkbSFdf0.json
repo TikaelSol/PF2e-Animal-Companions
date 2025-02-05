@@ -1,28 +1,28 @@
 {
-  "name": "Effect: Elk Support Benefit",
+  "name": "Effect: Hyena Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.60lThr6OM9zZtqK2]{Elk Support Benefit}</p><p>If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.wlh1poSMLK9wk2Nw]{Hyena Support Benefit}</p><p>When you hit a creature in the hyena's reach with a Strike, the creature becomes Frightened 1.</p>"
     },
     "rules": [
       {
         "key": "TokenMark",
-        "slug": "elk-support-benefit"
+        "slug": "hyena-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.",
+        "text": "When you hit a creature in the hyena's reach with a Strike, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:elk-support-benefit"
+          "target:mark:hyena-support-benefit"
         ]
       }
     ],
@@ -61,10 +61,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "uOzhPI4odakOi0uj",
-  "img": "icons/magic/symbols/cross-circle-blue.webp",
+  "_id": "zrI6j7mFhkbSFdf0",
+  "img": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
   "folder": null,
-  "sort": 2000000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -77,5 +77,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
-  "_key": "!items!uOzhPI4odakOi0uj"
+  "_key": "!items!zrI6j7mFhkbSFdf0"
 }

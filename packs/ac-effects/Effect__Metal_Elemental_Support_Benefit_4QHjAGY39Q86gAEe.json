@@ -1,11 +1,11 @@
 {
-  "name": "Effect: Fire Elemental Support Benefit",
+  "name": "Effect: Metal Elemental Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.NSdcXgEHVHdfJlkb]{Fire Elemental Support Benefit}</p><p>your Strikes that damage a creature in your fire elemental's reach also deal 1d6 persistent fire damage. If your fire elemental is nimble or savage, the persistent fire damage increases to 2d6.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.SZD1hU2ageIDw4To]{Metal Elemental Support Benefit}</p><p>Your Strikes that damage a creature in your metal elemental's reach also deal bleed damage damage.</p>"
     },
     "rules": [
       {
@@ -14,37 +14,37 @@
           {
             "predicate": [
               {
-                "not": "parent:origin:item:tag:support-benefit:fire-elemental"
+                "not": "parent:origin:item:tag:support-benefit:metal-elemental"
               }
             ],
             "value": 1
           },
           {
             "predicate": [
-              "parent:origin:item:tag:support-benefit:fire-elemental"
+              "parent:origin:item:tag:support-benefit:metal-elemental"
             ],
             "value": 2
           }
         ],
         "key": "ChoiceSet",
         "prompt": "Is companion nimble or savage.",
-        "flag": "fireElementalSupportBenefit"
+        "flag": "metalElementalSupportBenefit"
       },
       {
         "key": "TokenMark",
-        "slug": "fire-elemental-support-benefit"
+        "slug": "metal-elemental-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage a creature  in your fire elemental's reach also deal @Damage[({item|flags.pf2e.rulesSelections.fireElementalSupportBenefit})d6[persistent,fire]] damage.",
+        "text": "Your Strikes that damage a creature in your metal elemental's reach also deal @Damage[({item|flags.pf2e.rulesSelections.metalElementalSupportBenefit})d6[bleed]] damage.",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:fire-elemental-support-benefit"
+          "target:mark:metal-elemental-support-benefit"
         ]
       }
     ],
@@ -83,10 +83,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "KAAmj9fT7JPGPzKl",
-  "img": "icons/magic/fire/elemental-fire-flying.webp",
+  "_id": "4QHjAGY39Q86gAEe",
+  "img": "icons/commodities/metal/fragments-steel-ring.webp",
   "folder": null,
-  "sort": 900000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -99,5 +99,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
-  "_key": "!items!KAAmj9fT7JPGPzKl"
+  "_key": "!items!4QHjAGY39Q86gAEe"
 }

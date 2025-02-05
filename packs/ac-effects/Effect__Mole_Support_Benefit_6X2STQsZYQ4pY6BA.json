@@ -1,28 +1,28 @@
 {
-  "name": "Effect: Elk Support Benefit",
+  "name": "Effect: Mole Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.60lThr6OM9zZtqK2]{Elk Support Benefit}</p><p>If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.vvuB2kEzRYSs4IpH]{Mole Support Benefit}</p><p>If you hit and damage a creature adjacent to your mole, that creature is Clumsy 1 until it moves from its current position.</p>"
     },
     "rules": [
       {
         "key": "TokenMark",
-        "slug": "elk-support-benefit"
+        "slug": "mole-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.",
+        "text": "If you hit and damage a creature adjacent to your mole, that creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until it moves from its current position.",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:elk-support-benefit"
+          "target:mark:mole-support-benefit"
         ]
       }
     ],
@@ -45,8 +45,8 @@
       "value": 1
     },
     "duration": {
-      "value": 1,
-      "unit": "rounds",
+      "value": -1,
+      "unit": "encounter",
       "expiry": "turn-start",
       "sustained": false
     },
@@ -61,10 +61,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "uOzhPI4odakOi0uj",
-  "img": "icons/magic/symbols/cross-circle-blue.webp",
+  "_id": "6X2STQsZYQ4pY6BA",
+  "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
   "folder": null,
-  "sort": 2000000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -77,5 +77,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
-  "_key": "!items!uOzhPI4odakOi0uj"
+  "_key": "!items!6X2STQsZYQ4pY6BA"
 }

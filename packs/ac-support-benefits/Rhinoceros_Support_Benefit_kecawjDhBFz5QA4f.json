@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your rhino swings its heavy head to unbalance your enemy. The first creature within your rhino's reach that you hit and deal damage to before the start of your next turn becomes @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 1} until the end of your next turn.</p>"
+      "value": "<p>Your rhino swings its heavy head to unbalance your enemy. The first creature within your rhino's reach that you hit and deal damage to before the start of your next turn becomes @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 1} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.LqhSjyZbMN1wKPss]{Effect: Rhinoceros Support Benefit}</p><p></p>"
     },
     "rules": [],
     "slug": "rhinoceros-support-benefit",
@@ -51,7 +51,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.kecawjDhBFz5QA4f",
     "duplicateSource": null

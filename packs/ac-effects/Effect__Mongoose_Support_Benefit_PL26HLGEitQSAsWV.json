@@ -1,29 +1,27 @@
 {
-  "name": "Effect: Elk Support Benefit",
+  "name": "Effect: Mongoose Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.60lThr6OM9zZtqK2]{Elk Support Benefit}</p><p>If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.vvuB2kEzRYSs4IpH]{Mole Support Benefit}</p><p>Creatures adjacent to the mongoose cannot flank you.</p>"
     },
     "rules": [
       {
-        "key": "TokenMark",
-        "slug": "elk-support-benefit"
+        "domain": "all",
+        "key": "RollOption",
+        "option": "mongoose-support-toggle",
+        "toggleable": true
       },
       {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.flanking.offGuardable",
         "predicate": [
-          "target:mark:elk-support-benefit"
-        ]
+          "mongoose-support-toggle"
+        ],
+        "value": "@actor.level+20"
       }
     ],
     "slug": null,
@@ -61,10 +59,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "uOzhPI4odakOi0uj",
-  "img": "icons/magic/symbols/cross-circle-blue.webp",
+  "_id": "PL26HLGEitQSAsWV",
+  "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
   "folder": null,
-  "sort": 2000000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -77,5 +75,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
-  "_key": "!items!uOzhPI4odakOi0uj"
+  "_key": "!items!PL26HLGEitQSAsWV"
 }

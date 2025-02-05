@@ -1,32 +1,32 @@
 {
-  "name": "Effect: Elk Support Benefit",
+  "name": "Effect: Monitor Lizard Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.60lThr6OM9zZtqK2]{Elk Support Benefit}</p><p>If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.2Jaz98WiQMNnqKCD]{Monitor Lizard Support Benefit}</p><p>If your Strike damages a foe, any time the foe attempts an action with the manipulate trait until the end of your next turn, it must attempt a DC 5 Flat Check. On a failure, the action is disrupted.</p>"
     },
     "rules": [
       {
         "key": "TokenMark",
-        "slug": "elk-support-benefit"
+        "slug": "monitor-lizard-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.",
+        "text": "If your Strike damages a foe, any time the foe attempts an action with the manipulate trait until the end of your next turn, it must attempt a DC 5 Flat Check. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.eXABjTK48R1xCvOZ]{Effect: Monitor Lizard Support Benefit (Penalty)}",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:elk-support-benefit"
+          "target:mark:monitor-lizard-support-benefit"
         ]
       }
     ],
-    "slug": null,
+    "slug": "effect-monitor-lizard-support-benefit",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -61,10 +61,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "uOzhPI4odakOi0uj",
-  "img": "icons/magic/symbols/cross-circle-blue.webp",
+  "_id": "itbKX7GZbXsfRTf8",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
   "folder": null,
-  "sort": 2000000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -77,5 +77,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
-  "_key": "!items!uOzhPI4odakOi0uj"
+  "_key": "!items!itbKX7GZbXsfRTf8"
 }

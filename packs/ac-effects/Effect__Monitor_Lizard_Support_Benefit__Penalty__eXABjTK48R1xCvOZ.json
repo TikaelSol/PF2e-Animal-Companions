@@ -1,0 +1,106 @@
+{
+  "name": "Effect: Monitor Lizard Support Benefit (Penalty)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.2Jaz98WiQMNnqKCD]{Monitor Lizard Support Benefit}</p><p>If you attempt an action with the manipulate trait, you must attempt a DC 5 Flat Check. On a failure, the action is disrupted.</p>"
+    },
+    "rules": [
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:manipulate"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "Attempt a @Check[flat|dc:5|showDC:all]. On a failure, the action is disrupted."
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:manipulate"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "Attempt a @Check[flat|dc:5|showDC:all]. On a failure, the action is disrupted."
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:manipulate"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "Attempt a @Check[flat|dc:5|showDC:all]. On a failure, the action is disrupted."
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "eXABjTK48R1xCvOZ",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.5"
+  },
+  "_key": "!items!eXABjTK48R1xCvOZ"
+}
