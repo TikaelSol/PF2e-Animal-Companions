@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The mongoose bounds to your side, alert and at the ready. Until the end of your next turn, creatures adjacent to the mongoose cannot flank you.</p>"
+      "value": "<p>The mongoose bounds to your side, alert and at the ready. Until the end of your next turn, creatures adjacent to the mongoose cannot flank you.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.PL26HLGEitQSAsWV]{Effect: Mongoose Support Benefit}</p>"
     },
     "rules": [],
     "slug": "mongoose-support-benefit",
@@ -51,7 +51,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.D8uiA6qJN2NfxDjx",
     "duplicateSource": null

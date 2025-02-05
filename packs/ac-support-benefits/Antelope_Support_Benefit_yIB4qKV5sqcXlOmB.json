@@ -63,7 +63,7 @@
     "actionType": {
       "value": "action"
     },
-    "category": null,
+    "category": "offensive",
     "actions": {
       "value": 1
     },
@@ -84,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.1",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.yIB4qKV5sqcXlOmB",
     "duplicateSource": null

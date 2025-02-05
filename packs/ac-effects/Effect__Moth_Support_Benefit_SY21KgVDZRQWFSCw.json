@@ -1,28 +1,28 @@
 {
-  "name": "Effect: Elk Support Benefit",
+  "name": "Effect: Moth Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.60lThr6OM9zZtqK2]{Elk Support Benefit}</p><p>If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.9Y5QKMvy0KsliE29]{Moth Support Benefit}</p><p>If you damage a Concealed or Hidden creature in your moth's reach with a Strike, that creature requires only a DC 3 Flat Check to target it if it's concealed, or DC 9 Flat Check if it's hidden.</p>"
     },
     "rules": [
       {
         "key": "TokenMark",
-        "slug": "elk-support-benefit"
+        "slug": "moth-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.",
+        "text": "If you damage a Concealed or Hidden creature in your moth's reach with a Strike, that creature requires only a DC 3 Flat Check to target it if it's concealed, or DC 9 Flat Check if it's hidden. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.Db0Vtobv3v4Iybj5]{Effect: Moth Support Benefit (Penalty)}\n\n",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:elk-support-benefit"
+          "target:mark:moth-support-benefit"
         ]
       }
     ],
@@ -61,10 +61,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "uOzhPI4odakOi0uj",
-  "img": "icons/magic/symbols/cross-circle-blue.webp",
+  "_id": "SY21KgVDZRQWFSCw",
+  "img": "icons/creatures/invertebrates/dragonfly-teal.webp",
   "folder": null,
-  "sort": 2000000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -77,5 +77,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
-  "_key": "!items!uOzhPI4odakOi0uj"
+  "_key": "!items!SY21KgVDZRQWFSCw"
 }

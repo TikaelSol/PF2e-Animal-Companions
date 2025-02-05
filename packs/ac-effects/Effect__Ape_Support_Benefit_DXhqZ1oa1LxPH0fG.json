@@ -1,28 +1,29 @@
 {
-  "name": "Effect: Elk Support Benefit",
+  "folder": null,
+  "name": "Effect: Ape Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.60lThr6OM9zZtqK2]{Elk Support Benefit}</p><p>If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Qm0iwIYyy2gbnYXe]{Ape Support Benefit}</p><p>If you hit and deal damage to a creature in your ape's reach, the creature becomes @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p>"
     },
     "rules": [
       {
         "key": "TokenMark",
-        "slug": "elk-support-benefit"
+        "slug": "ape-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.",
+        "text": "If you hit and deal damage to a creature in your ape's reach, the creature becomes @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:elk-support-benefit"
+          "target:mark:ape-support-benefit"
         ]
       }
     ],
@@ -46,7 +47,7 @@
     },
     "duration": {
       "value": 1,
-      "unit": "rounds",
+      "unit": "minutes",
       "expiry": "turn-start",
       "sustained": false
     },
@@ -61,10 +62,7 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "uOzhPI4odakOi0uj",
-  "img": "icons/magic/symbols/cross-circle-blue.webp",
-  "folder": null,
-  "sort": 2000000,
+  "img": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -77,5 +75,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
-  "_key": "!items!uOzhPI4odakOi0uj"
+  "_id": "DXhqZ1oa1LxPH0fG",
+  "sort": 1300000,
+  "_key": "!items!DXhqZ1oa1LxPH0fG"
 }

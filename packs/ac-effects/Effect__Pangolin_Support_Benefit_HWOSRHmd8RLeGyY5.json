@@ -1,11 +1,11 @@
 {
-  "name": "Effect: Fire Elemental Support Benefit",
+  "name": "Effect: Pangolin Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.NSdcXgEHVHdfJlkb]{Fire Elemental Support Benefit}</p><p>your Strikes that damage a creature in your fire elemental's reach also deal 1d6 persistent fire damage. If your fire elemental is nimble or savage, the persistent fire damage increases to 2d6.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.QiQvx7jtfrkGnf13]{Pangolin Support Benefit}</p><p>Your Strikes that damage a creature in your pangolin's reach also deal 1d6 persistent bleed damage. If your pangolin is nimble or savage, the persistent bleed damage increases to 2d6.</p>"
     },
     "rules": [
       {
@@ -14,37 +14,37 @@
           {
             "predicate": [
               {
-                "not": "parent:origin:item:tag:support-benefit:fire-elemental"
+                "not": "parent:origin:item:tag:support-benefit:pangolin"
               }
             ],
             "value": 1
           },
           {
             "predicate": [
-              "parent:origin:item:tag:support-benefit:fire-elemental"
+              "parent:origin:item:tag:support-benefit:pangolin"
             ],
             "value": 2
           }
         ],
         "key": "ChoiceSet",
         "prompt": "Is companion nimble or savage.",
-        "flag": "fireElementalSupportBenefit"
+        "flag": "pangolinSupportBenefit"
       },
       {
         "key": "TokenMark",
-        "slug": "fire-elemental-support-benefit"
+        "slug": "pangolin-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage a creature  in your fire elemental's reach also deal @Damage[({item|flags.pf2e.rulesSelections.fireElementalSupportBenefit})d6[persistent,fire]] damage.",
+        "text": "Your Strikes that damage a creature in your pangolin's reach also deal @Damage[({item|flags.pf2e.rulesSelections.pangolinSupportBenefit})d6[persistent,bleed]] damage.",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:fire-elemental-support-benefit"
+          "target:mark:pangolin-support-benefit"
         ]
       }
     ],
@@ -83,10 +83,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "KAAmj9fT7JPGPzKl",
-  "img": "icons/magic/fire/elemental-fire-flying.webp",
+  "_id": "HWOSRHmd8RLeGyY5",
+  "img": "icons/creatures/abilities/paw-print-orange.webp",
   "folder": null,
-  "sort": 900000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -99,5 +99,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
-  "_key": "!items!KAAmj9fT7JPGPzKl"
+  "_key": "!items!HWOSRHmd8RLeGyY5"
 }

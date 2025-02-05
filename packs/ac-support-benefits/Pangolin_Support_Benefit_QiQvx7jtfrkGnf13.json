@@ -14,9 +14,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your pangolin tears at your enemies with its serrated plates. Until the start of your next turn, your Strikes that damage a creature in your pangolin's reach also deal @Damage[1d6[persistent,bleed]] damage. If your pangolin is nimble or savage, the persistent bleed damage increases to @Damage[1d6[persistent,bleed]|shortLabel].</p>"
+      "value": "<p>Your pangolin tears at your enemies with its serrated plates. Until the start of your next turn, your Strikes that damage a creature in your pangolin's reach also deal @Damage[1d6[persistent,bleed]] damage. If your pangolin is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.HWOSRHmd8RLeGyY5]{Effect: Pangolin Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:pangolin-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:pangolin-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:pangolin"
+      }
+    ],
     "slug": "pangolin-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.QiQvx7jtfrkGnf13",
     "duplicateSource": null

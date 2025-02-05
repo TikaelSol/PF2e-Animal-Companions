@@ -5,10 +5,43 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your metal elemental pierces an enemy with metal spikes that cause it to bleed. Until the start of your next turn, your Strikes that damage a creature in your metal elemental's reach also deal @Damage[1d6[persistent,bleed]] damage. If your metal elemental is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]].</p>"
+      "value": "<p>Your metal elemental pierces an enemy with metal spikes that cause it to bleed. Until the start of your next turn, your Strikes that damage a creature in your metal elemental's reach also deal @Damage[1d6[persistent,bleed]] damage. If your metal elemental is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.4QHjAGY39Q86gAEe]{Effect: Metal Elemental Support Benefit}</p>"
     },
-    "rules": [],
-    "slug": null,
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:metal-elemental-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:metal-elemental-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:metal-elemental"
+      }
+    ],
+    "slug": "metal-elemental-support-benefit",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -40,7 +73,7 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.SZD1hU2ageIDw4To",
     "duplicateSource": null
