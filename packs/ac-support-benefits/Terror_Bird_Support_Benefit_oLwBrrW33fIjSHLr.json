@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your terror bird screeches at your enemies when you create an opening. Until the start of your next turn, your Strikes that deal damage to a creature within your terror bird's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</p>"
+      "value": "<p>Your terror bird screeches at your enemies when you create an opening. Until the start of your next turn, your Strikes that deal damage to a creature within your terror bird's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.Vbi6XlP86bndpHs1]{Effect: Terror Bird Support Benefit}</p>"
     },
     "rules": [],
     "slug": "terror-bird-support-benefit",
@@ -51,7 +51,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.oLwBrrW33fIjSHLr",
     "duplicateSource": null

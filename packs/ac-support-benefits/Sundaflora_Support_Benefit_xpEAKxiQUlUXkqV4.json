@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your sundaflora inspires your allies with its calm demeanor and agile steps. Choose one ally within 30 feet of your sundaflora. They gain a +1 circumstance bonus to their next attack roll to Strike a foe within your sundaflora's reach. The bonus lasts until the first time your ally uses it or until the beginning of your next turn, whichever comes first.</p>",
+      "value": "<p>Your sundaflora inspires your allies with its calm demeanor and agile steps. Choose one ally within 30 feet of your sundaflora. They gain a +1 circumstance bonus to their next attack roll to Strike a foe within your sundaflora's reach. The bonus lasts until the first time your ally uses it or until the beginning of your next turn, whichever comes first.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.I89IDoLnz4RnfYtX]{Effect: Sundaflora Support Benefit}</p>",
       "gm": ""
     },
     "publication": {
@@ -19,7 +19,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "sundaflora-support-benefit",
     "traits": {
       "otherTags": [],
       "value": []
@@ -44,7 +44,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.8.0"
+    "systemVersion": "6.8.5"
   },
   "_id": "xpEAKxiQUlUXkqV4",
   "sort": 0,

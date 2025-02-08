@@ -5,9 +5,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The shotalashu telepathically assails your enemies when you create an opening. Until the start of your next turn, each time you hit a creature in the shotalashu's reach with a Strike, the creature takes @Damage[1d6[mental]] damage from the shotalashu. If your shotalashu is nimble or savage, the mental damage increases to @Damage[2d6[mental]|shortLabel].</p>"
+      "value": "<p>The shotalashu telepathically assails your enemies when you create an opening. Until the start of your next turn, each time you hit a creature in the shotalashu's reach with a Strike, the creature takes @Damage[1d6[mental]] damage from the shotalashu. If your shotalashu is nimble or savage, the mental damage increases to @Damage[2d6[mental]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.TNnBontVMih3LYaC]{Effect: Shotalashu Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:shotalashu-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:shotalashu-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:shotalashu"
+      }
+    ],
     "slug": "shotalashu-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.ufAZJqCN7ZOBhMSJ",
     "duplicateSource": null
