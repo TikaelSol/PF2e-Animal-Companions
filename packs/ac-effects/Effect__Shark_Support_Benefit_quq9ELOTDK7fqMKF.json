@@ -1,11 +1,11 @@
 {
-  "name": "Effect: Beetle Support Benefit",
+  "name": "Effect: Shark Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.mFTzDCqNL5EdwlGm]{Beetle Support Benefit}</p><p>Your Strikes that deal damage either make the target @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} until the end of your next turn or move the target 5 feet away from the beetle (this is forced movement). The target chooses which effect occurs.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.YsLLV4J7L6fgzTXf]{Shark Support Benefit}</p><p>Each time you hit a creature in the shark's reach with a Strike and deal slashing or piercing damage, the creature takes 1d8 slashing damage from the shark.</p>"
     },
     "rules": [
       {
@@ -14,37 +14,43 @@
           {
             "predicate": [
               {
-                "not": "parent:origin:item:tag:support-benefit:beetle"
+                "not": "parent:origin:item:tag:support-benefit:shark"
               }
             ],
             "value": 1
           },
           {
             "predicate": [
-              "parent:origin:item:tag:support-benefit:beetle"
+              "parent:origin:item:tag:support-benefit:shark"
             ],
             "value": 2
           }
         ],
         "key": "ChoiceSet",
         "prompt": "Is companion nimble or savage.",
-        "flag": "beetleSupportBenefit"
+        "flag": "sharkSupportBenefit"
       },
       {
         "key": "TokenMark",
-        "slug": "beetle-support-benefit"
+        "slug": "shark-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that deal damage either make the target @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} until the end of your next turn or move the target 5 feet away from the beetle (this is forced movement). The target chooses which effect occurs.",
+        "text": "Each time you hit a creature in the shark's reach with a Strike and deal slashing or piercing damage, the creature takes @Damage[({item|flags.pf2e.rulesSelections.sharkSupportBenefit})d8[slashing]] damage from the shark.",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:antelope-support-benefit"
+          "target:mark:shark-support-benefit",
+          {
+            "or": [
+              "item:damage:type:slashing",
+              "item:damage:type:piercing"
+            ]
+          }
         ]
       }
     ],
@@ -83,10 +89,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "Jvh1ciiT9JWXILxo",
-  "img": "icons/creatures/invertebrates/beetle-stag-yellow-green.webp",
+  "_id": "quq9ELOTDK7fqMKF",
+  "img": "icons/creatures/fish/fish-shark-swimming.webp",
   "folder": null,
-  "sort": 1200000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -97,7 +103,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.8.3"
+    "systemVersion": "6.8.5"
   },
-  "_key": "!items!Jvh1ciiT9JWXILxo"
+  "_key": "!items!quq9ELOTDK7fqMKF"
 }

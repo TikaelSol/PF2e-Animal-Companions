@@ -1,28 +1,50 @@
 {
-  "name": "Effect: Rhinoceros Support Benefit",
+  "name": "Effect: Scorpion Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.kecawjDhBFz5QA4f]{Rhinoceros Support Benefit}</p><p>The first creature within your rhino's reach that you hit and deal damage to before the start of your next turn becomes Clumsy 1.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.xtXdDC5KrUqh7eCu]{Scorpion Support Benefit}</p><p>Your Strikes that damage a creature in your scorpion's reach also deal persistent poison damage.</p>"
     },
     "rules": [
       {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              {
+                "not": "parent:origin:item:tag:support-benefit:scorpion"
+              }
+            ],
+            "value": 1
+          },
+          {
+            "predicate": [
+              "parent:origin:item:tag:support-benefit:scorpion"
+            ],
+            "value": 2
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "Is companion nimble or savage.",
+        "flag": "scorpionSupportBenefit"
+      },
+      {
         "key": "TokenMark",
-        "slug": "rhinoceros-support-benefit"
+        "slug": "scorpion-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "The first creature within your rhino's reach that you hit and deal damage to before the start of your next turn becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.",
+        "text": "Your Strikes that damage a creature in your scorpion's reach also deal @Damage[({item|flags.pf2e.rulesSelections.scorpionSupportBenefit})d6[persistent,poison]] damage.",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:rhinoceros-support-benefit"
+          "target:mark:scorpion-support-benefit"
         ]
       }
     ],
@@ -61,10 +83,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "LqhSjyZbMN1wKPss",
-  "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
+  "_id": "emqLzuupyJ0pN1s3",
+  "img": "icons/creatures/invertebrates/scorpion-yellow.webp",
   "folder": null,
-  "sort": 1400000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -77,5 +99,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
-  "_key": "!items!LqhSjyZbMN1wKPss"
+  "_key": "!items!emqLzuupyJ0pN1s3"
 }

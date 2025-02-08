@@ -1,11 +1,11 @@
 {
-  "name": "Effect: Beetle Support Benefit",
+  "name": "Effect: Riding Drake Support",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.mFTzDCqNL5EdwlGm]{Beetle Support Benefit}</p><p>Your Strikes that deal damage either make the target @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} until the end of your next turn or move the target 5 feet away from the beetle (this is forced movement). The target chooses which effect occurs.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.C41lCXjerYjMyOTI]{Riding Drake Support Benefit}</p><p>Each time you Strike while riding the drake and hit a creature in the drake's reach, the creature takes fire damage from the drake.</p>"
     },
     "rules": [
       {
@@ -14,37 +14,45 @@
           {
             "predicate": [
               {
-                "not": "parent:origin:item:tag:support-benefit:beetle"
+                "not": "parent:origin:item:tag:support-benefit:riding-drake"
               }
             ],
             "value": 1
           },
           {
             "predicate": [
-              "parent:origin:item:tag:support-benefit:beetle"
+              "parent:origin:item:tag:support-benefit:riding-drake"
             ],
             "value": 2
           }
         ],
         "key": "ChoiceSet",
         "prompt": "Is companion nimble or savage.",
-        "flag": "beetleSupportBenefit"
+        "flag": "ridingDrakeSupportBenefit"
       },
       {
         "key": "TokenMark",
-        "slug": "beetle-support-benefit"
+        "slug": "riding-drake-support-benefit"
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "riding-the-drake",
+        "label": "Riding the Drake",
+        "toggleable": true
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that deal damage either make the target @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} until the end of your next turn or move the target 5 feet away from the beetle (this is forced movement). The target chooses which effect occurs.",
+        "text": "Each time you Strike while riding the drake and hit a creature in the drake's reach, the creature takes @Damage[({item|flags.pf2e.rulesSelections.ridingDrakeSupportBenefit})d4[fire]] damage from the drake.",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:antelope-support-benefit"
+          "target:mark:riding-drake-support-benefit",
+          "riding-the-drake"
         ]
       }
     ],
@@ -83,10 +91,8 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "Jvh1ciiT9JWXILxo",
-  "img": "icons/creatures/invertebrates/beetle-stag-yellow-green.webp",
+  "img": "icons/magic/fire/beam-jet-stream-embers.webp",
   "folder": null,
-  "sort": 1200000,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -97,7 +103,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.8.3"
+    "systemVersion": "6.8.5"
   },
-  "_key": "!items!Jvh1ciiT9JWXILxo"
+  "_id": "Uybrl7G4BQWCjs0f",
+  "sort": 3300000,
+  "_key": "!items!Uybrl7G4BQWCjs0f"
 }

@@ -1,28 +1,28 @@
 {
-  "name": "Effect: Rhinoceros Support Benefit",
+  "name": "Effect: Shadow Hound Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.kecawjDhBFz5QA4f]{Rhinoceros Support Benefit}</p><p>The first creature within your rhino's reach that you hit and deal damage to before the start of your next turn becomes Clumsy 1.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.h65iGxPkfrT8DdPv]{Shadow Hound Support Benefit}</p><p>When you damage a creature with a Strike and that creature is within reach of your shadow hound, both you and your shadow hound become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to the creature.</p>"
     },
     "rules": [
       {
         "key": "TokenMark",
-        "slug": "rhinoceros-support-benefit"
+        "slug": "shadow-hound-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "The first creature within your rhino's reach that you hit and deal damage to before the start of your next turn becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.",
+        "text": "When you damage a creature with a Strike and that creature is within reach of your shadow hound, both you and your shadow hound become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to the creature.\n\n",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:rhinoceros-support-benefit"
+          "target:mark:shadow-hound-support-benefit"
         ]
       }
     ],
@@ -61,10 +61,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "LqhSjyZbMN1wKPss",
-  "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
+  "_id": "sfBV8BQGaYuXRp2L",
+  "img": "icons/magic/unholy/orb-rays-blue.webp",
   "folder": null,
-  "sort": 1400000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -77,5 +77,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
-  "_key": "!items!LqhSjyZbMN1wKPss"
+  "_key": "!items!sfBV8BQGaYuXRp2L"
 }

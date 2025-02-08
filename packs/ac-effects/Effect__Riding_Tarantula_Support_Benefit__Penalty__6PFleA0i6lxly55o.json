@@ -1,11 +1,11 @@
 {
-  "name": "Effect: Monitor Lizard Support Benefit (Penalty)",
+  "name": "Effect: Riding Tarantula Support Benefit (Penalty)",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.2Jaz98WiQMNnqKCD]{Monitor Lizard Support Benefit}</p><p>If you attempt an action with the manipulate trait, you must attempt a DC 5 Flat Check. On a failure, the action is disrupted.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.NKgFIZQYkL3bb6xn]{Riding Tarantula Support Benefit}</p><p>The target must succeed at a @Check[type:flat|dc:5] whenever it takes a concentrate action or that action is lost.</p>"
     },
     "rules": [
       {
@@ -13,7 +13,7 @@
         "key": "ItemAlteration",
         "mode": "add",
         "predicate": [
-          "item:trait:manipulate"
+          "item:trait:concentrate"
         ],
         "property": "description",
         "value": [
@@ -27,7 +27,7 @@
         "key": "ItemAlteration",
         "mode": "add",
         "predicate": [
-          "item:trait:manipulate"
+          "item:trait:concentrate"
         ],
         "property": "description",
         "value": [
@@ -41,7 +41,7 @@
         "key": "ItemAlteration",
         "mode": "add",
         "predicate": [
-          "item:trait:manipulate"
+          "item:trait:concentrate"
         ],
         "property": "description",
         "value": [
@@ -86,10 +86,8 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "eXABjTK48R1xCvOZ",
-  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "img": "icons/creatures/invertebrates/spider-dotted-green.webp",
   "folder": null,
-  "sort": 2100000,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -102,5 +100,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
-  "_key": "!items!eXABjTK48R1xCvOZ"
+  "_id": "6PFleA0i6lxly55o",
+  "sort": 0,
+  "_key": "!items!6PFleA0i6lxly55o"
 }

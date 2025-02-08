@@ -14,9 +14,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your scorpion drips poison from its stinger when you create an opening. Until the start of your next turn, your Strikes that damage a creature in your scorpion's reach also deal @Damage[1d6[persistent,poison]] damage. If your scorpion is nimble or savage, the persistent poison damage increases to @Damage[2d6[persistent,poison]|shortLabel].</p>"
+      "value": "<p>Your scorpion drips poison from its stinger when you create an opening. Until the start of your next turn, your Strikes that damage a creature in your scorpion's reach also deal @Damage[1d6[persistent,poison]] damage. If your scorpion is nimble or savage, the persistent poison damage increases to @Damage[2d6[persistent,poison]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.emqLzuupyJ0pN1s3]{Effect: Scorpion Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:scorpion-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:scorpion-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:scorpion"
+      }
+    ],
     "slug": "scorpion-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.xtXdDC5KrUqh7eCu",
     "duplicateSource": null
