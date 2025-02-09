@@ -14,9 +14,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The hand viciously batters the foes you attack. Until the start of your next turn, each time you hit a creature in the hand's reach with a Strike, the creature takes @Damage[1d6[bludgeoning]] damage from the hand. If your hand is nimble or savage, the bludgeoning damage increases to @Damage[2d6[bludgeoning]|shortLabel].</p>"
+      "value": "<p>The hand viciously batters the foes you attack. Until the start of your next turn, each time you hit a creature in the hand's reach with a Strike, the creature takes @Damage[1d6[bludgeoning]] damage from the hand. If your hand is nimble or savage, the bludgeoning damage increases to @Damage[2d6[bludgeoning]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.TbsMurFpA6ZkZIfF]{Effect: Undead Hand Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:undead-hand-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:undead-hand-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:undead-hand"
+      }
+    ],
     "slug": "undead-hand-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.imNJpD4afn4UrLpu",
     "duplicateSource": null

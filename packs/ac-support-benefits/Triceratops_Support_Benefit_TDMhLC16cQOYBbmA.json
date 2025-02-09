@@ -14,9 +14,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your triceratops gores @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} targets in your wake. Until the start of your next turn, your Strikes that damage a prone creature in your triceratops's reach also deal @Damage[1d8[persistent,bleed]] damage. If your triceratops is nimble or savage, the persistent bleed damage increases to @Damage[2d8[persistent,bleed]|shortLabel].</p>"
+      "value": "<p>Your triceratops gores @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} targets in your wake. Until the start of your next turn, your Strikes that damage a prone creature in your triceratops's reach also deal @Damage[1d8[persistent,bleed]] damage. If your triceratops is nimble or savage, the persistent bleed damage increases to @Damage[2d8[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.VK0u5yF0dO2YlGra]{Effect: Triceratops Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:triceratops-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:triceratops-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:triceratops"
+      }
+    ],
     "slug": "triceratops-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.TDMhLC16cQOYBbmA",
     "duplicateSource": null
