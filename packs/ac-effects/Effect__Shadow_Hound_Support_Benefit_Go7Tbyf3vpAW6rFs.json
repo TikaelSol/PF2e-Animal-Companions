@@ -1,0 +1,81 @@
+{
+  "name": "Effect: Shadow Hound Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.h65iGxPkfrT8DdPv]{Shadow Hound Support Benefit}</p><p>When you damage a creature with a Strike and that creature is within reach of your shadow hound, both you and your shadow hound become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to the creature.</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenMark",
+        "slug": "shadow-hound-support-benefit"
+      },
+      {
+        "key": "Note",
+        "selector": "strike-damage",
+        "text": "When you damage a creature with a Strike and that creature is within reach of your shadow hound, both you and your shadow hound become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to the creature.\n\n",
+        "title": "{item|name}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "target:mark:shadow-hound-support-benefit"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "Go7Tbyf3vpAW6rFs",
+  "img": "icons/magic/unholy/orb-swirling-teal.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.5"
+  },
+  "_key": "!items!Go7Tbyf3vpAW6rFs"
+}

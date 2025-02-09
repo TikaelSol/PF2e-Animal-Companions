@@ -14,9 +14,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your drake snorts fire in your foes' faces. Until the start of your next turn, each time you Strike while riding the drake and hit a creature in the drake's reach, the creature takes @Damage[1d4[fire]] damage from the drake. If your drake is nimble or savage, the fire damage increases to @Damage[2d4[fire]|shortLabel].</p>"
+      "value": "<p>Your drake snorts fire in your foes' faces. Until the start of your next turn, each time you Strike while riding the drake and hit a creature in the drake's reach, the creature takes @Damage[1d4[fire]] damage from the drake. If your drake is nimble or savage, the fire damage increases to @Damage[2d4[fire]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.5VHKIMzKMw3r2BOa]{Effect: Riding Drake Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:riding-drake-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:riding-drake-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:riding-drake"
+      }
+    ],
     "slug": "riding-drake-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.C41lCXjerYjMyOTI",
     "duplicateSource": null

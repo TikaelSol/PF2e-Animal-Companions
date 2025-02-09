@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your umbrella mushroom exudes sense dulling spores when you create an opening. Until the start of your next turn, your Strikes that damage a creature within your umbrella mushroom's reach becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round. This effect has the poison trait.</p>"
+      "value": "<p>Your umbrella mushroom exudes sense dulling spores when you create an opening. Until the start of your next turn, your Strikes that damage a creature within your umbrella mushroom's reach becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round. This effect has the poison trait.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.RjwPBh2CCTUJAa3e]{Effect: Umbrella Mushroom Support Benefit}</p>"
     },
     "rules": [],
     "slug": "umbrella-mushroom-support-benefit",
@@ -51,7 +51,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.XVOVZjvTwaoalpWC",
     "duplicateSource": null

@@ -1,0 +1,103 @@
+{
+  "name": "Effect: Shotalashu Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.ufAZJqCN7ZOBhMSJ]{Shotalashu Support Benefit}</p><p>Each time you hit a creature in the shotalashu's reach with a Strike, the creature takes mental damage from the shotalashu.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              {
+                "not": "parent:origin:item:tag:support-benefit:shotalashu"
+              }
+            ],
+            "value": 1
+          },
+          {
+            "predicate": [
+              "parent:origin:item:tag:support-benefit:shotalashu"
+            ],
+            "value": 2
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "Is companion nimble or savage.",
+        "flag": "shotalashuSupportBenefit"
+      },
+      {
+        "key": "TokenMark",
+        "slug": "shotalashu-support-benefit"
+      },
+      {
+        "key": "Note",
+        "selector": "strike-damage",
+        "text": "Each time you hit a creature in the shotalashu's reach with a Strike, the creature takes @Damage[({item|flags.pf2e.rulesSelections.shotalashuSupportBenefit})d6[mental]] damage from the shotalashu.",
+        "title": "{item|name}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "target:mark:shotalashu-support-benefit"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "TNnBontVMih3LYaC",
+  "img": "icons/magic/symbols/triangle-glow-purple.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.5"
+  },
+  "_key": "!items!TNnBontVMih3LYaC"
+}

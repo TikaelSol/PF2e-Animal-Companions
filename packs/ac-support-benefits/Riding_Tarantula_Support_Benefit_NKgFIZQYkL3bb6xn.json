@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your riding tarantula flicks urticating hairs at your foe, disrupting their focus. Until the start of your next turn, if you hit and deal damage to a creature your riding tarantula threatens, the target must succeed at a @Check[type:flat|dc:5] whenever it takes a concentrate action or that action is lost.</p>"
+      "value": "<p>Your riding tarantula flicks urticating hairs at your foe, disrupting their focus. Until the start of your next turn, if you hit and deal damage to a creature your riding tarantula threatens, the target must succeed at a @Check[type:flat|dc:5] whenever it takes a concentrate action or that action is lost.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.faBOi3CkoeQtQ0Dc]{Effect: Riding Tarantula Support Benefit}</p>"
     },
     "rules": [],
     "slug": "riding-tarantula-support-benefit",
@@ -51,7 +51,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.NKgFIZQYkL3bb6xn",
     "duplicateSource": null

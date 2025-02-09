@@ -1,0 +1,95 @@
+{
+  "name": "Effect: Skeletal Mount Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.CKMQC3zu1XoGjeNd]{Skeletal Mount Support Benefit}</p><p>If you are riding your skeletal mount and move at least 10 feet on the action before your attack, any creature damaged by the attack becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} if the attack was a critical hit.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "skeletal-mount-movement",
+        "toggeable": true
+      },
+      {
+        "key": "Note",
+        "selector": "strike-damage",
+        "text": "Any creature damaged by the attack becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.",
+        "title": "{item|name}",
+        "outcome": [
+          "success"
+        ],
+        "predicate": [
+          "target:mark:skeletal-mount-support-benefit",
+          "skeletal-mount-movement"
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": "strike-damage",
+        "text": "any creature damaged by the attack becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.",
+        "title": "{item|name}",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "skeletal-mount-movement"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "VVpMpJB3hdTNYdNV",
+  "img": "icons/commodities/bones/bones-stack-tan.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.5"
+  },
+  "_key": "!items!VVpMpJB3hdTNYdNV"
+}

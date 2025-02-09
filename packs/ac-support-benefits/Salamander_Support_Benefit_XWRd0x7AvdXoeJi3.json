@@ -7,7 +7,40 @@
       "gm": "",
       "value": "<p>Your salamander secretes a poisonous, viscous fluid from its skin. Until the start of your next turn, if you or your salamander are hit by a creature adjacent to the salamander, that creature takes @Damage[1d6[poison]] damage. This damage increases to @Damage[2d6[poison]|shortLabel] if the salamander is nimble or savage.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:salamander-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:salamander-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:salamander"
+      }
+    ],
     "slug": "salamander-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.XWRd0x7AvdXoeJi3",
     "duplicateSource": null

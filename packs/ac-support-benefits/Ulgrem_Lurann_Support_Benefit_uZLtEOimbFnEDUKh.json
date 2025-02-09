@@ -14,9 +14,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Ulgrem-Lurann grabs at your foe and zaps it. Until the start of your next turn, each time you hit a creature in the Ulgrem-Lurann's reach with a Strike, the creature takes an additional @Damage[1d4[piercing],1d4[electricity]] damage from the Ulgrem-Lurann. If the Ulgrem-Lurann is nimble or savage, the piercing damage and electricity damage each increase to @Damage[2d4[piercing],2d4[electricity]]{2d4}.</p>"
+      "value": "<p>The Ulgrem-Lurann grabs at your foe and zaps it. Until the start of your next turn, each time you hit a creature in the Ulgrem-Lurann's reach with a Strike, the creature takes an additional @Damage[1d4[piercing],1d4[electricity]] damage from the Ulgrem-Lurann. If the Ulgrem-Lurann is nimble or savage, the piercing damage and electricity damage each increase to @Damage[2d4[piercing],2d4[electricity]]{2d4}.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.axG8U0tIGTXhjA6x]{Effect: Ulgrem-Lurann Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:ulgrem-lurann-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:ulgrem-lurann-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:ulgrem-lurann"
+      }
+    ],
     "slug": "ulgrem-lurann-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.uZLtEOimbFnEDUKh",
     "duplicateSource": null

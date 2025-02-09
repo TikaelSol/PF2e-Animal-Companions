@@ -14,9 +14,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>When your shark senses blood, it tears into your enemies. Until the start of your next turn, each time you hit a creature in the shark's reach with a Strike and deal slashing or piercing damage, the creature takes @Damage[1d8[slashing]] damage from the shark. If your shark is nimble or savage, the slashing damage increases to @Damage[2d8[slashing]|shortLabel].</p>"
+      "value": "<p>When your shark senses blood, it tears into your enemies. Until the start of your next turn, each time you hit a creature in the shark's reach with a Strike and deal slashing or piercing damage, the creature takes @Damage[1d8[slashing]] damage from the shark. If your shark is nimble or savage, the slashing damage increases to @Damage[2d8[slashing]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.Lgc3OAVIdK8uN9nM]{Effect: Shark Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:shark-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:shark-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:shark"
+      }
+    ],
     "slug": "shark-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.YsLLV4J7L6fgzTXf",
     "duplicateSource": null
