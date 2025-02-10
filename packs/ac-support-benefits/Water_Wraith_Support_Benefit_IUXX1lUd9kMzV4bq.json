@@ -4,7 +4,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your water wraith hisses and changes colors swiftly in an iridescent clash, overwhelming your foes in an avalanche of shades and hues. Until the start of your next turn, each time you hit a creature within your water wraith's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>"
+      "value": "<p>Your water wraith hisses and changes colors swiftly in an iridescent clash, overwhelming your foes in an avalanche of shades and hues. Until the start of your next turn, each time you hit a creature within your water wraith's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.7WtmY88CPY7lxW3q]{Effect: Water Wraith Support Benefit}</p>"
     },
     "rules": [],
     "slug": "water-wraith-support-benefit",
@@ -48,13 +48,13 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.IUXX1lUd9kMzV4bq",
     "duplicateSource": null
   },
   "folder": null,
-  "sort": 4700000,
+  "sort": 5200000,
   "_id": "IUXX1lUd9kMzV4bq",
   "_key": "!items!IUXX1lUd9kMzV4bq"
 }

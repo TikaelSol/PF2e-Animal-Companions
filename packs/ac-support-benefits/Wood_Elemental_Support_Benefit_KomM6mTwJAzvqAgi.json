@@ -5,10 +5,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your wood elemental entangles your foes with detachable branches and roots. Until the start of your next turn, if you hit with a Strike that deals damage to a creature in your wood elemental's reach, the creature takes a –5-foot circumstance penalty to its Speeds for 1 minute (–10 on a critical success). The creature, or a creature adjacent to it, can use an Interact action to unravel the branches and roots and remove the penalty.</p>"
+      "value": "<p>Your wood elemental entangles your foes with detachable branches and roots. Until the start of your next turn, if you hit with a Strike that deals damage to a creature in your wood elemental's reach, the creature takes a –5-foot circumstance penalty to its Speeds for 1 minute (–10 on a critical success). The creature, or a creature adjacent to it, can use an Interact action to unravel the branches and roots and remove the penalty.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.yw1K63aPTWRj76Nn]{Effect: Wood Elemental Support Benefit}</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "wood-elemental-support-benefit",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -40,14 +40,14 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.KomM6mTwJAzvqAgi",
     "duplicateSource": null
   },
   "_id": "KomM6mTwJAzvqAgi",
   "folder": null,
-  "sort": 1300000,
+  "sort": 1800000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

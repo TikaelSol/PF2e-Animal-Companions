@@ -1,0 +1,92 @@
+{
+  "name": "Effect: Wolf Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU]{Wolf Support Benefit}</p><p>Your Strikes that damage creatures your wolf threatens give the target a –5-foot status penalty to its Speeds (–10 on a critical success).</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenMark",
+        "slug": "wolf-support-benefit"
+      },
+      {
+        "key": "Note",
+        "selector": "strike-damage",
+        "text": "Your Strikes that damage creatures your wolf threatens give the target a –5-foot status penalty to its Speeds. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.UhWenwf5XOlk9ZHY]{Effect: Wolf Support Benefit (-5-foot penalty)}",
+        "title": "{item|name}",
+        "outcome": [
+          "success"
+        ],
+        "predicate": [
+          "target:mark:wolf-support-benefit"
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": "strike-damage",
+        "text": "Your Strikes that damage creatures your wolf threatens give the target a –10-foot status penalty to its Speeds. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.6x4zqyWl3pQiE9lw]{Effect: Wolf Support Benefit (-10-foot penalty)}",
+        "title": "{item|name}",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "target:mark:wolf-support-benefit"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "zDFmtmfZfAvIVF93",
+  "img": "icons/creatures/mammals/wolf-howl-moon-black.webp",
+  "folder": null,
+  "sort": 6100000,
+  "ownership": {
+    "default": 0,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!items!zDFmtmfZfAvIVF93"
+}

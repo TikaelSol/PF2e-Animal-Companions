@@ -5,10 +5,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your water elemental waterlogs a foe. The first time before the start of your next turn you hit with a Strike that deals damage to a creature within your water elemental's reach, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p>"
+      "value": "<p>Your water elemental waterlogs a foe. The first time before the start of your next turn you hit with a Strike that deals damage to a creature within your water elemental's reach, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.DB0mJPinz35BgBS1]{Effect: Water Elemental Support Benefit}</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "water-elemental-support-benefit",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -40,14 +40,14 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.BFvS1wnFxgUqgX8m",
     "duplicateSource": null
   },
   "_id": "BFvS1wnFxgUqgX8m",
   "folder": null,
-  "sort": 1100000,
+  "sort": 1600000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3
