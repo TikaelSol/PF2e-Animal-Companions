@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 7600000,
+  "sort": 8100000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.zE01vpjowhoKygig"
@@ -14,9 +14,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The zombie emits an aura of rot, causing wounds to fester. Until the start of your next turn, each time you hit and deal damage to a creature that's within 10 feet of the zombie carrion bird, the creature takes an additional @Damage[1d6[untyped]] damage as the wound festers. If your carrion bird is nimble or savage, the damage increases to @Damage[2d6[untyped]]. This is a disease and necromancy effect.</p>"
+      "value": "<p>The zombie emits an aura of rot, causing wounds to fester. Until the start of your next turn, each time you hit and deal damage to a creature that's within 10 feet of the zombie carrion bird, the creature takes an additional @Damage[1d6[untyped]] damage as the wound festers. If your carrion bird is nimble or savage, the damage increases to @Damage[2d6[untyped]]. This is a disease and necromancy effect.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.FoDGPqWjs8QRR3qv]{Effect: Zombie Carrion Bird Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:zombie-carrion-bird-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:zombie-carrion-bird-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:zombie-carrion-bird"
+      }
+    ],
     "slug": "zombie-carrion-bird-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -53,7 +86,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.zE01vpjowhoKygig",
     "duplicateSource": null

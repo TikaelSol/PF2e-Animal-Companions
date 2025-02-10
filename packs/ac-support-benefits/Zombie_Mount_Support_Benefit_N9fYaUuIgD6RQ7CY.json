@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 4800000,
+  "sort": 5300000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.N9fYaUuIgD6RQ7CY"
@@ -14,9 +14,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your zombie mount chews on your enemies. Until the start of your next turn, each time you Strike while riding the zombie mount and hit a creature in the zombie mount's reach, the creature takes @Damage[1d4[bludgeoning]] damage from the zombie mount. If your zombie mount is nimble or savage, the bludgeoning damage increases to @Damage[2d4[bludgeoning]|shortLabel]. This benefit is based on a zombie horse or camel, but might deal piercing damage if your mount has sharp teeth.</p>"
+      "value": "<p>Your zombie mount chews on your enemies. Until the start of your next turn, each time you Strike while riding the zombie mount and hit a creature in the zombie mount's reach, the creature takes @Damage[1d4[bludgeoning]] damage from the zombie mount. If your zombie mount is nimble or savage, the bludgeoning damage increases to @Damage[2d4[bludgeoning]|shortLabel]. This benefit is based on a zombie horse or camel, but might deal piercing damage if your mount has sharp teeth.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.3sRHNnPMUY2f4SF3]{Effect: Zombie Mount Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:zombie-mount-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:zombie-mount-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:zombie-mount-support"
+      }
+    ],
     "slug": "zombie-mount-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -51,7 +84,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.N9fYaUuIgD6RQ7CY",
     "duplicateSource": null

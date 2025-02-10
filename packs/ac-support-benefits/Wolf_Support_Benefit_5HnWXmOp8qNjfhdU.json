@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 3400000,
+  "sort": 3900000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU"
@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your wolf tears tendons with each opening. Until the start of your next turn, your Strikes that damage creatures your wolf threatens give the target a –5-foot status penalty to its Speeds for 1 minute (–10 on a critical success).</p>"
+      "value": "<p>Your wolf tears tendons with each opening. Until the start of your next turn, your Strikes that damage creatures your wolf threatens give the target a –5-foot status penalty to its Speeds for 1 minute (–10 on a critical success).</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.zDFmtmfZfAvIVF93]{Effect: Wolf Support Benefit}</p>"
     },
     "rules": [],
     "slug": "wolf-support-benefit",
@@ -51,7 +51,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU",
     "duplicateSource": null

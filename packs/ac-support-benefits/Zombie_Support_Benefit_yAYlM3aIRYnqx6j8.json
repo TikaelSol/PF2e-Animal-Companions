@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 7400000,
+  "sort": 7900000,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.yAYlM3aIRYnqx6j8"
@@ -14,9 +14,42 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The zombie emits an aura of rot, causing wounds to fester. Until the start of your next turn, each time you hit a creature that's within 10 feet of the zombie and you deal damage, the creature takes an additional @Damage[1d6[untyped]] damage as the wound festers. If your zombie is nimble or savage, the damage increases to @Damage[2d6[untyped]|shortLabel]. This is a disease and necromancy effect.</p>"
+      "value": "<p>The zombie emits an aura of rot, causing wounds to fester. Until the start of your next turn, each time you hit a creature that's within 10 feet of the zombie and you deal damage, the creature takes an additional @Damage[1d6[untyped]] damage as the wound festers. If your zombie is nimble or savage, the damage increases to @Damage[2d6[untyped]|shortLabel]. This is a disease and necromancy effect.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.vtArjXfpSGTKbmL9]{Effect: Zombie Support Benefit}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:zombie-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:zombie-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:zombie"
+      }
+    ],
     "slug": "zombie-support-benefit",
     "_migration": {
       "version": 0.935,
@@ -53,7 +86,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.yAYlM3aIRYnqx6j8",
     "duplicateSource": null
