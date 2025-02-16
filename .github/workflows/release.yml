@@ -37,7 +37,9 @@ jobs:
           download: https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/module.zip
 
       - name: Build
-        run: npm run build
+        run: | 
+          npm ci
+          npm run build
 
       # Create a folder containing all the module stuff and zip it for the release
       - name: Create Zip
