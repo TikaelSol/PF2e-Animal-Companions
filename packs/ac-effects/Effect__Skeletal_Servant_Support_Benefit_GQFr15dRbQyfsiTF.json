@@ -22,7 +22,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:skeletal-constrictor-support-benefit"
+          "target:mark:skeletal-servant-support-benefit"
         ]
       }
     ],
@@ -75,7 +75,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "6.9.0"
   },
   "_key": "!items!GQFr15dRbQyfsiTF"
 }

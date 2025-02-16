@@ -1,28 +1,28 @@
 {
-  "name": "Effect: Umbrella Mushroom Support Benefit",
+  "name": "Effect: Water Elemental Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.XVOVZjvTwaoalpWC]{Umbrella Mushroom Support Benefit}</p><p>Your Strikes that damage a creature within your umbrella mushroom's reach becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. This effect has the poison trait.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.BFvS1wnFxgUqgX8m]{Water Elemental Support Benefit}</p><p>When you hit with a Strike that deals damage to a creature within your water elemental's reach, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p>"
     },
     "rules": [
       {
         "key": "TokenMark",
-        "slug": "umbrella-mushroom-support-benefit"
+        "slug": "water-elemental-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage a creature within your umbrella mushroom's reach becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. This effect has the poison trait.",
+        "text": "Your  Strike that deals damage to a creature within your water elemental's reach, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:umbrella-mushroom-support-benefit"
+          "target:mark:water-elemental-support-benefit"
         ]
       }
     ],
@@ -45,9 +45,9 @@
       "value": 1
     },
     "duration": {
-      "value": -1,
-      "unit": "unlimited",
-      "expiry": null,
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
       "sustained": false
     },
     "start": {
@@ -61,10 +61,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "RjwPBh2CCTUJAa3e",
-  "img": "icons/magic/acid/projectile-faceted-glob.webp",
+  "_id": "DB0mJPinz35BgBS1",
+  "img": "icons/magic/water/wave-water-explosion.webp",
   "folder": null,
-  "sort": 0,
+  "sort": 5800000,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -77,5 +77,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.9.0"
   },
-  "_key": "!items!RjwPBh2CCTUJAa3e"
+  "_key": "!items!DB0mJPinz35BgBS1"
 }

@@ -1,28 +1,28 @@
 {
-  "name": "Effect: Umbrella Mushroom Support Benefit",
+  "name": "Effect: Water Wraith Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.XVOVZjvTwaoalpWC]{Umbrella Mushroom Support Benefit}</p><p>Your Strikes that damage a creature within your umbrella mushroom's reach becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. This effect has the poison trait.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.IUXX1lUd9kMzV4bq]{Water Wraith Support Benefit}</p><p>Each time you hit a creature within your water wraith's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p>"
     },
     "rules": [
       {
         "key": "TokenMark",
-        "slug": "umbrella-mushroom-support-benefit"
+        "slug": "water-wraith-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage a creature within your umbrella mushroom's reach becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. This effect has the poison trait.",
+        "text": "Each time you hit a creature within your water wraith's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:umbrella-mushroom-support-benefit"
+          "target:mark:water-wraith-support-benefit"
         ]
       }
     ],
@@ -45,9 +45,9 @@
       "value": 1
     },
     "duration": {
-      "value": -1,
-      "unit": "unlimited",
-      "expiry": null,
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
       "sustained": false
     },
     "start": {
@@ -61,10 +61,10 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "RjwPBh2CCTUJAa3e",
-  "img": "icons/magic/acid/projectile-faceted-glob.webp",
+  "_id": "7WtmY88CPY7lxW3q",
+  "img": "icons/magic/water/projectile-water-rings.webp",
   "folder": null,
-  "sort": 0,
+  "sort": 5900000,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -77,5 +77,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.9.0"
   },
-  "_key": "!items!RjwPBh2CCTUJAa3e"
+  "_key": "!items!7WtmY88CPY7lxW3q"
 }
