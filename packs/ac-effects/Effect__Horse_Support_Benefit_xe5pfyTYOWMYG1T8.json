@@ -5,11 +5,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2]{Horse Support Benefit}</p><p>If you're mounted on your horse and moved 10 feet or more on the action before a melee Strike, you gain a circumstance bonus to damage for a Strike equal to twice the number of weapon damage dice. If your weapon already has the jousting weapon trait, increase the trait's damage bonus by 2 per die instead.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2]{Horse Support Benefit}</p><p>If you're mounted on your horse and moved 10 feet or more on the action before a melee Strike, you gain a circumstance bonus to damage for a Strike equal to twice the number of weapon damage dice.</p>"
     },
     "rules": [
       {
-        "domain": "all",
         "key": "RollOption",
         "option": "horse-damage-boost",
         "toggleable": true
@@ -22,24 +21,11 @@
             "not": "item:trait:jousting"
           }
         ],
-        "slug": "not-jousting-hippogriff-boost",
+        "slug": "not-jousting-horse-boost",
         "selector": [
           "strike-damage"
         ],
         "value": "2*@weapon.system.damage.dice"
-      },
-      {
-        "selectors": [
-          "strike-damage"
-        ],
-        "key": "DamageAlteration",
-        "mode": "override",
-        "property": "dice-number",
-        "value": "2*@weapon.system.damage.dice",
-        "predicate": [
-          "horse-damage-boost",
-          "item:trait:jousting"
-        ]
       }
     ],
     "slug": null,
