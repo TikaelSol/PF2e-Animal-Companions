@@ -4,6 +4,14 @@
   "description": "Compendia containing everything you need to support PF2e companions",
   "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
   "version": "7.0.3",
+  "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json",
+            "flags": {}
+        }
+    ],
   "packs": [
     {
       "label": "Animal Companion Ancestries",
