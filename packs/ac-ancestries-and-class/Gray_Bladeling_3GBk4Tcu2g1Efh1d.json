@@ -106,7 +106,7 @@
       "remaster": true
     },
     "hp": 10,
-    "size": "med",
+    "size": "sm",
     "reach": 5,
     "speed": 20,
     "boosts": {
