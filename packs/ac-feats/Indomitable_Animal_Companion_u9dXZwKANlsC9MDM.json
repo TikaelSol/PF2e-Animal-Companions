@@ -7,15 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.u9dXZwKANlsC9MDM"
-    },
-    "exportSource": {
-      "world": "ac",
-      "system": "pf2e",
-      "coreVersion": "0.8.8",
-      "systemVersion": "2.6.0.6437"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -23,6 +15,11 @@
       "value": "<p>An indomitable companion increases its Constitution modifier by 2 and its Strength, Dexterity, and Wisdom modifiers by 1. It deals 3 additional damage with its unarmed attacks. Increase its proficiency rank in Athletics to expert and its proficiency rank in barding to expert. It also learns the advanced maneuver for its type. If your companion is Medium or smaller, it grows in size by one category. Its attacks count as magical for the purpose of ignoring resistances.</p>"
     },
     "rules": [
+      {
+        "key": "CreatureSize",
+        "value": 1,
+        "maximumSize": "lg"
+      },
       {
         "key": "ActiveEffectLike",
         "value": 1,
@@ -49,43 +46,29 @@
       },
       {
         "key": "ActiveEffectLike",
-        "value": 3,
+        "value": 2,
         "mode": "upgrade",
-        "path": "flags.pf2e.additionalDamage",
-        "priority": 49
-      },
-      {
-        "key": "CreatureSize",
-        "value": 1,
-        "maximumSize": "lg"
-      },
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "self:indomitable",
-        "priority": 1
+        "path": "system.skills.athletics.rank"
       },
       {
         "key": "FlatModifier",
-        "selector": "strike-damage",
-        "value": "@actor.flags.pf2e.additionalDamage"
+        "selector": "unarmed-damage",
+        "value": 3,
+        "slug": "companion-additional-damage"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "magical",
+        "predicate": [
+          "item:category:unarmed"
+        ],
+        "itemType": "weapon"
       },
       {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "mode": "upgrade",
-        "path": "system.proficiencies.defenses.light.rank",
-        "priority": 41,
-        "value": 2
-      },
-      {
-        "key": "AdjustStrike",
-        "mode": "add",
-        "property": "weapon-traits",
-        "value": "magical"
       }
     ],
     "slug": "indomitable-animal-companion",
@@ -127,6 +110,16 @@
     "location": null,
     "rarity": {
       "value": "common"
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "light-barding": {
+          "rank": 2
+        },
+        "heavy-barding": {
+          "rank": 2
+        }
+      }
     }
   },
   "ownership": {
@@ -135,10 +128,17 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.1.1",
+    "coreVersion": "13.345",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.u9dXZwKANlsC9MDM",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "pf2e",
+      "systemVersion": "2.6.0.6437"
+    }
   },
   "_key": "!items!u9dXZwKANlsC9MDM"
 }
