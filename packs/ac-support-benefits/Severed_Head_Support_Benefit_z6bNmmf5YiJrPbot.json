@@ -1,0 +1,53 @@
+{
+  "name": "Severed Head Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.939,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The head latches on to your enemy with its jaws when you create an opening, distracting them and hampering their movement. The next creature within range of your severed head that you successfully Strike before the start of your next turn takes a –5-foot status penalty to its Speeds and must succeed at a @Check[flat|dc:5] to use reactions triggered by your actions until the start of your next turn. On a failure, the reaction is lost.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.IReZWo5PdAe4F9IH]{Effect: Severed Head Support Benefit}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Shining Kingdoms",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.1.1"
+  },
+  "_id": "z6bNmmf5YiJrPbot",
+  "sort": 0,
+  "_key": "!items!z6bNmmf5YiJrPbot"
+}

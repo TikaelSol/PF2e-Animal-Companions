@@ -1,0 +1,105 @@
+{
+  "name": "Effect: Keulia Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.939,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.IsdduEnR9bFi2vDS]{Keulia Support Benefit}</p><p>Your Strikes that damage a creature in your Keulia's reach also deal bludgeoning damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Shining Kingdoms",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              {
+                "not": "parent:origin:item:tag:support-benefit:keulia"
+              }
+            ],
+            "value": 1
+          },
+          {
+            "predicate": [
+              "parent:origin:item:tag:support-benefit:keulia"
+            ],
+            "value": 2
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "COMP.Prompt.IsSpecialized",
+        "flag": "keuliaSupportBenefit"
+      },
+      {
+        "key": "TokenMark",
+        "slug": "keulia-support-benefit"
+      },
+      {
+        "key": "Note",
+        "selector": "strike-damage",
+        "text": "COMP.SpecificRule.Keulia.EffectNote",
+        "title": "{item|name}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "target:mark:keulia-support-benefit"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.1.1"
+  },
+  "_id": "rscC2NYGHUs3PQUV",
+  "sort": 200000,
+  "_key": "!items!rscC2NYGHUs3PQUV"
+}
