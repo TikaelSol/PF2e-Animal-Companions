@@ -1,0 +1,53 @@
+{
+  "name": "Gnash",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.939,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> The severed head's last action was a successful jaws Strike. </p><hr /><p>Your severed head violently shakes itself back and forth, trying to tear away a mouthful of flesh. It makes another jaws Strike against the same target. If the Strike hits, it deals @Damage[1d6[persistent,bleed]] damage in addition to its usual damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.1.1"
+  },
+  "_id": "iG4YOq70Qs7EtnPN",
+  "sort": 0,
+  "_key": "!items!iG4YOq70Qs7EtnPN"
+}

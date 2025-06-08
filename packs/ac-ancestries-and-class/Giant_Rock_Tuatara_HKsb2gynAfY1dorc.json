@@ -1,0 +1,172 @@
+{
+  "name": "Giant Rock Tuatara",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is a much larger cousin of the common rock tuatara, up to 6 feet long and 4 feet tall. Their milky-white third eye, spiny backs, and knobby club tails make them look far fiercer than they typically are.</p><p><strong>Size</strong> Medium</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> tail slam, <strong>Damage</strong> 1d8 bludgeoning</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> bite, <strong>Damage</strong> 1d6 piercing</p><p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Intimidation</p><p><strong>Senses</strong> darkvision, scent (imprecise, 30 feet)</p><p><strong>Speed </strong>25 feet</p><p><strong>Support Benefit </strong>Your giant rock tuatara trips up your enemies when you create an opening. Until the start of your next turn, your Strikes that deal damage to a creature within your giant rock tuatara's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p><strong>Advanced Maneuver </strong>Tail Escape</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.intimidation.rank"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "COMP.UnarmedAttacks.TailSlam",
+        "predicate": [
+          "tail-escape"
+        ],
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "icons/creatures/abilities/tail-swipe-green.webp"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "COMP.UnarmedAttacks.Bite",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp"
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "scent"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.939,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 8,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision"
+  },
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.1.1"
+  },
+  "_id": "HKsb2gynAfY1dorc",
+  "sort": 1200000,
+  "_key": "!items!HKsb2gynAfY1dorc"
+}
