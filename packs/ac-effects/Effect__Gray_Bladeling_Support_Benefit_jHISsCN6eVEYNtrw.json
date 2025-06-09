@@ -27,18 +27,24 @@
                 "not": "parent:origin:item:tag:support-benefit:gray-bladeling"
               }
             ],
-            "value": 4
+            "value": "1d4"
           },
           {
             "predicate": [
               "parent:origin:item:tag:support-benefit:gray-bladeling"
             ],
-            "value": 8
+            "value": "1d8"
           }
         ],
         "key": "ChoiceSet",
         "prompt": "COMP.Prompt.IsSpecialized",
         "flag": "grayBladelingSupportBenefit"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.grayBladelingSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.grayBladelingSupportBenefit}"
       },
       {
         "key": "TokenMark",

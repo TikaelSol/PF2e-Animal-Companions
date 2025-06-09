@@ -41,6 +41,12 @@
         "flag": "keuliaSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.keuliaSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.keuliaSupportBenefit}"
+      },
+      {
         "key": "TokenMark",
         "slug": "keulia-support-benefit"
       },
