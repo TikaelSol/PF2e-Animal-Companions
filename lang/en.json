@@ -19,12 +19,12 @@
             },
             "GrayBladeling": {
                 "EffectNote": {
-                    "Bleeding": "Your Strikes that damage a creature in your gray bladeling's reach also deal @Damage[(1d{item|flags.pf2e.rulesSelections.grayBladelingSupportBenefit})[persistent,bleed]] damage.",
+                    "Bleeding": "Your Strikes that damage a creature in your gray bladeling's reach also deal @Damage[(@actor.flags.pf2e.animalCompanion.grayBladelingSupportBenefit)[persistent,bleed]] damage.",
                     "Frightened": "Target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}"
                 }
             },
             "Keulia": {
-                "EffectNote": "Your Strikes that damage a creature in your keulia's reach also deal @Damage[({item|flags.pf2e.rulesSelections.keuliaSupportBenefit})d6[bludgeoning]] damage."
+                "EffectNote": "Your Strikes that damage a creature in your keulia's reach also deal @Damage[(@actor.flags.pf2e.animalCompanion.keuliaSupportBenefit)d6[bludgeoning]] damage."
             },
             "SeveredHead": {
                 "EffectNote": {
