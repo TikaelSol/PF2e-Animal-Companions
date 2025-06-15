@@ -15,7 +15,7 @@
       {
         "key": "Note",
         "selector": "athletics",
-        "text": "Your target moves 10 feet.",
+        "text": "COMP.SpecificRule.Giraffe.EffectNote.Success",
         "title": "{item|name}",
         "outcome": [
           "success"
@@ -28,7 +28,7 @@
       {
         "key": "Note",
         "selector": "athletics",
-        "text": "Your target moves 15 feet.",
+        "text": "COMP.SpecificRule.Giraffe.EffectNote.CriticalSuccess",
         "title": "{item|name}",
         "outcome": [
           "criticalSuccess"
@@ -86,9 +86,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "6.8.4"
+    "systemVersion": "7.2.0",
+    "exportSource": null
   },
   "_key": "!items!swq8Klr2ePG9rVJS"
 }

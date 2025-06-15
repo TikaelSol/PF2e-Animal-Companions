@@ -17,7 +17,25 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "rolling-charge",
+        "toggleable": true
+      },
+      {
+        "key": "Note",
+        "selector": "slam-damage",
+        "text": "COMP.SpecificRule.CragstoneBear.RollingCharge.Note",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "title": "{item|name}",
+        "predicate": [
+          "rolling-charge"
+        ]
+      }
+    ],
     "slug": null,
     "traits": {
       "otherTags": [],
@@ -45,7 +63,7 @@
     "exportSource": null,
     "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.2.0"
   },
   "_id": "t78nd4y8L1G6yGTs",
   "sort": 0,

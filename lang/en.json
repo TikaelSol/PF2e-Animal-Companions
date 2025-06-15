@@ -4,6 +4,12 @@
             "IsSpecialized": "Is companion nimble or savage?"
         },
         "SpecificRule": {
+            "Antelope": {
+                "EffectNote": "Your Strikes that damage a creature in your antelope's reach also deal @Damage[(@actor.flags.pf2e.animalCompanion.antelopeSupportBenefit)d6[persistent,bleed]] damage."
+            },
+            "Ape": {
+                "EffectNote": "If you hit and deal damage to a creature in your ape's reach, the creature becomes @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}."
+            },
             "Bacallia": {
                 "AdvancedManeuver": {
                     "CriticalSuccess": "The target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}",
@@ -11,11 +17,52 @@
                 },
                 "EffectNote": "Strikes that deal damage a creature in your bacallia's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the end of your next turn."
             },
+            "Bear": {
+                "EffectNote": "The target takes @Damage[(@actor.flags.pf2e.animalCompanion.bearSupportBenefit)d8[slashing]] from the bear"
+            },
+            "Beetle": {
+                "EffectNote": "Your Strikes that deal damage either make the target @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} until the end of your next turn or move the target 5 feet away from the beetle (this is forced movement). The target chooses which effect occurs."
+            },
+            "Bird": {
+                "EffectNote": "Your Strikes that damage a creature that your bird threatens also deal @Damage[(@actor.flags.pf2e.animalCompanion.birdSupportBenefit)d4[bleed]] damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the bleed damage."
+            },
+            "Boar": {
+                "EffectNote": "Your Strikes that damage a creature in your boar's reach also deal @Damage[(@actor.flags.pf2e.animalCompanion.boarSupportBenefit)d6[persistent,bleed]] damage."
+            },
+            "Cat": {
+                "EffectNote": "Your Strikes that deal damage to a creature within your cat's reach make the target @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard}."
+            },
             "CragstoneBear": {
-                "RollingCharge": "The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}."
+                "RollingCharge": {
+                    "Note": "The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}."
+                }
+            },
+            "Elephant": {
+                "EffectNote": "Targets within your elephant's reach that you hit and deal damage take a –4 status penalty to purely auditory Perception checks. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.3EGbKKD73gGbSWIa]{Effect: Elephant Support Benefit (Penalty)}"
+            },
+            "Elk": {
+                "EffectNote": "If you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
+            },
+            "FireElemental": {
+                "EffectNote": "Your Strikes that damage a creature  in your fire elemental's reach also deal @Damage[(actor.flags.pf2e.animalCompanion.fireElementalSupportBenefit)d6[persistent,fire]] damage."
+            },
+            "FlyingSquirrel": {
+                "EffectNote": "If your Strike damages a creature in your giant flying squirrel's reach, that creature takes a –10-foot circumstance penalty to its Speeds. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.lACoOtINmUb1fTMY]{Effect: Flying Squirrel Support Benefit (Penalty)}"
+            },
+            "Ghost": {
+                "EffectNote": "If you hit and deal damage to a creature in your ghost's reach, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
             },
             "GiantRockTuatara": {
                 "EffectNote": "Strikes that deal damage a creature in your giant rock tuatara's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn."
+            },
+            "GiantWasp": {
+                "EffectNote": "If you hit and deal damage to a creature within your giant wasp's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
+            },
+            "Giraffe": {
+                "EffectNote": {
+                    "CriticalSuccess": "Your target moves 15 feet.",
+                    "Success": "Your target moves 10 feet."
+                }
             },
             "GrayBladeling": {
                 "EffectNote": {
@@ -23,8 +70,22 @@
                     "Frightened": "Target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}"
                 }
             },
+            "HermitKrait": {
+                "DefensiveCurl": {
+                    "DamageNote": "You take @Damage[2d6[persistent,poison]] damage."
+                },
+                "EffectNote": "Your Strikes that damage a creature in your hermit krait's reach also deal @Damage[(@actor.flags.pf2e.animalCompanion.hermitKraitSupportBenefit)d6[persistent,poison]] damage."
+            },
+            "Hyena": {
+                "EffectNote": "When you hit a creature in the hyena's reach with a Strike, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
+            },
             "Keulia": {
                 "EffectNote": "Your Strikes that damage a creature in your keulia's reach also deal @Damage[(@actor.flags.pf2e.animalCompanion.keuliaSupportBenefit)d6[bludgeoning]] damage."
+            },
+            "Pangolin": {
+                "DefensiveCurl": {
+                    "DamageNote": "You take @Damage[2d6[bleed]] damage."
+                }
             },
             "SeveredHead": {
                 "EffectNote": {

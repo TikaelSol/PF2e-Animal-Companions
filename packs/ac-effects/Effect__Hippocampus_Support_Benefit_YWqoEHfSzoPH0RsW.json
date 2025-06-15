@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.t1KMf7rDzJJ2vWhe]{Hippocampus Support Benefit}</p><p>If you're mounted on your hippocampus and moved 10 feet or more on the action before a melee Strike, you gain a circumstance bonus to damage for a Strike equal to twice the number of weapon damage dice. If your weapon already has the jousting weapon trait, increase the trait's damage bonus by 2 per die instead.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.t1KMf7rDzJJ2vWhe]{Hippocampus Support Benefit}</p><p>If you're mounted on your hippocampus and moved 10 feet or more on the action before a melee Strike, you gain a circumstance bonus to damage for a Strike equal to twice the number of weapon damage dice.</p>"
     },
     "rules": [
       {
@@ -27,19 +27,6 @@
           "strike-damage"
         ],
         "value": "2*@weapon.system.damage.dice"
-      },
-      {
-        "selectors": [
-          "strike-damage"
-        ],
-        "key": "DamageAlteration",
-        "mode": "override",
-        "property": "dice-number",
-        "value": "2*@weapon.system.damage.dice",
-        "predicate": [
-          "hippocampus-damage-boost",
-          "item:trait:jousting"
-        ]
       }
     ],
     "slug": "effect-hippocampus-support-benefit",
@@ -89,9 +76,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.2.0",
+    "exportSource": null
   },
   "_key": "!items!YWqoEHfSzoPH0RsW"
 }
