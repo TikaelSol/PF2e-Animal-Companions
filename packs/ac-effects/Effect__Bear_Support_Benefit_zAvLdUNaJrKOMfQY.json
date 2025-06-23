@@ -31,13 +31,19 @@
         "flag": "bearSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.bearSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.bearSupportBenefit}"
+      },
+      {
         "key": "TokenMark",
         "slug": "bear-support-benefit"
       },
       {
         "key": "Note",
         "selector": "attack-roll",
-        "text": "The target takes @Damage[({item|flags.pf2e.rulesSelections.bearSupportBenefit})d8[slashing]] from the bear",
+        "text": "COMP.SpecificRule.Bear.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -95,9 +101,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "6.8.1"
+    "systemVersion": "7.2.0",
+    "exportSource": null
   },
   "_key": "!items!zAvLdUNaJrKOMfQY"
 }

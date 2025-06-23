@@ -15,7 +15,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Targets within your elephant's reach that you hit and deal damage take a –4 status penalty to purely auditory Perception checks. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.3EGbKKD73gGbSWIa]{Effect: Elephant Support Benefit (Penalty)}",
+        "text": "COMP.SpecificRule.Elephant.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -73,9 +73,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "6.8.4"
+    "systemVersion": "7.2.0",
+    "exportSource": null
   },
   "_key": "!items!yTWDjFno6nKETfXY"
 }

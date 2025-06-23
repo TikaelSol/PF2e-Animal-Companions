@@ -20,7 +20,7 @@
       {
         "key": "Note",
         "selector": "damage-received",
-        "text": "You take @Damage[2d6[bleed]] damage.",
+        "text": "COMP.SpecificRule.Pangolin.DefensiveCurl.DamageNote",
         "predicate": [
           {
             "or": [
@@ -76,9 +76,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "6.8.1"
+    "systemVersion": "7.2.0",
+    "exportSource": null
   },
   "_id": "PaL4Sz1bVcjxCGU3",
   "sort": 300000,
