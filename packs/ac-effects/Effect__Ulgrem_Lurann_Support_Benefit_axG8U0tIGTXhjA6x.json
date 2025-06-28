@@ -37,7 +37,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Each time you hit a creature in the Ulgrem-Lurann's reach with a Strike, the creature takes additional @Damage[({item|flags.pf2e.rulesSelections.ulgremLurannSupportBenefit})d4[piercing]] and @Damage[({item|flags.pf2e.rulesSelections.ulgremLurannSupportBenefit})d4[electricity]]  damage from the Ulgrem-Lurann.",
+        "text": "COMP.SpecificRule.UlgremLurann.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -95,9 +95,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!axG8U0tIGTXhjA6x"
 }

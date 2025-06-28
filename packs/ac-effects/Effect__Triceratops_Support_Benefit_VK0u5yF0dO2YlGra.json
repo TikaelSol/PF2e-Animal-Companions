@@ -31,13 +31,19 @@
         "flag": "triceratopsSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.triceratopsSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.triceratopsSupportBenefit}"
+      },
+      {
         "key": "TokenMark",
         "slug": "triceratops-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage a prone creature in your triceratops's reach also deal  @Damage[({item|flags.pf2e.rulesSelections.triceratopsSupportBenefit})d8[persistent,bleed]] damage.",
+        "text": "COMP.SpecificRule.Triceratops.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -96,9 +102,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!VK0u5yF0dO2YlGra"
 }

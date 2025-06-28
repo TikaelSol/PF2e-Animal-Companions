@@ -31,13 +31,19 @@
         "flag": "scorpionSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.scorpionSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.scorpionSupportBenefit}"
+      },
+      {
         "key": "TokenMark",
         "slug": "scorpion-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage a creature in your scorpion's reach also deal @Damage[({item|flags.pf2e.rulesSelections.scorpionSupportBenefit})d6[persistent,poison]] damage.",
+        "text": "COMP.SpecificRule.Scorpion.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -95,9 +101,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!YNclyD1YN0eGiOix"
 }

@@ -31,6 +31,12 @@
         "flag": "ridingDrakeSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.ridingDrakeSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.ridingDrakeSupportBenefit}"
+      },
+      {
         "domain": "all",
         "key": "RollOption",
         "option": "riding-the-drake",
@@ -40,7 +46,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Each time you Strike while riding the drake and hit a creature in the drake's reach, the creature takes @Damage[({item|flags.pf2e.rulesSelections.ridingDrakeSupportBenefit})d4[fire]] damage from the drake.",
+        "text": "COMP.SpecificRule.RidingDrake.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -98,9 +104,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!5VHKIMzKMw3r2BOa"
 }

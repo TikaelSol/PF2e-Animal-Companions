@@ -31,13 +31,19 @@
         "flag": "zombieCarrionBirdSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.zombieCarrionBirdSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.zombieCarrionBirdSupportBenefit}"
+      },
+      {
         "key": "TokenMark",
         "slug": "zombie-carrion-bird-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Each time you hit and deal damage to a creature that's within 10 feet of the zombie carrion bird, the creature takes an additional @Damage[({item|flags.pf2e.rulesSelections.zombieCarrionBirdSupportBenefit})d6[untyped]] damage.",
+        "text": "COMP.SpecificRule.ZombieCarrionBird.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -95,9 +101,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!FoDGPqWjs8QRR3qv"
 }

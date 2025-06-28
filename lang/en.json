@@ -1,7 +1,7 @@
 {
     "COMP": {
         "Prompt": {
-            "IsSpecialized": "Is companion nimble or savage?"
+            "IsSpecialized": "Is the companion specialized?"
         },
         "SpecificRule": {
             "Antelope": {
@@ -53,7 +53,10 @@
                 "EffectNote": "If you hit and deal damage to a creature in your ghost's reach, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
             },
             "GiantRockTuatara": {
-                "EffectNote": "Strikes that deal damage a creature in your giant rock tuatara's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn."
+                "EffectNote": "Strikes that deal damage to a creature in your giant rock tuatara's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn."
+            },
+            "GiantWasp": {
+                "EffectNote": " if you hit and deal damage to a creature in your giant wasp's reach, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
             },
             "GiantWasp": {
                 "EffectNote": "If you hit and deal damage to a creature within your giant wasp's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
@@ -82,6 +85,42 @@
             "Keulia": {
                 "EffectNote": "Your Strikes that damage a creature in your keulia's reach also deal @Damage[(@actor.flags.pf2e.animalCompanion.keuliaSupportBenefit)d6[bludgeoning]] damage."
             },
+            "MetalElemental": {
+                "EffectNote": "Your Strikes that damage a creature in your metal elemental's reach also deal @Damage[(@actor.flags.pf2e.animalCompanion.metalElementalSupportBenefit)d6[persistent,bleed]] damage.",
+                "SpikedBunker": {
+                    "DamageNote": "You take @Damage[(@actor.flags.pf2e.rulesSelections.isSpecialized)d6[piercing]] damage."
+                }
+            },
+            "Mole": {
+                "EffectNote": "If you hit and damage a creature adjacent to your mole, that creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until it moves from its current position."
+            },
+            "MonitorLizard": {
+                "EffectNote": "If your Strike damages a foe, any time the foe attempts an action with the manipulate trait until the end of your next turn, it must attempt a DC 5 Flat Check. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.eXABjTK48R1xCvOZ]{Effect: Monitor Lizard Support Benefit (Penalty)}"
+            },
+            "Moth": {
+                "EffectNote": "If you damage a Concealed or Hidden creature in your moth's reach with a Strike, that creature requires only a DC 3 Flat Check to target it if it's concealed, or DC 9 Flat Check if it's hidden. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.Db0Vtobv3v4Iybj5]{Effect: Moth Support Benefit (Penalty)}"
+            },
+            "Pangolin": {
+                "DefensiveCurl": {
+                    "DamageNote": "You take @Damage[2d6[bleed]] damage."
+                },
+                "EffectNote": "Your Strikes that damage a creature in your pangolin's reach also deal @Damage[(@actor.flags.pf2e.rulesSelections.pangolinSupportBenefit})d6[persistent,bleed]] damage."
+            },
+            "Rhinoceros": {
+                "EffectNote": "The first creature within your rhino's reach that you hit and deal damage to before the start of your next turn becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}."
+            },
+            "RidingDrake": {
+                "EffectNote": "Each time you Strike while riding the drake and hit a creature in the drake's reach, the creature takes @Damage[(@actor.flags.pf2e.rulesSelections.ridingDrakeSupportBenefit)d4[fire]] damage from the drake."
+            },
+            "RidingTarantula": {
+                "EffectNote": "If you hit and deal damage to a creature your riding tarantula threatens, the target must succeed at a @Check[type:flat|dc:5] whenever it takes a concentrate action or that action is lost. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.6PFleA0i6lxly55o]{Effect: Riding Tarantula Support Benefit (Penalty)}"
+            },
+            "Roc": {
+                "EffectNote": "Your Strikes that damage a creature that your roc threatens push the target 5 feet away from your roc."
+            },
+            "Scorpion": {
+                "EffectNote": "Your Strikes that damage a creature in your scorpion's reach also deal @Damage[(@actor.flags.pf2e.animalCompanion.scorpionSupportBenefit)d6[persistent,poison]] damage."
+            },
             "Pangolin": {
                 "DefensiveCurl": {
                     "DamageNote": "You take @Damage[2d6[bleed]] damage."
@@ -92,13 +131,85 @@
                     "SupportBenefit": "The target takes a –5-foot status penalty to its Speeds and must succeed at a DC 5 flat check to use reactions triggered by your actions. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.agTdJDFIKuduum1p]{Effect: Severed Head Support Benefit (Penalty)}",
                     "Reactions": "You must succeed at a @Check[flat|dc:5] to use reactions triggered by the origin's actions."
                 }
+            },
+            "ShadowHound": {
+                "EffectNote": "When you damage a creature with a Strike and that creature is within reach of your shadow hound, both you and your shadow hound become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to the creature."
+            },
+            "Shotalashu": {
+                "EffectNote": "Each time you hit a creature in the shotalashu's reach with a Strike, the creature takes @Damage[(@actors.flags.pf2e.rulesSelections.shotalashuSupportBenefit)d6[mental]] damage from the shotalashu."
+            },
+            "SkeletalConstrictor": {
+                "EffectNote": "Your Strikes that deal damage to the chosen creature make the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}."
+            },
+            "SkeletalMount": {
+                "EffectNote": {
+                    "CriticalSuccess": "Any creature damaged by the attack becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.",
+                    "Success": "Any creature damaged by the attack becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}."
+                }
+            },
+            "SkeletalServant": {
+                "EffectNote": "When a Strike you make hits and deals damage to a creature within your skeletal servant's reach, that target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}."
+            },
+            "TerrorBird": {
+                "EffectNote": "Your Strikes that deal damage to the chosen creature make the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}."
+            },
+           "Triceratops": {
+                "EffectNote": "Your Strikes that damage a prone creature in your triceratops's reach also deal  @Damage[(@actor.flags.pf2e.rulesSelections.triceratopsSupportBenefit)d8[persistent,bleed]] damage."
+            },
+            "Tyrannosaurus": {
+                "EffectNote": "If you hit and deal damage to a creature within your tyrannosaurus's reach, the creature is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}."
+            },
+            "UlgremLurann": {
+                "EffectNote": "Each time you hit a creature in the Ulgrem-Lurann's reach with a Strike, the creature takes additional @Damage[(@actor.flags.pf2e.rulesSelections.ulgremLurannSupportBenefit)d4[piercing],(@actor.flags.pf2e.rulesSelections.ulgremLurannSupportBenefit)d4[electricity]] damage from the Ulgrem-Lurann."
+            },
+            "UmbrellaMushroom": {
+                "EffectNote": "Your Strikes that damage a creature within your umbrella mushroom's reach becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. This effect has the poison trait."
+            },
+            "UndeadBirdOfPrey": {
+                "EffectNote": "When you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}."
+            },
+            "UndeadHand": {
+                "EffectNote": "Each time you hit a creature in the hand's reach with a Strike, the creature takes @Damage[(@actor.flags.pf2e.rulesSelections.undeadHandSupportBenefit)d6[bludgeoning]] damage."
+            },
+            "VampiricAnimal": {
+                "EffectNote": "Your Strikes that damage a creature in your vampiric animal's reach also deal  @Damage[(@actor.flags.pf2e.rulesSelections.vampiricAnimalSupportBenefit)d6[bleed]] damage."
+            },
+            "WarPig": {
+                "EffectNote": "If you hit and deal damage to a creature within your war pig's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}."
+            },
+            "WaterElemental": {
+                "EffectNote": "Your  Strike that deals damage to a creature within your water elemental's reach, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}."
+            },
+            "Wolf": {
+                "EffectNote": {
+                    "CriticalSuccess": "Your Strikes that damage creatures your wolf threatens give the target a –10-foot status penalty to its Speeds. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.6x4zqyWl3pQiE9lw]{Effect: Wolf Support Benefit (-10-foot penalty)}",
+                    "Success": "Your Strikes that damage creatures your wolf threatens give the target a –5-foot status penalty to its Speeds. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.UhWenwf5XOlk9ZHY]{Effect: Wolf Support Benefit (-5-foot penalty)}"
+                }
+            },
+            "WoodElemental": {
+                "EffectNote": {
+                    "CriticalSuccess": "If you hit with a Strike that deals damage to a creature in your wood elemental's reach, the creature takes a –10-foot circumstance penalty to its Speeds. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.FPqIVdqeegX6YATJ]{Effect: Wood Elemental Support Benefit (-10-foot penalty)}",
+                    "Success": "If you hit with a Strike that deals damage to a creature in your wood elemental's reach, the creature takes a –5-foot circumstance penalty to its Speeds. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.U2mkebPNSs531ADL]{Effect: Wood Elemental Support Benefit (-5-foot penalty)}"
+                }
+            },
+            "Wyvern": {
+                "EffectNote": "Your Strikes that damage a creature in your wyvern's reach also deal @Damage[(@actor.flags.pf2e.rulesSelections.wyvernSupportBenefit)d6[persistent,poison]] damage."
+            },
+            "ZombieCarrionBird": {
+                "EffectNote": "Each time you hit and deal damage to a creature that's within 10 feet of the zombie carrion bird, the creature takes an additional @Damage[(@actors.flags.pf2e.rulesSelections.zombieCarrionBirdSupportBenefit)d6[untyped]] damage."
+            },
+            "ZombieMount": {
+                "EffectNote": "Each time you Strike while riding the zombie mount and hit a creature in the zombie mount's reach, the creature takes @Damage[(actors.flags.pf2e.rulesSelections.zombieMountSupportBenefit)d4[@actor.flags.pf2e.rulesSelections.zombieMountDamage]] damage from the zombie mount."
+            },
+            "Zombie": {
+                "EffectNote": "Each time you hit a creature that's within 10 feet of the zombie and you deal damage, the creature takes an additional @Damage[(@actor.flags.pf2e.rulesSelections.zombieMountSupportBenefit)d6[untyped]] damage."
             }
-        },
-         "UnarmedAttacks": {
-            "Bite": "Bite",
-            "Blade": "Blade",
-            "Slam": "Slam",
-            "TailSlam": "Tail Slam"
-        }
+        } 
+    },
+    "UnarmedAttacks": {
+        "Bite": "Bite",
+        "Blade": "Blade",
+        "Slam": "Slam",
+        "TailSlam": "Tail Slam"
     }
 }

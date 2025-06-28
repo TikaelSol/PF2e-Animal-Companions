@@ -15,7 +15,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage creatures your wolf threatens give the target a –5-foot status penalty to its Speeds. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.UhWenwf5XOlk9ZHY]{Effect: Wolf Support Benefit (-5-foot penalty)}",
+        "text": "COMP.SpecificRule.Wolf.EffectNote.Success",
         "title": "{item|name}",
         "outcome": [
           "success"
@@ -27,7 +27,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage creatures your wolf threatens give the target a –10-foot status penalty to its Speeds. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.6x4zqyWl3pQiE9lw]{Effect: Wolf Support Benefit (-10-foot penalty)}",
+        "text": "COMP.SpecificRule.Wolf.EffectNote.CriticalSuccess",
         "title": "{item|name}",
         "outcome": [
           "criticalSuccess"
@@ -84,9 +84,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!zDFmtmfZfAvIVF93"
 }

@@ -31,13 +31,19 @@
         "flag": "vampiricAnimalSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.vampiricAnimalSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.vampiricAnimalSupportBenefit}"
+      },
+      {
         "key": "TokenMark",
         "slug": "vampiric-animal-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage a creature in your vampiric animal's reach also deal  @Damage[({item|flags.pf2e.rulesSelections.vampiricAnimalSupportBenefit})d6[bleed]] damage.",
+        "text": "COMP.SpecificRule.VampiricAnimal.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -95,9 +101,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!rtIhCBYVeEywrZOf"
 }

@@ -15,7 +15,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "COMP.SpecificRule.Antelope.EffectNote",
+        "text": "COMP.SpecificRule.GiantWasp.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
