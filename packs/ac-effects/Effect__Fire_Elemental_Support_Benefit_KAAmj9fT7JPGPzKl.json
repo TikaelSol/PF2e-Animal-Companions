@@ -31,13 +31,19 @@
         "flag": "fireElementalSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.fireElementalSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.fireElementalSupportBenefit}"
+      },
+      {
         "key": "TokenMark",
         "slug": "fire-elemental-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage a creature  in your fire elemental's reach also deal @Damage[({item|flags.pf2e.rulesSelections.fireElementalSupportBenefit})d6[persistent,fire]] damage.",
+        "text": "COMP.SpecificRule.FireElemental.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -95,9 +101,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.2.0",
+    "exportSource": null
   },
   "_key": "!items!KAAmj9fT7JPGPzKl"
 }

@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Granted by War Pig Support Benefit</p><p>Strikes you make that deal damage to a creature within your war pig's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.ZGE7RQKqjQCTEJct]{War Pig Support Benefit}</p><p>Strikes you make that deal damage to a creature within your war pig's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}</p>",
       "gm": ""
     },
     "publication": {
@@ -25,7 +25,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "If you hit and deal damage to a creature within your war pig's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.",
+        "text": "COMP.SpecificRule.WarPig.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -73,9 +73,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.2.1"
   },
   "_id": "EutUqr7s9d9bRy9b",
   "sort": 2400000,

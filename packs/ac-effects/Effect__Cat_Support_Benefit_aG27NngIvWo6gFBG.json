@@ -15,7 +15,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that deal damage to a creature within your cat's reach make the target @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard}.",
+        "text": "COMP.SpecificRule.Cat.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -73,9 +73,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "6.8.3"
+    "systemVersion": "7.2.0",
+    "exportSource": null
   },
   "_key": "!items!aG27NngIvWo6gFBG"
 }

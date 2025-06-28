@@ -17,7 +17,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Any creature damaged by the attack becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.",
+        "text": "COMP.SpecificRule.SkeletalMount.EffectNote.Success",
         "title": "{item|name}",
         "outcome": [
           "success"
@@ -30,7 +30,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "any creature damaged by the attack becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.",
+        "text": "COMP.SpecificRule.SkeletalMount.EffectNote.CriticalSuccess",
         "title": "{item|name}",
         "outcome": [
           "criticalSuccess"
@@ -87,9 +87,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!VVpMpJB3hdTNYdNV"
 }

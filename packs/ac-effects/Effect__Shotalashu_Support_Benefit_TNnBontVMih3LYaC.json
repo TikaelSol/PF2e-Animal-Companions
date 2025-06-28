@@ -31,13 +31,19 @@
         "flag": "shotalashuSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.shotalashuSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.shotalashuSupportBenefit}"
+      },
+      {
         "key": "TokenMark",
         "slug": "shotalashu-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Each time you hit a creature in the shotalashu's reach with a Strike, the creature takes @Damage[({item|flags.pf2e.rulesSelections.shotalashuSupportBenefit})d6[mental]] damage from the shotalashu.",
+        "text": "COMP.SpecificRule.Shotalashu.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -95,9 +101,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!TNnBontVMih3LYaC"
 }

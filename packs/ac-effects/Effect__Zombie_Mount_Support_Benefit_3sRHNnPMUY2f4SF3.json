@@ -31,6 +31,12 @@
         "flag": "zombieMountSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.zombieMountSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.zombieMountSupportBenefit}"
+      },
+      {
         "key": "TokenMark",
         "slug": "zombie-mount-support-benefit"
       },
@@ -52,9 +58,15 @@
         "toggleable": true
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.zombieMountDamage",
+        "value": "{item|flags.pf2e.rulesSelections.zombieMountDamage}"
+      },
+      {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Each time you Strike while riding the zombie mount and hit a creature in the zombie mount's reach, the creature takes @Damage[({item|flags.pf2e.rulesSelections.zombieMountSupportBenefit})d4[{item|flags.pf2e.rulesSelections.zombieMountDamage}]] damage from the zombie mount.",
+        "text": "COMP.SpecificRule.ZombieMount.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -112,9 +124,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!3sRHNnPMUY2f4SF3"
 }

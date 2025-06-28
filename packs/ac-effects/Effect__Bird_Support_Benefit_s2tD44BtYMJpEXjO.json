@@ -31,13 +31,19 @@
         "flag": "birdSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.birdSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.birdSupportBenefit}"
+      },
+      {
         "key": "TokenMark",
         "slug": "bird-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage a creature that your bird threatens also deal @Damage[({item|flags.pf2e.rulesSelections.birdSupportBenefit})d4[bleed]] damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the bleed damage.",
+        "text": "COMP.SpecificRule.Bird.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -95,9 +101,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "6.8.4"
+    "systemVersion": "7.2.0",
+    "exportSource": null
   },
   "_key": "!items!s2tD44BtYMJpEXjO"
 }
