@@ -26,6 +26,9 @@
                     "Frightened": "Target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}"
                 }
             },
+            "Hyena": {
+                "EffectNote": "Each time you hit a creature in the hyena's reach with a Strike, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
+            },
             "Keulia": {
                 "EffectNote": "Your Strikes that damage a creature in your keulia's reach also deal @Damage[(@actor.flags.pf2e.animalCompanion.keuliaSupportBenefit)d6[bludgeoning]] damage."
             },
