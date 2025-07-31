@@ -1,0 +1,89 @@
+{
+  "folder": "JaJf7QymmsmGAv8z",
+  "name": "Sickening Assault",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> Your eidolon is dispersed. </p><hr /><p>Your eidolon focuses on inflicting the most damage possible on its foes. If your eidolon's next action is to use Swarming Assault, the number of damage dice of the Swarming Assault are doubled. Additionally, creatures that fail their Reflex save against that Swarming Assault are @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 4} on a critical failure).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "selectors": [
+          "swarming-assault-inline-damage"
+        ],
+        "key": "DamageAlteration",
+        "mode": "upgrade",
+        "property": "dice-number",
+        "value": "2* (1 + floor((@actor.level - 1)/2))",
+        "predicate": [
+          "sickening-assault"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "option": "sickening-assault",
+        "toggleable": true
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:swarming-assault"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT1M"
+    }
+  },
+  "_id": "gGVaSvIhobXXsqTZ",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.3"
+  },
+  "_key": "!items!gGVaSvIhobXXsqTZ"
+}

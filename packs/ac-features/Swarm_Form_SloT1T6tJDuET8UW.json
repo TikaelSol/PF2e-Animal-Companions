@@ -1,0 +1,104 @@
+{
+  "name": "Swarm Form",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your eidolon is an intelligent swarm composed of hundreds of Tiny creatures, and it's immune to the @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, and @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} conditions. It can fit through tight spaces as though it were a Tiny creature. It has weakness to area damage equal to its level. Your eidolon has two forms: condensed and dispersed. When you Manifest Eidolon, it manifests condensed. It can switch between these two forms as a single action that has the concentrate trait.</p><p><strong>Condensed Form:</strong> When condensed, your eidolon draws all its component bodies into a single, condensed mound that functions as a Medium creature. It has a reach of 5 feet, can make Strikes, and can't occupy the same space as other creatures. While condensed, it can use the @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.roBX7VxpVKkRpClJ]{Haunting Visage} action.</p><p><strong>Dispersed Form:</strong> When dispersed, your eidolon scatters its component bodies across a wider area, increasing its size by one category (to Large for most swarm eidolons). It has a reach of 0 feet, can't make Strikes, and can occupy the same space as other creatures. While dispersed, it can use the @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.fUTBJxjPmiP4KVVI]{Swarming Assault} activity.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "alwaysActive": "true",
+        "key": "RollOption",
+        "label": "Swarm Form",
+        "option": "swarm-form",
+        "suboptions": [
+          {
+            "label": "Condensed Form",
+            "value": "condensed-form"
+          },
+          {
+            "label": "Dispersed Form",
+            "value": "dispersed-form"
+          }
+        ],
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "key": "CreatureSize",
+        "predicate": [
+          "swarm-form:dispersed-form"
+        ],
+        "reach": {
+          "override": 0
+        },
+        "value": "large"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.roBX7VxpVKkRpClJ"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.fUTBJxjPmiP4KVVI"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "SloT1T6tJDuET8UW",
+  "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+  "folder": "JaJf7QymmsmGAv8z",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.3"
+  },
+  "_key": "!items!SloT1T6tJDuET8UW"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Swarming Assault",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> Your eidolon is dispersed.</p><hr /><p>Your eidolon swarms over each creature occupying its space, biting, pecking, clawing, or making similar attacks with its component bodies. It deals @Damage[(1 + floor((@actor.level - 1)/2))d6[untyped]] damage to each creature in the area, with a basic Reflex save against your spell DC. You choose each time your eidolon uses Swarming Assault whether it deals piercing or slashing damage. Your eidolon then can't use Swarming Assault again for the next [[/gmr 1d4 #rounds]]{1d4 rounds}.</p><p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "_id": "fUTBJxjPmiP4KVVI",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": "JaJf7QymmsmGAv8z",
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.3"
+  },
+  "_key": "!items!fUTBJxjPmiP4KVVI"
+}
