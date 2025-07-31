@@ -15,7 +15,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "If you hit and damage a creature adjacent to your mole, that creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until it moves from its current position.",
+        "text": "COMP.SpecificRule.Mole.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -73,9 +73,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!6X2STQsZYQ4pY6BA"
 }

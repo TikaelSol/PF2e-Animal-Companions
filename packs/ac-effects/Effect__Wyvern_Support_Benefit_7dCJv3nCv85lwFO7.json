@@ -31,13 +31,19 @@
         "flag": "wyvernSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.wyvernSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.wyvernSupportBenefit}"
+      },
+      {
         "key": "TokenMark",
         "slug": "wyvern-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Your Strikes that damage a creature in your wyvern's reach also deal @Damage[({item|flags.pf2e.rulesSelections.wyvernSupportBenefit})d6[persistent,poison]] damage.",
+        "text": "COMP.SpecificRule.Wyvern.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -95,9 +101,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.8.3"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!7dCJv3nCv85lwFO7"
 }

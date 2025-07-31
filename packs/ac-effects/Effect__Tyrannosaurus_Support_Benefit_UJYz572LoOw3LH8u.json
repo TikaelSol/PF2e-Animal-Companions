@@ -15,7 +15,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "If you hit and deal damage to a creature within your tyrannosaurus's reach, the creature is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.",
+        "text": "COMP.SpecificRule.Tyrannosaurus.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -73,9 +73,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!UJYz572LoOw3LH8u"
 }

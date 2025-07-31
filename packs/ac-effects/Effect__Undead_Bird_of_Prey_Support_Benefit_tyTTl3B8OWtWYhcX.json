@@ -15,7 +15,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "When you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.",
+        "text": "COMP.SpecificRule.UndeadBirdOfPrey.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -73,9 +73,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!tyTTl3B8OWtWYhcX"
 }

@@ -31,13 +31,19 @@
         "flag": "zombieSupportBenefit"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.zombieSupportBenefit",
+        "value": "{item|flags.pf2e.rulesSelections.zombieSupportBenefit}"
+      },
+      {
         "key": "TokenMark",
         "slug": "zombie-support-benefit"
       },
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "Each time you hit a creature that's within 10 feet of the zombie and you deal damage, the creature takes an additional @Damage[({item|flags.pf2e.rulesSelections.zombieMountSupportBenefit})d6[untyped]] damage as the wound festers.",
+        "text": "COMP.SpecificRule.Zombie.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -95,9 +101,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!vtArjXfpSGTKbmL9"
 }

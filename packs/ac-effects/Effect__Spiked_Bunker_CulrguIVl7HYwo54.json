@@ -31,6 +31,12 @@
         "flag": "isSpecialized"
       },
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.animalCompanion.isSpecialized",
+        "value": "{item|flags.pf2e.rulesSelections.isSpecialized}"
+      },
+      {
         "key": "FlatModifier",
         "selector": "ac",
         "type": "circumstance",
@@ -39,7 +45,7 @@
       {
         "key": "Note",
         "selector": "damage-received",
-        "text": "You take @Damage[({item|flags.pf2e.rulesSelections.isSpecialized})d6[piercing]] damage.",
+        "text": "COMP.SpecificRule.MetalElemental.SpikedBunker.DamageNote",
         "predicate": [
           {
             "or": [
@@ -95,9 +101,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.8.1"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_id": "CulrguIVl7HYwo54",
   "sort": 0,

@@ -15,7 +15,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "If you damage a Concealed or Hidden creature in your moth's reach with a Strike, that creature requires only a DC 3 Flat Check to target it if it's concealed, or DC 9 Flat Check if it's hidden. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.Db0Vtobv3v4Iybj5]{Effect: Moth Support Benefit (Penalty)}\n\n",
+        "text": "COMP.SpecificRule.Moth.EffectNote\n",
         "title": "{item|name}",
         "outcome": [
           "success",
@@ -73,9 +73,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!SY21KgVDZRQWFSCw"
 }
