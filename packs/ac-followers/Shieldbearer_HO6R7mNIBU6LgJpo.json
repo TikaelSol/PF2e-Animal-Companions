@@ -139,7 +139,7 @@
           {
             "mode": "override",
             "property": "name",
-            "value": "Shieldbearer Shield"
+            "value": "COMP.SpecificRule.Follower.Shieldbearer.ShieldLabel"
           }
         ],
         "flag": "shield"
