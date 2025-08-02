@@ -151,11 +151,6 @@
             "Scorpion": {
                 "EffectNote": "Your Strikes that damage a creature in your scorpion's reach also deal @Damage[(@actor.flags.pf2e.animalCompanion.scorpionSupportBenefit)d6[persistent,poison]] damage."
             },
-            "Pangolin": {
-                "DefensiveCurl": {
-                    "DamageNote": "You take @Damage[2d6[bleed]] damage."
-                }
-            },
             "SeveredHead": {
                 "EffectNote": {
                     "SupportBenefit": "The target takes a –5-foot status penalty to its Speeds and must succeed at a DC 5 flat check to use reactions triggered by your actions. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.agTdJDFIKuduum1p]{Effect: Severed Head Support Benefit (Penalty)}",
