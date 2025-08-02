@@ -1,0 +1,73 @@
+{
+  "folder": null,
+  "name": "Effect: Berserker Follower Ability",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You gain a status bonus to your next damage roll.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "Pathfinder Battlecry!",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "damage",
+        "value": 1,
+        "type": "status",
+        "slug": "berserker-follower-ability"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
+  "ownership": {
+    "default": 0,
+    "AhhBYTk3xYRMuz4T": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.0"
+  },
+  "_id": "oM4smdqElgYmPzae",
+  "sort": 0,
+  "_key": "!items!oM4smdqElgYmPzae"
+}

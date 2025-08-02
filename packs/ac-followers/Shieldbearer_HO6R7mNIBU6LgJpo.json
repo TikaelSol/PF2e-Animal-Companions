@@ -1,0 +1,661 @@
+{
+  "folder": null,
+  "name": "Shieldbearer",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>This aspiring bodyguard can learn to deflect the most devastating of blows.</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> longsword (versatile P), <strong>Damage</strong> 1d8 slashing</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> shield boss, <strong>Damage</strong> 1d6 bludgeoning</p><p><strong>Str</strong> +3, <strong>Dex</strong> +1, <strong>Con</strong> +2, <strong>Int</strong> +0, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Kit Armor</strong> item bonus +5, Dex cap +1</p><p><strong>Skills</strong> Athletics, Survival, Warfare Lore</p><p><strong>Follower Ability</strong> A shieldbearer carries a shield (Hardness 5, HP 20, BT 10). They can Raise the Shield to gain a +2 circumstance bonus to AC. The shieldbearer also gains a reaction when Directed. If this reaction isn't spent before the beginning of your next turn, it is lost. Finally, they gain the Shield Block feat.</p><p><strong>Special</strong> A shieldbearer takes a –5-foot penalty to their Speeds from their heavy armor.</p><p><strong>Experienced Advancement</strong> When the shieldbearer becomes an experienced follower:</p><ul><li>Increase their Strength modifier to +4 and their Constitution modifier to +3.</li><li>Increase their proficiency rank in Fortitude and Will saves to expert.</li><li>Increase their weapons' Strike damage from one die to two dice (for instance 1d8 to 2d8).</li><li>Increase their shield's statistics to Hardness 6, HP 40, and BT 20.</li><li><p>The shieldbearer can defend you. When the shieldbearer has their shield raised, they can use their Shield Block reaction when an attack is made against you as long as they are adjacent to you. If they do, the shield prevents you from taking damage up to the shield's Hardness, but you and the shield each take any remaining damage, following the normal rules for Shield Block.</p></li></ul><p><strong>Veteran Advancement</strong> When the shieldbearer becomes a veteran follower:</p><ul><li>Increase their Constitution modifier to +4, their Intelligence modifier to +1, and their Wisdom modifier to +2.</li><li>Increase their item bonus to AC to +6. Their armor gains the bulwark trait.</li><li>Increase their proficiency rank in Perception to expert.</li><li>Increase their proficiency rank in Athletics, Survival, and Warfare Lore to expert. They become an expert in Crafting and add a repair toolkit to their kit.</li><li>Increase their proficiency rank in weapon Strikes to expert, and give them a +1 item bonus to attack rolls with their weapon Strikes. Their weapon Strikes deal 2 additional damage and become magical for the purposes of ignoring resistances.</li><li>Increase their shield's statistics to Hardness 8, HP 64, BT 32.</li><li><p>The shieldbearer can now defend anyone. The shieldbearer can use Shield Block to protect any adjacent ally, not just you.</p></li></ul><p><strong>Exceptional Advancement</strong> When the shieldbearer becomes an exceptional follower:</p><ul><li>Increase their Strength modifier to +5, their Dexterity modifier to +2, their Intelligence modifier to +2, and their Wisdom modifier to +3.</li><li>Increase their item bonus to AC to +7.</li><li>Increase their proficiency rank in Fortitude saves and Will saves to master, and their proficiency rank in Reflex saves to expert. Give them a +1 item bonus to all saving throws.</li><li>Increase their proficiency rank in Athletics to master. They become an expert in Acrobatics.</li><li>Increase their item bonus to attack rolls with their listed weapon Strikes to +2. Increase their weapon Strike damage from two dice to three dice (for instance, 2d8 to 3d8) and increase the additional damage that their weapon Strikes deal from 2 to 4.</li><li>Increase their shield's statistics to Hardness 10, HP 100, BT 50.</li><li><p>The shieldbearer gains an additional reaction when Directed, which the shieldbearer can use only to Shield Block to protect themself.</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.mefI4QYwzSIQiwGj"
+      },
+      {
+        "category": "martial",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.longsword",
+        "traits": [
+          "versatile-p"
+        ],
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "img": "icons/weapons/swords/sword-guard-blue.webp"
+      },
+      {
+        "category": "martial",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.shield-boss",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "img": "icons/skills/melee/shield-block-bash-yellow.webp"
+      },
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "label": "COMP.SpecificRule.Follower.Shieldbearer.MartialProficiency",
+        "value": 1,
+        "slug": "follower-shieldbearer"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.abilities",
+        "value": {
+          "str": {
+            "mod": 3,
+            "base": 0,
+            "label": "PF2E.AbilityStr",
+            "shortLabel": "PF2E.AbilityId.str"
+          },
+          "dex": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityDex",
+            "shortLabel": "PF2E.AbilityId.dex"
+          },
+          "con": {
+            "mod": 2,
+            "base": 0,
+            "label": "PF2E.AbilityCon",
+            "shortLabel": "PF2E.AbilityId.con"
+          },
+          "int": {
+            "mod": 0,
+            "base": 0,
+            "label": "PF2E.AbilityInt",
+            "shortLabel": "PF2E.AbilityId.int"
+          },
+          "wis": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityWis",
+            "shortLabel": "PF2E.AbilityId.wis"
+          },
+          "cha": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityCha",
+            "shortLabel": "PF2E.AbilityId.cha"
+          }
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.attributes.ancestryhp",
+        "value": 8,
+        "mode": "override"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.u9va30kxnQrEhOm6",
+        "flag": "kitArmor",
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "ac-bonus",
+            "value": 5
+          },
+          {
+            "mode": "override",
+            "property": "dex-cap",
+            "value": 1
+          },
+          {
+            "mode": "override",
+            "property": "category",
+            "value": "heavy"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB",
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "name",
+            "value": "Shieldbearer Shield"
+          }
+        ],
+        "flag": "shield"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "all-speeds",
+        "value": -5,
+        "predicate": [
+          "armor:id:{item|flags.pf2e.itemGrants.kitArmor.id}"
+        ],
+        "label": "COMP.SpecificRule.Follower.KitArmor.Label"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.abilities",
+        "value": {
+          "str": {
+            "mod": 4,
+            "base": 0,
+            "label": "PF2E.AbilityStr",
+            "shortLabel": "PF2E.AbilityId.str"
+          },
+          "dex": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityDex",
+            "shortLabel": "PF2E.AbilityId.dex"
+          },
+          "con": {
+            "mod": 3,
+            "base": 0,
+            "label": "PF2E.AbilityCon",
+            "shortLabel": "PF2E.AbilityId.con"
+          },
+          "int": {
+            "mod": 0,
+            "base": 0,
+            "label": "PF2E.AbilityInt",
+            "shortLabel": "PF2E.AbilityId.int"
+          },
+          "wis": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityWis",
+            "shortLabel": "PF2E.AbilityId.wis"
+          },
+          "cha": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityCha",
+            "shortLabel": "PF2E.AbilityId.cha"
+          }
+        },
+        "predicate": [
+          "feature:experienced-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.fortitude.rank",
+        "value": 2,
+        "predicate": [
+          "feature:experienced-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.will.rank",
+        "value": 2,
+        "predicate": [
+          "feature:experienced-advancement"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "predicate": [
+          "feature:experienced-advancement",
+          "item:id:{item|id}"
+        ],
+        "mode": "upgrade",
+        "property": "damage-dice-number",
+        "value": 2
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|flags.pf2e.itemGrants.shield.id}",
+        "mode": "upgrade",
+        "property": "hp-max",
+        "value": 40,
+        "predicate": [
+          "feature:experienced-advancement"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|flags.pf2e.itemGrants.shield.id}",
+        "mode": "upgrade",
+        "property": "hardness",
+        "value": 6,
+        "predicate": [
+          "feature:experienced-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.abilities",
+        "value": {
+          "str": {
+            "mod": 4,
+            "base": 0,
+            "label": "PF2E.AbilityStr",
+            "shortLabel": "PF2E.AbilityId.str"
+          },
+          "dex": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityDex",
+            "shortLabel": "PF2E.AbilityId.dex"
+          },
+          "con": {
+            "mod": 4,
+            "base": 0,
+            "label": "PF2E.AbilityCon",
+            "shortLabel": "PF2E.AbilityId.con"
+          },
+          "int": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityInt",
+            "shortLabel": "PF2E.AbilityId.int"
+          },
+          "wis": {
+            "mod": 2,
+            "base": 0,
+            "label": "PF2E.AbilityWis",
+            "shortLabel": "PF2E.AbilityId.wis"
+          },
+          "cha": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityCha",
+            "shortLabel": "PF2E.AbilityId.cha"
+          }
+        },
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "property": "ac-bonus",
+        "itemId": "{item|flags.pf2e.itemGrants.kitArmor.id}",
+        "value": 6,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "itemId": "{item|flags.pf2e.itemGrants.kitArmor.id}",
+        "value": "bulwark",
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.perception.rank",
+        "mode": "upgrade",
+        "value": 2,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.skills.athletics.rank",
+        "mode": "upgrade",
+        "value": 2,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.skills.survival.rank",
+        "mode": "upgrade",
+        "value": 2,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.skills.crafting.rank",
+        "mode": "upgrade",
+        "value": 2,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "MartialProficiency",
+        "label": "COMP.SpecificRule.Follower.Shieldbearer.MartialProficiency",
+        "value": 2,
+        "slug": "follower-shieldbearer",
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "label": "COMP.SpecificRule.Follower.VeteranAdvancement.Label",
+        "selector": "{item|id}-attack",
+        "value": 1,
+        "type": "item",
+        "slug": "veteran-advancement-attack",
+        "hideIfDisabled": true,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|id}-damage",
+        "value": 2,
+        "label": "COMP.SpecificRule.Follower.VeteranAdvancement.Label",
+        "slug": "veteran-advancement-damage",
+        "predicate": [
+          "feature:veteran-advancement"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustStrike",
+        "value": "magical",
+        "property": "traits",
+        "mode": "add",
+        "predicate": [
+          "feature:veteran-advancement"
+        ],
+        "definition": [
+          "item:id:{item|id}"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|flags.pf2e.itemGrants.shield.id}",
+        "mode": "upgrade",
+        "property": "hp-max",
+        "value": 64,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|flags.pf2e.itemGrants.shield.id}",
+        "mode": "upgrade",
+        "property": "hardness",
+        "value": 8,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.abilities",
+        "value": {
+          "str": {
+            "mod": 5,
+            "base": 0,
+            "label": "PF2E.AbilityStr",
+            "shortLabel": "PF2E.AbilityId.str"
+          },
+          "dex": {
+            "mod": 2,
+            "base": 0,
+            "label": "PF2E.AbilityDex",
+            "shortLabel": "PF2E.AbilityId.dex"
+          },
+          "con": {
+            "mod": 4,
+            "base": 0,
+            "label": "PF2E.AbilityCon",
+            "shortLabel": "PF2E.AbilityId.con"
+          },
+          "int": {
+            "mod": 2,
+            "base": 0,
+            "label": "PF2E.AbilityInt",
+            "shortLabel": "PF2E.AbilityId.int"
+          },
+          "wis": {
+            "mod": 3,
+            "base": 0,
+            "label": "PF2E.AbilityWis",
+            "shortLabel": "PF2E.AbilityId.wis"
+          },
+          "cha": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityCha",
+            "shortLabel": "PF2E.AbilityId.cha"
+          }
+        },
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "property": "ac-bonus",
+        "itemId": "{item|flags.pf2e.itemGrants.kitArmor.id}",
+        "value": 7,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.fortitude.rank",
+        "value": 3,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.will.rank",
+        "value": 3,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.reflex.rank",
+        "value": 2,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 1,
+        "type": "item",
+        "predicate": [
+          "feature:exceptional-advancement"
+        ],
+        "label": "COMP.SpecificRule.Follower.ExceptionalAdvancement.Label",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.skills.athletics.rank",
+        "mode": "upgrade",
+        "value": 3,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.skills.acrobatics.rank",
+        "mode": "upgrade",
+        "value": 2,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "value": 2,
+        "selector": "{item|id}-attack",
+        "slug": "veteran-advancement-attack",
+        "predicate": [
+          "feature:exceptional-advancement"
+        ],
+        "relabel": "COMP.SpecificRule.Follower.ExceptionalAdvancement.Label"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "predicate": [
+          "feature:exceptional-advancement",
+          "item:id:{item|id}"
+        ],
+        "mode": "upgrade",
+        "property": "damage-dice-number",
+        "value": 3
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "value": 4,
+        "selector": "{item|id}-damage",
+        "slug": "veteran-advancement-damage",
+        "predicate": [
+          "feature:exceptional-advancement"
+        ],
+        "relabel": "COMP.SpecificRule.Follower.ExceptionalAdvancement.Label"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|flags.pf2e.itemGrants.shield.id}",
+        "mode": "upgrade",
+        "property": "hp-max",
+        "value": 100,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|flags.pf2e.itemGrants.shield.id}",
+        "mode": "upgrade",
+        "property": "hardness",
+        "value": 10,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "items": {},
+    "keyAbility": {
+      "value": [],
+      "selected": null
+    },
+    "hp": 6,
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 1
+    },
+    "attacks": {
+      "simple": 0,
+      "martial": 0,
+      "advanced": 0,
+      "unarmed": 0,
+      "other": {
+        "rank": 0,
+        "name": ""
+      }
+    },
+    "defenses": {
+      "unarmored": 0,
+      "light": 0,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "trainedSkills": {
+      "value": [
+        "athletics",
+        "survival"
+      ],
+      "additional": 0
+    },
+    "ancestryFeatLevels": {
+      "value": []
+    },
+    "classFeatLevels": {
+      "value": []
+    },
+    "generalFeatLevels": {
+      "value": []
+    },
+    "skillFeatLevels": {
+      "value": []
+    },
+    "skillIncreaseLevels": {
+      "value": []
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "ownership": {
+    "default": 0,
+    "AhhBYTk3xYRMuz4T": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.0"
+  },
+  "_id": "HO6R7mNIBU6LgJpo",
+  "sort": 0,
+  "_key": "!items!HO6R7mNIBU6LgJpo"
+}

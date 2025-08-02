@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Followers",
+  "color": null,
+  "sorting": "a",
+  "_id": "zKTeOPAN4j7XNKlO",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.0"
+  },
+  "_key": "!folders!zKTeOPAN4j7XNKlO"
+}

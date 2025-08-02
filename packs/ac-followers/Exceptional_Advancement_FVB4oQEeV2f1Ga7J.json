@@ -1,0 +1,67 @@
+{
+  "name": "Exceptional Advancement",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your veteran follower becomes a exceptional follower.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/skills/melee/weapons-crossed-swords-pink.webp",
+  "folder": "F2mMCeiaLqyZMtOM",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.0"
+  },
+  "ownership": {
+    "default": 0,
+    "AhhBYTk3xYRMuz4T": 3
+  },
+  "_id": "FVB4oQEeV2f1Ga7J",
+  "sort": 0,
+  "_key": "!items!FVB4oQEeV2f1Ga7J"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Kit Armor",
+  "type": "armor",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your follower is trained in this armor.</p>"
+    },
+    "rules": [
+      {
+        "key": "MartialProficiency",
+        "kind": "defense",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "value": 1,
+        "requiresEquipped": false
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.941,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "light",
+    "group": null,
+    "acBonus": 0,
+    "strength": 0,
+    "dexCap": 0,
+    "checkPenalty": 0,
+    "speedPenalty": 0,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "img": "icons/equipment/chest/breastplate-collared-leather-brown.webp",
+  "folder": "zKTeOPAN4j7XNKlO",
+  "ownership": {
+    "default": 0,
+    "AhhBYTk3xYRMuz4T": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.0"
+  },
+  "_id": "u9va30kxnQrEhOm6",
+  "sort": 0,
+  "_key": "!items!u9va30kxnQrEhOm6"
+}
