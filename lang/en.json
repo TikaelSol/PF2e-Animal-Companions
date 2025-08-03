@@ -48,14 +48,44 @@
             "FlyingSquirrel": {
                 "EffectNote": "If your Strike damages a creature in your giant flying squirrel's reach, that creature takes a –10-foot circumstance penalty to its Speeds. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.lACoOtINmUb1fTMY]{Effect: Flying Squirrel Support Benefit (Penalty)}"
             },
+            "Follower": {
+                "ExceptionalAdvancement": {
+                    "Label": "Exceptional Advancement"
+                },
+                "ExperiencedAdvancement": {
+                    "Label": "Experienced Advancement",
+                    "Medic": {
+                        "Note": "When a creature takes damage from a sharpshooter's ranged Strike, it takes a –5-foot circumstance penalty to its Speeds for 1 round, or a –10-foot circumstance penalty if the attack was a critical hit. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.GXWxbmqTJApVu0f3]{Effect: Experienced Sharpshooter}"
+                    }
+                },
+                "FollowerAbility": {
+                    "Berserker": {
+                        "Note": "When a berserker takes damage, they gain a +1 status bonus to their next damage roll before the end of your next turn. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.oM4smdqElgYmPzae]{Effect: Berserker Follower Ability}"
+                    },
+                    "Label": "Follower Ability"
+                },
+                "KitArmor": {
+                    "Label": "Kit Armor"
+                },
+                "Medic": {
+                    "Scalpel": "Scalpel"
+                },
+                "Shieldbearer": {
+                    "MartialProficiency": "Longsword & Shield Boss",
+                    "ShieldLabel": "Shieldbearer Shield"
+                },
+                "VeteranAdvancement": {
+                    "Label": "Veteran Advancement",
+                    "Sharpshooter": {
+                        "Note": "When the sharpshooter Takes Aim, they also ignore the target's concealment."
+                    }
+                }
+            },
             "Ghost": {
                 "EffectNote": "If you hit and deal damage to a creature in your ghost's reach, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
             },
             "GiantRockTuatara": {
                 "EffectNote": "Strikes that deal damage to a creature in your giant rock tuatara's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn."
-            },
-            "GiantWasp": {
-                "EffectNote": " if you hit and deal damage to a creature in your giant wasp's reach, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
             },
             "GiantWasp": {
                 "EffectNote": "If you hit and deal damage to a creature within your giant wasp's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
@@ -119,11 +149,6 @@
             },
             "Scorpion": {
                 "EffectNote": "Your Strikes that damage a creature in your scorpion's reach also deal @Damage[(@actor.flags.pf2e.animalCompanion.scorpionSupportBenefit)d6[persistent,poison]] damage."
-            },
-            "Pangolin": {
-                "DefensiveCurl": {
-                    "DamageNote": "You take @Damage[2d6[bleed]] damage."
-                }
             },
             "SeveredHead": {
                 "EffectNote": {

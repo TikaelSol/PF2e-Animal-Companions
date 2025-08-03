@@ -1,0 +1,57 @@
+{
+  "folder": "UR2WlgGkhK4o7O1f",
+  "name": "Reckless Attack",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> You Direct the berserker</p><hr /><p><strong>Effect</strong> The berserker gains a +1 circumstance bonus to their next attack roll on this turn. They are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the beginning of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": null,
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-animal-companions.AC-effects.Item.RgV1BgnR9jmPBy5M",
+      "name": "Effect: Reckless Attack"
+    }
+  },
+  "_id": "yYN5lYVfJVofjR0k",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "AhhBYTk3xYRMuz4T": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.0"
+  },
+  "_key": "!items!yYN5lYVfJVofjR0k"
+}

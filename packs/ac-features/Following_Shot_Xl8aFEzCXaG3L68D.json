@@ -1,0 +1,57 @@
+{
+  "folder": "UR2WlgGkhK4o7O1f",
+  "name": "Following Shot",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> The sharpshooter critically hits with a ranged Strike</p><p><strong>Requirements</strong> The sharpshooter is wielding a weapon with reload 0</p><hr /><p><strong>Effect</strong> Bolstered by their success, the sharpshooter quickly takes another shot. They make another ranged Strike with the same weapon at the same multiple attack penalty. This attack still counts toward the sharpshooter's multiple attack penalty.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": null,
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "turn"
+    }
+  },
+  "_id": "Xl8aFEzCXaG3L68D",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "AhhBYTk3xYRMuz4T": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.0"
+  },
+  "_key": "!items!Xl8aFEzCXaG3L68D"
+}

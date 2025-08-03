@@ -1,0 +1,68 @@
+{
+  "folder": "UR2WlgGkhK4o7O1f",
+  "name": "Take Aim",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The sharpshooter takes aim at their foe and makes a ranged Strike, gaining a +2 circumstance bonus to the attack roll.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "take-aim",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ranged-strike-attack-roll",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "take-aim"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": null,
+    "deathNote": false
+  },
+  "_id": "slUPBFWswxaqHe7T",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "AhhBYTk3xYRMuz4T": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.0"
+  },
+  "_key": "!items!slUPBFWswxaqHe7T"
+}
