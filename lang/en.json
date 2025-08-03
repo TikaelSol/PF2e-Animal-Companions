@@ -12,8 +12,7 @@
             },
             "Bacallia": {
                 "AdvancedManeuver": {
-                    "CriticalSuccess": "The target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}",
-                    "Success": "The target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}"
+                    "Note": "A living creature hit with this Strike is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical hit)."
                 },
                 "EffectNote": "Strikes that deal damage a creature in your bacallia's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the end of your next turn."
             },

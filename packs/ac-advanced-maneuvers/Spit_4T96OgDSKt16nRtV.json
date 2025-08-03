@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>The bacallia regurgitates a portion of its stomach's contents as a ranged spit Strike that deals a base of @Damage[1d6[acid]] damage with a range increment of 10 feet. The damage is 2d6 for a mature bacallia and 3d6 for a specialized one. A living creature hit with this Strike is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical hit).</p>",
+      "value": "<p>The bacallia regurgitates a portion of its stomach's contents as a ranged spit Strike that deals a base of 1d6 acid damage with a range increment of 10 feet. The damage is 2d6 for a mature bacallia and 3d6 for a specialized one. A living creature hit with this Strike is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical hit).</p>",
       "gm": ""
     },
     "publication": {
@@ -17,7 +17,59 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Strike",
+        "slug": "spit",
+        "damage": {
+          "base": {
+            "damageType": "acid",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "range": {
+          "increment": 10
+        },
+        "img": "icons/magic/acid/projectile-glowing-bubbles.webp",
+        "category": "unarmed"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "property": "damage-dice-number",
+        "itemType": "weapon",
+        "predicate": [
+          "item:id:{item|id}",
+          "feature:mature-animal-companion"
+        ],
+        "value": 2
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "property": "damage-dice-number",
+        "itemType": "weapon",
+        "predicate": [
+          "item:id:{item|id}",
+          "feature:specialized-animal-companion"
+        ],
+        "value": 3
+      },
+      {
+        "key": "Note",
+        "title": "{item|name}",
+        "selector": "{item|id}-attack",
+        "text": "COMP.SpecificRule.Bacallia.AdvancedManeuver.Note",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "target:mode:living"
+        ]
+      }
+    ],
     "slug": null,
     "traits": {
       "otherTags": [],
@@ -43,9 +95,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.3.0"
   },
   "_id": "4T96OgDSKt16nRtV",
   "sort": 0,
