@@ -142,7 +142,7 @@
                 "EffectNote": "Each time you Strike while riding the drake and hit a creature in the drake's reach, the creature takes @Damage[(@actor.flags.pf2e.rulesSelections.ridingDrakeSupportBenefit)d4[fire]] damage from the drake."
             },
             "RidingTarantula": {
-                "EffectNote": "If you hit and deal damage to a creature your riding tarantula threatens, the target must succeed at a @Check[type:flat|dc:5] whenever it takes a concentrate action or that action is lost. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.6PFleA0i6lxly55o]{Effect: Riding Tarantula Support Benefit (Penalty)}"
+                "EffectNote": "If you hit and deal damage to a creature your riding tarantula threatens, the target must succeed at a @Check[type:flat|dc:5] whenever it takes a concentrate action or that action is lost. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.crYJGMzeiXh8xve3]{Effect: Riding Tarantula Support Benefit (Penalty)}"
             },
             "Roc": {
                 "EffectNote": "Your Strikes that damage a creature that your roc threatens push the target 5 feet away from your roc."
@@ -228,7 +228,7 @@
             "Zombie": {
                 "EffectNote": "Each time you hit a creature that's within 10 feet of the zombie and you deal damage, the creature takes an additional @Damage[(@actor.flags.pf2e.rulesSelections.zombieMountSupportBenefit)d6[untyped]] damage."
             }
-        } 
+        }
     },
     "UnarmedAttacks": {
         "Bite": "Bite",
