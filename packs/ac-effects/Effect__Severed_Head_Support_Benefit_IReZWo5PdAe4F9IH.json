@@ -25,7 +25,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "COMP.SpecificRule.EffectNote.EffectNote.SupportBenefit",
+        "text": "COMP.SpecificRule.SeveredHead.EffectNote.SupportBenefit",
         "title": "{item|name}",
         "outcome": [
           "success",

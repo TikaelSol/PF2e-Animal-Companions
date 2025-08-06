@@ -77,7 +77,7 @@
         },
         "group": "brawling",
         "key": "Strike",
-        "label": "PF2E.Weapon.Base.claws",
+        "label": "COMP.UnarmedAttacks.Claws",
         "range": null,
         "traits": [
           "unarmed",
