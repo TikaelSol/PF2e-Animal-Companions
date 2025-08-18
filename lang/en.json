@@ -177,7 +177,7 @@
             "TerrorBird": {
                 "EffectNote": "Your Strikes that deal damage to the chosen creature make the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}."
             },
-           "Triceratops": {
+            "Triceratops": {
                 "EffectNote": "Your Strikes that damage a prone creature in your triceratops's reach also deal  @Damage[(@actor.flags.pf2e.rulesSelections.triceratopsSupportBenefit)d8[persistent,bleed]] damage."
             },
             "Tyrannosaurus": {
@@ -228,12 +228,13 @@
             "Zombie": {
                 "EffectNote": "Each time you hit a creature that's within 10 feet of the zombie and you deal damage, the creature takes an additional @Damage[(@actor.flags.pf2e.rulesSelections.zombieMountSupportBenefit)d6[untyped]] damage."
             }
+        },
+        "UnarmedAttacks": {
+            "Bite": "Bite",
+            "Blade": "Blade",
+            "Claws": "Claws",
+            "Slam": "Slam",
+            "TailSlam": "Tail Slam"
         }
-    },
-    "UnarmedAttacks": {
-        "Bite": "Bite",
-        "Blade": "Blade",
-        "Slam": "Slam",
-        "TailSlam": "Tail Slam"
     }
 }

@@ -15,7 +15,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "COMP.SpecificRule.Moth.EffectNote\n",
+        "text": "COMP.SpecificRule.Moth.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
