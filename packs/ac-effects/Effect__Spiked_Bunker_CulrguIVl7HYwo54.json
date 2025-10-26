@@ -17,13 +17,13 @@
                 "not": "feature:specialized-animal-companion"
               }
             ],
-            "value": 1
+            "value": 2
           },
           {
             "predicate": [
               "feature:specialized-animal-companion"
             ],
-            "value": 2
+            "value": 3
           }
         ],
         "key": "ChoiceSet",
@@ -66,7 +66,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Rage of Elements",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -101,9 +101,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_id": "CulrguIVl7HYwo54",

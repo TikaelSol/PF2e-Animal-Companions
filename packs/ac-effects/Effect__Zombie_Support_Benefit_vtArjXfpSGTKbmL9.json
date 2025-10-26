@@ -31,27 +31,21 @@
         "flag": "zombieSupportBenefit"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.animalCompanion.zombieSupportBenefit",
-        "value": "{item|flags.pf2e.rulesSelections.zombieSupportBenefit}"
+        "key": "RollOption",
+        "option": "zombie-support-benefit",
+        "toggleable": true
       },
       {
-        "key": "TokenMark",
-        "slug": "zombie-support-benefit"
-      },
-      {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.Zombie.EffectNote",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
+        "hideIfDisabled": true,
+        "critical": false,
+        "damageType": "untyped",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.zombieSupportBenefit}",
+        "dieSize": "d6",
+        "key": "DamageDice",
         "predicate": [
-          "target:mark:zombie-support-benefit"
-        ]
+          "zombie-support-benefit"
+        ],
+        "selector": "strike-damage"
       }
     ],
     "slug": null,
@@ -64,7 +58,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Book of the Dead",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -101,9 +95,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!vtArjXfpSGTKbmL9"

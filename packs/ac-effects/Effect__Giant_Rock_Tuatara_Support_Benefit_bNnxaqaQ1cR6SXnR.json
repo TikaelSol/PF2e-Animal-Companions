@@ -19,12 +19,19 @@
     },
     "rules": [
       {
+        "key": "RollOption",
+        "option": "giant-rock-tuatara-support-benefit",
+        "toggleable": true
+      },
+      {
         "key": "TokenMark",
         "slug": "giant-rock-tuatara-support-benefit"
       },
       {
         "key": "Note",
-        "selector": "strike-damage",
+        "selector": [
+          "strike-damage"
+        ],
         "text": "COMP.SpecificRule.GiantRockTuatara.EffectNote",
         "title": "{item|name}",
         "outcome": [
@@ -32,7 +39,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:giant-rock-tuatara-support-benefit"
+          "giant-rock-tuatara-support-benefit"
         ]
       }
     ],
@@ -73,9 +80,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "bNnxaqaQ1cR6SXnR",
   "sort": 500000,

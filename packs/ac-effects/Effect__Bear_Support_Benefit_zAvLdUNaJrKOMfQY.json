@@ -31,27 +31,21 @@
         "flag": "bearSupportBenefit"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.animalCompanion.bearSupportBenefit",
-        "value": "{item|flags.pf2e.rulesSelections.bearSupportBenefit}"
+        "key": "RollOption",
+        "option": "bear-support-benefit",
+        "toggleable": true
       },
       {
-        "key": "TokenMark",
-        "slug": "bear-support-benefit"
-      },
-      {
-        "key": "Note",
-        "selector": "attack-roll",
-        "text": "COMP.SpecificRule.Bear.EffectNote",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
+        "hideIfDisabled": true,
+        "critical": false,
+        "damageType": "slashing",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.bearSupportBenefit}",
+        "dieSize": "d8",
+        "key": "DamageDice",
         "predicate": [
-          "target:mark:bear-support-benefit"
-        ]
+          "bear-support-benefit"
+        ],
+        "selector": "strike-damage"
       }
     ],
     "slug": null,
@@ -101,9 +95,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.0",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!zAvLdUNaJrKOMfQY"

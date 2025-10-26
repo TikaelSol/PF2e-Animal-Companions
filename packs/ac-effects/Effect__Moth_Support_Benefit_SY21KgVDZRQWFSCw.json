@@ -9,12 +9,15 @@
     },
     "rules": [
       {
-        "key": "TokenMark",
-        "slug": "moth-support-benefit"
+        "key": "RollOption",
+        "option": "moth-support-benefit",
+        "toggleable": true
       },
       {
         "key": "Note",
-        "selector": "strike-damage",
+        "selector": [
+          "strike-damage"
+        ],
         "text": "COMP.SpecificRule.Moth.EffectNote",
         "title": "{item|name}",
         "outcome": [
@@ -22,7 +25,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:moth-support-benefit"
+          "moth-support-benefit"
         ]
       }
     ],
@@ -73,9 +76,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!SY21KgVDZRQWFSCw"

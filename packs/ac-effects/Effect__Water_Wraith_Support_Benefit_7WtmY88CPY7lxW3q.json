@@ -9,20 +9,23 @@
     },
     "rules": [
       {
-        "key": "TokenMark",
-        "slug": "water-wraith-support-benefit"
+        "key": "RollOption",
+        "option": "water-wraith-support-benefit",
+        "toggleable": true
       },
       {
         "key": "Note",
-        "selector": "strike-damage",
-        "text": "Each time you hit a creature within your water wraith's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.",
+        "selector": [
+          "strike-damage"
+        ],
+        "text": "COMP.SpecificRule.WaterWraith.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:water-wraith-support-benefit"
+          "water-wraith-support-benefit"
         ]
       }
     ],
@@ -36,7 +39,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Lost Omens: Impossible Lands",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -73,9 +76,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.6.4",
+    "exportSource": null
   },
   "_key": "!items!7WtmY88CPY7lxW3q"
 }

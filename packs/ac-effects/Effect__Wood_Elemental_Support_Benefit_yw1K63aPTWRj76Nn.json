@@ -9,31 +9,23 @@
     },
     "rules": [
       {
-        "key": "TokenMark",
-        "slug": "wood-elemental-support-benefit"
+        "key": "RollOption",
+        "option": "wood-elemental-support-benefit",
+        "toggleable": true
       },
       {
         "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.WoodElemental.EffectNote.Success",
-        "title": "{item|name}",
-        "outcome": [
-          "success"
+        "selector": [
+          "strike-damage"
         ],
-        "predicate": [
-          "target:mark:wood-elemental-support-benefit"
-        ]
-      },
-      {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.WoodElemental.EffectNote.CriticalSuccess",
+        "text": "COMP.SpecificRule.WoodElemental.EffectNote",
         "title": "{item|name}",
         "outcome": [
+          "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:wood-elemental-support-benefit"
+          "wood-elemental-support-benefit"
         ]
       }
     ],
@@ -47,10 +39,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Rage of Elements",
       "authors": "",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -84,9 +76,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!yw1K63aPTWRj76Nn"

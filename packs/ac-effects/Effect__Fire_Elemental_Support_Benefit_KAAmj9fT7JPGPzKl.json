@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.NSdcXgEHVHdfJlkb]{Fire Elemental Support Benefit}</p><p>your Strikes that damage a creature in your fire elemental's reach also deal 1d6 persistent fire damage. If your fire elemental is nimble or savage, the persistent fire damage increases to 2d6.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.NSdcXgEHVHdfJlkb]{Fire Elemental Support Benefit}</p><p>Your Strikes that damage a creature in your fire elemental's reach also deal persistent fire damage.</p>"
     },
     "rules": [
       {
@@ -31,27 +31,22 @@
         "flag": "fireElementalSupportBenefit"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.animalCompanion.fireElementalSupportBenefit",
-        "value": "{item|flags.pf2e.rulesSelections.fireElementalSupportBenefit}"
+        "key": "RollOption",
+        "option": "fire-elemental-support-benefit",
+        "toggleable": true
       },
       {
-        "key": "TokenMark",
-        "slug": "fire-elemental-support-benefit"
-      },
-      {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.FireElemental.EffectNote",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
+        "hideIfDisabled": true,
+        "category": "persistent",
+        "critical": false,
+        "damageType": "fire",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.fireElementalSupportBenefit}",
+        "dieSize": "d6",
+        "key": "DamageDice",
         "predicate": [
-          "target:mark:fire-elemental-support-benefit"
-        ]
+          "fire-elemental-support-benefit"
+        ],
+        "selector": "strike-damage"
       }
     ],
     "slug": null,
@@ -64,10 +59,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Rage of Elements",
       "authors": "",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -101,9 +96,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.0",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!KAAmj9fT7JPGPzKl"

@@ -1,26 +1,26 @@
 {
-  "name": "Effect: Severed Head Support Benefit",
+  "name": "Effect: Air Elemental Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.939,
+      "version": 0.948,
       "previous": null
     },
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.z6bNmmf5YiJrPbot]{Severed Head Support Benefit}</p><p>Your Strikes t<span style=\"font-family:Roboto, sans-serif\">hat damage a creature in your severed head's reach take a penalty to their speed and must succeed at a flat check to use reactions.</span></p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.aMFtyZ3QNQkduwqR]{Air Elemental Support Benefit}</p><p>If you hit with a Strike and deal damage to a creature in your air elemental's reach, you are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to that creature until the start of your next turn.</p>",
       "gm": ""
     },
     "publication": {
-      "title": "Pathfinder Lost Omens Shining Kingdoms",
+      "title": "Pathfinder Rage of Elements",
       "authors": "",
-      "license": "ORC",
+      "license": "OGL",
       "remaster": true
     },
     "rules": [
       {
         "key": "RollOption",
-        "option": "severed-head-support-benefit",
+        "option": "air-elemental-support-benefit",
         "toggleable": true
       },
       {
@@ -28,14 +28,14 @@
         "selector": [
           "strike-damage"
         ],
-        "text": "COMP.SpecificRule.SeveredHead.EffectNote.SupportBenefit",
+        "text": "COMP.SpecificRule.AirElemental.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "severed-head-support-benefit"
+          "air-elemental-support-benefit"
         ]
       }
     ],
@@ -65,8 +65,10 @@
     "fromSpell": false,
     "context": null
   },
-  "img": "icons/creatures/abilities/mouth-teeth-human.webp",
+  "_id": "UaUFJKZxEkN7yraC",
+  "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
   "folder": null,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "ZsoDU6dAQFmGr3tK": 3
@@ -80,7 +82,5 @@
     "systemId": "pf2e",
     "systemVersion": "7.6.4"
   },
-  "_id": "IReZWo5PdAe4F9IH",
-  "sort": 600000,
-  "_key": "!items!IReZWo5PdAe4F9IH"
+  "_key": "!items!UaUFJKZxEkN7yraC"
 }

@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.YsLLV4J7L6fgzTXf]{Shark Support Benefit}</p><p>Each time you hit a creature in the shark's reach with a Strike and deal slashing or piercing damage, the creature takes 1d8 slashing damage from the shark.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.YsLLV4J7L6fgzTXf]{Shark Support Benefit}</p><p>Each time you hit a creature in the shark's reach with a Strike and deal slashing or piercing damage, the creature takes additional slashing damage from the shark.</p>"
     },
     "rules": [
       {
@@ -31,27 +31,27 @@
         "flag": "sharkSupportBenefit"
       },
       {
-        "key": "TokenMark",
-        "slug": "shark-support-benefit"
+        "key": "RollOption",
+        "option": "shark-support-benefit",
+        "toggleable": true
       },
       {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "Each time you hit a creature in the shark's reach with a Strike and deal slashing or piercing damage, the creature takes @Damage[({item|flags.pf2e.rulesSelections.sharkSupportBenefit})d8[slashing]] damage from the shark.",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
+        "hideIfDisabled": true,
+        "critical": false,
+        "damageType": "slashing",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.sharkSupportBenefit}",
+        "dieSize": "d8",
+        "key": "DamageDice",
         "predicate": [
-          "target:mark:shark-support-benefit",
+          "shark-support-benefit",
           {
             "or": [
               "item:damage:type:slashing",
               "item:damage:type:piercing"
             ]
           }
-        ]
+        ],
+        "selector": "strike-damage"
       }
     ],
     "slug": null,
@@ -64,10 +64,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -101,9 +101,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.6.4",
+    "exportSource": null
   },
   "_key": "!items!Lgc3OAVIdK8uN9nM"
 }

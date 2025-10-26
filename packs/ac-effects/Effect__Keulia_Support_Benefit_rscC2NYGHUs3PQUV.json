@@ -41,27 +41,21 @@
         "flag": "keuliaSupportBenefit"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.animalCompanion.keuliaSupportBenefit",
-        "value": "{item|flags.pf2e.rulesSelections.keuliaSupportBenefit}"
+        "key": "RollOption",
+        "option": "keulia-support-benefit",
+        "toggleable": true
       },
       {
-        "key": "TokenMark",
-        "slug": "keulia-support-benefit"
-      },
-      {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.Keulia.EffectNote",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
+        "hideIfDisabled": true,
+        "critical": false,
+        "damageType": "bludgeoning",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.keuliaSupportBenefit}",
+        "dieSize": "d8",
+        "key": "DamageDice",
         "predicate": [
-          "target:mark:keulia-support-benefit"
-        ]
+          "keulia-support-benefit"
+        ],
+        "selector": "strike-damage"
       }
     ],
     "slug": null,
@@ -101,9 +95,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "rscC2NYGHUs3PQUV",
   "sort": 200000,

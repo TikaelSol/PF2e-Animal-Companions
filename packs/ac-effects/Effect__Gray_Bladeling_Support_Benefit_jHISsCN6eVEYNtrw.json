@@ -41,34 +41,37 @@
         "flag": "grayBladelingSupportBenefit"
       },
       {
+        "key": "RollOption",
+        "option": "gray-bladeling-support-benefit",
+        "toggleable": true
+      },
+      {
+        "hideIfDisabled": true,
+        "category": "persistent",
+        "critical": false,
+        "damageType": "bleed",
+        "diceNumber": 1,
+        "dieSize": "{item|flags.pf2e.rulesSelections.grayBladelingSupportBenefit}",
+        "key": "DamageDice",
+        "predicate": [
+          "gray-bladeling-support-benefit",
+          {
+            "not": "target:condition:persistent-damage:bleed"
+          }
+        ],
+        "selector": "strike-damage"
+      },
+      {
         "key": "ActiveEffectLike",
         "mode": "override",
         "path": "flags.pf2e.animalCompanion.grayBladelingSupportBenefit",
         "value": "{item|flags.pf2e.rulesSelections.grayBladelingSupportBenefit}"
       },
       {
-        "key": "TokenMark",
-        "slug": "gray-bladeling-support-benefit"
-      },
-      {
         "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.GrayBladeling.EffectNote.Bleeding",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
+        "selector": [
+          "strike-damage"
         ],
-        "predicate": [
-          "target:mark:gray-bladeling-support-benefit",
-          {
-            "not": "target:condition:persistent-damage:bleed"
-          }
-        ]
-      },
-      {
-        "key": "Note",
-        "selector": "strike-damage",
         "text": "COMP.SpecificRule.GrayBladeling.EffectNote.Frightened",
         "title": "{item|name}",
         "outcome": [
@@ -76,7 +79,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:gray-bladeling-support-benefit",
+          "gray-bladeling-support-benefit",
           "target:condition:persistent-damage:bleed"
         ]
       }
@@ -118,9 +121,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "jHISsCN6eVEYNtrw",
   "sort": 400000,

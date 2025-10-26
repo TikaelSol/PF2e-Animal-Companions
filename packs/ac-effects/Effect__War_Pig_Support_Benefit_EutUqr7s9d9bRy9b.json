@@ -19,12 +19,15 @@
     },
     "rules": [
       {
-        "key": "TokenMark",
-        "slug": "war-pig-support-benefit"
+        "key": "RollOption",
+        "option": "war-pig-support-benefit",
+        "toggleable": true
       },
       {
         "key": "Note",
-        "selector": "strike-damage",
+        "selector": [
+          "strike-damage"
+        ],
         "text": "COMP.SpecificRule.WarPig.EffectNote",
         "title": "{item|name}",
         "outcome": [
@@ -32,7 +35,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:war--pig-support-benefit"
+          "war--pig-support-benefit"
         ]
       }
     ],
@@ -73,9 +76,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "EutUqr7s9d9bRy9b",
   "sort": 2400000,

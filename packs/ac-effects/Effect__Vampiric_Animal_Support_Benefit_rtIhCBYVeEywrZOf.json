@@ -31,27 +31,22 @@
         "flag": "vampiricAnimalSupportBenefit"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.animalCompanion.vampiricAnimalSupportBenefit",
-        "value": "{item|flags.pf2e.rulesSelections.vampiricAnimalSupportBenefit}"
+        "key": "RollOption",
+        "option": "vampiric-animal-support-benefit",
+        "toggleable": true
       },
       {
-        "key": "TokenMark",
-        "slug": "vampiric-animal-support-benefit"
-      },
-      {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.VampiricAnimal.EffectNote",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
+        "hideIfDisabled": true,
+        "category": "persistent",
+        "critical": false,
+        "damageType": "bleed",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.vampiricAnimalSupportBenefit}",
+        "dieSize": "d6",
+        "key": "DamageDice",
         "predicate": [
-          "target:mark:vampiric-animal-support-benefit"
-        ]
+          "vampiric-animal-support-benefit"
+        ],
+        "selector": "strike-damage"
       }
     ],
     "slug": null,
@@ -64,7 +59,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Book of the Dead",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -101,9 +96,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!rtIhCBYVeEywrZOf"

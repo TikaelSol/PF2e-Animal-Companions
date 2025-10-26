@@ -31,27 +31,22 @@
         "flag": "metalElementalSupportBenefit"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.animalCompanion.metalElementalSupportBenefit",
-        "value": "{item|flags.pf2e.rulesSelections.metalElementalSupportBenefit}"
+        "key": "RollOption",
+        "option": "metal-elemental-support-benefit",
+        "toggleable": true
       },
       {
-        "key": "TokenMark",
-        "slug": "metal-elemental-support-benefit"
-      },
-      {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.MetalElemental.EffectNote",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
+        "hideIfDisabled": true,
+        "category": "persistent",
+        "critical": false,
+        "damageType": "bleed",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.metalElementalSupportBenefit}",
+        "dieSize": "d6",
+        "key": "DamageDice",
         "predicate": [
-          "target:mark:metal-elemental-support-benefit"
-        ]
+          "metal-elemental-support-benefit"
+        ],
+        "selector": "strike-damage"
       }
     ],
     "slug": null,
@@ -64,10 +59,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Rage of Elements",
       "authors": "",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -101,9 +96,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!4QHjAGY39Q86gAEe"

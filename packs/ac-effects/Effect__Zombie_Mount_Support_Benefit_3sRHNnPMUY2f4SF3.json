@@ -31,17 +31,18 @@
         "flag": "zombieMountSupportBenefit"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.animalCompanion.zombieMountSupportBenefit",
-        "value": "{item|flags.pf2e.rulesSelections.zombieMountSupportBenefit}"
-      },
-      {
-        "key": "TokenMark",
-        "slug": "zombie-mount-support-benefit"
+        "key": "RollOption",
+        "option": "zombie-mount-support-benefit",
+        "toggleable": true
       },
       {
         "alwaysActive": true,
+        "disabledIf": [
+          {
+            "not": "zombie-mount-support-benefit"
+          }
+        ],
+        "disabledValue": false,
         "key": "RollOption",
         "label": "PF2E.SpecificRule.Prompt.DamageType",
         "option": "zombie-mount-damage",
@@ -55,26 +56,26 @@
             "value": "piercing"
           }
         ],
-        "toggleable": true
+        "toggleable": true,
+        "value": "bludgeoning"
+      },
+      {
+        "hideIfDisabled": true,
+        "critical": false,
+        "damageType": "{item|flags.pf2e.rulesSelections.zombieMountDamage}",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.zombieMountSupportBenefit}",
+        "dieSize": "d4",
+        "key": "DamageDice",
+        "predicate": [
+          "zombie-mount-support-benefit"
+        ],
+        "selector": "strike-damage"
       },
       {
         "key": "ActiveEffectLike",
         "mode": "override",
         "path": "flags.pf2e.animalCompanion.zombieMountDamage",
         "value": "{item|flags.pf2e.rulesSelections.zombieMountDamage}"
-      },
-      {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.ZombieMount.EffectNote",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
-        "predicate": [
-          "target:mark:zombie-mount-support-benefit"
-        ]
       }
     ],
     "slug": null,
@@ -87,7 +88,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder #181: Zombie Feast",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -124,9 +125,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!3sRHNnPMUY2f4SF3"

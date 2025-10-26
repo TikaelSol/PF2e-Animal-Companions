@@ -9,16 +9,19 @@
     },
     "rules": [
       {
-        "key": "TokenMark",
-        "slug": "bat-support-benefit"
+        "key": "RollOption",
+        "option": "bat-support-benefit",
+        "toggleable": true
       },
       {
         "key": "FlatModifier",
-        "selector": "attack-roll",
+        "selector": [
+          "attack-roll"
+        ],
         "value": -1,
         "type": "circumstance",
         "predicate": [
-          "target:mark:bat-support-benefit"
+          "bat-support-benefit"
         ]
       }
     ],
@@ -32,10 +35,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -69,9 +72,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.3"
+    "systemVersion": "7.6.4",
+    "exportSource": null
   },
   "_key": "!items!ksT2DrI2r1uZQhz6"
 }
