@@ -31,27 +31,21 @@
         "flag": "undeadHandSupportBenefit"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.animalCompanion.undeadHandSupportBenefit",
-        "value": "{item|flags.pf2e.rulesSelections.undeadHandSupportBenefit}"
+        "key": "RollOption",
+        "option": "undead-hand-support-benefit",
+        "toggleable": true
       },
       {
-        "key": "TokenMark",
-        "slug": "undead-hand-support-benefit"
-      },
-      {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.UndeadHand.EffectNote",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
+        "hideIfDisabled": true,
+        "critical": false,
+        "damageType": "bludgeoning",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.undeadHandSupportBenefit}",
+        "dieSize": "d6",
+        "key": "DamageDice",
         "predicate": [
-          "target:mark:undead-hand-support-benefit"
-        ]
+          "undead-hand-support-benefit"
+        ],
+        "selector": "strike-damage"
       }
     ],
     "slug": null,
@@ -64,7 +58,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder #181: Zombie Feast",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -101,9 +95,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!TbsMurFpA6ZkZIfF"

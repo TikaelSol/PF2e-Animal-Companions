@@ -9,12 +9,15 @@
     },
     "rules": [
       {
-        "key": "TokenMark",
-        "slug": "water-elemental-support-benefit"
+        "key": "RollOption",
+        "option": "water-elemental-support-benefit",
+        "toggleable": true
       },
       {
         "key": "Note",
-        "selector": "strike-damage",
+        "selector": [
+          "strike-damage"
+        ],
         "text": "COMP.SpecificRule.WaterElemental.EffectNote",
         "title": "{item|name}",
         "outcome": [
@@ -22,7 +25,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:water-elemental-support-benefit"
+          "water-elemental-support-benefit"
         ]
       }
     ],
@@ -36,10 +39,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Rage of Elements",
       "authors": "",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -73,9 +76,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!DB0mJPinz35BgBS1"

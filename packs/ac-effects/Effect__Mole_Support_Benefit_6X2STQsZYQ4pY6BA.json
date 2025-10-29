@@ -9,12 +9,15 @@
     },
     "rules": [
       {
-        "key": "TokenMark",
-        "slug": "mole-support-benefit"
+        "key": "RollOption",
+        "option": "mole-support-benefit",
+        "toggleable": true
       },
       {
         "key": "Note",
-        "selector": "strike-damage",
+        "selector": [
+          "strike-damage"
+        ],
         "text": "COMP.SpecificRule.Mole.EffectNote",
         "title": "{item|name}",
         "outcome": [
@@ -22,7 +25,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:mole-support-benefit"
+          "mole-support-benefit"
         ]
       }
     ],
@@ -73,9 +76,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!6X2STQsZYQ4pY6BA"

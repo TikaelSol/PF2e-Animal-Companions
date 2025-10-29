@@ -9,16 +9,19 @@
     },
     "rules": [
       {
-        "key": "TokenMark",
-        "slug": "capybara-support-benefit"
+        "key": "RollOption",
+        "option": "capybara-support-benefit",
+        "toggleable": true
       },
       {
         "key": "FlatModifier",
-        "selector": "attack-roll",
+        "selector": [
+          "attack-roll"
+        ],
         "value": 1,
         "type": "circumstance",
         "predicate": [
-          "target:mark:capybara-support-benefit"
+          "capybara-support-benefit"
         ],
         "removeAfterRoll": "if-enabled"
       }
@@ -33,7 +36,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Lost Omens Grand Bazaar",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -70,9 +73,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.3"
+    "systemVersion": "7.6.4",
+    "exportSource": null
   },
   "_key": "!items!vh7CqhkZY85PnvMm"
 }

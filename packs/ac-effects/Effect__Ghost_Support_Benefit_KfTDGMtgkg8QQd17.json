@@ -9,12 +9,15 @@
     },
     "rules": [
       {
-        "key": "TokenMark",
-        "slug": "ghost-support-benefit"
+        "key": "RollOption",
+        "option": "ghost-support-benefit",
+        "toggleable": true
       },
       {
         "key": "Note",
-        "selector": "strike-damage",
+        "selector": [
+          "strike-damage"
+        ],
         "text": "COMP.SpecificRule.Ghost.EffectNote",
         "title": "{item|name}",
         "outcome": [
@@ -22,7 +25,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:ghost-support-benefit"
+          "ghost-support-benefit"
         ]
       }
     ],
@@ -73,9 +76,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.0",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!KfTDGMtgkg8QQd17"

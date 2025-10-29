@@ -9,12 +9,15 @@
     },
     "rules": [
       {
-        "key": "TokenMark",
-        "slug": "elk-support-benefit"
+        "key": "RollOption",
+        "option": "elk-support-benefit",
+        "toggleable": true
       },
       {
         "key": "Note",
-        "selector": "strike-damage",
+        "selector": [
+          "strike-damage"
+        ],
         "text": "COMP.SpecificRule.Elk.EffectNote",
         "title": "{item|name}",
         "outcome": [
@@ -22,7 +25,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:elk-support-benefit"
+          "elk-support-benefit"
         ]
       }
     ],
@@ -36,10 +39,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Howl of the Wild",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -73,9 +76,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.0",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!uOzhPI4odakOi0uj"

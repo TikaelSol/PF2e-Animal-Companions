@@ -18,7 +18,7 @@
         "property": "description",
         "value": [
           {
-            "text": "Attempt a @Check[flat|dc:5|showDC:all]. On a failure, the action is disrupted."
+            "text": "COMP.SpecificRule.MonitorLizard.ManipulateNote"
           }
         ]
       },
@@ -32,7 +32,7 @@
         "property": "description",
         "value": [
           {
-            "text": "Attempt a @Check[flat|dc:5|showDC:all]. On a failure, the action is disrupted."
+            "text": "COMP.SpecificRule.MonitorLizard.ManipulateNote"
           }
         ]
       },
@@ -46,7 +46,7 @@
         "property": "description",
         "value": [
           {
-            "text": "Attempt a @Check[flat|dc:5|showDC:all]. On a failure, the action is disrupted."
+            "text": "COMP.SpecificRule.MonitorLizard.ManipulateNote"
           }
         ]
       }
@@ -61,10 +61,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder #154: Siege of the Dinosaurs",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -98,9 +98,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.6.4",
+    "exportSource": null
   },
   "_key": "!items!eXABjTK48R1xCvOZ"
 }

@@ -31,27 +31,22 @@
         "flag": "wyvernSupportBenefit"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.animalCompanion.wyvernSupportBenefit",
-        "value": "{item|flags.pf2e.rulesSelections.wyvernSupportBenefit}"
+        "key": "RollOption",
+        "option": "wyvern-support-benefit",
+        "toggleable": true
       },
       {
-        "key": "TokenMark",
-        "slug": "wyvern-support-benefit"
-      },
-      {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.Wyvern.EffectNote",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
+        "hideIfDisabled": true,
+        "category": "persistent",
+        "critical": false,
+        "damageType": "poison",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.wyvernSupportBenefit}",
+        "dieSize": "d6",
+        "key": "DamageDice",
         "predicate": [
-          "target:mark:wyvern-support-benefit"
-        ]
+          "wyvern-support-benefit"
+        ],
+        "selector": "strike-damage"
       }
     ],
     "slug": null,
@@ -101,9 +96,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!7dCJv3nCv85lwFO7"

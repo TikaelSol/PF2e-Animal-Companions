@@ -39,10 +39,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Howl of the Wild",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -76,9 +76,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.0",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!YWqoEHfSzoPH0RsW"

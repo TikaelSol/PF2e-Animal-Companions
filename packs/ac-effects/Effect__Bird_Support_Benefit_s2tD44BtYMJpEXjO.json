@@ -31,18 +31,28 @@
         "flag": "birdSupportBenefit"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.animalCompanion.birdSupportBenefit",
-        "value": "{item|flags.pf2e.rulesSelections.birdSupportBenefit}"
+        "key": "RollOption",
+        "option": "bird-support-benefit",
+        "toggleable": true
       },
       {
-        "key": "TokenMark",
-        "slug": "bird-support-benefit"
+        "hideIfDisabled": true,
+        "category": "persistent",
+        "critical": false,
+        "damageType": "bleed",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.antelopeSupportBenefit}",
+        "dieSize": "d4",
+        "key": "DamageDice",
+        "predicate": [
+          "bird-support-benefit"
+        ],
+        "selector": "strike-damage"
       },
       {
         "key": "Note",
-        "selector": "strike-damage",
+        "selector": [
+          "strike-damage"
+        ],
         "text": "COMP.SpecificRule.Bird.EffectNote",
         "title": "{item|name}",
         "outcome": [
@@ -50,7 +60,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:bird-support-benefit"
+          "bird-support-benefit"
         ]
       }
     ],
@@ -64,10 +74,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -101,9 +111,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.0",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!s2tD44BtYMJpEXjO"

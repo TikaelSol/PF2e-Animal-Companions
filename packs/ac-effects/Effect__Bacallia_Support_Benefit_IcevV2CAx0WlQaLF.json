@@ -19,12 +19,15 @@
     },
     "rules": [
       {
-        "key": "TokenMark",
-        "slug": "bacallia-support-benefit"
+        "key": "RollOption",
+        "option": "bacallia-support-benefit",
+        "toggleable": true
       },
       {
         "key": "Note",
-        "selector": "strike-damage",
+        "selector": [
+          "strike-damage"
+        ],
         "text": "COMP.SpecificRule.Bacallia.EffectNote",
         "title": "{item|name}",
         "outcome": [
@@ -32,7 +35,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "target:mark:bacallia-support-benefit"
+          "bacallia-support-benefit"
         ]
       }
     ],
@@ -73,9 +76,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "IcevV2CAx0WlQaLF",
   "sort": 100000,

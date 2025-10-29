@@ -31,27 +31,22 @@
         "flag": "scorpionSupportBenefit"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.animalCompanion.scorpionSupportBenefit",
-        "value": "{item|flags.pf2e.rulesSelections.scorpionSupportBenefit}"
+        "key": "RollOption",
+        "option": "scorpion-support-benefit",
+        "toggleable": true
       },
       {
-        "key": "TokenMark",
-        "slug": "scorpion-support-benefit"
-      },
-      {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.Scorpion.EffectNote",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
+        "hideIfDisabled": true,
+        "category": "persistent",
+        "critical": false,
+        "damageType": "poison",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.scorpionSupportBenefit}",
+        "dieSize": "d6",
+        "key": "DamageDice",
         "predicate": [
-          "target:mark:scorpion-support-benefit"
-        ]
+          "scorpion-support-benefit"
+        ],
+        "selector": "strike-damage"
       }
     ],
     "slug": null,
@@ -64,10 +59,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -101,9 +96,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!YNclyD1YN0eGiOix"

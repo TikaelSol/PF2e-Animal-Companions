@@ -31,21 +31,35 @@
         "flag": "ulgremLurannSupportBenefit"
       },
       {
-        "key": "TokenMark",
-        "slug": "ulgrem-lurann-support-benefit"
+        "key": "RollOption",
+        "option": "ulgrem-lurann-support-benefit",
+        "toggleable": true
       },
       {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.UlgremLurann.EffectNote",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
-        ],
+        "hideIfDisabled": true,
+        "critical": false,
+        "damageType": "piercing",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.ulgremLurannSupportBenefit}",
+        "dieSize": "d4",
+        "key": "DamageDice",
         "predicate": [
-          "target:mark:ulgrem-lurann-support-benefit"
-        ]
+          "ulgrem-lurann-support-benefit"
+        ],
+        "selector": "strike-damage",
+        "slug": "ulgrem-lurann-piercing-damage"
+      },
+      {
+        "hideIfDisabled": true,
+        "critical": false,
+        "damageType": "electricity",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.ulgremLurannSupportBenefit}",
+        "dieSize": "d4",
+        "key": "DamageDice",
+        "predicate": [
+          "ulgrem-lurann-support-benefit"
+        ],
+        "selector": "strike-damage",
+        "slug": "ulgrem-lurann-electricity-damage"
       }
     ],
     "slug": null,
@@ -58,7 +72,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Lost Omens Monsters of Myth",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -95,9 +109,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!axG8U0tIGTXhjA6x"

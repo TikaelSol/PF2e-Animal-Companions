@@ -31,30 +31,34 @@
         "flag": "ridingDrakeSupportBenefit"
       },
       {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.animalCompanion.ridingDrakeSupportBenefit",
-        "value": "{item|flags.pf2e.rulesSelections.ridingDrakeSupportBenefit}"
-      },
-      {
         "domain": "all",
         "key": "RollOption",
-        "option": "riding-the-drake",
-        "label": "Riding the Drake",
+        "option": "riding-drake-mounted",
+        "label": "COMP.SpecificRule.RidingDrake.Label",
         "toggleable": true
       },
       {
-        "key": "Note",
-        "selector": "strike-damage",
-        "text": "COMP.SpecificRule.RidingDrake.EffectNote",
-        "title": "{item|name}",
-        "outcome": [
-          "success",
-          "criticalSuccess"
+        "disabledIf": [
+          {
+            "not": "riding-drake-mounted"
+          }
         ],
+        "disabledValue": false,
+        "key": "RollOption",
+        "option": "riding-drake-support-benefit",
+        "toggleable": true
+      },
+      {
+        "hideIfDisabled": true,
+        "critical": false,
+        "damageType": "fire",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.ridingDrakeSupportBenefit}",
+        "dieSize": "d4",
+        "key": "DamageDice",
         "predicate": [
-          "riding-the-drake"
-        ]
+          "riding-drake-support-benefit"
+        ],
+        "selector": "strike-damage"
       }
     ],
     "slug": null,
@@ -67,10 +71,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -104,9 +108,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!5VHKIMzKMw3r2BOa"
