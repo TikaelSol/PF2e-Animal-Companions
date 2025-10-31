@@ -181,6 +181,11 @@
             },
             "WoodElemental": {
                 "EffectNote": "The target takes a –5-foot circumstance penalty to its Speeds for 1 minute (–10 on a critical success). @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.U2mkebPNSs531ADL]{Effect: Wood Elemental Support Benefit Speed Penalty}"
+            },
+            "Wyvern": {
+                "StingerPoison": {
+                    "Label": "Stinger Poison"
+                }
             }
         },
         "UnarmedAttacks": {

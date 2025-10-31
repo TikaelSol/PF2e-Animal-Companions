@@ -96,14 +96,41 @@
           "unarmed"
         ],
         "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
-        "replaceBasicUnarmed": true
+        "replaceBasicUnarmed": true,
+        "slug": "jaws-damage"
       },
       {
         "key": "FlatModifier",
+        "selector": [
+          "stinger-damage"
+        ],
+        "value": 2,
+        "label": "COMP.SpecificRule.Wyvern.StingerPoison.Label",
+        "damageType": "poison",
+        "slug": "stinger-poison-bonus"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "feature:mature-animal-companion",
+          {
+            "not": "feature:specialized-animal-companion"
+          }
+        ],
         "selector": "stinger-damage",
-        "value": "1 + @weapon.system.damage.dice",
-        "label": "Stinger Poison",
-        "damageType": "poison"
+        "slug": "stinger-poison-bonus",
+        "value": 3
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ],
+        "selector": "stinger-damage",
+        "slug": "stinger-poison-bonus",
+        "value": 4
       },
       {
         "key": "ActiveEffectLike",
@@ -136,6 +163,7 @@
     },
     "hp": 8,
     "size": "lg",
+    "hands": 2,
     "reach": 5,
     "speed": 20,
     "boosts": {
@@ -184,9 +212,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.0"
+    "systemVersion": "7.6.4",
+    "exportSource": null
   },
   "_id": "j3UBiLbni9on3pAW",
   "sort": 0,
