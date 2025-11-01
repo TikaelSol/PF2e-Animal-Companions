@@ -100,6 +100,7 @@
     },
     "hp": 4,
     "size": "sm",
+    "hands": 2,
     "reach": 5,
     "speed": 30,
     "boosts": {
@@ -140,7 +141,7 @@
     "vision": "low-light-vision"
   },
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
-  "folder": null,
+  "folder": "Rn81F1uZdgYGoXoS",
   "ownership": {
     "default": 0,
     "ZsoDU6dAQFmGr3tK": 3
@@ -150,11 +151,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
     "systemVersion": "7.1.1"
   },
   "_id": "H1TJKp0PCdNiTI3Z",
-  "sort": 200000,
+  "sort": 4600000,
   "_key": "!items!H1TJKp0PCdNiTI3Z"
 }

@@ -12,10 +12,10 @@
       "gm": ""
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Battlecry!",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "rules": [
       {
@@ -96,8 +96,8 @@
   },
   "_id": "GQ0OcgfWpJEKflEq",
   "img": "icons/magic/fire/beam-jet-stream-blue.webp",
-  "folder": null,
-  "sort": 0,
+  "folder": "xb7i6YvPBPtfvP3K",
+  "sort": 175000,
   "ownership": {
     "default": 0,
     "ZsoDU6dAQFmGr3tK": 3
@@ -107,9 +107,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.6.4"
   },
   "_key": "!items!GQ0OcgfWpJEKflEq"
 }

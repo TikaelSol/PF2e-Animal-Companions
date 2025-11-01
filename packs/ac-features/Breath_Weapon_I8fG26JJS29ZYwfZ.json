@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/spells/dragon-breath.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.I8fG26JJS29ZYwfZ"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -61,12 +59,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.5",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.I8fG26JJS29ZYwfZ",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 3200000,
+  "folder": "kpWJAjuzGZKJKYh0",
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

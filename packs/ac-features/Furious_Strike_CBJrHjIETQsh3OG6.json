@@ -4,9 +4,7 @@
   "img": "systems/pf2e/icons/spells/blade-barrier.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.JzpBHDMryMKDHWCK"
-    }
+    "core": {}
   },
   "_id": "CBJrHjIETQsh3OG6",
   "system": {
@@ -36,7 +34,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Secrets of Magic",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -60,13 +58,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.CBJrHjIETQsh3OG6",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.JzpBHDMryMKDHWCK",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 2100000,
+  "folder": "q3nXFZfwRZgEhUKV",
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

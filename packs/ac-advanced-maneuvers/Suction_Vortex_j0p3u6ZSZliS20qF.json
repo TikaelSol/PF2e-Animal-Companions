@@ -1,0 +1,59 @@
+{
+  "name": "Suction Vortex",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.95,
+      "previous": {
+        "schema": 0.949,
+        "foundry": "13.350",
+        "system": "7.6.4"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> The ravenous drake doesn't have a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} in its jaws</p><hr /><p><strong>Effect</strong> The ravenous drake draws in a powerful intake of breath, attempting to pull a foe within 10 feet toward it. The drake attempts an @Check[athletics|against:fortitude] check against the foe's Fortitude DC. On a success, the ravenous drake pulls the foe up to 10 feet to be adjacent to it. This movement is forced movement. On a critical success, the foe is also grabbed by the drake's jaws until the beginning of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Alien Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4"
+  },
+  "_id": "j0p3u6ZSZliS20qF",
+  "sort": 0,
+  "_key": "!items!j0p3u6ZSZliS20qF"
+}

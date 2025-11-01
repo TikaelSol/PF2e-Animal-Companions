@@ -24,10 +24,6 @@
         "toggleable": true
       },
       {
-        "key": "TokenMark",
-        "slug": "giant-rock-tuatara-support-benefit"
-      },
-      {
         "key": "Note",
         "selector": [
           "strike-damage"

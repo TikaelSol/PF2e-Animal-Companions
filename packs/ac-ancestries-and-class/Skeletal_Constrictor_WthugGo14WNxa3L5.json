@@ -4,12 +4,10 @@
   "type": "ancestry",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
-  "folder": null,
-  "sort": 7500000,
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 6800000,
   "flags": {
-    "core": {
-      "sourceId": "Item.WthugGo14WNxa3L5"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -90,6 +88,14 @@
         "mode": "override",
         "path": "flags.pf2e.companionCompendia.advancedManeuver",
         "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.AH3kNbdGLYaRjVAr"
+      },
+      {
+        "key": "Immunity",
+        "type": [
+          "death-effects",
+          "disease",
+          "poison"
+        ]
       }
     ],
     "slug": "skeletal-constrictor",
@@ -105,7 +111,6 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "minion",
         "undead"
       ],
       "rarity": "uncommon"
@@ -118,6 +123,7 @@
     },
     "hp": 4,
     "size": "sm",
+    "hands": 2,
     "reach": 5,
     "speed": 20,
     "boosts": {
@@ -151,6 +157,12 @@
         "img": "systems/pf2e/icons/spells/mind-of-menace.webp",
         "name": "Mindless Companion",
         "level": 0
+      },
+      "dZwMf": {
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.3mUx8vXEQkiIuBcR",
+        "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+        "name": "Negative Healing",
+        "level": 1
       }
     },
     "vision": "darkvision",
@@ -163,10 +175,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Item.WthugGo14WNxa3L5",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!WthugGo14WNxa3L5"
 }

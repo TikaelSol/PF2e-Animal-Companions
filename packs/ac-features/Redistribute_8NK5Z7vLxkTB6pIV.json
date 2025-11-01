@@ -40,8 +40,8 @@
   },
   "_id": "8NK5Z7vLxkTB6pIV",
   "img": "systems/pf2e/icons/actions/Reaction.webp",
-  "folder": "JaJf7QymmsmGAv8z",
-  "sort": 112500,
+  "folder": "xb7i6YvPBPtfvP3K",
+  "sort": -100000,
   "ownership": {
     "default": 0,
     "ZsoDU6dAQFmGr3tK": 3
@@ -51,7 +51,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
     "systemVersion": "7.2.3"
   },

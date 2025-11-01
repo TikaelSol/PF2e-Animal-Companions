@@ -21,7 +21,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Lost Omens: Impossible Lands",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -42,19 +42,18 @@
     "qA45GVv5hySaf9b5": 3
   },
   "flags": {
-    "core": {
-      "sourceId": "Item.pk04uZmpsxCuJozL"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.IUXX1lUd9kMzV4bq",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.pk04uZmpsxCuJozL",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
-  "sort": 5200000,
+  "sort": 6300000,
   "_id": "IUXX1lUd9kMzV4bq",
   "_key": "!items!IUXX1lUd9kMzV4bq"
 }

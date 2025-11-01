@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/spells/fey-glamour.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.uqwHH20BKk3WcjbW"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -61,12 +59,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.1",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.uqwHH20BKk3WcjbW",
-    "duplicateSource": null
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.uqwHH20BKk3WcjbW",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 10600000,
+  "folder": "aOspaDr7wy2gJDm4",
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

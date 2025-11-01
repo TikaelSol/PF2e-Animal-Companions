@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/spells/spellwrack.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.xE3lRxl1t4ulQyLa"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -73,7 +71,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Book of the Dead",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -82,13 +80,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.xE3lRxl1t4ulQyLa",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 10900000,
+  "folder": "ecK9IrCUtW1bkFl6",
+  "sort": 25000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

@@ -22,10 +22,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Rage of Elements",
       "authors": "",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "actionType": {
       "value": "action"
@@ -48,7 +48,7 @@
     "exportSource": null
   },
   "folder": null,
-  "sort": 2200000,
+  "sort": 3500000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

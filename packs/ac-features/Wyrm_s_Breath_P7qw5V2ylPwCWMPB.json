@@ -4,9 +4,7 @@
   "img": "systems/pf2e/icons/spells/gaseous-form.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.OpY6a94rSi4BRRce"
-    }
+    "core": {}
   },
   "_id": "P7qw5V2ylPwCWMPB",
   "system": {
@@ -36,7 +34,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Secrets of Magic",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -60,13 +58,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.P7qw5V2ylPwCWMPB",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.OpY6a94rSi4BRRce",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 4500000,
+  "folder": "kpWJAjuzGZKJKYh0",
+  "sort": 225000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

@@ -39,17 +39,17 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder: Howl of the Wild",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
     },
     "duration": {
-      "value": -1,
-      "unit": "encounter",
+      "value": 1,
+      "unit": "rounds",
       "expiry": "turn-start",
       "sustained": false
     },

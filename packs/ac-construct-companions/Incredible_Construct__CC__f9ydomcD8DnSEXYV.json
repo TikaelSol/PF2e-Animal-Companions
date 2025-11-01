@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 500000,
   "flags": {
-    "core": {
-      "sourceId": "Item.pSbtGxTCyS32FZrY"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -88,10 +86,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Guns & Gears",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 8
@@ -116,10 +114,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Construct-Companions.Item.f9ydomcD8DnSEXYV",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.pSbtGxTCyS32FZrY",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!f9ydomcD8DnSEXYV"
 }

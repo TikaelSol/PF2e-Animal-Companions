@@ -3,7 +3,7 @@
   "type": "ancestry",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
-  "folder": null,
+  "folder": "Rn81F1uZdgYGoXoS",
   "flags": {
     "core": {}
   },
@@ -117,18 +117,19 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "animal"
+        "plant"
       ],
-      "rarity": "uncommon"
+      "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Treasure Vault",
+      "title": "Pathfinder Treasure Vault (Remastered)",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "hp": 8,
     "size": "med",
+    "hands": 2,
     "reach": 5,
     "speed": 30,
     "boosts": {
@@ -167,12 +168,13 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "8Y7gGICWeeiLARjj",
-  "sort": 7200000,
+  "sort": 6000000,
   "_key": "!items!8Y7gGICWeeiLARjj"
 }

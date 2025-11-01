@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a much larger cousin of the common rock tuatara, up to 6 feet long and 4 feet tall. Their milky-white third eye, spiny backs, and knobby club tails make them look far fiercer than they typically are.</p><p><strong>Size</strong> Medium</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> tail slam, <strong>Damage</strong> 1d8 bludgeoning</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> bite, <strong>Damage</strong> 1d6 piercing</p><p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Intimidation</p><p><strong>Senses</strong> darkvision, scent (imprecise, 30 feet)</p><p><strong>Speed </strong>25 feet</p><p><strong>Support Benefit </strong>Your giant rock tuatara trips up your enemies when you create an opening. Until the start of your next turn, your Strikes that deal damage to a creature within your giant rock tuatara's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p><strong>Advanced Maneuver </strong>Tail Escape</p>"
+      "value": "<p>Your companion is a much larger cousin of the common rock tuatara, up to 6 feet long and 4 feet tall. Their milky-white third eye, spiny backs, and knobby club tails make them look far fiercer than they typically are.</p><p><strong>Size</strong> Medium</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> tail slam, <strong>Damage</strong> 1d8 bludgeoning</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> bite, <strong>Damage</strong> 1d6 piercing</p><p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Intimidation</p><p><strong>Senses</strong> darkvision, scent (imprecise, 30 feet)</p><p><strong>Speed </strong>25 feet</p><p><strong>Support Benefit </strong>Your giant rock tuatara trips up your enemies when you create an opening. Until the start of your next turn, your Strikes that deal damage to a creature within your giant rock tuatara's reach make the target @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p><strong>Advanced Maneuver </strong>@UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.EFIHKMpb0EobvM5S]{Tail Escape}</p>"
     },
     "rules": [
       {
@@ -112,6 +112,7 @@
     },
     "hp": 8,
     "size": "med",
+    "hands": 2,
     "reach": 5,
     "speed": 25,
     "boosts": {
@@ -152,7 +153,7 @@
     "vision": "darkvision"
   },
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
-  "folder": null,
+  "folder": "Rn81F1uZdgYGoXoS",
   "ownership": {
     "default": 0,
     "ZsoDU6dAQFmGr3tK": 3
@@ -162,11 +163,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "HKsb2gynAfY1dorc",
-  "sort": 1200000,
+  "sort": 3400000,
   "_key": "!items!HKsb2gynAfY1dorc"
 }

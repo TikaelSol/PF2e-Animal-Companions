@@ -23,10 +23,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Treasure Vault (Remastered)",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "actionType": {
       "value": "action"
@@ -47,12 +47,13 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.hC0YEa4Z8I4XxV3r",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "hC0YEa4Z8I4XxV3r",
-  "sort": 2300000,
+  "sort": 3600000,
   "_key": "!items!hC0YEa4Z8I4XxV3r"
 }

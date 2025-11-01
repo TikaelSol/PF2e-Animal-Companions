@@ -142,6 +142,9 @@
             "ShadowHound": {
                 "EffectNote": "When you damage a creature with a Strike and that creature is within reach of your shadow hound, both you and your shadow hound become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to the creature."
             },
+            "SkeletalBirdOfPrey": {
+                "EffectNote": "When you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}."
+            },
             "SkeletalConstrictor": {
                 "EffectNote": "Your Strikes that deal damage to the chosen creature make the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}."
             },
@@ -164,9 +167,6 @@
             "UmbrellaMushroom": {
                 "EffectNote": "Your Strikes that damage a creature within your umbrella mushroom's reach becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. This effect has the poison trait."
             },
-            "UndeadBirdOfPrey": {
-                "EffectNote": "When you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}."
-            },
             "WarPig": {
                 "EffectNote": "If you hit and deal damage to a creature within your war pig's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}."
             },
@@ -181,6 +181,14 @@
             },
             "WoodElemental": {
                 "EffectNote": "The target takes a –5-foot circumstance penalty to its Speeds for 1 minute (–10 on a critical success). @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.U2mkebPNSs531ADL]{Effect: Wood Elemental Support Benefit Speed Penalty}"
+            },
+            "Wyvern": {
+                "DivingSkewer": {
+                    "Note": "The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}."
+                },
+                "StingerPoison": {
+                    "Label": "Stinger Poison"
+                }
             }
         },
         "UnarmedAttacks": {

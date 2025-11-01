@@ -76,11 +76,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
     "systemVersion": "7.1.1"
   },
   "_id": "XDmtg6o5B2MaA4Ke",
-  "sort": 0,
+  "sort": 800000,
   "_key": "!items!XDmtg6o5B2MaA4Ke"
 }

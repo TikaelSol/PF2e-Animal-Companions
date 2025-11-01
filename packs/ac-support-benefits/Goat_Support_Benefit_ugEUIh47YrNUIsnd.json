@@ -23,7 +23,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Lost Omens: Highhelm",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -47,12 +47,13 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.ugEUIh47YrNUIsnd",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "ugEUIh47YrNUIsnd",
-  "sort": 2700000,
+  "sort": 4000000,
   "_key": "!items!ugEUIh47YrNUIsnd"
 }

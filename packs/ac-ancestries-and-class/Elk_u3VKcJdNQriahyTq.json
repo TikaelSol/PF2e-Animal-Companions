@@ -143,6 +143,7 @@
     },
     "hp": 8,
     "size": "med",
+    "hands": 2,
     "reach": 5,
     "speed": 30,
     "boosts": {
@@ -177,8 +178,8 @@
   },
   "_id": "u3VKcJdNQriahyTq",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
-  "folder": null,
-  "sort": 1800000,
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 2700000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -191,9 +192,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!u3VKcJdNQriahyTq"
 }

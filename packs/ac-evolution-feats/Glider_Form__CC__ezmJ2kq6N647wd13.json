@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.Bj0GvPgyPiC2kDH1"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -67,9 +65,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.ezmJ2kq6N647wd13",
-    "duplicateSource": null
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.Bj0GvPgyPiC2kDH1",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!ezmJ2kq6N647wd13"
 }

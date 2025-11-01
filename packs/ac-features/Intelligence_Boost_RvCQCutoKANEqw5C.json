@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/spells/daydreamers-curse.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.DNpa1GdDXz8L4Fra"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -77,9 +75,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.RvCQCutoKANEqw5C",
-    "duplicateSource": null
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.DNpa1GdDXz8L4Fra",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
   "sort": 5000000,

@@ -12,10 +12,10 @@
       "gm": ""
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Lost Omens Shining Kingdoms",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "rules": [],
     "slug": null,
@@ -43,9 +43,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "iG4YOq70Qs7EtnPN",
   "sort": 0,

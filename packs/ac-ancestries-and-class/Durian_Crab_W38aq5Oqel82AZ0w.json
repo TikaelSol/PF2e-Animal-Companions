@@ -1,5 +1,5 @@
 {
-  "folder": null,
+  "folder": "Rn81F1uZdgYGoXoS",
   "name": "Durian Crab",
   "type": "ancestry",
   "effects": [],
@@ -136,6 +136,7 @@
     },
     "hp": 6,
     "size": "sm",
+    "hands": 2,
     "reach": 5,
     "speed": 20,
     "boosts": {
@@ -184,11 +185,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.0"
+    "systemVersion": "6.8.0",
+    "exportSource": null
   },
   "_id": "W38aq5Oqel82AZ0w",
-  "sort": 0,
+  "sort": 150000,
   "_key": "!items!W38aq5Oqel82AZ0w"
 }

@@ -1,0 +1,57 @@
+{
+  "name": "Combat Squox Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.95,
+      "previous": {
+        "schema": 0.949,
+        "foundry": "13.350",
+        "system": "7.6.4"
+      }
+    },
+    "description": {
+      "value": "<p>Your squox works with you to form an opening in combat. Until the start of your next turn, if your Strike damages a creature in your squox's reach, your squox can attempt to [[/act disarm]] the target using its Acrobatics instead of Athletics.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Alien Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4"
+  },
+  "_id": "xYCn8P5DVJ6611MS",
+  "sort": 0,
+  "_key": "!items!xYCn8P5DVJ6611MS"
+}

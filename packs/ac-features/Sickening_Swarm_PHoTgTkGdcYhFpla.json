@@ -1,5 +1,5 @@
 {
-  "folder": "JaJf7QymmsmGAv8z",
+  "folder": "xb7i6YvPBPtfvP3K",
   "name": "Sickening Swarm",
   "type": "feat",
   "effects": [],
@@ -54,7 +54,7 @@
   },
   "_id": "PHoTgTkGdcYhFpla",
   "img": "icons/creatures/unholy/demon-winged-cyclops-drooling.webp",
-  "sort": 0,
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "ZsoDU6dAQFmGr3tK": 3
@@ -64,7 +64,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
     "systemVersion": "7.2.3"
   },

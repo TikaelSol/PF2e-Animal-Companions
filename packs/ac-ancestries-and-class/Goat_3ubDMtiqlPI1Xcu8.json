@@ -3,7 +3,7 @@
   "type": "ancestry",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
-  "folder": null,
+  "folder": "Rn81F1uZdgYGoXoS",
   "flags": {
     "core": {}
   },
@@ -121,6 +121,7 @@
     },
     "hp": 8,
     "size": "med",
+    "hands": 2,
     "reach": 5,
     "speed": 35,
     "boosts": {
@@ -160,11 +161,12 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "3ubDMtiqlPI1Xcu8",
-  "sort": 6900000,
+  "sort": 3800000,
   "_key": "!items!3ubDMtiqlPI1Xcu8"
 }

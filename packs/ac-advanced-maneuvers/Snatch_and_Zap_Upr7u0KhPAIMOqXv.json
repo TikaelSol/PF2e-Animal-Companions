@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 4300000,
   "flags": {
-    "core": {
-      "sourceId": "Item.6tNMgEQAqjMgD3WY"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -64,7 +62,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Lost Omens: Monsters of Myth",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -84,10 +82,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.1",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Item.6tNMgEQAqjMgD3WY",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!Upr7u0KhPAIMOqXv"
 }
