@@ -97,7 +97,7 @@
         "path": "system.skills.intimidation.rank"
       }
     ],
-    "slug": null,
+    "slug": "war-pig",
     "_migration": {
       "version": 0.939,
       "lastMigration": null

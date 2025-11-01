@@ -56,7 +56,7 @@
         "path": "system.abilities.dex.mod"
       }
     ],
-    "slug": "specialized-wind-chaser",
+    "slug": "wind-chaser",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,

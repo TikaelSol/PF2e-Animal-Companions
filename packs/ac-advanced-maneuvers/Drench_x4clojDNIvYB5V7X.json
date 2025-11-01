@@ -8,7 +8,7 @@
       "value": "<p>Your water elemental drenches nearby fires to extinguish them. Your elemental puts out all fires in a @Template[type:emanation|distance:5]. It extinguishes all non-magical fires automatically and attempts to counteract magical fires (its counteract modifier is equal to its attack modifier with its wave Strike, unmodified by any bonuses or effects that apply to attack rolls).</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "drench",
     "_migration": {
       "version": 0.935,
       "previous": {

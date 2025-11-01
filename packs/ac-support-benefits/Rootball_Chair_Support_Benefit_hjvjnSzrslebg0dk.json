@@ -9,7 +9,7 @@
       "value": "<p>Your rootball chair moves smoothly over most terrain, thanks to its many tendrils. Your rootball chair ignores difficult terrain.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "rootball-chair-support-benefit",
     "_migration": {
       "version": 0.935,
       "previous": {

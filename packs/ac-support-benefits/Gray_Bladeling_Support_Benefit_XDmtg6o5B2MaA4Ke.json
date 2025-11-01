@@ -51,7 +51,7 @@
         "value": "support-benefit:gray-bladeling"
       }
     ],
-    "slug": null,
+    "slug": "gray-bladeling-support-benefit",
     "traits": {
       "otherTags": [],
       "value": []
@@ -78,7 +78,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "XDmtg6o5B2MaA4Ke",
   "sort": 800000,

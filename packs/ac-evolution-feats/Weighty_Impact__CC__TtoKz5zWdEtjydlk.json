@@ -20,7 +20,7 @@
         "uuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu"
       }
     ],
-    "slug": "weighty-impact",
+    "slug": "weighty-impact-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -67,7 +67,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "7.6.4",
     "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e.feats-srd.Item.K0gyvvX0S2FdJZ5T",
     "duplicateSource": null,

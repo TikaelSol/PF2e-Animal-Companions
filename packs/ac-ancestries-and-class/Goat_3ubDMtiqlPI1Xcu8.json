@@ -96,7 +96,7 @@
         "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.IoWvKP6WDijlkrin"
       }
     ],
-    "slug": "ankylosaurus",
+    "slug": "goat",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -160,7 +160,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "7.6.4",
     "coreVersion": "13.350",
     "compendiumSource": null,
     "duplicateSource": null,

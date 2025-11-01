@@ -47,7 +47,7 @@
         "property": "dice-number"
       }
     ],
-    "slug": null,
+    "slug": "poisonous-sweep",
     "_migration": {
       "version": 0.935,
       "previous": {

@@ -82,7 +82,7 @@
         "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.FIwCYZyHgCmp8DeX"
       }
     ],
-    "slug": null,
+    "slug": "keulia",
     "_migration": {
       "version": 0.939,
       "lastMigration": null
@@ -153,7 +153,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "H1TJKp0PCdNiTI3Z",
   "sort": 4600000,

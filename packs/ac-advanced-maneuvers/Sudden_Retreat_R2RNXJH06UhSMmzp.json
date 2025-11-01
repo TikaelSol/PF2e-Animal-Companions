@@ -32,7 +32,7 @@
         "type": "circumstance"
       }
     ],
-    "slug": null,
+    "slug": "sudden-retreat",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -75,7 +75,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "7.6.4",
     "coreVersion": "13.350",
     "compendiumSource": null,
     "duplicateSource": null,

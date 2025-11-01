@@ -15,7 +15,7 @@
       "value": "<p>Your eidolon Strides up to double its Speed and can move through the spaces of creatures at least one size smaller, Trampling each creature whose space it enters. It can attempt to Trample the same creature only once in a single Trample.</p>\n<p>It deals bludgeoning damage equal to the damage of its secondary attack against these creatures, which can attempt a basic Reflex save against your spell DC.</p>"
     },
     "rules": [],
-    "slug": "trample",
+    "slug": "trample-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -63,7 +63,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "7.6.4",
     "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e.feats-srd.Item.7GGxxoYNA4YrtML9",
     "duplicateSource": null,

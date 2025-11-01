@@ -9,7 +9,7 @@
       "value": "<p>Your goat boosts you up a wall, allowing you to reach greater heights. You climb up a surface as if you had rolled a success on a @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Climb} action.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "goat-support-benefit",
     "_migration": {
       "version": 0.935,
       "previous": {

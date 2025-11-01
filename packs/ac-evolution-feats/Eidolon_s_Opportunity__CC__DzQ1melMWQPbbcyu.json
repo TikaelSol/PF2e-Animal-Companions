@@ -15,7 +15,7 @@
       "value": "<p><strong>Trigger</strong> A creature within your eidolon's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p>Your eidolon makes a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, your eidolon disrupts that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>"
     },
     "rules": [],
-    "slug": "eidolons-opportunity",
+    "slug": "eidolons-opportunity-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -63,7 +63,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "7.6.4",
     "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e.feats-srd.Item.588O3jurogttvqgm",
     "duplicateSource": null,

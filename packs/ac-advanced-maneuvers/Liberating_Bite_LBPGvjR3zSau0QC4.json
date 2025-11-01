@@ -8,7 +8,7 @@
       "value": "<p>The mongoose makes a jaws Strike that can help creatures break free of restraint, like the grasp of a cobra. If the Strike hits, each creature grappled or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by the target can @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} as a free action.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "liberating-bite",
     "_migration": {
       "version": 0.935,
       "previous": {

@@ -48,7 +48,7 @@
         "selector": "strike-damage"
       }
     ],
-    "slug": "megaton-strike",
+    "slug": "megaton-strike-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,

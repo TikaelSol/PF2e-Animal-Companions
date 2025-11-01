@@ -113,7 +113,7 @@
         "value": "{item|flags.pf2e.rulesSelections.size}"
       }
     ],
-    "slug": "advanced-construct",
+    "slug": "advanced-construct-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,

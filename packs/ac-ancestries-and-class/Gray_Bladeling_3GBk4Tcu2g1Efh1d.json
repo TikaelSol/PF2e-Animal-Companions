@@ -86,7 +86,7 @@
         "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.7q2MhobheQtrYDDw"
       }
     ],
-    "slug": null,
+    "slug": "gray-bladeling",
     "_migration": {
       "version": 0.939,
       "lastMigration": null
@@ -160,7 +160,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "3GBk4Tcu2g1Efh1d",
   "sort": 3900000,

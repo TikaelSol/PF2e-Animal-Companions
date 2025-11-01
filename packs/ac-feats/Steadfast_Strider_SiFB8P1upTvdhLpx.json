@@ -34,7 +34,7 @@
         "path": "system.abilities.str.mod"
       }
     ],
-    "slug": "specialized-steadfast-strider",
+    "slug": "steadfast-strider",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,

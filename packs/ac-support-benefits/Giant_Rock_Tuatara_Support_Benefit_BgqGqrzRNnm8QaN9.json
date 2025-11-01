@@ -18,7 +18,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "giant-rock-tuatara-support-benefit",
     "traits": {
       "otherTags": [],
       "value": []
@@ -45,7 +45,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "BgqGqrzRNnm8QaN9",
   "sort": 400000,

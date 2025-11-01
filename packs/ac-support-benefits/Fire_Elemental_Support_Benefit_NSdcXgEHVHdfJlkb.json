@@ -41,7 +41,7 @@
         "value": "support-benefit:fire-elemental"
       }
     ],
-    "slug": null,
+    "slug": "fire-elemental-support-benefit",
     "_migration": {
       "version": 0.935,
       "previous": {

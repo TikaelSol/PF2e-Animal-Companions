@@ -60,7 +60,7 @@
         "path": "system.skills.athletics.rank"
       }
     ],
-    "slug": "specialized-deep-diver-base-speed",
+    "slug": "deep-diver",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,

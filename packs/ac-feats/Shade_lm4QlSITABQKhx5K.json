@@ -48,7 +48,7 @@
         ]
       }
     ],
-    "slug": "specialized-shade",
+    "slug": "shade",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,

@@ -8,7 +8,7 @@
       "value": "<p>This companion Strides up to twice its Speed and makes a hoof, foot, or talon Strike at any point during the movement. This movement doesn't provoke reactions from a creature damaged by the Strike.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "running-kick",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -55,7 +55,7 @@
     "duplicateSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!fhgEJVsBNMKu75s5"

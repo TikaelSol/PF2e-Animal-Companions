@@ -15,7 +15,7 @@
       "value": "<p>Your eidolon evolves wings, a buoyant body, or some other means to control descent.</p>\n<p>It glides slowly toward the ground, 5 feet down and up to 25 feet forward through the air.</p>\n<p>As long as it spends at least 1 action gliding each round and has not yet reached the ground, it remains in the air at the end of your turn.</p>"
     },
     "rules": [],
-    "slug": "glider-form",
+    "slug": "glider-form-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -64,7 +64,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "7.6.4",
     "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e.feats-srd.Item.Bj0GvPgyPiC2kDH1",
     "duplicateSource": null,

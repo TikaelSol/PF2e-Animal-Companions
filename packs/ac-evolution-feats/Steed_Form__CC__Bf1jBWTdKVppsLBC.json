@@ -15,7 +15,7 @@
       "value": "<p>Your eidolon changes to make it particularly effective as your mount. While you ride it, you get your full number of actions each round instead of reducing them to 2. This applies only when you ride your eidolon, not when anyone else does. Your eidolon still must be at least one size category larger than you to ride it. Since you work together to move, your eidolon's move actions while you're mounted gain the tandem trait.</p>"
     },
     "rules": [],
-    "slug": "steed-form",
+    "slug": "steed-form-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -62,7 +62,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "7.6.4",
     "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e.feats-srd.Item.eCzIiTjI4mQFYe9D",
     "duplicateSource": null,

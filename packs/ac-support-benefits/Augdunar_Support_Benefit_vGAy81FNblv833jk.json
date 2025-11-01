@@ -9,7 +9,7 @@
       "value": "<p>The augdunar shifts its weight, proffering you an item. You Interact to draw a weapon or item that is being carried by the augdunar.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "augdunar-support-benefit",
     "_migration": {
       "version": 0.935,
       "previous": {

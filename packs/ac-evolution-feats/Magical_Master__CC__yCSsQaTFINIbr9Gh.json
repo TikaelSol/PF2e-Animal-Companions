@@ -15,7 +15,7 @@
       "value": "<p>Your eidolon gains a bevy of lower-level spells. Choose an innate spell of your eidolon's tradition of each of the spell levels from 1 to 7 in which your eidolon doesn't currently have an innate spell from Magical Adept. Your eidolon can cast each once per day as innate spells.</p>\n<p>You can swap these spells at every even level, but your eidolon can never know more than one spell of each spell level 1 through 7</p>"
     },
     "rules": [],
-    "slug": "magical-master",
+    "slug": "magical-master-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -66,7 +66,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "7.6.4",
     "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e.feats-srd.Item.aoIEVpJrQEold2Mi",
     "duplicateSource": null,

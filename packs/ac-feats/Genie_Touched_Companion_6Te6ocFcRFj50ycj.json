@@ -134,7 +134,7 @@
         "allowDuplicate": false
       }
     ],
-    "slug": null,
+    "slug": "genie-touched-companion",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

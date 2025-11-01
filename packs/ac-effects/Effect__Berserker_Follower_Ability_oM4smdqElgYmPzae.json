@@ -27,7 +27,7 @@
         "slug": "berserker-follower-ability"
       }
     ],
-    "slug": null,
+    "slug": "effect-berserker-follower-ability",
     "traits": {
       "otherTags": [],
       "value": []

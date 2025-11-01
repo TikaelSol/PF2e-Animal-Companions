@@ -9,7 +9,7 @@
       "value": "<p>Your chair lengthens itself, granting its pseudopod Strike the reach 10 feet trait until the beginning of your next turn.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "extend-pseudopod",
     "_migration": {
       "version": 0.935,
       "previous": {

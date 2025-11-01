@@ -9,7 +9,7 @@
       "value": "<p>Your draft lizard sweeps its tail, making tail Strikes against up to two adjacent foes. Each attack counts toward the draft lizard's multiple attack penalty, but the penalty only increases after all the attacks have been made.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "tail-swipe",
     "_migration": {
       "version": 0.935,
       "previous": {

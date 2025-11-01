@@ -27,7 +27,7 @@
         "path": "system.abilities.dex.mod"
       }
     ],
-    "slug": "specialized-wildfire-scorcher",
+    "slug": "wildfire-scorcher",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,

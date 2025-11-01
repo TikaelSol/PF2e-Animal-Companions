@@ -18,7 +18,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "veteran-advancement",
     "traits": {
       "otherTags": [],
       "value": [],
@@ -53,9 +53,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.3.0"
+    "systemVersion": "7.6.4"
   },
   "ownership": {
     "default": 0,

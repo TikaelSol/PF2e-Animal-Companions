@@ -18,7 +18,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "bucking-frenzy",
     "traits": {
       "otherTags": [],
       "value": []
@@ -43,9 +43,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "cn580E6VMCAxaze9",
   "sort": 0,

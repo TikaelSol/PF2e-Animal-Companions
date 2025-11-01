@@ -8,7 +8,7 @@
       "value": "<p>This companion makes two tail Strikes against different creatures within its reach, increasing its multiple attack penalty as normal. On a hit, it pushes a target back 5 feet or 10 feet on a critical hit. This is forced movement.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "sweeping-tail",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -55,7 +55,7 @@
     "duplicateSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "7.6.4",
     "exportSource": null
   },
   "_key": "!items!WCnx9f3Ghtpk9DD0"

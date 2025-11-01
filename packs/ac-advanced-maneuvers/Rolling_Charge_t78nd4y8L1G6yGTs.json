@@ -36,7 +36,7 @@
         ]
       }
     ],
-    "slug": null,
+    "slug": "rolling-charge",
     "traits": {
       "otherTags": [],
       "value": []
@@ -61,9 +61,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.0"
+    "systemVersion": "7.6.4"
   },
   "_id": "t78nd4y8L1G6yGTs",
   "sort": 0,

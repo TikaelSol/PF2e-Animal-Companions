@@ -9,7 +9,7 @@
       "value": "<p>A seedpod within the chair bursts and uncoils, releasing a light clump of cottony material. Your rootball chair Leaps up to 30 feet vertically or horizontally and drifts down, sinking 5 feet for every 5 feet traveled horizontally and causing you to take no falling damage. The cottony material disperses when you land.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "seedpod-spring",
     "_migration": {
       "version": 0.935,
       "previous": {
