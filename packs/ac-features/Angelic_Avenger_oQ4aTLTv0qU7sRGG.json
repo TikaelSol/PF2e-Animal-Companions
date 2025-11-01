@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/spells/angelic-wings.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.oQ4aTLTv0qU7sRGG"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -104,12 +102,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.oQ4aTLTv0qU7sRGG",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 9400000,
+  "folder": "3UpjTq1xgggzS2Eq",
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

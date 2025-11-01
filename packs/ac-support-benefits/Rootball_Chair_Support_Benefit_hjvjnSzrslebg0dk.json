@@ -9,7 +9,7 @@
       "value": "<p>Your rootball chair moves smoothly over most terrain, thanks to its many tendrils. Your rootball chair ignores difficult terrain.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "rootball-chair-support-benefit",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -23,10 +23,10 @@
       "value": []
     },
     "publication": {
-      "title": "Pathfinder Treasure Vault",
+      "title": "Pathfinder Treasure Vault (Remastered)",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "actionType": {
       "value": "action"
@@ -47,12 +47,13 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.hjvjnSzrslebg0dk",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "hjvjnSzrslebg0dk",
-  "sort": 2400000,
+  "sort": 3700000,
   "_key": "!items!hjvjnSzrslebg0dk"
 }

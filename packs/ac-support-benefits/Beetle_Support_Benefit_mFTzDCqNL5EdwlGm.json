@@ -4,11 +4,9 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 6400000,
+  "sort": 7700000,
   "flags": {
-    "core": {
-      "sourceId": "Item.IQdmE8Tmhpp8JaGt"
-    }
+    "core": {}
   },
   "_id": "mFTzDCqNL5EdwlGm",
   "system": {
@@ -64,7 +62,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Lost Omens: Grand Bazaar",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -84,10 +82,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.3",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.mFTzDCqNL5EdwlGm",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.IQdmE8Tmhpp8JaGt",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!mFTzDCqNL5EdwlGm"
 }

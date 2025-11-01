@@ -8,7 +8,7 @@
       "value": "<p>Your air elemental flies in a circle, blowing gusts at your foes before returning back to its starting position. The air elemental Flies up to half its Speed, makes two gust Strikes, then Flies up to half its Speed again to return to its original location. Both attacks count toward the air elemental's multiple attack penalty, but the penalty doesn't increase until after it makes both attacks.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "circling-flyby",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -22,10 +22,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Rage of Elements",
       "authors": "",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "actionType": {
       "value": "action"
@@ -41,10 +41,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
   "sort": 5300000,

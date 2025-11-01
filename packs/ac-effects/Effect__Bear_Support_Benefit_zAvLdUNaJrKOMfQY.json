@@ -48,7 +48,7 @@
         "selector": "strike-damage"
       }
     ],
-    "slug": null,
+    "slug": "effect-bear-support-benefit",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -58,10 +58,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1

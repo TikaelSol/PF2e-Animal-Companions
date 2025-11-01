@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.b1eGMNjBY3iqIt2S"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -17,7 +15,7 @@
       "value": "<p>Your eidolon gains more magic. Choose one 2nd-level spell and one 1st-level spell of your eidolon's tradition. Your eidolon can cast them each once per day as innate spells. At every even level after you take this feat, your eidolon can swap one of these innate spells for a new innate spell that's 2 or more levels lower than your highest-level spell slot.</p>"
     },
     "rules": [],
-    "slug": "magical-adept",
+    "slug": "magical-adept-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -68,10 +66,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.en0ikSriHVja8kGM",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.b1eGMNjBY3iqIt2S",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!en0ikSriHVja8kGM"
 }

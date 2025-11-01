@@ -1,12 +1,12 @@
 {
-  "folder": null,
+  "folder": "Rn81F1uZdgYGoXoS",
   "name": "Wyvern",
   "type": "ancestry",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Though most wyverns are too prideful and headstrong to consider debasing themselves as \"pets,\" the orcs living near Wyvernsting have a reputation for training these drakes to serve as flying mounts. Exactly why wyverns acquiesce is unclear, though common theories include wyverns receiving treasure in exchange, being hatched in captivity so that they've never known freedom, or (most likely) that their orc trainers demonstrate such power and confidence that the drakes behave out of admiration. Over time, these wyverns' most rebellious instincts have been quelled through selective breeding; otherwise the rate at which drakes eat their riders would be much, much higher.</p><p>Even with these friendlier characteristics, few riders are tough enough for a wyvern companion. These creatures expect their handlers to be mentally and physically strong, earning a place among the wyvern's artificial flock. Especially steady wyverns can be trained as mounts, though their innate pride makes this a rather dangerous proposition; if the drake begins to doubt a rider's commands, they might simply ignore orders or even buck their rider mid-air.</p><p>This wyvern is an advanced companion (Howl of the Wild 93), available only to characters of 10th level or higher. At the GM's discretion, a wyvern companion might be accessible at lower levels, but if so, it doesn't gain the Unsteady Mount ability until 10th level. Before then, it might function as a mount but be unable to fly with a rider, or its ability to fly with a rider might only be usable for 1 round per 10 minutes.</p><p><strong>Size</strong> Large</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> stinger, Damage 1d6 piercing plus poison</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, Damage 1d8 piercing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Stealth</p><p><strong>Senses</strong> darkvision, scent (imprecise) 30 feet</p><p><strong>Speed</strong> 20 feet, fly 40 feet</p><p><strong>Special</strong> The wyvern's stinger attack deals additional poison damage equal to 1 + 1 per weapon damage die.</p><p><strong>Unsteady Mount</strong> The wyvern has the mount ability but is only strong enough to fly in short bursts while carrying a rider; if it doesn't end its turn on solid ground, it descends 30 feet without taking falling damage. At 14th level, a wyvern replaces this with the mount ability, removing this restriction.</p><p><strong>Support Benefit</strong> Your wyvern whips its stinger at your foes. Until the start of your next turn, your Strikes that damage a creature in your wyvern's reach also deal 1d6 persistent poison damage. If your wyvern is nimble or savage, the persistent damage increases to 2d6.</p><p><strong>Advanced Maneuver</strong> Diving Skewer</p>"
+      "value": "<p>Though most wyverns are too prideful and headstrong to consider debasing themselves as \"pets,\" the orcs living near Wyvernsting have a reputation for training these drakes to serve as flying mounts. Exactly why wyverns acquiesce is unclear, though common theories include wyverns receiving treasure in exchange, being hatched in captivity so that they've never known freedom, or (most likely) that their orc trainers demonstrate such power and confidence that the drakes behave out of admiration. Over time, these wyverns' most rebellious instincts have been quelled through selective breeding; otherwise the rate at which drakes eat their riders would be much, much higher.</p><p>Even with these friendlier characteristics, few riders are tough enough for a wyvern companion. These creatures expect their handlers to be mentally and physically strong, earning a place among the wyvern's artificial flock. Especially steady wyverns can be trained as mounts, though their innate pride makes this a rather dangerous proposition; if the drake begins to doubt a rider's commands, they might simply ignore orders or even buck their rider mid-air.</p><p>This wyvern is an advanced companion (Howl of the Wild 93), available only to characters of 10th level or higher. At the GM's discretion, a wyvern companion might be accessible at lower levels, but if so, it doesn't gain the Unsteady Mount ability until 10th level. Before then, it might function as a mount but be unable to fly with a rider, or its ability to fly with a rider might only be usable for 1 round per 10 minutes.</p><p><strong>Size</strong> Large</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> stinger, Damage 1d6 piercing plus poison</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, Damage 1d8 piercing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Stealth</p><p><strong>Senses</strong> darkvision, scent (imprecise) 30 feet</p><p><strong>Speed</strong> 20 feet, fly 40 feet</p><p><strong>Special</strong> The wyvern's stinger attack deals additional poison damage equal to 1 + 1 per weapon damage die.</p><p><strong>Unsteady Mount</strong> The wyvern has the mount ability but is only strong enough to fly in short bursts while carrying a rider; if it doesn't end its turn on solid ground, it descends 30 feet without taking falling damage. At 14th level, a wyvern replaces this with the mount ability, removing this restriction.</p><p><strong>Support Benefit</strong> Your wyvern whips its stinger at your foes. Until the start of your next turn, your Strikes that damage a creature in your wyvern's reach also deal 1d6 persistent poison damage. If your wyvern is nimble or savage, the persistent damage increases to 2d6.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.5gK05d4qc7frX6zr]{Diving Skewer}</p>"
     },
     "rules": [
       {
@@ -96,14 +96,41 @@
           "unarmed"
         ],
         "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
-        "replaceBasicUnarmed": true
+        "replaceBasicUnarmed": true,
+        "slug": "jaws-damage"
       },
       {
         "key": "FlatModifier",
+        "selector": [
+          "stinger-damage"
+        ],
+        "value": 2,
+        "label": "COMP.SpecificRule.Wyvern.StingerPoison.Label",
+        "damageType": "poison",
+        "slug": "stinger-poison-bonus"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "feature:mature-animal-companion",
+          {
+            "not": "feature:specialized-animal-companion"
+          }
+        ],
         "selector": "stinger-damage",
-        "value": "1 + @weapon.system.damage.dice",
-        "label": "Stinger Poison",
-        "damageType": "poison"
+        "slug": "stinger-poison-bonus",
+        "value": 3
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ],
+        "selector": "stinger-damage",
+        "slug": "stinger-poison-bonus",
+        "value": 4
       },
       {
         "key": "ActiveEffectLike",
@@ -116,7 +143,7 @@
         "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.3ZYwTYI4ORCz4xQg"
       }
     ],
-    "slug": null,
+    "slug": "wyvern",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -136,6 +163,7 @@
     },
     "hp": 8,
     "size": "lg",
+    "hands": 2,
     "reach": 5,
     "speed": 20,
     "boosts": {
@@ -184,11 +212,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.0"
+    "systemVersion": "7.6.4",
+    "exportSource": null
   },
   "_id": "j3UBiLbni9on3pAW",
-  "sort": 0,
+  "sort": 101563,
   "_key": "!items!j3UBiLbni9on3pAW"
 }

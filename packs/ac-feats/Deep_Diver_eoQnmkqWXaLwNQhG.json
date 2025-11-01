@@ -7,15 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.KCbNpQElh8V0QX1Z"
-    },
-    "exportSource": {
-      "world": "ac",
-      "system": "pf2e",
-      "coreVersion": "0.8.8",
-      "systemVersion": "2.6.0.6437"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -68,7 +60,7 @@
         "path": "system.skills.athletics.rank"
       }
     ],
-    "slug": "specialized-deep-diver-base-speed",
+    "slug": "deep-diver",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -86,7 +78,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Lost Omens Legends",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -128,10 +120,17 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.KCbNpQElh8V0QX1Z",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "pf2e",
+      "systemVersion": "2.6.0.6437"
+    }
   },
   "_key": "!items!eoQnmkqWXaLwNQhG"
 }

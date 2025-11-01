@@ -4,9 +4,7 @@
   "img": "systems/pf2e/icons/spells/entangle.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.WAvxa5krBN6wJr1u"
-    }
+    "core": {}
   },
   "_id": "iunzITJGz0QUudUk",
   "system": {
@@ -36,7 +34,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Secrets of Magic",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -60,13 +58,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.iunzITJGz0QUudUk",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.WAvxa5krBN6wJr1u",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 8300000,
+  "folder": "scyNeaFTkdY4uIfy",
+  "sort": -75000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

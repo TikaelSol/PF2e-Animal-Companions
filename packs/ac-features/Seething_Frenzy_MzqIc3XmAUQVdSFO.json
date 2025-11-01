@@ -4,9 +4,7 @@
   "img": "systems/pf2e/icons/spells/abyssal-wrath.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.1NzHTTBu02H4H4Ng"
-    }
+    "core": {}
   },
   "_id": "MzqIc3XmAUQVdSFO",
   "system": {
@@ -36,7 +34,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Secrets of Magic",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -60,13 +58,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.MzqIc3XmAUQVdSFO",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.1NzHTTBu02H4H4Ng",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 4200000,
+  "folder": "q3nXFZfwRZgEhUKV",
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

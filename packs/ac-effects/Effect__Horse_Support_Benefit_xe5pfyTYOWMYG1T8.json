@@ -28,7 +28,7 @@
         "value": "2*@weapon.system.damage.dice"
       }
     ],
-    "slug": null,
+    "slug": "effect-horse-support-benefit",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

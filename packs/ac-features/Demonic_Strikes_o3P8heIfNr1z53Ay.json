@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/spells/all-is-one-one-is-all.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.jSDsKX3BOHhvtgsD"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -72,12 +70,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.o3P8heIfNr1z53Ay",
-    "duplicateSource": null
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.jSDsKX3BOHhvtgsD",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 9100000,
+  "folder": "4oaqgJDRdOmg12Mo",
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

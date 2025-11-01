@@ -1,0 +1,59 @@
+{
+  "name": "Go For the Eyes!",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.95,
+      "previous": {
+        "schema": 0.949,
+        "foundry": "13.350",
+        "system": "7.6.4"
+      }
+    },
+    "description": {
+      "value": "<p>The squox Strides, attempts an @Check[acrobatics|against:perception] check against an adjacent creature's Perception DC, and then makes a jaws Strike.</p><hr /><p><strong>Critical Success</strong> Thrown by the squox's sudden leap, the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of the squox's next turn.</p><p><strong>Success</strong> The target is only momentarily startled and is off-guard until the end of the squox's current turn.</p><p><strong>Critical Failure</strong> The squox misjudges the distance to its target's face and falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Alien Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "go-for-the-eyes",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mental"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4"
+  },
+  "_id": "JdynMugT1PhHxhiK",
+  "sort": 0,
+  "_key": "!items!JdynMugT1PhHxhiK"
+}

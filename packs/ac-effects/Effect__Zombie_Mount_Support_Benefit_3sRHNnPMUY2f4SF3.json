@@ -78,7 +78,7 @@
         "value": "{item|flags.pf2e.rulesSelections.zombieMountDamage}"
       }
     ],
-    "slug": null,
+    "slug": "effect-zombie-mount-support-benefit",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

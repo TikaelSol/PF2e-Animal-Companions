@@ -55,7 +55,7 @@
         "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.fUTBJxjPmiP4KVVI"
       }
     ],
-    "slug": null,
+    "slug": "swarm-form",
     "traits": {
       "otherTags": [],
       "value": [],
@@ -85,8 +85,8 @@
   },
   "_id": "SloT1T6tJDuET8UW",
   "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
-  "folder": "JaJf7QymmsmGAv8z",
-  "sort": 100000,
+  "folder": "xb7i6YvPBPtfvP3K",
+  "sort": 162500,
   "ownership": {
     "default": 0,
     "ZsoDU6dAQFmGr3tK": 3
@@ -96,9 +96,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.6.4"
   },
   "_key": "!items!SloT1T6tJDuET8UW"
 }

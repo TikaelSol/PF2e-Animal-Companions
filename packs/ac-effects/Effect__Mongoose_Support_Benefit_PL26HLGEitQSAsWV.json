@@ -24,7 +24,7 @@
         "value": "@actor.level+20"
       }
     ],
-    "slug": null,
+    "slug": "effect-mongoose-support-benefit",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

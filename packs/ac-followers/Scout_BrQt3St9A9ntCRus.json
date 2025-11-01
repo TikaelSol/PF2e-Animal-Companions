@@ -523,7 +523,7 @@
         "relabel": "COMP.SpecificRule.Follower.ExceptionalAdvancement.Label"
       }
     ],
-    "slug": null,
+    "slug": "scout",
     "traits": {
       "otherTags": [],
       "rarity": "common"
@@ -591,9 +591,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.3.0"
+    "systemVersion": "7.6.4"
   },
   "_id": "BrQt3St9A9ntCRus",
   "sort": 200000,

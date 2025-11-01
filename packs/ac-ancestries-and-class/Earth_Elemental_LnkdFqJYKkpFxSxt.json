@@ -108,6 +108,7 @@
     },
     "hp": 10,
     "size": "sm",
+    "hands": 2,
     "reach": 5,
     "speed": 20,
     "boosts": {
@@ -143,13 +144,14 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "LnkdFqJYKkpFxSxt",
-  "folder": null,
-  "sort": 2000000,
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 2500000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

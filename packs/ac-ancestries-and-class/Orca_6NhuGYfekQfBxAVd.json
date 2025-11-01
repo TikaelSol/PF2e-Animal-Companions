@@ -104,10 +104,11 @@
       "title": "Pathfinder: Howl of the Wild",
       "authors": "",
       "license": "ORC",
-      "remaster": false
+      "remaster": true
     },
     "hp": 8,
     "size": "lg",
+    "hands": 2,
     "reach": 5,
     "speed": 5,
     "boosts": {
@@ -142,8 +143,8 @@
   },
   "_id": "6NhuGYfekQfBxAVd",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
-  "folder": null,
-  "sort": 400000,
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 5400000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -155,10 +156,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!6NhuGYfekQfBxAVd"
 }

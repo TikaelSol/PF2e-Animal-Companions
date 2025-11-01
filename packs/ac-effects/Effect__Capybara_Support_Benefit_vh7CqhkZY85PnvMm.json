@@ -26,7 +26,7 @@
         "removeAfterRoll": "if-enabled"
       }
     ],
-    "slug": null,
+    "slug": "effect-capybara-support-benefit",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

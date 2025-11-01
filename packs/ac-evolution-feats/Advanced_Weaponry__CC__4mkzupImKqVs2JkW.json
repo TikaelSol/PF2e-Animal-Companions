@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.kFpVgcqREAfDmjXp"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -17,7 +15,7 @@
       "value": "<p>Your eidolon's attack evolves.</p>\n<p>Choose one of your eidolon's starting melee unarmed attacks. It gains one of the following traits, chosen when you gain the feat: disarm, grapple, nonlethal, shove, trip, or versatile bludgeoning, piercing, or slashing.</p>"
     },
     "rules": [],
-    "slug": "advanced-weaponry",
+    "slug": "advanced-weaponry-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -64,10 +62,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.4mkzupImKqVs2JkW",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.kFpVgcqREAfDmjXp",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!4mkzupImKqVs2JkW"
 }

@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.cgtVYaZRVaTIW4sk"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -35,7 +33,7 @@
         "value": 1
       }
     ],
-    "slug": "spell-repelling-form",
+    "slug": "spell-repelling-form-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -82,10 +80,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.wifAadJvu5dKvMVm",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.cgtVYaZRVaTIW4sk",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!wifAadJvu5dKvMVm"
 }

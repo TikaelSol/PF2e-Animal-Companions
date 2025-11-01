@@ -8,7 +8,7 @@
       "value": "<p>Your earth elemental rolls along the ground like a bowling ball and knocks a foe over. It Strides up to 10 feet then makes a fist Strike. If it hits, the target is also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "rolling-knockdown",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -22,10 +22,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Rage of Elements",
       "authors": "",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "actionType": {
       "value": "action"
@@ -40,10 +40,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "W6zkL0y4MqvlR0yW",
   "folder": null,

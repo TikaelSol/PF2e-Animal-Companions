@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/spells/face-in-the-crowd.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.N47g9LDkOdZZdgup"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -89,12 +87,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.N47g9LDkOdZZdgup",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 4300000,
+  "folder": "pggy7tMohSouyA2e",
+  "sort": 500000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

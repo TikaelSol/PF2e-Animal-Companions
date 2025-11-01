@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 3300000,
   "flags": {
-    "core": {
-      "sourceId": "Item.JMHoCFb886K6dT1n"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -65,7 +63,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder #177: Burning Tundra",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -85,10 +83,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Item.JMHoCFb886K6dT1n",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!JMHoCFb886K6dT1n"
 }

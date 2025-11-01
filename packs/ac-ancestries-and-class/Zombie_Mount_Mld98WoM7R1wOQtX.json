@@ -4,12 +4,10 @@
   "type": "ancestry",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
-  "folder": null,
-  "sort": 7800000,
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 8600000,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.Mld98WoM7R1wOQtX"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -73,6 +71,15 @@
         "mode": "override",
         "path": "flags.pf2e.companionCompendia.advancedManeuver",
         "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.h1Rldre8WVjUR5XO"
+      },
+      {
+        "key": "Immunity",
+        "type": [
+          "death-effects",
+          "disease",
+          "poison",
+          "mental"
+        ]
       }
     ],
     "slug": "zombie-mount",
@@ -101,6 +108,7 @@
     },
     "hp": 8,
     "size": "lg",
+    "hands": 2,
     "reach": 5,
     "speed": 30,
     "boosts": {
@@ -134,6 +142,12 @@
         "img": "systems/pf2e/icons/spells/mind-of-menace.webp",
         "name": "Mindless Companion",
         "level": 0
+      },
+      "NZVBB": {
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.3mUx8vXEQkiIuBcR",
+        "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+        "name": "Negative Healing",
+        "level": 1
       }
     },
     "vision": "darkvision",
@@ -146,10 +160,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.Mld98WoM7R1wOQtX",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!Mld98WoM7R1wOQtX"
 }

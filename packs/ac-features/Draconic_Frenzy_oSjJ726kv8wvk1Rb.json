@@ -4,9 +4,7 @@
   "img": "systems/pf2e/icons/spells/summon-draconic-legion.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.cgEzBx3hVSOw6Xpk"
-    }
+    "core": {}
   },
   "_id": "oSjJ726kv8wvk1Rb",
   "system": {
@@ -36,7 +34,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Secrets of Magic",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -60,13 +58,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.oSjJ726kv8wvk1Rb",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.cgEzBx3hVSOw6Xpk",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 9500000,
+  "folder": "kpWJAjuzGZKJKYh0",
+  "sort": 0,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

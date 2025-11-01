@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.N02sHmzuF9XQj93m"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -23,7 +21,7 @@
         "value": "@actor.abilities.con.mod"
       }
     ],
-    "slug": "resilient-shell",
+    "slug": "resilient-shell-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -70,10 +68,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.00eOhkScQi1K5GZk",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.N02sHmzuF9XQj93m",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!00eOhkScQi1K5GZk"
 }

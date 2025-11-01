@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.si8FGX2ZRxetdVHp"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -17,7 +15,7 @@
       "value": "<p><strong>Requirements</strong> Your eidolon has a creature @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}.</p>\n<p>Your eidolon constricts the creature, dealing [[/r @actor.level+@actor.abilities.str.mod #bludgeoning]]{bludgeoning damage} equal to your eidolon's level plus its Strength modifier, with a basic Fortitude save against your spell DC.</p>"
     },
     "rules": [],
-    "slug": "constricting-hold",
+    "slug": "constricting-hold-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -65,10 +63,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.mz0Y50ZaV7hysmmJ",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.si8FGX2ZRxetdVHp",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!mz0Y50ZaV7hysmmJ"
 }

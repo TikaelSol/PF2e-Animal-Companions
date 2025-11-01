@@ -54,7 +54,7 @@
         "value": 4
       }
     ],
-    "slug": "undead-stalker",
+    "slug": "adaptable-elemental",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -83,18 +83,19 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.Bct9n12OLVxFtmY1",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
+  "folder": "R1zxef6JTi1qnlRL",
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3,
     "qA45GVv5hySaf9b5": 3
   },
   "_id": "Bct9n12OLVxFtmY1",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!items!Bct9n12OLVxFtmY1"
 }

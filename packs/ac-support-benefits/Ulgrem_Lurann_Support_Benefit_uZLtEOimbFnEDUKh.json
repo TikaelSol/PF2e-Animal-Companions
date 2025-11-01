@@ -4,7 +4,7 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 7000000,
+  "sort": 8300000,
   "flags": {
     "core": {}
   },
@@ -62,7 +62,7 @@
       "value": []
     },
     "publication": {
-      "title": "Pathfinder Lost Omens Monsters of Myth",
+      "title": "Pathfinder Lost Omens: Monsters of Myth",
       "authors": "",
       "license": "OGL",
       "remaster": false

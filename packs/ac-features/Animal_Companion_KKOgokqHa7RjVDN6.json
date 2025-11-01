@@ -5,15 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/class.svg",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.h6Ybhv5URar01WPk"
-    },
-    "exportSource": {
-      "world": "ac",
-      "system": "pf2e",
-      "coreVersion": "0.8.8",
-      "systemVersion": "2.6.0.6437"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -89,10 +81,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "keyAbility": {
       "value": []
@@ -150,10 +142,17 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.4",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.h6Ybhv5URar01WPk",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "pf2e",
+      "systemVersion": "2.6.0.6437"
+    }
   },
   "folder": null,
   "sort": 3600000,

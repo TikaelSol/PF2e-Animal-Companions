@@ -5,11 +5,9 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 7100000,
+  "sort": 8400000,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -52,9 +50,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.5",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!wf20kx6pPGBWwUn2"
 }

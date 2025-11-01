@@ -55,7 +55,7 @@
         }
       }
     ],
-    "slug": null,
+    "slug": "swarm-eidolon",
     "_migration": {
       "version": 0.94,
       "lastMigration": null
@@ -77,6 +77,7 @@
     },
     "hp": 1,
     "size": "med",
+    "hands": 2,
     "reach": 5,
     "speed": 25,
     "boosts": {
@@ -129,9 +130,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.6.4"
   },
   "_key": "!items!i2m9Ce1UkNNc0ok9"
 }

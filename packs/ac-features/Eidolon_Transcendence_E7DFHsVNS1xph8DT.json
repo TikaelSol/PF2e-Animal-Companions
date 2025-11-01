@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/features/classes/eidolon-transcendence.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.E7DFHsVNS1xph8DT"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -100,9 +98,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.E7DFHsVNS1xph8DT",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
   "sort": 2400000,

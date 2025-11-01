@@ -44,7 +44,7 @@
         ]
       }
     ],
-    "slug": null,
+    "slug": "effect-giraffe-support-benefit",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -54,10 +54,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder: Howl of the Wild",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1

@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/spells/divine-decree.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.C0zzz9wVwfmGtfIQ"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -56,12 +54,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.C0zzz9wVwfmGtfIQ",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 2000000,
+  "folder": "4oaqgJDRdOmg12Mo",
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

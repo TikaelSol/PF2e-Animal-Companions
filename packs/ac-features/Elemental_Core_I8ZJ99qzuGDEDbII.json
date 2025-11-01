@@ -216,7 +216,7 @@
         }
       }
     ],
-    "slug": null,
+    "slug": "elemental-core",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -255,7 +255,7 @@
     "location": null
   },
   "img": "systems/pf2e/icons/spells/eclipse-burst.webp",
-  "folder": null,
+  "folder": "R1zxef6JTi1qnlRL",
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3
@@ -265,12 +265,13 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.I8ZJ99qzuGDEDbII",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "I8ZJ99qzuGDEDbII",
-  "sort": 9300000,
+  "sort": 300000,
   "_key": "!items!I8ZJ99qzuGDEDbII"
 }

@@ -62,7 +62,7 @@
         "slug": "ulgrem-lurann-electricity-damage"
       }
     ],
-    "slug": null,
+    "slug": "effect-ulgrem-lurann-support-benefit",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -72,7 +72,7 @@
       "value": []
     },
     "publication": {
-      "title": "Pathfinder Lost Omens Monsters of Myth",
+      "title": "Pathfinder Lost Omens: Monsters of Myth",
       "authors": "",
       "license": "OGL",
       "remaster": false

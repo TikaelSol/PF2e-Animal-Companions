@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/spells/devour-life.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.cejYxzaW2SQwWMjC"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -201,9 +199,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.jQBe4yXTAcMt2kKQ",
-    "duplicateSource": null
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.cejYxzaW2SQwWMjC",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
   "sort": 8400000,

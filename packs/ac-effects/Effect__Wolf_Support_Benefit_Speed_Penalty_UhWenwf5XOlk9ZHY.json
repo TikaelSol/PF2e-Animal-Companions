@@ -62,7 +62,7 @@
         "type": "status"
       }
     ],
-    "slug": null,
+    "slug": "effect-wolf-support-benefit-speed-penalty",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

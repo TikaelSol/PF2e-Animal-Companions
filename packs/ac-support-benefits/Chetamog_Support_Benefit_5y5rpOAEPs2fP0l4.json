@@ -30,7 +30,7 @@
     "actionType": {
       "value": "action"
     },
-    "category": null,
+    "category": "offensive",
     "actions": {
       "value": 1
     },
@@ -43,22 +43,23 @@
     "qA45GVv5hySaf9b5": 3
   },
   "flags": {
-    "core": {},
-    "exportSource": {
-      "world": "pf2e-test-world",
-      "system": "pf2e",
-      "coreVersion": "11.315",
-      "systemVersion": "5.15.1"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.5y5rpOAEPs2fP0l4",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "pf2e-test-world",
+      "uuid": null,
+      "coreVersion": "11.315",
+      "systemId": "pf2e",
+      "systemVersion": "5.15.1"
+    }
   },
   "_id": "5y5rpOAEPs2fP0l4",
-  "sort": 900000,
+  "sort": 2200000,
   "_key": "!items!5y5rpOAEPs2fP0l4"
 }

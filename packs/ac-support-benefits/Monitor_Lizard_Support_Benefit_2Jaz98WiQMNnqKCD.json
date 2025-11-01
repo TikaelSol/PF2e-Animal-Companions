@@ -5,11 +5,9 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 3100000,
+  "sort": 4400000,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.2Jaz98WiQMNnqKCD"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -31,7 +29,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder #154: Siege of the Dinosaurs",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -51,10 +49,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.5",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.2Jaz98WiQMNnqKCD",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!2Jaz98WiQMNnqKCD"
 }

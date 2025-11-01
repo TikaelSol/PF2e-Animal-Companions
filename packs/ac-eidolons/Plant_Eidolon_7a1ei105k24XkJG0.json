@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 300000,
   "flags": {
-    "core": {
-      "sourceId": "Item.QlhL9vPXzjhkYd8W"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -110,6 +108,7 @@
     },
     "hp": 1,
     "size": "med",
+    "hands": 2,
     "reach": 5,
     "speed": 25,
     "boosts": {
@@ -156,9 +155,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Eidolons.Item.7a1ei105k24XkJG0",
-    "duplicateSource": null
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.QlhL9vPXzjhkYd8W",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!7a1ei105k24XkJG0"
 }

@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a shotalashu, a telepathic creature originally from the planet of Castrovel but now introduced in small numbers to Golarion. Acquiring a shotalashu typically requires that the prospective rider bond with it first by spending a week of time with it and succeeding on a @Check[type:occultism|dc:21] check to establish a telepathic link. A rider who fails the check can attempt it again after another week with the shotalashu for each attempt. Any creature with telepathic capabilities, such as @UUID[Compendium.pf2e.spells-srd.Item.HqTI6wRrck1YXp3F]{Telepathy}, touch telepathy, empathic sense, or the ability to cast spells such as telepathy, gains a +4 circumstance bonus to this check. The GM is the final arbiter of whether a given ability counts as telepathy for the purposes of forming a link. This link remains, and neither can form a new link until one member dies. The shock of a bonded partner dying leaves the survivor @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 24 hours and prevents them from forming a new link for at least a month.</p><p>A shotalashu has the beast trait instead of the animal trait but otherwise functions normally as an animal companion.</p><p><strong>Size </strong>Medium or Large</p><p><strong>Melee </strong><span class=\"pf2-icon\">1</span> claw (agile), Damage 1d6 slashing</p><p><strong>Str </strong>+2, <strong>Dex </strong>+3, <strong>Con </strong>+2, <strong>Int </strong>–3, <strong>Wis </strong>+1, <strong>Cha </strong>+2</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Survival</p><p><strong>Senses </strong>darkvision</p><p><strong>Speed </strong>40 feet</p><p><strong>Special</strong> @UUID[Compendium.pf2e.actionspf2e.Item.PM5jvValFkbFH3TV]{Mount}</p><p><strong>Support Benefit</strong> The shotalashu telepathically assails your enemies when you create an opening. Until the start of your next turn, each time you hit a creature in the shotalashu's reach with a Strike, the creature takes @Damage[1d6[mental]] damage from the shotalashu. If your shotalashu is nimble or savage, the mental damage increases to [[/r 2d6]].</p><p><strong>Advanced Maneuver </strong>@UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.i8RWZ5XkR6DYbOCp]{Telepathic Pounce}</p>"
+      "value": "<p>Your companion is a shotalashu, a telepathic creature originally from the planet of Castrovel but now introduced in small numbers to Golarion. Acquiring a shotalashu typically requires that the prospective rider bond with it first by spending a week of time with it and succeeding on a @Check[type:occultism|dc:21] check to establish a telepathic link. A rider who fails the check can attempt it again after another week with the shotalashu for each attempt. Any creature with telepathic capabilities, such as @UUID[Compendium.pf2e.spells-srd.Item.HqTI6wRrck1YXp3F]{Telepathy}, touch telepathy, empathic sense, or the ability to cast spells such as telepathy, gains a +4 circumstance bonus to this check. The GM is the final arbiter of whether a given ability counts as telepathy for the purposes of forming a link. This link remains, and neither can form a new link until one member dies. The shock of a bonded partner dying leaves the survivor @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 24 hours and prevents them from forming a new link for at least a month.</p><p>A shotalashu has the beast trait instead of the animal trait but otherwise functions normally as an animal companion.</p><p><strong>Size </strong>Medium or Large</p><p><strong>Melee </strong><span class=\"pf2-icon\">1</span> claw (agile), Damage 1d6 slashing</p><p><strong>Str </strong>+2, <strong>Dex </strong>+3, <strong>Con </strong>+2, <strong>Int </strong>–3, <strong>Wis </strong>+1, <strong>Cha </strong>+2</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Survival</p><p><strong>Senses </strong>darkvision</p><p><strong>Speed </strong>40 feet</p><p><strong>Special</strong> @UUID[Compendium.pf2e.actionspf2e.Item.PM5jvValFkbFH3TV]{Mount}</p><p><strong>Support Benefit</strong> The shotalashu telepathically assails your enemies when you create an opening. Until the start of your next turn, each time you hit a creature in the shotalashu's reach with a Strike, the creature takes 1d6 mental damage from the shotalashu. If your shotalashu is nimble or savage, the mental damage increases to 2d6.</p><p><strong>Advanced Maneuver </strong>@UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.i8RWZ5XkR6DYbOCp]{Telepathic Pounce}</p>"
     },
     "rules": [
       {
@@ -126,10 +126,11 @@
       "title": "Pathfinder: Howl of the Wild",
       "authors": "",
       "license": "ORC",
-      "remaster": false
+      "remaster": true
     },
     "hp": 8,
     "size": "med",
+    "hands": 2,
     "reach": 5,
     "speed": 40,
     "boosts": {
@@ -166,8 +167,8 @@
   },
   "_id": "hxN1RjBfKIIMe7WF",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
-  "folder": null,
-  "sort": 1100000,
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 6600000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -179,10 +180,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!hxN1RjBfKIIMe7WF"
 }

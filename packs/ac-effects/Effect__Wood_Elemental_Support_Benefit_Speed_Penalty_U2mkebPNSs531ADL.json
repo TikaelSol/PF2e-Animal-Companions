@@ -62,7 +62,7 @@
         "type": "circumstance"
       }
     ],
-    "slug": null,
+    "slug": "effect-wood-elemental-support-benefit-speed-penalty",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

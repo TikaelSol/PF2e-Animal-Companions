@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 5200000,
   "flags": {
-    "core": {
-      "sourceId": "Item.tvBQEtzLWUR1PlcL"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -54,7 +52,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Lost Omens: Grand Bazaar",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -74,10 +72,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Item.tvBQEtzLWUR1PlcL",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!cpMkN79PdNci3nGp"
 }

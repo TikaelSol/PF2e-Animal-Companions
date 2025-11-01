@@ -25,7 +25,7 @@
       "title": "Pathfinder: Howl of the Wild",
       "authors": "",
       "license": "ORC",
-      "remaster": false
+      "remaster": true
     },
     "actionType": {
       "value": "action"
@@ -39,7 +39,7 @@
   "_id": "NKgFIZQYkL3bb6xn",
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "folder": null,
-  "sort": 500000,
+  "sort": 1800000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -51,10 +51,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.5",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.NKgFIZQYkL3bb6xn",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!NKgFIZQYkL3bb6xn"
 }

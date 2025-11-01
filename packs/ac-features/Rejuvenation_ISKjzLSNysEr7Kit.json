@@ -24,7 +24,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Book of the Dead",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -52,19 +52,18 @@
     "thw0Ox3kKEThnAFP": 3
   },
   "flags": {
-    "core": {
-      "sourceId": "Item.1KoqDkZR0xt9nEBI"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.ISKjzLSNysEr7Kit",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.1KoqDkZR0xt9nEBI",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 3300000,
+  "folder": "ecK9IrCUtW1bkFl6",
+  "sort": 50000,
   "_id": "ISKjzLSNysEr7Kit",
   "_key": "!items!ISKjzLSNysEr7Kit"
 }

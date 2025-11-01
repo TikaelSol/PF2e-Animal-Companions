@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/weapon.svg",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.plHqkYSxSSPZ4mHQ"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -95,16 +93,15 @@
       "persistent": null,
       "value": ""
     },
-    "bonusDamage": {
-      "value": 0
-    },
     "splashDamage": {
       "value": 0
     },
     "range": null,
+    "expend": null,
     "reload": {
       "value": ""
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -112,6 +109,9 @@
     },
     "specific": null,
     "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
     "property1": {
       "value": "",
       "dice": 0,
@@ -130,9 +130,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.v5dfcKYsaD0EvvtH",
-    "duplicateSource": null
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.plHqkYSxSSPZ4mHQ",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
   "sort": 10700000,

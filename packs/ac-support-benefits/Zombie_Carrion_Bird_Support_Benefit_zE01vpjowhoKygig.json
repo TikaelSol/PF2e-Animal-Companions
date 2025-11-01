@@ -5,11 +5,9 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 8100000,
+  "sort": 9000000,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.zE01vpjowhoKygig"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -66,7 +64,7 @@
       ]
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder #181: Zombie Feast",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -86,10 +84,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.zE01vpjowhoKygig",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!zE01vpjowhoKygig"
 }

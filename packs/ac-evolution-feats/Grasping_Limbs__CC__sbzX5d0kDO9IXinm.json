@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.WsEVkMFe8ZEIRKLu"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -22,7 +20,7 @@
         "uuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr"
       }
     ],
-    "slug": "grasping-limbs",
+    "slug": "grasping-limbs-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -69,10 +67,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.sbzX5d0kDO9IXinm",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.WsEVkMFe8ZEIRKLu",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!sbzX5d0kDO9IXinm"
 }

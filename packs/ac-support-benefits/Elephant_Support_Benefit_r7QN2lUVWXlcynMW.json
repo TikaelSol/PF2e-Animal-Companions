@@ -5,11 +5,9 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 6800000,
+  "sort": 8100000,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.r7QN2lUVWXlcynMW"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -31,7 +29,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder #177: Burning Tundra",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -51,10 +49,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.4",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.r7QN2lUVWXlcynMW",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!r7QN2lUVWXlcynMW"
 }

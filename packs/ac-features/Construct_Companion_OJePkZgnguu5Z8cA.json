@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/default-icons/class.svg",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.iOVXqZOCqrOskHcd"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -121,10 +119,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Guns & Gears",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "keyAbility": {
       "value": []
@@ -180,13 +178,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.OJePkZgnguu5Z8cA",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.iOVXqZOCqrOskHcd",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
-  "sort": 4400000,
+  "sort": 11300000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

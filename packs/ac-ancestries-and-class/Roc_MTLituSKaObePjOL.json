@@ -106,7 +106,7 @@
         "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HzGLDKNJJBs7fsYN"
       }
     ],
-    "slug": null,
+    "slug": "roc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -127,10 +127,11 @@
       "title": "Pathfinder: Howl of the Wild",
       "authors": "",
       "license": "ORC",
-      "remaster": false
+      "remaster": true
     },
     "hp": 8,
     "size": "huge",
+    "hands": 2,
     "reach": 5,
     "speed": 15,
     "boosts": {
@@ -163,8 +164,8 @@
   },
   "_id": "MTLituSKaObePjOL",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
-  "folder": null,
-  "sort": 3500000,
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 5900000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -176,10 +177,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!MTLituSKaObePjOL"
 }

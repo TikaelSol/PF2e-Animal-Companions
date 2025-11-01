@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.0PCDkVnRxVqxsp9j"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -65,7 +63,7 @@
         "value": "max(1,floor(@actor.level/2))"
       }
     ],
-    "slug": "energy-heart",
+    "slug": "energy-heart-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -112,10 +110,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.val0CdVJxuHkpgFG",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.0PCDkVnRxVqxsp9j",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!val0CdVJxuHkpgFG"
 }

@@ -1,5 +1,5 @@
 {
-  "folder": null,
+  "folder": "Rn81F1uZdgYGoXoS",
   "name": "Sundaflora",
   "type": "ancestry",
   "effects": [],
@@ -121,7 +121,7 @@
         "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.uhv8V9STpaCXdkCf"
       }
     ],
-    "slug": null,
+    "slug": "sundaflora",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -141,6 +141,7 @@
     },
     "hp": 6,
     "size": "sm",
+    "hands": 2,
     "reach": 5,
     "speed": 20,
     "boosts": {
@@ -189,11 +190,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.0"
+    "systemVersion": "7.6.4",
+    "exportSource": null
   },
   "_id": "luZxqEpHiV9S6mg2",
-  "sort": 0,
+  "sort": 112500,
   "_key": "!items!luZxqEpHiV9S6mg2"
 }

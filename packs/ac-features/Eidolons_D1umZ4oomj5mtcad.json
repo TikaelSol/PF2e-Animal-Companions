@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Eidolons",
+  "color": null,
+  "sorting": "a",
+  "_id": "D1umZ4oomj5mtcad",
+  "description": "",
+  "sort": 1500000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4"
+  },
+  "_key": "!folders!D1umZ4oomj5mtcad"
+}

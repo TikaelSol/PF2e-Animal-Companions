@@ -53,7 +53,7 @@
         "value": "@actor.attributes.speed.total"
       }
     ],
-    "slug": null,
+    "slug": "peerless-mascot",
     "traits": {
       "otherTags": [],
       "value": [
@@ -102,9 +102,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.4.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "hdbIyS971qiuMK2V",
   "sort": 2100000,

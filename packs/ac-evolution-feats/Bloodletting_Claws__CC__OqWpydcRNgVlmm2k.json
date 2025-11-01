@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.lpG7ZXFDZygmkbH4"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -40,7 +38,7 @@
         ]
       }
     ],
-    "slug": "bloodletting-claws",
+    "slug": "bloodletting-claws-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -87,10 +85,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.4",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.OqWpydcRNgVlmm2k",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.lpG7ZXFDZygmkbH4",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!OqWpydcRNgVlmm2k"
 }

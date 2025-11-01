@@ -1,16 +1,16 @@
 {
-  "name": "Effect: Undead Bird of Prey Support Benefit",
+  "name": "Effect: Skeletal Bird of Prey Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.bEkXle5FLNxnp3IE]{Undead Bird of Prey Support Benefit}</p><p>When you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.bEkXle5FLNxnp3IE]{Skeletal Bird of Prey Support Benefit}</p><p>When you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p>"
     },
     "rules": [
       {
         "key": "RollOption",
-        "option": "undead-bird-of-prey-support-benefit",
+        "option": "skeletal-bird-of-prey-support-benefit",
         "toggleable": true
       },
       {
@@ -18,18 +18,18 @@
         "selector": [
           "strike-damage"
         ],
-        "text": "COMP.SpecificRule.UndeadBirdOfPrey.EffectNote",
+        "text": "COMP.SpecificRule.SkeletalBirdOfPrey.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
           "criticalSuccess"
         ],
         "predicate": [
-          "undead-bird-of-prey-support-benefit"
+          "skeletal-bird-of-prey-support-benefit"
         ]
       }
     ],
-    "slug": "effect-undead-bird-of-prey-support-benefit",
+    "slug": "effect-skeletal-bird-of-prey-support-benefit",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
