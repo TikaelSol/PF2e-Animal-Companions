@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is a skeletal horse, drake, elk, or other animal suitable for riding. Skeletal mounts can be collapsed, gathered into piles of bone, and packed away for storage.</p><p><strong>Size</strong> Large</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> hoof (agile), <strong>Damage</strong> 1d6 bludgeoning</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –5, <strong>Wis</strong> +0, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> none (mindless)</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 35 feet</p><p><strong>Special</strong> @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.CSBy1IgHTSkVAFMM]{Mindless Companion}, mount</p><p><strong>Support Benefit</strong> Your skeletal mount strikes fear when it charges. Until the start of your next turn, if you are riding your skeletal mount and move at least 10 feet on the action before your attack, any creature damaged by the attack becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} if the attack was a critical hit. This is an emotion, fear, and mental effect.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e.actionspf2e.Item.jtuWJa6Iyyd3gkVv]{Gallop}</p>"
+      "value": "<p>Your companion is a skeletal horse, drake, elk, or other animal suitable for riding. Skeletal mounts can be collapsed, gathered into piles of bone, and packed away for storage.</p><p><strong>Size</strong> Large</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> hoof (agile), <strong>Damage</strong> 1d6 bludgeoning</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –5, <strong>Wis</strong> +0, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> none (mindless)</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 35 feet</p><p><strong>Special</strong> @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.CSBy1IgHTSkVAFMM]{Mindless Companion}, mount</p><p><strong>Support Benefit</strong> Your skeletal mount strikes fear when it charges. Until the start of your next turn, if you are riding your skeletal mount and move at least 10 feet on the action before your attack, any creature damaged by the attack becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} if the attack was a critical hit. This is an emotion, fear, and mental effect.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.tsOaXTRWQvsKTyaL]{Gallop}</p>"
     },
     "rules": [
       {
@@ -82,7 +82,7 @@
         "key": "ActiveEffectLike",
         "mode": "override",
         "path": "flags.pf2e.companionCompendia.advancedManeuver",
-        "value": "Compendium.pf2e.actionspf2e.Item.jtuWJa6Iyyd3gkVv"
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.tsOaXTRWQvsKTyaL"
       }
     ],
     "slug": "skeletal-mount",
