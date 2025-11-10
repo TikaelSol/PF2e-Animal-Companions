@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.941,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.941,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> The sharpshooter critically hits with a ranged Strike</p><p><strong>Requirements</strong> The sharpshooter is wielding a weapon with reload 0</p><hr /><p><strong>Effect</strong> Bolstered by their success, the sharpshooter quickly takes another shot. They make another ranged Strike with the same weapon at the same multiple attack penalty. This attack still counts toward the sharpshooter's multiple attack penalty.</p>",
@@ -51,7 +55,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_key": "!items!Xl8aFEzCXaG3L68D"
 }

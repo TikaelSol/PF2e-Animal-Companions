@@ -26,29 +26,7 @@
           "furious-strike"
         ],
         "selector": "strike-damage",
-        "value": {
-          "brackets": [
-            {
-              "end": 9,
-              "value": {
-                "diceNumber": 1
-              }
-            },
-            {
-              "end": 17,
-              "start": 10,
-              "value": {
-                "diceNumber": 2
-              }
-            },
-            {
-              "start": 18,
-              "value": {
-                "diceNumber": 3
-              }
-            }
-          ]
-        }
+        "diceNumber": "match(when(lte(@actor.level, 9), 1), when(btwn(@actor.level, 10, 17), 2), when(gte(@actor.level, 18), 3))"
       },
       {
         "key": "FlatModifier",
@@ -57,23 +35,7 @@
           "furious-strike"
         ],
         "selector": "strike-damage",
-        "value": {
-          "brackets": [
-            {
-              "end": 9,
-              "value": 1
-            },
-            {
-              "end": 17,
-              "start": 10,
-              "value": 2
-            },
-            {
-              "start": 18,
-              "value": 3
-            }
-          ]
-        },
+        "value": "match(when(lte(@actor.level, 9), 1), when(btwn(@actor.level, 10, 17), 2), when(gte(@actor.level, 18), 3))",
         "type": "circumstance"
       }
     ],
@@ -99,17 +61,17 @@
       "remaster": false
     },
     "_migration": {
-      "version": 0.935,
+      "version": 0.952,
       "previous": {
-        "schema": null,
-        "foundry": "12.331",
-        "system": "6.8.0"
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
       }
     }
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "7.7.1",
     "coreVersion": "13.350",
     "compendiumSource": "Item.Q8yXShOx8PGjL0LV",
     "duplicateSource": null,

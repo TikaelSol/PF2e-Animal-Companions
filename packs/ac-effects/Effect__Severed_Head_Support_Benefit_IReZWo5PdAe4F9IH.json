@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.939,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.z6bNmmf5YiJrPbot]{Severed Head Support Benefit}</p><p>Your Strikes t<span style=\"font-family:Roboto, sans-serif\">hat damage a creature in your severed head's reach take a penalty to their speed and must succeed at a flat check to use reactions.</span></p>",
@@ -78,7 +82,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "IReZWo5PdAe4F9IH",
   "sort": 600000,

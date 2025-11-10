@@ -64,8 +64,12 @@
     ],
     "slug": "effect-wood-elemental-support-benefit-speed-penalty",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -95,7 +99,8 @@
     },
     "badge": null,
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "img": "icons/skills/movement/figure-running-gray.webp",
   "folder": null,
@@ -109,7 +114,7 @@
     "duplicateSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4",
+    "systemVersion": "7.7.1",
     "exportSource": null
   },
   "_id": "U2mkebPNSs531ADL",

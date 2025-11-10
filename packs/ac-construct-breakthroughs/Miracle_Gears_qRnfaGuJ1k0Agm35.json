@@ -24,12 +24,11 @@
     ],
     "slug": "miracle-gears",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null,
+      "version": 0.952,
       "previous": {
-        "schema": 0.854,
-        "foundry": "12.331",
-        "system": "6.8.0"
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
       }
     },
     "traits": {
@@ -58,7 +57,12 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
   },
   "ownership": {
     "default": 0,
@@ -66,7 +70,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
+    "systemVersion": "7.7.1",
     "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Construct-Breakthroughs.Item.qRnfaGuJ1k0Agm35",
     "duplicateSource": null,

@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/spells/heal-animal.webp",
   "effects": [],
   "folder": null,
-  "sort": 0,
+  "sort": 2400000,
   "flags": {
     "core": {}
   },

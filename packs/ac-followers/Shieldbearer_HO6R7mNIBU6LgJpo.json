@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.941,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.941,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>This aspiring bodyguard can learn to deflect the most devastating of blows.</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> longsword (versatile P), <strong>Damage</strong> 1d8 slashing</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> shield boss, <strong>Damage</strong> 1d6 bludgeoning</p><p><strong>Str</strong> +3, <strong>Dex</strong> +1, <strong>Con</strong> +2, <strong>Int</strong> +0, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Kit Armor</strong> item bonus +5, Dex cap +1</p><p><strong>Skills</strong> Athletics, Survival, Warfare Lore</p><p><strong>Follower Ability</strong> A shieldbearer carries a shield (Hardness 5, HP 20, BT 10). They can Raise the Shield to gain a +2 circumstance bonus to AC. The shieldbearer also gains a reaction when Directed. If this reaction isn't spent before the beginning of your next turn, it is lost. Finally, they gain the Shield Block feat.</p><p><strong>Special</strong> A shieldbearer takes a –5-foot penalty to their Speeds from their heavy armor.</p><p><strong>Experienced Advancement</strong> When the shieldbearer becomes an experienced follower:</p><ul><li>Increase their Strength modifier to +4 and their Constitution modifier to +3.</li><li>Increase their proficiency rank in Fortitude and Will saves to expert.</li><li>Increase their weapons' Strike damage from one die to two dice (for instance 1d8 to 2d8).</li><li>Increase their shield's statistics to Hardness 6, HP 40, and BT 20.</li><li><p>The shieldbearer can defend you. When the shieldbearer has their shield raised, they can use their Shield Block reaction when an attack is made against you as long as they are adjacent to you. If they do, the shield prevents you from taking damage up to the shield's Hardness, but you and the shield each take any remaining damage, following the normal rules for Shield Block.</p></li></ul><p><strong>Veteran Advancement</strong> When the shieldbearer becomes a veteran follower:</p><ul><li>Increase their Constitution modifier to +4, their Intelligence modifier to +1, and their Wisdom modifier to +2.</li><li>Increase their item bonus to AC to +6. Their armor gains the bulwark trait.</li><li>Increase their proficiency rank in Perception to expert.</li><li>Increase their proficiency rank in Athletics, Survival, and Warfare Lore to expert. They become an expert in Crafting and add a repair toolkit to their kit.</li><li>Increase their proficiency rank in weapon Strikes to expert, and give them a +1 item bonus to attack rolls with their weapon Strikes. Their weapon Strikes deal 2 additional damage and become magical for the purposes of ignoring resistances.</li><li>Increase their shield's statistics to Hardness 8, HP 64, BT 32.</li><li><p>The shieldbearer can now defend anyone. The shieldbearer can use Shield Block to protect any adjacent ally, not just you.</p></li></ul><p><strong>Exceptional Advancement</strong> When the shieldbearer becomes an exceptional follower:</p><ul><li>Increase their Strength modifier to +5, their Dexterity modifier to +2, their Intelligence modifier to +2, and their Wisdom modifier to +3.</li><li>Increase their item bonus to AC to +7.</li><li>Increase their proficiency rank in Fortitude saves and Will saves to master, and their proficiency rank in Reflex saves to expert. Give them a +1 item bonus to all saving throws.</li><li>Increase their proficiency rank in Athletics to master. They become an expert in Acrobatics.</li><li>Increase their item bonus to attack rolls with their listed weapon Strikes to +2. Increase their weapon Strike damage from two dice to three dice (for instance, 2d8 to 3d8) and increase the additional damage that their weapon Strikes deal from 2 to 4.</li><li>Increase their shield's statistics to Hardness 10, HP 100, BT 50.</li><li><p>The shieldbearer gains an additional reaction when Directed, which the shieldbearer can use only to Shield Block to protect themself.</p></li></ul>",
@@ -653,7 +657,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "HO6R7mNIBU6LgJpo",
   "sort": 0,

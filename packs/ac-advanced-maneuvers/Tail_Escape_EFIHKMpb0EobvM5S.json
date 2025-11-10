@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.939,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Requirements</strong> The giant rock tuatara is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}. </p><hr /><p>The giant rock tuatara detaches its tail to free itself from an enemy's grip. It automatically Escapes and can Step. It then can't use its tail slam Strike until it can regenerate its tail, which takes 10 minutes or an application of healing magic that restores Hit Points.</p>",
@@ -55,7 +59,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "EFIHKMpb0EobvM5S",
   "sort": 0,

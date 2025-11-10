@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.941,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.941,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>You accept anyone who would follow you on your adventures. You can take followers from any common ancestry, and from uncommon or rare ancestries at the GM's discretion.</p><p>Your follower gains the traits, size, Speeds, languages, and other special abilities listed in their ancestry. For example, elf followers have the elf and humanoid traits, a 30-foot speed, low-light vision, and the typical languages for elves.</p><p>Followers don't use their ancestry's Hit Points or attribute boosts and flaws. They also don't gain abilities that would allow them to use actions beyond the standard ones available to a follower, such as Activating an Item or Casting a Spell.</p><hr /><p><em>Note:</em> This feat has been set up for an elf follower. For other ancestries set the senses and languages from the details tab, and traits and base speed from the rules tab. If needed, see the Creature Size rule element in the <a href=\"https://github.com/foundryvtt/pf2e/wiki/Quickstart-guide-for-rule-elements#creature-size\">quickstart guide for rule elements</a>.</p>",
@@ -65,14 +69,20 @@
       "proficiencies": {},
       "senses": {
         "low-light-vision": {
-          "range": null
+          "range": null,
+          "special": {
+            "ancestry": false,
+            "llv": false,
+            "second": false
+          }
         }
       },
       "suppressedFeatures": [],
       "languages": {
         "granted": [
           "elven"
-        ]
+        ],
+        "slots": 0
       }
     },
     "location": null
@@ -89,7 +99,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "jv7iHR66k6AKZuZ4",
   "sort": 0,

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.941,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.941,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>This novice lookout can become a master of traversing terrain silently to strike their foes' weak points.</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> shortsword (agile, finesse, versatile S), <strong>Damage</strong> 1d6 piercing</p><p><strong>Str</strong> +1, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Int</strong> +0, <strong>Wis</strong> +2, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 6</p><p><strong>Kit Armor</strong> item bonus +1, Dex cap +4</p><p><strong>Skills</strong> Acrobatics, Stealth, Survival, one Lore about a specific settlement or a specific terrain</p><p><strong>Follower Ability</strong> A scout deals 1d4 extra precision damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} targets.</p><p><strong>Special</strong> A scout adds Scout to the list of exploration activities that they can perform without spending your exploration activity.</p><p><strong>Experienced Advancement</strong> When the scout becomes an experienced follower:</p><ul><li>Increase their Dexterity modifier to +4 and their Wisdom modifier to +3.</li><li>Increase their proficiency rank with Reflex saves, Will saves, and Perception to expert.</li><li>Increase their shortsword Strike damage dice from 1d6 to [[/r 2d6]].</li><li><p>Add @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{Search} to the list of exploration activities the scout can perform without spending your exploration activity.</p></li></ul><p><strong>Veteran Advancement</strong> When the scout becomes a veteran follower:</p><ul><li>Increase their Strength modifier to +2, their Constitution modifier to +2, and their Intelligence modifier to +1.</li><li>Increase their item bonus to AC to +2.</li><li>Increase their proficiency rank in Acrobatics, Stealth, Survival, and their specific Lore to expert. Give them a +1 item bonus to Stealth checks.</li><li>Increase their proficiency rank in their shortsword Strikes to expert, and give them a +1 item bonus to attack rolls with their shortsword Strikes. Their Strikes deal 2 additional damage and become magical for the purposes of ignoring resistances.</li><li>Increase the extra precision damage the scout does to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} targets to [[/r 1d6]].</li><li>The scout learns Exploit Injury.</li></ul><p><strong>Exceptional Advancement</strong> When the scout becomes an exceptional follower:</p><ul><li>Increase their Strength modifier to +3, their Dexterity modifier to +5, their Constitution modifier to +3, and their Wisdom modifier to +4.</li><li>Increase their item bonus to AC to +3.</li><li>Increase their proficiency rank in Reflex saves, Will saves, and Perception to master, and their proficiency rank in Fortitude saves to expert. Give them a +1 item bonus to all saving throws.</li><li>Increase their proficiency rank in Stealth to master, and increase their item bonus to Stealth checks to +2.</li><li>Increase their item bonus to attack rolls with their shortsword Strikes to +2. Increase their shortsword Strike damage dice from 2d6 to 3d6 and increase the additional damage that their shortsword Strikes deal from 2 to 4.</li><li>When the scout uses the Scout exploration activity, they also @UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{Avoid Notice} and @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{Search}.</li></ul>",
@@ -593,7 +597,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "BrQt3St9A9ntCRus",
   "sort": 200000,

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>The yzobu Strides and then makes a horn Strike. If the Strike hits, the target is pushed 10 feet.</p>",
@@ -44,7 +48,7 @@
     "duplicateSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4",
+    "systemVersion": "7.7.1",
     "exportSource": null
   },
   "_id": "nyJV4tsR316EmsYF",

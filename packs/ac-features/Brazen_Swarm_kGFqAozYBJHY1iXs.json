@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.94,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.94,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p><em>Str</em> +4, <em>Dex</em> +2, <em>Con</em> +3, <em>Int</em> +0, <em>Wis</em> +0, <em>Cha</em> +0; +2 AC (+3 Dex cap)</p>",
@@ -109,7 +113,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_key": "!items!kGFqAozYBJHY1iXs"
 }

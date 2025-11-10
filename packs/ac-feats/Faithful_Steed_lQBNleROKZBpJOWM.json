@@ -1,0 +1,96 @@
+{
+  "folder": null,
+  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+  "name": "Faithful Steed",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>Your mount gains the holy or unholy trait, as do the mount's Strikes.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitHoly",
+            "value": "holy"
+          },
+          {
+            "label": "PF2E.TraitUnholy",
+            "value": "unholy"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Sanctification",
+        "flag": "sanctification"
+      },
+      {
+        "add": [
+          "{item|flags.pf2e.rulesSelections.sanctification}"
+        ],
+        "key": "ActorTraits"
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "traits",
+        "value": "{item|flags.pf2e.rulesSelections.sanctification}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "faithful-steed",
+    "_migration": {
+      "version": 0.952,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1"
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_id": "lQBNleROKZBpJOWM",
+  "sort": 1900000,
+  "_key": "!items!lQBNleROKZBpJOWM"
+}

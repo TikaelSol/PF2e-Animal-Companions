@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.939,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.XDmtg6o5B2MaA4Ke]{Gray Bladeling Support Benefit}</p><p><span style=\"font-family:Roboto, sans-serif\">Your Strikes that damage a creature in your gray bladeling's reach also deal bleed damage or becomes </span>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} if it's already taking persistent bleed damage.</p>",
@@ -123,7 +127,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "jHISsCN6eVEYNtrw",
   "sort": 400000,

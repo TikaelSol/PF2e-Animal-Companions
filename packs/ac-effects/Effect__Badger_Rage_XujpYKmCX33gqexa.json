@@ -30,18 +30,16 @@
     ],
     "slug": "effect-badger-rage",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null,
+      "version": 0.952,
       "previous": {
-        "schema": 0.854,
-        "foundry": "12.331",
-        "system": "6.8.0"
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
       }
     },
     "traits": {
       "otherTags": [],
-      "value": [],
-      "rarity": "common"
+      "value": []
     },
     "publication": {
       "title": "Pathfinder Player Core",
@@ -67,18 +65,15 @@
     },
     "badge": null,
     "context": null,
-    "target": null,
-    "rarity": {
-      "value": "common"
-    },
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "_stats": {
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.Kgt1NyBesS3rohzb",
     "duplicateSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4",
+    "systemVersion": "7.7.1",
     "exportSource": null
   },
   "folder": null,

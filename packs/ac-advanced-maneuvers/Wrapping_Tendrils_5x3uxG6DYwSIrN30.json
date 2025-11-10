@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> The urchinpad's last action was a successful tendril Strike. </p><hr /><p>The urchinpad makes another tendril Strike against the same target. If this Strike hits, the target is also @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, as if the urchinpad had successfully Grappled the target.</p>",
@@ -44,7 +48,7 @@
     "duplicateSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4",
+    "systemVersion": "7.7.1",
     "exportSource": null
   },
   "_id": "5x3uxG6DYwSIrN30",

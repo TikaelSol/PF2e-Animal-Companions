@@ -31,12 +31,11 @@
     ],
     "slug": "hallowed-strikes",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null,
+      "version": 0.952,
       "previous": {
-        "schema": 0.854,
-        "foundry": "12.331",
-        "system": "6.8.0"
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
       }
     },
     "traits": {
@@ -51,7 +50,7 @@
       "remaster": false
     },
     "level": {
-      "value": 0
+      "value": 1
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -65,11 +64,16 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.6.4",
+    "systemVersion": "7.7.1",
     "coreVersion": "13.350",
     "compendiumSource": "Item.jSDsKX3BOHhvtgsD",
     "duplicateSource": null,

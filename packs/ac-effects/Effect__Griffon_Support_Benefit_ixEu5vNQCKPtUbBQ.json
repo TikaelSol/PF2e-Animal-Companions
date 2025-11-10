@@ -20,8 +20,12 @@
     ],
     "slug": "effect-griffon-support-benefit",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -51,7 +55,8 @@
     },
     "badge": null,
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "_id": "ixEu5vNQCKPtUbBQ",
   "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
@@ -67,7 +72,7 @@
     "duplicateSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4",
+    "systemVersion": "7.7.1",
     "exportSource": null
   },
   "_key": "!items!ixEu5vNQCKPtUbBQ"

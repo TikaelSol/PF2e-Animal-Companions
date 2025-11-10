@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.939,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>Your cragstone bear eagerly defends you. Until the start of your next turn, you gain a +1 circumstance bonus to your AC if your cragstone bear is adjacent to you. If your bear is nimble or savage, increase the bonus to +2.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.33LFnwNIIHChfZz8]{Effect: Cragstone Bear Support Benefit}</p>",
@@ -78,7 +82,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "6dStcNwpIK7WeAeo",
   "sort": 300000,

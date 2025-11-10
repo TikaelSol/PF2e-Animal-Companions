@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.939,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>The gray bladeling slashes viciously at your enemy when you create an opening. Until the start of your next turn, each time you hit a creature in the bladeling's reach with a Strike, the creature takes @Damage[1d4[persistent,bleed]] damage or becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} if it's already taking persistent bleed damage. If the gray bladeling is specialized, the persistent bleed damage increases to 1d8.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.jHISsCN6eVEYNtrw]{Effect: Gray Bladeling Support Benefit}</p>",
@@ -78,7 +82,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "XDmtg6o5B2MaA4Ke",
   "sort": 800000,
