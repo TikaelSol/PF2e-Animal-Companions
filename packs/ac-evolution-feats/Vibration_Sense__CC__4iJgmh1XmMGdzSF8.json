@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.TgYs2m9scSyEJwdr"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -50,7 +48,7 @@
         ]
       }
     ],
-    "slug": "vibration-sense",
+    "slug": "vibration-sense-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -97,10 +95,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.4iJgmh1XmMGdzSF8",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.TgYs2m9scSyEJwdr",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!4iJgmh1XmMGdzSF8"
 }

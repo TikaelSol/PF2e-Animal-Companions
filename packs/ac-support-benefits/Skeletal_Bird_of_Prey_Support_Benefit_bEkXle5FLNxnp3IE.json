@@ -1,23 +1,21 @@
 {
   "_id": "bEkXle5FLNxnp3IE",
-  "name": "Undead Bird of Prey Support Benefit",
+  "name": "Skeletal Bird of Prey Support Benefit",
   "type": "action",
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 5600000,
+  "sort": 6900000,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.bEkXle5FLNxnp3IE"
-    }
+    "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The bird flaps around and throws your foe off balance. Until the start of your next turn, when you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.tyTTl3B8OWtWYhcX]{Effect: Undead Bird of Prey Support Benefit}</p>"
+      "value": "<p>The bird flaps around and throws your foe off balance. Until the start of your next turn, when you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.tyTTl3B8OWtWYhcX]{Effect: Skeletal Bird of Prey Support Benefit}</p>"
     },
     "rules": [],
-    "slug": "undead-bird-of-prey-support-benefit",
+    "slug": "skeletal-bird-of-prey-support-benefit",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -31,7 +29,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder #181: Zombie Feast",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -51,10 +49,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.bEkXle5FLNxnp3IE",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!bEkXle5FLNxnp3IE"
 }

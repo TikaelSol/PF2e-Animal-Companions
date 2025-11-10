@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Pathfinder",
+  "color": null,
+  "sorting": "a",
+  "_id": "Rn81F1uZdgYGoXoS",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4"
+  },
+  "_key": "!folders!Rn81F1uZdgYGoXoS"
+}

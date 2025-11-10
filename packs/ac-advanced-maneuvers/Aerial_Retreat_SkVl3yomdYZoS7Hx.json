@@ -50,7 +50,7 @@
       "title": "Pathfinder: Howl of the Wild",
       "authors": "",
       "license": "ORC",
-      "remaster": false
+      "remaster": true
     },
     "actionType": {
       "value": "action"
@@ -76,10 +76,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!SkVl3yomdYZoS7Hx"
 }

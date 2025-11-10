@@ -9,7 +9,7 @@
       "value": "<p><strong>Requirements</strong> The animal companion's last action was a successful headbutt Strike.</p>\n<hr />\n<p>The goat automatically pushes the target back 5 feet, or 10 feet if the required Strike was a critical hit.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "knock-aside",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -23,7 +23,7 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Lost Omens: Highhelm",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -47,10 +47,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "IoWvKP6WDijlkrin",
   "sort": 3200000,

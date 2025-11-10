@@ -1,0 +1,57 @@
+{
+  "name": "Ravenous Drake Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.95,
+      "previous": {
+        "schema": 0.949,
+        "foundry": "13.350",
+        "system": "7.6.4"
+      }
+    },
+    "description": {
+      "value": "<p>Your ravenous drake constantly tries to pull your foe or their possessions into its waiting jaws. You gain a +1 circumstance bonus to any Athletics check to [[/act disarm]], [[/act reposition]], [[/act shove]], or [[/act trip]] an opponent adjacent to your ravenous drake.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.vZarTalIYKxQ0Pgr]{Effect: Ravenous Drake Support Benefit}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Alien Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "ravenous-drake-support-benefit",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4"
+  },
+  "_id": "uIOdChoT35s5BIzd",
+  "sort": 1300000,
+  "_key": "!items!uIOdChoT35s5BIzd"
+}

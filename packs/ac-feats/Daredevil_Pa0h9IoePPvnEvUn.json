@@ -7,20 +7,12 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.Pa0h9IoePPvnEvUn"
-    },
-    "exportSource": {
-      "world": "ac",
-      "system": "pf2e",
-      "coreVersion": "0.8.8",
-      "systemVersion": "2.6.0.6437"
-    }
+    "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion joins the fray with graceful leaps and dives. It gains the deny advantage ability, so it isn't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected}, or flanking creatures unless such a creature's level is greater than yours. Its proficiency rank in Acrobatics increases to master, and its Dexterity modifier increases by 1. Its proficiency rank in unarmored defense increases to expert.</p>"
+      "value": "<p>Your companion joins the fray with graceful leaps and dives. It gains the @UUID[Compendium.pf2e.classfeatures.Item.PNpmVmD21zViDtGC]{deny advantage} ability, so it isn't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected}, or flanking creatures unless such a creature's level is greater than yours. Its proficiency rank in Acrobatics increases to master, and its Dexterity modifier increases by 1. Its proficiency rank in unarmored defense increases to expert.</p>"
     },
     "rules": [
       {
@@ -40,6 +32,10 @@
         "value": 1,
         "mode": "add",
         "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.classfeatures.Item.PNpmVmD21zViDtGC"
       }
     ],
     "slug": "daredevil",
@@ -98,10 +94,17 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.Pa0h9IoePPvnEvUn",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "pf2e",
+      "systemVersion": "2.6.0.6437"
+    }
   },
   "_key": "!items!Pa0h9IoePPvnEvUn"
 }

@@ -4,9 +4,7 @@
   "img": "systems/pf2e/icons/spells/vision-of-weakness.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.t9VZr3duyiYqkOvR"
-    }
+    "core": {}
   },
   "_id": "cnYMvDxCRY4NvUmJ",
   "system": {
@@ -36,7 +34,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Secrets of Magic",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -60,13 +58,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.cnYMvDxCRY4NvUmJ",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.t9VZr3duyiYqkOvR",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 7000000,
+  "folder": "4oaqgJDRdOmg12Mo",
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

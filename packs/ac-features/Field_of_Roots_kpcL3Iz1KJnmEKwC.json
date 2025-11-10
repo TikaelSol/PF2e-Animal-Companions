@@ -4,9 +4,7 @@
   "img": "systems/pf2e/icons/spells/plant-form-shambler.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.dJqf5ZccUpz5vGSD"
-    }
+    "core": {}
   },
   "_id": "kpcL3Iz1KJnmEKwC",
   "system": {
@@ -36,7 +34,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Secrets of Magic",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -60,13 +58,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.kpcL3Iz1KJnmEKwC",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.dJqf5ZccUpz5vGSD",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 8500000,
+  "folder": "scyNeaFTkdY4uIfy",
+  "sort": -100000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

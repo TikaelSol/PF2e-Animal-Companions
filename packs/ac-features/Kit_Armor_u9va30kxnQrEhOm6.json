@@ -18,7 +18,7 @@
         "requiresEquipped": false
       }
     ],
-    "slug": null,
+    "slug": "kit-armor",
     "_migration": {
       "version": 0.941,
       "lastMigration": null
@@ -80,6 +80,7 @@
     "dexCap": 0,
     "checkPenalty": 0,
     "speedPenalty": 0,
+    "grade": null,
     "runes": {
       "potency": 0,
       "resilient": 0,
@@ -99,9 +100,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.3.0"
+    "systemVersion": "7.6.4"
   },
   "_id": "u9va30kxnQrEhOm6",
   "sort": 0,

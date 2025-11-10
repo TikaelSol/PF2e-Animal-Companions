@@ -61,7 +61,7 @@
         "selector": "strike-damage"
       }
     ],
-    "slug": null,
+    "slug": "effect-riding-drake-support-benefit",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

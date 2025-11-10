@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>The next creature to make a melee attack against the yzobu or its rider before the start of your next turn is overwhelmed by the creature's terrible stench and must attempt a Fortitude save. This DC is equal to your class DC or spell DC, whichever is higher. On a failure, the attacker takes a –2 circumstance penalty to its attack roll. This ability has the olfactory trait.</p>",
+      "value": "<p>The next creature to make a melee attack against the yzobu or its rider before the start of your next turn is overwhelmed by the creature's terrible stench and must attempt a @Check[fortitude] save. This DC is equal to your class DC or spell DC, whichever is higher. On a failure, the attacker takes a –2 circumstance penalty to its attack roll. This ability has the olfactory trait.</p>",
       "gm": ""
     },
     "publication": {
@@ -19,7 +19,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "yzobu-support-benefit",
     "traits": {
       "otherTags": [],
       "value": []
@@ -42,11 +42,12 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.4RXXEQVh8wXmlBce",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.0"
+    "systemVersion": "7.6.4",
+    "exportSource": null
   },
   "_id": "4RXXEQVh8wXmlBce",
-  "sort": 0,
+  "sort": 200000,
   "_key": "!items!4RXXEQVh8wXmlBce"
 }

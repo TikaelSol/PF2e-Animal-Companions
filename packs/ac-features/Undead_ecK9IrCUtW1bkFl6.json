@@ -1,10 +1,10 @@
 {
   "type": "Item",
-  "folder": null,
-  "name": "Swarm Eidolon",
+  "folder": "D1umZ4oomj5mtcad",
+  "name": "Undead",
   "color": null,
   "sorting": "a",
-  "_id": "JaJf7QymmsmGAv8z",
+  "_id": "ecK9IrCUtW1bkFl6",
   "description": "",
   "sort": 0,
   "flags": {},
@@ -12,9 +12,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.6.4"
   },
-  "_key": "!folders!JaJf7QymmsmGAv8z"
+  "_key": "!folders!ecK9IrCUtW1bkFl6"
 }

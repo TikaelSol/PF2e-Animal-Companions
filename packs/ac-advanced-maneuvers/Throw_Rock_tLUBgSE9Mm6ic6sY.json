@@ -12,10 +12,10 @@
       "gm": ""
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "rules": [
       {
@@ -66,7 +66,7 @@
         ]
       }
     ],
-    "slug": null,
+    "slug": "throw-rock",
     "traits": {
       "otherTags": [],
       "value": []
@@ -92,9 +92,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.0"
+    "systemVersion": "7.6.4",
+    "exportSource": null
   },
   "_key": "!items!tLUBgSE9Mm6ic6sY"
 }

@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Construct-Breakthroughs.Item.Z2GWP5gsbS1SsP1W"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -81,9 +79,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Construct-Breakthroughs.Item.Z2GWP5gsbS1SsP1W",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!Z2GWP5gsbS1SsP1W"
 }

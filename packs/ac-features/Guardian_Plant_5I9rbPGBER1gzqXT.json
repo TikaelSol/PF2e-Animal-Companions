@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/spells/protector-tree.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.oQ4aTLTv0qU7sRGG"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -104,12 +102,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.5I9rbPGBER1gzqXT",
-    "duplicateSource": null
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.oQ4aTLTv0qU7sRGG",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 800000,
+  "folder": "scyNeaFTkdY4uIfy",
+  "sort": -50000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

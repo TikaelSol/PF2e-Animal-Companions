@@ -6,9 +6,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.ixIKF2LMmbFthI8Z"
-    }
+    "core": {}
   },
   "_id": "VUaI1q3MqoJqo5o5",
   "system": {
@@ -25,7 +23,7 @@
         }
       }
     ],
-    "slug": "towering-size",
+    "slug": "towering-size-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -76,10 +74,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.VUaI1q3MqoJqo5o5",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.ixIKF2LMmbFthI8Z",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!VUaI1q3MqoJqo5o5"
 }

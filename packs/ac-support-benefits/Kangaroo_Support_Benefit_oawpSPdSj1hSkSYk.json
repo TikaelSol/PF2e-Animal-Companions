@@ -22,10 +22,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfunder: Howl of the Wild",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "actionType": {
       "value": "passive"
@@ -39,7 +39,7 @@
   "_id": "oawpSPdSj1hSkSYk",
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "folder": null,
-  "sort": 2500000,
+  "sort": 3800000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -51,10 +51,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.oawpSPdSj1hSkSYk",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!oawpSPdSj1hSkSYk"
 }

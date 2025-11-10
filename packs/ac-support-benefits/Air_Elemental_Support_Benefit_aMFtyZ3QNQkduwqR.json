@@ -8,7 +8,7 @@
       "value": "<p>Your air elemental swirls around you with concealing gusts, making it harder for your foes to hit you and possibly giving you a moment to hide. Until the start of your next turn, if you hit with a Strike and deal damage to a creature in your air elemental's reach, you are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to that creature until the start of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.UaUFJKZxEkN7yraC]{Effect: Air Elemental Support Benefit}</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "air-elemental-support-benefit",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -22,10 +22,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Rage of Elements",
       "authors": "",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "actionType": {
       "value": "action"
@@ -48,7 +48,7 @@
     "exportSource": null
   },
   "folder": null,
-  "sort": 2200000,
+  "sort": 3500000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

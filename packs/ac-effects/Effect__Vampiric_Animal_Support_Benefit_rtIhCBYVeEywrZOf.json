@@ -49,7 +49,7 @@
         "selector": "strike-damage"
       }
     ],
-    "slug": null,
+    "slug": "effect-vampiric-animal-support-benefit",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

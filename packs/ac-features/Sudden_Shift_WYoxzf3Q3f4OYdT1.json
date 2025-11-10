@@ -23,7 +23,7 @@
         "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.8NK5Z7vLxkTB6pIV"
       }
     ],
-    "slug": null,
+    "slug": "sudden-shift",
     "traits": {
       "otherTags": [],
       "value": [],
@@ -53,8 +53,8 @@
   },
   "_id": "WYoxzf3Q3f4OYdT1",
   "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
-  "folder": "JaJf7QymmsmGAv8z",
-  "sort": 200000,
+  "folder": "xb7i6YvPBPtfvP3K",
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "ZsoDU6dAQFmGr3tK": 3
@@ -64,9 +64,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.6.4"
   },
   "_key": "!items!WYoxzf3Q3f4OYdT1"
 }

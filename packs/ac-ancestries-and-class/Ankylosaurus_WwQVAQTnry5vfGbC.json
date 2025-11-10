@@ -4,12 +4,10 @@
   "type": "ancestry",
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
-  "folder": null,
-  "sort": 4100000,
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 200000,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.WwQVAQTnry5vfGbC"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -137,6 +135,7 @@
     },
     "hp": 8,
     "size": "lg",
+    "hands": 2,
     "reach": 5,
     "speed": 25,
     "boosts": {
@@ -176,9 +175,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.WwQVAQTnry5vfGbC",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!WwQVAQTnry5vfGbC"
 }

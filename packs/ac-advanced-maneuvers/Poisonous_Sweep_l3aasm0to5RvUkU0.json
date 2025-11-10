@@ -47,7 +47,7 @@
         "property": "dice-number"
       }
     ],
-    "slug": null,
+    "slug": "poisonous-sweep",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -67,7 +67,7 @@
       "title": "Pathfinder: Howl of the Wild",
       "authors": "",
       "license": "ORC",
-      "remaster": false
+      "remaster": true
     },
     "actionType": {
       "value": "action"
@@ -93,10 +93,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.1",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!l3aasm0to5RvUkU0"
 }

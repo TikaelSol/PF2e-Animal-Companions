@@ -8,7 +8,7 @@
       "value": "<p>Your mole Burrows and makes a Strike. If the mole began its movement underground, the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for this attack.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "burrowing-ambush",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -25,7 +25,7 @@
       "title": "Pathfinder: Howl of the Wild",
       "authors": "",
       "license": "ORC",
-      "remaster": false
+      "remaster": true
     },
     "actionType": {
       "value": "action"
@@ -51,10 +51,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!PZAHlaN4aG6NkSjj"
 }

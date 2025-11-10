@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion is an undead severed head. The Red Revolution left countless mass graves across Galt, filled with the beheaded corpses of those executed by the final blades. Most of the victims' heads were unceremoniously dumped alongside their bodies, but many were snatched by unscrupulous necromancers who found them to be a convenient (and unfortunately plentiful) raw material for the creation of simple undead minions.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (agile, finesse), Damage 1d6 piercing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +1, <strong>Con</strong> +3, <strong>Int</strong> –5, <strong>Wis</strong> +0, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4 (void healing)</p><p><strong>Skill</strong> none (mindless)</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 15 feet, fly 25 feet</p><p><strong>Special</strong> A severed head has the undead trait instead of the animal trait, granting it void healing and immunity to death effects, disease, and poison. It's also @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.CSBy1IgHTSkVAFMM]{mindless}.</p><p><strong>Support Benefit</strong> The head latches on to your enemy with its jaws when you create an opening, distracting them and hampering their movement. The next creature within range of your severed head that you successfully Strike before the start of your next turn takes a –5-foot status penalty to its Speeds and must succeed at a @Check[flat|dc:5] to use reactions triggered by your actions until the start of your next turn. On a failure, the reaction is lost.</p><p><strong>Advanced Maneuver</strong> Gnash</p>"
+      "value": "<p>Your companion is an undead severed head. The Red Revolution left countless mass graves across Galt, filled with the beheaded corpses of those executed by the final blades. Most of the victims' heads were unceremoniously dumped alongside their bodies, but many were snatched by unscrupulous necromancers who found them to be a convenient (and unfortunately plentiful) raw material for the creation of simple undead minions.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (agile, finesse), Damage 1d6 piercing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +1, <strong>Con</strong> +3, <strong>Int</strong> –5, <strong>Wis</strong> +0, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4 (void healing)</p><p><strong>Skill</strong> none (mindless)</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 15 feet, fly 25 feet</p><p><strong>Special</strong> A severed head has the undead trait instead of the animal trait, granting it void healing and immunity to death effects, disease, and poison. It's also @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.CSBy1IgHTSkVAFMM]{mindless}.</p><p><strong>Support Benefit</strong> The head latches on to your enemy with its jaws when you create an opening, distracting them and hampering their movement. The next creature within range of your severed head that you successfully Strike before the start of your next turn takes a –5-foot status penalty to its Speeds and must succeed at a @Check[flat|dc:5] to use reactions triggered by your actions until the start of your next turn. On a failure, the reaction is lost.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.iG4YOq70Qs7EtnPN]{Gnash}</p>"
     },
     "rules": [
       {
@@ -79,9 +79,18 @@
         "mode": "override",
         "path": "flags.pf2e.companionCompendia.advancedManeuver",
         "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.iG4YOq70Qs7EtnPN"
+      },
+      {
+        "key": "Immunity",
+        "type": [
+          "death-effects",
+          "disease",
+          "poison",
+          "mental"
+        ]
       }
     ],
-    "slug": null,
+    "slug": "severed-head",
     "_migration": {
       "version": 0.939,
       "lastMigration": null
@@ -101,6 +110,7 @@
     },
     "hp": 4,
     "size": "sm",
+    "hands": 2,
     "reach": 5,
     "speed": 15,
     "boosts": {
@@ -137,11 +147,24 @@
       "value": [],
       "custom": ""
     },
-    "items": {},
+    "items": {
+      "D56Kc": {
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.3mUx8vXEQkiIuBcR",
+        "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+        "name": "Negative Healing",
+        "level": 1
+      },
+      "YDQCC": {
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.CSBy1IgHTSkVAFMM",
+        "img": "systems/pf2e/icons/spells/mind-of-menace.webp",
+        "name": "Mindless Companion",
+        "level": 1
+      }
+    },
     "vision": "darkvision"
   },
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
-  "folder": null,
+  "folder": "Rn81F1uZdgYGoXoS",
   "ownership": {
     "default": 0,
     "ZsoDU6dAQFmGr3tK": 3
@@ -151,11 +174,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.1.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "IASKPcpwt6alkJIu",
-  "sort": 300000,
+  "sort": 6300000,
   "_key": "!items!IASKPcpwt6alkJIu"
 }

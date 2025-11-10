@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.gdGusdEKt5zmh3rR"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -22,7 +20,7 @@
         "uuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl"
       }
     ],
-    "slug": "pushing-attack",
+    "slug": "pushing-attack-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -69,10 +67,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.X4XOW6G0Z22QniKa",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.gdGusdEKt5zmh3rR",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!X4XOW6G0Z22QniKa"
 }

@@ -1,5 +1,5 @@
 {
-  "folder": null,
+  "folder": "Rn81F1uZdgYGoXoS",
   "name": "Yzobu",
   "type": "ancestry",
   "effects": [],
@@ -110,14 +110,16 @@
         "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.nyJV4tsR316EmsYF"
       }
     ],
-    "slug": null,
+    "slug": "yzobu",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "animal"
+      ],
       "rarity": "common"
     },
     "publication": {
@@ -128,6 +130,7 @@
     },
     "hp": 8,
     "size": "med",
+    "hands": 2,
     "reach": 5,
     "speed": 40,
     "boosts": {
@@ -176,11 +179,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.0"
+    "systemVersion": "7.6.4",
+    "exportSource": null
   },
   "_id": "Alcb7qPN5Ri3RZx5",
-  "sort": 0,
+  "sort": 100782,
   "_key": "!items!Alcb7qPN5Ri3RZx5"
 }

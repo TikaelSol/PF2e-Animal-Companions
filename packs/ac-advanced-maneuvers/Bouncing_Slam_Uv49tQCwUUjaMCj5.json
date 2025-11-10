@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 4400000,
   "flags": {
-    "core": {
-      "sourceId": "Item.Uv49tQCwUUjaMCj5"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -52,9 +50,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": "Item.Uv49tQCwUUjaMCj5",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!Uv49tQCwUUjaMCj5"
 }

@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 5400000,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.g4JEtCnKXyY4LJpm"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -41,7 +39,7 @@
       ]
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder #149: Against the Scarlet Triad",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -66,10 +64,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.g4JEtCnKXyY4LJpm",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!g4JEtCnKXyY4LJpm"
 }

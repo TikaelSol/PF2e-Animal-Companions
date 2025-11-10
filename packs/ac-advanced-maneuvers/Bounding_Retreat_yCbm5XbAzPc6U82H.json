@@ -8,7 +8,7 @@
       "value": "<p>The antelope Leaps twice. If it has a rider, it can leave them in an empty space as it Leaps out of it.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "bounding-retreat",
     "_migration": {
       "version": 0.935,
       "previous": {
@@ -51,10 +51,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!yCbm5XbAzPc6U82H"
 }

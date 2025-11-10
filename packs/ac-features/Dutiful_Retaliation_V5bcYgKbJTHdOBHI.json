@@ -4,9 +4,7 @@
   "img": "systems/pf2e/icons/spells/delay-consequence.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.dVjtZNZSiRLnRs1Y"
-    }
+    "core": {}
   },
   "_id": "V5bcYgKbJTHdOBHI",
   "system": {
@@ -36,7 +34,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Secrets of Magic",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -60,13 +58,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.V5bcYgKbJTHdOBHI",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.dVjtZNZSiRLnRs1Y",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 5200000,
+  "folder": "pggy7tMohSouyA2e",
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

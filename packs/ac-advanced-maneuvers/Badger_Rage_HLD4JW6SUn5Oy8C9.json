@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 3000000,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -60,9 +58,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!HLD4JW6SUn5Oy8C9"
 }

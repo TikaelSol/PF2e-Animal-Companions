@@ -5,9 +5,7 @@
   "img": "systems/pf2e/icons/spells/adapt-self.webp",
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.oQ4aTLTv0qU7sRGG"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -104,12 +102,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.le0f9D0ZOnkdGaQO",
-    "duplicateSource": null
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.oQ4aTLTv0qU7sRGG",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "folder": null,
-  "sort": 8600000,
+  "folder": "q3nXFZfwRZgEhUKV",
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

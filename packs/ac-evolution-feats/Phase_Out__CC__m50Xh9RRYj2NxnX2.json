@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.axGS5bBJ9vl5AePc"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -17,7 +15,7 @@
       "value": "<p>Your eidolon phases out of reality slightly, gaining resistance to all damage (except force and negative) equal to half your level. It's not incorporeal, but it can't use Strikes or actions that require a fully physical form, such as @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple}, @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove}, or @Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip}.</p>\n<p>Your eidolon can return to its normal form with a single action, which has the concentrate trait.</p>"
     },
     "rules": [],
-    "slug": "phase-out",
+    "slug": "phase-out-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -69,10 +67,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.m50Xh9RRYj2NxnX2",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.axGS5bBJ9vl5AePc",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!m50Xh9RRYj2NxnX2"
 }

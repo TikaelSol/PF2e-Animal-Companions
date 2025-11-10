@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 2400000,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ClUiCoBn3lHBBK5c"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -31,10 +29,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "actionType": {
       "value": "action"
@@ -51,10 +49,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.ClUiCoBn3lHBBK5c",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!ClUiCoBn3lHBBK5c"
 }

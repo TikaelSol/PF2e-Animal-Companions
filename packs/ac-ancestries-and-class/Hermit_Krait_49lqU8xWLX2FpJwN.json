@@ -1,5 +1,5 @@
 {
-  "folder": null,
+  "folder": "Rn81F1uZdgYGoXoS",
   "name": "Hermit Krait",
   "type": "ancestry",
   "effects": [],
@@ -103,7 +103,7 @@
         "path": "system.abilities.int.mod"
       }
     ],
-    "slug": null,
+    "slug": "hermit-krait",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -123,6 +123,7 @@
     },
     "hp": 6,
     "size": "sm",
+    "hands": 2,
     "reach": 5,
     "speed": 20,
     "boosts": {
@@ -171,11 +172,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.8.0"
+    "systemVersion": "7.6.4",
+    "exportSource": null
   },
   "_id": "49lqU8xWLX2FpJwN",
-  "sort": 0,
+  "sort": 125000,
   "_key": "!items!49lqU8xWLX2FpJwN"
 }

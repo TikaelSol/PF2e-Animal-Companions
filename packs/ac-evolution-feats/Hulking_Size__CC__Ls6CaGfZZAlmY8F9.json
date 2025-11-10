@@ -7,9 +7,7 @@
   "folder": null,
   "sort": 0,
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.H6qletvAJUCC1aIa"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -25,7 +23,7 @@
         }
       }
     ],
-    "slug": "hulking-size",
+    "slug": "hulking-size-cc",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -72,10 +70,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.0",
-    "coreVersion": "12.331",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.Ls6CaGfZZAlmY8F9",
-    "duplicateSource": null
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.H6qletvAJUCC1aIa",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!Ls6CaGfZZAlmY8F9"
 }
