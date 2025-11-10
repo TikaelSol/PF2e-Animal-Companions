@@ -52,7 +52,7 @@
   "_id": "V8qaydggB3odZM3w",
   "img": "systems/pf2e/icons/spells/ancestral-defense.webp",
   "folder": null,
-  "sort": 0,
+  "sort": 1000000,
   "ownership": {
     "default": 0,
     "TrmQI1up0VFx77Px": 3

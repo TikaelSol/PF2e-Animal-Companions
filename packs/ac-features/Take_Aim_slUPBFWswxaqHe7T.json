@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.941,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.941,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>The sharpshooter takes aim at their foe and makes a ranged Strike, gaining a +2 circumstance bonus to the attack roll.</p>",
@@ -62,7 +66,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_key": "!items!slUPBFWswxaqHe7T"
 }

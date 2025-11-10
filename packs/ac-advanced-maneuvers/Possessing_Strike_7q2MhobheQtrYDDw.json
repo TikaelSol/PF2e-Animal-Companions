@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.939,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>Your gray bladeling attempts to inject a malevolent soul fragment into a victim to seize control of their actions. The gray bladeling makes a blade Strike against a living creature. If it hits and deals damage, the target must attempt a Will saving throw against your class DC or spell DC, whichever is higher. Regardless of the result, the target is temporarily immune to Possessing Strike for 24 hours.</p><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target fights off the possessing soul fragment but is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p><p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round and can't use offensive actions against you or your gray bladeling.</p><p><strong>Critical Failure</strong> As failure, but if the target takes damage from an attack or spell, the DC of the flat check to recover from the confusion is 15.</p>",
@@ -53,7 +57,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "7q2MhobheQtrYDDw",
   "sort": 0,

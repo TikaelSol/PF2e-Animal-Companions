@@ -50,11 +50,11 @@
     ],
     "slug": "ulgrem-lurann-support-benefit",
     "_migration": {
-      "version": 0.935,
+      "version": 0.952,
       "previous": {
-        "schema": null,
-        "foundry": "12.331",
-        "system": "6.8.0"
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
       }
     },
     "traits": {
@@ -82,7 +82,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.6.4",
+    "systemVersion": "7.7.1",
     "coreVersion": "13.350",
     "compendiumSource": "Item.qTD1AGkv9Vd9mXRn",
     "duplicateSource": null,

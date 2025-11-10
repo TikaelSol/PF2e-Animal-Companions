@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.941,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.941,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>You take a –5-foot circumstance penalty to your Speeds, or a –10-foot circumstance penalty if the attack was a critical hit.</p>",
@@ -111,7 +115,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_key": "!items!GXWxbmqTJApVu0f3"
 }

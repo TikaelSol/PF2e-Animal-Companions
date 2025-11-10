@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.939,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>The war pig transforms any fear it feels into fury before kicking wildly. Reduce the war pig's frightened value by 1 (minimum 0). The war pig then makes hoof Strikes against up to three different foes within its reach. These Strikes each take a –2 penalty to their attack rolls unless the war pig began its turn with the frightened condition. Each attack counts toward the war pig's multiple attack penalty, but the penalty only increases after all the attacks have been made.</p>",
@@ -45,7 +49,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "cn580E6VMCAxaze9",
   "sort": 0,

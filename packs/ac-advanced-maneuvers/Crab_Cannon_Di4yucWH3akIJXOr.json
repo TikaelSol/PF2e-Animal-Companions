@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>Your durian crab curls itself up tightly, taking the shape of a ball. It then launches itself with its powerful claw at a target within 20 feet. When it lands, it makes a claw Strike, except the damage is bludgeoning instead of piercing. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round and the Strike deals an additional @Damage[1d8[untyped]] damage, or 2d8 additional damage if your crab is specialized.</p>",
@@ -44,7 +48,7 @@
     "duplicateSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4",
+    "systemVersion": "7.7.1",
     "exportSource": null
   },
   "_id": "Di4yucWH3akIJXOr",

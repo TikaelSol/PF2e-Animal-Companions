@@ -105,17 +105,15 @@
     ],
     "slug": "construct-companion",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null,
+      "version": 0.952,
       "previous": {
-        "schema": 0.854,
-        "foundry": "12.331",
-        "system": "6.8.0"
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
       }
     },
     "traits": {
       "otherTags": [],
-      "value": [],
       "rarity": "common"
     },
     "publication": {
@@ -125,7 +123,8 @@
       "remaster": true
     },
     "keyAbility": {
-      "value": []
+      "value": [],
+      "selected": null
     },
     "items": {},
     "hp": 6,
@@ -134,8 +133,7 @@
         "acrobatics",
         "athletics"
       ],
-      "additional": 0,
-      "custom": ""
+      "additional": 0
     },
     "perception": 1,
     "savingThrows": {
@@ -178,7 +176,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.6.4",
+    "systemVersion": "7.7.1",
     "coreVersion": "13.350",
     "compendiumSource": "Item.iOVXqZOCqrOskHcd",
     "duplicateSource": null,

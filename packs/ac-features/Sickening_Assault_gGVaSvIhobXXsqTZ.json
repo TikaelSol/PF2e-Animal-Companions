@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.94,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.94,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> Your eidolon is dispersed. </p><hr /><p>Your eidolon focuses on inflicting the most damage possible on its foes. If your eidolon's next action is to use Swarming Assault, the number of damage dice of the Swarming Assault are doubled. Additionally, creatures that fail their Reflex save against that Swarming Assault are @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 4} on a critical failure).</p>",
@@ -83,7 +87,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_key": "!items!gGVaSvIhobXXsqTZ"
 }

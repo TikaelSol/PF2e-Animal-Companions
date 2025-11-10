@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.941,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.941,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>This trainee archer can learn to shoot with terrifying precision.</p><p><strong>Range</strong> <span class=\"pf2-icon\">1</span> shortbow (deadly d10, propulsive, range increment 60 feet, reload 0), <strong>Damage</strong> 1d6 piercing</p><p><strong>Str</strong> +0, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Int</strong> +0, <strong>Wis</strong> +2, <strong>Cha</strong> +1</p><p><strong>Hit Points</strong> 4</p><p><strong>Kit Armor</strong> item bonus +1, Dex cap +4</p><p><strong>Skills</strong> Acrobatics, Hunting Lore, Stealth</p><p><strong>Follower Ability</strong> The sharpshooter learns Take Aim.</p><p><strong>Experienced Advancement</strong> When the sharpshooter becomes an experienced follower:</p><ul><li>Increase their Dexterity modifier to +4 and their Wisdom modifier to +3.</li><li>Increase their proficiency rank in Fortitude saves and Reflex saves to expert.</li><li>Increase their shortbow Strike damage dice from 1d6 to [[/r 2d6]].</li><li><p>When a creature takes damage from a sharpshooter's ranged Strike, it takes a –5-foot circumstance penalty to its Speeds for 1 round, or a –10-foot circumstance penalty if the attack was a critical hit.</p></li></ul><p><strong>Veteran Advancement</strong> When the scout becomes a veteran follower:</p><ul><li>Increase their Constitution modifier to +2, their Intelligence modifier to +1, and their Charisma modifier to +2.</li><li>Increase their item bonus to AC to +2.</li><li>Increase their proficiency rank in Perception to expert.</li><li>Increase their proficiency rank in Acrobatics, Hunting Lore, and Stealth to expert. They also become an expert in Intimidation.</li><li>Increase their proficiency rank in their shortbow Strikes to expert, and give them a +1 item bonus to attack rolls with their shortbow Strikes. Their Strikes deal 2 additional damage and become magical for the purposes of ignoring resistances.</li><li><p>When the sharpshooter Takes Aim, they also ignore the target's concealment.</p></li></ul><p><strong>Exceptional Advancement</strong> When the sharpshooter becomes an exceptional follower:</p><ul><li>Increase their Dexterity modifier to +5, their Constitution modifier to +3, their Wisdom modifier to +4, and their Charisma modifier to +3.</li><li>Increase their item bonus to AC to +3.</li><li>Increase their proficiency rank in Reflex saves and Will saves to master and their proficiency rank in Fortitude saves to expert. Give them a +1 item bonus to all saving throws.</li><li>Increase their proficiency rank in Acrobatics to master.</li><li>Increase their item bonus to attack rolls with their shortbow Strikes to +2. Increase their shortbow Strike damage dice from 2d6 to 3d6 and increase the additional damage that their shortbow Strikes deal from 2 to 4.</li><li><p>The sharpshooter learns Following Shot.</p></li></ul>",
@@ -573,7 +577,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "qexqlVIb13Z8Yub6",
   "sort": 0,

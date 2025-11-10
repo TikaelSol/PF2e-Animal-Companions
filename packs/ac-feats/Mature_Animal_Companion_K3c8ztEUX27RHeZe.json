@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/spells/animal-form-bear.webp",
   "effects": [],
   "folder": null,
-  "sort": 0,
+  "sort": 400000,
   "flags": {
     "core": {}
   },

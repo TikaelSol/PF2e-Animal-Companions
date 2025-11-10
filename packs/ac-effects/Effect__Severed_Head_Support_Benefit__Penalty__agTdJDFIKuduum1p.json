@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.939,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.z6bNmmf5YiJrPbot]{Severed Head Support Benefit}</p><p>You take a -5-foot status penalty to your Speeds and must succeed at a DC 5 flat check to use reactions triggered by the origin's actions.</p>",
@@ -106,7 +110,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "agTdJDFIKuduum1p",
   "sort": 700000,

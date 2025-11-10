@@ -81,12 +81,12 @@
     ],
     "slug": "combat-squox",
     "_migration": {
-      "version": 0.95,
+      "version": 0.952,
       "lastMigration": null,
       "previous": {
-        "schema": 0.949,
+        "schema": 0.95,
         "foundry": "13.350",
-        "system": "7.6.4"
+        "system": "7.7.1"
       }
     },
     "traits": {
@@ -157,7 +157,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "tMe1ReEBXZTw25yj",
   "sort": 0,

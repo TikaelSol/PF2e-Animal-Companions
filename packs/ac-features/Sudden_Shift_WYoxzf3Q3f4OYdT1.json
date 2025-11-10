@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.94,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.94,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>Once per round, your eidolon can switch forms between condensed and dispersed as a free action, rather than a single action. In addition, your eidolon gains the @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.8NK5Z7vLxkTB6pIV]{Redistribute} reaction.</p>",
@@ -66,7 +70,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_key": "!items!WYoxzf3Q3f4OYdT1"
 }

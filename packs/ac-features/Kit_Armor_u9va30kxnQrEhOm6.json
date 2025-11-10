@@ -20,8 +20,13 @@
     ],
     "slug": "kit-armor",
     "_migration": {
-      "version": 0.941,
-      "lastMigration": null
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.941,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -52,7 +57,9 @@
     },
     "equipped": {
       "carryType": "worn",
-      "invested": null
+      "invested": null,
+      "handsHeld": 0,
+      "inSlot": false
     },
     "containerId": null,
     "size": "med",
@@ -102,7 +109,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "u9va30kxnQrEhOm6",
   "sort": 0,

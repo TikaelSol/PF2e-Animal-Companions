@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/spells/juvenile-companion.webp",
   "effects": [],
   "folder": null,
-  "sort": 0,
+  "sort": 2300000,
   "flags": {
     "core": {}
   },

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.941,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.941,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> The medic is wearing or holding a healer's toolkit</p><hr /><p><strong>Effect</strong> The medic treats an adjacent creature in an attempt to reduce the @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}, or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied} condition. If a creature has multiple conditions from this list, the medic chooses one to treat. The medic attempts a counteract check against the condition, using their @Check[medicine] modifier as their counteract modifier and half their level as the counteract rank. The condition's source determines the DC.</p><p>The medic can't treat a condition that came from an artifact or an effect above 20th level. Using Medic's Treatment on a condition that is continually applied (for instance, the enfeebled condition a holy creature gains from carrying an unholy weapon) has no effect as long as the circumstances continue.</p><hr /><p><strong>Critical Success</strong> Reduce the chosen condition's value by 2.</p><p><strong>Success</strong> Reduce the chosen condition's value by 1.</p><p><strong>Critical Failure</strong> Increase the chosen condition's value by 1.</p>",
@@ -47,7 +51,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_key": "!items!ma45EqTK72KQLca3"
 }

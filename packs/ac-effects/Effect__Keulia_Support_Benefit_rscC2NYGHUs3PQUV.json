@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.939,
-      "previous": null
+      "version": 0.952,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "description": {
       "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.IsdduEnR9bFi2vDS]{Keulia Support Benefit}</p><p>Your Strikes that damage a creature in your Keulia's reach also deal bludgeoning damage.</p>",
@@ -97,7 +101,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_id": "rscC2NYGHUs3PQUV",
   "sort": 200000,

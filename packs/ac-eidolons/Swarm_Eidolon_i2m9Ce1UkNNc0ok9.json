@@ -57,8 +57,13 @@
     ],
     "slug": "swarm-eidolon",
     "_migration": {
-      "version": 0.94,
-      "lastMigration": null
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.94,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -132,7 +137,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.1"
   },
   "_key": "!items!i2m9Ce1UkNNc0ok9"
 }
