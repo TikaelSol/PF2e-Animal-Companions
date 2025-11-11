@@ -18,7 +18,7 @@
         "selector": [
           "strike-damage"
         ],
-        "text": "COMP.SpecificRule.Antelope.EffectNote",
+        "text": "COMP.SpecificRule.SkeletalConstrictor.EffectNote",
         "title": "{item|name}",
         "outcome": [
           "success",
