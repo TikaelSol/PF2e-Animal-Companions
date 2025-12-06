@@ -1,0 +1,82 @@
+{
+  "name": "Enamoring Exhalation",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.953,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your riding dragonet enraptures those nearby, exhaling a @Template[type:cone|distance:15] of pheromones that fascinates those within it. Each creature in the area is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} with you and your dragonet until the end of your next turn unless it succeeds at a @Check[type:fortitude|against:enamoring-exhalation|basic:true] save. This uses a trained DC using the dragonet's Charisma modifier, or an expert DC if the dragonet is specialized.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Draconic Codex",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "attribute": "cha",
+        "key": "SpecialStatistic",
+        "slug": "enamoring-exhalation"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "enamoring-exhalation",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "enamoring-exhalation-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "enamoring-exhalation-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "enamoring-exhalation",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
+    "slug": "enamoring-exhalation",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "olfactory"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0"
+  },
+  "_id": "mAyWLbzbiYpbAytc",
+  "sort": 0,
+  "_key": "!items!mAyWLbzbiYpbAytc"
+}

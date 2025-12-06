@@ -58,7 +58,7 @@
   "_id": "evvqmXIieuMwFMJT",
   "img": "icons/magic/air/air-burst-spiral-large-blue.webp",
   "folder": null,
-  "sort": 0,
+  "sort": 4600000,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -67,7 +67,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
     "exportSource": null

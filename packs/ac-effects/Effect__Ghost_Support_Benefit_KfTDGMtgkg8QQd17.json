@@ -72,7 +72,7 @@
   "_id": "KfTDGMtgkg8QQd17",
   "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
   "folder": null,
-  "sort": 0,
+  "sort": 2100000,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -81,7 +81,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
     "exportSource": null

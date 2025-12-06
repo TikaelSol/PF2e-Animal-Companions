@@ -1,0 +1,188 @@
+{
+  "name": "Riding Dragonet",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> claw (finesse, magical), Damage 1d8 bludgeoning</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> tail (agile, finesse, magical), Damage 1d6 slashing</p><p><strong>Str</strong> +1, <strong>Dex</strong> +3, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +3</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Diplomacy</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 30 feet</p><p><strong>Special</strong> mount</p><p><strong>Support Benefit</strong> Your dragonet's wings flutter rapidly, pulsating the air around you both. Until the start of your next turn, each time you Strike while riding the dragonet and hit a creature in the dragonet's reach, the creature takes 1d4 bludgeoning damage from the force of the dragonet's wings. If your dragonet is nimble or savage, the bludgeoning damage increases to 2d4.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.mAyWLbzbiYpbAytc]{Enamoring Exhalation}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.cha.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.diplomacy.rank"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.claw",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "finesse",
+          "magical"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Tail",
+        "range": null,
+        "traits": [
+          "agile",
+          "finesse",
+          "magical",
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.6z5R0Ya8poWPkX2z"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.mAyWLbzbiYpbAytc"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.953,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dragon"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Draconic Codex",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 8,
+    "size": "sm",
+    "hands": 2,
+    "reach": 5,
+    "speed": 30,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision"
+  },
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "folder": "Rn81F1uZdgYGoXoS",
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0"
+  },
+  "_id": "HKhug57z7GS07TM7",
+  "sort": 0,
+  "_key": "!items!HKhug57z7GS07TM7"
+}

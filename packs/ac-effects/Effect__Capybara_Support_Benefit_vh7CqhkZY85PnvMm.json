@@ -69,7 +69,7 @@
   "_id": "vh7CqhkZY85PnvMm",
   "img": "icons/creatures/mammals/rodent-rat-green.webp",
   "folder": null,
-  "sort": 0,
+  "sort": 6000000,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -78,7 +78,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
     "exportSource": null
