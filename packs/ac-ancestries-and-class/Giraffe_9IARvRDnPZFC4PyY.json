@@ -87,11 +87,10 @@
         "group": "brawling",
         "key": "Strike",
         "label": "Neck",
-        "range": 10,
         "traits": [
           "unarmed",
           "nonlethal",
-          "reach"
+          "reach-10"
         ],
         "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
         "replaceBasicUnarmed": true
@@ -180,8 +179,8 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "7.8.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
