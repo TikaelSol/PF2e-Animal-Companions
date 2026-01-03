@@ -91,7 +91,7 @@
   "_id": "FoDGPqWjs8QRR3qv",
   "img": "icons/magic/unholy/orb-smoking-green.webp",
   "folder": null,
-  "sort": 0,
+  "sort": 1100000,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -100,7 +100,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
     "exportSource": null

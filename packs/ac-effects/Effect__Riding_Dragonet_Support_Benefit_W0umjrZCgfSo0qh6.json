@@ -1,25 +1,21 @@
 {
-  "name": "Effect: Keulia Support Benefit",
+  "name": "Effect: Riding Dragonet Support Benefit",
   "type": "effect",
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.952,
-      "previous": {
-        "schema": 0.939,
-        "foundry": "13.350",
-        "system": "7.7.1"
-      }
+      "version": 0.953,
+      "previous": null
     },
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.IsdduEnR9bFi2vDS]{Keulia Support Benefit}</p><p>Your Strikes that damage a creature in your Keulia's reach also deal bludgeoning damage.</p>",
+      "value": "<p>Granted by Riding Dragonet Support Benefit</p><p>Your Strikes deal bludgeoning damage in your dragonet's reach.</p>",
       "gm": ""
     },
     "publication": {
-      "title": "Pathfinder Lost Omens Shining Kingdoms",
+      "title": "",
       "authors": "",
-      "license": "ORC",
-      "remaster": true
+      "license": "OGL",
+      "remaster": false
     },
     "rules": [
       {
@@ -28,41 +24,41 @@
           {
             "predicate": [
               {
-                "not": "parent:origin:item:tag:support-benefit:keulia"
+                "not": "parent:origin:item:tag:support-benefit:riding-dragonet"
               }
             ],
             "value": 1
           },
           {
             "predicate": [
-              "parent:origin:item:tag:support-benefit:keulia"
+              "parent:origin:item:tag:support-benefit:riding-dragonet"
             ],
             "value": 2
           }
         ],
         "key": "ChoiceSet",
-        "prompt": "COMP.Prompt.IsSpecialized",
-        "flag": "keuliaSupportBenefit"
+        "prompt": "Is companion nimble or savage.",
+        "flag": "ridingDragonetSupportBenefit"
       },
       {
         "key": "RollOption",
-        "option": "keulia-support-benefit",
+        "option": "riding-dragonet-support-benefit",
         "toggleable": true
       },
       {
         "hideIfDisabled": true,
         "critical": false,
-        "damageType": "bludgeoning",
-        "diceNumber": "{item|flags.pf2e.rulesSelections.keuliaSupportBenefit}",
-        "dieSize": "d8",
+        "damageType": "force",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.ridingDragonetSupportBenefit}",
+        "dieSize": "d4",
         "key": "DamageDice",
         "predicate": [
-          "keulia-support-benefit"
+          "riding-dragonet-support-benefit"
         ],
         "selector": "strike-damage"
       }
     ],
-    "slug": "effect-keulia-support-benefit",
+    "slug": null,
     "traits": {
       "otherTags": [],
       "value": []
@@ -88,7 +84,7 @@
     "fromSpell": false,
     "context": null
   },
-  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "img": "icons/commodities/biological/wing-lizard-green.webp",
   "folder": null,
   "ownership": {
     "default": 0,
@@ -101,9 +97,9 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.7.1"
+    "systemVersion": "7.8.0"
   },
-  "_id": "rscC2NYGHUs3PQUV",
-  "sort": 7100000,
-  "_key": "!items!rscC2NYGHUs3PQUV"
+  "_id": "W0umjrZCgfSo0qh6",
+  "sort": 2500000,
+  "_key": "!items!W0umjrZCgfSo0qh6"
 }

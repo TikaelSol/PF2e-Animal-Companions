@@ -71,7 +71,7 @@
   "_id": "xe5pfyTYOWMYG1T8",
   "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
   "folder": null,
-  "sort": 0,
+  "sort": 6300000,
   "ownership": {
     "default": 0,
     "Ru2wEyHuelWGF0uy": 3
@@ -80,7 +80,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
     "exportSource": null

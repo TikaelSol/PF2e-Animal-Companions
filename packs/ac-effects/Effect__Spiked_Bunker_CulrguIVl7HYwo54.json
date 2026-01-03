@@ -106,12 +106,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
     "exportSource": null
   },
   "_id": "CulrguIVl7HYwo54",
-  "sort": 0,
+  "sort": 800000,
   "_key": "!items!CulrguIVl7HYwo54"
 }
