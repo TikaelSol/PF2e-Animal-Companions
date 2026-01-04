@@ -48,7 +48,7 @@
           ]
         },
         "flag": "benefit",
-        "prompt": "Select a specialized companion you have access to"
+        "prompt": "COMP.Prompt.Specialized"
       },
       {
         "key": "GrantItem",
@@ -119,9 +119,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4",
+    "systemVersion": "7.8.0",
     "exportSource": null
   },
   "_key": "!items!alc3ET2e0J4TSbfD"
