@@ -1,7 +1,8 @@
 {
     "COMP": {
         "Prompt": {
-            "IsSpecialized": "Is the companion specialized?"
+            "IsSpecialized": "Is the companion specialized?",
+            "Specialized": "Select your Companion's specilization"
         },
         "SpecificRule": {
             "AirElemental": {
