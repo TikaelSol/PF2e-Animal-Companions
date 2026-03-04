@@ -1,0 +1,132 @@
+{
+  "name": "Effect: Isgeri Boarhound Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.OQnyw05StojLRcA0]{Isgeri Boarhound Support Benefit}</p><p>You gain a +1 circumstance bonus to your next attack roll to Strike a foe within your boarhound's reach.</p><p>If you damage a creature with the trait corresponding to your boarhound's designated foe with that Strike, the creature takes additional d6 piercing damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Adventure Path #222: Hellbreakers",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              {
+                "not": "parent:origin:item:tag:support-benefit:isgeri-boarhound"
+              }
+            ],
+            "value": 1
+          },
+          {
+            "predicate": [
+              "parent:origin:item:tag:support-benefit:isgeri-boarhound"
+            ],
+            "value": 2
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "COMP.Prompt.IsSpecialized",
+        "flag": "isgeriBoarhoundSupportBenefit"
+      },
+      {
+        "key": "RollOption",
+        "option": "isgeri-boarhound-support-benefit",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "selector": [
+          "strike-attack-roll"
+        ],
+        "type": "circumstance",
+        "predicate": [
+          "isgeri-boarhound-support-benefit"
+        ]
+      },
+      {
+        "hideIfDisabled": true,
+        "critical": false,
+        "damageType": "piercing",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.isgeriBoarhoundSupportBenefit}",
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "predicate": [
+          "isgeri-boarhound-support-benefit",
+          {
+            "or": [
+              {
+                "and": [
+                  "target:trait:fiend",
+                  "parent:origin:item:tag:designated-foe:fiend"
+                ]
+              },
+              {
+                "and": [
+                  "target:trait:undead",
+                  "parent:origin:item:tag:designated-foe:undead"
+                ]
+              }
+            ]
+          }
+        ],
+        "selector": "strike-damage"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.2"
+  },
+  "_id": "otgQvXBTGIEGbJJP",
+  "sort": 0,
+  "_key": "!items!otgQvXBTGIEGbJJP"
+}

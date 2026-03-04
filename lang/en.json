@@ -101,6 +101,11 @@
             "Hyena": {
                 "EffectNote": "When you hit a creature in the hyena's reach with a Strike, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
             },
+            "IsgeriBoarhound": {
+                "DesignatedFoe": {
+                    "RollOptionLabel": "Designated Foe"
+                }
+            },
             "MetalElemental": {
                 "SpikedBunker": {
                     "DamageNote": "You take @Damage[(@actor.flags.pf2e.rulesSelections.isSpecialized)d6[piercing]] damage."
