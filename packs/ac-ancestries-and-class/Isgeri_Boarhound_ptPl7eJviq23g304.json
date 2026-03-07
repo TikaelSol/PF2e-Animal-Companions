@@ -1,0 +1,176 @@
+{
+  "name": "Isgeri Boarhound",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Through training and selective breeding, the gnomes of Umok found ways to capitalize on the native Isgeri boarhounds' exceptional scent abilities and sturdy frame to patrol against extraplanar predators and other enemies regularly found in the region.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +3, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> Stealth</p><p><strong>Senses</strong> foe scent (precise, 40 feet), low-light vision, scent (imprecise, 40 feet)</p><p><strong>Speed</strong> 40 feet</p><p><strong>Special</strong> As part of daily preparations, the Isgeri boarhound can be offered a sample of an enemy with the fiend or undead trait, such as a bone, piece of flesh, or similarly scented sample that has been acquired within the last 24 hours. For the next 24 hours, either fiend or undead becomes the boarhound's designated foe. The Isgeri boarhound's foe scent enables it to smell the presence of a creature designated as its foe as a precise scent at a range of 40 feet.</p><p><strong>Support Benefit</strong> Your boarhound is a faithful hunting companion. You gain a +1 circumstance bonus to your next attack roll to Strike a foe within your boarhound's reach. This bonus lasts until the first time you use it or until the beginning of your next turn, whichever comes first. If you damage a creature with the trait corresponding to your boarhound's designated foe with that Strike, the creature takes an additional 1d6 piercing damage from the boarhound. If your boarhound is nimble or savage, the damage increases to 2d6.</p><p><strong>Advanced Maneuver</strong> Lock Jaw</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "designated-foe",
+        "suboptions": [
+          {
+            "label": "PF2E.TraitFiend",
+            "value": "fiend"
+          },
+          {
+            "label": "PF2E.TraitUndead",
+            "value": "undead"
+          }
+        ],
+        "label": "COMP.SpecificRule.DesignatedFoe.RollOptionLabel",
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.survival.rank"
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 40,
+        "selector": "scent"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.jaws",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "finesse"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.OQnyw05StojLRcA0"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.dNIVHHf7dZmevjjR"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Adventure Path #222: Hellbreakers",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 6,
+    "size": "sm",
+    "hands": 2,
+    "reach": 5,
+    "speed": 40,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "low-light-vision"
+  },
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "folder": "Rn81F1uZdgYGoXoS",
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.2"
+  },
+  "_id": "ptPl7eJviq23g304",
+  "sort": 0,
+  "_key": "!items!ptPl7eJviq23g304"
+}
