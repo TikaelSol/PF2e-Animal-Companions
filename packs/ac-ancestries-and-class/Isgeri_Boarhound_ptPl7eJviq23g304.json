@@ -21,7 +21,7 @@
             "value": "undead"
           }
         ],
-        "label": "COMP.SpecificRule.DesignatedFoe.RollOptionLabel",
+        "label": "COMP.SpecificRule.IsgeriBoarhound.DesignatedFoe.RollOptionLabel",
         "toggleable": true,
         "alwaysActive": true
       },
