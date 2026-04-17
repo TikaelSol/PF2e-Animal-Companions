@@ -186,7 +186,7 @@
   "download": "https://github.com/TikaelSol/PF2e-Animal-Companions/releases/latest/download/module.zip",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "relationships": {
     "systems": [
