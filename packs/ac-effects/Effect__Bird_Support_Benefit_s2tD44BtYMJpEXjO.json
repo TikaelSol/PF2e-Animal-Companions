@@ -40,7 +40,7 @@
         "category": "persistent",
         "critical": false,
         "damageType": "bleed",
-        "diceNumber": "{item|flags.pf2e.rulesSelections.antelopeSupportBenefit}",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.birdSupportBenefit}",
         "dieSize": "d4",
         "key": "DamageDice",
         "predicate": [
@@ -116,9 +116,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.361",
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
+    "systemVersion": "8.1.2",
     "exportSource": null
   },
   "_key": "!items!s2tD44BtYMJpEXjO"
