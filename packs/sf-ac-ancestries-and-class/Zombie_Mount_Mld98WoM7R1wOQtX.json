@@ -1,0 +1,170 @@
+{
+  "_id": "Mld98WoM7R1wOQtX",
+  "name": "Zombie Mount",
+  "type": "ancestry",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 8600000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is the rotting, reanimated corpse of a horse, camel, or similar riding animal.</p><p><strong>Size</strong> Large</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> hoof, <strong>Damage</strong> 1d8 bludgeoning</p><p><strong>Str</strong> +2, <strong>Dex</strong> +1, <strong>Con</strong> +3, <strong>Int</strong> -5, <strong>Wis</strong> +0, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> none (see Special)</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 30 feet</p><p><strong>Special</strong> mindless, mount</p><p><strong>Support Benefit</strong> Your zombie mount chews on your enemies. Until the start of your next turn, each time you Strike while riding the zombie mount and hit a creature in the zombie mount's reach, the creature takes 1d4 bludgeoning damage from the zombie mount. If your zombie mount is nimble or savage, the bludgeoning damage increases to 2d4. This benefit is based on a zombie horse or camel, but might deal piercing damage if your mount has sharp teeth.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.h1Rldre8WVjUR5XO]{Disgusting Gallop}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -5,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Hoof",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/foot.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.N9fYaUuIgD6RQ7CY"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.h1Rldre8WVjUR5XO"
+      },
+      {
+        "key": "Immunity",
+        "type": [
+          "death-effects",
+          "disease",
+          "poison",
+          "mental"
+        ]
+      }
+    ],
+    "slug": "zombie-mount",
+    "_migration": {
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "minion",
+        "undead"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder #181: Zombie Feast",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 8,
+    "size": "lg",
+    "hands": 2,
+    "reach": 5,
+    "speed": 30,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "moyap": {
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.CSBy1IgHTSkVAFMM",
+        "img": "systems/sf2e/icons/spells/mind-of-menace.webp",
+        "name": "Mindless Companion",
+        "level": 0
+      },
+      "NZVBB": {
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.3mUx8vXEQkiIuBcR",
+        "img": "systems/sf2e/icons/spells/agonizing-despair.webp",
+        "name": "Negative Healing",
+        "level": 1
+      }
+    },
+    "vision": "darkvision",
+    "voluntaryBoosts": {},
+    "voluntaryFlaws": {}
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Ancestries-and-Class.Item.Mld98WoM7R1wOQtX",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Mld98WoM7R1wOQtX"
+}

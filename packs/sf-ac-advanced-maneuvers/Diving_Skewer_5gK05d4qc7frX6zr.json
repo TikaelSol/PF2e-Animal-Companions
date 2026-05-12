@@ -1,0 +1,92 @@
+{
+  "folder": null,
+  "name": "Diving Skewer",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "description": {
+      "value": "<p>The wyvern Flies up to half its Speed and then makes a stinger Strike. If the Strike hits, the target is also knocked @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}. If the Strike critically succeeds, the target also takes @Damage[2d6[persistent,poison]] damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder #209: Destroyer's Doom",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "diving-skewer",
+        "toggleable": true
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "stinger-attack"
+        ],
+        "text": "COMP.SpecificRule.Wyvern.DivingSkewer.Note",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "title": "{item|name}",
+        "predicate": [
+          "diving-skewer"
+        ]
+      },
+      {
+        "hideIfDisabled": true,
+        "category": "persistent",
+        "critical": true,
+        "damageType": "poison",
+        "diceNumber": 2,
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "predicate": [
+          "diving-skewer"
+        ],
+        "selector": "strike-damage"
+      }
+    ],
+    "slug": "diving-skewer",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "ownership": {
+    "default": 0,
+    "8KoEr2ej1d0aIHVv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.350",
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "exportSource": null
+  },
+  "_id": "5gK05d4qc7frX6zr",
+  "sort": 0,
+  "_key": "!items!5gK05d4qc7frX6zr"
+}

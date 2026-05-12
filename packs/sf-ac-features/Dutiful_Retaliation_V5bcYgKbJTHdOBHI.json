@@ -1,0 +1,78 @@
+{
+  "name": "Dutiful Retaliation",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/delay-consequence.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_id": "V5bcYgKbJTHdOBHI",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon deeply respects your assistance, and it extends its loyalty to you, attacking those who dare harm you. It gains the @Compendium[pf2e-animal-companions.AC-Features.4NuAF8jxWDWzia9Z]{Dutiful Retaliation} reaction.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.4NuAF8jxWDWzia9Z"
+      }
+    ],
+    "slug": "dutiful-retaliation",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.dVjtZNZSiRLnRs1Y",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "pggy7tMohSouyA2e",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!V5bcYgKbJTHdOBHI"
+}

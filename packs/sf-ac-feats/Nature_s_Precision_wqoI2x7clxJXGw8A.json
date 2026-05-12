@@ -1,0 +1,92 @@
+{
+  "name": "Nature's Precision",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companions pick at an enemy's weak points. When your companion strikes a @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} creature with an agile or finesse unarmed attack, it deals an additional 1d4 precision damage (2d4 if the animal companion is specialized). If the companion already deals precision damage, combine the precision damage.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "unarmed-damage",
+        "diceNumber": 1,
+        "dieSize": "d4",
+        "category": "precision",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:agile",
+              "item:trait:finesse"
+            ]
+          },
+          "target:condition:off-guard"
+        ]
+      },
+      {
+        "selectors": [
+          "strike-damage"
+        ],
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "dice-number",
+        "value": 2,
+        "predicate": [
+          "feature:specialized-animal-companion",
+          "dice:slug:natures-precision"
+        ]
+      }
+    ],
+    "slug": "natures-precision",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "wqoI2x7clxJXGw8A",
+  "img": "systems/sf2e/icons/features/classes/ranger-expertise.webp",
+  "folder": null,
+  "sort": 2700000,
+  "ownership": {
+    "default": 0,
+    "TrmQI1up0VFx77Px": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.350",
+    "systemId": "sf2e",
+    "systemVersion": "6.8.0",
+    "exportSource": null
+  },
+  "_key": "!items!wqoI2x7clxJXGw8A"
+}

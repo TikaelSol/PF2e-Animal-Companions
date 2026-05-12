@@ -1,0 +1,57 @@
+{
+  "name": "Wood Elemental Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your wood elemental entangles your foes with detachable branches and roots. Until the start of your next turn, if you hit with a Strike that deals damage to a creature in your wood elemental's reach, the creature takes a –5-foot circumstance penalty to its Speeds for 1 minute (–10 on a critical success). The creature, or a creature adjacent to it, can use an Interact action to unravel the branches and roots and remove the penalty.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.yw1K63aPTWRj76Nn]{Effect: Wood Elemental Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "wood-elemental-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.KomM6mTwJAzvqAgi",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "KomM6mTwJAzvqAgi",
+  "folder": null,
+  "sort": 3000000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!KomM6mTwJAzvqAgi"
+}

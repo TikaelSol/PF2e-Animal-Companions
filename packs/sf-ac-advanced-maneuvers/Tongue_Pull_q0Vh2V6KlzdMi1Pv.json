@@ -1,0 +1,68 @@
+{
+  "_id": "q0Vh2V6KlzdMi1Pv",
+  "name": "Tongue Pull",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 6600000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The cave gecko snaps out its tongue, attempting to pull a foe within 10 feet toward it. The gecko attempts an Athletics check against the foe's Fortitude DC. On a success, the cave gecko pulls the foe next to it. This movement is forced movement. On a critical success, the foe is also @Compendium[sf2e.conditions.kWc1fhmv9LBiTuei]{Grabbed} until the beginning of your next turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "has-advanced-maneuver",
+        "priority": 1
+      }
+    ],
+    "slug": "tongue-pull",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder #154: Siege of the Dinosaurs",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.q0Vh2V6KlzdMi1Pv",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!q0Vh2V6KlzdMi1Pv"
+}

@@ -1,0 +1,170 @@
+{
+  "_id": "kbPrh3KBomvQcLOn",
+  "name": "Shadow Hound",
+  "type": "ancestry",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 6400000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Access</strong> You're a shadowcaster.</p><hr /><p>Your companion is a canine creature related to the Shadow Plane denizens known as shadow mastiffs.</p><p><strong>Size </strong>Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p><p><strong>Str </strong>+2, <strong>Dex </strong>+3, <strong>Con </strong>+1, <strong>Int </strong>-4, <strong>Wis </strong>+1, <strong>Cha </strong>+1</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill </strong>Intimidation</p><p><strong>Senses </strong>darkvision, scent (imprecise) 30 feet</p><p><strong>Speed </strong>30 feet</p><p><strong>Support Benefit</strong> Your shadow hound shrouds your foes in shadow when you leave an opening. Until the start of your next turn, when you damage a creature with a Strike and that creature is within reach of your shadow hound, both you and your shadow hound become @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{Concealed} to the creature until the end of your next turn.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.EvuMVR9ut9wIHOtq]{Bay}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.cha.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.intimidation.rank"
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "scent"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.jaws",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "finesse"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/jaws.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.h65iGxPkfrT8DdPv"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.EvuMVR9ut9wIHOtq"
+      }
+    ],
+    "slug": "shadow-hound",
+    "_migration": {
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "animal"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder: Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 4,
+    "size": "sm",
+    "hands": 2,
+    "reach": 5,
+    "speed": 30,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision"
+  },
+  "ownership": {
+    "default": 0,
+    "vD7HMkL8eJh8gXaP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Ancestries-and-Class.Item.kbPrh3KBomvQcLOn",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kbPrh3KBomvQcLOn"
+}

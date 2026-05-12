@@ -1,0 +1,164 @@
+{
+  "name": "Summoner Dedication Adjustment (CC)",
+  "type": "feat",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This feature will adjust the eidolon's stats to be correct for players using the summoner dedication It caps all stats at 16 until the eidolon is level 5.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "downgrade",
+        "path": "system.abilities.str.mod",
+        "predicate": [
+          {
+            "lt": [
+              "self:level",
+              4
+            ]
+          }
+        ],
+        "priority": 61
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "downgrade",
+        "path": "system.abilities.dex.mod",
+        "predicate": [
+          {
+            "lt": [
+              "self:level",
+              4
+            ]
+          }
+        ],
+        "priority": 61
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "downgrade",
+        "path": "system.abilities.con.mod",
+        "predicate": [
+          {
+            "lt": [
+              "self:level",
+              4
+            ]
+          }
+        ],
+        "priority": 61
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "downgrade",
+        "path": "system.abilities.int.mod",
+        "predicate": [
+          {
+            "lt": [
+              "self:level",
+              4
+            ]
+          }
+        ],
+        "priority": 61
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "downgrade",
+        "path": "system.abilities.wis.mod",
+        "predicate": [
+          {
+            "lt": [
+              "self:level",
+              4
+            ]
+          }
+        ],
+        "priority": 61
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "downgrade",
+        "path": "system.abilities.cha.mod",
+        "predicate": [
+          {
+            "lt": [
+              "self:level",
+              4
+            ]
+          }
+        ],
+        "priority": 61
+      }
+    ],
+    "slug": "summoner-dedication-adjustment-cc",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.XmqBgNFwv1mz4BO3",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "BRad9X7kjcTcj1mf",
+  "_key": "!items!BRad9X7kjcTcj1mf"
+}

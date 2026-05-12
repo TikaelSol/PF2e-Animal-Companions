@@ -1,0 +1,90 @@
+{
+  "name": "Effect: Air Elemental Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.948,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.aMFtyZ3QNQkduwqR]{Air Elemental Support Benefit}</p><p>If you hit with a Strike and deal damage to a creature in your air elemental's reach, you are @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{Concealed} to that creature until the start of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "air-elemental-support-benefit",
+        "toggleable": true
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "strike-damage"
+        ],
+        "text": "COMP.SpecificRule.AirElemental.EffectNote",
+        "title": "{item|name}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "air-elemental-support-benefit"
+        ]
+      }
+    ],
+    "slug": "effect-air-elemental-support-benefit",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "UaUFJKZxEkN7yraC",
+  "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
+  "folder": null,
+  "sort": 3400000,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1"
+  },
+  "_key": "!items!UaUFJKZxEkN7yraC"
+}

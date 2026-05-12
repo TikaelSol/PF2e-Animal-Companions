@@ -1,0 +1,79 @@
+{
+  "_id": "CugdA3rsjW1hWt9O",
+  "name": "Flight Chassis",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You fit your construct with a means of flight, such as adding rotors or rebuilding it with wings and a lightweight construction. Your innovation gains a fly Speed of 25 feet.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 25
+      }
+    ],
+    "slug": "flight-chassis",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Construct-Breakthroughs.Item.CugdA3rsjW1hWt9O",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!CugdA3rsjW1hWt9O"
+}

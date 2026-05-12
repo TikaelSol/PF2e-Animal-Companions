@@ -1,0 +1,76 @@
+{
+  "folder": "xb7i6YvPBPtfvP3K",
+  "name": "Sickening Swarm",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.94,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "description": {
+      "value": "<p>Your eidolon is particularly good at distracting and hindering its foes while dispersed. While dispersed, spaces your eidolon occupies are difficult terrain for other creatures. In addition, your eidolon gains the @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.gGVaSvIhobXXsqTZ]{Sickening Assault} action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.gGVaSvIhobXXsqTZ"
+      }
+    ],
+    "slug": "sickening-swarm",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "PHoTgTkGdcYhFpla",
+  "img": "icons/creatures/unholy/demon-winged-cyclops-drooling.webp",
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1"
+  },
+  "_key": "!items!PHoTgTkGdcYhFpla"
+}

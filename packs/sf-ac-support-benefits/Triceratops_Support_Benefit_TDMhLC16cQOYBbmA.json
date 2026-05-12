@@ -1,0 +1,92 @@
+{
+  "_id": "TDMhLC16cQOYBbmA",
+  "name": "Triceratops Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 6600000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your triceratops gores @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} targets in your wake. Until the start of your next turn, your Strikes that damage a prone creature in your triceratops's reach also deal @Damage[1d8[persistent,bleed]] damage. If your triceratops is nimble or savage, the persistent bleed damage increases to @Damage[2d8[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.VK0u5yF0dO2YlGra]{Effect: Triceratops Support Benefit}</p>"
+    },
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:triceratops-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:triceratops-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:triceratops"
+      }
+    ],
+    "slug": "triceratops-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #177: Burning Tundra",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.TDMhLC16cQOYBbmA",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!TDMhLC16cQOYBbmA"
+}

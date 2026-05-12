@@ -1,0 +1,61 @@
+{
+  "name": "Umbrella Mushroom Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your umbrella mushroom exudes sense dulling spores when you create an opening. Until the start of your next turn, your Strikes that damage a creature within your umbrella mushroom's reach becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round. This effect has the poison trait.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.RjwPBh2CCTUJAa3e]{Effect: Umbrella Mushroom Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "umbrella-mushroom-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": true
+  },
+  "_id": "XVOVZjvTwaoalpWC",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c2a11d226d2bf8a32b60339b42ac4db7ef50f5a9"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.XVOVZjvTwaoalpWC",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XVOVZjvTwaoalpWC"
+}

@@ -1,0 +1,205 @@
+{
+  "_id": "Yixn2Jz0f3eT1Wkt",
+  "name": "Beetle",
+  "type": "ancestry",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 1100000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your animal companion is a large, flightless stag beetle.</p><p><strong>Size</strong> Medium or Large</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> mandible, <strong>Damage</strong> 1d8 piercing</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> foot (agile), <strong>Damage</strong> 1d6 bludgeoning</p><p><strong>Str</strong> +3, <strong>Dex</strong> +1, <strong>Con</strong> +3, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Survival</p><p><strong>Senses</strong> low-light vision</p><p><strong>Speed</strong> 35 feet</p><p><strong>Special</strong> mount</p><p><strong>Support Benefit</strong> Your beetle stomps around and smashes into foes, knocking them off balance or pushing them aside when you create an opening. Until the start of your next turn, while riding on your beetle, your Strikes that deal damage either make the target @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg] until the end of your next turn or move the target 5 feet away from the beetle (this is forced movement). The target chooses which effect occurs.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.zSlsnbvsGKdCTzL1]{Hustle}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.survival.rank"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "Mandible",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/mandibles.webp"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Foot",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "agile"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/foot.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeLarge",
+            "value": "lg"
+          }
+        ],
+        "flag": "companionSize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "CreatureSize",
+        "value": "{item|flags.sf2e.rulesSelections.companionSize}"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.mFTzDCqNL5EdwlGm"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.zSlsnbvsGKdCTzL1"
+      }
+    ],
+    "slug": "beetle",
+    "_migration": {
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "animal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Grand Bazaar",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 8,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 35,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "low-light-vision",
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Ancestries-and-Class.Item.8gSeDqJLLQRlQWis",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "sf2e",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "_key": "!items!Yixn2Jz0f3eT1Wkt"
+}

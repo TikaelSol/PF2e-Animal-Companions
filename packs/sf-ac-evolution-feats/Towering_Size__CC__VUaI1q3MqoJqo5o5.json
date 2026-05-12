@@ -1,0 +1,88 @@
+{
+  "name": "Towering Size (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "VUaI1q3MqoJqo5o5",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon becomes even bigger. It becomes Huge, instead of Large, and the reach on all its attacks increases to 15 feet.</p>"
+    },
+    "rules": [
+      {
+        "key": "CreatureSize",
+        "value": "huge",
+        "reach": {
+          "override": 15
+        }
+      }
+    ],
+    "slug": "towering-size-cc",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Hulking Size"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.ixIKF2LMmbFthI8Z",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VUaI1q3MqoJqo5o5"
+}

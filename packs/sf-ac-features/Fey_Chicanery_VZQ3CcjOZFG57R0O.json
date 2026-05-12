@@ -1,0 +1,73 @@
+{
+  "_id": "VZQ3CcjOZFG57R0O",
+  "name": "Fey Chicanery",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/fey-disapperance.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Ever full of tricks, your fey eidolon twists magical protections into your shared life force, granting it a contingency in its back pocket for desperate situations. During your daily preparations, your eidolon can cast a @Compendium[sf2e.spells.WG91Z5TiR6oO5FOw]{Contingency} spell. The 4th-level spell it chooses must come from the primal or fey gift list, and must either be common or be another spell you have access to.</p>"
+    },
+    "rules": [],
+    "slug": "fey-chicanery",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.VZQ3CcjOZFG57R0O",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "aOspaDr7wy2gJDm4",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!VZQ3CcjOZFG57R0O"
+}

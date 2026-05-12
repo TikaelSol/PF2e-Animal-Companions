@@ -1,0 +1,59 @@
+{
+  "_id": "CKMQC3zu1XoGjeNd",
+  "name": "Skeletal Mount Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5600000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your skeletal mount strikes fear when it charges. Until the start of your next turn, if you are riding your skeletal mount and move at least 10 feet on the action before your attack, any creature damaged by the attack becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} if the attack was a critical hit. This is an emotion, fear, and mental effect.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.VVpMpJB3hdTNYdNV]{Effect: Skeletal Mount Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "skeletal-mount-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Book of the Dead",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.CKMQC3zu1XoGjeNd",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!CKMQC3zu1XoGjeNd"
+}

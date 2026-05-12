@@ -1,0 +1,76 @@
+{
+  "_id": "OGTIinVaETSz7kdW",
+  "name": "Eidolon's Wrath (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon gains the <em>@Compendium[pf2e.spells-srd.kuZnUNrhXHRYQ2eM]{Eidolon's Wrath}</em> focus spell, which it casts, instead of you. You determine the damage type when you gain the feat: acid, cold, electricity, fire, negative, positive, or sonic. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can choose a damage type in its alignment.</p>\n<p>Increase the number of Focus Points in your focus pool by 1. As normal, your eidolon shares your Focus Points.</p>"
+    },
+    "rules": [],
+    "slug": "eidolons-wrath-cc",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.eNeSl5UNaqDwyNkp",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OGTIinVaETSz7kdW"
+}

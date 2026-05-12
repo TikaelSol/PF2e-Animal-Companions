@@ -1,0 +1,61 @@
+{
+  "_id": "U0J8J5ukmqnOskE8",
+  "name": "Cat Pounce",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 4200000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The cat Strides and then Strikes. If it was @UUID[Compendium.sf2e.conditions.Item.VRSef5y1LmL2Hkjf]{Undetected} at the start of its Cat Pounce, it remains undetected until after the attack.</p>"
+    },
+    "rules": [],
+    "slug": "cat-pounce",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.U0J8J5ukmqnOskE8",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!U0J8J5ukmqnOskE8"
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "Fl1VEpYhmScEEon8",
+  "name": "Capybara Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5800000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your capybara assists you in battle. You gain a +1 circumstance bonus on your next attack roll to Strike a foe within your capybara's reach. The bonus lasts until the first time you use it or until the beginning of your next turn, whichever comes first.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.vh7CqhkZY85PnvMm]{Effect: Capybara Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "capybara-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Grand Bazaar",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Fl1VEpYhmScEEon8"
+}

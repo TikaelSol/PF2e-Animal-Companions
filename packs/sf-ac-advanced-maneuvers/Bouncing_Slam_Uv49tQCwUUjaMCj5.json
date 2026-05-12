@@ -1,0 +1,59 @@
+{
+  "_id": "Uv49tQCwUUjaMCj5",
+  "name": "Bouncing Slam",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 4400000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The gibtas Leaps toward a Medium or smaller creature, landing in the creature's space and @UUID[Compendium.sf2e.actions.Item.7blmbDrQFNfdT731]{Shoving} the creature. If the Shove fails, the gibtas bounces out of the target's square to an adjacent square of the target's choosing.</p>"
+    },
+    "rules": [],
+    "slug": "bouncing-slam",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #164: Hands of the Devil",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.Uv49tQCwUUjaMCj5",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Uv49tQCwUUjaMCj5"
+}

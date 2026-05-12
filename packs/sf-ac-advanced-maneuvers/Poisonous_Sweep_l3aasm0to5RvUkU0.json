@@ -1,0 +1,103 @@
+{
+  "name": "Poisonous Sweep",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The salamander secretes poison from the glands on its tail and bludgeons an enemy to apply it to them. It makes a tail Strike. If the Strike hits, the target takes an additional @Damage[1d6[persistent,poison]] damage. If your salamander is nimble or savage, increase this damage to @Damage[2d6[persistent,poison]] damage.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "poisonous-sweep",
+        "toggleable": true,
+        "domain": "tail-damage"
+      },
+      {
+        "category": "persistent",
+        "damageType": "poison",
+        "key": "DamageDice",
+        "selector": "tail-damage",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "predicate": [
+          "poisonous-sweep"
+        ],
+        "tags": [
+          "poisonous-sweep-damage"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "tail-damage"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          },
+          "dice:tag:poisonous-sweep-damage"
+        ],
+        "value": 2,
+        "mode": "upgrade",
+        "property": "dice-number"
+      }
+    ],
+    "slug": "poisonous-sweep",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish",
+        "poison"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "l3aasm0to5RvUkU0",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d82b2ed997c7a48b592048093b365c63e478b0d3"
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!l3aasm0to5RvUkU0"
+}

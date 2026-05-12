@@ -1,0 +1,75 @@
+{
+  "_id": "cVrW2GGLVpydj8h5",
+  "name": "Blood Feast",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5100000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your vampiric animal companion attacks a bleeding foe and drinks its blood. Your companion attempts a Strike against a creature currently taking persistent bleed damage. The Strike deals 2d8 additional damage. If the Strike hits and deals damage, your vampiric animal companion gains temporary Hit Points equal to half your level that last for up to 1 minute.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.q6fSAYeFEf1B5Bu7]{Effect: Blood Feast}</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "blood-feast",
+        "toggleable": true,
+        "domain": "strike-damage"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 2,
+        "dieSize": "d8",
+        "predicate": [
+          "blood-feast"
+        ]
+      }
+    ],
+    "slug": "blood-feast",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Book of the Dead",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.cVrW2GGLVpydj8h5",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cVrW2GGLVpydj8h5"
+}

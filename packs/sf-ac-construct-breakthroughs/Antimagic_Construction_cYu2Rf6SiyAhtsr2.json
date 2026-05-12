@@ -1,0 +1,92 @@
+{
+  "_id": "cYu2Rf6SiyAhtsr2",
+  "name": "Antimagic Construction",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Whether you used some clever adaptation of the magic-negating skymetal known as noqual or created magical protections entirely of your own devising, you've made your innovation highly resilient to spells. Your construct innovation gains a +2 circumstance bonus to all saving throws and AC against spells.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "predicate": [
+          "spell"
+        ],
+        "value": 2,
+        "type": "circumstance"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "predicate": [
+          "spell"
+        ],
+        "value": 2,
+        "type": "circumstance"
+      }
+    ],
+    "slug": "antimagic-construction",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Construct-Breakthroughs.Item.cYu2Rf6SiyAhtsr2",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cYu2Rf6SiyAhtsr2"
+}

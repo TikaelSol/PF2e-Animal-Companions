@@ -1,0 +1,59 @@
+{
+  "_id": "H1ElYt6KovGYGzLD",
+  "name": "Lumbering Knockdown",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 2900000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your triceratops Strides up to 10 feet, then makes a horns Strike. On a success, the target is knocked @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+    },
+    "rules": [],
+    "slug": "lumbering-knockdown",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #177: Burning Tundra",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.H1ElYt6KovGYGzLD",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!H1ElYt6KovGYGzLD"
+}

@@ -1,0 +1,89 @@
+{
+  "_id": "F98ajoIakyOPEuwj",
+  "name": "Shred",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 2700000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The shark viciously rips into the wound. The target of the shark's Strike takes @Damage[1d8[slashing]] damage (@Damage[2d8[slashing]|shortLabel] for a mature shark or @Damage[3d8[slashing]|shortLabel] for a specialized companion).</p>"
+    },
+    "rules": [
+      {
+        "domain": "strike-damage",
+        "key": "RollOption",
+        "option": "shred",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "damageType": "slashing",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "predicate": [
+          "shred"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "upgrade",
+        "value": 2,
+        "property": "dice-number",
+        "predicate": [
+          "dice:slug:shred",
+          "feature:specialized-animal-companion"
+        ],
+        "selectors": [
+          "strike-damage"
+        ]
+      }
+    ],
+    "slug": "shred",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.F98ajoIakyOPEuwj",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!F98ajoIakyOPEuwj"
+}

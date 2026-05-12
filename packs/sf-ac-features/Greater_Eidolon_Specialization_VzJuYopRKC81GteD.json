@@ -1,0 +1,83 @@
+{
+  "_id": "VzJuYopRKC81GteD",
+  "name": "Greater Eidolon Specialization",
+  "type": "feat",
+  "img": "systems/sf2e/icons/features/classes/weapon-specialization.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon's damage from weapon specialization increases to 4 with unarmed attacks in which it's an expert, 6 if it's a master, and 8 if it's legendary.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "mode": "multiply",
+        "relabel": "PF2E.GreaterWeaponSpecialization",
+        "selector": "strike-damage",
+        "slug": "weapon-specialization",
+        "value": 2,
+        "priority": 90
+      }
+    ],
+    "slug": "greater-eidolon-specialization",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.VzJuYopRKC81GteD",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 5500000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!VzJuYopRKC81GteD"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Flying Strafe",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The griffon Flies up to its fly Speed and makes two talon Strikes at any point, each against a different creature.</p>"
+    },
+    "rules": [],
+    "slug": "flying-strafe",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "WocN44CJGHYxitzM",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f489c41609a490ff733527315921a8b222bbc1fc"
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!WocN44CJGHYxitzM"
+}

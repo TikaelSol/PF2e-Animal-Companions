@@ -1,0 +1,61 @@
+{
+  "name": "Kangaroo Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your kangaroo bounces and shifts back and forth. Until the start of your next turn, it counts as being in its space or an empty space of your choice within 5 feet when determining whether you and your companion are flanking; you can choose a different space for each of your attacks.</p>"
+    },
+    "rules": [],
+    "slug": "kangaroo-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfunder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "oawpSPdSj1hSkSYk",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 3800000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8aebf8e1b19bf2c699e0719605d463b85f02709a"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.oawpSPdSj1hSkSYk",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!oawpSPdSj1hSkSYk"
+}

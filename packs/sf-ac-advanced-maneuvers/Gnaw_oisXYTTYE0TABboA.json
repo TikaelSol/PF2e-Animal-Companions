@@ -1,0 +1,66 @@
+{
+  "_id": "oisXYTTYE0TABboA",
+  "name": "Gnaw",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 6200000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> The animal companion's last action was a successful jaws Strike.</p><hr /><p>The Strike's target takes @Damage[1d6[persistent,bleed]] damage and takes a –10-foot status penalty to its Speed until it removes the bleed damage. If the hyena is a specialized animal companion, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]|shortLabel].</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "has-advanced-maneuver",
+        "priority": 1
+      }
+    ],
+    "slug": "gnaw",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #149: Against the Scarlet Triad",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.oisXYTTYE0TABboA",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!oisXYTTYE0TABboA"
+}

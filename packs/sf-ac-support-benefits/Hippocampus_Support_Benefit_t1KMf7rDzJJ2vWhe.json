@@ -1,0 +1,61 @@
+{
+  "name": "Hippocampus Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Until the start of your next turn, if you're mounted on your hippocampus and moved 10 feet or more on the action before a melee Strike, add a circumstance bonus to damage for that Strike equal to twice the number of weapon damage dice. If your weapon already has the jousting weapon trait, increase the trait's damage bonus by 2 per die instead.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.YWqoEHfSzoPH0RsW]{Effect: Hippocampus Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "hippocampus-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "t1KMf7rDzJJ2vWhe",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1ad3e581ab9c9a3fa3da0ae21bc3701786d19b53"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.t1KMf7rDzJJ2vWhe",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!t1KMf7rDzJJ2vWhe"
+}

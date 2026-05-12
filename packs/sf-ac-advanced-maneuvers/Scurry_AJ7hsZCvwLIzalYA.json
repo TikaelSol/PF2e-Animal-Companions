@@ -1,0 +1,83 @@
+{
+  "name": "Scurry",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your chetamog takes any combination of two Stride or Climb actions. It has a +10-foot circumstance bonus to its Speed during these Strides.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "scurry",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "value": 10,
+        "type": "circumstance",
+        "predicate": [
+          "scurry"
+        ]
+      }
+    ],
+    "slug": "scurry",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "move"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder #201: Pactbreaker",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "sf2e-test-world",
+      "uuid": null,
+      "coreVersion": "11.315",
+      "systemId": "sf2e",
+      "systemVersion": "5.15.1"
+    }
+  },
+  "_id": "AJ7hsZCvwLIzalYA",
+  "sort": 5000000,
+  "_key": "!items!AJ7hsZCvwLIzalYA"
+}

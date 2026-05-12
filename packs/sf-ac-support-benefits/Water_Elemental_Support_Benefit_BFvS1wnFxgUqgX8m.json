@@ -1,0 +1,57 @@
+{
+  "name": "Water Elemental Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your water elemental waterlogs a foe. The first time before the start of your next turn you hit with a Strike that deals damage to a creature within your water elemental's reach, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.DB0mJPinz35BgBS1]{Effect: Water Elemental Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "water-elemental-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.BFvS1wnFxgUqgX8m",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "BFvS1wnFxgUqgX8m",
+  "folder": null,
+  "sort": 2700000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!BFvS1wnFxgUqgX8m"
+}

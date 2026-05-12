@@ -1,0 +1,189 @@
+{
+  "name": "Giraffe",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is a giraffe.</p>\n<p><strong>Size </strong>Large</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> hoof (agile), Damage 1d6 bludgeoning</p>\n<p><strong>Melee </strong><span class=\"pf2-icon\">1</span> neck (nonlethal, reach 10 feet), Damage 1d4 bludgeoning</p>\n<p><strong>Str </strong>+3, <strong>Dex </strong>+2, <strong>Con </strong>+2, <strong>Int </strong>–4, <strong>Wis </strong>+1, <strong>Cha </strong>+0</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Skill </strong>Intimidation</p>\n<p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p>\n<p><strong>Speed </strong>35 feet</p>\n<p><strong>Special</strong> @UUID[Compendium.sf2e.actions.Item.PM5jvValFkbFH3TV]{Mount}</p>\n<p><strong>Support Benefit</strong> Your giraffe pushes against opponents with its long neck. While riding on your giraffe this turn, you do not need a hand free to @UUID[Compendium.sf2e.actions.Item.7blmbDrQFNfdT731]{Shove} and any foe you successfully Shove moves 10 feet (15 feet on a critical success).</p>\n<p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.9IqqECMTmfbaBY0C]{Long Stomp}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.intimidation.rank"
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "scent"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Hoof",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "agile"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/foot.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "Neck",
+        "traits": [
+          "unarmed",
+          "nonlethal",
+          "reach-10"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/tail.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.LcAJTLzLDcIrQ7KQ"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.9IqqECMTmfbaBY0C"
+      }
+    ],
+    "slug": "giraffe",
+    "_migration": {
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "animal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 8,
+    "size": "lg",
+    "hands": 2,
+    "reach": 5,
+    "speed": 35,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "low-light-vision"
+  },
+  "_id": "9IARvRDnPZFC4PyY",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "412140eb7b3d88bfa49e13b062e6680be2962caa"
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.8.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9IARvRDnPZFC4PyY"
+}

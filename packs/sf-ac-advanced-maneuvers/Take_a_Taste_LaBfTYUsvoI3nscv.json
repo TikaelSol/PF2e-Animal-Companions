@@ -1,0 +1,86 @@
+{
+  "_id": "LaBfTYUsvoI3nscv",
+  "name": "Take a Taste",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 3500000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> The zombie has a creature @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.sf2e.conditions.Item.VcDeM8A5oI6VqhbM]{Restrained}.</p><hr /><p>The zombie tries to grasp and bite a creature. The zombie makes a jaws Strike against the creature. This Strike uses the same statistics as its normal melee Strike, except its damage die is 1d10 and it deals piercing damage.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "take-a-taste",
+        "toggleable": true
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d10"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/sf2e/icons/unarmed-attacks/jaws.webp",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.jaws",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "predicate": [
+          "take-a-taste"
+        ]
+      }
+    ],
+    "slug": "take-a-taste",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Book of the Dead",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.LaBfTYUsvoI3nscv",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LaBfTYUsvoI3nscv"
+}

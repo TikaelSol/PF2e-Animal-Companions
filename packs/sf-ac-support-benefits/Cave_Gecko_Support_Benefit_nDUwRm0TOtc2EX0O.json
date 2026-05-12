@@ -1,0 +1,59 @@
+{
+  "_id": "nDUwRm0TOtc2EX0O",
+  "name": "Cave Gecko Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 7800000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your cave gecko helps you stay afoot, leaning into you and propping you up as you maneuver your opponent. Until the end of your next turn, as long as you are adjacent to your cave gecko, if you attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} an opponent and roll a critical failure, you get a failure instead.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.xVZXK6QIbO4ykGVj]{Effect: Cave Gecko Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "cave-gecko-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #154: Siege of the Dinosaurs",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "WG8TaxGEQOxXBO1S": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.nDUwRm0TOtc2EX0O",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nDUwRm0TOtc2EX0O"
+}

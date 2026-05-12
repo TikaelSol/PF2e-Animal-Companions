@@ -1,0 +1,185 @@
+{
+  "_id": "WthugGo14WNxa3L5",
+  "name": "Skeletal Constrictor",
+  "type": "ancestry",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 6800000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is the skeleton of a constrictor snake such as a boa or python. Red lights burn deep in its eye sockets.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> -5, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> none (mindless)</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 20 feet, climb 20 feet, swim 20 feet</p><p><strong>Special</strong> mindless</p><p><strong>Support Benefit</strong> Your snake sways, captivating an enemy. Choose one creature within 20 feet of the constrictor that can see it. Until the start of your next turn, your Strikes that deal damage to the chosen creature make the target @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.AH3kNbdGLYaRjVAr]{Bony Constriction}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -5,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 20
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 20
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.jaws",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "finesse"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/jaws.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.Si13B4VFANZN8mi1"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.AH3kNbdGLYaRjVAr"
+      },
+      {
+        "key": "Immunity",
+        "type": [
+          "death-effects",
+          "disease",
+          "poison"
+        ]
+      }
+    ],
+    "slug": "skeletal-constrictor",
+    "_migration": {
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "undead"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder #181: Zombie Feast",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 4,
+    "size": "sm",
+    "hands": 2,
+    "reach": 5,
+    "speed": 20,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "REPrl": {
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.CSBy1IgHTSkVAFMM",
+        "img": "systems/sf2e/icons/spells/mind-of-menace.webp",
+        "name": "Mindless Companion",
+        "level": 0
+      },
+      "dZwMf": {
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.3mUx8vXEQkiIuBcR",
+        "img": "systems/sf2e/icons/spells/agonizing-despair.webp",
+        "name": "Negative Healing",
+        "level": 1
+      }
+    },
+    "vision": "darkvision",
+    "voluntaryBoosts": {},
+    "voluntaryFlaws": {}
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.WthugGo14WNxa3L5",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!WthugGo14WNxa3L5"
+}

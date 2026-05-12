@@ -1,0 +1,59 @@
+{
+  "_id": "wlh1poSMLK9wk2Nw",
+  "name": "Hyena Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 8500000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The hyena mockingly yowls at your enemies and bites at them when you create an opening. Until the start of your next turn, each time you hit a creature in the hyena's reach with a Strike, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.zrI6j7mFhkbSFdf0]{Effect: Hyena Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "hyena-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #149: Against the Scarlet Triad",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "WG8TaxGEQOxXBO1S": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.wlh1poSMLK9wk2Nw",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wlh1poSMLK9wk2Nw"
+}

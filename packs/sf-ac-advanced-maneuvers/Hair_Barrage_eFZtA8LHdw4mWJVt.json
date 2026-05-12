@@ -1,0 +1,84 @@
+{
+  "name": "Hair Barrage",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The tarantula flicks its legs, flinging spiky hairs in a @Template[type:cone|distance:15]. This deals @Damage[(4 + max(0,floor((@actor.level - 6) / 4)))d6[piercing]] damage with a @Check[type:reflex|against:hair-barrage|basic:true]. This uses a trained DC using the tarantula's Dexterity modifier or an expert DC if the tarantula is specialized. This damage increases by an additional 1d6 for every 4 levels you have beyond 6th.</p>"
+    },
+    "rules": [
+      {
+        "attribute": "dex",
+        "key": "SpecialStatistic",
+        "slug": "hair-barrage"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "hair-barrage",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "hair-barrage-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "hair-barrage-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "hair-barrage",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
+    "slug": "hair-barrage",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "_id": "eFZtA8LHdw4mWJVt",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4ad07bfc3c83ee9f66be9b444385b6f92b9cc945"
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eFZtA8LHdw4mWJVt"
+}

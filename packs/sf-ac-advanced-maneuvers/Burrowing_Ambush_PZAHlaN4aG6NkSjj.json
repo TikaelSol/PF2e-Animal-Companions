@@ -1,0 +1,61 @@
+{
+  "name": "Burrowing Ambush",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your mole Burrows and makes a Strike. If the mole began its movement underground, the target is @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} for this attack.</p>"
+    },
+    "rules": [],
+    "slug": "burrowing-ambush",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "_id": "PZAHlaN4aG6NkSjj",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ff083b2ba7631259570ecd2b686a228ff7615a61"
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PZAHlaN4aG6NkSjj"
+}

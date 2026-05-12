@@ -1,0 +1,59 @@
+{
+  "_id": "Aj7JWFXIbF3qmvSX",
+  "name": "Bat Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5300000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your bat flaps around your foes' arms and faces, getting in the way of their attacks. Until the start of your next turn, creatures in your bat's reach that you damage with Strikes take a –1 circumstance penalty to their attack rolls.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.ksT2DrI2r1uZQhz6]{Effect: Bat Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "bat-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "WG8TaxGEQOxXBO1S": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.Aj7JWFXIbF3qmvSX",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Aj7JWFXIbF3qmvSX"
+}

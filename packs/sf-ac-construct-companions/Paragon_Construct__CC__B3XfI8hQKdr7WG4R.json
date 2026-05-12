@@ -1,0 +1,164 @@
+{
+  "_id": "B3XfI8hQKdr7WG4R",
+  "name": "Paragon Construct (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 300000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>To improve an incredible construct companion to a paragon construct companion, make the following adjustments.</p>\n<ul>\n<li>Increase its Strength, Dexterity, Constitution, and Wisdom modifiers by 1.</li>\n<li>Increase its proficiency rank for unarmed attacks and unarmored defense to expert.</li>\n<li>Increase its proficiency ranks for Athletics, Acrobatics, saving throws, and Perception to master.</li>\n<li>Increase its unarmed attack damage from two dice to three dice, and its additional damage with unarmed attacks from 2 to 4.\n<p> </p>\n</li>\n</ul>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": 2,
+        "predicate": [
+          "unarmed"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.perception.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.saves.will.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.saves.fortitude.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.saves.reflex.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.skills.acrobatics.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.unarmed.rank",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.unarmored.rank",
+        "value": 2
+      },
+      {
+        "key": "ItemAlteration",
+        "predicate": [
+          "item:category:unarmed"
+        ],
+        "value": 2,
+        "itemType": "weapon",
+        "mode": "upgrade",
+        "property": "runes-striking"
+      }
+    ],
+    "slug": "paragon-construct-cc",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Guns & Gears",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.MBLwQP3kATtKmi8M",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!B3XfI8hQKdr7WG4R"
+}

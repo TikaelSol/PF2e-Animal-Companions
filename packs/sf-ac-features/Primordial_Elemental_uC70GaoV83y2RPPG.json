@@ -1,0 +1,109 @@
+{
+  "name": "Primordial Elemental",
+  "type": "heritage",
+  "img": "systems/sf2e/icons/spells/element-embodied.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Str +4, Dex +2, Con +3, Int –1, Wis +1, Cha +0; +2 AC (+3 Dex cap)</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "upgrade",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -1,
+        "mode": "downgrade",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.cha.mod"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "item",
+        "value": 2,
+        "fromEquipment": false
+      },
+      {
+        "key": "DexterityModifierCap",
+        "value": 3
+      }
+    ],
+    "slug": "primordial-elemental",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Elemental Eidolon",
+      "slug": "dragon-eidolon",
+      "uuid": "Compendium.pf2e-animal-companions.sf-AC-Eidolons.Item.Int1LFtquj8MTIFp"
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "8.1.2",
+    "coreVersion": "14.361",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.uC70GaoV83y2RPPG",
+    "duplicateSource": null,
+    "exportSource": null,
+    "createdTime": 1778461859127,
+    "modifiedTime": 1778461868109,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
+  },
+  "folder": "R1zxef6JTi1qnlRL",
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_id": "uC70GaoV83y2RPPG",
+  "sort": 400000,
+  "_key": "!items!uC70GaoV83y2RPPG"
+}

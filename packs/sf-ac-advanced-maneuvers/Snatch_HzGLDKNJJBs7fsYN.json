@@ -1,0 +1,61 @@
+{
+  "name": "Snatch",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The roc Strikes a creature with its talon and then attempts to Grab the creature. If the Grab is successful, the roc then Flies up to half its speed, carrying that creature along with it.</p>"
+    },
+    "rules": [],
+    "slug": "snatch",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "_id": "HzGLDKNJJBs7fsYN",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6f8c8930c06bd66dc1ceb14d6f4481bc2fa4fbc0"
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HzGLDKNJJBs7fsYN"
+}

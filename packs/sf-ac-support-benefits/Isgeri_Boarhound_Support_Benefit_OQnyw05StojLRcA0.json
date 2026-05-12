@@ -1,0 +1,106 @@
+{
+  "name": "Isgeri Boarhound Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your boarhound is a faithful hunting companion. You gain a +1 circumstance bonus to your next attack roll to Strike a foe within your boarhound's reach. This bonus lasts until the first time you use it or until the beginning of your next turn, whichever comes first. If you damage a creature with the trait corresponding to your boarhound's designated foe with that Strike, the creature takes an additional 1d6 piercing damage from the boarhound. If your boarhound is nimble or savage, the damage increases to 2d6.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.otgQvXBTGIEGbJJP]{Effect: Isgeri Boarhound Support Benefit}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Adventure Path #222: Hellbreakers",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:isgeri-boarhound-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:isgeri-boarhound-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:isgeri-boarhound"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "designated-foe:fiend"
+        ],
+        "property": "other-tags",
+        "value": "designated-foe:fiend"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "designated-foe:undead"
+        ],
+        "property": "other-tags",
+        "value": "designated-foe:undead"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.2"
+  },
+  "_id": "OQnyw05StojLRcA0",
+  "sort": 0,
+  "_key": "!items!OQnyw05StojLRcA0"
+}

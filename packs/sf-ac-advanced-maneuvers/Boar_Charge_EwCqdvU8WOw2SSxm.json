@@ -1,0 +1,74 @@
+{
+  "_id": "EwCqdvU8WOw2SSxm",
+  "name": "Boar Charge",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 2600000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The boar Strides twice in a straight line and then makes a tusk Strike. As long as it moved at least 20 feet, it gains a +2 circumstance bonus to its attack roll.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "boar-charge",
+        "domain": "strike-attack-roll"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "tusk-attack-roll",
+        "value": 2,
+        "predicate": [
+          "boar-charge"
+        ],
+        "type": "circumstance"
+      }
+    ],
+    "slug": "boar-charge",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.EwCqdvU8WOw2SSxm",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EwCqdvU8WOw2SSxm"
+}

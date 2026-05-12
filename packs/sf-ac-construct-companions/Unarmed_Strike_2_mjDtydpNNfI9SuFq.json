@@ -1,0 +1,108 @@
+{
+  "_id": "mjDtydpNNfI9SuFq",
+  "name": "Unarmed Strike 2",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/impaling-spike.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 700000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Rename this feat to rename the strike created by it, the image of this feat can also be adjusted to the image you want for the strike.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          }
+        ],
+        "flag": "damageChoice",
+        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt",
+        "key": "ChoiceSet"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "{item|flags.pf2e.rulesSelections.damageChoice}",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "range": null,
+        "traits": [
+          "finesse",
+          "agile",
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": "unarmed-strike-2",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Guns & Gears",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.r0BretFLl3eDhEUg",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mjDtydpNNfI9SuFq"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Whirlwind Maul",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/whirlwind.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_id": "coBen1GA1czeBTOs",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon thrashes violently, damaging many foes in its reach. It gains the @Compendium[pf2e-animal-companions.AC-Features.W4VCL85CO77MYkQH]{Whirlwind Maul} activity.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.W4VCL85CO77MYkQH"
+      }
+    ],
+    "slug": "whirlwind-maul",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.0c7E7Hc86apMDLJj",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "zMHXTu66OpHxm5Db",
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!coBen1GA1czeBTOs"
+}

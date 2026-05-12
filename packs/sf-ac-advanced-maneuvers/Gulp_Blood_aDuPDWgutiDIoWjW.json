@@ -1,0 +1,59 @@
+{
+  "name": "Gulp Blood",
+  "type": "action",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> The water wraith's last action was a successful jaws attack against a foe.</p><hr /><p>The water wraith gains 2d8 temporary Hit Points that last for 1 round, and the foe takes @Damage[2d6[persistent,bleed]] damage. If the water wraith has a specialization, the water wraith instead gains 3d8 temporary Hit Points, and the target takes @Damage[3d6[persistent,bleed]] damage. If the targeted creature has absolutely no vital fluids, this ability might not function, at the GM's discretion.</p>"
+    },
+    "rules": [],
+    "slug": "gulp-blood",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Impossible Lands",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.g1QzcWAHw8EjBxNs",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 4900000,
+  "_id": "aDuPDWgutiDIoWjW",
+  "_key": "!items!aDuPDWgutiDIoWjW"
+}

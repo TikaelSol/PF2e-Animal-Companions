@@ -1,0 +1,78 @@
+{
+  "_id": "rhWFwue5eYVr5Omr",
+  "name": "Shrink Down (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon can shrink to fit into small spaces. Your eidolon reduces in size, to a minimum of size Small. It can use this action again while shrunk to return to its normal size.</p>"
+    },
+    "rules": [],
+    "slug": "shrink-down-cc",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "eidolon",
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.RonS3ZJs4poFTckH",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rhWFwue5eYVr5Omr"
+}

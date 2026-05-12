@@ -1,0 +1,59 @@
+{
+  "_id": "7H8wqKtsAaSgyLyp",
+  "name": "Grab and Sting",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 2000000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The scorpion holds its foe in place with its pincers in order to sting it. It makes a pincer Strike. If the Strike hits, the target creature automatically becomes @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed} by the scorpion, which then makes a stinger Strike against it. The grabbed condition lasts until the end of your next turn.</p>"
+    },
+    "rules": [],
+    "slug": "grab-and-sting",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.7H8wqKtsAaSgyLyp",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7H8wqKtsAaSgyLyp"
+}

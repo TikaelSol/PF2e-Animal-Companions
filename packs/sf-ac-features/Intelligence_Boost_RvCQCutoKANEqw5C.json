@@ -1,0 +1,81 @@
+{
+  "_id": "RvCQCutoKANEqw5C",
+  "name": "Intelligence Boost",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/daydreamers-curse.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": "match(when(btwn(@actor.system.abilities.int.mod, -4, 3), 1), when(gte(@actor.system.abilities.int.mod, 4), 0.5))",
+        "mode": "add",
+        "path": "system.abilities.int.mod",
+        "priority": 50
+      }
+    ],
+    "slug": "intelligence-boost",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.DNpa1GdDXz8L4Fra",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 5000000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!RvCQCutoKANEqw5C"
+}

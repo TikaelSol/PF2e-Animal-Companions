@@ -1,0 +1,97 @@
+{
+  "_id": "wOtKDptwbz9hU9ZR",
+  "name": "Energy Resistance (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon has stronger resistance. Its resistance from Energy Heart and Dual Energy Heart increase to your level.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "{actor|flags.pf2e.evolutionFeats.dualEnergyHeartChoice}",
+        "value": "@actor.level",
+        "predicate": [
+          "feat:dual-energy-heart"
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "{actor|flags.pf2e.evolutionFeats.energyHeartChoice}",
+        "value": "@actor.level",
+        "predicate": [
+          "feat:energy-heart"
+        ]
+      }
+    ],
+    "slug": "energy-resistance-cc",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Energy Heart"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.lVXk0fhZqjqKilhB",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wOtKDptwbz9hU9ZR"
+}

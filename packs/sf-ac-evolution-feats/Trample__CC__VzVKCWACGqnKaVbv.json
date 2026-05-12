@@ -1,0 +1,77 @@
+{
+  "_id": "VzVKCWACGqnKaVbv",
+  "name": "Trample (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon Strides up to double its Speed and can move through the spaces of creatures at least one size smaller, Trampling each creature whose space it enters. It can attempt to Trample the same creature only once in a single Trample.</p>\n<p>It deals bludgeoning damage equal to the damage of its secondary attack against these creatures, which can attempt a basic Reflex save against your spell DC.</p>"
+    },
+    "rules": [],
+    "slug": "trample-cc",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eidolon",
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.7GGxxoYNA4YrtML9",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VzVKCWACGqnKaVbv"
+}

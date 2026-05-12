@@ -1,0 +1,79 @@
+{
+  "_id": "Jl0HsbQh05ajHZAh",
+  "name": "Climbing Limbs",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>With appendages that can claw or create suction, your construct becomes a capable climber. Your innovation gains a climb Speed equal to half its land Speed.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": "5*floor(@actor.system.movement.speeds.land.base/10)"
+      }
+    ],
+    "slug": "climbing-limbs",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Construct-Breakthroughs.Item.Jl0HsbQh05ajHZAh",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Jl0HsbQh05ajHZAh"
+}

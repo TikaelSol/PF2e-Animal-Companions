@@ -1,0 +1,199 @@
+{
+  "_id": "hynwj4kRnb7yLNGu",
+  "name": "Vampiric Animal",
+  "type": "ancestry",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 7800000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is a wolf, weasel, fox, or other predator with fangs and the blood thirst of a vampire. They often serve vampires who willingly shared their blood to bind the animal to their vampiric whims.</p><p><strong>Size</strong> Small or Medium</p><p>Melee <span class=\"pf2-icon\">1</span> jaws (finesse), Damage 1d8 piercing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> Survival</p><p><strong>Senses</strong> low‑light vision, scent (imprecise 30 feet)</p><p><strong>Speed</strong> 30 feet</p><p><strong>Special</strong> Vampiric animal companions are particularly attuned to the scent of blood. If a creature has persistent bleed damage, your vampiric animal companion can smell the creature if it's within 120 feet rather than 30 feet.</p><p><strong>Support Benefit</strong> When your vampiric animal senses blood it tears into your enemies. Until the start of your next turn, your Strikes that damage a creature in your vampiric animal's reach also deal 1d6 persistent bleed damage. If your vampiric animal is nimble or savage, the persistent bleed damage increases to 2d6.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.cVrW2GGLVpydj8h5]{Blood Feast}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.survival.rank"
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "scent"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Jaws",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "finesse"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/jaws.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.3jZOVJsYwBQ7GPDi"
+      },
+      {
+        "key": "Immunity",
+        "type": [
+          "death-effects",
+          "disease",
+          "poison"
+        ]
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "value": "sm"
+          }
+        ],
+        "flag": "companionSize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "CreatureSize",
+        "value": "{item|flags.sf2e.rulesSelections.companionSize}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.cVrW2GGLVpydj8h5"
+      }
+    ],
+    "slug": "vampiric-animal",
+    "_migration": {
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "undead"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Pathfinder Book of the Dead",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 4,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 30,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "c8kd4": {
+        "img": "systems/sf2e/icons/spells/agonizing-despair.webp",
+        "name": "Negative Healing",
+        "level": 0,
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.3mUx8vXEQkiIuBcR"
+      }
+    },
+    "vision": "low-light-vision"
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Ancestries-and-Class.Item.hynwj4kRnb7yLNGu",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hynwj4kRnb7yLNGu"
+}

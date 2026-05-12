@@ -1,0 +1,119 @@
+{
+  "name": "Slinking Swarm",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.94,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "description": {
+      "value": "<p><em>Str</em> +2, <em>Dex</em> +4, <em>Con</em> +3, <em>Int</em> +0, <em>Wis</em> +1, <em>Cha</em> –1; +1 AC (+4 Dex cap)</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "upgrade",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 0,
+        "mode": "upgrade",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.abilities.cha.mod"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "item",
+        "value": 1,
+        "fromEquipment": false
+      },
+      {
+        "key": "DexterityModifierCap",
+        "value": 4
+      }
+    ],
+    "slug": "slinking-swarm",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "GQ0OcgfWpJEKflEq",
+  "img": "icons/magic/fire/beam-jet-stream-blue.webp",
+  "folder": "xb7i6YvPBPtfvP3K",
+  "sort": 175000,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1"
+  },
+  "_key": "!items!GQ0OcgfWpJEKflEq"
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "r7QN2lUVWXlcynMW",
+  "name": "Elephant Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 8100000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your elephant trumpets noisily and menaces your enemy. The first creature within your elephant's reach that you hit and deal damage to before the start of your next turn has difficulty hearing as its ears ring from the noise, taking a –4 status penalty to purely auditory Perception checks until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.yTWDjFno6nKETfXY]{Effect: Elephant Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "elephant-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #177: Burning Tundra",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.r7QN2lUVWXlcynMW",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!r7QN2lUVWXlcynMW"
+}

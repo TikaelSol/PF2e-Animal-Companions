@@ -1,0 +1,74 @@
+{
+  "_id": "ttJ1CanrAuehoSV8",
+  "name": "Death Roll",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 6800000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> The crocodile has a creature @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p><hr /><p>The crocodile tucks its legs and rolls rapidly, twisting its victim. It makes a jaws Strike with a +2 circumstance bonus to the attack roll against the grabbed creature. If it hits, it also knocks the creature @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}. If it misses, it releases the creature.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "death-roll",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "jaws-attack",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "death-roll"
+        ]
+      }
+    ],
+    "slug": "death-roll",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.ttJ1CanrAuehoSV8",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ttJ1CanrAuehoSV8"
+}

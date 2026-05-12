@@ -1,0 +1,89 @@
+{
+  "_id": "WyN2qQ2AP4cOMNxF",
+  "name": "Hallowed Strikes",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/moonlight-ray.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon's attacks are hallowed by the celestial realms. Your eidolon's unarmed Strikes gain the holy trait and deal 1 extra spirit damage to unholy creatures and creatures with weakness to holy. Additionally, your eidolon can make nonlethal attacks with its unarmed attacks without taking the usual -2 circumstance penalty.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          "target:trait:unholy"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "traits",
+        "value": "holy"
+      }
+    ],
+    "slug": "hallowed-strikes",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.jSDsKX3BOHhvtgsD",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "3UpjTq1xgggzS2Eq",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!WyN2qQ2AP4cOMNxF"
+}

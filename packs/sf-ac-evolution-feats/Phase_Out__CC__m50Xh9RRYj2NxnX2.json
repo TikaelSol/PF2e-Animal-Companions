@@ -1,0 +1,81 @@
+{
+  "_id": "m50Xh9RRYj2NxnX2",
+  "name": "Phase Out (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon phases out of reality slightly, gaining resistance to all damage (except force and negative) equal to half your level. It's not incorporeal, but it can't use Strikes or actions that require a fully physical form, such as @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple}, @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove}, or @Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip}.</p>\n<p>Your eidolon can return to its normal form with a single action, which has the concentrate trait.</p>"
+    },
+    "rules": [],
+    "slug": "phase-out-cc",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "your eidolon is a phantom"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.axGS5bBJ9vl5AePc",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!m50Xh9RRYj2NxnX2"
+}

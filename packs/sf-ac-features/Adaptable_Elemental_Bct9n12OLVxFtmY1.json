@@ -1,0 +1,100 @@
+{
+  "name": "Adaptable Elemental",
+  "type": "heritage",
+  "img": "systems/sf2e/icons/spells/adapt-self.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Str +1, Dex +4, Con +3, Int +0, Wis +1, Cha +0; +1 AC (+4 Dex cap)</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "upgrade",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 0,
+        "mode": "downgrade",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "item",
+        "value": 1,
+        "fromEquipment": false
+      },
+      {
+        "key": "DexterityModifierCap",
+        "value": 4
+      }
+    ],
+    "slug": "adaptable-elemental",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Elemental Eidolon",
+      "slug": "dragon-eidolon",
+      "uuid": "Compendium.pf2e-animal-companions.sf-AC-Eidolons.Item.Int1LFtquj8MTIFp"
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.Bct9n12OLVxFtmY1",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "R1zxef6JTi1qnlRL",
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_id": "Bct9n12OLVxFtmY1",
+  "sort": 100000,
+  "_key": "!items!Bct9n12OLVxFtmY1"
+}

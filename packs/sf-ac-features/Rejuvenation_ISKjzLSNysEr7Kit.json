@@ -1,0 +1,73 @@
+{
+  "name": "Rejuvenation",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/false-life.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon's unusual connection with you allows you both to rejuvenate when defeated. The first time each day your turn begins while you're dying, you instantly regain a number of Hit Points equal to three times your level and wake up. (Increase your wounded condition as normal.) You can immediately Manifest Your Eidolon as a free action. You can then take your turn as normal.</p>"
+    },
+    "rules": [],
+    "slug": "rejuvenation",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Book of the Dead",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.1KoqDkZR0xt9nEBI",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ecK9IrCUtW1bkFl6",
+  "sort": 50000,
+  "_id": "ISKjzLSNysEr7Kit",
+  "_key": "!items!ISKjzLSNysEr7Kit"
+}

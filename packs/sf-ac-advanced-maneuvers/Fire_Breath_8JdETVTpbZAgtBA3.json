@@ -1,0 +1,87 @@
+{
+  "_id": "8JdETVTpbZAgtBA3",
+  "name": "Fire Breath",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 2100000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>The riding drake breathes a @Template[type:cone|distance:30] of fire, dealing @Damage[(max(1,floor(@actor.level/2)))d6[fire]|options:area-damage]{1d6 fire damage for every 2 levels} the drake has to all creatures in the area (@Check[reflex|basic|options:area-effect|against:fire-breath] save). This uses a trained DC using the drake's Constitution modifier or an expert DC if the drake is specialized.</p>"
+    },
+    "rules": [
+      {
+        "attribute": "con",
+        "key": "SpecialStatistic",
+        "slug": "fire-breath"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fire-breath",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "fire-breath-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "fire-breath-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "fire-breath",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
+    "slug": "fire-breath",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H",
+      "value": 1
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.8JdETVTpbZAgtBA3",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8JdETVTpbZAgtBA3"
+}

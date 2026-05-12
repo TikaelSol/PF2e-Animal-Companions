@@ -1,0 +1,183 @@
+{
+  "_id": "xiSoZz2JHX095nHo",
+  "name": "Zombie",
+  "type": "ancestry",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 8400000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is a mindless zombie created from a soulless dead body, be it animal or humanoid. The stats below list a fist Strike, but this can be replaced by a claw or similar option better suited to the creature's form.</p><p><strong>Size</strong> Small or Medium</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> fist, <strong>Damage</strong> 1d8 piercing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +0, <strong>Con</strong> +4, <strong>Int</strong> –5, <strong>Wis</strong> +0, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 10</p><p><strong>Skill</strong> none (mindless)</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 20 feet</p><p><strong>Special</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.CSBy1IgHTSkVAFMM]{Mindless Companion}</p><p><strong>Support Benefit</strong> The zombie emits an aura of rot, causing wounds to fester. Until the start of your next turn, each time you hit a creature that's within 10 feet of the zombie and you deal damage, the creature takes an additional 1d6 damage as the wound festers. If your zombie is nimble or savage, the damage increases to 2d6. This is a disease and necromancy effect.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.LaBfTYUsvoI3nscv]{Take a Taste}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -5,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Strike.Fist.Label",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/fist.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.yAYlM3aIRYnqx6j8"
+      },
+      {
+        "key": "Immunity",
+        "type": [
+          "death-effects",
+          "disease",
+          "poison",
+          "mental"
+        ]
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "value": "sm"
+          }
+        ],
+        "flag": "companionSize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "CreatureSize",
+        "value": "{item|flags.sf2e.rulesSelections.companionSize}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.LaBfTYUsvoI3nscv"
+      }
+    ],
+    "slug": "zombie",
+    "_migration": {
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "undead"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Book of the Dead",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 10,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 20,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "7mqwg": {
+        "img": "systems/sf2e/icons/spells/mind-of-menace.webp",
+        "name": "Mindless Companion",
+        "level": 0,
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.CSBy1IgHTSkVAFMM"
+      },
+      "7a9lj": {
+        "img": "systems/sf2e/icons/spells/agonizing-despair.webp",
+        "name": "Negative Healing",
+        "level": 0,
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.3mUx8vXEQkiIuBcR"
+      }
+    },
+    "vision": "darkvision",
+    "voluntaryBoosts": {},
+    "voluntaryFlaws": {}
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Ancestries-and-Class.Item.xiSoZz2JHX095nHo",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xiSoZz2JHX095nHo"
+}

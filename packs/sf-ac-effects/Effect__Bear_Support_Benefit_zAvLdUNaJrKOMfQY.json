@@ -1,0 +1,109 @@
+{
+  "name": "Effect: Bear Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.AvDlo1mgxXd7ZA8W]{Bear Support Benefit}</p><p>When you hit a target, they also take slashing damage from the bear.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              {
+                "not": "parent:origin:item:tag:support-benefit:bear"
+              }
+            ],
+            "value": 1
+          },
+          {
+            "predicate": [
+              "parent:origin:item:tag:support-benefit:bear"
+            ],
+            "value": 2
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "Is companion nimble or savage.",
+        "flag": "bearSupportBenefit"
+      },
+      {
+        "key": "RollOption",
+        "option": "bear-support-benefit",
+        "toggleable": true
+      },
+      {
+        "hideIfDisabled": true,
+        "critical": false,
+        "damageType": "slashing",
+        "diceNumber": "{item|flags.sf2e.rulesSelections.bearSupportBenefit}",
+        "dieSize": "d8",
+        "key": "DamageDice",
+        "predicate": [
+          "bear-support-benefit"
+        ],
+        "selector": "strike-damage"
+      }
+    ],
+    "slug": "effect-bear-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "_id": "zAvLdUNaJrKOMfQY",
+  "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+  "folder": null,
+  "sort": 6600000,
+  "ownership": {
+    "default": 0,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "exportSource": null
+  },
+  "_key": "!items!zAvLdUNaJrKOMfQY"
+}

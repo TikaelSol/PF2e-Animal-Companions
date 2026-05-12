@@ -1,0 +1,87 @@
+{
+  "_id": "Q8yXShOx8PGjL0LV",
+  "name": "Furious Strike",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon channels its anger into a furious attack. It makes a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, your eidolon deals an extra die of weapon damage and gains a +1 circumstance bonus to the damage roll.</p>\n<p>If you're at least 10th level, increase this to two extra dice with a +2 circumstance bonus, and if you're at least 18th level, increase it to three extra dice with a +3 circumstance bonus.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "damage",
+        "option": "furious-strike",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "predicate": [
+          "melee",
+          "furious-strike"
+        ],
+        "selector": "strike-damage",
+        "diceNumber": "match(when(lte(@actor.level, 9), 1), when(btwn(@actor.level, 10, 17), 2), when(gte(@actor.level, 18), 3))"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "melee",
+          "furious-strike"
+        ],
+        "selector": "strike-damage",
+        "value": "match(when(lte(@actor.level, 9), 1), when(btwn(@actor.level, 10, 17), 2), when(gte(@actor.level, 18), 3))",
+        "type": "circumstance"
+      }
+    ],
+    "slug": "furious-strike",
+    "traits": {
+      "value": [
+        "eidolon"
+      ],
+      "otherTags": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.Q8yXShOx8PGjL0LV",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "q3nXFZfwRZgEhUKV",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!Q8yXShOx8PGjL0LV"
+}

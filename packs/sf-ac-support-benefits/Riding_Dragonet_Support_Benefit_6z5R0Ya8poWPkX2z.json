@@ -1,0 +1,86 @@
+{
+  "name": "Riding Dragonet Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.953,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your dragonet's wings flutter rapidly, pulsating the air around you both. Until the start of your next turn, each time you Strike while riding the dragonet and hit a creature in the dragonet's reach, the creature takes 1d4 bludgeoning damage from the force of the dragonet's wings. If your dragonet is nimble or savage, the bludgeoning damage increases to 2d4.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.W0umjrZCgfSo0qh6]{Effect: Riding Dragonet Support Benefit}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Draconic Codex",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:riding-dragonet-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:riding-dragonet-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:riding-dragonet"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0"
+  },
+  "_id": "6z5R0Ya8poWPkX2z",
+  "sort": 0,
+  "_key": "!items!6z5R0Ya8poWPkX2z"
+}
