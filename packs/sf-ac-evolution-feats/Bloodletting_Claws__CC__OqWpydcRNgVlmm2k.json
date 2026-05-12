@@ -1,0 +1,99 @@
+{
+  "_id": "OqWpydcRNgVlmm2k",
+  "name": "Bloodletting Claws (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon inflicts bleeding wounds on a telling blow. If your eidolon critically hits with a melee unarmed Strike that deals slashing or piercing damage, its target takes 1d6 persistent bleed damage. Your eidolon gains an item bonus to this bleed damage equal to the unarmed attack's item bonus to attack rolls. This is a critical specialization effect.</p>"
+    },
+    "rules": [
+      {
+        "alternate": true,
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:trait:unarmed"
+        ],
+        "damageDice": {
+          "number": 1,
+          "damageType": "bleed",
+          "faces": 6
+        },
+        "modifier": {
+          "damageType": "bleed",
+          "value": "@weapon.system.runes.potency"
+        }
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:trait:unarmed"
+        ]
+      }
+    ],
+    "slug": "bloodletting-claws-cc",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.lpG7ZXFDZygmkbH4",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OqWpydcRNgVlmm2k"
+}

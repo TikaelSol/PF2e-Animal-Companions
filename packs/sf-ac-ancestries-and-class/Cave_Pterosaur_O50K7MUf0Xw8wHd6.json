@@ -1,0 +1,197 @@
+{
+  "_id": "O50K7MUf0Xw8wHd6",
+  "name": "Cave Pterosaur",
+  "type": "ancestry",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 1900000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is a flying prehistoric creature, such as a dimorphodon or pterodactyl, that has adapted to life in the cavern vaults beneath the ground.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> beak (finesse), <strong>Damage</strong> 1d6 piercing</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> talon (agile, finesse), <strong>Damage</strong> 1d4 slashing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +2, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> Thievery (@UUID[Compendium.sf2e.actions.Item.ijZ0DDFpMkWqaShd]{Palm an Object} or @UUID[Compendium.sf2e.actions.Item.RDXXE7wMrSPCLv5k]{Steal} only)</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 10 feet, fly 60 feet</p><p><strong>Support Benefit</strong> Your pterosaur expands its wings and makes distracting flapping motions. Any creature that would gain lesser cover from the pterosaur gains standard cover instead.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.7C9iFWBpEOJs4Uo2]{Pterosaur Swoop}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.thievery.rank"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 60
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.jaws",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/beak.webp"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Talon",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "agile",
+          "finesse"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/talon.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:ancestry:cave-pterosaur",
+        "priority": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.8b1G95eWa3DaTvw8"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.7C9iFWBpEOJs4Uo2"
+      }
+    ],
+    "slug": "cave-pterosaur",
+    "_migration": {
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "animal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder #154: Siege of the Dinosaurs",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 4,
+    "size": "sm",
+    "hands": 2,
+    "reach": 5,
+    "speed": 10,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision",
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "rDxs69lNqIFN75Bl": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Ancestries-and-Class.Item.O50K7MUf0Xw8wHd6",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "sf2e",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "_key": "!items!O50K7MUf0Xw8wHd6"
+}

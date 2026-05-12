@@ -1,0 +1,66 @@
+{
+  "_id": "lrchn6ROZcuKCg3C",
+  "name": "Careful Withdraw",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5900000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The legchair carefully extricates you from a dangerous situation. It Steps twice and then Strides.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "has-advanced-maneuver",
+        "priority": 1
+      }
+    ],
+    "slug": "careful-withdraw",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Grand Bazaar",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.tvBQEtzLWUR1PlcL",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!lrchn6ROZcuKCg3C"
+}

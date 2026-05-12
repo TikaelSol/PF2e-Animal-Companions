@@ -1,0 +1,92 @@
+{
+  "_id": "9o7NwxGqohpa9M7r",
+  "name": "Pick at the Meat",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 2200000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> The animal companion's last action was a successful jaws Strike.</p><hr /><p>Your bird picks at the wound it just created. The target of its jaws Strike takes @Damage[1d8[bleed]] damage, or @Damage[2d8[bleed]] damage if the bird is specialized.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "pick-at-the-meat",
+        "toggleable": true,
+        "domain": "strike-damage"
+      },
+      {
+        "damageType": "bleed",
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "predicate": [
+          "pick-at-the-meat"
+        ],
+        "tags": [
+          "pick-at-the-meat-damage"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "strike-damage"
+        ],
+        "predicate": [
+          "feature:specialized-animal-companion",
+          "dice:tag:pick-at-the-meat-damage"
+        ],
+        "value": 2,
+        "mode": "upgrade",
+        "property": "dice-number"
+      }
+    ],
+    "slug": "pick-at-the-meat",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #181: Zombie Feast",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.9o7NwxGqohpa9M7r",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9o7NwxGqohpa9M7r"
+}

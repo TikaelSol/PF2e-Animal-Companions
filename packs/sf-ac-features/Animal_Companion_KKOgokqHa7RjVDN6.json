@@ -1,0 +1,160 @@
+{
+  "_id": "KKOgokqHa7RjVDN6",
+  "name": "Animal Companion",
+  "type": "class",
+  "img": "systems/sf2e/icons/default-icons/class.svg",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The following are the base statistics for a young animal companion, the first animal companion most characters get. You adjust these statistics depending on the type of animal you choose. Animal companions calculate their modifiers and DCs just as you do with one difference: the only item bonuses they can benefit from are to Speed and AC (their maximum item bonus to AC is +3). As you gain levels, you might be able to make your companion stronger by advancing it.</p><p>An animal companion's starting statistics are as follows.</p><ul><li><strong>Level:</strong> Your animal companion's level is equal to yours.</li><li><strong>Proficiencies:</strong> Your animal companion is trained in its unarmed attacks, unarmored defense, barding (a type of armor for animals), all saving throws, Perception, Acrobatics, and Athletics. Animal companions can't use abilities that require greater Intelligence, such as @UUID[Compendium.sf2e.actions.Item.tHCqgwjtQtzNqVvd]{Coerce} or Decipher Writing, even if trained in the appropriate skill, unless they have a specialization that allows it.</li><li><strong>Attribute Modifiers:</strong> An animal companion begins with base attribute modifiers listed in its stat block.</li><li><strong>Hit Points:</strong> Your animal companion has ancestry Hit Points from its type, plus a number of Hit Points equal to 6 plus its Constitution modifier for each level you have.</li></ul>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.disableABP",
+        "value": true,
+        "priority": 10
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "minion"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.light-barding.rank",
+        "priority": 41,
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.heavy-barding.rank",
+        "priority": 41,
+        "value": 1
+      },
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "bonus:type:item"
+        ],
+        "selectors": [
+          "attack",
+          "damage",
+          "skill-check",
+          "saving-throw"
+        ],
+        "suppress": true
+      },
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "bonus:type:item"
+        ],
+        "selectors": [
+          "ac"
+        ],
+        "mode": "downgrade",
+        "value": 3
+      }
+    ],
+    "slug": "animal-companion",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [],
+      "selected": null
+    },
+    "items": {},
+    "hp": 6,
+    "trainedSkills": {
+      "value": [
+        "acrobatics",
+        "athletics"
+      ],
+      "additional": 0
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 1
+    },
+    "attacks": {
+      "simple": 0,
+      "martial": 0,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 0,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "ancestryFeatLevels": {
+      "value": []
+    },
+    "classFeatLevels": {
+      "value": []
+    },
+    "generalFeatLevels": {
+      "value": []
+    },
+    "skillFeatLevels": {
+      "value": []
+    },
+    "skillIncreaseLevels": {
+      "value": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Ancestries-and-Class.Item.h6Ybhv5URar01WPk",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "sf2e",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "folder": null,
+  "sort": 3600000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!KKOgokqHa7RjVDN6"
+}

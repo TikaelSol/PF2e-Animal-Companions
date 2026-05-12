@@ -1,0 +1,85 @@
+{
+  "_id": "h1Rldre8WVjUR5XO",
+  "name": "Disgusting Gallop",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5700000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The zombie mount Strides twice, spraying putrid spittle as it runs. Once during this movement, choose a creature adjacent to the zombie mount. The spittle splashes on it, and the creature must succeed at a @Check[fortitude|against:disgusting-gallop] save or be @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><p>The creature is then temporarily immune to the spittle for 24 hours. This uses a trained DC using the zombie mount's Constitution modifier, or an expert DC if the mount is specialized.</p>"
+    },
+    "rules": [
+      {
+        "attribute": "con",
+        "key": "SpecialStatistic",
+        "slug": "disgusting-gallop"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "disgusting-gallop",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "disgusting-gallop-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "disgusting-gallop-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "disgusting-gallop",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
+    "slug": "disgusting-gallop",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disease",
+        "move"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Book of the Dead",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.h1Rldre8WVjUR5XO",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!h1Rldre8WVjUR5XO"
+}

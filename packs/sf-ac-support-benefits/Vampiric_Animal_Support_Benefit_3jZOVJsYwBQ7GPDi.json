@@ -1,0 +1,92 @@
+{
+  "_id": "3jZOVJsYwBQ7GPDi",
+  "name": "Vampiric Animal Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 4500000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When your vampiric animal senses blood it tears into your enemies. Until the start of your next turn, your Strikes that damage a creature in your vampiric animal's reach also deal @Damage[1d6[persistent,bleed]] damage. If your vampiric animal is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.rtIhCBYVeEywrZOf]{Effect: Vampiric Animal Support Benefit}</p>"
+    },
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:vampiric-animal-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:vampiric-animal-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:vampiric-animal"
+      }
+    ],
+    "slug": "vampiric-animal-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Book of the Dead",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.3jZOVJsYwBQ7GPDi",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!3jZOVJsYwBQ7GPDi"
+}

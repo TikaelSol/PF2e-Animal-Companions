@@ -1,0 +1,144 @@
+{
+  "_id": "u9dXZwKANlsC9MDM",
+  "name": "Indomitable Animal Companion",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/envenom-companion.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 2200000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>An indomitable companion increases its Constitution modifier by 2 and its Strength, Dexterity, and Wisdom modifiers by 1. It deals 3 additional damage with its unarmed attacks. Increase its proficiency rank in Athletics to expert and its proficiency rank in barding to expert. It also learns the advanced maneuver for its type. If your companion is Medium or smaller, it grows in size by one category. Its attacks count as magical for the purpose of ignoring resistances.</p>"
+    },
+    "rules": [
+      {
+        "key": "CreatureSize",
+        "value": 1,
+        "maximumSize": "lg"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "unarmed-damage",
+        "value": 3,
+        "slug": "companion-additional-damage"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "magical",
+        "predicate": [
+          "item:category:unarmed"
+        ],
+        "itemType": "weapon"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KrHyF5BSvYM6tFbB"
+      }
+    ],
+    "slug": "indomitable-animal-companion",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens World Guide (Second Edition)",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "rarity": {
+      "value": "common"
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "light-barding": {
+          "rank": 2
+        },
+        "heavy-barding": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Feats.Item.u9dXZwKANlsC9MDM",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "sf2e",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "_key": "!items!u9dXZwKANlsC9MDM"
+}

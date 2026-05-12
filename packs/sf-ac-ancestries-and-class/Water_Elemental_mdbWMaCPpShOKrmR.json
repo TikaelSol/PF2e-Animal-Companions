@@ -1,0 +1,171 @@
+{
+  "name": "Water Elemental",
+  "type": "ancestry",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is a water elemental, such as a brine shark.</p><p><strong>Access</strong> You are a member of the @UUID[Compendium.sf2e.class-features.Item.FuUXyv2yBs7zRgqT]{Wave Order}.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> wave, <strong>Damage</strong> 1d8 bludgeoning</p><p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 6</p><p><strong>Skill</strong> Survival</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 15 feet, swim 35 feet</p><p><strong>Special</strong> <em>Resistances</em> fire (equal to the water elemental's level)</p><p><strong>Support Benefit</strong> Your water elemental waterlogs a foe. The first time before the start of your next turn you hit with a Strike that deals damage to a creature within your water elemental's reach, that creature becomes @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.x4clojDNIvYB5V7X]{Drench}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.survival.rank"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Wave",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "icons/magic/water/wave-water-blue.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 35
+      },
+      {
+        "key": "Resistance",
+        "type": "fire",
+        "value": "@actor.level"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.BFvS1wnFxgUqgX8m"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.x4clojDNIvYB5V7X"
+      }
+    ],
+    "slug": "water-elemental",
+    "_migration": {
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "elemental",
+        "water"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "hp": 6,
+    "size": "sm",
+    "hands": 2,
+    "reach": 5,
+    "speed": 15,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision",
+    "voluntaryBoosts": {},
+    "voluntaryFlaws": {}
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "mdbWMaCPpShOKrmR",
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 8000000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!mdbWMaCPpShOKrmR"
+}

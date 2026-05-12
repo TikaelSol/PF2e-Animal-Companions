@@ -1,0 +1,62 @@
+{
+  "name": "Haunting Visage",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.94,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> Your eidolon is condensed. </p><hr /><p>Your eidolon suddenly shifts itself into a terrifying shape of its choosing, rather than a simple mound, by closely controlling the positioning of its component bodies. The eidolon attempts to @UUID[Compendium.sf2e.actions.Item.2u915NdUyQan6uKF]{Demoralize} a creature within 15 feet; this Demoralize attempt loses the auditory trait, gains the visual trait, and the eidolon doesn't take a –4 circumstance penalty to the check if they don't share a language with their target. On a success or critical success, the target is additionally @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "haunting-visage",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "eidolon",
+        "manipulate",
+        "visual"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "_id": "roBX7VxpVKkRpClJ",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "folder": "xb7i6YvPBPtfvP3K",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "ZsoDU6dAQFmGr3tK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1"
+  },
+  "_key": "!items!roBX7VxpVKkRpClJ"
+}

@@ -1,0 +1,77 @@
+{
+  "_id": "ITQghUQFhbYpD2QM",
+  "name": "Beast's Charge",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon rushes forward, using its momentum to increase the power of its attack. Your eidolon Strides twice and then Strikes. If the eidolon moved at least 20 feet away from its starting position and moved entirely in a straight line, it gains a +1 circumstance bonus to this attack roll.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "attack-roll",
+        "option": "beastsCharge",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "beastsCharge"
+        ]
+      }
+    ],
+    "slug": "beasts-charge",
+    "traits": {
+      "value": [
+        "eidolon"
+      ],
+      "otherTags": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.ITQghUQFhbYpD2QM",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "zMHXTu66OpHxm5Db",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!ITQghUQFhbYpD2QM"
+}

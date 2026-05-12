@@ -1,0 +1,94 @@
+{
+  "_id": "zE01vpjowhoKygig",
+  "name": "Zombie Carrion Bird Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 9000000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The zombie emits an aura of rot, causing wounds to fester. Until the start of your next turn, each time you hit and deal damage to a creature that's within 10 feet of the zombie carrion bird, the creature takes an additional @Damage[1d6[untyped]] damage as the wound festers. If your carrion bird is nimble or savage, the damage increases to @Damage[2d6[untyped]]. This is a disease and necromancy effect.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.FoDGPqWjs8QRR3qv]{Effect: Zombie Carrion Bird Support Benefit}</p>"
+    },
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:zombie-carrion-bird-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:zombie-carrion-bird-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:zombie-carrion-bird"
+      }
+    ],
+    "slug": "zombie-carrion-bird-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disease"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder #181: Zombie Feast",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.zE01vpjowhoKygig",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zE01vpjowhoKygig"
+}

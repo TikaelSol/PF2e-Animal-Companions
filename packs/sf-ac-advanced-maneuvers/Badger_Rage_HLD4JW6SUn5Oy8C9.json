@@ -1,0 +1,67 @@
+{
+  "_id": "HLD4JW6SUn5Oy8C9",
+  "name": "Badger Rage",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 3000000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> The badger isn't @UUID[Compendium.sf2e.conditions.Item.HL2l2VRSaQHu9lUw]{Fatigued} or raging.</p><hr /><p>The badger enters a state of pure rage that lasts for 1 minute, until there are no enemies it can perceive, or until it falls @UUID[Compendium.sf2e.conditions.Item.fBnFDH2MTzgFijKf]{Unconscious}, whichever comes first. It can't voluntarily stop raging. While raging, the badger is affected in the following ways.</p><ul><li>It deals 4 additional damage with its bite attacks and 2 additional damage with its claw attacks.</li><li>It takes a –1 penalty to AC.</li><li>It can't use actions that have the concentrate trait. The animal companion can @UUID[Compendium.sf2e.actions.Item.BlAOM2X92SI6HMtJ]{Seek} even while raging. After it has stopped raging, it can't use Badger Rage again for 1 minute.</li></ul>"
+    },
+    "rules": [],
+    "slug": "badger-rage",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "emotion",
+        "mental"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-animal-companions.sf-AC-effects.Item.XujpYKmCX33gqexa",
+      "name": "Effect: Badger Rage"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HLD4JW6SUn5Oy8C9"
+}

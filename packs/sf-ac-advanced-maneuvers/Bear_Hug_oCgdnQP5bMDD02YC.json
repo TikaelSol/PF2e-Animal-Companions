@@ -1,0 +1,59 @@
+{
+  "_id": "oCgdnQP5bMDD02YC",
+  "name": "Bear Hug",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 6000000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> The bear's last action was a successful claw Strike.</p><hr /><p>The bear makes another claw Strike against the same target. If this Strike hits, the target is also @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed}, as if the bear had successfully @UUID[Compendium.sf2e.actions.Item.PMbdMWc2QroouFGD]{Grappled} the target.</p>"
+    },
+    "rules": [],
+    "slug": "bear-hug",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.oCgdnQP5bMDD02YC",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!oCgdnQP5bMDD02YC"
+}

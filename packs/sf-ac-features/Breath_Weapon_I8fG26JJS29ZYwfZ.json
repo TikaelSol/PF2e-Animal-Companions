@@ -1,0 +1,78 @@
+{
+  "_id": "I8fG26JJS29ZYwfZ",
+  "name": "Breath Weapon",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/dragon-breath.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon has a powerful breath weapon, which they are able to use regularly to wreak havoc upon your foes. They gain the Breath Weapon activity. Choose a damage type from among acid, cold, electricity, fire, negative, piercing, or poison, and choose whether the area is a @Template[type:line|distance:60] or a @Template[type:cone|distance:30]. Unless you chose piercing damage, both Breath Weapon and your eidolon gain the trait matching the damage type.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.y3TG1Vs5HRh0wTMe"
+      }
+    ],
+    "slug": "breath-weapon",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.I8fG26JJS29ZYwfZ",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "kpWJAjuzGZKJKYh0",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!I8fG26JJS29ZYwfZ"
+}

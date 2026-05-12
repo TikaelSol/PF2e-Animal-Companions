@@ -1,0 +1,82 @@
+{
+  "_id": "WdTzlCO2i4loeYkQ",
+  "name": "Ultrasonic Scream",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 4600000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The moth flaps its wings and emits ultrasonic squeaks that scramble the senses of nearby creatures. Choose one creature within 30 feet of the moth. That creature must attempt a @Check[fortitude|against:ultrasonic-scream] save. This uses a trained DC using the moth's Constitution modifier or an expert DC if the moth is specialized.</p><hr /><p><strong>Success</strong> The target treats all creatures as @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{Concealed} on its next attack before the start of your next turn.</p><p><strong>Failure</strong> The target treats all creatures as concealed until the start of your next turn.</p><p><strong>Critical Failure</strong> As failure, and the target is also @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
+    },
+    "rules": [
+      {
+        "attribute": "con",
+        "key": "SpecialStatistic",
+        "slug": "ultrasonic-scream"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ultrasonic-scream",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "ultrasonic-scream-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "ultrasonic-scream-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "ultrasonic-scream",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
+    "slug": "ultrasonic-scream",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Grand Bazaar",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.tvBQEtzLWUR1PlcL",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!WdTzlCO2i4loeYkQ"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Spiked Bunker",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your metal elemental surrounds itself with protective metal spikes, hunkering down defensively. It gains a +2 circumstance bonus to AC. Any creature that hits the metal elemental with a melee unarmed attack while it's in its Spiked Bunker takes @Damage[2d6[piercing]] damage (or @Damage[3d6[piercing]] damage if your metal elemental has a specialization). The metal elemental can't move, Strike, or take other actions that require it to use its body while in its Spiked Bunker, but it can retract the bunker as a single action, ending the effects.</p>"
+    },
+    "rules": [],
+    "slug": "spiked-bunker",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-animal-companions.sf-AC-effects.Item.CulrguIVl7HYwo54",
+      "name": "Effect: Spiked Bunker"
+    }
+  },
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "oyNZpuQ6EU3prvo2",
+  "folder": null,
+  "sort": 6400000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!oyNZpuQ6EU3prvo2"
+}

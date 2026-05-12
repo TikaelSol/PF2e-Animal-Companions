@@ -1,0 +1,102 @@
+{
+  "_id": "Sb8e7jIDTGghYvEk",
+  "name": "Wildfire Scorcher",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/summon-draconic-legion.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 800000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion gains resistance to fire equal to your level. Any creature that attempts to @UUID[Compendium.sf2e.actions.Item.PMbdMWc2QroouFGD]{Grapple} or Grab your companion, hits your companion with a melee unarmed attack, or hits your companion with a melee weapon Strike while adjacent to your companion takes @Damage[2d6[fire]] damage. Its Dexterity modifier increases by 1 and its proficiency rank increases to legendary for Reflex saves and to expert for unarmored defense. This specialization can only be selected by efreeti-touched companions.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "fire",
+        "value": "@actor.level"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      }
+    ],
+    "slug": "wildfire-scorcher",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "specialized-companion-benefit"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Legends",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "rarity": {
+      "value": "common"
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "reflex": {
+          "rank": 4
+        },
+        "unarmored": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Feats.Item.Sb8e7jIDTGghYvEk",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "sf2e",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "_key": "!items!Sb8e7jIDTGghYvEk"
+}

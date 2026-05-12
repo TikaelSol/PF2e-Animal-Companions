@@ -1,0 +1,63 @@
+{
+  "_id": "pMPtswKNokDNyYR2",
+  "name": "Defensive Curl",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 6500000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The pangolin coils into a ball to defend itself. It gains a +2 circumstance bonus to AC. Any creature that hits the pangolin with a melee unarmed attack while it's in its Defensive Curl take [[/r 2d6[persistent,bleed]]] damage. The pangolin can't move, use its unarmed attacks, or take other actions that require it to use its limbs while in its Defensive Curl, but it can unfurl as a single action, ending the effects of Defensive Curl.</p>"
+    },
+    "rules": [],
+    "slug": "defensive-curl",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Grand Bazaar",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-animal-companions.sf-AC-effects.Item.PaL4Sz1bVcjxCGU3",
+      "name": "Effect: Defensive Curl"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.tvBQEtzLWUR1PlcL",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pMPtswKNokDNyYR2"
+}

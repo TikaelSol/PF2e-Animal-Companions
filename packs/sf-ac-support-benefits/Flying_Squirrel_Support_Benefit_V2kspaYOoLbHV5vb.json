@@ -1,0 +1,61 @@
+{
+  "name": "Flying Squirrel Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your flying squirrel wraps your foes in its skin flaps, hampering their movement. Until the end of your next turn, if your Strike damages a creature in your giant flying squirrel's reach, that creature takes a –10-foot circumstance penalty to its Speeds for 1 round.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.HssfGVFlUB80xBn7]{Effect: Flying Squirrel Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "flying-squirrel-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "V2kspaYOoLbHV5vb",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 3100000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4fcae33e4adc1d86edb60b46f2c60733bb9adf0f"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.V2kspaYOoLbHV5vb",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!V2kspaYOoLbHV5vb"
+}

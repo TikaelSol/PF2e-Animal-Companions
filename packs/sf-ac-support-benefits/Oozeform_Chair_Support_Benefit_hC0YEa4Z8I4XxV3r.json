@@ -1,0 +1,59 @@
+{
+  "folder": null,
+  "name": "Oozeform Chair Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A pseudopod extends out from your chair, retrieving an unattended object within 15 feet. If you don't have a hand free to receive the object, the chair drops it in your space.</p>"
+    },
+    "rules": [],
+    "slug": "oozeform-chair-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Treasure Vault (Remastered)",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.hC0YEa4Z8I4XxV3r",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "hC0YEa4Z8I4XxV3r",
+  "sort": 3600000,
+  "_key": "!items!hC0YEa4Z8I4XxV3r"
+}

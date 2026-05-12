@@ -1,0 +1,90 @@
+{
+  "name": "Effect: Mole Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.vvuB2kEzRYSs4IpH]{Mole Support Benefit}</p><p>If you hit and damage a creature adjacent to your mole, that creature is Clumsy 1 until it moves from its current position.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "mole-support-benefit",
+        "toggleable": true
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "strike-damage"
+        ],
+        "text": "COMP.SpecificRule.Mole.EffectNote",
+        "title": "{item|name}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "mole-support-benefit"
+        ]
+      }
+    ],
+    "slug": "effect-mole-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "_id": "6X2STQsZYQ4pY6BA",
+  "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
+  "folder": null,
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "exportSource": null
+  },
+  "_key": "!items!6X2STQsZYQ4pY6BA"
+}

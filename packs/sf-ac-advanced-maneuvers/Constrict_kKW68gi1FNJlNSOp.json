@@ -1,0 +1,59 @@
+{
+  "_id": "kKW68gi1FNJlNSOp",
+  "name": "Constrict",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5800000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> The snake has a smaller creature @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p><hr /><p>The snake deals @Damage[12[bludgeoning]] damage to the grabbed creature; the creature must attempt a @Check[fortitude|basic] save against your class DC. If the snake is a specialized animal companion, increase this damage to @Damage[20[bludgeoning]|shortLabel].</p>"
+    },
+    "rules": [],
+    "slug": "constrict",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.kKW68gi1FNJlNSOp",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kKW68gi1FNJlNSOp"
+}

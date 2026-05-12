@@ -1,0 +1,59 @@
+{
+  "folder": null,
+  "name": "Seedpod Spring",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A seedpod within the chair bursts and uncoils, releasing a light clump of cottony material. Your rootball chair Leaps up to 30 feet vertically or horizontally and drifts down, sinking 5 feet for every 5 feet traveled horizontally and causing you to take no falling damage. The cottony material disperses when you land.</p>"
+    },
+    "rules": [],
+    "slug": "seedpod-spring",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Treasure Vault (Remastered)",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Xd4dnyHWexQRVyXn",
+  "sort": 4800000,
+  "_key": "!items!Xd4dnyHWexQRVyXn"
+}

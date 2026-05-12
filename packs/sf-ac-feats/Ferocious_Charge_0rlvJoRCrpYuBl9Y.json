@@ -1,0 +1,95 @@
+{
+  "name": "Ferocious Charge",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The companion Strides up to twice its Speed in a straight line and makes an antlers, head, or horn Strike. If it moved at least 20 feet, it deals an additional 1d8 damage. This damage increases to 2d8 if your companion is specialized. The companion can use Ferocious Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if it has the corresponding movement type.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "ferocious-charge",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "selector": [
+          "antler-damage",
+          "horn-damage",
+          "head-damage",
+          "headbutt-damage"
+        ],
+        "predicate": [
+          "ferocious-charge"
+        ]
+      },
+      {
+        "selectors": [
+          "strike-damage"
+        ],
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "dice-number",
+        "value": 2,
+        "predicate": [
+          "feature:specialized-animal-companion",
+          "dice:slug:ferocious-charge"
+        ]
+      }
+    ],
+    "slug": "ferocious-charge",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "0rlvJoRCrpYuBl9Y",
+  "img": "systems/sf2e/icons/unarmed-attacks/horn.webp",
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "TrmQI1up0VFx77Px": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.350",
+    "systemId": "sf2e",
+    "systemVersion": "7.6.4",
+    "exportSource": null
+  },
+  "_key": "!items!0rlvJoRCrpYuBl9Y"
+}

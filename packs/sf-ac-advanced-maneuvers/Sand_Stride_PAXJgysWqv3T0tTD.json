@@ -1,0 +1,61 @@
+{
+  "_id": "PAXJgysWqv3T0tTD",
+  "name": "Sand Stride",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 4000000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The camel Strides twice with a +5-foot circumstance bonus to Speed, ignoring difficult terrain caused by rubble, sand, and uneven ground made of earth and stone.</p>"
+    },
+    "rules": [],
+    "slug": "sand-stride",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "move"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder #149: Against the Scarlet Triad",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.PAXJgysWqv3T0tTD",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PAXJgysWqv3T0tTD"
+}

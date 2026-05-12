@@ -1,0 +1,192 @@
+{
+  "_id": "OJePkZgnguu5Z8cA",
+  "name": "Construct Companion",
+  "type": "class",
+  "img": "systems/sf2e/icons/default-icons/class.svg",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "unarmed-attack-damage",
+        "override": {
+          "dieSize": "d8"
+        }
+      },
+      {
+        "key": "Immunity",
+        "type": "bleed"
+      },
+      {
+        "key": "Immunity",
+        "type": "death-effects"
+      },
+      {
+        "key": "Immunity",
+        "type": "disease"
+      },
+      {
+        "key": "Immunity",
+        "type": "doomed"
+      },
+      {
+        "key": "Immunity",
+        "type": "drained"
+      },
+      {
+        "key": "Immunity",
+        "type": "fatigued"
+      },
+      {
+        "key": "Immunity",
+        "type": "healing"
+      },
+      {
+        "key": "Immunity",
+        "type": "void"
+      },
+      {
+        "key": "Immunity",
+        "type": "nonlethal-attacks"
+      },
+      {
+        "key": "Immunity",
+        "type": "paralyzed"
+      },
+      {
+        "key": "Immunity",
+        "type": "poison"
+      },
+      {
+        "key": "Immunity",
+        "type": "sickened"
+      },
+      {
+        "key": "Immunity",
+        "type": "unconscious"
+      }
+    ],
+    "slug": "construct-companion",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Guns & Gears",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [],
+      "selected": null
+    },
+    "items": {},
+    "hp": 6,
+    "trainedSkills": {
+      "value": [
+        "acrobatics",
+        "athletics"
+      ],
+      "additional": 0
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 1
+    },
+    "attacks": {
+      "simple": 0,
+      "martial": 0,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 0,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "ancestryFeatLevels": {
+      "value": []
+    },
+    "classFeatLevels": {
+      "value": []
+    },
+    "generalFeatLevels": {
+      "value": []
+    },
+    "skillFeatLevels": {
+      "value": []
+    },
+    "skillIncreaseLevels": {
+      "value": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.iOVXqZOCqrOskHcd",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 11300000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!OJePkZgnguu5Z8cA"
+}

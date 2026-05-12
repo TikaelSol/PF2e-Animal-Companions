@@ -1,0 +1,61 @@
+{
+  "name": "Mole Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your mole leaps into the ground and burrows beneath your foes, disturbing their footing. Until the end of your next turn, if you hit and damage a creature adjacent to your mole, that creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until it moves from its current position.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.6X2STQsZYQ4pY6BA]{Effect: Mole Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "mole-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "vvuB2kEzRYSs4IpH",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 4200000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "19d0a192df965aa9ad6bd505b88b847e46957ba6"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.vvuB2kEzRYSs4IpH",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vvuB2kEzRYSs4IpH"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Effect: Badger Rage",
+  "type": "effect",
+  "img": "systems/sf2e/icons/features/classes/rage.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9]{Badger Rage}</p><p>You deal 4 additional damage with your bite attack and 2 additional damage with your claw attack, and you take a –1 penalty to AC</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": -1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "jaws-damage",
+        "value": 4
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "claw-damage",
+        "value": 2
+      }
+    ],
+    "slug": "effect-badger-rage",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.Kgt1NyBesS3rohzb",
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "exportSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "_id": "XujpYKmCX33gqexa",
+  "sort": 3800000,
+  "_key": "!items!XujpYKmCX33gqexa"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "4ZCaD8Y817JjbrX2",
+  "name": "Field of Roots",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon extends its roots underground to entangle and possibly damage all foes nearby. All enemies within your eidolon's reach take damage of the same type and amount as your eidolon's most damaging Strike, depending on their Reflex saves. Any ongoing effects of the save last until the enemy either Escapes or leaves your eidolon's reach. After using Field of Roots, your eidolon is @Compendium[sf2e.conditions.Immobilized]{Immobilized} until it takes a single action, which has the manipulate trait, to detach from the ground; this also ends any remaining effects on enemies from Field of Roots.</p>\n<hr />\n<p><strong>Critical Success</strong> The enemy is unaffected.</p>\n<p><strong>Success</strong> The enemy takes no damage, but takes a -10 foot circumstance penalty to its Speeds.</p>\n<p><strong>Failure</strong> The enemy takes half damage, takes a -10-foot circumstance penalty to its Speeds, and, at the end of each of its turns, takes half damage again.</p>\n<p><strong>Critical Failure</strong> The enemy is immobilized, takes full damage, and, at the end of each of its turns, takes full damage again.</p>"
+    },
+    "rules": [],
+    "slug": "field-of-roots",
+    "traits": {
+      "value": [
+        "eidolon"
+      ],
+      "otherTags": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.4ZCaD8Y817JjbrX2",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "scyNeaFTkdY4uIfy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!4ZCaD8Y817JjbrX2"
+}

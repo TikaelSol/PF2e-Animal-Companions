@@ -1,0 +1,93 @@
+{
+  "_id": "JMHoCFb886K6dT1n",
+  "name": "Rhinoceros Charge",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 3300000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The rhino Strides and makes a horn Strike at the end of its Stride. As long as the rhino moved at least 20 feet, the horn Strike deals 1d8 additional piercing damage, or 2d8 additional damage if your rhino is nimble or savage.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "rhino-charge",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "damage",
+        "damageType": "piercing",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "predicate": [
+          "rhino-charge"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "upgrade",
+        "value": 2,
+        "property": "dice-number",
+        "predicate": [
+          "dice:slug:rhinoceros-charge",
+          {
+            "or": [
+              "feature:nimble-animal-companion",
+              "feature:savage-animal-companion"
+            ]
+          }
+        ],
+        "selectors": [
+          "horn-damage"
+        ]
+      }
+    ],
+    "slug": "rhinoceros-charge",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #177: Burning Tundra",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.JMHoCFb886K6dT1n",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JMHoCFb886K6dT1n"
+}

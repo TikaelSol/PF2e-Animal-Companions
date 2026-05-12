@@ -1,0 +1,130 @@
+{
+  "_id": "89eT819I4MYWndcu",
+  "name": "Nimble Animal Companion",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/commune-with-nature.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 300000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>To advance a mature animal companion to a nimble animal companion:</p><ul><li>Increase its Dexterity modifier by 2 and its Strength, Constitution, and Wisdom modifiers by 1.</li><li>Increase its proficiency ranks in Acrobatics to expert.</li><li>It deals 2 additional damage with its unarmed attacks. Its attacks become magical for the purpose of ignoring resistances.</li><li>It learns the advanced maneuver for its type.</li></ul>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.skills.acrobatics.rank"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "unarmed-damage",
+        "value": 2,
+        "slug": "companion-additional-damage"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "magical",
+        "predicate": [
+          "item:category:unarmed"
+        ],
+        "itemType": "weapon"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KrHyF5BSvYM6tFbB",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "nimble-animal-companion",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "L46TYcXAUKb2dhwY": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Feats.Item.89eT819I4MYWndcu",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "sf2e",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "_key": "!items!89eT819I4MYWndcu"
+}

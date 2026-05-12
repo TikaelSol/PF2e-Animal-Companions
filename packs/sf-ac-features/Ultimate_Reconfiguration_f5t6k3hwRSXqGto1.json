@@ -1,0 +1,73 @@
+{
+  "_id": "f5t6k3hwRSXqGto1",
+  "name": "Ultimate Reconfiguration",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/force-cage.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your construct eidolon becomes even more customizable. Choose an evolution feat of 16th level or lower. Your eidolon gains that feat. You can spend downtime to adjust it using Crafting, just like the feat from reconfigured evolution. Many summoners select Ever-Vigilant Senses for this ability.</p>"
+    },
+    "rules": [],
+    "slug": "ultimate-reconfiguration",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.f5t6k3hwRSXqGto1",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "1hgF3xYnaahj8Co4",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!f5t6k3hwRSXqGto1"
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "yfjeiYMC27YGgoGW",
+  "name": "Crocodile Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 8700000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your crocodile clamps its jaws on your foe, refusing to let go. Until the start of your next turn, if your Strike damages a creature in your crocodile's reach, your crocodile can latch onto the creature. While thus attached, the crocodile can move along with the target whenever the target moves until the end of your next turn. Your crocodile can latch onto only one creature in this way, and it must release the creature to make a jaws Strike. If the target is smaller than the crocodile, it takes a –10-foot circumstance penalty to its Speeds and can't Fly while the crocodile is latched on.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.FnJH9CPDngavuhwc]{Effect: Crocodile Support Benefit}</p>"
+    },
+    "rules": [],
+    "slug": "crocodile-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "WG8TaxGEQOxXBO1S": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.yfjeiYMC27YGgoGW",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yfjeiYMC27YGgoGW"
+}

@@ -1,0 +1,109 @@
+{
+  "_id": "SiFB8P1upTvdhLpx",
+  "name": "Steadfast Strider",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/ant-haul.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 900000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion ignores natural difficult terrain and greater difficult terrain from sediment or stone and can move across quicksand, mud, and similar surfaces as if they were solid. It gains a +2 status bonus to saving throws and DCs to prevent being Shoved or Tripped. Its Strength modifier increases by 1 and its proficiency for barding increases to expert. This specialization can only be selected by shaitan-touched companions.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw"
+        ],
+        "value": 2,
+        "type": "status",
+        "predicate": [
+          "action:shove",
+          "action:trip"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      }
+    ],
+    "slug": "steadfast-strider",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "specialized-companion-benefit"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Legends",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "rarity": {
+      "value": "common"
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "heavy-barding": {
+          "rank": 2
+        },
+        "light-barding": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.6.4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Feats.Item.SiFB8P1upTvdhLpx",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "sf2e",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "_key": "!items!SiFB8P1upTvdhLpx"
+}

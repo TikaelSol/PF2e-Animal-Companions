@@ -1,0 +1,139 @@
+{
+  "name": "Effect: Zombie Mount Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.N9fYaUuIgD6RQ7CY]{Zombie Mount Support Benefit}</p><p>Each time you Strike while riding the zombie mount and hit a creature in the zombie mount's reach, the creature takes additional damage from the zombie mount.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              {
+                "not": "parent:origin:item:tag:support-benefit:zombie-mount"
+              }
+            ],
+            "value": 1
+          },
+          {
+            "predicate": [
+              "parent:origin:item:tag:support-benefit:zombie-mount"
+            ],
+            "value": 2
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "Is companion nimble or savage.",
+        "flag": "zombieMountSupportBenefit"
+      },
+      {
+        "key": "RollOption",
+        "option": "zombie-mount-support-benefit",
+        "toggleable": true
+      },
+      {
+        "alwaysActive": true,
+        "disabledIf": [
+          {
+            "not": "zombie-mount-support-benefit"
+          }
+        ],
+        "disabledValue": false,
+        "key": "RollOption",
+        "label": "PF2E.SpecificRule.Prompt.DamageType",
+        "option": "zombie-mount-damage",
+        "suboptions": [
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          }
+        ],
+        "toggleable": true,
+        "value": "bludgeoning"
+      },
+      {
+        "hideIfDisabled": true,
+        "critical": false,
+        "damageType": "{item|flags.sf2e.rulesSelections.zombieMountDamage}",
+        "diceNumber": "{item|flags.sf2e.rulesSelections.zombieMountSupportBenefit}",
+        "dieSize": "d4",
+        "key": "DamageDice",
+        "predicate": [
+          "zombie-mount-support-benefit"
+        ],
+        "selector": "strike-damage"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.animalCompanion.zombieMountDamage",
+        "value": "{item|flags.sf2e.rulesSelections.zombieMountDamage}"
+      }
+    ],
+    "slug": "effect-zombie-mount-support-benefit",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #181: Zombie Feast",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "_id": "3sRHNnPMUY2f4SF3",
+  "img": "icons/magic/unholy/projectiles-blood-salvo-red.webp",
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "exportSource": null
+  },
+  "_key": "!items!3sRHNnPMUY2f4SF3"
+}

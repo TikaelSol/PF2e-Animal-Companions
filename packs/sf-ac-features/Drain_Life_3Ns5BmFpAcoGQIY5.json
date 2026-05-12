@@ -1,0 +1,63 @@
+{
+  "_id": "3Ns5BmFpAcoGQIY5",
+  "name": "Drain Life",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon attacks a living creature and drains some of the creature's life force to feed your shared link. Your eidolon Strikes a living enemy. If the Strike hits and deals damage, the target must attempt a Fortitude save, with the following effects. On a critical hit, the enemy uses the result one degree worse than it rolled.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect.</p>\n<p><strong>Success</strong> Your eidolon drains a small amount of life force. The enemy takes additional negative damage equal to half your level.</p>\n<p><strong>Failure</strong> Your eidolon drains enough life force to satisfy itself. The enemy takes additional negative damage equal to half your level and is @Compendium[sf2e.conditions.Drained]{Drained 1}. Your eidolon gains temporary Hit Points equal to the enemy's level, which last for 1 minute.</p>\n<p><strong>Critical Failure</strong> Your eidolon drains an incredible amount of life force and is thoroughly glutted with energy. As failure, but the enemy is @Compendium[sf2e.conditions.Drained]{Drained 2} and the temporary Hit Points are equal to double the enemy's level.</p>"
+    },
+    "rules": [],
+    "slug": "drain-life",
+    "traits": {
+      "value": [
+        "divine",
+        "eidolon",
+        "void"
+      ],
+      "otherTags": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "publication": {
+      "title": "Pathfinder Book of the Dead",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.3Ns5BmFpAcoGQIY5",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ecK9IrCUtW1bkFl6",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!3Ns5BmFpAcoGQIY5"
+}

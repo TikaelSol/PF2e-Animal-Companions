@@ -1,0 +1,82 @@
+{
+  "_id": "cpMkN79PdNci3nGp",
+  "name": "Distracting Spray",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 5200000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The capybara sprays an adjacent target with its scent glands. The target must attempt a @Check[fortitude|against:distracting-spray] save. Wiping off the musk takes an Interact action and ends the effect. This uses a trained DC using the capybara's Constitution modifier or an expert DC if the capybara is specialized.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round.</p><p><strong>Failure</strong> The creature is clumsy 1 for 1 minute.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 2} for 1 minute.</p>"
+    },
+    "rules": [
+      {
+        "attribute": "con",
+        "key": "SpecialStatistic",
+        "slug": "distracting-spray"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "distracting-spray",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "distracting-spray-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "distracting-spray-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "distracting-spray",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
+    "slug": "distracting-spray",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Grand Bazaar",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.tvBQEtzLWUR1PlcL",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cpMkN79PdNci3nGp"
+}

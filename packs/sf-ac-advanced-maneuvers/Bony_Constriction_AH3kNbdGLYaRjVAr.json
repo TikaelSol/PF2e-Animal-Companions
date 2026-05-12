@@ -1,0 +1,82 @@
+{
+  "_id": "AH3kNbdGLYaRjVAr",
+  "name": "Bony Constriction",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 2300000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> The constrictor has a creature @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p><hr /><p>The skeletal constrictor deals @Damage[12[piercing]] damage to the grabbed creature with its sharp ribs; the creature must attempt a @Check[fortitude|basic|against:bony-constriction] save. If the constrictor is a specialized companion, increase this damage to @Damage[20[piercing]|shortLabel]. This uses a trained DC using the constrictor's Constitution modifier, or an expert DC if the constrictor is specialized.</p>"
+    },
+    "rules": [
+      {
+        "attribute": "con",
+        "key": "SpecialStatistic",
+        "slug": "bony-constriction"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "bony-constriction",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "bony-constriction-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "bony-constriction-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "bony-constriction",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
+    "slug": "bony-constriction",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder 181: Zombie Feast",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.AH3kNbdGLYaRjVAr",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!AH3kNbdGLYaRjVAr"
+}

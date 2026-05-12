@@ -1,0 +1,81 @@
+{
+  "_id": "iYt3zEgqDnVhnHVf",
+  "name": "Blood Frenzy (CC)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> Your eidolon's last action dealt bleed damage to a living creature.</p>\n<hr />\n<p>Your eidolon flies into a frenzy. It gains the benefits of @Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon} and gains temporary HP equal to your level, but takes a -2 penalty to AC. It can't voluntarily end the frenzy or start another frenzy while in the frenzy.</p>\n<p>The frenzy lasts for 1 minute, after which your eidolon is @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} for 1 minute and can't start another frenzy for 1 minute.</p>"
+    },
+    "rules": [],
+    "slug": "blood-frenzy-cc",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eidolon",
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Bloodletting Claws"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.CvMCw6JqvgMPE5uk",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!iYt3zEgqDnVhnHVf"
+}

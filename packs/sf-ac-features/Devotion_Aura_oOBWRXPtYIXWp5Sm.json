@@ -1,0 +1,73 @@
+{
+  "_id": "oOBWRXPtYIXWp5Sm",
+  "name": "Devotion Aura",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/battlefield-persistence.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>After fighting at your side for so long, your eidolon has become as devoted to protecting you and your allies as it is to its original cause. It gains a 20-foot devotion aura, which has the abjuration, aura, and occult traits. Whenever one of your eidolon's allies within the aura takes damage, you can reduce the damage by your eidolon's Constitution modifier. You lose a number of Hit Points equal to half the amount by which the eidolon reduced the damage, rounded down. If the damage was lower than the Constitution modifier, base the damage you take on the actual amount of damage prevented.</p>"
+    },
+    "rules": [],
+    "slug": "devotion-aura",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.oOBWRXPtYIXWp5Sm",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "pggy7tMohSouyA2e",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!oOBWRXPtYIXWp5Sm"
+}

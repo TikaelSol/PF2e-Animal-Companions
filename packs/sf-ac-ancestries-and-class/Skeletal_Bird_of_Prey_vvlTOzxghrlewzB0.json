@@ -1,0 +1,194 @@
+{
+  "_id": "vvlTOzxghrlewzB0",
+  "name": "Skeletal Bird of Prey",
+  "type": "ancestry",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 6700000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is the skeleton of a bird of prey like a falcon or an owl.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d6 piercing</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> talon (agile, finesse), <strong>Damage</strong> 1d4 slashing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Int</strong> -5, <strong>Wis</strong> +0, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4</p><p><strong>Skill</strong> none (mindless)</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 10 feet, fly 50 feet</p><p><strong>Special</strong> mindless</p><p><strong>Support Benefit</strong> The bird flaps around and throws your foe off balance. Until the start of your next turn, when you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.ow3S5zhS51Nj8tsI]{Unnerving Screech}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -5,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 50
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.jaws",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "finesse"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/beak.webp"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Talon",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "agile",
+          "finesse"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/talon.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.bEkXle5FLNxnp3IE"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.ow3S5zhS51Nj8tsI"
+      },
+      {
+        "key": "Immunity",
+        "type": [
+          "death-effects",
+          "disease",
+          "poison"
+        ]
+      }
+    ],
+    "slug": "skeletal-bird-of-prey",
+    "_migration": {
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "undead"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder #181: Zombie Feast",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 4,
+    "size": "sm",
+    "hands": 2,
+    "reach": 5,
+    "speed": 10,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "OMyvL": {
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.CSBy1IgHTSkVAFMM",
+        "img": "systems/sf2e/icons/spells/mind-of-menace.webp",
+        "name": "Mindless Companion",
+        "level": 0
+      },
+      "KWlXB": {
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.3mUx8vXEQkiIuBcR",
+        "img": "systems/sf2e/icons/spells/agonizing-despair.webp",
+        "name": "Negative Healing",
+        "level": 1
+      }
+    },
+    "vision": "darkvision",
+    "voluntaryBoosts": {},
+    "voluntaryFlaws": {}
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Ancestries-and-Class.Item.vvlTOzxghrlewzB0",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vvlTOzxghrlewzB0"
+}

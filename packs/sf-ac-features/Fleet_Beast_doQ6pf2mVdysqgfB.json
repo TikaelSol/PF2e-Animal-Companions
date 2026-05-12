@@ -1,0 +1,121 @@
+{
+  "_id": "doQ6pf2mVdysqgfB",
+  "name": "Fleet Beast",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/glimpse-the-truth.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Str 14, Dex 18, Con 16, Int 8, Wis 12, Cha 10; +1 AC (+4 Dex cap)</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "upgrade",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -1,
+        "mode": "downgrade",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 0,
+        "mode": "upgrade",
+        "path": "system.abilities.cha.mod"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "item",
+        "value": 1,
+        "fromEquipment": false
+      },
+      {
+        "key": "DexterityModifierCap",
+        "value": 4
+      }
+    ],
+    "slug": "fleet-beast",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Item.oQ4aTLTv0qU7sRGG",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "zMHXTu66OpHxm5Db",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!doQ6pf2mVdysqgfB"
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Effect: Riding Tarantula Support Benefit (Penalty)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.NKgFIZQYkL3bb6xn]{Riding Tarantula Support Benefit}</p><p>The target must succeed at a @Check[type:flat|dc:5] whenever it takes a concentrate action or that action is lost.</p>"
+    },
+    "rules": [
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:concentrate"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "COMP.SpecificRule.RidingTarantula.ConcentrateNote"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:concentrate"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "COMP.SpecificRule.RidingTarantula.ConcentrateNote"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:concentrate"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "COMP.SpecificRule.RidingTarantula.ConcentrateNote"
+          }
+        ]
+      }
+    ],
+    "slug": "effect-riding-tarantula-support-benefit-penalty",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "_id": "crYJGMzeiXh8xve3",
+  "img": "icons/creatures/invertebrates/spider-large-white-green.webp",
+  "folder": null,
+  "sort": 4400000,
+  "ownership": {
+    "default": 0,
+    "Ru2wEyHuelWGF0uy": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "exportSource": null
+  },
+  "_key": "!items!crYJGMzeiXh8xve3"
+}

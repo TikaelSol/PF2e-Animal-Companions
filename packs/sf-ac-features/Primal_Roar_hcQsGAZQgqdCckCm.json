@@ -1,0 +1,62 @@
+{
+  "_id": "hcQsGAZQgqdCckCm",
+  "name": "Primal Roar",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon unleashes a primal roar or other such terrifying noise that fits your eidolon's form. Your eidolon attempts Intimidation checks to @Compendium[sf2e.actions.Demoralize]{Demoralize} each enemy that can hear the roar; these Demoralize attempts don't take any penalty for not sharing a language.</p>"
+    },
+    "rules": [],
+    "slug": "primal-roar",
+    "traits": {
+      "value": [
+        "auditory",
+        "eidolon"
+      ],
+      "otherTags": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.hcQsGAZQgqdCckCm",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "zMHXTu66OpHxm5Db",
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!hcQsGAZQgqdCckCm"
+}

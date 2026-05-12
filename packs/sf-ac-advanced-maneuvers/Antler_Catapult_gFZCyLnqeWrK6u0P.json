@@ -1,0 +1,61 @@
+{
+  "name": "Antler Catapult",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The elk Steps once and then makes an antlers Strike. If it moved and hits, the elk can fling its target into the space it just left, which is forced movement.</p>"
+    },
+    "rules": [],
+    "slug": "antler-catapult",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder: Howl of the Wild",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "_id": "gFZCyLnqeWrK6u0P",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "vawHfUxddL5ZhUl0": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9350bbdfa95a17642f16a42f6fe0ea30dffadc17"
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!gFZCyLnqeWrK6u0P"
+}

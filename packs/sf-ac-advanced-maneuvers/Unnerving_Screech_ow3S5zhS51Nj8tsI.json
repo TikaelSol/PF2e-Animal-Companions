@@ -1,0 +1,61 @@
+{
+  "_id": "ow3S5zhS51Nj8tsI",
+  "name": "Unnerving Screech",
+  "type": "action",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 6300000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your skeletal bird of prey makes an earsplitting, unnatural screech, deafening and startling an enemy within 30 feet. The target must attempt a @Check[fortitude] save. The target is then temporarily immune for 1 hour. The frightened condition is a mental, emotion, and fear effect, but the creature can still be @UUID[Compendium.sf2e.conditions.Item.9PR9y0bi4JPKnHPR]{Deafened} if it's immune to these.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target is deafened for 1 round and @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p><strong>Failure</strong> The target is deafened for 1 minute and frightened 1.</p><p><strong>Critical Failure</strong> The target is deafened for 10 minutes and @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>"
+    },
+    "rules": [],
+    "slug": "unnerving-screech",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder #181: Zombie Feast",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.ow3S5zhS51Nj8tsI",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ow3S5zhS51Nj8tsI"
+}

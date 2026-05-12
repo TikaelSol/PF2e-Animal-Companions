@@ -1,0 +1,209 @@
+{
+  "_id": "tT2lEqAPTM2u1hNV",
+  "name": "Scorpion",
+  "type": "ancestry",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "Rn81F1uZdgYGoXoS",
+  "sort": 6200000,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is one of the various species of giant scorpion.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> stinger, <strong>Damage</strong> 1d6 piercing plus poison (see Special)</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> pincer (agile), <strong>Damage</strong> 1d6 slashing</p><p><strong>Str</strong> +3, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 6</p><p><strong>Skill</strong> Stealth</p><p><strong>Senses</strong> darkvision</p><p><strong>Speed</strong> 30 feet</p><p><strong>Special</strong> The scorpion's stinger attack deals an additional 1d4 poison damage or 2d4 poison damage if the scorpion is a specialized companion.</p><p><strong>Support Benefit</strong> Your scorpion drips poison from its stinger when you create an opening. Until the start of your next turn, your Strikes that damage a creature in your scorpion's reach also deal 1d6 persistent poison damage. If your scorpion is nimble or savage, the persistent poison damage increases to 2d6.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.7H8wqKtsAaSgyLyp]{Grab and Sting}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.stealth.rank"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "Stinger",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/stinger.webp",
+        "slug": "stinger"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "Pincer",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "agile"
+        ],
+        "img": "systems/sf2e/icons/unarmed-attacks/pincer.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "stinger-damage",
+        "diceNumber": 1,
+        "dieSize": "d4",
+        "damageType": "poison",
+        "tags": [
+          "scorpion-poison"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "stinger-damage"
+        ],
+        "predicate": [
+          "feature:specialized-animal-companion",
+          "dice:tag:scorpion-poison"
+        ],
+        "value": 2,
+        "mode": "upgrade",
+        "property": "dice-number"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.xtXdDC5KrUqh7eCu"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.sf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.7H8wqKtsAaSgyLyp"
+      }
+    ],
+    "slug": "scorpion",
+    "_migration": {
+      "version": 0.952,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "animal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 6,
+    "size": "sm",
+    "hands": 2,
+    "reach": 5,
+    "speed": 30,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision",
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "rDxs69lNqIFN75Bl": 3
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.7.1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Ancestries-and-Class.Item.tT2lEqAPTM2u1hNV",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "sf2e",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "_key": "!items!tT2lEqAPTM2u1hNV"
+}
