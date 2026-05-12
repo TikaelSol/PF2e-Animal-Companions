@@ -313,7 +313,18 @@
         "AC-Construct-Breakthroughs",
         "AC-Construct-Companions",
         "AC-Support",
-        "AC-Followers"
+        "AC-Followers",
+        "sf-AC-Ancestries-and-Class",
+        "sf-AC-Feats",
+        "sf-AC-Advanced-Maneuvers",
+        "sf-AC-effects",
+        "sf-AC-Features",
+        "sf-AC-Evolution-Feats",
+        "sf-AC-Eidolons",
+        "sf-AC-Construct-Breakthroughs",
+        "sf-AC-Construct-Companions",
+        "sf-AC-Support",
+        "sf-AC-Followers"
       ]
     }
   ],
@@ -338,6 +349,14 @@
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
           "minimum": "7.7"
+        }
+      },
+      {
+        "id": "sf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "0.0.8"
         }
       }
     ]
