@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>The arboreal sapling Interacts to pick up a rock within reach or retrieve a stowed rock, then throws it with a ranged rock Strike that deals a base of 1d6 bludgeoning damage with a range increment of 30 feet. The damage is 2d6 for a mature arboreal sapling and 3d6 for a specialized one.</p>",
+      "value": "<p>The arboreal sapling Interacts to pick up a rock within reach or retrieve a stowed rock, then throws it with a ranged rock Strike that deals 2d6 bludgeoning (3d6 for a specialized companion) damage with a range increment of 30 feet.</p>",
       "gm": ""
     },
     "publication": {
@@ -23,15 +23,10 @@
     },
     "rules": [
       {
-        "key": "RollOption",
-        "option": "throw-rock",
-        "toggleable": true
-      },
-      {
         "damage": {
           "base": {
             "damageType": "bludgeoning",
-            "dice": 1,
+            "dice": 2,
             "die": "d6"
           }
         },
@@ -40,22 +35,7 @@
         "range": {
           "increment": 30
         },
-        "predicate": [
-          "throw-rock"
-        ],
         "img": "icons/commodities/stone/rock-chunk-grey.webp"
-      },
-      {
-        "key": "DamageAlteration",
-        "selectors": [
-          "{item|id}-damage"
-        ],
-        "mode": "upgrade",
-        "property": "dice-number",
-        "value": 2,
-        "predicate": [
-          "feature:mature-animal-companion"
-        ]
       },
       {
         "key": "DamageAlteration",
@@ -85,7 +65,7 @@
     "deathNote": false
   },
   "_id": "tLUBgSE9Mm6ic6sY",
-  "img": "systems/sf2e/icons/actions/Reaction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
   "sort": 0,
   "ownership": {
@@ -96,9 +76,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "14.363",
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
+    "systemVersion": "1.1.2",
     "exportSource": null
   },
   "_key": "!items!tLUBgSE9Mm6ic6sY"
