@@ -1,0 +1,247 @@
+{
+  "name": "Spellshaped Blast",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The adept gathers additional energy before making an energy blast Strike, granting the Strike two of the following benefits of their choice: the Strike gains the fatal d8 trait, the Strike's range increases to 120 feet, or the Strike deals splash damage equal to its damage dice.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Adventure Path #223: Hell’s Destiny",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "spellshaped-blast",
+        "toggleable": true
+      },
+      {
+        "disabledIf": [
+          {
+            "not": "spellshaped-blast"
+          }
+        ],
+        "alwaysActive": true,
+        "key": "RollOption",
+        "option": "spellshaped-first",
+        "predicate": [
+          "spellshaped-blast"
+        ],
+        "suboptions": [
+          {
+            "label": "PF2E.TraitFatalD8",
+            "value": "fatal-d8"
+          },
+          {
+            "label": "PF2E.TraitSplash",
+            "value": "splash"
+          },
+          {
+            "label": "Range Increment 120 ft",
+            "value": "120"
+          }
+        ],
+        "toggleable": true,
+        "value": true,
+        "selection": "120"
+      },
+      {
+        "disabledIf": [
+          {
+            "not": "spellshaped-blast"
+          }
+        ],
+        "alwaysActive": true,
+        "key": "RollOption",
+        "option": "spellshaped-second",
+        "predicate": [
+          "spellshaped-blast"
+        ],
+        "suboptions": [
+          {
+            "label": "PF2E.TraitFatalD8",
+            "predicate": [
+              {
+                "not": "spellshaped-first:fatal-d8"
+              }
+            ],
+            "value": "fatal-d8"
+          },
+          {
+            "label": "PF2E.TraitSplash",
+            "predicate": [
+              {
+                "not": "spellshaped-first:splash"
+              }
+            ],
+            "value": "splash"
+          },
+          {
+            "label": "Range Increment 120 ft",
+            "predicate": [
+              {
+                "not": "spellshaped-first:120"
+              }
+            ],
+            "value": "120"
+          }
+        ],
+        "toggleable": true,
+        "value": true,
+        "selection": "splash"
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              "spellshaped-first:120",
+              "spellshaped-second:120"
+            ]
+          }
+        ],
+        "property": "range-increment",
+        "value": 120,
+        "definition": [
+          "item:slug:energy-blast"
+        ]
+      },
+      {
+        "definition": [
+          "item:slug:energy-blast"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "spellshaped-first:splash",
+              "spellshaped-second:splash"
+            ]
+          }
+        ],
+        "property": "weapon-traits",
+        "value": "splash"
+      },
+      {
+        "definition": [
+          "item:slug:energy-blast"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "spellshaped-first:fatal-d8",
+              "spellshaped-second:fatal-d8"
+            ]
+          }
+        ],
+        "property": "weapon-traits",
+        "value": "fatal-d8"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "energy-blast-damage"
+        ],
+        "slug": "energy-blast-splash-damage",
+        "value": 1,
+        "damageCategory": "splash",
+        "predicate": [
+          {
+            "nor": [
+              "feature:experienced-advancement",
+              "feature:exceptional-advancement"
+            ]
+          },
+          {
+            "or": [
+              "spellshaped-first:splash",
+              "spellshaped-second:splash"
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "energy-blast-damage"
+        ],
+        "slug": "energy-blast-experienced-splash",
+        "value": 2,
+        "damageCategory": "splash",
+        "predicate": [
+          "feature:experienced-advancement",
+          {
+            "or": [
+              "spellshaped-first:splash",
+              "spellshaped-second:splash"
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "energy-blast-damage"
+        ],
+        "slug": "energy-blast-exceptional-splash",
+        "value": 3,
+        "damageCategory": "splash",
+        "predicate": [
+          "feature:exceptional-advancement",
+          {
+            "or": [
+              "spellshaped-first:splash",
+              "spellshaped-second:splash"
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "_id": "78PMICTrQT66y7vk",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": "UR2WlgGkhK4o7O1f",
+  "ownership": {
+    "default": 0,
+    "XUrhfvb05TiIl7Al": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "_key": "!items!78PMICTrQT66y7vk"
+}

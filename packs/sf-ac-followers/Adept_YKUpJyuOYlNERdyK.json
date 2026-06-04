@@ -1,0 +1,863 @@
+{
+  "name": "Adept",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>This novice spellcaster eagerly explores the world's secrets while learning to hurl destructive magic.</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> dagger (agile, finesse, thrown 10 feet, versatile S), Damage 1d4 piercing</p><p><strong>Ranged</strong> <span class=\"pf2-icon\">1</span> energy blast (magical, range 60 feet), Damage 1d6 (see special)</p><p><strong>Str</strong> +0, <strong>Dex</strong> +1, <strong>Con</strong> +1, <strong>Int</strong> +3, <strong>Wis</strong> +2, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 4</p><p><strong>Kit Armor</strong> item bonus +1, <strong>Dex</strong> cap +4</p><p><strong>Skill</strong>s Arcana; either Nature, Occultism, or Religion; any two Lore skills</p><p><strong>Follower Ability</strong> The adept learns @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.RBDv51TNScVEdOVs]{Spellshaped Blast}.</p><p><strong>Special</strong> An adept can use their Intelligence modifier in place of their Dexterity modifier when making energy blast Strikes.</p><p>An adept selects two of the following novice damage types: acid, cold, electricity, fire, mental, poison, or void. When using several abilities—their energy blast, Energy Deflection, Energy Wave, and dagger Strikes' additional damage from their veteran advancement—the adept chooses one of their selected damage types for the ability to deal, and the Strike or ability gains the trait corresponding to that damage type. An adept can spend 1 week experimenting with their magic to change one or both of their damage type choices.</p><p><strong>Experienced Advancement</strong> When the adept becomes an experienced follower:</p><ul><li><p>Increase their Intelligence modifier to +4 and their Dexterity modifier to +2.</p></li><li><p>Increase their proficiency rank in Reflex and Will saves to expert.</p></li><li><p>Increase their dagger Strike damage from 1d4 to 2d4. Increase their energy blast Strike damage from 1d6 to 2d6.</p></li><li><p>An adept adds Investigate to the list of exploration activities they can perform without spending your exploration activity.</p></li></ul><p><strong>Veteran Advancement</strong> When the adept becomes a veteran follower:</p><ul><li><p>Increase their Dexterity modifier to +3, their Constitution modifier to +2, and their Wisdom modifier to +3.</p></li><li><p>Increase their item bonus to AC to +2.</p></li><li><p>Increase their proficiency rank in Perception to expert.</p></li><li><p>Increase their proficiency rank in Arcana and their Lore skills to expert. Increase their proficiency ranks in Nature, Occultism, and Religion to trained, and if they were already trained in one of those skills, increase their proficiency in that skill to expert.</p></li><li><p>Increase their proficiency rank in their dagger and energy blast Strikes to expert, and give them a +1 item bonus to attack rolls with their Strikes. Their energy blast Strikes deal 2 additional damage. Their dagger Strikes become magical for the purposes of ignoring resistances, and their dagger Strikes deal 3 additional damage, chosen from the damage types the adept can deal with their energy blast.</p></li><li><p>The adept selects one additional damage type that their energy blast can deal. They can select one of the novice damage types, or they can choose one of the veteran damage types: force, sonic, spirit, or vitality. The adept can know only one veteran damage type at a time.</p></li><li><p>The adept learns @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.elnp42UrFOHSlD3z]{Energy Deflection}.</p></li></ul><p><strong>Exceptional Advancement</strong> When the adept becomes an exceptional follower:</p><ul><li><p>Increase their Strength modifier to +1, their Constitution modifier to +3, their Intelligence modifier to +5, and their Wisdom modifier to +4.</p></li><li><p>Increase their item bonus to AC to +3.</p></li><li><p>Increase their proficiency rank in Reflex and Will saves to master. Increase their proficiency in Fortitude saves to expert. Give them a +1 item bonus to all saving throws.</p></li><li><p>Increase their proficiency rank in Perception to expert.</p></li><li><p>Increase their proficiency rank in Arcana and their Lore skills to master.</p></li><li><p>Increase their item bonus to attack rolls with their dagger and energy blast Strikes to +2. Increase their dagger Strike damage dice from 2d4 to 3d4, and increase the additional energy damage dealt by their dagger Strikes from 3 to 5. Increase the adept's energy blast Strike damage dice from 2d6 to 3d6, and increase the additional damage deal by their energy blast Strikes from 2 to 4.</p></li><li><p>The adept learns @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.zCyMOvbb234frhRa]{Energy Wave}.</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Adventure Path #223: Hell’s Destiny",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.mefI4QYwzSIQiwGj"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.attributes.ancestryhp",
+        "value": 4,
+        "mode": "override"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.abilities",
+        "value": {
+          "str": {
+            "mod": 0,
+            "base": 0,
+            "label": "PF2E.AbilityStr",
+            "shortLabel": "PF2E.AbilityId.str"
+          },
+          "dex": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityDex",
+            "shortLabel": "PF2E.AbilityId.dex"
+          },
+          "con": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityCon",
+            "shortLabel": "PF2E.AbilityId.con"
+          },
+          "int": {
+            "mod": 3,
+            "base": 0,
+            "label": "PF2E.AbilityInt",
+            "shortLabel": "PF2E.AbilityId.int"
+          },
+          "wis": {
+            "mod": 2,
+            "base": 0,
+            "label": "PF2E.AbilityWis",
+            "shortLabel": "PF2E.AbilityId.wis"
+          },
+          "cha": {
+            "mod": 0,
+            "base": 0,
+            "label": "PF2E.AbilityCha",
+            "shortLabel": "PF2E.AbilityId.cha"
+          }
+        }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.u9va30kxnQrEhOm6",
+        "flag": "kitArmor",
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "ac-bonus",
+            "value": 1
+          },
+          {
+            "mode": "override",
+            "property": "dex-cap",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "category": "simple",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.dagger",
+        "traits": [
+          "agile",
+          "finesse",
+          "thrown-10",
+          "versatile-s"
+        ],
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "img": "icons/weapons/daggers/dagger-straight-blue.webp"
+      },
+      {
+        "key": "Strike",
+        "label": "Energy Blast",
+        "range": {
+          "increment": 60
+        },
+        "traits": [
+          "magical"
+        ],
+        "damage": {
+          "base": {
+            "damageType": "untyped",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "slug": "energy-blast",
+        "img": "icons/magic/fire/flame-burning-hand-orange.webp"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "energy-blast-attack-roll"
+        ],
+        "value": 0,
+        "type": "ability",
+        "ability": "int",
+        "predicate": [
+          "energy-blast:intelligence"
+        ]
+      },
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "label": "Daggers and Energy Blast",
+        "value": 1
+      },
+      {
+        "alwaysActive": true,
+        "key": "RollOption",
+        "label": "Energy Blast Atrribute Bonus",
+        "option": "energy-blast",
+        "suboptions": [
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "Dexterity"
+          },
+          {
+            "label": "PF2E.AbilityInt",
+            "value": "intelligence"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "value": "mental"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "value": "poison"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "value": "void"
+          }
+        ],
+        "key": "ChoiceSet",
+        "rollOption": "energy-damage-first",
+        "prompt": "PF2E.SpecificRule.Prompt.Trait"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitAcid",
+            "predicate": [
+              {
+                "not": "energy-damage-first:acid"
+              }
+            ],
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "predicate": [
+              {
+                "not": "energy-damage-first:cold"
+              }
+            ],
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "predicate": [
+              {
+                "not": "energy-damage-first:electricity"
+              }
+            ],
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "predicate": [
+              {
+                "not": "energy-damage-first:fire"
+              }
+            ],
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "predicate": [
+              {
+                "not": "energy-damage-first:mental"
+              }
+            ],
+            "value": "mental"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "predicate": [
+              {
+                "not": "energy-damage-first:poison"
+              }
+            ],
+            "value": "poison"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "predicate": [
+              {
+                "not": "energy-damage-first:void"
+              }
+            ],
+            "value": "void"
+          }
+        ],
+        "key": "ChoiceSet",
+        "rollOption": "energy-damage-second",
+        "prompt": "PF2E.SpecificRule.Prompt.Trait"
+      },
+      {
+        "alwaysActive": true,
+        "key": "RollOption",
+        "label": "Energy Blast Damage Type",
+        "option": "energy-blast-damage",
+        "suboptions": [
+          {
+            "label": "PF2E.TraitAcid",
+            "predicate": [
+              {
+                "or": [
+                  "energy-damage-first:acid",
+                  "energy-damage-second:acid",
+                  "energy-damage-veteran:acid"
+                ]
+              }
+            ],
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "predicate": [
+              {
+                "or": [
+                  "energy-damage-first:cold",
+                  "energy-damage-second:cold",
+                  "energy-damage-veteran:cold"
+                ]
+              }
+            ],
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "predicate": [
+              {
+                "or": [
+                  "energy-damage-first:electricity",
+                  "energy-damage-second:electricity",
+                  "energy-damage-veteran:electricity"
+                ]
+              }
+            ],
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "predicate": [
+              {
+                "or": [
+                  "energy-damage-first:fire",
+                  "energy-damage-second:fire",
+                  "energy-damage-veteran:fire"
+                ]
+              }
+            ],
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitForce",
+            "predicate": [
+              "energy-damage-veteran:force"
+            ],
+            "value": "force"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "predicate": [
+              {
+                "or": [
+                  "energy-damage-first:mental",
+                  "energy-damage-second:mental",
+                  "energy-damage-veteran:mental"
+                ]
+              }
+            ],
+            "value": "mental"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "predicate": [
+              {
+                "or": [
+                  "energy-damage-first:poison",
+                  "energy-damage-second:poison",
+                  "energy-damage-veteran:poison"
+                ]
+              }
+            ],
+            "value": "poison"
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "predicate": [
+              "energy-damage-veteran:sonic"
+            ],
+            "value": "sonic"
+          },
+          {
+            "label": "PF2E.TraitSpirit",
+            "predicate": [
+              "energy-damage-veteran:spirit"
+            ],
+            "value": "spirit"
+          },
+          {
+            "label": "PF2E.TraitVitality",
+            "predicate": [
+              "energy-damage-veteran:vitality"
+            ],
+            "value": "vitality"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "predicate": [
+              {
+                "or": [
+                  "energy-damage-first:void",
+                  "energy-damage-second:void",
+                  "energy-damage-veteran:void"
+                ]
+              }
+            ],
+            "value": "void"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "{item|flags.system.rulesSelections.energyBlastDamage}",
+        "selectors": [
+          "energy-blast-damage"
+        ]
+      },
+      {
+        "definition": [
+          "item:slug:energy-blast"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "{item|flags.system.rulesSelections.energyBlastDamage}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.abilities",
+        "value": {
+          "str": {
+            "mod": 0,
+            "base": 0,
+            "label": "PF2E.AbilityStr",
+            "shortLabel": "PF2E.AbilityId.str"
+          },
+          "dex": {
+            "mod": 2,
+            "base": 0,
+            "label": "PF2E.AbilityDex",
+            "shortLabel": "PF2E.AbilityId.dex"
+          },
+          "con": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityCon",
+            "shortLabel": "PF2E.AbilityId.con"
+          },
+          "int": {
+            "mod": 4,
+            "base": 0,
+            "label": "PF2E.AbilityInt",
+            "shortLabel": "PF2E.AbilityId.int"
+          },
+          "wis": {
+            "mod": 2,
+            "base": 0,
+            "label": "PF2E.AbilityWis",
+            "shortLabel": "PF2E.AbilityId.wis"
+          },
+          "cha": {
+            "mod": 0,
+            "base": 0,
+            "label": "PF2E.AbilityCha",
+            "shortLabel": "PF2E.AbilityId.cha"
+          }
+        },
+        "predicate": [
+          "feature:experienced-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.reflex.rank",
+        "value": 2,
+        "predicate": [
+          "feature:experienced-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.will.rank",
+        "value": 2,
+        "predicate": [
+          "feature:experienced-advancement"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "predicate": [
+          "feature:experienced-advancement",
+          "item:id:{item|id}"
+        ],
+        "mode": "upgrade",
+        "property": "damage-dice-number",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.abilities",
+        "value": {
+          "str": {
+            "mod": 0,
+            "base": 0,
+            "label": "PF2E.AbilityStr",
+            "shortLabel": "PF2E.AbilityId.str"
+          },
+          "dex": {
+            "mod": 3,
+            "base": 0,
+            "label": "PF2E.AbilityDex",
+            "shortLabel": "PF2E.AbilityId.dex"
+          },
+          "con": {
+            "mod": 2,
+            "base": 0,
+            "label": "PF2E.AbilityCon",
+            "shortLabel": "PF2E.AbilityId.con"
+          },
+          "int": {
+            "mod": 4,
+            "base": 0,
+            "label": "PF2E.AbilityInt",
+            "shortLabel": "PF2E.AbilityId.int"
+          },
+          "wis": {
+            "mod": 3,
+            "base": 0,
+            "label": "PF2E.AbilityWis",
+            "shortLabel": "PF2E.AbilityId.wis"
+          },
+          "cha": {
+            "mod": 0,
+            "base": 0,
+            "label": "PF2E.AbilityCha",
+            "shortLabel": "PF2E.AbilityId.cha"
+          }
+        },
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "property": "ac-bonus",
+        "itemId": "{item|flags.pf2e.itemGrants.kitArmor.id}",
+        "value": 4,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.perception.rank",
+        "mode": "upgrade",
+        "value": 2,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "label": "PF2E.Weapon.Base.falchion",
+        "value": 2,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "label": "COMP.SpecificRule.Follower.VeteranAdvancement.Label",
+        "selector": "{item|id}-attack",
+        "value": 1,
+        "type": "item",
+        "slug": "veteran-advancement-attack",
+        "hideIfDisabled": true,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "dagger-damage",
+        "value": 3,
+        "label": "COMP.SpecificRule.Follower.VeteranAdvancement.Label",
+        "slug": "veteran-advancement-dagger-damage",
+        "predicate": [
+          "feature:veteran-advancement"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "energy-blast-damage",
+        "value": 2,
+        "label": "COMP.SpecificRule.Follower.VeteranAdvancement.Label",
+        "slug": "veteran-energy-blast-advancement-damage",
+        "predicate": [
+          "feature:veteran-advancement"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.abilities",
+        "value": {
+          "str": {
+            "mod": 1,
+            "base": 0,
+            "label": "PF2E.AbilityStr",
+            "shortLabel": "PF2E.AbilityId.str"
+          },
+          "dex": {
+            "mod": 3,
+            "base": 0,
+            "label": "PF2E.AbilityDex",
+            "shortLabel": "PF2E.AbilityId.dex"
+          },
+          "con": {
+            "mod": 3,
+            "base": 0,
+            "label": "PF2E.AbilityCon",
+            "shortLabel": "PF2E.AbilityId.con"
+          },
+          "int": {
+            "mod": 5,
+            "base": 0,
+            "label": "PF2E.AbilityInt",
+            "shortLabel": "PF2E.AbilityId.int"
+          },
+          "wis": {
+            "mod": 4,
+            "base": 0,
+            "label": "PF2E.AbilityWis",
+            "shortLabel": "PF2E.AbilityId.wis"
+          },
+          "cha": {
+            "mod": 0,
+            "base": 0,
+            "label": "PF2E.AbilityCha",
+            "shortLabel": "PF2E.AbilityId.cha"
+          }
+        },
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "property": "ac-bonus",
+        "itemId": "{item|flags.pf2e.itemGrants.kitArmor.id}",
+        "value": 5,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.reflex.rank",
+        "value": 3,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.will.rank",
+        "value": 3,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.fortitude.rank",
+        "value": 2,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 1,
+        "type": "item",
+        "predicate": [
+          "feature:exceptional-advancement"
+        ],
+        "label": "COMP.SpecificRule.Follower.ExceptionalAdvancement.Label",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.skills.arcana.rank",
+        "mode": "upgrade",
+        "value": 2,
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.skills.arcana.rank",
+        "mode": "upgrade",
+        "value": 3,
+        "predicate": [
+          "feature:exceptional-advancement"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "value": 2,
+        "selector": "{item|id}-attack",
+        "slug": "veteran-advancement-attack",
+        "predicate": [
+          "feature:exceptional-advancement"
+        ],
+        "relabel": "COMP.SpecificRule.Follower.ExceptionalAdvancement.Label"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "predicate": [
+          "feature:exceptional-advancement",
+          "item:id:{item|id}"
+        ],
+        "mode": "upgrade",
+        "property": "damage-dice-number",
+        "value": 3
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "value": 5,
+        "selector": "{item|id}-damage",
+        "slug": "veteran-advancement-dagger-damage",
+        "predicate": [
+          "feature:exceptional-advancement"
+        ],
+        "relabel": "COMP.SpecificRule.Follower.ExceptionalAdvancement.Label"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "value": 5,
+        "selector": "{item|id}-damage",
+        "slug": "veteran-elemental-blast-advancement-damage",
+        "predicate": [
+          "feature:exceptional-advancement"
+        ],
+        "relabel": "COMP.SpecificRule.Follower.ExceptionalAdvancement.Label"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.RBDv51TNScVEdOVs"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.elnp42UrFOHSlD3z",
+        "predicate": [
+          "feature:veteran-advancement"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:exceptional-advancement"
+        ],
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.zCyMOvbb234frhRa"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "items": {},
+    "keyAbility": {
+      "value": [],
+      "selected": null
+    },
+    "hp": 4,
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 1
+    },
+    "attacks": {
+      "simple": 0,
+      "martial": 0,
+      "advanced": 0,
+      "unarmed": 0,
+      "other": {
+        "rank": 0,
+        "name": ""
+      }
+    },
+    "defenses": {
+      "unarmored": 0,
+      "light": 0,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "trainedSkills": {
+      "value": [
+        "arcana"
+      ],
+      "additional": 0
+    },
+    "ancestryFeatLevels": {
+      "value": []
+    },
+    "classFeatLevels": {
+      "value": []
+    },
+    "generalFeatLevels": {
+      "value": []
+    },
+    "skillFeatLevels": {
+      "value": []
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "_id": "YKUpJyuOYlNERdyK",
+  "img": "systems/sf2e/icons/default-icons/class.svg",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "wJKNupBfIJ8VwIUI": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "_key": "!items!YKUpJyuOYlNERdyK"
+}

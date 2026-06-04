@@ -49,12 +49,12 @@
     "actions": {
       "value": 2
     },
-    "category": null,
+    "category": "offensive",
     "deathNote": false
   },
   "_id": "slUPBFWswxaqHe7T",
   "img": "systems/sf2e/icons/actions/TwoActions.webp",
-  "sort": 0,
+  "sort": 700000,
   "ownership": {
     "default": 0,
     "AhhBYTk3xYRMuz4T": 3
@@ -64,9 +64,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "14.363",
     "systemId": "sf2e",
-    "systemVersion": "7.7.1"
+    "systemVersion": "1.2.0"
   },
   "_key": "!items!slUPBFWswxaqHe7T"
 }

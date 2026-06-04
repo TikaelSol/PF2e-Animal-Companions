@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>This incautious fighter can become a terrifying harbinger of destruction.</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> falchion (forceful, sweep), <strong>Damage</strong> 1d10 slashing</p><p><strong>Str</strong> +3, <strong>Dex</strong> +0, <strong>Con</strong> +2, <strong>Int</strong> +0, <strong>Wis</strong> +0, <strong>Cha</strong> +2</p><p><strong>Hit Points</strong> 8</p><p><strong>Kit Armor</strong> item bonus +3, Dex cap +2</p><p><strong>Skills</strong> Athletics, Intimidation, Warfare Lore</p><p><strong>Follower Ability</strong> When a berserker takes damage, they gain a +1 status bonus to their next damage roll before the end of your next turn.</p><p><strong>Experienced Advancement</strong> When the berserker becomes an experienced follower:</p><ul><li>Increase their Strength modifier to +4 and their Constitution modifier to +3.</li><li>Increase their proficiency rank with Fortitude and Will saves to expert.</li><li>Increase their falchion Strike damage dice from 1d10 to 2d10.</li><li>Increase the status bonus to damage rolls the berserker gains from their follower ability to +2.</li></ul><p><strong>Veteran Advancement</strong> When the berserker becomes a veteran follower:</p><ul><li>Increase their Constitution modifier to +4, their Wisdom modifier to +1, and their Charisma modifier to +3.</li><li>Increase their item bonus to AC to +4.</li><li>Increase their proficiency rank in Perception to expert.</li><li>Increase their proficiency rank in Athletics, Intimidation, and Warfare Lore to expert.</li><li>Increase their proficiency rank in their falchion Strikes to expert, and give them a +1 item bonus to attack rolls with their falchion Strikes. Their Strikes deal 3 additional damage and become magical for the purposes of ignoring resistances.</li><li>Increase the status bonus to damage rolls the berserker gains from their follower ability to +3.</li><li><p>The berserker gains @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.yYN5lYVfJVofjR0k]{Reckless Attack}.</p></li></ul><p><strong>Exceptional Advancement</strong> When the berserker becomes an exceptional follower:</p><ul><li>Increase their Strength modifier to +5, their Dexterity modifier to +1, their Wisdom modifier to +2, and their Charisma modifier to +4.</li><li>Increase their item bonus to AC to +5.</li><li>Increase their proficiency rank in Fortitude saves and Will saves to master, and their proficiency rank in Reflex saves to expert. Give them a +1 item bonus to all saving throws.</li><li>Increase their proficiency rank in Athletics to master.</li><li>Increase their item bonus to attack rolls with their falchion Strikes to +2. Increase their falchion Strike damage dice from 2d10 to 3d10 and increase the additional damage that their falchion Strikes deal from 3 to 6.</li><li>Increase the status bonus to damage rolls the berserker gains from their follower action to +4.</li><li><p>The berserker gains a reaction when Directed. If this reaction isn't spent before the beginning of your next turn, it is lost. The berserker also gains the @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.7jjDVIT39HUAnrP6]{Share the Pain} reaction.</p></li></ul>",
+      "value": "<p>This incautious fighter can become a terrifying harbinger of destruction.</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> falchion (forceful, sweep), <strong>Damage</strong> 1d10 slashing</p><p><strong>Str</strong> +3, <strong>Dex</strong> +0, <strong>Con</strong> +2, <strong>Int</strong> +0, <strong>Wis</strong> +0, <strong>Cha</strong> +2</p><p><strong>Hit Points</strong> 8</p><p><strong>Kit Armor</strong> item bonus +3, Dex cap +2</p><p><strong>Skills</strong> Athletics, Intimidation, Warfare Lore</p><p><strong>Follower Ability</strong> When a berserker takes damage, they gain a +1 status bonus to their next damage roll before the end of your next turn.</p><p><strong>Experienced Advancement</strong> When the berserker becomes an experienced follower:</p><ul><li><p>Increase their Strength modifier to +4 and their Constitution modifier to +3.</p></li><li><p>Increase their proficiency rank with Fortitude and Will saves to expert.</p></li><li><p>Increase their falchion Strike damage dice from 1d10 to 2d10.</p></li><li><p>Increase the status bonus to damage rolls the berserker gains from their follower ability to +2.</p></li></ul><p><strong>Veteran Advancement</strong> When the berserker becomes a veteran follower:</p><ul><li><p>Increase their Constitution modifier to +4, their Wisdom modifier to +1, and their Charisma modifier to +3.</p></li><li><p>Increase their item bonus to AC to +4.</p></li><li><p>Increase their proficiency rank in Perception to expert.</p></li><li><p>Increase their proficiency rank in Athletics, Intimidation, and Warfare Lore to expert.</p></li><li><p>Increase their proficiency rank in their falchion Strikes to expert, and give them a +1 item bonus to attack rolls with their falchion Strikes. Their Strikes deal 3 additional damage and become magical for the purposes of ignoring resistances.</p></li><li><p>Increase the status bonus to damage rolls the berserker gains from their follower ability to +3.</p></li><li><p>The berserker gains @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.yYN5lYVfJVofjR0k]{Reckless Attack}.</p></li></ul><p><strong>Exceptional Advancement</strong> When the berserker becomes an exceptional follower:</p><ul><li><p>Increase their Strength modifier to +5, their Dexterity modifier to +1, their Wisdom modifier to +2, and their Charisma modifier to +4.</p></li><li><p>Increase their item bonus to AC to +5.</p></li><li><p>Increase their proficiency rank in Fortitude saves and Will saves to master, and their proficiency rank in Reflex saves to expert. Give them a +1 item bonus to all saving throws.</p></li><li><p>Increase their proficiency rank in Athletics to master.</p></li><li><p>Increase their item bonus to attack rolls with their falchion Strikes to +2. Increase their falchion Strike damage dice from 2d10 to 3d10 and increase the additional damage that their falchion Strikes deal from 3 to 6.</p></li><li><p>Increase the status bonus to damage rolls the berserker gains from their follower action to +4.</p></li><li><p>The berserker gains a reaction when Directed. If this reaction isn't spent before the beginning of your next turn, it is lost. The berserker also gains the @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.7jjDVIT39HUAnrP6]{Share the Pain} reaction.</p></li></ul>",
       "gm": ""
     },
     "publication": {
@@ -25,7 +25,7 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.mefI4QYwzSIQiwGj"
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.mefI4QYwzSIQiwGj"
       },
       {
         "key": "ActiveEffectLike",
@@ -78,7 +78,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.u9va30kxnQrEhOm6",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.u9va30kxnQrEhOm6",
         "flag": "kitArmor",
         "alterations": [
           {
@@ -350,7 +350,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.yYN5lYVfJVofjR0k",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.yYN5lYVfJVofjR0k",
         "predicate": [
           "feature:veteran-advancement"
         ],
@@ -505,7 +505,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.7jjDVIT39HUAnrP6",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.7jjDVIT39HUAnrP6",
         "reevaluateOnUpdate": true,
         "allowDuplicate": false,
         "predicate": [
@@ -580,9 +580,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
-    "systemId": "pf2e",
-    "systemVersion": "7.7.1"
+    "coreVersion": "14.363",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
   },
   "_id": "UGypwzL2kf2lpvGK",
   "sort": 100000,

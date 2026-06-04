@@ -1,0 +1,80 @@
+{
+  "name": "Hellfire Gaze",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The thruneosaurus's eyes project a line of fire in a @Template[type:line|distance:30], dealing @Damage[(floor(@actor.level/2))d6[fire]] damage for every 2 levels the thruneosaurus has to all creatures in the area (@Check[type:reflex|against:hellfire-gaze|basic:true]). A creature that critically fails its save also takes persistent fire damage equal to the number of damage dice. This uses a trained DC using the thruneosaurus's Constitution modifier or an expert DC if the beast is specialized.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Adventure Path #223: Hell’s Destiny",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "attribute": "con",
+        "key": "SpecialStatistic",
+        "slug": "hellfire-gaze"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "hellfire-gaze",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "hellfire-gaze-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "hellfire-gaze-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "hellfire-gaze",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT1M"
+    }
+  },
+  "_id": "9LixJ9aVSglXqFxO",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "XUrhfvb05TiIl7Al": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "_key": "!items!9LixJ9aVSglXqFxO"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Energy Wave",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The adept unleashes a close-range blast that deals damage equal to their energy blast Strike to each creature in a @Template[type:cone|distance:15] or @Template[type:cone|distance:30] (@Check[type:reflex|against:energy-wave|basic:true]). The adept uses an expert DC using their Intelligence modifier. After using Energy Wave, the adept can't do so again for [[/gmr 1d6 #Recharge do so]]{1d6 rounds}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "attribute": "int",
+        "key": "SpecialStatistic",
+        "slug": "energy-wave"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "energy-wave",
+        "value": "4 + @actor.system.abilities.int.mod",
+        "type": "proficiency",
+        "slug": "energy-wave-proficiency"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "_id": "zCyMOvbb234frhRa",
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "folder": "UR2WlgGkhK4o7O1f",
+  "ownership": {
+    "default": 0,
+    "wJKNupBfIJ8VwIUI": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "_key": "!items!zCyMOvbb234frhRa"
+}

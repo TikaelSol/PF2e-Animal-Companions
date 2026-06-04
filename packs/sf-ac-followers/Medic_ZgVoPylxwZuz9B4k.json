@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>This trainee healer can master the art of bringing people back from the brink of death.</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> scalpel (agile, deadly d8, finesse, versatile S), <strong>Damage</strong> 1d4 piercing (functions as dagger)</p><p><strong>Str</strong> +0, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> +1, <strong>Wis</strong> +3, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 6</p><p><strong>Kit Armor</strong> item bonus +1, Dex cap +4</p><p><strong>Skills</strong> Herbalism Lore, Medicine, Nature, Survival</p><p><strong>Follower Ability</strong> A medic has the @UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{Battle Medicine} feat. Their kit includes a healer's kit.</p><p><strong>Experienced Advancement</strong> When the medic becomes an experienced follower:</p><ul><li>Increase their Dexterity modifier to +3 and their Wisdom modifier to +4.</li><li>Increase their proficiency rank in Fortitude saves and Will saves to expert.</li><li>Increase their proficiency rank in Medicine to expert.</li><li>Increase their scalpel Strike damage dice from 1d4 to 2d4. Their scalpel Strikes deal 1 persistent bleed damage (1d6 persistent bleed damage on a critical hit).</li><li><p>Once per day, the medic can use Battle Medicine on a creature that is temporarily immune.</p></li></ul><p><strong>Veteran Advancement</strong> When the medic becomes a veteran follower:</p><ul><li>Increase their Strength modifier to +1, their Dexterity modifier to +4, and their Constitution modifier to +2.</li><li>Increase their item bonus to AC to +2.</li><li>Increase their proficiency rank in Perception to expert.</li><li>Increase their proficiency rank in Medicine to master, and their proficiency rank in Herbalism Lore, Nature, and Survival to expert. Give them a +1 item bonus to Medicine checks.</li><li>Increase their proficiency rank in their scalpel Strikes to expert, and give them a +1 item bonus to attack rolls with their scalpel Strikes. Their scalpel Strikes deal 2 additional damage and become magical for the purposes of ignoring resistances.</li><li><p>The medic can use @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.ma45EqTK72KQLca3]{Medic's Treatment}.</p></li></ul><p><strong>Exceptional Advancement </strong>When the medic becomes an exceptional follower:</p><ul><li>Increase their Strength modifier to +2, their Constitution modifier to +3, their Intelligence modifier to +2, and their Wisdom modifier to +5. Increase their item bonus to AC to +3.</li><li>Increase their proficiency rank in Fortitude and Will saves to master, and their proficiency rank in Reflex saves to expert. Give them a +1 item bonus to all saving throws.</li><li>Increase their item bonus to Medicine checks to +2. They become an expert in Acrobatics. Increase their item bonus to attack rolls with their scalpel Strikes to +2. Increase their scalpel Strike damage dice from 2d4 to 3d4 and increase the additional damage that their scalpel Strikes deal from 2 to 4. Increase the persistent bleed their scalpel Strikes deal to 2 (or 2d6 on a critical hit).</li><li>Once per hour, the medic can use Battle Medicine on a creature that is temporarily immune. The medic can use @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.32cPs0J3Dk19Q743]{Quick Treatment}.</li></ul>",
+      "value": "<p>This trainee healer can master the art of bringing people back from the brink of death.</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> scalpel (agile, deadly d8, finesse, versatile S), <strong>Damage</strong> 1d4 piercing (functions as dagger)</p><p><strong>Str</strong> +0, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> +1, <strong>Wis</strong> +3, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 6</p><p><strong>Kit Armor</strong> item bonus +1, Dex cap +4</p><p><strong>Skills</strong> Herbalism Lore, Medicine, Nature, Survival</p><p><strong>Follower Ability</strong> A medic has the @UUID[Compendium.sf2e.feats.Item.wYerMk6F1RZb0Fwt]{Battle Medicine} feat. Their kit includes a healer's kit.</p><p><strong>Experienced Advancement</strong> When the medic becomes an experienced follower:</p><ul><li><p>Increase their Dexterity modifier to +3 and their Wisdom modifier to +4.</p></li><li><p>Increase their proficiency rank in Fortitude saves and Will saves to expert.</p></li><li><p>Increase their proficiency rank in Medicine to expert.</p></li><li><p>Increase their scalpel Strike damage dice from 1d4 to 2d4. Their scalpel Strikes deal 1 persistent bleed damage (1d6 persistent bleed damage on a critical hit).</p></li><li><p>Once per day, the medic can use Battle Medicine on a creature that is temporarily immune.</p></li></ul><p><strong>Veteran Advancement</strong> When the medic becomes a veteran follower:</p><ul><li><p>Increase their Strength modifier to +1, their Dexterity modifier to +4, and their Constitution modifier to +2.</p></li><li><p>Increase their item bonus to AC to +2.</p></li><li><p>Increase their proficiency rank in Perception to expert.</p></li><li><p>Increase their proficiency rank in Medicine to master, and their proficiency rank in Herbalism Lore, Nature, and Survival to expert. Give them a +1 item bonus to Medicine checks.</p></li><li><p>Increase their proficiency rank in their scalpel Strikes to expert, and give them a +1 item bonus to attack rolls with their scalpel Strikes. Their scalpel Strikes deal 2 additional damage and become magical for the purposes of ignoring resistances.</p></li><li><p>The medic can use @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.ma45EqTK72KQLca3]{Medic's Treatment}.</p></li></ul><p><strong>Exceptional Advancement </strong>When the medic becomes an exceptional follower:</p><ul><li><p>Increase their Strength modifier to +2, their Constitution modifier to +3, their Intelligence modifier to +2, and their Wisdom modifier to +5. Increase their item bonus to AC to +3.</p></li><li><p>Increase their proficiency rank in Fortitude and Will saves to master, and their proficiency rank in Reflex saves to expert. Give them a +1 item bonus to all saving throws.</p></li><li><p>Increase their item bonus to Medicine checks to +2. They become an expert in Acrobatics. Increase their item bonus to attack rolls with their scalpel Strikes to +2. Increase their scalpel Strike damage dice from 2d4 to 3d4 and increase the additional damage that their scalpel Strikes deal from 2 to 4. Increase the persistent bleed their scalpel Strikes deal to 2 (or 2d6 on a critical hit).</p></li><li><p>Once per hour, the medic can use Battle Medicine on a creature that is temporarily immune. The medic can use @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.32cPs0J3Dk19Q743]{Quick Treatment}.</p></li></ul>",
       "gm": ""
     },
     "publication": {
@@ -25,7 +25,20 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.mefI4QYwzSIQiwGj"
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.mefI4QYwzSIQiwGj",
+        "flag": "kitArmor",
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "ac-bonus",
+            "value": 1
+          },
+          {
+            "mode": "override",
+            "property": "dex-cap",
+            "value": 4
+          }
+        ]
       },
       {
         "key": "ActiveEffectLike",
@@ -72,24 +85,11 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.u9va30kxnQrEhOm6",
-        "flag": "kitArmor",
-        "alterations": [
-          {
-            "mode": "override",
-            "property": "ac-bonus",
-            "value": 1
-          },
-          {
-            "mode": "override",
-            "property": "dex-cap",
-            "value": 4
-          }
-        ]
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.u9va30kxnQrEhOm6"
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt"
+        "uuid": "Compendium.sf2e.feats.Item.wYerMk6F1RZb0Fwt"
       },
       {
         "key": "GrantItem",
@@ -386,7 +386,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.ma45EqTK72KQLca3",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.ma45EqTK72KQLca3",
         "predicate": [
           "feature:veteran-advancement"
         ],
@@ -567,7 +567,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.32cPs0J3Dk19Q743",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.32cPs0J3Dk19Q743",
         "reevaluateOnUpdate": true,
         "allowDuplicate": false,
         "predicate": [
@@ -643,9 +643,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
-    "systemId": "pf2e",
-    "systemVersion": "7.7.1"
+    "coreVersion": "14.363",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
   },
   "_id": "ZgVoPylxwZuz9B4k",
   "sort": 300000,

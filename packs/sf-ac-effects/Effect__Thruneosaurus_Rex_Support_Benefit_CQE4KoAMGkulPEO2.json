@@ -1,0 +1,106 @@
+{
+  "name": "Effect: Thruneosaurus Rex Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.KzyDeDu1p2DvK4NX]{Thruneosaurus Rex Support Benefit}</p><p>Your strikes deal persistent fire damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Adventure Path #223: Hell’s Destiny",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              {
+                "not": "parent:origin:item:tag:support-benefit:thruneosaurus-rex"
+              }
+            ],
+            "value": 1
+          },
+          {
+            "predicate": [
+              "parent:origin:item:tag:support-benefit:thruneosaurus-rex"
+            ],
+            "value": 2
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "Is companion nimble or savage.",
+        "flag": "thruneosaurusRexSupportBenefit"
+      },
+      {
+        "key": "RollOption",
+        "option": "thruneosaurus-rex-support-benefit",
+        "toggleable": true
+      },
+      {
+        "hideIfDisabled": true,
+        "category": "persistent",
+        "critical": false,
+        "damageType": "fire",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.thruneosaurusRexSupportBenefit}",
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "predicate": [
+          "bear-support-benefit"
+        ],
+        "selector": "strike-damage"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "CQE4KoAMGkulPEO2",
+  "img": "icons/magic/fire/projectile-wave-yellow.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "wJKNupBfIJ8VwIUI": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "_key": "!items!CQE4KoAMGkulPEO2"
+}

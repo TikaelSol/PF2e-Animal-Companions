@@ -34,12 +34,12 @@
     "actions": {
       "value": 1
     },
-    "category": null,
+    "category": "offensive",
     "deathNote": false
   },
   "_id": "ma45EqTK72KQLca3",
   "img": "systems/pf2e/icons/actions/OneAction.webp",
-  "sort": 0,
+  "sort": 600000,
   "ownership": {
     "default": 0,
     "AhhBYTk3xYRMuz4T": 3
@@ -49,9 +49,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "14.363",
     "systemId": "pf2e",
-    "systemVersion": "7.7.1"
+    "systemVersion": "8.2.0"
   },
   "_key": "!items!ma45EqTK72KQLca3"
 }
