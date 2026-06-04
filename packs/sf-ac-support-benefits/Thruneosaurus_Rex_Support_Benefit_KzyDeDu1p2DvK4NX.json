@@ -1,0 +1,86 @@
+{
+  "name": "Thruneosaurus Rex Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your thruneosaurus's horns radiate heat, igniting distracted foes. Until the start of your next turn, your Strikes that damage a creature in your thruneosaurus's reach also deal 1d6 persistent fire damage. If your thruneosaurus is nimble or savage, the persistent damage increases to 2d6.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.CQE4KoAMGkulPEO2]{Effect: Thruneosaurus Rex Support Benefit}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Adventure Path #223: Hell’s Destiny",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:thruneosaurus-rex-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:thruneosaurus-rex-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:thruneosaurus-rex"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "_id": "KzyDeDu1p2DvK4NX",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "wJKNupBfIJ8VwIUI": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "_key": "!items!KzyDeDu1p2DvK4NX"
+}

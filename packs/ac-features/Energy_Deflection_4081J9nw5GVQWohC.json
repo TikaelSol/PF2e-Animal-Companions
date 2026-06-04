@@ -1,0 +1,55 @@
+{
+  "name": "Energy Deflection",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> The adept or an ally within 10 feet of the adept takes acid, cold, electricity, fire, force, mental, poison, sonic, spirit, vitality, or void damage</p><hr><p><strong>Effect</strong> The adept grants the creature resistance to the triggering damage equal to half your level. If the damage is one of the types the adept can deal with their energy blast Strikes, the creature instead gains resistance equal to your level. The creature is then immune to the adept's Energy Deflection for 1 minute.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Adventure Path #223: Hell’s Destiny",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "arcane"
+      ]
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "defensive",
+    "deathNote": false
+  },
+  "_id": "4081J9nw5GVQWohC",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "folder": "UR2WlgGkhK4o7O1f",
+  "ownership": {
+    "default": 0,
+    "XUrhfvb05TiIl7Al": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 400000,
+  "_key": "!items!4081J9nw5GVQWohC"
+}

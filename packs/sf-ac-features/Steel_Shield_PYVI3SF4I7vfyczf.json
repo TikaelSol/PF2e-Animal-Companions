@@ -1,0 +1,94 @@
+{
+  "name": "Steel Shield",
+  "type": "shield",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable.</p><table class=\"pf2e\"><thead><tr><th><p>Hardness</p></th><th><p>HP</p></th><th><p>BT</p></th></tr></thead><tbody><tr><td><p>5</p></td><td><p>20</p></td><td><p>10</p></td></tr></tbody></table>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common",
+      "integrated": null
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 20,
+      "max": 20
+    },
+    "hardness": 5,
+    "price": {
+      "value": {
+        "sp": 20
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Shield",
+        "img": "systems/sf2e/icons/unidentified_item_icons/shields.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "acBonus": 2,
+    "grade": null,
+    "runes": {
+      "reinforcing": 0
+    },
+    "specific": null,
+    "speedPenalty": 0,
+    "subitems": []
+  },
+  "_id": "PYVI3SF4I7vfyczf",
+  "img": "icons/equipment/shield/heater-steel-gray.webp",
+  "folder": "zKTeOPAN4j7XNKlO",
+  "ownership": {
+    "default": 0,
+    "wJKNupBfIJ8VwIUI": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "_key": "!items!PYVI3SF4I7vfyczf"
+}
