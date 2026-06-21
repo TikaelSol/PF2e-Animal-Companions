@@ -205,7 +205,7 @@
       {
         "key": "Note",
         "selector": "ranged-strike-damage",
-        "text": "COMP.SpecificRule.Follower.ExperiencedAdvancement.Medic.Note",
+        "text": "COMP.SpecificRule.Follower.ExperiencedAdvancement.Sharpshooter.Note",
         "outcome": [
           "criticalSuccess",
           "success"
