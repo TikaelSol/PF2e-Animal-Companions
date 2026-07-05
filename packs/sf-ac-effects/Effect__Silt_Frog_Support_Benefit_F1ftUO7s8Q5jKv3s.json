@@ -1,0 +1,86 @@
+{
+  "name": "Effect: Silt Frog Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.mwkzWD5PbPidHaa4]{Silt Frog Support Benefit}</p><p>If you hit and deal damage to a creature within your silt frog's reach, the creature is @UUID[Compendium.sf2e.conditions.Item.9PR9y0bi4JPKnHPR]{Deafened} until the start of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens High Seas",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "silt-frog-support-benefit",
+        "toggleable": true
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "strike-damage"
+        ],
+        "text": "COMP.SpecificRule.SiltFrog.EffectNote.SF",
+        "title": "{item|name}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "silt-frog-benefit"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/control/encase-creature-humanoid-hold.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "wJKNupBfIJ8VwIUI": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "F1ftUO7s8Q5jKv3s",
+  "sort": 0,
+  "_key": "!items!F1ftUO7s8Q5jKv3s"
+}

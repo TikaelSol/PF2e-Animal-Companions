@@ -4,7 +4,7 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 8300000,
+  "sort": 9100000,
   "flags": {
     "core": {}
   },
@@ -83,7 +83,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "coreVersion": "14.364",
     "compendiumSource": "Item.qTD1AGkv9Vd9mXRn",
     "duplicateSource": null,
     "exportSource": null

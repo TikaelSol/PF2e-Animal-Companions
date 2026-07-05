@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Effect: Cephalopod Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Z5Wdlz04qLKREVrx]{Cephalopod Support Benefit}</p><p>You take a –1 circumstance penalty to your attacks.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens High Seas",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack-roll"
+        ],
+        "value": -1,
+        "type": "circumstance"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "QbgJovIIHRlFyY2n",
+  "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+  "ownership": {
+    "default": 0,
+    "XUrhfvb05TiIl7Al": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "_key": "!items!QbgJovIIHRlFyY2n"
+}

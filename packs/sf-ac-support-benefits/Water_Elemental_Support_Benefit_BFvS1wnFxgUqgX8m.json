@@ -41,14 +41,14 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "coreVersion": "14.364",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.BFvS1wnFxgUqgX8m",
     "duplicateSource": null,
     "exportSource": null
   },
   "_id": "BFvS1wnFxgUqgX8m",
   "folder": null,
-  "sort": 2700000,
+  "sort": 3500000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

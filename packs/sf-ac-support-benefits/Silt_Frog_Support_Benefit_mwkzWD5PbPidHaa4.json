@@ -1,0 +1,53 @@
+{
+  "name": "Silt Frog Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your silt frog unleashes an eardrum-rattling croak when you create an opening. Until the start of your next turn, if you hit and deal damage to a creature within your silt frog's reach, the creature @UUID[Compendium.sf2e.conditions.Item.9PR9y0bi4JPKnHPR]{Deafened} until the start of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.F1ftUO7s8Q5jKv3s]{Effect: Silt Frog Support Benefit}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens High Seas",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "wJKNupBfIJ8VwIUI": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "mwkzWD5PbPidHaa4",
+  "sort": 200000,
+  "_key": "!items!mwkzWD5PbPidHaa4"
+}

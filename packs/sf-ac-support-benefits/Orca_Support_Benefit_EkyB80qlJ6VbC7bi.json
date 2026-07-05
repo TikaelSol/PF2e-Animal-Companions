@@ -39,7 +39,7 @@
   "_id": "EkyB80qlJ6VbC7bi",
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "folder": null,
-  "sort": 1500000,
+  "sort": 2300000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -52,7 +52,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "coreVersion": "14.364",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.EkyB80qlJ6VbC7bi",
     "duplicateSource": null,
     "exportSource": null

@@ -1,0 +1,106 @@
+{
+  "name": "Effect: Pufferfish Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.dOV0RSpvlpaKRXVX]{Pufferfish Support Benefit}</p><p>Your Strikes that damage a creature in your pufferfish’s reach also deal persistent poison damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens High Seas",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              {
+                "not": "parent:origin:item:tag:support-pufferfish:antelope"
+              }
+            ],
+            "value": 1
+          },
+          {
+            "predicate": [
+              "parent:origin:item:tag:support-benefit:pufferfish"
+            ],
+            "value": 2
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "COMP.Prompt.IsSpecialized",
+        "flag": "pufferfishSupportBenefit"
+      },
+      {
+        "key": "RollOption",
+        "option": "pufferfish-support-benefit",
+        "toggleable": true
+      },
+      {
+        "hideIfDisabled": true,
+        "category": "persistent",
+        "critical": false,
+        "damageType": "poison",
+        "diceNumber": "{item|flags.pf2e.rulesSelections.pufferfishSupportBenefit}",
+        "dieSize": "d4",
+        "key": "DamageDice",
+        "predicate": [
+          "pufferfish-support-benefit"
+        ],
+        "selector": "strike-damage"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/acid/projectile-faceted-glob.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "wJKNupBfIJ8VwIUI": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "7PuiPf31Rh90lhHc",
+  "sort": 0,
+  "_key": "!items!7PuiPf31Rh90lhHc"
+}

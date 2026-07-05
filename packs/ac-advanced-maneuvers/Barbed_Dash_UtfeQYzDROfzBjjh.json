@@ -1,0 +1,53 @@
+{
+  "name": "Barbed Dash",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The pufferfish inflates and swims past an enemy, piercing it with its spines. It attempts to [[/act tumble-through]] a foe. On a success, the pufferfish deals @Damage[1[piercing]] damage and an additional @Damage[1d6[persistent,poison]] damage to the foe as it passes through its space. If your pufferfish is nimble or savage, the persistent poison increases to @Damage[2d6[persistent,poison]|shortLabel].</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens High Seas",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "XUrhfvb05TiIl7Al": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "UtfeQYzDROfzBjjh",
+  "sort": 0,
+  "_key": "!items!UtfeQYzDROfzBjjh"
+}
