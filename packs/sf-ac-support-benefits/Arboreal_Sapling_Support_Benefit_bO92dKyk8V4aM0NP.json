@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 7100000,
+  "sort": 7900000,
   "flags": {
     "core": {}
   },
@@ -50,7 +50,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "coreVersion": "14.364",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.bO92dKyk8V4aM0NP",
     "duplicateSource": null,
     "exportSource": null

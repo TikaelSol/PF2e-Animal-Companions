@@ -1,0 +1,86 @@
+{
+  "folder": null,
+  "name": "Effect: Silt Frog Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.iOaMTpUtXwUWdnbv]{Silt Frog Support Benefit}</p><p>If you hit and deal damage to a creature within your silt frog's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} until the start of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens High Seas",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "silt-frog-support-benefit",
+        "toggleable": true
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "strike-damage"
+        ],
+        "text": "COMP.SpecificRule.SiltFrog.EffectNote.PF",
+        "title": "{item|name}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "silt-frog-benefit"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/control/encase-creature-humanoid-hold.webp",
+  "ownership": {
+    "default": 0,
+    "XUrhfvb05TiIl7Al": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "zqSaMniK2XF0W4e6",
+  "sort": 0,
+  "_key": "!items!zqSaMniK2XF0W4e6"
+}

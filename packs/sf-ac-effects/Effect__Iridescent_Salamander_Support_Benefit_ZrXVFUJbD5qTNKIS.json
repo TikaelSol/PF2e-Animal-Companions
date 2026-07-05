@@ -1,0 +1,86 @@
+{
+  "name": "Effect: Iridescent Salamander Support Benefit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.0OG4yuQReYyqxDfa]{Iridescent Salamander Support Benefit}</p><p>If you hit and deal damage to a creature adjacent to your salamander, the creature is @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn unless its level is higher than yours.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens High Seas",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "iridescent-salamander-support-benefit",
+        "toggleable": true
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "strike-damage"
+        ],
+        "text": "COMP.SpecificRule.IridescentSalamander.EffectNote.SF",
+        "title": "{item|name}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "iridescent-salamander-benefit"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/light/explosion-star-large-teal.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "wJKNupBfIJ8VwIUI": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "ZrXVFUJbD5qTNKIS",
+  "sort": 0,
+  "_key": "!items!ZrXVFUJbD5qTNKIS"
+}

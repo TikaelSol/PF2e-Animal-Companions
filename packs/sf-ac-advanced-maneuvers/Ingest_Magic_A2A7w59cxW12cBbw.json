@@ -1,0 +1,53 @@
+{
+  "name": "Ingest Magic",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The silt frog makes a jaws Strike. If the Strike hits, it attempts to counteract a spell or magical effect on the target (its counteract modifier is equal to its attack modifier with its tongue Strike, unmodified by any bonuses or effects that apply to attack rolls, and its counteract rank is equal to half its level, rounded up).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens High Seas",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "wJKNupBfIJ8VwIUI": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "A2A7w59cxW12cBbw",
+  "sort": 0,
+  "_key": "!items!A2A7w59cxW12cBbw"
+}

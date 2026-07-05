@@ -102,6 +102,12 @@
             "Hyena": {
                 "EffectNote": "When you hit a creature in the hyena's reach with a Strike, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
             },
+            "IridescentSalamander": {
+                "EffectNote": {
+                    "PF": "The creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn unless its level is higher than yours.",
+                    "SF": "The creature is @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn unless its level is higher than yours."
+                }
+            },
             "IsgeriBoarhound": {
                 "DesignatedFoe": {
                     "RollOptionLabel": "Designated Foe"
@@ -148,6 +154,12 @@
             },
             "ShadowHound": {
                 "EffectNote": "When you damage a creature with a Strike and that creature is within reach of your shadow hound, both you and your shadow hound become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to the creature."
+            },
+            "SiltFrog": {
+                "EffectNote": {
+                    "PF": "The creature is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} until the start of your next turn.",
+                    "SF": "The creature is @UUID[[Compendium.sf2e.conditions.Item.9PR9y0bi4JPKnHPR]{Deafened} until the start of your next turn."
+                }
             },
             "SkeletalBirdOfPrey": {
                 "EffectNote": "When you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}."
@@ -199,10 +211,12 @@
             }
         },
         "UnarmedAttacks": {
+            "Arm": "Arm",
             "Bite": "Bite",
             "Blade": "Blade",
             "Claws": "Claws",
             "Slam": "Slam",
+            "Spines": "Spines",
             "TailSlam": "Tail Slam"
         }
     }

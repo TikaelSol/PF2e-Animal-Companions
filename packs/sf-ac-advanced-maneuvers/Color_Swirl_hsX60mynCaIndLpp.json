@@ -1,0 +1,53 @@
+{
+  "name": "Color Swirl",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your salamander rapidly changes color in a dizzying pattern. A creature within 30 feet must attempt a Fortitude save against the higher of your class DC or spell DC. On a failure, the creature is @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{Sickened 1}, or@UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{ Sickened 2} on a critical failure.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens High Seas",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "wJKNupBfIJ8VwIUI": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "hsX60mynCaIndLpp",
+  "sort": 0,
+  "_key": "!items!hsX60mynCaIndLpp"
+}

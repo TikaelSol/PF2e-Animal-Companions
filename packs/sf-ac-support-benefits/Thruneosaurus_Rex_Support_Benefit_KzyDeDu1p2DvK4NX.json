@@ -74,13 +74,13 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.363",
+    "coreVersion": "14.364",
     "systemId": "sf2e",
     "systemVersion": "1.2.0",
     "exportSource": null,
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "sort": 0,
+  "sort": 300000,
   "_key": "!items!KzyDeDu1p2DvK4NX"
 }
