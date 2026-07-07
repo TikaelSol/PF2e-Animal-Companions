@@ -15,7 +15,7 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "{actor|flags.pf2e.eidolon-features.symbiosis}"
+        "uuid": "{actor|flags.system.eidolon-features.symbiosis}"
       }
     ],
     "slug": "eidolon-symbiosis",

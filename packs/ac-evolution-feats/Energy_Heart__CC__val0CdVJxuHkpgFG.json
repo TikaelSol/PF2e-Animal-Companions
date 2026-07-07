@@ -54,12 +54,12 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.pf2e.evolutionFeats.energyHeartChoice",
-        "value": "{item|flags.pf2e.rulesSelections.damageChoice}"
+        "path": "flags.system.evolutionFeats.energyHeartChoice",
+        "value": "{item|flags.system.rulesSelections.damageChoice}"
       },
       {
         "key": "Resistance",
-        "type": "{actor|flags.pf2e.evolutionFeats.energyHeartChoice}",
+        "type": "{actor|flags.system.evolutionFeats.energyHeartChoice}",
         "value": "max(1,floor(@actor.level/2))"
       }
     ],

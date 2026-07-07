@@ -17,7 +17,7 @@
     "rules": [
       {
         "key": "Resistance",
-        "type": "{actor|flags.pf2e.evolutionFeats.dualEnergyHeartChoice}",
+        "type": "{actor|flags.system.evolutionFeats.dualEnergyHeartChoice}",
         "value": "@actor.level",
         "predicate": [
           "feat:dual-energy-heart"
@@ -25,7 +25,7 @@
       },
       {
         "key": "Resistance",
-        "type": "{actor|flags.pf2e.evolutionFeats.energyHeartChoice}",
+        "type": "{actor|flags.system.evolutionFeats.energyHeartChoice}",
         "value": "@actor.level",
         "predicate": [
           "feat:energy-heart"
