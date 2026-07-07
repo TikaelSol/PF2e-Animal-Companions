@@ -67,7 +67,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.sf2e.rulesSelections.benefit}"
+        "uuid": "{item|flags.system.rulesSelections.benefit}"
       }
     ],
     "slug": null,

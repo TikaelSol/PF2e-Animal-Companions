@@ -71,7 +71,7 @@
       },
       {
         "key": "RollOption",
-        "option": "breath-shape:{item|flags.sf2e.rulesSelections.shape}"
+        "option": "breath-shape:{item|flags.system.rulesSelections.shape}"
       },
       {
         "itemId": "{item|id}",
@@ -102,8 +102,8 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.sf2e.breathweapon.breathDamage",
-        "value": "{item|flags.sf2e.rulesSelections.breathDamage}"
+        "path": "flags.system.breathweapon.breathDamage",
+        "value": "{item|flags.system.rulesSelections.breathDamage}"
       },
       {
         "key": "ActorTraits",
@@ -113,7 +113,7 @@
           }
         ],
         "add": [
-          "{item|flags.sf2e.rulesSelections.breathDamage}"
+          "{item|flags.system.rulesSelections.breathDamage}"
         ]
       },
       {
@@ -126,7 +126,7 @@
           }
         ],
         "property": "traits",
-        "value": "{item|flags.sf2e.rulesSelections.breathDamage}"
+        "value": "{item|flags.system.rulesSelections.breathDamage}"
       }
     ],
     "traits": {

@@ -53,7 +53,7 @@
         "hideIfDisabled": true,
         "critical": false,
         "damageType": "bludgeoning",
-        "diceNumber": "{item|flags.sf2e.rulesSelections.keuliaSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.keuliaSupportBenefit}",
         "dieSize": "d8",
         "key": "DamageDice",
         "predicate": [

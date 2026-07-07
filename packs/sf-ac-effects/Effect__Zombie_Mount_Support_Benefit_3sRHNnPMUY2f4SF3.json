@@ -62,8 +62,8 @@
       {
         "hideIfDisabled": true,
         "critical": false,
-        "damageType": "{item|flags.sf2e.rulesSelections.zombieMountDamage}",
-        "diceNumber": "{item|flags.sf2e.rulesSelections.zombieMountSupportBenefit}",
+        "damageType": "{item|flags.system.rulesSelections.zombieMountDamage}",
+        "diceNumber": "{item|flags.system.rulesSelections.zombieMountSupportBenefit}",
         "dieSize": "d4",
         "key": "DamageDice",
         "predicate": [
@@ -74,8 +74,8 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.sf2e.animalCompanion.zombieMountDamage",
-        "value": "{item|flags.sf2e.rulesSelections.zombieMountDamage}"
+        "path": "flags.system.animalCompanion.zombieMountDamage",
+        "value": "{item|flags.system.rulesSelections.zombieMountDamage}"
       }
     ],
     "slug": "effect-zombie-mount-support-benefit",

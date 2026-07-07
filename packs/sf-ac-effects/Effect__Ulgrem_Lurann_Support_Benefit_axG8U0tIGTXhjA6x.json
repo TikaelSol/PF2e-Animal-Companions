@@ -39,7 +39,7 @@
         "hideIfDisabled": true,
         "critical": false,
         "damageType": "piercing",
-        "diceNumber": "{item|flags.sf2e.rulesSelections.ulgremLurannSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.ulgremLurannSupportBenefit}",
         "dieSize": "d4",
         "key": "DamageDice",
         "predicate": [
@@ -52,7 +52,7 @@
         "hideIfDisabled": true,
         "critical": false,
         "damageType": "electricity",
-        "diceNumber": "{item|flags.sf2e.rulesSelections.ulgremLurannSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.ulgremLurannSupportBenefit}",
         "dieSize": "d4",
         "key": "DamageDice",
         "predicate": [
