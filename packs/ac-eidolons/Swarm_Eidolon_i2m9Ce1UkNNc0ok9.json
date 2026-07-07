@@ -24,7 +24,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.eidolonType}",
+        "uuid": "{item|flags.system.rulesSelections.eidolonType}",
         "flag": "angelicAvenger"
       },
       {
@@ -47,7 +47,7 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.pf2e.eidolon-features",
+        "path": "flags.system.eidolon-features",
         "value": {
           "initial": "Compendium.pf2e-animal-companions.AC-Features.Item.SloT1T6tJDuET8UW",
           "symbiosis": "Compendium.pf2e-animal-companions.AC-Features.Item.WYoxzf3Q3f4OYdT1",

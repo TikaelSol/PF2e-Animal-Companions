@@ -15,7 +15,7 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "{actor|flags.pf2e.eidolon-features.initial}"
+        "uuid": "{actor|flags.system.eidolon-features.initial}"
       }
     ],
     "slug": "eidolon-ability",

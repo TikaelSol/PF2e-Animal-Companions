@@ -80,7 +80,7 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "path": "flags.system.companionCompendia.advancedManeuver",
         "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.5ux66ubWlevY7z2K"
       }
     ],

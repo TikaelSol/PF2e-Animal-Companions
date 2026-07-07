@@ -47,7 +47,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.abilityBoostOne}"
+        "uuid": "{item|flags.system.rulesSelections.abilityBoostOne}"
       },
       {
         "adjustName": false,
@@ -83,7 +83,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.abilityBoostTwo}"
+        "uuid": "{item|flags.system.rulesSelections.abilityBoostTwo}"
       },
       {
         "adjustName": false,
@@ -119,7 +119,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.abilityBoostThree}"
+        "uuid": "{item|flags.system.rulesSelections.abilityBoostThree}"
       },
       {
         "adjustName": false,
@@ -155,7 +155,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.abilityBoostFour}"
+        "uuid": "{item|flags.system.rulesSelections.abilityBoostFour}"
       }
     ],
     "slug": "eidolon-ability-boosts-15th",

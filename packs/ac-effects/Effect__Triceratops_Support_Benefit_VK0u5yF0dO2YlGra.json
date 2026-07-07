@@ -40,7 +40,7 @@
         "category": "persistent",
         "critical": false,
         "damageType": "bleed",
-        "diceNumber": "{item|flags.pf2e.rulesSelections.triceratopsSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.triceratopsSupportBenefit}",
         "dieSize": "d8",
         "key": "DamageDice",
         "predicate": [

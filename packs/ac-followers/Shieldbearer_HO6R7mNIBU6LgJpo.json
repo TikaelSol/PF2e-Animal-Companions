@@ -157,7 +157,7 @@
         "selector": "all-speeds",
         "value": -5,
         "predicate": [
-          "armor:id:{item|flags.pf2e.itemGrants.kitArmor.id}"
+          "armor:id:{item|flags.system.itemGrants.kitArmor.id}"
         ],
         "label": "COMP.SpecificRule.Follower.KitArmor.Label"
       },
@@ -238,7 +238,7 @@
       },
       {
         "key": "ItemAlteration",
-        "itemId": "{item|flags.pf2e.itemGrants.shield.id}",
+        "itemId": "{item|flags.system.itemGrants.shield.id}",
         "mode": "upgrade",
         "property": "hp-max",
         "value": 40,
@@ -248,7 +248,7 @@
       },
       {
         "key": "ItemAlteration",
-        "itemId": "{item|flags.pf2e.itemGrants.shield.id}",
+        "itemId": "{item|flags.system.itemGrants.shield.id}",
         "mode": "upgrade",
         "property": "hardness",
         "value": 6,
@@ -306,7 +306,7 @@
         "key": "ItemAlteration",
         "mode": "upgrade",
         "property": "ac-bonus",
-        "itemId": "{item|flags.pf2e.itemGrants.kitArmor.id}",
+        "itemId": "{item|flags.system.itemGrants.kitArmor.id}",
         "value": 6,
         "predicate": [
           "feature:veteran-advancement"
@@ -316,7 +316,7 @@
         "key": "ItemAlteration",
         "mode": "add",
         "property": "traits",
-        "itemId": "{item|flags.pf2e.itemGrants.kitArmor.id}",
+        "itemId": "{item|flags.system.itemGrants.kitArmor.id}",
         "value": "bulwark",
         "predicate": [
           "feature:veteran-advancement"
@@ -404,7 +404,7 @@
       },
       {
         "key": "ItemAlteration",
-        "itemId": "{item|flags.pf2e.itemGrants.shield.id}",
+        "itemId": "{item|flags.system.itemGrants.shield.id}",
         "mode": "upgrade",
         "property": "hp-max",
         "value": 64,
@@ -414,7 +414,7 @@
       },
       {
         "key": "ItemAlteration",
-        "itemId": "{item|flags.pf2e.itemGrants.shield.id}",
+        "itemId": "{item|flags.system.itemGrants.shield.id}",
         "mode": "upgrade",
         "property": "hardness",
         "value": 8,
@@ -472,7 +472,7 @@
         "key": "ItemAlteration",
         "mode": "upgrade",
         "property": "ac-bonus",
-        "itemId": "{item|flags.pf2e.itemGrants.kitArmor.id}",
+        "itemId": "{item|flags.system.itemGrants.kitArmor.id}",
         "value": 7,
         "predicate": [
           "feature:exceptional-advancement"
@@ -569,7 +569,7 @@
       },
       {
         "key": "ItemAlteration",
-        "itemId": "{item|flags.pf2e.itemGrants.shield.id}",
+        "itemId": "{item|flags.system.itemGrants.shield.id}",
         "mode": "upgrade",
         "property": "hp-max",
         "value": 100,
@@ -579,7 +579,7 @@
       },
       {
         "key": "ItemAlteration",
-        "itemId": "{item|flags.pf2e.itemGrants.shield.id}",
+        "itemId": "{item|flags.system.itemGrants.shield.id}",
         "mode": "upgrade",
         "property": "hardness",
         "value": 10,

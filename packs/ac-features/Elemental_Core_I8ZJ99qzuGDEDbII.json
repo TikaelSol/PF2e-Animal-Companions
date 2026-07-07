@@ -59,14 +59,14 @@
       {
         "key": "ActorTraits",
         "add": [
-          "{item|flags.pf2e.rulesSelections.element}"
+          "{item|flags.system.rulesSelections.element}"
         ]
       },
       {
         "key": "AdjustStrike",
         "mode": "add",
         "property": "weapon-traits",
-        "value": "{item|flags.pf2e.rulesSelections.element}"
+        "value": "{item|flags.system.rulesSelections.element}"
       },
       {
         "key": "FlatModifier",
@@ -137,7 +137,7 @@
       {
         "key": "ActorTraits",
         "add": [
-          "{item|flags.pf2e.rulesSelections.newTrait}"
+          "{item|flags.system.rulesSelections.newTrait}"
         ],
         "predicate": [
           "elemental-core:wood"

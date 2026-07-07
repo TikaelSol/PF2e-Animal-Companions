@@ -31,7 +31,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.eidolonType}"
+        "uuid": "{item|flags.system.rulesSelections.eidolonType}"
       },
       {
         "key": "ActiveEffectLike",
@@ -52,7 +52,7 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.pf2e.eidolon-features",
+        "path": "flags.system.eidolon-features",
         "value": {
           "initial": "Compendium.pf2e-animal-companions.AC-Features.Item.tBhCZN3SwlxQirL1",
           "symbiosis": "Compendium.pf2e-animal-companions.AC-Features.Item.AaVyAec0r17ocz42",

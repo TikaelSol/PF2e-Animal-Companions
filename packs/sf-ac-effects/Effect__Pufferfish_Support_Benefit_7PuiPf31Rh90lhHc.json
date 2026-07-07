@@ -50,7 +50,7 @@
         "category": "persistent",
         "critical": false,
         "damageType": "poison",
-        "diceNumber": "{item|flags.pf2e.rulesSelections.pufferfishSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.pufferfishSupportBenefit}",
         "dieSize": "d4",
         "key": "DamageDice",
         "predicate": [

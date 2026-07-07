@@ -52,7 +52,7 @@
         "hideIfDisabled": true,
         "critical": false,
         "damageType": "fire",
-        "diceNumber": "{item|flags.pf2e.rulesSelections.ridingDrakeSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.ridingDrakeSupportBenefit}",
         "dieSize": "d4",
         "key": "DamageDice",
         "predicate": [

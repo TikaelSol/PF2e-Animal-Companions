@@ -40,7 +40,7 @@
         "category": "persistent",
         "critical": false,
         "damageType": "fire",
-        "diceNumber": "{item|flags.pf2e.rulesSelections.fireElementalSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.fireElementalSupportBenefit}",
         "dieSize": "d6",
         "key": "DamageDice",
         "predicate": [

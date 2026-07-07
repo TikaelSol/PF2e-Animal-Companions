@@ -40,7 +40,7 @@
         "category": "persistent",
         "critical": false,
         "damageType": "poison",
-        "diceNumber": "{item|flags.pf2e.rulesSelections.wyvernSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.wyvernSupportBenefit}",
         "dieSize": "d6",
         "key": "DamageDice",
         "predicate": [
