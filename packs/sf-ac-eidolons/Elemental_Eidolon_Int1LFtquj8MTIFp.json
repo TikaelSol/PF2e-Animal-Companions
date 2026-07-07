@@ -10,17 +10,17 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon is a primal chunk of elemental matter infused with sapience, power, and identity, but unable to manifest a true form of their own without the life force you provide via your connection. Most elementals in their natural environment already have different sorts of forms, from vaguely humanoid, to animalistic, to simple masses of their component element. As your life force provides your eidolon the instincts necessary to adopt a physical form, their appearance varies based on the strength of their own self image and your prior exposure to elementals.</p>\n<p>Elemental eidolons tend to reach their unusual state— powerful but formless—as the result of large scale events or cataclysms, such as the war to seal the benevolent Elemental Lords or their recent unsealing. Whether elemental eidolons possess any memories of a previous life or are a new sapience formed from left‑over essence of a mighty servant of the Elemental Lords brought low varies from eidolon to eidolon. Together, you might undertake a journey to understand your eidolon's mysterious past or leave the past behind and forge a new destiny of your own.</p>\n<p><strong>Tradition</strong> primal</p>\n<p><strong>Traits</strong> eidolon, elemental, and one more (see Elemental Core, below)</p>\n<p><strong>Home Plane</strong>: elemental plane matching their Elemental Core</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Suggested Attacks</strong> branch (bludgeoning), fist (bludgeoning), spike (piercing), tendril (bludgeoning), wave (bludgeoning)</p>\n<p><strong>Adaptable Elemental</strong> Str +1, Dex +4, Con +3, Int +0, Wis +1, Cha +0; +1 AC (+4 Dex cap)</p>\n<p><strong>Primordial Elemental</strong> Str +4, Dex +2, Con +3, Int –1, Wis +1, Cha +0; +2 AC (+3 Dex cap)</p>\n<p><strong>Skills</strong> Nature, Survival</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Language</strong>s Sussuran (air elemental), Petran (earth elemental), Pyric (fire elemental), Talican (metal elemental), Thalassic (water elemental), or Muan (wood elemental),</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.I8ZJ99qzuGDEDbII]{elemental core}; Symbiosis @UUID[Compendium.pf2e-animal-companions.AC-Features.9P5AFhhbU1I2sOEN]{elemental burst}; Transcendence @UUID[Compendium.pf2e-animal-companions.AC-Features.rF67DRcO2oJKJt5t]{elemental maelstrom}</p>"
+      "value": "<p>Your eidolon is a primal chunk of elemental matter infused with sapience, power, and identity, but unable to manifest a true form of their own without the life force you provide via your connection. Most elementals in their natural environment already have different sorts of forms, from vaguely humanoid, to animalistic, to simple masses of their component element. As your life force provides your eidolon the instincts necessary to adopt a physical form, their appearance varies based on the strength of their own self image and your prior exposure to elementals.</p>\n<p>Elemental eidolons tend to reach their unusual state— powerful but formless—as the result of large scale events or cataclysms, such as the war to seal the benevolent Elemental Lords or their recent unsealing. Whether elemental eidolons possess any memories of a previous life or are a new sapience formed from left‑over essence of a mighty servant of the Elemental Lords brought low varies from eidolon to eidolon. Together, you might undertake a journey to understand your eidolon's mysterious past or leave the past behind and forge a new destiny of your own.</p>\n<p><strong>Tradition</strong> primal</p>\n<p><strong>Traits</strong> eidolon, elemental, and one more (see Elemental Core, below)</p>\n<p><strong>Home Plane</strong>: elemental plane matching their Elemental Core</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Suggested Attacks</strong> branch (bludgeoning), fist (bludgeoning), spike (piercing), tendril (bludgeoning), wave (bludgeoning)</p>\n<p><strong>Adaptable Elemental</strong> Str +1, Dex +4, Con +3, Int +0, Wis +1, Cha +0; +1 AC (+4 Dex cap)</p>\n<p><strong>Primordial Elemental</strong> Str +4, Dex +2, Con +3, Int –1, Wis +1, Cha +0; +2 AC (+3 Dex cap)</p>\n<p><strong>Skills</strong> Nature, Survival</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Language</strong>s Sussuran (air elemental), Petran (earth elemental), Pyric (fire elemental), Talican (metal elemental), Thalassic (water elemental), or Muan (wood elemental),</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.I8ZJ99qzuGDEDbII]{elemental core}; Symbiosis @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.9P5AFhhbU1I2sOEN]{elemental burst}; Transcendence @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.rF67DRcO2oJKJt5t]{elemental maelstrom}</p>"
     },
     "rules": [
       {
         "adjustName": false,
         "choices": [
           {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.Bct9n12OLVxFtmY1"
+            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.Bct9n12OLVxFtmY1"
           },
           {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.uC70GaoV83y2RPPG"
+            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.uC70GaoV83y2RPPG"
           }
         ],
         "flag": "eidolonType",
@@ -46,7 +46,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.xPn27nNxcLOByTXJ",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.xPn27nNxcLOByTXJ",
         "allowDuplicate": false
       },
       {
@@ -54,9 +54,9 @@
         "mode": "override",
         "path": "flags.system.eidolon-features",
         "value": {
-          "initial": "Compendium.pf2e-animal-companions.AC-Features.Item.I8ZJ99qzuGDEDbII",
-          "symbiosis": "Compendium.pf2e-animal-companions.AC-Features.9P5AFhhbU1I2sOEN",
-          "transcendence": "Compendium.pf2e-animal-companions.AC-Features.rF67DRcO2oJKJt5t"
+          "initial": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.I8ZJ99qzuGDEDbII",
+          "symbiosis": "Compendium.pf2e-animal-companions.sf-AC-Features.9P5AFhhbU1I2sOEN",
+          "transcendence": "Compendium.pf2e-animal-companions.sf-AC-Features.rF67DRcO2oJKJt5t"
         }
       }
     ],
@@ -115,7 +115,7 @@
     },
     "items": {
       "ScqCO": {
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.I8ZJ99qzuGDEDbII",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.I8ZJ99qzuGDEDbII",
         "img": "systems/pf2e/icons/spells/eclipse-burst.webp",
         "name": "Elemental Core",
         "level": 0
