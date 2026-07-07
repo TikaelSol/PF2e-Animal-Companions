@@ -39,7 +39,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.OJePkZgnguu5Z8cA",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.OJePkZgnguu5Z8cA",
         "predicate": [
           {
             "not": "class:construct-companion"
