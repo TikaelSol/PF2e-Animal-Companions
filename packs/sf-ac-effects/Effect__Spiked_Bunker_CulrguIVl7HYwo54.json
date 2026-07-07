@@ -33,8 +33,8 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.sf2e.animalCompanion.isSpecialized",
-        "value": "{item|flags.sf2e.rulesSelections.isSpecialized}"
+        "path": "flags.system.animalCompanion.isSpecialized",
+        "value": "{item|flags.system.rulesSelections.isSpecialized}"
       },
       {
         "key": "FlatModifier",

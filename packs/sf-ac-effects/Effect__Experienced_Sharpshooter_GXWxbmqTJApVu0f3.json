@@ -71,7 +71,7 @@
         "key": "FlatModifier",
         "selector": "speed",
         "type": "circumstance",
-        "value": "@item.flags.sf2e.rulesSelections.penalty"
+        "value": "@item.flags.system.rulesSelections.penalty"
       }
     ],
     "slug": "effect-experienced-sharpshooter",

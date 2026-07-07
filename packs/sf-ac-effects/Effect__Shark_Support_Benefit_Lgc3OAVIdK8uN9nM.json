@@ -39,7 +39,7 @@
         "hideIfDisabled": true,
         "critical": false,
         "damageType": "slashing",
-        "diceNumber": "{item|flags.sf2e.rulesSelections.sharkSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.sharkSupportBenefit}",
         "dieSize": "d8",
         "key": "DamageDice",
         "predicate": [

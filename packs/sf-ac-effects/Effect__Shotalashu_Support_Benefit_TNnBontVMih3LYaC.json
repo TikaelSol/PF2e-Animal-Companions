@@ -39,7 +39,7 @@
         "hideIfDisabled": true,
         "critical": false,
         "damageType": "mental",
-        "diceNumber": "{item|flags.sf2e.rulesSelections.shotalashuSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.shotalashuSupportBenefit}",
         "dieSize": "d6",
         "key": "DamageDice",
         "predicate": [
