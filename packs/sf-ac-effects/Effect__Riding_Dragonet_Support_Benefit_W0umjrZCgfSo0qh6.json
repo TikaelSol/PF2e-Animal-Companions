@@ -49,7 +49,7 @@
         "hideIfDisabled": true,
         "critical": false,
         "damageType": "force",
-        "diceNumber": "{item|flags.sf2e.rulesSelections.ridingDragonetSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.ridingDragonetSupportBenefit}",
         "dieSize": "d4",
         "key": "DamageDice",
         "predicate": [

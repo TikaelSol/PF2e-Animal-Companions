@@ -47,7 +47,7 @@
       {
         "key": "FlatModifier",
         "selector": "ac",
-        "value": "{item|flags.sf2e.rulesSelections.cragstoneBearSupportBenefit}",
+        "value": "{item|flags.system.rulesSelections.cragstoneBearSupportBenefit}",
         "type": "circumstance"
       }
     ],

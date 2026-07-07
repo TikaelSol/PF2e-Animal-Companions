@@ -52,7 +52,7 @@
       },
       {
         "key": "RollOption",
-        "option": "genie-touched-companion:{item|flags.sf2e.rulesSelections.genieTouchedCompanion.genie}"
+        "option": "genie-touched-companion:{item|flags.system.rulesSelections.genieTouchedCompanion.genie}"
       },
       {
         "key": "ActiveEffectLike",
@@ -100,13 +100,13 @@
       {
         "key": "Resistance",
         "value": 5,
-        "type": "{item|flags.sf2e.rulesSelections.genieTouchedCompanion.resistance}"
+        "type": "{item|flags.system.rulesSelections.genieTouchedCompanion.resistance}"
       },
       {
         "key": "ActiveEffectLike",
         "value": 2,
         "mode": "upgrade",
-        "path": "system.skills.{item|flags.sf2e.rulesSelections.genieTouchedCompanion.skill}.rank"
+        "path": "system.skills.{item|flags.system.rulesSelections.genieTouchedCompanion.skill}.rank"
       },
       {
         "key": "ItemAlteration",
@@ -122,7 +122,7 @@
         "key": "ItemAlteration",
         "mode": "add",
         "property": "traits",
-        "value": "{item|flags.sf2e.rulesSelections.genieTouchedCompanion.trait}",
+        "value": "{item|flags.system.rulesSelections.genieTouchedCompanion.trait}",
         "predicate": [
           "item:category:unarmed"
         ],

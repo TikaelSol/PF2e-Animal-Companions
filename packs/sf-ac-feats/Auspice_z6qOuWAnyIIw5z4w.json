@@ -41,7 +41,7 @@
       {
         "key": "ActorTraits",
         "add": [
-          "{item|flags.sf2e.rulesSelections.auspice}"
+          "{item|flags.system.rulesSelections.auspice}"
         ]
       },
       {

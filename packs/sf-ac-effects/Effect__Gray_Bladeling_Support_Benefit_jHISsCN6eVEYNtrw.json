@@ -55,7 +55,7 @@
         "critical": false,
         "damageType": "bleed",
         "diceNumber": 1,
-        "dieSize": "{item|flags.sf2e.rulesSelections.grayBladelingSupportBenefit}",
+        "dieSize": "{item|flags.system.rulesSelections.grayBladelingSupportBenefit}",
         "key": "DamageDice",
         "predicate": [
           "gray-bladeling-support-benefit",
@@ -68,8 +68,8 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.sf2e.animalCompanion.grayBladelingSupportBenefit",
-        "value": "{item|flags.sf2e.rulesSelections.grayBladelingSupportBenefit}"
+        "path": "flags.system.animalCompanion.grayBladelingSupportBenefit",
+        "value": "{item|flags.system.rulesSelections.grayBladelingSupportBenefit}"
       },
       {
         "key": "Note",

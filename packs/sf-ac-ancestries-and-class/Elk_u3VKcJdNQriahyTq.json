@@ -105,7 +105,7 @@
       },
       {
         "key": "CreatureSize",
-        "value": "{item|flags.sf2e.rulesSelections.companionSize}"
+        "value": "{item|flags.system.rulesSelections.companionSize}"
       },
       {
         "key": "GrantItem",
@@ -114,7 +114,7 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.sf2e.companionCompendia.advancedManeuver",
+        "path": "flags.system.companionCompendia.advancedManeuver",
         "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.gFZCyLnqeWrK6u0P"
       }
     ],

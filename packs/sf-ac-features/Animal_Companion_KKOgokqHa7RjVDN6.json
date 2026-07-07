@@ -16,7 +16,7 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.sf2e.disableABP",
+        "path": "flags.system.disableABP",
         "value": true,
         "priority": 10
       },

@@ -40,7 +40,7 @@
         "category": "persistent",
         "critical": false,
         "damageType": "bleed",
-        "diceNumber": "{item|flags.sf2e.rulesSelections.metalElementalSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.metalElementalSupportBenefit}",
         "dieSize": "d6",
         "key": "DamageDice",
         "predicate": [

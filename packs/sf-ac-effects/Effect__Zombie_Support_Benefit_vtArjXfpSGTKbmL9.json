@@ -39,7 +39,7 @@
         "hideIfDisabled": true,
         "critical": false,
         "damageType": "untyped",
-        "diceNumber": "{item|flags.sf2e.rulesSelections.zombieSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.zombieSupportBenefit}",
         "dieSize": "d6",
         "key": "DamageDice",
         "predicate": [

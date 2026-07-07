@@ -40,7 +40,7 @@
         "category": "persistent",
         "critical": false,
         "damageType": "bleed",
-        "diceNumber": "{item|flags.sf2e.rulesSelections.vampiricAnimalSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.vampiricAnimalSupportBenefit}",
         "dieSize": "d6",
         "key": "DamageDice",
         "predicate": [

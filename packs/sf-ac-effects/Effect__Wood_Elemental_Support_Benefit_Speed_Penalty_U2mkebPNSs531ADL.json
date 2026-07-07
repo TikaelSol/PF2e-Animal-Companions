@@ -58,7 +58,7 @@
         "selector": [
           "all-speeds"
         ],
-        "value": "@item.flags.sf2e.rulesSelections.penalty",
+        "value": "@item.flags.system.rulesSelections.penalty",
         "type": "circumstance"
       }
     ],
