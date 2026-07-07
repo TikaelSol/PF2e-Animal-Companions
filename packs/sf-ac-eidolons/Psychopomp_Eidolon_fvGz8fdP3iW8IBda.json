@@ -12,17 +12,17 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon is a psychopomp, a creature whose sworn duty is to usher souls safely to the afterlife and maintain the courts of the dead. Psychopomp eidolons have a variety of appearances, but since they often traffic with mortals, their form typically includes an elaborate mask. You and your psychopomp eidolon share an important fate together, whether it relates directly to your own soul or to a mission that will somehow protect the souls of others.</p>\n<p><strong>Tradition</strong> divine</p>\n<p><strong>Traits</strong> eidolon, monitor, psychopomp</p>\n<p><strong>Alignment</strong> must be true neutral</p>\n<p><strong>Home Plane</strong> The Boneyard</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Suggested Attacks</strong> beak (piercing), claw (slashing), fist (bludgeoning), jaws (piercing), unarmed attacks shaped like a weapon</p>\n<p><strong>Soul Guardian</strong> Str 18, Dex 14, Con 16, Int 10, Wis 12, Cha 8; +2 AC (+3 Dex cap)</p>\n<p><strong>Scribe of the Dead</strong> Str 12, Dex 18, Con 12, Int 14, Wis 12, Cha 10; +1 AC (+4 Dex cap)</p>\n<p><strong>Skills</strong> Intimidation, Religion</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Language</strong> Requian</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.AC-Features.gyI9aHjkO84BQ3tR]{spirit touch}; Symbiosis @UUID[Compendium.pf2e-animal-companions.AC-Features.qFYR3I9XcjBZckUf]{hidden watcher}; Transcendence @UUID[Compendium.pf2e-animal-companions.AC-Features.rFuzSio2a1VOd2Ch]{spirit taker}</p>"
+      "value": "<p>Your eidolon is a psychopomp, a creature whose sworn duty is to usher souls safely to the afterlife and maintain the courts of the dead. Psychopomp eidolons have a variety of appearances, but since they often traffic with mortals, their form typically includes an elaborate mask. You and your psychopomp eidolon share an important fate together, whether it relates directly to your own soul or to a mission that will somehow protect the souls of others.</p>\n<p><strong>Tradition</strong> divine</p>\n<p><strong>Traits</strong> eidolon, monitor, psychopomp</p>\n<p><strong>Alignment</strong> must be true neutral</p>\n<p><strong>Home Plane</strong> The Boneyard</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Suggested Attacks</strong> beak (piercing), claw (slashing), fist (bludgeoning), jaws (piercing), unarmed attacks shaped like a weapon</p>\n<p><strong>Soul Guardian</strong> Str 18, Dex 14, Con 16, Int 10, Wis 12, Cha 8; +2 AC (+3 Dex cap)</p>\n<p><strong>Scribe of the Dead</strong> Str 12, Dex 18, Con 12, Int 14, Wis 12, Cha 10; +1 AC (+4 Dex cap)</p>\n<p><strong>Skills</strong> Intimidation, Religion</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Language</strong> Requian</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.gyI9aHjkO84BQ3tR]{spirit touch}; Symbiosis @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.qFYR3I9XcjBZckUf]{hidden watcher}; Transcendence @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.rFuzSio2a1VOd2Ch]{spirit taker}</p>"
     },
     "rules": [
       {
         "adjustName": false,
         "choices": [
           {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.YkevbtGldcm34DlT"
+            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.YkevbtGldcm34DlT"
           },
           {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.VXlVUNQjQls2ubwX"
+            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.VXlVUNQjQls2ubwX"
           }
         ],
         "flag": "eidolonType",
@@ -48,7 +48,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.xPn27nNxcLOByTXJ",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.xPn27nNxcLOByTXJ",
         "allowDuplicate": false
       },
       {
@@ -56,9 +56,9 @@
         "mode": "override",
         "path": "flags.pf2e.eidolon-features",
         "value": {
-          "initial": "Compendium.pf2e-animal-companions.AC-Features.gyI9aHjkO84BQ3tR",
-          "symbiosis": "Compendium.pf2e-animal-companions.AC-Features.qFYR3I9XcjBZckUf",
-          "transcendence": "Compendium.pf2e-animal-companions.AC-Features.rFuzSio2a1VOd2Ch"
+          "initial": "Compendium.pf2e-animal-companions.sf-AC-Features.gyI9aHjkO84BQ3tR",
+          "symbiosis": "Compendium.pf2e-animal-companions.sf-AC-Features.qFYR3I9XcjBZckUf",
+          "transcendence": "Compendium.pf2e-animal-companions.sf-AC-Features.rFuzSio2a1VOd2Ch"
         }
       }
     ],
@@ -124,7 +124,7 @@
         "img": "systems/pf2e/icons/features/classes/eidolon.webp",
         "name": "Eidolon Ability",
         "level": 1,
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.5E71mdImeRE9Fh1D"
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.5E71mdImeRE9Fh1D"
       }
     },
     "vision": "darkvision"
