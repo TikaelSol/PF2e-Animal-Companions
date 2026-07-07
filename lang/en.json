@@ -158,7 +158,7 @@
             "SiltFrog": {
                 "EffectNote": {
                     "PF": "The creature is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} until the start of your next turn.",
-                    "SF": "The creature is @UUID[[Compendium.sf2e.conditions.Item.9PR9y0bi4JPKnHPR]{Deafened} until the start of your next turn."
+                    "SF": "The creature is @UUID[Compendium.sf2e.conditions.Item.9PR9y0bi4JPKnHPR]{Deafened} until the start of your next turn."
                 }
             },
             "SkeletalBirdOfPrey": {
