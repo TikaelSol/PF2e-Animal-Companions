@@ -39,7 +39,7 @@
         "hideIfDisabled": true,
         "critical": false,
         "damageType": "bludgeoning",
-        "diceNumber": "{item|flags.pf2e.rulesSelections.undeadHandSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.undeadHandSupportBenefit}",
         "dieSize": "d6",
         "key": "DamageDice",
         "predicate": [

@@ -259,7 +259,7 @@
         "key": "ItemAlteration",
         "mode": "upgrade",
         "property": "ac-bonus",
-        "itemId": "{item|flags.pf2e.itemGrants.kitArmor.id}",
+        "itemId": "{item|flags.system.itemGrants.kitArmor.id}",
         "value": 2,
         "predicate": [
           "feature:veteran-advancement"
@@ -420,7 +420,7 @@
         "key": "ItemAlteration",
         "mode": "upgrade",
         "property": "ac-bonus",
-        "itemId": "{item|flags.pf2e.itemGrants.kitArmor.id}",
+        "itemId": "{item|flags.system.itemGrants.kitArmor.id}",
         "value": 3,
         "predicate": [
           "feature:exceptional-advancement"

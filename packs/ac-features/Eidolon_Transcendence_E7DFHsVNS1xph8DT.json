@@ -49,12 +49,12 @@
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
-        "path": "system.abilities.{item|flags.pf2e.rulesSelections.abilityIncrease}.mod",
+        "path": "system.abilities.{item|flags.system.rulesSelections.abilityIncrease}.mod",
         "priority": 50
       },
       {
         "key": "GrantItem",
-        "uuid": "{actor|flags.pf2e.eidolon-features.transcendence}"
+        "uuid": "{actor|flags.system.eidolon-features.transcendence}"
       }
     ],
     "slug": "eidolon-transcendence",

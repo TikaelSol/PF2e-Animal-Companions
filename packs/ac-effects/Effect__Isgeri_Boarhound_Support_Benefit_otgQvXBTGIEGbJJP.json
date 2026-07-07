@@ -60,7 +60,7 @@
         "hideIfDisabled": true,
         "critical": false,
         "damageType": "piercing",
-        "diceNumber": "{item|flags.pf2e.rulesSelections.isgeriBoarhoundSupportBenefit}",
+        "diceNumber": "{item|flags.system.rulesSelections.isgeriBoarhoundSupportBenefit}",
         "dieSize": "d6",
         "key": "DamageDice",
         "predicate": [

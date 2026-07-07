@@ -115,7 +115,7 @@
             },
             "MetalElemental": {
                 "SpikedBunker": {
-                    "DamageNote": "You take @Damage[(@actor.flags.pf2e.rulesSelections.isSpecialized)d6[piercing]] damage."
+                    "DamageNote": "You take @Damage[(@actor.flags.system.rulesSelections.isSpecialized)d6[piercing]] damage."
                 }
             },
             "Mole": {

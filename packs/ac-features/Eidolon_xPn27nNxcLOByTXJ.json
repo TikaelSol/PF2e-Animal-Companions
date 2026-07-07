@@ -44,7 +44,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.primaryStrike}",
+        "uuid": "{item|flags.system.rulesSelections.primaryStrike}",
         "allowDuplicate": false
       },
       {
