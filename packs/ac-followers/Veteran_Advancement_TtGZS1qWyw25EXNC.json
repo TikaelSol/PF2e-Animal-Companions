@@ -21,7 +21,119 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitAcid",
+            "predicate": [
+              {
+                "nor": [
+                  "energy-damage-first:acid",
+                  "energy-damage-second:acid"
+                ]
+              }
+            ],
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "predicate": [
+              {
+                "nor": [
+                  "energy-damage-first:cold",
+                  "energy-damage-second:cold"
+                ]
+              }
+            ],
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "predicate": [
+              {
+                "nor": [
+                  "energy-damage-first:electricity",
+                  "energy-damage-second:electricity"
+                ]
+              }
+            ],
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "predicate": [
+              {
+                "nor": [
+                  "energy-damage-first:fire",
+                  "energy-damage-second:fire"
+                ]
+              }
+            ],
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitForce",
+            "value": "force"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "predicate": [
+              {
+                "nor": [
+                  "energy-damage-first:mental",
+                  "energy-damage-second:mental"
+                ]
+              }
+            ],
+            "value": "mental"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "predicate": [
+              {
+                "nor": [
+                  "energy-damage-first:poison",
+                  "energy-damage-second:poison"
+                ]
+              }
+            ],
+            "value": "poison"
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "value": "sonic"
+          },
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit"
+          },
+          {
+            "label": "PF2E.TraitVitality",
+            "value": "vitality"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "predicate": [
+              {
+                "nor": [
+                  "energy-damage-first:void",
+                  "energy-damage-second:void"
+                ]
+              }
+            ],
+            "value": "void"
+          }
+        ],
+        "key": "ChoiceSet",
+        "predicate": [
+          "class:adept"
+        ],
+        "rollOption": "energy-damage-veteran",
+        "prompt": "PF2E.SpecificRule.Prompt.Trait"
+      }
+    ],
     "slug": "veteran-advancement",
     "traits": {
       "otherTags": [],
@@ -57,9 +169,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.7.1"
+    "systemVersion": "8.3.0"
   },
   "ownership": {
     "default": 0,
