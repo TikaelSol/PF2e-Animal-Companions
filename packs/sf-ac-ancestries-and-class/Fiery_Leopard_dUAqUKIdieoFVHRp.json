@@ -134,7 +134,7 @@
           {
             "or": [
               "feature:nimble-animal-companion",
-              "feature:savaga-animal-companion"
+              "feature:savage-animal-companion"
             ]
           }
         ],
