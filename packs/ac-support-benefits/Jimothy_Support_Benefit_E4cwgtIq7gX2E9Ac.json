@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>The very sight of Jimothy lifts your allies' spirits. Choose yourself or one ally within 30 feet of Jimothy who can see Jimothy. Until the start of your next turn, they gain a +2 circumstance bonus to saves against emotion effects.</p><p>@UUID[Item.MyPo7PKZfyv5hMQX]{Effect: Jimothy Support Benefit}</p>",
+      "value": "<p>The very sight of Jimothy lifts your allies' spirits. Choose yourself or one ally within 30 feet of Jimothy who can see Jimothy. Until the start of your next turn, they gain a +2 circumstance bonus to saves against emotion effects.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.MyPo7PKZfyv5hMQX]{Effect: Jimothy Support Benefit}</p>",
       "gm": ""
     },
     "publication": {
@@ -44,9 +44,6 @@
     "coreVersion": "14.365",
     "systemId": "pf2e",
     "systemVersion": "8.3.0",
-    "createdTime": 1784990077123,
-    "modifiedTime": 1784990545132,
-    "lastModifiedBy": "XUrhfvb05TiIl7Al",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
