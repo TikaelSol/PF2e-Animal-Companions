@@ -542,7 +542,7 @@
         "mode": "upgrade",
         "property": "ac-bonus",
         "itemId": "{item|flags.system.itemGrants.kitArmor.id}",
-        "value": 4,
+        "value": 2,
         "predicate": [
           "feature:veteran-advancement"
         ]
@@ -561,7 +561,7 @@
         "definition": [
           "item:id:{item|id}"
         ],
-        "label": "PF2E.Weapon.Base.falchion",
+        "label": "Daggers and Energy Blast",
         "value": 2,
         "predicate": [
           "feature:veteran-advancement"
@@ -581,25 +581,31 @@
       },
       {
         "key": "FlatModifier",
-        "selector": "dagger-damage",
+        "selector": [
+          "dagger-damage"
+        ],
         "value": 3,
         "label": "COMP.SpecificRule.Follower.VeteranAdvancement.Label",
         "slug": "veteran-advancement-dagger-damage",
         "predicate": [
           "feature:veteran-advancement"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": true,
+        "damageType": "{item|flags.system.rulesSelections.energyBlastDamage}"
       },
       {
         "key": "FlatModifier",
-        "selector": "energy-blast-damage",
+        "selector": [
+          "energy-blast-damage"
+        ],
         "value": 2,
         "label": "COMP.SpecificRule.Follower.VeteranAdvancement.Label",
         "slug": "veteran-energy-blast-advancement-damage",
         "predicate": [
           "feature:veteran-advancement"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": true,
+        "damageType": "{item|flags.system.rulesSelections.energyBlastDamage}"
       },
       {
         "key": "ActiveEffectLike",
@@ -652,7 +658,7 @@
         "mode": "upgrade",
         "property": "ac-bonus",
         "itemId": "{item|flags.system.itemGrants.kitArmor.id}",
-        "value": 5,
+        "value": 3,
         "predicate": [
           "feature:exceptional-advancement"
         ]
@@ -851,9 +857,9 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.363",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.2.0",
+    "systemVersion": "8.3.0",
     "exportSource": null,
     "compendiumSource": null,
     "duplicateSource": null
