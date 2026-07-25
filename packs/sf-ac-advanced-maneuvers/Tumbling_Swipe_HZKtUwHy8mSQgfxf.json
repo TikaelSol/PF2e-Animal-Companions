@@ -1,0 +1,59 @@
+{
+  "name": "Tumbling Swipe",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Jimothy Strides up to his Speed. During this movement, he can try to move through the space of one enemy and take a small object from them. Jimothy attempts a Stealth check against the enemy's Reflex DC as soon as he tries to enter its space.</p><hr><p><strong>Critical Success</strong> Jimothy moves through the enemy's space and takes an object of negligible Bulk from the enemy that is worn but not closely guarded (such as a pouch). Jimothy must have a free hand to take the object. If he doesn't have enough Speed to move all the way through its space, Jimothy gets the same effect as a failure.</p><p><strong>Success</strong> As critical success, but Jimothy treats the squares in the enemy's space as difficult terrain (every 5 feet costs 10 feet of movement).</p><p><strong>Failure</strong> Jimothy's movement ends, and he triggers reactions as if he had moved out of the square he started in.</p><p><strong>Critical Failure</strong> As failure, but Jimothy also then falls @UUID[Compendium.pf2e-anachronism.conditions.Item.j91X7x0XSomq8d60]{Prone}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Paizo CUP",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manipulate",
+        "move"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": true
+  },
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "XUrhfvb05TiIl7Al": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "sf2e",
+    "systemVersion": "8.3.0",
+    "createdTime": 1784990086533,
+    "modifiedTime": 1784990086533,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "HZKtUwHy8mSQgfxf",
+  "sort": 0,
+  "_key": "!items!HZKtUwHy8mSQgfxf"
+}

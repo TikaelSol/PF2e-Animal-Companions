@@ -17,6 +17,11 @@
     "rules": [
       {
         "key": "CreatureSize",
+        "predicate": [
+          {
+            "not": "self:ancestry:jimothy"
+          }
+        ],
         "value": 1,
         "maximumSize": "lg"
       },
