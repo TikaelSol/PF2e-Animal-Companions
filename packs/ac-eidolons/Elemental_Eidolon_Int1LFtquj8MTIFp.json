@@ -28,6 +28,10 @@
         "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
       },
       {
+        "key": "RollOption",
+        "option": "eidolon-type"
+      },
+      {
         "key": "GrantItem",
         "uuid": "{item|flags.system.rulesSelections.eidolonType}",
         "allowDuplicate": false
@@ -130,11 +134,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "8.1.2",
-    "coreVersion": "14.361",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Eidolons.Item.Int1LFtquj8MTIFp",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785182834429,
+    "modifiedTime": 1785182854541,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "_id": "Int1LFtquj8MTIFp",
   "sort": 600000,

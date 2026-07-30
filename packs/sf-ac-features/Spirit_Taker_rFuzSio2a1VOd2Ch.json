@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon is particularly capable when it comes to handling bodiless spirits and putting undead to their final rest. Your eidolon can see incorporeal creatures inside of solid objects and can attack them with Strikes without penalty; an incorporeal creature in a solid object that takes damage from your eidolon's Strike is expelled from the object to the nearest available space, moving closer to your eidolon if possible.</p>\n<p>Additionally, your eidolon can target or affect a creature projecting its consciousness (such as via project image) or possessing another creature, even if its body is elsewhere, though your eidolon must know about the possession or projection and choose to do so.</p>\n<p>Finally, the spirit of an undead destroyed by your eidolon's Strikes is sent directly to the Boneyard for judgment; an undead with an ability to avoid such a fate automatically, such as a ghost's rejuvenation, can attempt a counteract check against your spell DC to return via that ability as normal. In that case, it uses its Will save modifier as its counteract modifier.</p>"
+      "value": "<p>Your eidolon is particularly capable when it comes to handling bodiless spirits and putting undead to their final rest. Your eidolon can see incorporeal creatures inside of solid objects and can attack them with Strikes without penalty; an incorporeal creature in a solid object that takes damage from your eidolon's Strike is expelled from the object to the nearest available space, moving closer to your eidolon if possible.</p><p>Additionally, your eidolon can target or affect a creature projecting its consciousness (such as via @UUID[Compendium.pf2e-anachronism.spells.Item.0873MWM0qKDDv81O]{project image}) or possessing another creature, even if its body is elsewhere, though your eidolon must know about the possession or projection and choose to do so.</p><p>Finally, the spirit of an undead destroyed by your eidolon's Strikes is sent directly to the Boneyard for judgment; an undead with an ability to avoid such a fate automatically, such as a ghost's rejuvenation, can attempt a counteract check against your spell DC to return via that ability as normal. In that case, the enemy uses its Will save modifier as its counteract modifier. When your eidolon destroys an undead (even if the undead later returns), they gain temporary Hit Points equal to your level that last for 1 minute.</p>"
     },
     "rules": [],
     "slug": "spirit-taker",
@@ -28,10 +28,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 17
@@ -57,11 +57,14 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.rFuzSio2a1VOd2Ch",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785249062194,
+    "modifiedTime": 1785249127697,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "HvI6KKG0ieyBEFsg",
   "sort": 175000,

@@ -43,7 +43,8 @@
         ],
         "flag": "abilityBoostOne",
         "key": "ChoiceSet",
-        "prompt": "PF2E.AbilityBoost"
+        "prompt": "PF2E.AbilityBoost",
+        "rollOption": "boost-one"
       },
       {
         "key": "GrantItem",
@@ -54,32 +55,63 @@
         "choices": [
           {
             "label": "PF2E.AbilityStr",
+            "predicate": [
+              {
+                "not": "boost-one:strength-boost"
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.5gnUVvjqXD99OpUX"
           },
           {
             "label": "PF2E.AbilityDex",
+            "predicate": [
+              {
+                "not": "boost-one:dexterity-boost"
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.nhFkOYRdlT5iLzdQ"
           },
           {
             "label": "PF2E.AbilityCon",
+            "predicate": [
+              {
+                "not": "boost-one:constitution-boost"
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.RQd8FPcVP3hrVXCr"
           },
           {
             "label": "PF2E.AbilityInt",
+            "predicate": [
+              {
+                "not": "boost-one:intelligence-boost"
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.RvCQCutoKANEqw5C"
           },
           {
             "label": "PF2E.AbilityWis",
+            "predicate": [
+              {
+                "not": "boost-one:wisdom-boost"
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.At61D9oWr39Ss6Ea"
           },
           {
             "label": "PF2E.AbilityCha",
+            "predicate": [
+              {
+                "not": "boost-one:charisma-boost"
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.qhUxX4BhaZc0griR"
           }
         ],
         "flag": "abilityBoostTwo",
         "key": "ChoiceSet",
-        "prompt": "PF2E.AbilityBoost"
+        "prompt": "PF2E.AbilityBoost",
+        "rollOption": "boost-two"
       },
       {
         "key": "GrantItem",
@@ -90,32 +122,81 @@
         "choices": [
           {
             "label": "PF2E.AbilityStr",
+            "predicate": [
+              {
+                "nor": [
+                  "boost-one:strength-boost",
+                  "boost-two:strength-boost"
+                ]
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.5gnUVvjqXD99OpUX"
           },
           {
             "label": "PF2E.AbilityDex",
+            "predicate": [
+              {
+                "nor": [
+                  "boost-one:dexterity-boost",
+                  "boost-two:dexterity-boost"
+                ]
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.nhFkOYRdlT5iLzdQ"
           },
           {
             "label": "PF2E.AbilityCon",
+            "predicate": [
+              {
+                "nor": [
+                  "boost-one:constitution-boost",
+                  "boost-two:constitution-boost"
+                ]
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.RQd8FPcVP3hrVXCr"
           },
           {
             "label": "PF2E.AbilityInt",
+            "predicate": [
+              {
+                "nor": [
+                  "boost-one:intelligence-boost",
+                  "boost-two:intelligence-boost"
+                ]
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.RvCQCutoKANEqw5C"
           },
           {
             "label": "PF2E.AbilityWis",
+            "predicate": [
+              {
+                "nor": [
+                  "boost-one:wisdom-boost",
+                  "boost-two:wisdom-boost"
+                ]
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.At61D9oWr39Ss6Ea"
           },
           {
             "label": "PF2E.AbilityCha",
+            "predicate": [
+              {
+                "nor": [
+                  "boost-one:charisma-boost",
+                  "boost-two:charisma-boost"
+                ]
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.qhUxX4BhaZc0griR"
           }
         ],
         "flag": "abilityBoostThree",
         "key": "ChoiceSet",
-        "prompt": "PF2E.AbilityBoost"
+        "prompt": "PF2E.AbilityBoost",
+        "rollOption": "boost-three"
       },
       {
         "key": "GrantItem",
@@ -126,26 +207,80 @@
         "choices": [
           {
             "label": "PF2E.AbilityStr",
+            "predicate": [
+              {
+                "nor": [
+                  "boost-one:strength-boost",
+                  "boost-two:strength-boost",
+                  "boost-three:strength-boost"
+                ]
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.5gnUVvjqXD99OpUX"
           },
           {
             "label": "PF2E.AbilityDex",
+            "predicate": [
+              {
+                "nor": [
+                  "boost-one:dexterity-boost",
+                  "boost-two:dexterity-boost",
+                  "boost-three:dexterity-boost"
+                ]
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.nhFkOYRdlT5iLzdQ"
           },
           {
             "label": "PF2E.AbilityCon",
+            "predicate": [
+              {
+                "nor": [
+                  "boost-one:constitution-boost",
+                  "boost-two:constitution-boost",
+                  "boost-three:constitution-boost"
+                ]
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.RQd8FPcVP3hrVXCr"
           },
           {
             "label": "PF2E.AbilityInt",
+            "predicate": [
+              {
+                "nor": [
+                  "boost-one:intelligence-boost",
+                  "boost-two:intelligence-boost",
+                  "boost-three:intelligence-boost"
+                ]
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.RvCQCutoKANEqw5C"
           },
           {
             "label": "PF2E.AbilityWis",
+            "predicate": [
+              {
+                "nor": [
+                  "boost-one:wisdom-boost",
+                  "boost-two:wisdom-boost",
+                  "boost-three:wisdom-boost"
+                ]
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.At61D9oWr39Ss6Ea"
           },
           {
             "label": "PF2E.AbilityCha",
+            "predicate": [
+              {
+                "nor": [
+                  "boost-one:charisma-boost",
+                  "boost-two:charisma-boost",
+                  "boost-three:charisma-boost"
+                ]
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.qhUxX4BhaZc0griR"
           }
         ],
@@ -202,14 +337,17 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.cejYxzaW2SQwWMjC",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785247026649,
+    "modifiedTime": 1785258826879,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
-  "folder": null,
-  "sort": 8400000,
+  "folder": "Gk5ceuVsLrx5LhgK",
+  "sort": 700000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

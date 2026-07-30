@@ -2,10 +2,10 @@
   "_id": "kZvomyJobGrDs1MU",
   "name": "Legchair Support Benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 8200000,
+  "sort": 7400000,
   "flags": {
     "core": {}
   },
@@ -48,10 +48,10 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.wf20kx6pPGBWwUn2",
     "duplicateSource": null,
     "exportSource": null
   },

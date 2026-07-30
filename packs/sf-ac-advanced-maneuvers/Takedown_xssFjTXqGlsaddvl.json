@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> The animal companion's last action was a successful jaws Strike.</p><hr /><p>The wolf automatically knocks the target of its jaws Strike @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+      "value": "<p><strong>Requirements</strong> The animal companion's last action was a successful jaws Strike.</p><hr /><p>The wolf automatically knocks the target of its jaws Strike @UUID[Compendium.pf2e-anachronism.conditions.Item.j91X7x0XSomq8d60]{Prone}.</p>"
     },
     "rules": [],
     "slug": "takedown",

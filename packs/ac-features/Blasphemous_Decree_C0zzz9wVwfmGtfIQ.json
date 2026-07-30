@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your demon utters indescribable words writhing with its associated sin. It can cast an evil <em>@Compendium[pf2e.spells-srd.sX2o0HH4RjJDAZ8C]{Divine Decree}</em> once per day as a 9th-level spell. You are unaffected by this decree, even if you aren't evil. At 19th level, this becomes a 10th-level divine decree instead.</p>"
+      "value": "<p>Your demon utters indescribable words writhing with their associated sin. They can cast @UUID[Compendium.pf2e.spells-srd.Item.sX2o0HH4RjJDAZ8C]{Divine Decree} once per day as a 9th-rank spell. You are unaffected by this decree. At 19th level, this becomes a 10th-rank divine decree instead.</p>"
     },
     "rules": [],
     "slug": "blasphemous-decree",
@@ -57,11 +57,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.C0zzz9wVwfmGtfIQ",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785195011385,
+    "modifiedTime": 1785195023310,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "4oaqgJDRdOmg12Mo",
   "sort": 100000,

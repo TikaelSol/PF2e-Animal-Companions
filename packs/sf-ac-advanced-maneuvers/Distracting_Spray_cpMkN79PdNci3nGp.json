@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The capybara sprays an adjacent target with its scent glands. The target must attempt a @Check[fortitude|against:distracting-spray] save. Wiping off the musk takes an Interact action and ends the effect. This uses a trained DC using the capybara's Constitution modifier or an expert DC if the capybara is specialized.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round.</p><p><strong>Failure</strong> The creature is clumsy 1 for 1 minute.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 2} for 1 minute.</p>"
+      "value": "<p>The capybara sprays an adjacent target with its scent glands. The target must attempt a @Check[fortitude|against:distracting-spray] save. Wiping off the musk takes an Interact action and ends the effect. This uses a trained DC using the capybara's Constitution modifier or an expert DC if the capybara is specialized.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.pf2e-anachronism.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round.</p><p><strong>Failure</strong> The creature is clumsy 1 for 1 minute.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e-anachronism.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 2} for 1 minute.</p>"
     },
     "rules": [
       {

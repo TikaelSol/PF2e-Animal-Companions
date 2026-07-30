@@ -36,7 +36,7 @@
     },
     "deathNote": false
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
   "ownership": {
     "default": 0,
@@ -46,20 +46,20 @@
     "core": {}
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.5y5rpOAEPs2fP0l4",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.5y5rpOAEPs2fP0l4",
     "duplicateSource": null,
     "exportSource": {
-      "worldId": "pf2e-test-world",
+      "worldId": "sf2e-test-world",
       "uuid": null,
       "coreVersion": "11.315",
-      "systemId": "pf2e",
+      "systemId": "sf2e",
       "systemVersion": "5.15.1"
     }
   },
   "_id": "5y5rpOAEPs2fP0l4",
-  "sort": 3000000,
+  "sort": 2200000,
   "_key": "!items!5y5rpOAEPs2fP0l4"
 }

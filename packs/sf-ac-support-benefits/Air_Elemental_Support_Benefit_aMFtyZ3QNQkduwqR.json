@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your air elemental swirls around you with concealing gusts, making it harder for your foes to hit you and possibly giving you a moment to hide. Until the start of your next turn, if you hit with a Strike and deal damage to a creature in your air elemental's reach, you are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to that creature until the start of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.UaUFJKZxEkN7yraC]{Effect: Air Elemental Support Benefit}</p>"
+      "value": "<p>Your air elemental swirls around you with concealing gusts, making it harder for your foes to hit you and possibly giving you a moment to hide. Until the start of your next turn, if you hit with a Strike and deal damage to a creature in your air elemental's reach, you are @UUID[Compendium.pf2e-anachronism.conditions.Item.DmAIPqOBomZ7H95W]{Concealed} to that creature until the start of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.UaUFJKZxEkN7yraC]{Effect: Air Elemental Support Benefit}</p>"
     },
     "rules": [],
     "slug": "air-elemental-support-benefit",
@@ -37,18 +37,18 @@
     "deathNote": false
   },
   "_id": "aMFtyZ3QNQkduwqR",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "flags": {},
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.aMFtyZ3QNQkduwqR",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.aMFtyZ3QNQkduwqR",
     "duplicateSource": null,
     "exportSource": null
   },
   "folder": null,
-  "sort": 4300000,
+  "sort": 3500000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

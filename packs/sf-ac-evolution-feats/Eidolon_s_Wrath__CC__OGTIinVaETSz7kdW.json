@@ -2,7 +2,7 @@
   "_id": "OGTIinVaETSz7kdW",
   "name": "Eidolon's Wrath (CC)",
   "type": "feat",
-  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "img": "systems/sf2e/icons/features/feats/feats.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon gains the <em>@Compendium[pf2e.spells-srd.kuZnUNrhXHRYQ2eM]{Eidolon's Wrath}</em> focus spell, which it casts, instead of you. You determine the damage type when you gain the feat: acid, cold, electricity, fire, negative, positive, or sonic. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can choose a damage type in its alignment.</p>\n<p>Increase the number of Focus Points in your focus pool by 1. As normal, your eidolon shares your Focus Points.</p>"
+      "value": "<p>Your eidolon gains the <em>@Compendium[sf2e.spells.kuZnUNrhXHRYQ2eM]{Eidolon's Wrath}</em> focus spell, which it casts, instead of you. You determine the damage type when you gain the feat: acid, cold, electricity, fire, negative, positive, or sonic. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can choose a damage type in its alignment.</p>\n<p>Increase the number of Focus Points in your focus pool by 1. As normal, your eidolon shares your Focus Points.</p>"
     },
     "rules": [],
     "slug": "eidolons-wrath-cc",
@@ -65,10 +65,10 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "coreVersion": "13.350",
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.eNeSl5UNaqDwyNkp",
+    "compendiumSource": "Compendium.pf2e-anachronism.feats.Item.eNeSl5UNaqDwyNkp",
     "duplicateSource": null,
     "exportSource": null
   },

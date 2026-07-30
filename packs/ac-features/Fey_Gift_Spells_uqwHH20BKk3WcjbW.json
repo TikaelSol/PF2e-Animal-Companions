@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon expands your primal magic with enchantment and illusion magic, allowing both of you to wield the power of fey charm and glamour. When you add spells to your repertoire, you can choose from the primal list as well as spells that have the illusion or mental traits that appear on the arcane spell list. As usual for when you add spells of a different tradition to your spell list, you're still a primal spellcaster, so all of your spells are primal spells.</p><p>Your eidolon gains the @Compendium[pf2e.feats-srd.WfbmFsRxbVyzMmCz]{Magical Understudy} summoner feat, despite not meeting the prerequisite level, and it can choose fey gift cantrips in addition to primal cantrips. As usual for a feat you are granted by name, you can't retrain Magical Understudy into another feat.</p>"
+      "value": "<p>Your eidolon expands your primal magic with illusion and mental magic, allowing both of you to wield the power of fey glamour. When you add spells to your repertoire, you can choose from the primal list as well as from spells that have the illusion or mental traits that appear on the arcane spell list. As usual for when you add spells of a different tradition to your spell list, you're still a primal spellcaster, so all your spells are primal spells. Your eidolon gains the @UUID[Compendium.pf2e.feats-srd.Item.WfbmFsRxbVyzMmCz]{Magical Understudy} summoner feat, despite not meeting the prerequisite level, and can choose fey gift cantrips in addition to primal cantrips. As normal for a feat you are granted by name, you can't retrain Magical Understudy into another feat.</p>"
     },
     "rules": [
       {
@@ -33,10 +33,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -62,11 +62,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.uqwHH20BKk3WcjbW",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785198089839,
+    "modifiedTime": 1785198241876,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "aOspaDr7wy2gJDm4",
   "sort": 200000,

@@ -80,7 +80,7 @@
       "license": "ORC",
       "remaster": true
     },
-    "hp": 1,
+    "hp": 4,
     "size": "med",
     "hands": 2,
     "reach": 5,
@@ -115,7 +115,7 @@
     "items": {
       "nwQsr": {
         "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.5E71mdImeRE9Fh1D",
-        "img": "systems/pf2e/icons/features/classes/eidolon.webp",
+        "img": "systems/sf2e/icons/features/classes/eidolon.webp",
         "name": "Eidolon Ability",
         "level": 1
       }
@@ -123,7 +123,7 @@
     "vision": "low-light-vision"
   },
   "_id": "i2m9Ce1UkNNc0ok9",
-  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
   "folder": null,
   "sort": 0,
   "ownership": {
@@ -135,9 +135,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
-    "systemId": "pf2e",
-    "systemVersion": "7.7.1"
+    "coreVersion": "14.365",
+    "systemId": "sf2e",
+    "systemVersion": "8.3.0",
+    "createdTime": 1785188581911,
+    "modifiedTime": 1785188581911,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "_key": "!items!i2m9Ce1UkNNc0ok9"
 }

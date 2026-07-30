@@ -10,15 +10,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon's link with you sustains it, but it still craves the life essence of the living, whether through blood or pure essence. It gains the @Compendium[pf2e-animal-companions.AC-Features.3Ns5BmFpAcoGQIY5]{Drain Life} activity.</p>"
+      "value": "<p>Your eidolon attacks a living creature and drains some of the creature's life force to feed your shared link. Your eidolon Strikes a living enemy. If the Strike hits and deals damage, the target must attempt a Fortitude save against your spell DC, with the following effects. On a critical hit, the enemy uses the result one degree worse than it rolled.</p><hr><p><strong>Critical Success</strong> No effect.</p><p><strong>Success</strong> Your eidolon drains a small amount of life force. The enemy takes additional void damage equal to half your level.</p><p><strong>Failure</strong> Your eidolon drains enough life force to satisfy itself. The enemy takes additional void damage equal to half your level and is @UUID[Compendium.pf2e-anachronism.conditions.Item.4D2KBtexWXa6oUMR]{Drained 1}. Your eidolon gains temporary Hit Points equal to the enemy's level, which last for 1 minute.</p><p><strong>Critical Failure</strong> Your eidolon drains an incredible amount of life force and is thoroughly glutted with energy. As failure, but the enemy is @UUID[Compendium.pf2e-anachronism.conditions.Item.4D2KBtexWXa6oUMR]{Drained 2} and the temporary Hit Points are equal to double the enemy's level.</p>"
     },
-    "rules": [
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.3Ns5BmFpAcoGQIY5",
-        "allowDuplicate": false
-      }
-    ],
+    "rules": [],
     "slug": "drain-life",
     "_migration": {
       "version": 0.952,
@@ -30,14 +24,18 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "divine",
+        "eidolon",
+        "void"
+      ],
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Book of the Dead",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 7
@@ -46,10 +44,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 2
     },
     "prerequisites": {
       "value": []
@@ -63,14 +61,17 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.oxpHUtYre2CTaE4t",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785249622569,
+    "modifiedTime": 1785249918906,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
-  "folder": null,
-  "sort": 9700000,
+  "folder": "ecK9IrCUtW1bkFl6",
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

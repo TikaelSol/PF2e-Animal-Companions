@@ -2,7 +2,7 @@
   "_id": "Ln8r5xj2kAs81uu1",
   "name": "Defend Summoner (CC)",
   "type": "feat",
-  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "img": "systems/sf2e/icons/features/feats/feats.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -66,10 +66,10 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "coreVersion": "13.350",
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.xlparPCGhkgjdhx2",
+    "compendiumSource": "Compendium.pf2e-anachronism.feats.Item.xlparPCGhkgjdhx2",
     "duplicateSource": null,
     "exportSource": null
   },

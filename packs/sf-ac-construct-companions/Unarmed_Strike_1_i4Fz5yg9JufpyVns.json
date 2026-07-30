@@ -2,7 +2,7 @@
   "_id": "i4Fz5yg9JufpyVns",
   "name": "Unarmed Strike 1",
   "type": "feat",
-  "img": "systems/pf2e/icons/unarmed-attacks/fist-earth-elemental.webp",
+  "img": "systems/sf2e/icons/unarmed-attacks/fist-earth-elemental.webp",
   "effects": [],
   "folder": null,
   "sort": 600000,
@@ -79,7 +79,7 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "coreVersion": "13.350",
     "compendiumSource": "Item.r0BretFLl3eDhEUg",

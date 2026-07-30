@@ -10,14 +10,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon thrashes violently, damaging many foes in its reach. It gains the @Compendium[pf2e-animal-companions.AC-Features.W4VCL85CO77MYkQH]{Whirlwind Maul} activity.</p>"
+      "value": "<p>Your eidolon lashes out in all directions. They make a melee unarmed Strike against up to four enemies within reach. They can choose different unarmed attacks for each enemy. Each attack counts toward your multiple attack penalty, but you don't increase your penalty until the eidolon has made all their attacks.</p>"
     },
-    "rules": [
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.W4VCL85CO77MYkQH"
-      }
-    ],
+    "rules": [],
     "slug": "whirlwind-maul",
     "_migration": {
       "version": 0.952,
@@ -29,14 +24,16 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "eidolon"
+      ],
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 17
@@ -45,10 +42,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 3
     },
     "prerequisites": {
       "value": []
@@ -62,11 +59,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.0c7E7Hc86apMDLJj",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785188083630,
+    "modifiedTime": 1785188144393,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "zMHXTu66OpHxm5Db",
   "sort": 112500,

@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.aMFtyZ3QNQkduwqR]{Air Elemental Support Benefit}</p><p>If you hit with a Strike and deal damage to a creature in your air elemental's reach, you are @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{Concealed} to that creature until the start of your next turn.</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.aMFtyZ3QNQkduwqR]{Air Elemental Support Benefit}</p><p>If you hit with a Strike and deal damage to a creature in your air elemental's reach, you are @UUID[Compendium.pf2e-anachronism.conditions.Item.DmAIPqOBomZ7H95W]{Concealed} to that creature until the start of your next turn.</p>",
       "gm": ""
     },
     "publication": {

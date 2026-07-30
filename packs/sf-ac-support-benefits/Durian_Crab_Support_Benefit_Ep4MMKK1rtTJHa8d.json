@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Your durian crab launches itself as part of your ranged attack to throw your enemies off balance. Until the start of your next turn, as long as your crab is within your reach, your ranged Strikes that deal damage to a creature within 30 feet make the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn. Your crab scuttles or launches itself back to the same space from which you threw it immediately after making a Strike, allowing you to hurl it multiple times.</p>",
+      "value": "<p>Your durian crab launches itself as part of your ranged attack to throw your enemies off balance. Until the start of your next turn, as long as your crab is within your reach, your ranged Strikes that deal damage to a creature within 30 feet make the target @UUID[Compendium.pf2e-anachronism.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn. Your crab scuttles or launches itself back to the same space from which you threw it immediately after making a Strike, allowing you to hurl it multiple times.</p>",
       "gm": ""
     },
     "publication": {
@@ -37,21 +37,21 @@
     "category": "offensive",
     "deathNote": false
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "ownership": {
     "default": 0,
     "8KoEr2ej1d0aIHVv": 3
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.Ep4MMKK1rtTJHa8d",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.Ep4MMKK1rtTJHa8d",
     "duplicateSource": null,
-    "coreVersion": "14.364",
-    "systemId": "pf2e",
+    "coreVersion": "13.350",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "exportSource": null
   },
   "_id": "Ep4MMKK1rtTJHa8d",
-  "sort": 1300000,
+  "sort": 500000,
   "_key": "!items!Ep4MMKK1rtTJHa8d"
 }

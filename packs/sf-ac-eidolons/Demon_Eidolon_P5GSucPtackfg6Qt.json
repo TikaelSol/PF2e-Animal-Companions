@@ -2,7 +2,7 @@
   "_id": "P5GSucPtackfg6Qt",
   "name": "Demon Eidolon",
   "type": "ancestry",
-  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
   "sort": 400000,
@@ -12,26 +12,26 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon is a demon, born of mortal sin congealed amid the chaos and evil of the Abyss, using its link to you to spread chaos at your side. Choose an associated sin for your demon. Demon eidolons have appearances as varied as the infinite Abyss. While demons are inherently untrustworthy, your demon eidolon has reached an accord with you and generally keeps it, though that doesn't mean your eidolon isn't actively working to bring your life deeper into its associated sin. Though a true demon, your demon eidolon's link to you as a mortal prevents them from casting the abyssal pact ritual, even if they somehow learn it.</p>\n<p><strong>Tradition</strong> divine</p>\n<p><strong>Traits</strong> demon, eidolon, fiend</p>\n<p><strong>Alignment</strong> must be chaotic evil</p>\n<p><strong>Home Plane</strong> The Abyss</p>\n<p><strong>Size</strong> Medium or Small</p>\n<p><strong>Suggested Attacks</strong> claw (slashing), jaws (piercing), horn (piercing), tail (bludgeoning), tentacle (bludgeoning), wing (bludgeoning)</p>\n<p><strong>Wrecker Demon</strong> Str 18, Dex 14, Con 16, Int 10, Wis 8, Cha 12; +2 AC (+3 Dex cap)</p>\n<p><strong>Tempter Demon</strong> Str 12, Dex 18, Con 12, Int 10, Wis 10, Cha 16; +1 AC (+4 Dex cap)</p>\n<p><strong>Skills</strong> Intimidation, Religion</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Language</strong> Abyssal</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.o3P8heIfNr1z53Ay]{demonic strikes}; Symbiosis @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.cnYMvDxCRY4NvUmJ]{visions of sin}; Transcendence @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.C0zzz9wVwfmGtfIQ]{blasphemous decree}</p>"
+      "value": "<p>Your eidolon is a demon, born of mortal sin congealed amid the chaos and evil of the Outer Rifts, using their link to you to spread chaos at your side. Choose an associated sin for your demon. Demon eidolons have appearances as varied as the infinite Outer Rifts. While demons are inherently untrustworthy, your demon eidolon has reached an accord with you and generally keeps it, though that doesn't mean your eidolon isn't actively working to bring your life deeper into their associated sin. Though a true demon, your demon eidolon's link to you as a mortal prevents them from casting the demonic pact ritual, even if they somehow learn it.</p><p><strong>Tradition</strong> divine</p><p><strong>Traits</strong> demon, eidolon, fiend, unholy</p><p><strong>Home Plane</strong> The Outer Rifts</p><p><strong>Size</strong> Medium or Small</p><p><strong>Suggested Attacks</strong> claw (slashing), horn (piercing), jaws (piercing), tail (bludgeoning), tentacle (bludgeoning), wing (bludgeoning) </p><p><strong>Eidolon Attributes</strong> Con +3, Int +0, Wis –1, Cha +1</p><p><strong>Skills</strong> Intimidation, Religion</p><p><strong>Senses</strong> darkvision</p><p><strong>Language</strong> Chthonian</p><p><strong>Speed</strong> 25 feet</p><p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.o3P8heIfNr1z53Ay]{demonic strikes}; Symbiosis @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.cnYMvDxCRY4NvUmJ]{visions of sin}; Transcendence @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.C0zzz9wVwfmGtfIQ]{blasphemous decree}</p>"
     },
     "rules": [
       {
-        "adjustName": false,
-        "choices": [
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.ajYVsdmTxkHEXWVO"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.WfNq9WV1ERdAz7xG"
-          }
-        ],
-        "flag": "eidolonType",
-        "key": "ChoiceSet",
-        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.abilities.con.mod"
       },
       {
-        "key": "GrantItem",
-        "uuid": "{item|flags.system.rulesSelections.eidolonType}"
+        "key": "ActiveEffectLike",
+        "value": -1,
+        "mode": "downgrade",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.cha.mod"
       },
       {
         "key": "ActiveEffectLike",
@@ -102,12 +102,12 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
-    "hp": 1,
+    "hp": 4,
     "size": "med",
     "hands": 2,
     "reach": 5,
@@ -141,7 +141,7 @@
     },
     "items": {
       "28d4x": {
-        "img": "systems/pf2e/icons/features/classes/eidolon.webp",
+        "img": "systems/sf2e/icons/features/classes/eidolon.webp",
         "name": "Eidolon Ability",
         "level": 1,
         "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.5E71mdImeRE9Fh1D"
@@ -154,12 +154,15 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemId": "sf2e",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.QlhL9vPXzjhkYd8W",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785194527978,
+    "modifiedTime": 1785194687392,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "_key": "!items!P5GSucPtackfg6Qt"
 }

@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your connection with your eidolon strengthens, granting your eidolon access to a new ability depending on its type, as described in Eidolon Abilities in each eidolon's entry.</p>"
+      "value": "<p>Your connection with your eidolon strengthens, granting your eidolon access to a new ability depending on their type, as described in Eidolon Abilities in each eidolon's entry.</p>"
     },
     "rules": [
       {
@@ -33,10 +33,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 7
@@ -62,14 +62,17 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.RsDBv9TwwNMnofud",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785180584945,
+    "modifiedTime": 1785247068827,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
-  "folder": null,
-  "sort": 4900000,
+  "folder": "D1umZ4oomj5mtcad",
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

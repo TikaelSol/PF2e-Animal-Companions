@@ -17,34 +17,38 @@
         "adjustName": false,
         "choices": [
           {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.8dyatrsCMoIPuOlE"
+            "label": "PF2E.AbilityStr",
+            "value": {
+              "dexCap": 3,
+              "item": 2,
+              "type": "strength",
+              "str": 4,
+              "dex": 2
+            }
           },
           {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.8IodRUpyU4nXGyAv"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.cIAB28BfwNA2uTQv"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.GEVoWzCBjidkO6DG"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.8EJNylotPDelRtZK"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.XNgPUKsnRQO2OS2O"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.ZXrAWVLwKxz5kovL"
+            "label": "PF2E.AbilityDex",
+            "value": {
+              "dexCap": 4,
+              "item": 1,
+              "type": "dexterity",
+              "str": 2,
+              "dex": 4
+            }
           }
         ],
-        "flag": "primaryStrike",
+        "flag": "eidolonKAS",
         "key": "ChoiceSet",
-        "prompt": "Select the Details of the Primary Strike. These can be edited on the inventory tab later."
+        "predicate": [
+          {
+            "not": "eidolon-type"
+          }
+        ],
+        "prompt": "COMP.SpecificRule.Eidolon.Prompt.EidolonKeyAttribute"
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.system.rulesSelections.primaryStrike}",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.JKvOBRdxKExG1T05",
         "allowDuplicate": false
       },
       {
@@ -63,6 +67,52 @@
         "value": [],
         "mode": "override",
         "path": "system.build.attributes.allowedBoosts"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": "{item|flags.system.rulesSelections.eidolonKAS.str}",
+        "mode": "upgrade",
+        "path": "system.abilities.str.mod",
+        "predicate": [
+          {
+            "not": "eidolon-type"
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": "{item|flags.system.rulesSelections.eidolonKAS.dex}",
+        "mode": "upgrade",
+        "path": "system.abilities.dex.mod",
+        "predicate": [
+          {
+            "not": "eidolon-type"
+          }
+        ]
+      },
+      {
+        "fromEquipment": false,
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "slug": "eidolon-defense",
+        "type": "item",
+        "value": "{item|flags.system.rulesSelections.eidolonKAS.item}",
+        "predicate": [
+          {
+            "not": "eidolon-type"
+          }
+        ]
+      },
+      {
+        "key": "DexterityModifierCap",
+        "value": "{item|flags.system.rulesSelections.eidolonKAS.dexCap}",
+        "predicate": [
+          {
+            "not": "eidolon-type"
+          }
+        ]
       }
     ],
     "slug": "eidolon",
@@ -79,10 +129,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "keyAbility": {
       "value": [],
@@ -117,25 +167,25 @@
         "img": "systems/sf2e/icons/features/classes/shared-vigilance.webp",
         "name": "Shared Vigilance",
         "level": 3,
-        "uuid": "Compendium.sf2e.class-features.Item.QiMlJ33kNEoyh1M0"
+        "uuid": "Compendium.pf2e-anachronism.class-features.Item.QiMlJ33kNEoyh1M0"
       },
       "qs3dj": {
         "img": "systems/sf2e/icons/features/classes/resolve.webp",
         "name": "Shared Resolve",
         "level": 15,
-        "uuid": "Compendium.sf2e.class-features.Item.eZPfHVz14j42jCnS"
+        "uuid": "Compendium.pf2e-anachronism.class-features.Item.eZPfHVz14j42jCnS"
       },
       "v3p8l": {
         "img": "systems/sf2e/icons/features/classes/lightning-reflexes.webp",
         "name": "Shared Reflexes",
         "level": 9,
-        "uuid": "Compendium.sf2e.class-features.Item.dZNAXTQovlWVvAyX"
+        "uuid": "Compendium.pf2e-anachronism.class-features.Item.dZNAXTQovlWVvAyX"
       },
       "acx0x": {
         "img": "systems/sf2e/icons/features/classes/juggerenaut.webp",
         "name": "Twin Juggernauts",
         "level": 11,
-        "uuid": "Compendium.sf2e.class-features.Item.q1Y12Pg2gQg2FJPR"
+        "uuid": "Compendium.pf2e-anachronism.class-features.Item.q1Y12Pg2gQg2FJPR"
       },
       "o16um": {
         "img": "systems/sf2e/icons/features/classes/eidolon-symbiosis.webp",
@@ -244,14 +294,17 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.4yrittMrVNhR2woZ",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785180327420,
+    "modifiedTime": 1785257459892,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
-  "folder": null,
-  "sort": 11000000,
+  "folder": "D1umZ4oomj5mtcad",
+  "sort": 800000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

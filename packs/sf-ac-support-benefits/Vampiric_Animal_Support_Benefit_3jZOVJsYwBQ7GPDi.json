@@ -2,17 +2,17 @@
   "_id": "3jZOVJsYwBQ7GPDi",
   "name": "Vampiric Animal Support Benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 5300000,
+  "sort": 4500000,
   "flags": {
     "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>When your vampiric animal senses blood it tears into your enemies. Until the start of your next turn, your Strikes that damage a creature in your vampiric animal's reach also deal @Damage[1d6[persistent,bleed]] damage. If your vampiric animal is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.rtIhCBYVeEywrZOf]{Effect: Vampiric Animal Support Benefit}</p>"
+      "value": "<p>When your vampiric animal senses blood it tears into your enemies. Until the start of your next turn, your Strikes that damage a creature in your vampiric animal's reach also deal @Damage[1d6[persistent,bleed]] damage. If your vampiric animal is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.rtIhCBYVeEywrZOf]{Effect: Vampiric Animal Support Benefit}</p>"
     },
     "rules": [
       {
@@ -81,10 +81,10 @@
     "thw0Ox3kKEThnAFP": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.3jZOVJsYwBQ7GPDi",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.3jZOVJsYwBQ7GPDi",
     "duplicateSource": null,
     "exportSource": null
   },

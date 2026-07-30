@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The shotalashu telepathically assails your enemies when you create an opening. Until the start of your next turn, each time you hit a creature in the shotalashu's reach with a Strike, the creature takes @Damage[1d6[mental]] damage from the shotalashu. If your shotalashu is nimble or savage, the mental damage increases to @Damage[2d6[mental]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.TNnBontVMih3LYaC]{Effect: Shotalashu Support Benefit}</p>"
+      "value": "<p>The shotalashu telepathically assails your enemies when you create an opening. Until the start of your next turn, each time you hit a creature in the shotalashu's reach with a Strike, the creature takes @Damage[1d6[mental]] damage from the shotalashu. If your shotalashu is nimble or savage, the mental damage increases to @Damage[2d6[mental]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.TNnBontVMih3LYaC]{Effect: Shotalashu Support Benefit}</p>"
     },
     "rules": [
       {
@@ -70,9 +70,9 @@
     "deathNote": false
   },
   "_id": "ufAZJqCN7ZOBhMSJ",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
-  "sort": 4700000,
+  "sort": 3900000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -83,10 +83,10 @@
     }
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.ufAZJqCN7ZOBhMSJ",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.ufAZJqCN7ZOBhMSJ",
     "duplicateSource": null,
     "exportSource": null
   },

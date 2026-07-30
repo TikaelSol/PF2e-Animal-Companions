@@ -10,12 +10,33 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon can infuse an attack with unmitigated rage. It gains the @Compendium[pf2e-animal-companions.AC-Features.Q8yXShOx8PGjL0LV]{Furious Strike} activity.</p>"
+      "value": "<p>Your eidolon makes a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, your eidolon deals an extra die of weapon damage and gains a +1 circumstance bonus to the damage roll.</p><p>If you're at least 10th level, increase this to two extra dice with a +2 circumstance bonus, and if you're at least 18th level, increase it to three extra dice with a +3 circumstance bonus.</p>"
     },
     "rules": [
       {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.Q8yXShOx8PGjL0LV"
+        "key": "RollOption",
+        "domain": "damage",
+        "option": "furious-strike",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "predicate": [
+          "melee",
+          "furious-strike"
+        ],
+        "selector": "strike-damage",
+        "diceNumber": "match(when(lte(@actor.level, 9), 1), when(btwn(@actor.level, 10, 17), 2), when(gte(@actor.level, 18), 3))"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "melee",
+          "furious-strike"
+        ],
+        "selector": "strike-damage",
+        "value": "match(when(lte(@actor.level, 9), 1), when(btwn(@actor.level, 10, 17), 2), when(gte(@actor.level, 18), 3))",
+        "type": "circumstance"
       }
     ],
     "slug": "furious-strike",
@@ -29,7 +50,9 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "eidolon"
+      ],
       "rarity": "common"
     },
     "publication": {
@@ -45,10 +68,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 2
     },
     "prerequisites": {
       "value": []
@@ -62,11 +85,14 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.JzpBHDMryMKDHWCK",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785186692762,
+    "modifiedTime": 1785186816157,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "q3nXFZfwRZgEhUKV",
   "sort": 300000,

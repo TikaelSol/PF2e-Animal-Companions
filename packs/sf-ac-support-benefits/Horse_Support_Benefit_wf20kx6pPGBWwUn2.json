@@ -2,17 +2,17 @@
   "_id": "wf20kx6pPGBWwUn2",
   "name": "Horse Support Benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 9200000,
+  "sort": 8400000,
   "flags": {
     "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Until the start of your next turn, if you're mounted on your horse and moved 10 feet or more on the action before a melee Strike, add a circumstance bonus to damage for that Strike equal to twice the number of weapon damage dice. If your weapon already has the jousting weapon trait, increase the trait's damage bonus by 2 per die instead.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.xe5pfyTYOWMYG1T8]{Effect: Horse Support Benefit}</p>"
+      "value": "<p>Until the start of your next turn, if you're mounted on your horse and moved 10 feet or more on the action before a melee Strike, add a circumstance bonus to damage for that Strike equal to twice the number of weapon damage dice. If your weapon already has the jousting weapon trait, increase the trait's damage bonus by 2 per die instead.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.xe5pfyTYOWMYG1T8]{Effect: Horse Support Benefit}</p>"
     },
     "rules": [],
     "slug": "horse-support-benefit",
@@ -48,10 +48,10 @@
     "WG8TaxGEQOxXBO1S": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.wf20kx6pPGBWwUn2",
     "duplicateSource": null,
     "exportSource": null
   },

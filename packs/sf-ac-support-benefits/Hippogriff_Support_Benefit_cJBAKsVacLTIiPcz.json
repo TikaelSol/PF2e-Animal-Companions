@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Until the start of your next turn, if you're mounted on your hippogriff and moved 10 feet or more on the action before a melee Strike, add a circumstance bonus to damage for that Strike equal to twice the number of weapon damage dice. If your weapon already has the jousting weapon trait, increase the trait's damage bonus by 2 per die instead.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.tnlYuQchWOeDKeau]{Effect: Hippogriff Support Benefit}</p>"
+      "value": "<p>Until the start of your next turn, if you're mounted on your hippogriff and moved 10 feet or more on the action before a melee Strike, add a circumstance bonus to damage for that Strike equal to twice the number of weapon damage dice. If your weapon already has the jousting weapon trait, increase the trait's damage bonus by 2 per die instead.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.tnlYuQchWOeDKeau]{Effect: Hippogriff Support Benefit}</p>"
     },
     "rules": [],
     "slug": "hippogriff-support-benefit",
@@ -37,9 +37,9 @@
     "deathNote": false
   },
   "_id": "cJBAKsVacLTIiPcz",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
-  "sort": 2400000,
+  "sort": 1600000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -50,10 +50,10 @@
     }
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.cJBAKsVacLTIiPcz",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.cJBAKsVacLTIiPcz",
     "duplicateSource": null,
     "exportSource": null
   },

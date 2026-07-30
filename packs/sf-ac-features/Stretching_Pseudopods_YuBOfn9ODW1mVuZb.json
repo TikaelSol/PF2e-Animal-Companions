@@ -1,0 +1,70 @@
+{
+  "name": "Stretching Pseudopods",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your eidolon's pseudopods can stretch farther. All your eidolon's melee unarmed attacks gain the reach trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Magic",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/creatures/tentacles/tentacles-thing-green.webp",
+  "folder": "maAFYLKIQkHcVhNT",
+  "ownership": {
+    "default": 0,
+    "XUrhfvb05TiIl7Al": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "sf2e",
+    "systemVersion": "8.3.0",
+    "createdTime": 1785198890177,
+    "modifiedTime": 1785198890177,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "YuBOfn9ODW1mVuZb",
+  "sort": 0,
+  "_key": "!items!YuBOfn9ODW1mVuZb"
+}

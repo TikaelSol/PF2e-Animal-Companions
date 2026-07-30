@@ -2,7 +2,7 @@
   "_id": "1YJoaMhZPvLGvj1J",
   "name": "Devotion Phantom Eidolon",
   "type": "ancestry",
-  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
   "sort": 100000,
@@ -12,26 +12,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon is a lost soul, unable to escape the mortal world due to a strong sense of duty, an undying devotion, or a need to complete an important task. Most phantom eidolons are humanoid with a spectral or ectoplasmic appearance, though some take far stranger forms. Your link with your eidolon prevents them from succumbing to corruption and undeath, and together, you will grow in strength and fulfill your phantom's devotion.</p>\n<p><strong>Tradition</strong> occult</p>\n<p><strong>Traits</strong> eidolon, ethereal, phantom</p>\n<p><strong>Home Plane</strong> Ethereal Plane</p>\n<p><strong>Size</strong> Medium or Small</p>\n<p><strong>Suggested Attacks</strong> fist (bludgeoning), tendril (bludgeoning), unarmed attacks shaped like a weapon</p>\n<p><strong>Stalwart Guardian</strong> Str 18, Dex 14, Con 16, Int 10, Wis 10, Cha 10; +2 AC (+3 Dex cap)</p>\n<p><strong>Swift Protector</strong> Str 14, Dex 18, Con 16, Int 10, Wis 10, Cha 10; +1 AC (+4 Dex cap)</p>\n<p><strong>Skills</strong> Medicine, Occultism</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Language</strong> one common mortal language the eidolon spoke in life</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.V5bcYgKbJTHdOBHI]{dutiful retaliation}; Symbiosis @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.N47g9LDkOdZZdgup]{steadfast devotion}; Transcendence @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.oOBWRXPtYIXWp5Sm]{devotion aura}</p>"
+      "value": "<p>Your eidolon is a lost soul, unable to escape the mortal world due to a strong sense of duty, an undying devotion, or a need to complete a task that was of vital importance to the soul during their life. Most phantom eidolons are humanoid with a spectral or ectoplasmic appearance, though some take far stranger forms. Your link with your eidolon prevents them from succumbing to corruption and undeath, and together, you will grow in strength and fulfill your phantom's devotion.</p><p>in strength and fulfill your phantom's devotion.</p><p><strong>Tradition</strong> occult</p><p><strong>Traits</strong> eidolon, ethereal, phantom</p><p><strong>Home Plane</strong> Ethereal Plane</p><p><strong>Size</strong> Medium or Small</p><p><strong>Suggested Attacks</strong> fist (bludgeoning), tendril (bludgeoning), unarmed attacks shaped like a weapon </p><p><strong>Eidolon Attributes</strong> Con +3, Int +0, Wis +0, Cha +0</p><p><strong>Skills</strong> Medicine, Occultism</p><p><strong>Senses</strong> darkvision</p><p><strong>Language</strong> one common mortal language the eidolon spoke in life</p><p><strong>Speed</strong> 25 feet</p><p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.V5bcYgKbJTHdOBHI]{dutiful retaliation}; Symbiosis @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.N47g9LDkOdZZdgup]{steadfast devotion}; Transcendence @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.oOBWRXPtYIXWp5Sm]{devotion aura}</p>"
     },
     "rules": [
       {
-        "adjustName": false,
-        "choices": [
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.WRWGcHidHQz4ef2W"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.TDWe85aZadixqmRU"
-          }
-        ],
-        "flag": "eidolonType",
-        "key": "ChoiceSet",
-        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "{item|flags.system.rulesSelections.eidolonType}"
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.abilities.con.mod"
       },
       {
         "key": "ActiveEffectLike",
@@ -102,12 +90,12 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
-    "hp": 1,
+    "hp": 4,
     "size": "med",
     "hands": 2,
     "reach": 5,
@@ -133,13 +121,13 @@
       "custom": ""
     },
     "additionalLanguages": {
-      "count": 0,
+      "count": 1,
       "value": [],
       "custom": ""
     },
     "items": {
       "tww0l": {
-        "img": "systems/pf2e/icons/features/classes/eidolon.webp",
+        "img": "systems/sf2e/icons/features/classes/eidolon.webp",
         "name": "Eidolon Ability",
         "level": 1,
         "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.5E71mdImeRE9Fh1D"
@@ -152,12 +140,15 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemId": "sf2e",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.QlhL9vPXzjhkYd8W",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785195150596,
+    "modifiedTime": 1785195258548,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "_key": "!items!1YJoaMhZPvLGvj1J"
 }

@@ -2,17 +2,17 @@
   "_id": "bHaJZSm7SakAsk00",
   "name": "Skeletal Servant Support Benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 7800000,
+  "sort": 7000000,
   "flags": {
     "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your skeletal servant jabs bones into your enemies to distract them while you attack. Until the start of your next turn, when a Strike you make hits and deals damage to a creature within your skeletal servant's reach, that target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.GQFr15dRbQyfsiTF]{Effect: Skeletal Servant Support Benefit}</p><p></p>"
+      "value": "<p>Your skeletal servant jabs bones into your enemies to distract them while you attack. Until the start of your next turn, when a Strike you make hits and deals damage to a creature within your skeletal servant's reach, that target becomes @UUID[Compendium.pf2e-anachronism.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.GQFr15dRbQyfsiTF]{Effect: Skeletal Servant Support Benefit}</p><p></p>"
     },
     "rules": [],
     "slug": "skeletal-servant-support-benefit",
@@ -48,10 +48,10 @@
     "thw0Ox3kKEThnAFP": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.bHaJZSm7SakAsk00",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.bHaJZSm7SakAsk00",
     "duplicateSource": null,
     "exportSource": null
   },

@@ -12,26 +12,68 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Because dragons have a strong connection to magic, their minds can often leave an echo floating in the Astral Plane. Such an entity is extremely powerful but unable to interact with the outside world on its own. Dragon eidolons manifest in the powerful, scaled forms they had in life; most take the form of true dragons (albeit smaller), but some manifest as drakes or other draconic beings. You have forged a connection with such a dragon eidolon and together, you seek to grow as powerful as an ancient wyrm.</p>\n<p><strong>Tradition</strong> arcane</p>\n<p><strong>Traits</strong> astral, dragon, eidolon, and one more (see Breath Weapon below)</p>\n<p><strong>Home Plane</strong> Astral Plane</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Suggested Attacks</strong> claw (slashing), jaws (piercing), horn (piercing), tail (bludgeoning), wing (bludgeoning)</p>\n<p><strong>Marauding Dragon</strong> Str 18, Dex 14, Con 16, Int 10, Wis 10, Cha 10; +2 AC (+3 Dex cap)</p>\n<p><strong>Cunning Dragon</strong> Str 12, Dex 18, Con 12, Int 14, Wis 10, Cha 12; +1 AC (+4 Dex cap)</p>\n<p><strong>Skills</strong> Arcana, Intimidation</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Language</strong> Draconic</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.I8fG26JJS29ZYwfZ]{breath weapon}; Symbiosis @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.oSjJ726kv8wvk1Rb]{draconic frenzy}; Transcendence @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.P7qw5V2ylPwCWMPB]{wyrm's breath}</p>"
+      "value": "<p>Because dragons have a strong connection to magic, their minds can often leave an echo floating in the Astral Plane. Such an entity is extremely powerful but unable to interact with the outside world on their own. Dragon eidolons manifest in the powerful, scaled forms they had in life; most take the form of great dragons (albeit smaller), but some manifest as drakes or other draconic beings. You have forged a connection with such a dragon eidolon and together, you seek to grow as powerful as an archdragon.</p><p><strong>Tradition</strong> choose arcane, divine, occult, or primal</p><p><strong>Traits</strong> astral, dragon, eidolon, and the trait matching the eidolon's tradition</p><p><strong>Home Plane</strong> Astral Plane</p><p><strong>Size</strong> Medium</p><p><strong>Suggested Attacks</strong> claw (slashing), horn (piercing), jaws (piercing), tail (bludgeoning), wing (bludgeoning)</p><p><strong>Eidolon Attributes</strong> Con +1, Int +1, Wis +0, Cha +1</p><p><strong>Skills</strong> Intimidation and the skill matching the eidolon's tradition (Arcana for arcane, Religion for divine, Occultism for occult, or Nature for primal)</p><p><strong>Senses</strong> darkvision</p><p><strong>Language</strong> Draconic</p><p><strong>Speed</strong> 25 feet</p><p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.I8fG26JJS29ZYwfZ]{Dragon Breath}; Symbiosis @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.oSjJ726kv8wvk1Rb]{Draconic Frenzy}; Transcendence @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.P7qw5V2ylPwCWMPB]{Empower Breath}</p>"
     },
     "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.cha.mod"
+      },
       {
         "adjustName": false,
         "choices": [
           {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.JcYmSwl3FCjqFEMm"
+            "label": "PF2E.TraitArcane",
+            "value": {
+              "tradition": "arcane",
+              "skill": "arcana"
+            }
           },
           {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.FM1HQ1kqC3N9nWr0"
+            "label": "PF2E.TraitDivine",
+            "value": {
+              "tradition": "divine",
+              "skill": "religion"
+            }
+          },
+          {
+            "label": "PF2E.TraitOccult",
+            "value": {
+              "tradition": "occult",
+              "skill": "occultism"
+            }
+          },
+          {
+            "label": "PF2E.TraitPrimal",
+            "value": {
+              "tradition": "primal",
+              "skill": "nature"
+            }
           }
         ],
-        "flag": "eidolonType",
+        "flag": "dragonTradition",
         "key": "ChoiceSet",
-        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
+        "prompt": "PF2E.SpecificRule.Prompt.Tradition"
       },
       {
-        "key": "GrantItem",
-        "uuid": "{item|flags.system.rulesSelections.eidolonType}"
+        "key": "ActorTraits",
+        "add": [
+          "{item|flags.system.rulesSelections.dragonTradition.tradition}"
+        ]
       },
       {
         "key": "ActiveEffectLike",
@@ -42,7 +84,7 @@
       {
         "key": "ActiveEffectLike",
         "mode": "upgrade",
-        "path": "system.skills.arcana.rank",
+        "path": "system.skills.{item|flags.system.rulesSelections.dragonTradition.skill}.rank",
         "value": 1
       },
       {
@@ -85,7 +127,7 @@
       "license": "OGL",
       "remaster": false
     },
-    "hp": 1,
+    "hp": 4,
     "size": "med",
     "hands": 2,
     "reach": 5,
@@ -133,11 +175,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.QlhL9vPXzjhkYd8W",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785195817154,
+    "modifiedTime": 1785197154654,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "_key": "!items!XDxYBQ6TRCJzoKbf"
 }

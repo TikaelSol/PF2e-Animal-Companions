@@ -169,9 +169,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
-    "systemId": "pf2e",
-    "systemVersion": "7.7.1"
+    "coreVersion": "14.365",
+    "systemId": "sf2e",
+    "systemVersion": "8.3.0"
   },
   "ownership": {
     "default": 0,

@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your ape makes a loud and frightening display, throwing a foe off balance. The ape attempts to @UUID[Compendium.sf2e.actions.Item.2u915NdUyQan6uKF]{Demoralize} the target creature; this display gains the visual trait and doesn't require language. While @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened} by this ability, the target is @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} to your ape.</p>"
+      "value": "<p>Your ape makes a loud and frightening display, throwing a foe off balance. The ape attempts to @UUID[Compendium.pf2e-anachronism.actions.Item.2u915NdUyQan6uKF]{Demoralize} the target creature; this display gains the visual trait and doesn't require language. While @UUID[Compendium.pf2e-anachronism.conditions.Item.TBSHQspnbcqxsmjL]{Frightened} by this ability, the target is @UUID[Compendium.pf2e-anachronism.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} to your ape.</p>"
     },
     "rules": [],
     "slug": "frightening-display",

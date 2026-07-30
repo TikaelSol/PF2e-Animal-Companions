@@ -10,14 +10,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your demon is born of sin and can project the sin it is formed from into the minds of others. It gains the @Compendium[pf2e-animal-companions.AC-Features.srfAyOXpUYxEz0gx]{Visions of Sin} activity.</p>"
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr><p><strong>Effect</strong> Your eidolon summons images of their sin into the mind of a target creature within 30 feet, tormenting and confusing the target. The target must attempt a Will save against your spell DC with the following effects. The effects last until the end of your next turn, but your eidolon can Sustain the effects to a maximum duration of 1 minute. If the target is unholy, it takes a –2 circumstance penalty to its save. Regardless of whether it succeeds, the target becomes temporarily immune for 1 day.</p><hr><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target can't use reactions.</p><p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p><p><strong>Critical Failure</strong> As failure, and the target is also @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round. The confusion can't be extended, but the other effects can.</p>"
     },
-    "rules": [
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.srfAyOXpUYxEz0gx"
-      }
-    ],
+    "rules": [],
     "slug": "visions-of-sin",
     "_migration": {
       "version": 0.952,
@@ -29,14 +24,19 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "divine",
+        "eidolon",
+        "emotion",
+        "mental"
+      ],
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 7
@@ -45,10 +45,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 2
     },
     "prerequisites": {
       "value": []
@@ -58,15 +58,22 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
     }
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.t9VZr3duyiYqkOvR",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785194897819,
+    "modifiedTime": 1785194949378,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "4oaqgJDRdOmg12Mo",
   "sort": 300000,

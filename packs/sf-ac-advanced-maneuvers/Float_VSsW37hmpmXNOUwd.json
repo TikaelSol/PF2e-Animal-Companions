@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Trigger</strong> The umbrella mushroom is falling.</p>\n<hr />\n<p>The umbrella mushroom inflates buoyant air bladders and begins rotating to arrest the fall. It slows its descent to 60 feet per round. It can take this reaction even when @UUID[Compendium.sf2e.conditions.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>"
+      "value": "<p><strong>Trigger</strong> The umbrella mushroom is falling.</p>\n<hr />\n<p>The umbrella mushroom inflates buoyant air bladders and begins rotating to arrest the fall. It slows its descent to 60 feet per round. It can take this reaction even when @UUID[Compendium.pf2e-anachronism.conditions.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>"
     },
     "rules": [],
     "slug": "float",

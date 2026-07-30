@@ -1,0 +1,184 @@
+{
+  "_id": "I8fG26JJS29ZYwfZ",
+  "name": "Dragon Breath",
+  "type": "feat",
+  "img": "systems/sf2e/icons/spells/dragon-breath.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon exhales a blast of destructive energy that deals 1d6 damage to all creatures in an area with a basic Reflex save against your spell DC. Your eidolon then can't use Dragon Breath again for the next [[/r 1d4 #rounds]]{1d4 rounds}. At 3rd level and every 2 levels thereafter, the damage increases by 1d6.</p><p>When the eidolon gains this ability, you choose the area—a @Template[type:line|distance:60] or a @Template[type:cone|distance:30]—as well as the damage type—acid, cold, electricity, fire, piercing, poison, or void. You can instead choose force if your eidolon has the arcane trait, spirit if they have the divine trait, or mental if they have the occult trait. If you model your eidolon after a specific type of dragon, your GM might allow you to choose from additional damage types.</p><p>Dragon Breath has the tradition trait of your eidolon and the trait matching the damage type chosen (unless you choose piercing damage).</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "value": "poison"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "value": "void"
+          }
+        ],
+        "flag": "breathDamage",
+        "key": "ChoiceSet",
+        "rollOption": "dragon-breath"
+      },
+      {
+        "choices": [
+          {
+            "label": "PF2E.SpecificRule.BreathWeapon.Shape.Cone.Label",
+            "value": "cone"
+          },
+          {
+            "label": "PF2E.SpecificRule.BreathWeapon.Shape.Line.Label",
+            "value": "line"
+          }
+        ],
+        "flag": "shape",
+        "key": "ChoiceSet",
+        "rollOption": "breath-shape"
+      },
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "predicate": [
+              "breath-shape:cone"
+            ],
+            "text": "PF2E.SpecificRule.BreathWeapon.Shape.Cone.Description"
+          },
+          {
+            "predicate": [
+              "breath-shape:line"
+            ],
+            "text": "PF2E.SpecificRule.BreathWeapon.Shape.Line.Description"
+          },
+          {
+            "text": "PF2E.SpecificRule.BreathWeapon.Cooldown"
+          },
+          {
+            "text": "PF2E.SpecificRule.BreathWeapon.Scaling"
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.system.breathweapon.breathDamage",
+        "value": "{item|flags.system.rulesSelections.breathDamage}"
+      },
+      {
+        "key": "ActorTraits",
+        "predicate": [
+          {
+            "not": "breath-weapon:piercing"
+          }
+        ],
+        "add": [
+          "{item|flags.system.rulesSelections.breathDamage}"
+        ]
+      },
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "breath-weapon:piercing"
+          }
+        ],
+        "property": "traits",
+        "value": "{item|flags.system.rulesSelections.breathDamage}"
+      }
+    ],
+    "slug": "breath-weapon",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eidolon"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Magic",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.I8fG26JJS29ZYwfZ",
+    "duplicateSource": null,
+    "exportSource": null,
+    "createdTime": 1785196952745,
+    "modifiedTime": 1785197679945,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
+  },
+  "folder": "kpWJAjuzGZKJKYh0",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!I8fG26JJS29ZYwfZ"
+}

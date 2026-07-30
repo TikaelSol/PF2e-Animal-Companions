@@ -12,27 +12,26 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon is a psychopomp, a creature whose sworn duty is to usher souls safely to the afterlife and maintain the courts of the dead. Psychopomp eidolons have a variety of appearances, but since they often traffic with mortals, their form typically includes an elaborate mask. You and your psychopomp eidolon share an important fate together, whether it relates directly to your own soul or to a mission that will somehow protect the souls of others.</p>\n<p><strong>Tradition</strong> divine</p>\n<p><strong>Traits</strong> eidolon, monitor, psychopomp</p>\n<p><strong>Alignment</strong> must be true neutral</p>\n<p><strong>Home Plane</strong> The Boneyard</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Suggested Attacks</strong> beak (piercing), claw (slashing), fist (bludgeoning), jaws (piercing), unarmed attacks shaped like a weapon</p>\n<p><strong>Soul Guardian</strong> Str 18, Dex 14, Con 16, Int 10, Wis 12, Cha 8; +2 AC (+3 Dex cap)</p>\n<p><strong>Scribe of the Dead</strong> Str 12, Dex 18, Con 12, Int 14, Wis 12, Cha 10; +1 AC (+4 Dex cap)</p>\n<p><strong>Skills</strong> Intimidation, Religion</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Language</strong> Requian</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.AC-Features.gyI9aHjkO84BQ3tR]{spirit touch}; Symbiosis @UUID[Compendium.pf2e-animal-companions.AC-Features.qFYR3I9XcjBZckUf]{hidden watcher}; Transcendence @UUID[Compendium.pf2e-animal-companions.AC-Features.rFuzSio2a1VOd2Ch]{spirit taker}</p>"
+      "value": "<p>Your eidolon is a psychopomp, a creature whose sworn duty is to usher souls safely to the afterlife and maintain the courts of the dead. Psychopomp eidolons have a variety of appearances, but since they often traffic with mortals, their form typically includes an elaborate mask. You and your psychopomp eidolon share an important fate together, whether it relates directly to your own soul or to a mission that will somehow protect the souls of others.</p><p><strong>Tradition</strong> divine</p><p><strong>Traits</strong> eidolon, monitor, psychopomp</p><p><strong>Home Plane</strong> The Boneyard</p><p><strong>Size</strong> Medium</p><p><strong>Suggested Attacks</strong> beak (piercing), claw (slashing), fist (bludgeoning), jaws (piercing), unarmed attacks shaped like a weapon</p><p><strong>Eidolon Attributes</strong> Con +3, Int +0, Wis +1, Cha –1</p><p><strong>Skills</strong> Intimidation, Religion</p><p><strong>Senses</strong> darkvision</p><p><strong>Language</strong> Requian</p><p><strong>Speed</strong> 25 feet</p><p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.AC-Features.gyI9aHjkO84BQ3tR]{Shepherd's Touch}; Symbiosis @UUID[Compendium.pf2e-animal-companions.AC-Features.qFYR3I9XcjBZckUf]{Hidden Watcher}; Transcendence @UUID[Compendium.pf2e-animal-companions.AC-Features.rFuzSio2a1VOd2Ch]{Spirit Taker}</p>"
     },
     "rules": [
       {
-        "adjustName": false,
-        "choices": [
-          {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.YkevbtGldcm34DlT"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.AC-Features.Item.VXlVUNQjQls2ubwX"
-          }
-        ],
-        "flag": "eidolonType",
-        "key": "ChoiceSet",
-        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.abilities.con.mod"
       },
       {
-        "key": "GrantItem",
-        "uuid": "{item|flags.system.rulesSelections.eidolonType}",
-        "allowDuplicate": false
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -1,
+        "mode": "downgrade",
+        "path": "system.abilities.cha.mod"
       },
       {
         "key": "ActiveEffectLike",
@@ -82,12 +81,12 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
-    "hp": 1,
+    "hp": 4,
     "size": "med",
     "hands": 2,
     "reach": 5,
@@ -135,11 +134,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.QlhL9vPXzjhkYd8W",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785248519411,
+    "modifiedTime": 1785249313749,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "_key": "!items!fvGz8fdP3iW8IBda"
 }

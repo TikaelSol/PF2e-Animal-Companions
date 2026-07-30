@@ -1,0 +1,83 @@
+{
+  "name": "Empower Breath",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/gaseous-form.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_id": "P7qw5V2ylPwCWMPB",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per minute</p><hr><p><strong>Effect</strong> Your eidolon gathers the power of the mightiest archdragons to make their magical breath even more spectacular. If your eidolon's next action is to use Dragon Breath, both the number of damage dice and area of Dragon Breath are doubled.</p>"
+    },
+    "rules": [],
+    "slug": "wyrms-breath",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "eidolon"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Magic",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1M"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
+    "compendiumSource": "Item.OpY6a94rSi4BRRce",
+    "duplicateSource": null,
+    "exportSource": null,
+    "createdTime": 1785197548454,
+    "modifiedTime": 1785197628305,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
+  },
+  "folder": "kpWJAjuzGZKJKYh0",
+  "sort": 225000,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!P7qw5V2ylPwCWMPB"
+}

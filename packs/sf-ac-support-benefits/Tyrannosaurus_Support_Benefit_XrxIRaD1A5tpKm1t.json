@@ -2,17 +2,17 @@
   "_id": "XrxIRaD1A5tpKm1t",
   "name": "Tyrannosaurus Support Benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 7500000,
+  "sort": 6700000,
   "flags": {
     "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your tyrannosaurus roars and puts on a fearsome display as you attack, startling your foes. Until the start of your next turn, if you hit and deal damage to a creature within your tyrannosaurus's reach, the creature is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.UJYz572LoOw3LH8u]{Effect: Tyrannosaurus Support Benefit}</p>"
+      "value": "<p>Your tyrannosaurus roars and puts on a fearsome display as you attack, startling your foes. Until the start of your next turn, if you hit and deal damage to a creature within your tyrannosaurus's reach, the creature is @Compendium[sf2e.conditions.Frightened]{Frightened 1}.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.UJYz572LoOw3LH8u]{Effect: Tyrannosaurus Support Benefit}</p>"
     },
     "rules": [],
     "slug": "tyrannosaurus-support-benefit",
@@ -48,10 +48,10 @@
     "thw0Ox3kKEThnAFP": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.XrxIRaD1A5tpKm1t",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.XrxIRaD1A5tpKm1t",
     "duplicateSource": null,
     "exportSource": null
   },

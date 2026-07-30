@@ -37,9 +37,9 @@
     "deathNote": false
   },
   "_id": "oawpSPdSj1hSkSYk",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
-  "sort": 4600000,
+  "sort": 3800000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -50,10 +50,10 @@
     }
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.oawpSPdSj1hSkSYk",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.oawpSPdSj1hSkSYk",
     "duplicateSource": null,
     "exportSource": null
   },

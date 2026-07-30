@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>Your cragstone bear eagerly defends you. Until the start of your next turn, you gain a +1 circumstance bonus to your AC if your cragstone bear is adjacent to you. If your bear is nimble or savage, increase the bonus to +2.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.33LFnwNIIHChfZz8]{Effect: Cragstone Bear Support Benefit}</p>",
+      "value": "<p>Your cragstone bear eagerly defends you. Until the start of your next turn, you gain a +1 circumstance bonus to your AC if your cragstone bear is adjacent to you. If your bear is nimble or savage, increase the bonus to +2.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.33LFnwNIIHChfZz8]{Effect: Cragstone Bear Support Benefit}</p>",
       "gm": ""
     },
     "publication": {
@@ -69,7 +69,7 @@
     "category": "offensive",
     "deathNote": false
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
   "ownership": {
     "default": 0,
@@ -80,11 +80,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "14.364",
-    "systemId": "pf2e",
+    "coreVersion": "13.351",
+    "systemId": "sf2e",
     "systemVersion": "7.8.0"
   },
   "_id": "6dStcNwpIK7WeAeo",
-  "sort": 1100000,
+  "sort": 300000,
   "_key": "!items!6dStcNwpIK7WeAeo"
 }

@@ -2,17 +2,17 @@
   "_id": "Si13B4VFANZN8mi1",
   "name": "Skeletal Constrictor Support Benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 7200000,
+  "sort": 6400000,
   "flags": {
     "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your snake sways, captivating an enemy. Choose one creature within 20 feet of the constrictor that can see it. Until the start of your next turn, your Strikes that deal damage to the chosen creature make the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.tBLkLrtoRFbYV1f4]{Effect: Skeletal Constrictor Support Benefit}</p>"
+      "value": "<p>Your snake sways, captivating an enemy. Choose one creature within 20 feet of the constrictor that can see it. Until the start of your next turn, your Strikes that deal damage to the chosen creature make the target @UUID[Compendium.pf2e-anachronism.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.tBLkLrtoRFbYV1f4]{Effect: Skeletal Constrictor Support Benefit}</p>"
     },
     "rules": [],
     "slug": "skeletal-constrictor-support-benefit",
@@ -48,10 +48,10 @@
     "thw0Ox3kKEThnAFP": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.Si13B4VFANZN8mi1",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.Si13B4VFANZN8mi1",
     "duplicateSource": null,
     "exportSource": null
   },

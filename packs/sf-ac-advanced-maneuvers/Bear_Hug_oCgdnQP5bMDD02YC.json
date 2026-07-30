@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> The bear's last action was a successful claw Strike.</p><hr /><p>The bear makes another claw Strike against the same target. If this Strike hits, the target is also @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed}, as if the bear had successfully @UUID[Compendium.sf2e.actions.Item.PMbdMWc2QroouFGD]{Grappled} the target.</p>"
+      "value": "<p><strong>Requirements</strong> The bear's last action was a successful claw Strike.</p><hr /><p>The bear makes another claw Strike against the same target. If this Strike hits, the target is also @UUID[Compendium.pf2e-anachronism.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed}, as if the bear had successfully @UUID[Compendium.pf2e-anachronism.actions.Item.PMbdMWc2QroouFGD]{Grappled} the target.</p>"
     },
     "rules": [],
     "slug": "bear-hug",

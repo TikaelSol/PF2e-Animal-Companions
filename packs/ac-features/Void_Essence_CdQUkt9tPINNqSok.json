@@ -1,0 +1,92 @@
+{
+  "_id": "CdQUkt9tPINNqSok",
+  "name": "Void Essence",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/bestial-curse.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your undead eidolon has a link directly to your life force, which grants them a twilight state between living and undead. This renders them a living creature and therefore susceptible to many ailments that bother only the living, though they possess some resistances to these effects. The eidolon has void healing, meaning they heal from void effects that heal undead and are damaged by vitality effects that damage undead. They don't have an undead's normal immunities, but they do gain a +2 circumstance bonus to saving throws against death effects, disease, poison effects, and non-damaging effects that target only undead. Additionally, their necrotic essence stanches their wounds easily. The flat check to remove persistent bleed damage from the eidolon is DC 10 (or DC 5 after receiving particularly effective aid).</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          {
+            "or": [
+              "disease",
+              "death-effect",
+              "poison"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "negative-essence",
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.350",
+        "system": "7.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Magic",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.CdQUkt9tPINNqSok",
+    "duplicateSource": null,
+    "exportSource": null,
+    "createdTime": 1785249810040,
+    "modifiedTime": 1785249837602,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
+  },
+  "folder": "ecK9IrCUtW1bkFl6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3
+  },
+  "_key": "!items!CdQUkt9tPINNqSok"
+}

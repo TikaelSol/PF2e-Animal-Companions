@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon's dedication makes it extremely challenging for your foes to bend its mind. Your eidolon gains a +2 circumstance bonus to saving throws against mental effects, and if they roll a success against such an effect, they get a critical success instead. If you have the shared resolve class feature and your eidolon rolls a critical failure against a mental effect, they get a failure instead.</p>"
+      "value": "<p>Your eidolon's dedication makes it extremely challenging for your foes to bend their mind. Your eidolon gains a +2 circumstance bonus to saving throws against mental effects, and if they roll a success against such an effect, they get a critical success instead. If you have the shared resolve class feature and your eidolon rolls a critical failure against a mental effect, they get a failure instead.</p>"
     },
     "rules": [
       {
@@ -61,10 +61,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 7
@@ -90,11 +90,14 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.N47g9LDkOdZZdgup",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785195691605,
+    "modifiedTime": 1785195699356,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "pggy7tMohSouyA2e",
   "sort": 500000,

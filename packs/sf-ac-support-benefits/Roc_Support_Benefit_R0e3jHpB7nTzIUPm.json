@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your roc beats its wings, creating a powerful downdraft. Until the start of your next turn, your Strikes that damage a creature that your roc threatens push the target 5 feet away from your roc.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.5AeK9y6jDQrFMYv3]{Effect: Roc Support Benefit}</p>"
+      "value": "<p>Your roc beats its wings, creating a powerful downdraft. Until the start of your next turn, your Strikes that damage a creature that your roc threatens push the target 5 feet away from your roc.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.5AeK9y6jDQrFMYv3]{Effect: Roc Support Benefit}</p>"
     },
     "rules": [],
     "slug": "roc-support-benefit",
@@ -37,9 +37,9 @@
     "deathNote": false
   },
   "_id": "R0e3jHpB7nTzIUPm",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
-  "sort": 2700000,
+  "sort": 1900000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -50,10 +50,10 @@
     }
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.R0e3jHpB7nTzIUPm",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.R0e3jHpB7nTzIUPm",
     "duplicateSource": null,
     "exportSource": null
   },

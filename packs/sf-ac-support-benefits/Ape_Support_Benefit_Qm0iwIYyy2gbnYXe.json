@@ -2,17 +2,17 @@
   "_id": "Qm0iwIYyy2gbnYXe",
   "name": "Ape Support Benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 7000000,
+  "sort": 6200000,
   "flags": {
     "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your ape threatens your foes with menacing growls. Until the start of your next turn, if you hit and deal damage to a creature in your ape's reach, the creature becomes @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.DXhqZ1oa1LxPH0fG]{Effect: Ape Support Benefit}</p>"
+      "value": "<p>Your ape threatens your foes with menacing growls. Until the start of your next turn, if you hit and deal damage to a creature in your ape's reach, the creature becomes @Compendium[sf2e.conditions.Frightened]{Frightened 1}.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.DXhqZ1oa1LxPH0fG]{Effect: Ape Support Benefit}</p>"
     },
     "rules": [],
     "slug": "ape-support-benefit",
@@ -54,10 +54,10 @@
     "WG8TaxGEQOxXBO1S": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.Qm0iwIYyy2gbnYXe",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.Qm0iwIYyy2gbnYXe",
     "duplicateSource": null,
     "exportSource": null
   },

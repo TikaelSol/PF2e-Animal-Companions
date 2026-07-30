@@ -2,7 +2,7 @@
   "_id": "JG6DlMcAdHpL2Hr7",
   "name": "Prototype Construct",
   "type": "ancestry",
-  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
   "sort": 400000,
@@ -119,16 +119,16 @@
     },
     "items": {
       "qmtw9": {
-        "img": "systems/pf2e/icons/unarmed-attacks/fist-earth-elemental.webp",
+        "img": "systems/sf2e/icons/unarmed-attacks/fist-earth-elemental.webp",
         "name": "Unarmed Strike 1",
         "level": 1,
-        "uuid": "Compendium.pf2e-animal-companions.AC-Construct-Companions.Item.i4Fz5yg9JufpyVns"
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Construct-Companions.Item.i4Fz5yg9JufpyVns"
       },
       "v1ive": {
-        "img": "systems/pf2e/icons/spells/impaling-spike.webp",
+        "img": "systems/sf2e/icons/spells/impaling-spike.webp",
         "name": "Unarmed Strike 2",
         "level": 1,
-        "uuid": "Compendium.pf2e-animal-companions.AC-Construct-Companions.Item.mjDtydpNNfI9SuFq"
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Construct-Companions.Item.mjDtydpNNfI9SuFq"
       }
     },
     "vision": "normal"
@@ -138,7 +138,7 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "coreVersion": "13.350",
     "compendiumSource": "Item.KsKXlXnc0oxcO3Kt",

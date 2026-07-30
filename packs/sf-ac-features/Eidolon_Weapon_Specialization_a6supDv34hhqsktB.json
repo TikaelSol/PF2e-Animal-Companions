@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon has learned how to inflict greater injuries with its unarmed attacks. It deals 2 additional Damage with unarmed attacks in which it's an expert. This damage increases to 3 if it's a master, and 4 if it's legendary.</p>"
+      "value": "<p>Your eidolon has learned how to inflict greater injuries with their unarmed attacks. They deal 2 additional damage with unarmed attacks in which they're an expert. This damage increases to 3 if they're a master, and 4 if they're legendary.</p>"
     },
     "rules": [
       {
@@ -66,10 +66,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 7
@@ -95,14 +95,17 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.a6supDv34hhqsktB",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785180645542,
+    "modifiedTime": 1785247107876,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
-  "folder": null,
-  "sort": 6400000,
+  "folder": "D1umZ4oomj5mtcad",
+  "sort": 500000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

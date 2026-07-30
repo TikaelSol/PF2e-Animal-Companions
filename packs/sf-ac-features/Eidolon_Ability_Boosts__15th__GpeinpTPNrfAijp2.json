@@ -43,7 +43,8 @@
         ],
         "flag": "abilityBoostOne",
         "key": "ChoiceSet",
-        "prompt": "PF2E.AbilityBoost"
+        "prompt": "PF2E.AbilityBoost",
+        "rollOption": "boost-one"
       },
       {
         "key": "GrantItem",
@@ -54,32 +55,63 @@
         "choices": [
           {
             "label": "PF2E.AbilityStr",
+            "predicate": [
+              {
+                "not": "boost-one:strength-boost"
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.5gnUVvjqXD99OpUX"
           },
           {
             "label": "PF2E.AbilityDex",
+            "predicate": [
+              {
+                "not": "boost-one:dexterity-boost"
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.nhFkOYRdlT5iLzdQ"
           },
           {
             "label": "PF2E.AbilityCon",
+            "predicate": [
+              {
+                "not": "boost-one:constitution-boost"
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.RQd8FPcVP3hrVXCr"
           },
           {
             "label": "PF2E.AbilityInt",
+            "predicate": [
+              {
+                "not": "boost-one:intelligence-boost"
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.RvCQCutoKANEqw5C"
           },
           {
             "label": "PF2E.AbilityWis",
+            "predicate": [
+              {
+                "not": "boost-one:wisdom-boost"
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.At61D9oWr39Ss6Ea"
           },
           {
             "label": "PF2E.AbilityCha",
+            "predicate": [
+              {
+                "not": "boost-one:charisma-boost"
+              }
+            ],
             "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.qhUxX4BhaZc0griR"
           }
         ],
         "flag": "abilityBoostTwo",
         "key": "ChoiceSet",
-        "prompt": "PF2E.AbilityBoost"
+        "prompt": "PF2E.AbilityBoost",
+        "rollOption": "boost-two"
       },
       {
         "key": "GrantItem",
@@ -202,14 +234,17 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.eaC33no5RBRsBC0R",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785247013344,
+    "modifiedTime": 1785259286342,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
-  "folder": null,
-  "sort": 3000000,
+  "folder": "Gk5ceuVsLrx5LhgK",
+  "sort": 500000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

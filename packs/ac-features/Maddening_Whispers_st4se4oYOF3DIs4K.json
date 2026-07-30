@@ -1,0 +1,70 @@
+{
+  "name": "Maddening Whispers",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your aberrant eidolon utters terrible secrets about the true nature of the universe. They can cast @UUID[Compendium.pf2e.spells-srd.Item.FmNDwqMEjeTEGPrY]{unfathomable song} once per day as an innate occult spell. Your eidolon can Sustain this spell as a free action if they spend at least one action Striding toward one of the targets.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Magic",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/unholy/orb-rays-blue.webp",
+  "folder": "Xvk795LtQU4qfvnm",
+  "ownership": {
+    "default": 0,
+    "XUrhfvb05TiIl7Al": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.3.0",
+    "createdTime": 1785182006943,
+    "modifiedTime": 1785182010131,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "st4se4oYOF3DIs4K",
+  "sort": 100000,
+  "_key": "!items!st4se4oYOF3DIs4K"
+}

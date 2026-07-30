@@ -10,12 +10,25 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon can make a ferocious charge or pounce on foes, allowing it to quickly engage. It gains the @Compendium[pf2e-animal-companions.AC-Features.ITQghUQFhbYpD2QM]{Beast's Charge} activity.</p>"
+      "value": "<p>Your eidolon rushes forward, using their momentum to increase the power of their attack. Your eidolon Strides twice and then Strikes. If the eidolon moved at least 20 feet away from their starting position and moved entirely in a straight line, they gain a +1 circumstance bonus to this attack roll.</p>"
     },
     "rules": [
       {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.ITQghUQFhbYpD2QM"
+        "key": "RollOption",
+        "domain": "attack-roll",
+        "option": "beasts-charge",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "beasts-charge"
+        ]
       }
     ],
     "slug": "beasts-charge",
@@ -29,14 +42,16 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "eidolon"
+      ],
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -45,10 +60,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 2
     },
     "prerequisites": {
       "value": []
@@ -62,11 +77,14 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.luKWDOY5dfNHl8WK",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785187882548,
+    "modifiedTime": 1785187976914,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "zMHXTu66OpHxm5Db",
   "sort": 200000,

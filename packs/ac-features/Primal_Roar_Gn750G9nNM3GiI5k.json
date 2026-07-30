@@ -10,14 +10,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon can bellow a terrifying roar, screech, croak, or other overpowering sound to frighten foes. It gains the @Compendium[pf2e-animal-companions.AC-Features.hcQsGAZQgqdCckCm]{Primal Roar} activity.</p>"
+      "value": "<p>Your eidolon unleashes a primal roar or other terrifying noise that fits your eidolon's form. Your eidolon attempts to [[/act demoralize]] each enemy that can hear the roar, comparing the result of a single Intimidation check to the Will DC of each target; this check doesn't take any penalty for not sharing a language.</p>"
     },
-    "rules": [
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.hcQsGAZQgqdCckCm"
-      }
-    ],
+    "rules": [],
     "slug": "primal-roar",
     "_migration": {
       "version": 0.952,
@@ -29,14 +24,17 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "auditory",
+        "eidolon"
+      ],
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 7
@@ -45,10 +43,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 2
     },
     "prerequisites": {
       "value": []
@@ -62,11 +60,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.EcSOhff7Lzt7p1ZK",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785187952327,
+    "modifiedTime": 1785188066139,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "zMHXTu66OpHxm5Db",
   "sort": 150000,

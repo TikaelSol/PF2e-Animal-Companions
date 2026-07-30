@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> The ravenous drake doesn't have a creature @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed} in its jaws</p><hr /><p><strong>Effect</strong> The ravenous drake draws in a powerful intake of breath, attempting to pull a foe within 10 feet toward it. The drake attempts an @Check[athletics|against:fortitude] check against the foe's Fortitude DC. On a success, the ravenous drake pulls the foe up to 10 feet to be adjacent to it. This movement is forced movement. On a critical success, the foe is also grabbed by the drake's jaws until the beginning of your next turn.</p>",
+      "value": "<p><strong>Requirements</strong> The ravenous drake doesn't have a creature @UUID[Compendium.pf2e-anachronism.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed} in its jaws</p><hr /><p><strong>Effect</strong> The ravenous drake draws in a powerful intake of breath, attempting to pull a foe within 10 feet toward it. The drake attempts an @Check[athletics|against:fortitude] check against the foe's Fortitude DC. On a success, the ravenous drake pulls the foe up to 10 feet to be adjacent to it. This movement is forced movement. On a critical success, the foe is also grabbed by the drake's jaws until the beginning of your next turn.</p>",
       "gm": ""
     },
     "publication": {

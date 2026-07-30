@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Your tikar urchinpad attempts to wrap its tendrils around your foe's limbs, pulling it off balance. Until the end of your next turn, as long as you're adjacent to your urchinpad, if you attempt to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} an opponent and roll a critical failure, you get a failure instead.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.ciyeCV7RsTtFcYKw]{Effect: Tikar Urchinpad Support Benefit}</p>",
+      "value": "<p>Your tikar urchinpad attempts to wrap its tendrils around your foe's limbs, pulling it off balance. Until the end of your next turn, as long as you're adjacent to your urchinpad, if you attempt to @UUID[Compendium.pf2e-anachronism.actions.Item.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.pf2e-anachronism.actions.Item.ge56Lu1xXVFYUnLP]{Trip} an opponent and roll a critical failure, you get a failure instead.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.ciyeCV7RsTtFcYKw]{Effect: Tikar Urchinpad Support Benefit}</p>",
       "gm": ""
     },
     "publication": {
@@ -37,21 +37,21 @@
     "category": "interaction",
     "deathNote": false
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "ownership": {
     "default": 0,
     "8KoEr2ej1d0aIHVv": 3
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.TFrCa4aCUKtwhuqn",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.TFrCa4aCUKtwhuqn",
     "duplicateSource": null,
-    "coreVersion": "14.364",
-    "systemId": "pf2e",
+    "coreVersion": "13.350",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "exportSource": null
   },
   "_id": "TFrCa4aCUKtwhuqn",
-  "sort": 1500000,
+  "sort": 700000,
   "_key": "!items!TFrCa4aCUKtwhuqn"
 }
