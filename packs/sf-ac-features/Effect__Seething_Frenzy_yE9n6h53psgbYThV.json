@@ -2,7 +2,7 @@
   "_id": "yE9n6h53psgbYThV",
   "name": "Effect: Seething Frenzy",
   "type": "effect",
-  "img": "systems/sf2e/icons/features/classes/rage.webp",
+  "img": "systems/sf2e/icons/spells/abyssal-wrath.webp",
   "effects": [],
   "flags": {
     "core": {}
@@ -10,13 +10,31 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The creature takes a -2 penalty to AC.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.MzqIc3XmAUQVdSFO]{Seething Frenzy}</p><p>You take a -1 penalty to AC, gain temporary Hit Points equal to your level gains a status bonus to damage.</p>"
     },
     "rules": [
       {
         "key": "FlatModifier",
-        "selector": "ac",
-        "value": -2
+        "selector": [
+          "ac"
+        ],
+        "value": -1
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "self:trait:eidolon",
+          "item:category:unarmed"
+        ],
+        "selector": [
+          "strike-damage"
+        ],
+        "type": "status",
+        "value": "@weapon.system.damage.dice * 3"
+      },
+      {
+        "key": "TempHP",
+        "value": "@actor.level"
       }
     ],
     "slug": "effect-seething-frenzy",
@@ -33,10 +51,10 @@
       "value": []
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -61,14 +79,17 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.yE9n6h53psgbYThV",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785186966005,
+    "modifiedTime": 1785247285022,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
-  "folder": null,
-  "sort": 11100000,
+  "folder": "q3nXFZfwRZgEhUKV",
+  "sort": 225000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> The medic is wearing or holding a healer's toolkit</p><hr /><p><strong>Effect</strong> The medic treats an adjacent creature in an attempt to reduce the @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{Sickened}, or @UUID[Compendium.sf2e.conditions.Item.e1XGnhKNSQIm5IXg]{Stupefied} condition. If a creature has multiple conditions from this list, the medic chooses one to treat. The medic attempts a counteract check against the condition, using their @Check[medicine] modifier as their counteract modifier and half their level as the counteract rank. The condition's source determines the DC.</p><p>The medic can't treat a condition that came from an artifact or an effect above 20th level. Using Medic's Treatment on a condition that is continually applied (for instance, the enfeebled condition a holy creature gains from carrying an unholy weapon) has no effect as long as the circumstances continue.</p><hr /><p><strong>Critical Success</strong> Reduce the chosen condition's value by 2.</p><p><strong>Success</strong> Reduce the chosen condition's value by 1.</p><p><strong>Critical Failure</strong> Increase the chosen condition's value by 1.</p>",
+      "value": "<p><strong>Requirements</strong> The medic is wearing or holding a healer's toolkit</p><hr /><p><strong>Effect</strong> The medic treats an adjacent creature in an attempt to reduce the @UUID[Compendium.pf2e-anachronism.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e-anachronism.conditions.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e-anachronism.conditions.Item.fesd1n5eVhpCSS18]{Sickened}, or @UUID[Compendium.pf2e-anachronism.conditions.Item.e1XGnhKNSQIm5IXg]{Stupefied} condition. If a creature has multiple conditions from this list, the medic chooses one to treat. The medic attempts a counteract check against the condition, using their @Check[medicine] modifier as their counteract modifier and half their level as the counteract rank. The condition's source determines the DC.</p><p>The medic can't treat a condition that came from an artifact or an effect above 20th level. Using Medic's Treatment on a condition that is continually applied (for instance, the enfeebled condition a holy creature gains from carrying an unholy weapon) has no effect as long as the circumstances continue.</p><hr /><p><strong>Critical Success</strong> Reduce the chosen condition's value by 2.</p><p><strong>Success</strong> Reduce the chosen condition's value by 1.</p><p><strong>Critical Failure</strong> Increase the chosen condition's value by 1.</p>",
       "gm": ""
     },
     "publication": {
@@ -39,7 +39,7 @@
   },
   "_id": "ma45EqTK72KQLca3",
   "img": "systems/sf2e/icons/actions/OneAction.webp",
-  "sort": 500000,
+  "sort": 600000,
   "ownership": {
     "default": 0,
     "AhhBYTk3xYRMuz4T": 3
@@ -51,7 +51,7 @@
     "exportSource": null,
     "coreVersion": "14.363",
     "systemId": "sf2e",
-    "systemVersion": "1.2.0"
+    "systemVersion": "8.2.0"
   },
   "_key": "!items!ma45EqTK72KQLca3"
 }

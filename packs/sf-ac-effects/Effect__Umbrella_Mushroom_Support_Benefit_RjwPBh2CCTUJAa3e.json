@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.XVOVZjvTwaoalpWC]{Umbrella Mushroom Support Benefit}</p><p>Your Strikes that damage a creature within your umbrella mushroom's reach becomes @UUID[Compendium.sf2e.conditions.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. This effect has the poison trait.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.XVOVZjvTwaoalpWC]{Umbrella Mushroom Support Benefit}</p><p>Your Strikes that damage a creature within your umbrella mushroom's reach becomes @UUID[Compendium.pf2e-anachronism.conditions.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. This effect has the poison trait.</p>"
     },
     "rules": [
       {

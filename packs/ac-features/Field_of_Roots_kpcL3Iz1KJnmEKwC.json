@@ -10,14 +10,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon learns how to send its roots underground to hinder foes. It gains the @Compendium[pf2e-animal-companions.AC-Features.4ZCaD8Y817JjbrX2]{Field of Roots} activity.</p>"
+      "value": "<p>Your eidolon extends their roots underground to entangle and possibly damage all foes nearby. All enemies within your eidolon's reach take damage of the same type and amount as your eidolon's most damaging Strike, depending on their Reflex saves against your spell DC. Any ongoing effects of the save last until the enemy either Escapes (rolling against your spell DC) or leaves your eidolon's reach. After using Field of Roots, your eidolon is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} until they take an Interact action to detach from the ground; this also ends any remaining effects on enemies from Field of Roots.</p><hr><p><strong>Critical Success</strong> The enemy is unaffected.</p><p><strong>Success</strong> The enemy takes no damage, but takes a –10 foot circumstance penalty to its</p><p><strong>Speed</strong>s.</p><p><strong>Failure</strong> The enemy takes half damage, takes a –10-foot circumstance penalty to its</p><p><strong>Speed</strong>s, and at the end of each of its turns, takes half damage again.</p><p><strong>Critical Failure</strong> The enemy is immobilized, takes full damage, and at the end of each of its turns, takes full damage again.</p>"
     },
-    "rules": [
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.4ZCaD8Y817JjbrX2"
-      }
-    ],
+    "rules": [],
     "slug": "field-of-roots",
     "_migration": {
       "version": 0.952,
@@ -29,14 +24,16 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "eidolon"
+      ],
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 17
@@ -45,10 +42,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 2
     },
     "prerequisites": {
       "value": []
@@ -62,11 +59,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.dJqf5ZccUpz5vGSD",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785247965160,
+    "modifiedTime": 1785248137582,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "scyNeaFTkdY4uIfy",
   "sort": -100000,

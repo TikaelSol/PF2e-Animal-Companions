@@ -2,17 +2,17 @@
   "_id": "r7QN2lUVWXlcynMW",
   "name": "Elephant Support Benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 8900000,
+  "sort": 8100000,
   "flags": {
     "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your elephant trumpets noisily and menaces your enemy. The first creature within your elephant's reach that you hit and deal damage to before the start of your next turn has difficulty hearing as its ears ring from the noise, taking a –4 status penalty to purely auditory Perception checks until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.yTWDjFno6nKETfXY]{Effect: Elephant Support Benefit}</p>"
+      "value": "<p>Your elephant trumpets noisily and menaces your enemy. The first creature within your elephant's reach that you hit and deal damage to before the start of your next turn has difficulty hearing as its ears ring from the noise, taking a –4 status penalty to purely auditory Perception checks until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.yTWDjFno6nKETfXY]{Effect: Elephant Support Benefit}</p>"
     },
     "rules": [],
     "slug": "elephant-support-benefit",
@@ -48,10 +48,10 @@
     "thw0Ox3kKEThnAFP": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.r7QN2lUVWXlcynMW",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.r7QN2lUVWXlcynMW",
     "duplicateSource": null,
     "exportSource": null
   },

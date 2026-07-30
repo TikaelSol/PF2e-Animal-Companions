@@ -28,10 +28,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 17
@@ -57,11 +57,14 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.f5t6k3hwRSXqGto1",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785188544699,
+    "modifiedTime": 1785188546045,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "1hgF3xYnaahj8Co4",
   "sort": 300000,

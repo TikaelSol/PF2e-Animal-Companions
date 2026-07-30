@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your connection with your eidolon approaches its peak, granting your eidolon access to a powerful new ability depending on its type, as described in Eidolon Abilities in each eidolon's entry. This ability also increases one of the eidolon's ability scores by 2.</p>"
+      "value": "<p>Your connection with your eidolon approaches its peak, granting your eidolon access to a powerful new ability depending on their type, as described in Eidolon Abilities in each eidolon's entry. In addition, choose one of your eidolon's attribute modifiers to increase by 1.</p>"
     },
     "rules": [
       {
@@ -72,10 +72,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 17
@@ -101,14 +101,17 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.E7DFHsVNS1xph8DT",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785181008986,
+    "modifiedTime": 1785247074719,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
-  "folder": null,
-  "sort": 2400000,
+  "folder": "D1umZ4oomj5mtcad",
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

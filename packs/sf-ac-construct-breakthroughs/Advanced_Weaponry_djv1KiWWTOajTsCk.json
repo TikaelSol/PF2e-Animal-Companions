@@ -2,7 +2,7 @@
   "_id": "djv1KiWWTOajTsCk",
   "name": "Advanced Weaponry",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "img": "systems/sf2e/icons/default-icons/feats.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -62,10 +62,10 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "coreVersion": "13.350",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Construct-Breakthroughs.Item.djv1KiWWTOajTsCk",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Construct-Breakthroughs.Item.djv1KiWWTOajTsCk",
     "duplicateSource": null,
     "exportSource": null
   },

@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>Your ravenous drake constantly tries to pull your foe or their possessions into its waiting jaws. You gain a +1 circumstance bonus to any Athletics check to [[/act disarm]], [[/act reposition]], [[/act shove]], or [[/act trip]] an opponent adjacent to your ravenous drake.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.vZarTalIYKxQ0Pgr]{Effect: Ravenous Drake Support Benefit}</p>",
+      "value": "<p>Your ravenous drake constantly tries to pull your foe or their possessions into its waiting jaws. You gain a +1 circumstance bonus to any Athletics check to [[/act disarm]], [[/act reposition]], [[/act shove]], or [[/act trip]] an opponent adjacent to your ravenous drake.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.vZarTalIYKxQ0Pgr]{Effect: Ravenous Drake Support Benefit}</p>",
       "gm": ""
     },
     "publication": {
@@ -36,7 +36,7 @@
     "category": "offensive",
     "deathNote": false
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
   "ownership": {
     "default": 0,
@@ -47,11 +47,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "14.364",
-    "systemId": "pf2e",
+    "coreVersion": "13.350",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1"
   },
   "_id": "uIOdChoT35s5BIzd",
-  "sort": 2100000,
+  "sort": 1300000,
   "_key": "!items!uIOdChoT35s5BIzd"
 }

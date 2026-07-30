@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon becomes more capable of using its unarmed attacks. Its proficiency rank for unarmed attacks increases to expert.</p>"
+      "value": "<p>Your eidolon becomes more capable of using their unarmed attacks. Their proficiency rank for unarmed attacks increases to expert.</p>"
     },
     "rules": [
       {
@@ -35,10 +35,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 5
@@ -64,14 +64,17 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.zF6bLjVwj7Njkqan",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785180539301,
+    "modifiedTime": 1785247293978,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
-  "folder": null,
-  "sort": 11200000,
+  "folder": "D1umZ4oomj5mtcad",
+  "sort": 1000000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

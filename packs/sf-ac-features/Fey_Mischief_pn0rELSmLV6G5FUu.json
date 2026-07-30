@@ -15,7 +15,7 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.sf2e.feats.Item.b1eGMNjBY3iqIt2S"
+        "uuid": "Compendium.pf2e-anachronism.feats.Item.b1eGMNjBY3iqIt2S"
       }
     ],
     "slug": "fey-mischief",
@@ -33,10 +33,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 7
@@ -62,11 +62,14 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.pn0rELSmLV6G5FUu",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785198247978,
+    "modifiedTime": 1785198249268,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "aOspaDr7wy2gJDm4",
   "sort": 150000,

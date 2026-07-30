@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your riding dragonet enraptures those nearby, exhaling a @Template[type:cone|distance:15] of pheromones that fascinates those within it. Each creature in the area is @UUID[Compendium.sf2e.conditions.Item.AdPVz7rbaVSRxHFg]{Fascinated} with you and your dragonet until the end of your next turn unless it succeeds at a @Check[type:fortitude|against:enamoring-exhalation|basic:true] save. This uses a trained DC using the dragonet's Charisma modifier, or an expert DC if the dragonet is specialized.</p>",
+      "value": "<p>Your riding dragonet enraptures those nearby, exhaling a @Template[type:cone|distance:15] of pheromones that fascinates those within it. Each creature in the area is @UUID[Compendium.pf2e-anachronism.conditions.Item.AdPVz7rbaVSRxHFg]{Fascinated} with you and your dragonet until the end of your next turn unless it succeeds at a @Check[type:fortitude|against:enamoring-exhalation|basic:true] save. This uses a trained DC using the dragonet's Charisma modifier, or an expert DC if the dragonet is specialized.</p>",
       "gm": ""
     },
     "publication": {

@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> The snake has a smaller creature @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p><hr /><p>The snake deals @Damage[12[bludgeoning]] damage to the grabbed creature; the creature must attempt a @Check[fortitude|basic] save against your class DC. If the snake is a specialized animal companion, increase this damage to @Damage[20[bludgeoning]|shortLabel].</p>"
+      "value": "<p><strong>Requirements</strong> The snake has a smaller creature @UUID[Compendium.pf2e-anachronism.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p><hr /><p>The snake deals @Damage[12[bludgeoning]] damage to the grabbed creature; the creature must attempt a @Check[fortitude|basic] save against your class DC. If the snake is a specialized animal companion, increase this damage to @Damage[20[bludgeoning]|shortLabel].</p>"
     },
     "rules": [],
     "slug": "constrict",

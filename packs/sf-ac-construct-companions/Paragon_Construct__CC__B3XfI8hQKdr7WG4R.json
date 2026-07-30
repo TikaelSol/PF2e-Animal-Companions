@@ -2,7 +2,7 @@
   "_id": "B3XfI8hQKdr7WG4R",
   "name": "Paragon Construct (CC)",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "img": "systems/sf2e/icons/default-icons/feats.webp",
   "effects": [],
   "folder": null,
   "sort": 300000,
@@ -153,7 +153,7 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "coreVersion": "13.350",
     "compendiumSource": "Item.MBLwQP3kATtKmi8M",

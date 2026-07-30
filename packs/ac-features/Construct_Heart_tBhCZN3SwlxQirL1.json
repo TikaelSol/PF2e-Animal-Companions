@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your construct eidolon has a link directly to your life force, which renders it a living creature and therefore susceptible to many ailments that bother only the living, though it does possess some resistances to these effects. It doesn't have a construct's normal immunities, but does gain a +2 circumstance bonus to saving throws against death effects, disease, necromancy, and poison effects, as well as effects causing the @Compendium[pf2e.conditionitems.Fatigued]{Fatigued} or sickened conditions. Additionally, its astral essence bleeds off slowly, and it only needs to succeed at a <span data-pf2-check=\"flat\" data-pf2-dc=\"10\" data-pf2-show-dc=\"owner\">Flat Check</span> to remove persistent bleed damage (or a <span data-pf2-check=\"flat\" data-pf2-dc=\"5\" data-pf2-show-dc=\"owner\">Flat Check</span> after receiving particularly effective aid).</p>"
+      "value": "<p>Your construct eidolon has a link directly to your life force, which renders them a living creature and therefore susceptible to many ailments that bother only the living, though they do possess some resistances to these effects. They don't have a construct's normal immunities, but they do gain a +2 circumstance bonus to saving throws against death effects, disease, poison, and spirit effects, as well as effects causing the @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} or sickened conditions. Additionally, their astral essence bleeds off slowly. The flat check to remove persistent bleed damage from the eidolon is DC 10 (or DC 5 after receiving particularly effective aid).</p>"
     },
     "rules": [
       {
@@ -46,10 +46,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -75,11 +75,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.tBhCZN3SwlxQirL1",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785188469762,
+    "modifiedTime": 1785188490227,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "1hgF3xYnaahj8Co4",
   "sort": 100000,

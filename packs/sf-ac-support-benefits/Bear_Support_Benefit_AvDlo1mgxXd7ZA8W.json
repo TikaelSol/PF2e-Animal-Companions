@@ -2,17 +2,17 @@
   "_id": "AvDlo1mgxXd7ZA8W",
   "name": "Bear Support Benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 6200000,
+  "sort": 5400000,
   "flags": {
     "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your bear mauls your enemies when you create an opening. Until the start of your next turn, each time you hit a creature in the bear's reach with a Strike, the creature takes @Damage[1d8[slashing]] damage from the bear. If your bear is nimble or savage, the slashing damage increases to [[/r 2d8]].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.zAvLdUNaJrKOMfQY]{Effect: Bear Support Benefit}</p>"
+      "value": "<p>Your bear mauls your enemies when you create an opening. Until the start of your next turn, each time you hit a creature in the bear's reach with a Strike, the creature takes @Damage[1d8[slashing]] damage from the bear. If your bear is nimble or savage, the slashing damage increases to [[/r 2d8]].</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.zAvLdUNaJrKOMfQY]{Effect: Bear Support Benefit}</p>"
     },
     "rules": [
       {
@@ -81,10 +81,10 @@
     "WG8TaxGEQOxXBO1S": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.AvDlo1mgxXd7ZA8W",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.AvDlo1mgxXd7ZA8W",
     "duplicateSource": null,
     "exportSource": null
   },

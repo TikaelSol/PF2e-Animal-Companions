@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon's attacks are corrupted by the Abyss and imbued with pure evil and shifting chaos. Your eidolon's unarmed Strikes gain the unholy trait and deal 1 extra spirit damage to holy creatures and creatures with weakness to unholy. Additionally, choose one of your eidolon's unarmed attacks that deals physical damage; it gains the versatile trait for a different type of physical damage you choose.</p>"
+      "value": "<p>Your eidolon's attacks are corrupted by the Outer Rifts and imbued with pure malice and shifting chaos. Your eidolon's unarmed Strikes gain the unholy trait and deal an additional 1 spirit damage to holy creatures and creatures with weakness to unholy. Additionally, choose one of your eidolon's unarmed attacks that deals physical damage; it gains your choice of versatile B, versatile P, or versatile S.</p>"
     },
     "rules": [
       {
@@ -44,10 +44,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -73,11 +73,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.jSDsKX3BOHhvtgsD",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785194840525,
+    "modifiedTime": 1785194883072,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "4oaqgJDRdOmg12Mo",
   "sort": 200000,

@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon's angelic power allows them to assuage a variety of ailments, just like most other powerful angels. Your eidolon can cast @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} two times per day, @UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]{Clear Mind} once per day, and @UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]{Sure Footing} once per day each as 9th-rank divine innate spells.</p>"
+      "value": "<p>Your eidolon can cast @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction}, @UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]{Clear Mind}, and @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} once per day each as 9th-rank divine innate spells.</p>"
     },
     "rules": [],
     "slug": "angelic-mercy",
@@ -28,10 +28,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 17
@@ -57,11 +57,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.SAYZgbZuvv3jGxpz",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785186264431,
+    "modifiedTime": 1785186309480,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "3UpjTq1xgggzS2Eq",
   "sort": 300000,

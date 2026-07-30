@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Ever full of tricks, your fey eidolon twists magical protections into your shared life force, granting it a contingency in its back pocket for desperate situations. During your daily preparations, your eidolon can cast a @Compendium[sf2e.spells.WG91Z5TiR6oO5FOw]{Contingency} spell. The 4th-level spell it chooses must come from the primal or fey gift list, and must either be common or be another spell you have access to.</p>"
+      "value": "<p>Ever full of tricks, your fey eidolon twists magical protections into your shared life force, granting them a contingency in their back pocket for desperate situations. During your daily preparations, your eidolon can cast a @UUID[Compendium.pf2e-anachronism.spells.Item.WG91Z5TiR6oO5FOw]{Contingency} spell. The 4th-rank spell they choose must come from the primal or fey gift list, and must either be common or be another spell you have access to.</p>"
     },
     "rules": [],
     "slug": "fey-chicanery",
@@ -28,10 +28,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 17
@@ -57,11 +57,14 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.VZQ3CcjOZFG57R0O",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785198210901,
+    "modifiedTime": 1785198233861,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "aOspaDr7wy2gJDm4",
   "sort": 100000,

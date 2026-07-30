@@ -12,7 +12,37 @@
       "gm": "",
       "value": ""
     },
-    "rules": [],
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing"
+          }
+        ],
+        "flag": "secondaryStrikeDamage",
+        "key": "ChoiceSet",
+        "prompt": "COMP.SpecificRule.Eidolon.Prompt.Strikes.Damage"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "{item|flags.system.rulesSelections.secondaryStrikeDamage}",
+        "selectors": [
+          "{item|id}-damage"
+        ]
+      }
+    ],
     "slug": "secondary-attack",
     "_migration": {
       "version": 0.952,
@@ -130,14 +160,17 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.plHqkYSxSSPZ4mHQ",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785247363523,
+    "modifiedTime": 1785257421641,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
-  "folder": null,
-  "sort": 10700000,
+  "folder": "bEsp8rfXg8Q7Fn0G",
+  "sort": 800000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

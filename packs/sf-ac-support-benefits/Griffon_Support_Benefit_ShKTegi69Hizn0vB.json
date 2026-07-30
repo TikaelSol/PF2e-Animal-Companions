@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your griffon adopts a noble pose, inspiring you to defy the horrors before you. Until the start of your next turn, you and your griffon gain a +2 circumstance bonus to saves against emotion effects.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.ixEu5vNQCKPtUbBQ]{Effect: Griffon Support Benefit}</p>"
+      "value": "<p>Your griffon adopts a noble pose, inspiring you to defy the horrors before you. Until the start of your next turn, you and your griffon gain a +2 circumstance bonus to saves against emotion effects.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.ixEu5vNQCKPtUbBQ]{Effect: Griffon Support Benefit}</p>"
     },
     "rules": [],
     "slug": "griffon-support-benefit",
@@ -36,7 +36,7 @@
     },
     "deathNote": false
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
   "ownership": {
     "default": 0,
@@ -45,19 +45,19 @@
   "flags": {
     "scene-packer": {
       "hash": "b2d1c85916efcb0426848bc9e35e197a4d7edc92",
-      "sourceId": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.NkPqZnD5sxk94jBJ"
+      "sourceId": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.NkPqZnD5sxk94jBJ"
     },
     "core": {}
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.ShKTegi69Hizn0vB",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.ShKTegi69Hizn0vB",
     "duplicateSource": null,
     "exportSource": null
   },
   "_id": "ShKTegi69Hizn0vB",
-  "sort": 2900000,
+  "sort": 2100000,
   "_key": "!items!ShKTegi69Hizn0vB"
 }

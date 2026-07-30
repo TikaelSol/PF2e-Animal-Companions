@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon can stoke itself into a frenzy. It gains the @Compendium[pf2e-animal-companions.AC-Features.7K6UJ3D3owmOQS03]{Seething Frenzy} action.</p>"
+      "value": "<p>Your eidolon's fury boils over into a reckless, out-of-control frenzy. While frenzied, your eidolon is affected by @UUID[Compendium.pf2e-anachronism.spells.Item.HStu2Yhw3iQER9tY]{Boost Eidolon} and gains temporary Hit Points equal to your level, but takes a –1 penalty to AC. Your eidolon can't voluntarily end the frenzy or start another frenzy while in the frenzy. The frenzy and the accompanying temporary Hit Points last for 1 minute or until your eidolon is no longer manifested, whichever comes first, after which they can't start another frenzy for 1 minute.</p><p>When your eidolon makes a @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.CBJrHjIETQsh3OG6]{Furious Strike} while in a Seething Frenzy, the status bonus from boost eidolon is 3 per damage die. The extra damage die from Furious Strike still doesn't count toward boost eidolon's bonus, as normal for weapon dice added by abilities.</p>"
     },
     "rules": [
       {
@@ -29,13 +29,18 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "concentrate",
+        "eidolon",
+        "emotion",
+        "mental"
+      ],
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
+      "license": "ORC",
       "remaster": false
     },
     "level": {
@@ -45,10 +50,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -58,15 +63,22 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.yE9n6h53psgbYThV",
+      "name": "Effect: Seething Frenzy"
     }
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.1NzHTTBu02H4H4Ng",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785186833261,
+    "modifiedTime": 1785187553717,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "q3nXFZfwRZgEhUKV",
   "sort": 150000,

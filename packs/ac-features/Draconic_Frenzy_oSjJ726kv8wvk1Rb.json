@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon can make a furious assault, potentially recovering the use of their Breath Weapon. They gain the @Compendium[pf2e-animal-companions.AC-Features.HiVt4B5bE2hi0FWc]{Draconic Frenzy} activity.</p>"
+      "value": "<p>Your eidolon makes one Strike with their primary unarmed attack and two Strikes with their secondary unarmed attack (in any order). If any of these attacks critically hits an enemy, your eidolon instantly recovers the use of their Dragon Breath.</p>"
     },
     "rules": [
       {
@@ -29,14 +29,16 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "eidolon"
+      ],
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 7
@@ -45,10 +47,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 2
     },
     "prerequisites": {
       "value": []
@@ -62,11 +64,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.cgEzBx3hVSOw6Xpk",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785197494093,
+    "modifiedTime": 1785197518876,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "kpWJAjuzGZKJKYh0",
   "sort": 0,

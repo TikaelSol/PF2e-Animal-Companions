@@ -2,17 +2,17 @@
   "_id": "lzaNwsSxjVPH1nzn",
   "name": "Camel Support benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 8400000,
+  "sort": 7600000,
   "flags": {
     "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The camel makes a ranged attack to spit a long string of saliva at a foe within 10 feet. On a hit, the foe is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>"
+      "value": "<p>The camel makes a ranged attack to spit a long string of saliva at a foe within 10 feet. On a hit, the foe is @UUID[Compendium.pf2e-anachronism.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>"
     },
     "rules": [],
     "slug": "camel-support-benefit",
@@ -48,10 +48,10 @@
     "WG8TaxGEQOxXBO1S": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.lzaNwsSxjVPH1nzn",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.lzaNwsSxjVPH1nzn",
     "duplicateSource": null,
     "exportSource": null
   },

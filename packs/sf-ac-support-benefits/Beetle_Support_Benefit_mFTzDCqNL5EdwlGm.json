@@ -1,10 +1,10 @@
 {
   "name": "Beetle Support Benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 8500000,
+  "sort": 7700000,
   "flags": {
     "core": {}
   },
@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your beetle stomps around and smashes into foes, knocking them off balance or pushing them aside when you create an opening. Until the start of your next turn, while riding on your beetle, your Strikes that deal damage either make the target @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} until the end of your next turn or move the target 5 feet away from the beetle (this is forced movement). The target chooses which effect occurs.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.Jvh1ciiT9JWXILxo]{Effect: Beetle Support Benefit}</p>"
+      "value": "<p>Your beetle stomps around and smashes into foes, knocking them off balance or pushing them aside when you create an opening. Until the start of your next turn, while riding on your beetle, your Strikes that deal damage either make the target @Compendium[sf2e.conditions.Off-Guard]{Off-Guard} until the end of your next turn or move the target 5 feet away from the beetle (this is forced movement). The target chooses which effect occurs.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.Jvh1ciiT9JWXILxo]{Effect: Beetle Support Benefit}</p>"
     },
     "rules": [
       {
@@ -81,9 +81,9 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
+    "coreVersion": "13.350",
     "compendiumSource": "Item.IQdmE8Tmhpp8JaGt",
     "duplicateSource": null,
     "exportSource": null

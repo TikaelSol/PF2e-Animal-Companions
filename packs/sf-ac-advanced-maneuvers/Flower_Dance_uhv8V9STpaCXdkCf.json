@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>The sundaflora stands tall on its hind legs and begins to wave and dance, showing off its dazzling beauty to distract your attackers. It attempts to @UUID[Compendium.sf2e.actions.Item.QNAVeNKtHA0EUw4X]{Feint} the target creature, using its [[/act feint skill=performance]]{Performance } skill instead of Deception. If successful (or critically successful), the target is @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} to you, rather than to your sundaflora.</p>",
+      "value": "<p>The sundaflora stands tall on its hind legs and begins to wave and dance, showing off its dazzling beauty to distract your attackers. It attempts to @UUID[Compendium.pf2e-anachronism.actions.Item.QNAVeNKtHA0EUw4X]{Feint} the target creature, using its [[/act feint skill=performance]]{Performance } skill instead of Deception. If successful (or critically successful), the target is @UUID[Compendium.pf2e-anachronism.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} to you, rather than to your sundaflora.</p>",
       "gm": ""
     },
     "publication": {

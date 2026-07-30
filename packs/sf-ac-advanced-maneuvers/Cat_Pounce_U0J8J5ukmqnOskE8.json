@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The cat Strides and then Strikes. If it was @UUID[Compendium.sf2e.conditions.Item.VRSef5y1LmL2Hkjf]{Undetected} at the start of its Cat Pounce, it remains undetected until after the attack.</p>"
+      "value": "<p>The cat Strides and then Strikes. If it was @UUID[Compendium.pf2e-anachronism.conditions.Item.VRSef5y1LmL2Hkjf]{Undetected} at the start of its Cat Pounce, it remains undetected until after the attack.</p>"
     },
     "rules": [],
     "slug": "cat-pounce",

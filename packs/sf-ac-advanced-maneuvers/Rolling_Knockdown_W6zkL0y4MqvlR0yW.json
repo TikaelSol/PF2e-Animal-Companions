@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your earth elemental rolls along the ground like a bowling ball and knocks a foe over. It Strides up to 10 feet then makes a fist Strike. If it hits, the target is also knocked @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+      "value": "<p>Your earth elemental rolls along the ground like a bowling ball and knocks a foe over. It Strides up to 10 feet then makes a fist Strike. If it hits, the target is also knocked @UUID[Compendium.pf2e-anachronism.conditions.Item.j91X7x0XSomq8d60]{Prone}.</p>"
     },
     "rules": [],
     "slug": "rolling-knockdown",

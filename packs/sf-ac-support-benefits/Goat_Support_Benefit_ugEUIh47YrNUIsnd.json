@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your goat boosts you up a wall, allowing you to reach greater heights. You climb up a surface as if you had rolled a success on a @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Climb} action.</p>"
+      "value": "<p>Your goat boosts you up a wall, allowing you to reach greater heights. You climb up a surface as if you had rolled a success on a @Compendium[sf2e.actions.pprgrYQ1QnIDGZiy]{Climb} action.</p>"
     },
     "rules": [],
     "slug": "goat-support-benefit",
@@ -37,7 +37,7 @@
     },
     "deathNote": false
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3
@@ -46,14 +46,14 @@
     "core": {}
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.ugEUIh47YrNUIsnd",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.ugEUIh47YrNUIsnd",
     "duplicateSource": null,
     "exportSource": null
   },
   "_id": "ugEUIh47YrNUIsnd",
-  "sort": 4800000,
+  "sort": 4000000,
   "_key": "!items!ugEUIh47YrNUIsnd"
 }

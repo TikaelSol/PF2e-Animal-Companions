@@ -2,7 +2,7 @@
   "_id": "m50Xh9RRYj2NxnX2",
   "name": "Phase Out (CC)",
   "type": "feat",
-  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "img": "systems/sf2e/icons/features/feats/feats.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon phases out of reality slightly, gaining resistance to all damage (except force and negative) equal to half your level. It's not incorporeal, but it can't use Strikes or actions that require a fully physical form, such as @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple}, @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove}, or @Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip}.</p>\n<p>Your eidolon can return to its normal form with a single action, which has the concentrate trait.</p>"
+      "value": "<p>Your eidolon phases out of reality slightly, gaining resistance to all damage (except force and negative) equal to half your level. It's not incorporeal, but it can't use Strikes or actions that require a fully physical form, such as @Compendium[sf2e.actions.PMbdMWc2QroouFGD]{Grapple}, @Compendium[sf2e.actions.7blmbDrQFNfdT731]{Shove}, or @Compendium[sf2e.actions.ge56Lu1xXVFYUnLP]{Trip}.</p>\n<p>Your eidolon can return to its normal form with a single action, which has the concentrate trait.</p>"
     },
     "rules": [],
     "slug": "phase-out-cc",
@@ -70,10 +70,10 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "coreVersion": "13.350",
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.axGS5bBJ9vl5AePc",
+    "compendiumSource": "Compendium.pf2e-anachronism.feats.Item.axGS5bBJ9vl5AePc",
     "duplicateSource": null,
     "exportSource": null
   },

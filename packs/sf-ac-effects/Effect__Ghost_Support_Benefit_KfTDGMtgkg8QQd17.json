@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.4kkcfQdHAb4YTVNw]{Ghost Support Benefit}</p><p>If you hit and deal damage to a creature in your ghost's reach, the creature becomes @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.4kkcfQdHAb4YTVNw]{Ghost Support Benefit}</p><p>If you hit and deal damage to a creature in your ghost's reach, the creature becomes @UUID[Compendium.pf2e-anachronism.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
     },
     "rules": [
       {

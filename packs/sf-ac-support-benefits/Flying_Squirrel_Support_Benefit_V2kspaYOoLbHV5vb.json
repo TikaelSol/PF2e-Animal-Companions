@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your flying squirrel wraps your foes in its skin flaps, hampering their movement. Until the end of your next turn, if your Strike damages a creature in your giant flying squirrel's reach, that creature takes a –10-foot circumstance penalty to its Speeds for 1 round.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.HssfGVFlUB80xBn7]{Effect: Flying Squirrel Support Benefit}</p>"
+      "value": "<p>Your flying squirrel wraps your foes in its skin flaps, hampering their movement. Until the end of your next turn, if your Strike damages a creature in your giant flying squirrel's reach, that creature takes a –10-foot circumstance penalty to its Speeds for 1 round.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.HssfGVFlUB80xBn7]{Effect: Flying Squirrel Support Benefit}</p>"
     },
     "rules": [],
     "slug": "flying-squirrel-support-benefit",
@@ -37,9 +37,9 @@
     "deathNote": false
   },
   "_id": "V2kspaYOoLbHV5vb",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
-  "sort": 3900000,
+  "sort": 3100000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -50,10 +50,10 @@
     }
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.V2kspaYOoLbHV5vb",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.V2kspaYOoLbHV5vb",
     "duplicateSource": null,
     "exportSource": null
   },

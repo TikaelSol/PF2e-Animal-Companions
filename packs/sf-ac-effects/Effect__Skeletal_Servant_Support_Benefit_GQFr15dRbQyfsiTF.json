@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.bHaJZSm7SakAsk00]{Skeletal Servant Support Benefit}</p><p>When a Strike you make hits and deals damage to a creature within your skeletal servant's reach, that target becomes @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard}.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.bHaJZSm7SakAsk00]{Skeletal Servant Support Benefit}</p><p>When a Strike you make hits and deals damage to a creature within your skeletal servant's reach, that target becomes @UUID[Compendium.pf2e-anachronism.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard}.</p>"
     },
     "rules": [
       {

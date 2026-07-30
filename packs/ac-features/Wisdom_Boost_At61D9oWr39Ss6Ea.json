@@ -66,13 +66,16 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.DNpa1GdDXz8L4Fra",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785247388202,
+    "modifiedTime": 1785247388202,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
-  "folder": null,
-  "sort": 1800000,
+  "folder": "Gk5ceuVsLrx5LhgK",
+  "sort": 1000000,
   "ownership": {
     "default": 0,
     "thw0Ox3kKEThnAFP": 3

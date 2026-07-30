@@ -2,7 +2,7 @@
   "_id": "X4XOW6G0Z22QniKa",
   "name": "Pushing Attack (CC)",
   "type": "feat",
-  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "img": "systems/sf2e/icons/features/feats/feats.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -12,12 +12,12 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon has an attack that pushes away enemies. Choose one of the eidolon's unarmed attacks with the shove trait. It gains the @Compendium[pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{Push} action for that attack.</p>"
+      "value": "<p>Your eidolon has an attack that pushes away enemies. Choose one of the eidolon's unarmed attacks with the shove trait. It gains the @Compendium[sf2e.bestiary-ability-glossary.t6cx9FOODmeZQNYl]{Push} action for that attack.</p>"
     },
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl"
+        "uuid": "Compendium.pf2e-anachronism.bestiary-ability-glossary.Item.t6cx9FOODmeZQNYl"
       }
     ],
     "slug": "pushing-attack-cc",
@@ -70,10 +70,10 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "coreVersion": "13.350",
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.gdGusdEKt5zmh3rR",
+    "compendiumSource": "Compendium.pf2e-anachronism.feats.Item.gdGusdEKt5zmh3rR",
     "duplicateSource": null,
     "exportSource": null
   },

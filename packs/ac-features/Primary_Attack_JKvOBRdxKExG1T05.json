@@ -1,0 +1,316 @@
+{
+  "name": "Primary Attack",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/default-icons/weapon.svg",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:id:{item|id}"
+        ],
+        "property": "other-tags",
+        "value": "eidolon-primary"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "COMP.SpecificRule.Eidolon.Prompt.Strikes.Choices.D8",
+            "value": "1d8-variable"
+          },
+          {
+            "label": "COMP.SpecificRule.Eidolon.Prompt.Strikes.Choices.D6Fatal",
+            "value": "1d6-fatal"
+          },
+          {
+            "label": "COMP.SpecificRule.Eidolon.Prompt.Strikes.Choices.D6ForcefulSweep",
+            "value": "1d6-forceful-sweep"
+          },
+          {
+            "label": "COMP.SpecificRule.Eidolon.Prompt.Strikes.Choices.D6DeadlyFinesse",
+            "value": "1d6-deadly-finesse"
+          }
+        ],
+        "flag": "primaryStrike",
+        "key": "ChoiceSet",
+        "prompt": "COMP.SpecificRule.Eidolon.Prompt.Strikes.Primary",
+        "rollOption": "primary-strike"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitDisarm",
+            "value": "disarm"
+          },
+          {
+            "label": "PF2E.TraitNonlethal",
+            "value": "nonlethal"
+          },
+          {
+            "label": "PF2E.TraitShove",
+            "value": "shove"
+          },
+          {
+            "label": "PF2E.TraitTrip",
+            "value": "trip"
+          }
+        ],
+        "flag": "primaryTraitsD8",
+        "key": "ChoiceSet",
+        "predicate": [
+          "primary-strike:1d8-variable"
+        ],
+        "prompt": "PF2E.SpecificRule.Prompt.Trait"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing"
+          }
+        ],
+        "flag": "primaryStrikeDamage",
+        "key": "ChoiceSet",
+        "prompt": "COMP.SpecificRule.Eidolon.Prompt.Strikes.Damage"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:id:{item|id}",
+          "primary-strike:1d8-variable"
+        ],
+        "property": "damage-dice-faces",
+        "value": 8
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:id:{item|id}",
+          "primary-strike:1d8-variable"
+        ],
+        "property": "traits",
+        "value": "{item|flags.system.rulesSelections.primaryTraitsD8}"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:id:{item|id}",
+          "primary-strike:1d6-fatal"
+        ],
+        "property": "traits",
+        "value": "fatal-d10"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:id:{item|id}",
+          "primary-strike:1d6-forceful-sweep"
+        ],
+        "property": "traits",
+        "value": "forceful"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:id:{item|id}",
+          "primary-strike:1d6-forceful-sweep"
+        ],
+        "property": "traits",
+        "value": "sweep"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:id:{item|id}",
+          "primary-strike:1d6-deadly-finesse"
+        ],
+        "property": "traits",
+        "value": "deadly-d8"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:id:{item|id}",
+          "primary-strike:1d6-deadly-finesse"
+        ],
+        "property": "traits",
+        "value": "finesse"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "{item|flags.system.rulesSelections.primaryStrikeDamage}",
+        "selectors": [
+          "{item|id}-damage"
+        ]
+      }
+    ],
+    "slug": "primary-attack",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "14.365",
+        "system": "8.3.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "unarmed"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Magic",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "unarmed",
+    "group": null,
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing",
+      "persistent": null,
+      "value": ""
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "ammo": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
+    "createdTime": 1785257098942,
+    "modifiedTime": 1785257155995,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "bEsp8rfXg8Q7Fn0G",
+  "ownership": {
+    "default": 0,
+    "XUrhfvb05TiIl7Al": 3
+  },
+  "_id": "JKvOBRdxKExG1T05",
+  "sort": 0,
+  "_key": "!items!JKvOBRdxKExG1T05"
+}

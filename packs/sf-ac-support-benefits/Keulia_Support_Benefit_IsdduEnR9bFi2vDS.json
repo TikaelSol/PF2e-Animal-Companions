@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>With its hard shell of objects, your keulia rams into enemies when you create an opening. Until the start of your next turn, each time you hit a creature in your keulia's reach with a Strike and deal physical damage, the creatures takes 1d8 bludgeoning damage from the keulia. If your keulia is nimble or savage, the bludgeoning damage increases to 2d8.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.rscC2NYGHUs3PQUV]{Effect: Keulia Support Benefit}</p>",
+      "value": "<p>With its hard shell of objects, your keulia rams into enemies when you create an opening. Until the start of your next turn, each time you hit a creature in your keulia's reach with a Strike and deal physical damage, the creatures takes 1d8 bludgeoning damage from the keulia. If your keulia is nimble or savage, the bludgeoning damage increases to 2d8.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.rscC2NYGHUs3PQUV]{Effect: Keulia Support Benefit}</p>",
       "gm": ""
     },
     "publication": {
@@ -69,7 +69,7 @@
     "category": "offensive",
     "deathNote": false
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
   "ownership": {
     "default": 0,
@@ -80,11 +80,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "14.364",
-    "systemId": "pf2e",
+    "coreVersion": "13.350",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1"
   },
   "_id": "IsdduEnR9bFi2vDS",
-  "sort": 1400000,
+  "sort": 600000,
   "_key": "!items!IsdduEnR9bFi2vDS"
 }

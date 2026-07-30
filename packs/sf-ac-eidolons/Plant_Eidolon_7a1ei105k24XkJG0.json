@@ -2,7 +2,7 @@
   "_id": "7a1ei105k24XkJG0",
   "name": "Plant Eidolon",
   "type": "ancestry",
-  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
   "sort": 300000,
@@ -12,26 +12,26 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon is an intelligent plant, formed from the same disembodied fragments of nature's life energy that become leshys. Plant eidolons tend to be curious and adaptable, with temperaments based on the parts of mortal culture they feel affinity toward. Despite coming from the same source, plant eidolons don't always look like leshys. Plant eidolons have forms that vary greatly and can look like almost any kind of plant creature in existence. Some even resemble plant creatures so strange they are impossible to identify.</p>\n<p><strong>Tradition</strong> primal</p>\n<p><strong>Traits</strong> eidolon, plant</p>\n<p><strong>Home Plane</strong> Material Plane</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Suggested Attacks</strong> vine (bludgeoning), branch (bludgeoning), root (bludgeoning)</p>\n<p><strong>Guardian Plant</strong> Str 18, Dex 14, Con 16, Int 8, Wis 12, Cha 10; +2 AC (+3 Dex cap)</p>\n<p><strong>Creeping Plant</strong> Str 12, Dex 18, Con 16, Int 8, Wis 14, Cha 10; +1 AC (+4 Dex cap)</p>\n<p><strong>Skills</strong> Nature, Survival</p>\n<p><strong>Senses</strong> low-light vision</p>\n<p><strong>Language</strong> Sylvan</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.iunzITJGz0QUudUk]{tendril strike}; Symbiosis @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.sSfOct37bkinwW5E]{growing vines}; Transcendence @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.kpcL3Iz1KJnmEKwC]{field of roots}</p>"
+      "value": "<p>Your eidolon is an intelligent plant, formed from the same disembodied fragments of nature's life energy that become leshys. Plant eidolons tend to be curious and adaptable, with temperaments based on the parts of mortal culture they feel affinity toward. Despite coming from the same source, plant eidolons don't always look like leshys. Plant eidolons have forms that vary greatly and can look like almost any kind of plant creature in existence. Some even resemble plant creatures so strange they are impossible to identify.</p><p><strong>Tradition</strong> primal</p><p><strong>Traits</strong> eidolon, plant</p><p><strong>Home Plane</strong> the Universe</p><p><strong>Size</strong> Medium</p><p><strong>Suggested Attacks</strong> branch (bludgeoning), root (bludgeoning), vine (bludgeoning)</p><p><strong>Eidolon Attributes</strong> Con +3, Int –1, Wis +1, Cha +0</p><p><strong>Skills</strong> Nature, Survival</p><p><strong>Senses</strong> low-light vision</p><p><strong>Language</strong> Muan</p><p><strong>Speed</strong> 25 feet</p><p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.iunzITJGz0QUudUk]{tendril strike}; Symbiosis @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.sSfOct37bkinwW5E]{growing vines}; Transcendence @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.kpcL3Iz1KJnmEKwC]{field of roots}</p>"
     },
     "rules": [
       {
-        "adjustName": false,
-        "choices": [
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.5I9rbPGBER1gzqXT"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.1maDsT21my4REUEX"
-          }
-        ],
-        "flag": "eidolonType",
-        "key": "ChoiceSet",
-        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.abilities.con.mod"
       },
       {
-        "key": "GrantItem",
-        "uuid": "{item|flags.system.rulesSelections.eidolonType}"
+        "key": "ActiveEffectLike",
+        "value": -1,
+        "mode": "downgrade",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.wis.mod"
       },
       {
         "key": "ActiveEffectLike",
@@ -101,12 +101,12 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
-    "hp": 1,
+    "hp": 4,
     "size": "med",
     "hands": 2,
     "reach": 5,
@@ -129,7 +129,7 @@
     },
     "languages": {
       "value": [
-        "fey"
+        "muan"
       ],
       "custom": ""
     },
@@ -140,7 +140,7 @@
     },
     "items": {
       "safrb": {
-        "img": "systems/pf2e/icons/features/classes/eidolon.webp",
+        "img": "systems/sf2e/icons/features/classes/eidolon.webp",
         "name": "Eidolon Ability",
         "level": 1,
         "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.5E71mdImeRE9Fh1D"
@@ -153,12 +153,15 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemId": "sf2e",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.QlhL9vPXzjhkYd8W",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785247478726,
+    "modifiedTime": 1785247760598,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "_key": "!items!7a1ei105k24XkJG0"
 }

@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your wood elemental entangles your foes with detachable branches and roots. Until the start of your next turn, if you hit with a Strike that deals damage to a creature in your wood elemental's reach, the creature takes a –5-foot circumstance penalty to its Speeds for 1 minute (–10 on a critical success). The creature, or a creature adjacent to it, can use an Interact action to unravel the branches and roots and remove the penalty.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.yw1K63aPTWRj76Nn]{Effect: Wood Elemental Support Benefit}</p>"
+      "value": "<p>Your wood elemental entangles your foes with detachable branches and roots. Until the start of your next turn, if you hit with a Strike that deals damage to a creature in your wood elemental's reach, the creature takes a –5-foot circumstance penalty to its Speeds for 1 minute (–10 on a critical success). The creature, or a creature adjacent to it, can use an Interact action to unravel the branches and roots and remove the penalty.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.yw1K63aPTWRj76Nn]{Effect: Wood Elemental Support Benefit}</p>"
     },
     "rules": [],
     "slug": "wood-elemental-support-benefit",
@@ -36,19 +36,19 @@
     },
     "deathNote": false
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "flags": {},
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.KomM6mTwJAzvqAgi",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.KomM6mTwJAzvqAgi",
     "duplicateSource": null,
     "exportSource": null
   },
   "_id": "KomM6mTwJAzvqAgi",
   "folder": null,
-  "sort": 3800000,
+  "sort": 3000000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

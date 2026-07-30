@@ -2,17 +2,17 @@
   "_id": "8re1d4lM0Dn4sLto",
   "name": "Boar Support Benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 5800000,
+  "sort": 5000000,
   "flags": {
     "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your boar gores your foes. Until the start of your next turn, your Strikes that damage a creature in your boar's reach also deal @Damage[1d6[persistent,bleed]] damage. If your boar is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.GZN0Vc8JHVZl1Io4]{Effect: Boar Support Benefit}</p>"
+      "value": "<p>Your boar gores your foes. Until the start of your next turn, your Strikes that damage a creature in your boar's reach also deal @Damage[1d6[persistent,bleed]] damage. If your boar is nimble or savage, the persistent bleed damage increases to @Damage[2d6[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.GZN0Vc8JHVZl1Io4]{Effect: Boar Support Benefit}</p>"
     },
     "rules": [
       {
@@ -81,10 +81,10 @@
     "WG8TaxGEQOxXBO1S": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.8re1d4lM0Dn4sLto",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.8re1d4lM0Dn4sLto",
     "duplicateSource": null,
     "exportSource": null
   },

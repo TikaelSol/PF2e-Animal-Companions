@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon's attacks are hallowed by the celestial realms. Your eidolon's unarmed Strikes gain the holy trait and deal 1 extra spirit damage to unholy creatures and creatures with weakness to holy. Additionally, your eidolon can make nonlethal attacks with its unarmed attacks without taking the usual -2 circumstance penalty.</p>"
+      "value": "<p>Your eidolon's unarmed Strikes gain the holy trait and deal 1 extra spirit damage to unholy creatures and creatures with weakness to holy. Additionally, your eidolon can make nonlethal attacks with their unarmed attacks without taking the usual –2 circumstance penalty.</p>"
     },
     "rules": [
       {
@@ -44,10 +44,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -73,11 +73,14 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.jSDsKX3BOHhvtgsD",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785186077244,
+    "modifiedTime": 1785186226629,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "3UpjTq1xgggzS2Eq",
   "sort": 400000,

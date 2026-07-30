@@ -2,7 +2,7 @@
   "_id": "mz0Y50ZaV7hysmmJ",
   "name": "Constricting Hold (CC)",
   "type": "feat",
-  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "img": "systems/sf2e/icons/features/feats/feats.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> Your eidolon has a creature @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}.</p>\n<p>Your eidolon constricts the creature, dealing [[/r @actor.level+@actor.abilities.str.mod #bludgeoning]]{bludgeoning damage} equal to your eidolon's level plus its Strength modifier, with a basic Fortitude save against your spell DC.</p>"
+      "value": "<p><strong>Requirements</strong> Your eidolon has a creature @Compendium[sf2e.conditions.kWc1fhmv9LBiTuei]{Grabbed} or @Compendium[sf2e.conditions.VcDeM8A5oI6VqhbM]{Restrained}.</p>\n<p>Your eidolon constricts the creature, dealing [[/r @actor.level+@actor.abilities.str.mod #bludgeoning]]{bludgeoning damage} equal to your eidolon's level plus its Strength modifier, with a basic Fortitude save against your spell DC.</p>"
     },
     "rules": [],
     "slug": "constricting-hold-cc",
@@ -66,10 +66,10 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "coreVersion": "13.350",
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.si8FGX2ZRxetdVHp",
+    "compendiumSource": "Compendium.pf2e-anachronism.feats.Item.si8FGX2ZRxetdVHp",
     "duplicateSource": null,
     "exportSource": null
   },

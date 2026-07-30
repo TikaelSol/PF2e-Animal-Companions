@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.XDmtg6o5B2MaA4Ke]{Gray Bladeling Support Benefit}</p><p><span style=\"font-family:Roboto, sans-serif\">Your Strikes that damage a creature in your gray bladeling's reach also deal bleed damage or becomes </span>@UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1} if it's already taking persistent bleed damage.</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.XDmtg6o5B2MaA4Ke]{Gray Bladeling Support Benefit}</p><p><span style=\"font-family:Roboto, sans-serif\">Your Strikes that damage a creature in your gray bladeling's reach also deal bleed damage or becomes </span>@UUID[Compendium.pf2e-anachronism.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1} if it's already taking persistent bleed damage.</p>",
       "gm": ""
     },
     "publication": {

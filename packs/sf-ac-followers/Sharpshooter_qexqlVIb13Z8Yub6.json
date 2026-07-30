@@ -204,13 +204,11 @@
       },
       {
         "key": "Note",
-        "selector": [
-          "ranged-strike-damage"
-        ],
-        "text": "COMP.SpecificRule.Follower.ExperiencedAdvancement.Sharpshooter.Note-SF",
+        "selector": "ranged-strike-damage",
+        "text": "COMP.SpecificRule.Follower.ExperiencedAdvancement.Sharpshooter.Note",
         "outcome": [
-          "success",
-          "criticalSuccess"
+          "criticalSuccess",
+          "success"
         ],
         "title": "COMP.SpecificRule.Follower.ExperiencedAdvancement.Label",
         "predicate": [
@@ -567,7 +565,7 @@
       "value": []
     }
   },
-  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "img": "systems/sf2e/icons/default-icons/class.svg",
   "ownership": {
     "default": 0,
     "AhhBYTk3xYRMuz4T": 3
@@ -579,7 +577,7 @@
     "exportSource": null,
     "coreVersion": "14.363",
     "systemId": "sf2e",
-    "systemVersion": "1.2.0"
+    "systemVersion": "8.2.0"
   },
   "_id": "qexqlVIb13Z8Yub6",
   "sort": 0,

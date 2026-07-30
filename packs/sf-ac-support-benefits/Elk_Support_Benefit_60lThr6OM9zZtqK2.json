@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your elk makes a threatening display by waving its antlers. Until the start of your next turn, if you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.uOzhPI4odakOi0uj]{Effect: Elk Support Benefit}</p>"
+      "value": "<p>Your elk makes a threatening display by waving its antlers. Until the start of your next turn, if you hit and deal damage to a creature within your elk's reach, the creature is @UUID[Compendium.pf2e-anachronism.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.uOzhPI4odakOi0uj]{Effect: Elk Support Benefit}</p>"
     },
     "rules": [],
     "slug": "elk-support-benefit",
@@ -37,9 +37,9 @@
     "deathNote": false
   },
   "_id": "60lThr6OM9zZtqK2",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
-  "sort": 3100000,
+  "sort": 2300000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -50,10 +50,10 @@
     }
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.60lThr6OM9zZtqK2",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.60lThr6OM9zZtqK2",
     "duplicateSource": null,
     "exportSource": null
   },

@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your boarhound is a faithful hunting companion. You gain a +1 circumstance bonus to your next attack roll to Strike a foe within your boarhound's reach. This bonus lasts until the first time you use it or until the beginning of your next turn, whichever comes first. If you damage a creature with the trait corresponding to your boarhound's designated foe with that Strike, the creature takes an additional 1d6 piercing damage from the boarhound. If your boarhound is nimble or savage, the damage increases to 2d6.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.otgQvXBTGIEGbJJP]{Effect: Isgeri Boarhound Support Benefit}</p>",
+      "value": "<p>Your boarhound is a faithful hunting companion. You gain a +1 circumstance bonus to your next attack roll to Strike a foe within your boarhound's reach. This bonus lasts until the first time you use it or until the beginning of your next turn, whichever comes first. If you damage a creature with the trait corresponding to your boarhound's designated foe with that Strike, the creature takes an additional 1d6 piercing damage from the boarhound. If your boarhound is nimble or savage, the damage increases to 2d6.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.otgQvXBTGIEGbJJP]{Effect: Isgeri Boarhound Support Benefit}</p>",
       "gm": ""
     },
     "publication": {
@@ -85,7 +85,7 @@
     "category": "offensive",
     "deathNote": false
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "folder": null,
   "ownership": {
     "default": 0,
@@ -96,11 +96,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "14.364",
-    "systemId": "pf2e",
+    "coreVersion": "13.351",
+    "systemId": "sf2e",
     "systemVersion": "7.11.2"
   },
   "_id": "OQnyw05StojLRcA0",
-  "sort": 400000,
+  "sort": 0,
   "_key": "!items!OQnyw05StojLRcA0"
 }

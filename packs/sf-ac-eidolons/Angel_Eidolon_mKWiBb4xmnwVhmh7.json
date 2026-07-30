@@ -2,7 +2,7 @@
   "_id": "mKWiBb4xmnwVhmh7",
   "name": "Angel Eidolon",
   "type": "ancestry",
-  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
   "effects": [],
   "folder": null,
   "sort": 1000000,
@@ -12,26 +12,32 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon is a celestial messenger, a member of the angelic host with a unique link to you, allowing them to carry a special message to the mortal world at your side. Most angel eidolons are roughly humanoid in form, with feathered wings, glowing eyes, halos, or similar angelic features. However, some take the form of smaller angelic servitors like the winged helmet cassisian angel instead. The two of you are destined for an important role in the plans of the celestial realms. Though a true angel, your angel eidolon's link to you as a mortal prevents them from casting the angelic messenger ritual, even if they somehow learn it.</p>\n<p><strong>Tradition</strong> divine</p>\n<p><strong>Traits</strong> angel, celestial, eidolon</p>\n<p><strong>Alignment</strong> must be good, usually neutral good</p>\n<p><strong>Home Plane</strong> Nirvana (if NG), Elysium (if CG), or Heaven (if LG)</p>\n<p><strong>Size</strong> Medium or Small</p>\n<p><strong>Suggested Attacks</strong> fist (bludgeoning), wing (bludgeoning), unarmed attacks shaped like a weapon</p>\n<p><strong>Angelic Avenger</strong> Str 18, Dex 14, Con 16, Int 8, Wis 12, Cha 10; +2 AC (+3 Dex cap)</p>\n<p><strong>Angelic Emissary</strong> Str 12, Dex 18, Con 12, Int 10, Wis 12, Cha 14; +1 AC (+4 Dex cap)</p>\n<p><strong>Skills</strong> Diplomacy, Religion</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Language</strong> Celestial</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.WyN2qQ2AP4cOMNxF]{hallowed strikes}; Symbiosis @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.6uCSkTAltByUK2Pb]{traveler's aura}; Transcendence @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.QDtXuIshSTUBcxff]{angelic mercy}</p>"
+      "value": "<p>Your eidolon is a celestial messenger, a member of the angelic host with a unique link to you, allowing them to carry a special message to the mortal world at your side. Most angel eidolons are roughly humanoid in form, with feathered wings, glowing eyes, halos, or similar angelic features. However, some take the form of smaller angelic servitors like the winged helmet cassisian angel instead. The two of you are destined for an important role in the plans of the celestial realms. Though a true angel, your angel eidolon's link to you as a mortal prevents them from casting the @UUID[Compendium.pf2e-anachronism.spells.Item.joEruBVz31Uxczzq]{Angelic Messenger} ritual, even if they somehow learn it.</p><p><strong>Tradition</strong> divine</p><p><strong>Traits</strong> angel, celestial, eidolon, holy</p><p><strong>Home Plane</strong> Elysium, Heaven, or Nirvana</p><p><strong>Size</strong> Medium or Small</p><p><strong>Suggested Attacks</strong> fist (bludgeoning), wing (bludgeoning), unarmed attacks shaped like a weapon</p><p><strong>Eidolon Attributes</strong> Con +1, Int –1, Wis +1, Cha +2</p><p><strong>Skills</strong> Diplomacy, Religion</p><p><strong>Senses</strong> darkvision</p><p><strong>Language</strong> Empyrean</p><p><strong>Speed</strong> 25 feet</p><p><strong>Eidolon Abilities</strong> Initial @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.WyN2qQ2AP4cOMNxF]{Hallowed Strikes}; Symbiosis @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.6uCSkTAltByUK2Pb]{Traveler's Aura}; Transcendence @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.QDtXuIshSTUBcxff]{Angelic Mercy}</p>"
     },
     "rules": [
       {
-        "adjustName": false,
-        "choices": [
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.oQ4aTLTv0qU7sRGG"
-          },
-          {
-            "value": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.WeZLk8HXhoa20J7t"
-          }
-        ],
-        "flag": "eidolonType",
-        "key": "ChoiceSet",
-        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.con.mod"
       },
       {
-        "key": "GrantItem",
-        "uuid": "{item|flags.system.rulesSelections.eidolonType}"
+        "key": "ActiveEffectLike",
+        "value": -1,
+        "mode": "downgrade",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "upgrade",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.abilities.cha.mod"
       },
       {
         "key": "ActiveEffectLike",
@@ -76,7 +82,7 @@
         "mode": "override",
         "path": "flags.system.eidolon-features",
         "value": {
-          "initial": "Compendium.pf2e-animal-companions.sf-AC-Features.WyN2qQ2AP4cOMNxF",
+          "initial": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.WyN2qQ2AP4cOMNxF",
           "symbiosis": "Compendium.pf2e-animal-companions.sf-AC-Features.6uCSkTAltByUK2Pb",
           "transcendence": "Compendium.pf2e-animal-companions.sf-AC-Features.QDtXuIshSTUBcxff"
         }
@@ -96,15 +102,17 @@
       "otherTags": [],
       "value": [
         "angel",
-        "eidolon"
+        "celestial",
+        "eidolon",
+        "holy"
       ],
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "hp": 4,
     "size": "med",
@@ -140,7 +148,7 @@
     },
     "items": {
       "in5zg": {
-        "img": "systems/pf2e/icons/features/classes/eidolon.webp",
+        "img": "systems/sf2e/icons/features/classes/eidolon.webp",
         "name": "Eidolon Ability",
         "level": 1,
         "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.5E71mdImeRE9Fh1D"
@@ -153,12 +161,15 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemId": "sf2e",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.QlhL9vPXzjhkYd8W",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785181310519,
+    "modifiedTime": 1785186320022,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "_key": "!items!mKWiBb4xmnwVhmh7"
 }

@@ -10,14 +10,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon deeply respects your assistance, and it extends its loyalty to you, attacking those who dare harm you. It gains the @Compendium[pf2e-animal-companions.AC-Features.4NuAF8jxWDWzia9Z]{Dutiful Retaliation} reaction.</p>"
+      "value": "<p><strong>Trigger</strong> An enemy within 15 feet of you hits you with a Strike and deals damage to you</p><p><strong>Requirements</strong> Your eidolon is within 15 feet of you</p><hr><p><strong>Effect</strong> Your eidolon instinctively flashes with ectoplasmic energy, allowing them to strike back against an enemy who dares to harm you. Your eidolon makes a melee unarmed Strike against the triggering enemy, even if that enemy isn't within your eidolon's reach.</p>"
     },
-    "rules": [
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.4NuAF8jxWDWzia9Z"
-      }
-    ],
+    "rules": [],
     "slug": "dutiful-retaliation",
     "_migration": {
       "version": 0.952,
@@ -29,14 +24,17 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "eidolon",
+        "occult"
+      ],
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -45,7 +43,7 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "reaction"
     },
     "actions": {
       "value": null
@@ -62,11 +60,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Item.dVjtZNZSiRLnRs1Y",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785195585918,
+    "modifiedTime": 1785195639426,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "pggy7tMohSouyA2e",
   "sort": 300000,

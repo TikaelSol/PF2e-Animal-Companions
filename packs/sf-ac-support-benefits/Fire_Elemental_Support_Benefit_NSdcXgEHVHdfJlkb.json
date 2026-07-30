@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your fire elemental burns your foes and sets them on fire. Until the start of your next turn, your Strikes that damage a creature in your fire elemental's reach also deal @Damage[1d6[persistent,fire]] damage. If your fire elemental is nimble or savage, the persistent fire damage increases to @Damage[2d6[persistent,fire]].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.KAAmj9fT7JPGPzKl]{Effect: Fire Elemental Support Benefit}</p>"
+      "value": "<p>Your fire elemental burns your foes and sets them on fire. Until the start of your next turn, your Strikes that damage a creature in your fire elemental's reach also deal @Damage[1d6[persistent,fire]] damage. If your fire elemental is nimble or savage, the persistent fire damage increases to @Damage[2d6[persistent,fire]].</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.KAAmj9fT7JPGPzKl]{Effect: Fire Elemental Support Benefit}</p>"
     },
     "rules": [
       {
@@ -69,19 +69,19 @@
     },
     "deathNote": false
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "flags": {},
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.NSdcXgEHVHdfJlkb",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.NSdcXgEHVHdfJlkb",
     "duplicateSource": null,
     "exportSource": null
   },
   "_id": "NSdcXgEHVHdfJlkb",
   "folder": null,
-  "sort": 3600000,
+  "sort": 2800000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

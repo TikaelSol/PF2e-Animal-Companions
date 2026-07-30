@@ -1,0 +1,70 @@
+{
+  "name": "Ooze Physiology",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You and your ooze eidolon are directly connected in both body and mind, which renders your eidolon susceptible to effects that wouldn't normally bother an ooze. They don't have an ooze's normal immunities, but do gain resistance equal to half your level (minimum 1 resistance) against acid, critical hits, and precision damage and a +2 circumstance bonus to saving throws against mental effects. Additionally, their surface closes quickly after being wounded. The flat check to remove persistent bleed damage from the eidolon is DC 10 (or DC 5 after receiving particularly effective aid).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Magic",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/commodities/materials/slime-green.webp",
+  "folder": "maAFYLKIQkHcVhNT",
+  "ownership": {
+    "default": 0,
+    "XUrhfvb05TiIl7Al": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.3.0",
+    "createdTime": 1785198886545,
+    "modifiedTime": 1785198886545,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "qZRm2gzTNvAiPgH7",
+  "sort": 0,
+  "_key": "!items!qZRm2gzTNvAiPgH7"
+}

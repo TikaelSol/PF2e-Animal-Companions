@@ -2,7 +2,7 @@
   "_id": "TS2DXi5f4y7wtED5",
   "name": "Wall Configuration",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "img": "systems/sf2e/icons/default-icons/feats.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your innovation can transform from a mobile construct to a stationary battlefield emplacement. It can unfold as a 2-action activity that has the manipulate trait, changing from its usual form into a thin, straight wall of metal and gears up to 10 feet tall and 30 feet long. The wall must extend through your innovation's original space. While your construct is a wall, it can't take any actions except to use the same activity to transform back, and it can't defend itself easily, making it @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} and giving it an additional -2 status penalty to its AC. The wall blocks line of sight and effect unless your innovation has half its maximum HP or fewer, at which point holes in the wall allow creatures to see through and attack with cover, and Tiny creatures to slip through.</p>"
+      "value": "<p>Your innovation can transform from a mobile construct to a stationary battlefield emplacement. It can unfold as a 2-action activity that has the manipulate trait, changing from its usual form into a thin, straight wall of metal and gears up to 10 feet tall and 30 feet long. The wall must extend through your innovation's original space. While your construct is a wall, it can't take any actions except to use the same activity to transform back, and it can't defend itself easily, making it @Compendium[sf2e.conditions.Off-Guard]{Off-Guard} and giving it an additional -2 status penalty to its AC. The wall blocks line of sight and effect unless your innovation has half its maximum HP or fewer, at which point holes in the wall allow creatures to see through and attack with cover, and Tiny creatures to slip through.</p>"
     },
     "rules": [
       {
@@ -78,10 +78,10 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "coreVersion": "13.350",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Construct-Breakthroughs.Item.TS2DXi5f4y7wtED5",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Construct-Breakthroughs.Item.TS2DXi5f4y7wtED5",
     "duplicateSource": null,
     "exportSource": null
   },

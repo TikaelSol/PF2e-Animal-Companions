@@ -2,7 +2,7 @@
   "_id": "sbzX5d0kDO9IXinm",
   "name": "Grasping Limbs (CC)",
   "type": "feat",
-  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "img": "systems/sf2e/icons/features/feats/feats.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -12,12 +12,12 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon grabs enemies. Choose one of the eidolon's unarmed attacks with the grapple trait. It gains the @Compendium[pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{Grab} action on that unarmed attack.</p>"
+      "value": "<p>Your eidolon grabs enemies. Choose one of the eidolon's unarmed attacks with the grapple trait. It gains the @Compendium[sf2e.bestiary-ability-glossary.Tkd8sH4pwFIPzqTr]{Grab} action on that unarmed attack.</p>"
     },
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr"
+        "uuid": "Compendium.pf2e-anachronism.bestiary-ability-glossary.Item.Tkd8sH4pwFIPzqTr"
       }
     ],
     "slug": "grasping-limbs-cc",
@@ -70,10 +70,10 @@
     "0tWA9mscoVx3YLRI": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
     "coreVersion": "13.350",
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.WsEVkMFe8ZEIRKLu",
+    "compendiumSource": "Compendium.pf2e-anachronism.feats.Item.WsEVkMFe8ZEIRKLu",
     "duplicateSource": null,
     "exportSource": null
   },

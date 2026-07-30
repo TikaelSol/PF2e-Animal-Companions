@@ -2,17 +2,17 @@
   "_id": "7rhcqwMDt2xqnI1N",
   "name": "Bird Support Benefit",
   "type": "action",
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 5600000,
+  "sort": 4800000,
   "flags": {
     "core": {}
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The bird pecks at your foes' eyes when you create an opening. Until the start of your next turn, your Strikes that damage a creature that your bird threatens also deal @Damage[1d4[persistent,bleed]] damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the bleed damage. If your bird is nimble or savage, the persistent bleed damage increases to @Damage[2d4[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.s2tD44BtYMJpEXjO]{Effect: Bird Support Benefit}</p>"
+      "value": "<p>The bird pecks at your foes' eyes when you create an opening. Until the start of your next turn, your Strikes that damage a creature that your bird threatens also deal @Damage[1d4[persistent,bleed]] damage, and the target is @UUID[Compendium.pf2e-anachronism.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the bleed damage. If your bird is nimble or savage, the persistent bleed damage increases to @Damage[2d4[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.s2tD44BtYMJpEXjO]{Effect: Bird Support Benefit}</p>"
     },
     "rules": [
       {
@@ -81,10 +81,10 @@
     "WG8TaxGEQOxXBO1S": 3
   },
   "_stats": {
-    "systemId": "pf2e",
+    "systemId": "sf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "14.364",
-    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.7rhcqwMDt2xqnI1N",
+    "coreVersion": "13.350",
+    "compendiumSource": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.7rhcqwMDt2xqnI1N",
     "duplicateSource": null,
     "exportSource": null
   },

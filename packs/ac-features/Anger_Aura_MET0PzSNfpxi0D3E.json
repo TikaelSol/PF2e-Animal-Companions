@@ -2,7 +2,7 @@
   "_id": "MET0PzSNfpxi0D3E",
   "name": "Anger Aura",
   "type": "feat",
-  "img": "systems/pf2e/icons/spells/abyssal-wrath.webp",
+  "img": "systems/pf2e/icons/spells/destructive-aura.webp",
   "effects": [],
   "flags": {
     "core": {}
@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon exudes wrath in an aura around it, rousing the ire of nearby creatures and causing their defenses to crack as they seethe with rage. Your eidolon gains a 20-foot anger aura, which has the aura, emotion, enchantment, mental, and occult traits. The resistances of any creature in the aura, including you, your allies, your enemies, and your eidolon, are reduced by an amount equal to 3 + your eidolon's Constitution modifier. Your eidolon can hold in its rage by spending a single action, which has the concentrate trait. This reduces the aura's effect to affect only your eidolon. It can take this action again to reinstate the full effect of its aura. Creatures in a barbarian Rage, Seething Frenzy, or similar ability that allows them to channel their anger aren't affected by the anger aura.</p>"
+      "value": "<p>Your eidolon exudes wrath in an aura, rousing the ire of nearby creatures and causing their defenses to crack as they seethe with rage. Your eidolon gains an anger aura in a @Template[type:emanation|distance:20]. The resistances of any creature in the aura, including you, your allies, your enemies, and your eidolon, are reduced by 10. Your eidolon can hold in their rage by spending a single action, which has the concentrate trait. This reduces the aura's effect to affect only your eidolon. They can take this action again to reinstate the full effect of their aura. Creatures in a barbarian Rage, Seething Frenzy, or similar ability that allows them to channel their anger (such as Blood Frenzy) aren't affected by the anger aura.</p>"
     },
     "rules": [],
     "slug": "anger-aura",
@@ -33,10 +33,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Secrets of Magic",
+      "title": "Pathfinder Impossible Magic",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 17
@@ -62,11 +62,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "systemVersion": "8.3.0",
+    "coreVersion": "14.365",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.MET0PzSNfpxi0D3E",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785187505713,
+    "modifiedTime": 1785187605538,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "q3nXFZfwRZgEhUKV",
   "sort": 100000,
