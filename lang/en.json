@@ -31,6 +31,21 @@
                     "Note": "The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}."
                 }
             },
+            "Eidolon": {
+                "Prompt": {
+                    "EidolonKeyAttribute": "Select your Eidolon's Key attribute",
+                    "Strikes": {
+                        "Choices": {
+                            "D6DeadlyFinesse": "1d6 damage (deadly d8 and finesse)",
+                            "D6Fatal": "1d6 damage (fatal d10)",
+                            "D6ForcefulSweep": "1d6 damage (forceful and sweep)",
+                            "D8": "1d8 damage (choose one of disarm, nonlethal, shove, or trip)"
+                        },
+                        "Damage": "Select the Damage Type.",
+                        "Primary": "Select the Details of the Primary Strike. You can change the name and icons afterwards"
+                    }
+                }
+            },
             "Elephant": {
                 "EffectNote": "Targets within your elephant's reach that you hit and deal damage take a –4 status penalty to purely auditory Perception checks. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.3EGbKKD73gGbSWIa]{Effect: Elephant Support Benefit (Penalty)}"
             },
