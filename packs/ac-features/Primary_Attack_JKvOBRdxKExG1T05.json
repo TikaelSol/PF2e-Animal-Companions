@@ -177,7 +177,7 @@
         "property": "damage-type",
         "value": "{item|flags.system.rulesSelections.primaryStrikeDamage}",
         "selectors": [
-          "{item|id}-damage"
+          "item:slug:primary-attack"
         ]
       }
     ],
@@ -296,11 +296,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "8.3.0",
+    "systemVersion": "8.4.0",
     "coreVersion": "14.365",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785621100332,
+    "modifiedTime": 1785621375444,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "bEsp8rfXg8Q7Fn0G",
   "ownership": {
