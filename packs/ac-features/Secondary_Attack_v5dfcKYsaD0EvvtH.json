@@ -39,7 +39,7 @@
         "property": "damage-type",
         "value": "{item|flags.system.rulesSelections.secondaryStrikeDamage}",
         "selectors": [
-          "{item|id}-damage"
+          "item:slug:secondary-attack"
         ]
       }
     ],
@@ -160,11 +160,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "8.3.0",
+    "systemVersion": "8.4.0",
     "coreVersion": "14.365",
     "compendiumSource": "Item.plHqkYSxSSPZ4mHQ",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1785621581790,
+    "modifiedTime": 1785621906140,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "bEsp8rfXg8Q7Fn0G",
   "sort": 800000,
