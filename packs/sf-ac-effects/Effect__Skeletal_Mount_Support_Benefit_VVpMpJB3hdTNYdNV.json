@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.CKMQC3zu1XoGjeNd]{Skeletal Mount Support Benefit}</p><p>If you are riding your skeletal mount and move at least 10 feet on the action before your attack, any creature damaged by the attack becomes @UUID[Compendium.pf2e-anachronism.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e-anachronism.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 2} if the attack was a critical hit.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.CKMQC3zu1XoGjeNd]{Skeletal Mount Support Benefit}</p><p>If you are riding your skeletal mount and move at least 10 feet on the action before your attack, any creature damaged by the attack becomes @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 2} if the attack was a critical hit.</p>"
     },
     "rules": [
       {

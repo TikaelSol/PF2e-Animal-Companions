@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The skeleton removes its skull and throws it, making a jaws Strike with a range of 20 feet. Regardless of whether it hits, the target and all enemies within 10 feet must attempt a @Check[will|against:screaming-skull] save or be @UUID[Compendium.pf2e-anachronism.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e-anachronism.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical failure. This uses a trained DC using the skeleton's Charisma modifier or an expert DC if the skeleton is specialized.</p><p>At the start of the skeleton's next turn, the head bounces, rolls, or flies back to reattach. The skeleton is @UUID[Compendium.pf2e-anachronism.conditions.Item.XgEqL1kFApUbl5Z2]{Blind} while its head is away.</p>"
+      "value": "<p>The skeleton removes its skull and throws it, making a jaws Strike with a range of 20 feet. Regardless of whether it hits, the target and all enemies within 10 feet must attempt a @Check[will|against:screaming-skull] save or be @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical failure. This uses a trained DC using the skeleton's Charisma modifier or an expert DC if the skeleton is specialized.</p><p>At the start of the skeleton's next turn, the head bounces, rolls, or flies back to reattach. The skeleton is @UUID[Compendium.sf2e.conditions.Item.XgEqL1kFApUbl5Z2]{Blind} while its head is away.</p>"
     },
     "rules": [
       {

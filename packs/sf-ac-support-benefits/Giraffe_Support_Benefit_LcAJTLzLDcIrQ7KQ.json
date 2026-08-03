@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your giraffe pushes against opponents with its long neck. While riding on your giraffe this turn, you do not need a hand free to @UUID[Compendium.pf2e-anachronism.actions.Item.7blmbDrQFNfdT731]{Shove} and any foe you successfully Shove moves 10 feet (15 feet on a critical success).</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.swq8Klr2ePG9rVJS]{Effect: Giraffe Support Benefit}</p>"
+      "value": "<p>Your giraffe pushes against opponents with its long neck. While riding on your giraffe this turn, you do not need a hand free to @UUID[Compendium.sf2e.actions.Item.7blmbDrQFNfdT731]{Shove} and any foe you successfully Shove moves 10 feet (15 feet on a critical success).</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.swq8Klr2ePG9rVJS]{Effect: Giraffe Support Benefit}</p>"
     },
     "rules": [],
     "slug": "giraffe-support-benefit",

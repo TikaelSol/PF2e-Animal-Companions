@@ -12,12 +12,12 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon has an attack that pushes away enemies. Choose one of the eidolon's unarmed attacks with the shove trait. It gains the @Compendium[sf2e.bestiary-ability-glossary.t6cx9FOODmeZQNYl]{Push} action for that attack.</p>"
+      "value": "<p>Your eidolon has an attack that pushes away enemies. Choose one of the eidolon's unarmed attacks with the shove trait. It gains the @UUID[Compendium.sf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{Push} action for that attack.</p>"
     },
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-anachronism.bestiary-ability-glossary.Item.t6cx9FOODmeZQNYl"
+        "uuid": "Compendium.sf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl"
       }
     ],
     "slug": "pushing-attack-cc",

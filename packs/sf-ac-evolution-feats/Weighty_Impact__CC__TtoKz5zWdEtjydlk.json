@@ -12,12 +12,12 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon knocks enemies down. Choose one of the eidolon's unarmed attacks with the trip trait. It gains the @Compendium[sf2e.bestiary-ability-glossary.BCLvAx4Pz4MLa2pu]{Knockdown} action for that attack.</p>"
+      "value": "<p>Your eidolon knocks enemies down. Choose one of the eidolon's unarmed attacks with the trip trait. It gains the @UUID[Compendium.sf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu]{Knockdown} action for that attack.</p>"
     },
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-anachronism.bestiary-ability-glossary.Item.BCLvAx4Pz4MLa2pu"
+        "uuid": "Compendium.sf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu"
       }
     ],
     "slug": "weighty-impact-cc",

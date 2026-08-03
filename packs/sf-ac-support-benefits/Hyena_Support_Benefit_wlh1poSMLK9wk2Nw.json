@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The hyena mockingly yowls at your enemies and bites at them when you create an opening. Until the start of your next turn, each time you hit a creature in the hyena's reach with a Strike, the creature becomes @UUID[Compendium.pf2e-anachronism.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.zrI6j7mFhkbSFdf0]{Effect: Hyena Support Benefit}</p>"
+      "value": "<p>The hyena mockingly yowls at your enemies and bites at them when you create an opening. Until the start of your next turn, each time you hit a creature in the hyena's reach with a Strike, the creature becomes @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.zrI6j7mFhkbSFdf0]{Effect: Hyena Support Benefit}</p>"
     },
     "rules": [],
     "slug": "hyena-support-benefit",

@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Your tikar urchinpad attempts to wrap its tendrils around your foe's limbs, pulling it off balance. Until the end of your next turn, as long as you're adjacent to your urchinpad, if you attempt to @UUID[Compendium.pf2e-anachronism.actions.Item.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.pf2e-anachronism.actions.Item.ge56Lu1xXVFYUnLP]{Trip} an opponent and roll a critical failure, you get a failure instead.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.ciyeCV7RsTtFcYKw]{Effect: Tikar Urchinpad Support Benefit}</p>",
+      "value": "<p>Your tikar urchinpad attempts to wrap its tendrils around your foe's limbs, pulling it off balance. Until the end of your next turn, as long as you're adjacent to your urchinpad, if you attempt to @UUID[Compendium.sf2e.actions.Item.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.sf2e.actions.Item.ge56Lu1xXVFYUnLP]{Trip} an opponent and roll a critical failure, you get a failure instead.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.ciyeCV7RsTtFcYKw]{Effect: Tikar Urchinpad Support Benefit}</p>",
       "gm": ""
     },
     "publication": {

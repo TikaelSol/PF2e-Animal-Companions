@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The hand attempts to @UUID[Compendium.pf2e-anachronism.actions.Item.PMbdMWc2QroouFGD]{Grapple} a Medium or smaller creature by the throat. If the Grapple succeeds, in addition to the normal effects, the creature has difficulty speaking. While it remains @UUID[Compendium.pf2e-anachronism.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e-anachronism.conditions.Item.VcDeM8A5oI6VqhbM]{Restrained} by the hand, it must spend an extra action to perform any action that has the verbal trait.</p>"
+      "value": "<p>The hand attempts to @UUID[Compendium.sf2e.actions.Item.PMbdMWc2QroouFGD]{Grapple} a Medium or smaller creature by the throat. If the Grapple succeeds, in addition to the normal effects, the creature has difficulty speaking. While it remains @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.sf2e.conditions.Item.VcDeM8A5oI6VqhbM]{Restrained} by the hand, it must spend an extra action to perform any action that has the verbal trait.</p>"
     },
     "rules": [],
     "slug": "grip-throat",

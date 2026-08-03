@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your wood elemental surrounds a foe with branches, grabbing it in place. Your wood elemental makes a branch Strike; on a success, the target is also @UUID[Compendium.pf2e-anachronism.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed} by the wood elemental until the end of your next turn unless your wood elemental moves or the target Escapes.</p>"
+      "value": "<p>Your wood elemental surrounds a foe with branches, grabbing it in place. Your wood elemental makes a branch Strike; on a success, the target is also @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed} by the wood elemental until the end of your next turn unless your wood elemental moves or the target Escapes.</p>"
     },
     "rules": [],
     "slug": "grabbing-branches",

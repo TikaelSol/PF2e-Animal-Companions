@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.z6bNmmf5YiJrPbot]{Severed Head Support Benefit}</p><p>Your Strikes t<span style=\"font-family:Roboto, sans-serif\">hat damage a creature in your severed head's reach take a penalty to their speed and must succeed at a flat check to use reactions.</span></p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.z6bNmmf5YiJrPbot]{Severed Head Support Benefit}</p><p>Your Strikes that damage a creature in your severed head's reach take a penalty to their speed and must succeed at a flat check to use reactions.</p>",
       "gm": ""
     },
     "publication": {

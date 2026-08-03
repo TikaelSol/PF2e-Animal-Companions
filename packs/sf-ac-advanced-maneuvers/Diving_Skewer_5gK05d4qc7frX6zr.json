@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>The wyvern Flies up to half its Speed and then makes a stinger Strike. If the Strike hits, the target is also knocked @UUID[Compendium.pf2e-anachronism.conditions.Item.j91X7x0XSomq8d60]{Prone}. If the Strike critically succeeds, the target also takes @Damage[2d6[persistent,poison]] damage.</p>",
+      "value": "<p>The wyvern Flies up to half its Speed and then makes a stinger Strike. If the Strike hits, the target is also knocked @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}. If the Strike critically succeeds, the target also takes @Damage[2d6[persistent,poison]] damage.</p>",
       "gm": ""
     },
     "publication": {

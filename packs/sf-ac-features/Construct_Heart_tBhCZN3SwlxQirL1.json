@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your construct eidolon has a link directly to your life force, which renders them a living creature and therefore susceptible to many ailments that bother only the living, though they do possess some resistances to these effects. They don't have a construct's normal immunities, but they do gain a +2 circumstance bonus to saving throws against death effects, disease, poison, and spirit effects, as well as effects causing the @UUID[Compendium.pf2e-anachronism.conditions.Item.HL2l2VRSaQHu9lUw]{Fatigued} or sickened conditions. Additionally, their astral essence bleeds off slowly. The flat check to remove persistent bleed damage from the eidolon is DC 10 (or DC 5 after receiving particularly effective aid).</p>"
+      "value": "<p>Your construct eidolon has a link directly to your life force, which renders them a living creature and therefore susceptible to many ailments that bother only the living, though they do possess some resistances to these effects. They don't have a construct's normal immunities, but they do gain a +2 circumstance bonus to saving throws against death effects, disease, poison, and spirit effects, as well as effects causing the @UUID[Compendium.sf2e.conditions.Item.HL2l2VRSaQHu9lUw]{Fatigued} or sickened conditions. Additionally, their astral essence bleeds off slowly. The flat check to remove persistent bleed damage from the eidolon is DC 10 (or DC 5 after receiving particularly effective aid).</p>"
     },
     "rules": [
       {

@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The kangaroo balances on its tail and lashes out with a powerful two-legged kick. The kangaroo makes a foot Strike. If it hits, the target is pushed back 10 feet. On a critical hit, they are also knocked @UUID[Compendium.pf2e-anachronism.conditions.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+      "value": "<p>The kangaroo balances on its tail and lashes out with a powerful two-legged kick. The kangaroo makes a foot Strike. If it hits, the target is pushed back 10 feet. On a critical hit, they are also knocked @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}.</p>"
     },
     "rules": [],
     "slug": "spring-kick",

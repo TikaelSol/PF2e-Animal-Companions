@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon emanates a powerful aura that protects creatures as they travel. Your eidolon and their allies (including you) within a @Template[type:emanation|distance:20] are protected from severe heat and cold, and your eidolon is never @UUID[Compendium.pf2e-anachronism.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} to creatures inside the aura that are of a lower level than you. When you gain the transcendence class feature, your eidolon and allies in the aura are protected from environmental damage from any plane, including severe and extreme heat and cold as well as more unusual dangers.</p>"
+      "value": "<p>Your eidolon emanates a powerful aura that protects creatures as they travel. Your eidolon and their allies (including you) within a @Template[type:emanation|distance:20] are protected from severe heat and cold, and your eidolon is never @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} to creatures inside the aura that are of a lower level than you. When you gain the transcendence class feature, your eidolon and allies in the aura are protected from environmental damage from any plane, including severe and extreme heat and cold as well as more unusual dangers.</p>"
     },
     "rules": [],
     "slug": "travelers-aura",

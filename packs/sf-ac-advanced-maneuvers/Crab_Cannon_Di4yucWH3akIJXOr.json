@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Your durian crab curls itself up tightly, taking the shape of a ball. It then launches itself with its powerful claw at a target within 20 feet. When it lands, it makes a claw Strike, except the damage is bludgeoning instead of piercing. On a hit, the target becomes @UUID[Compendium.pf2e-anachronism.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round and the Strike deals an additional @Damage[1d8[untyped]] damage, or 2d8 additional damage if your crab is specialized.</p>",
+      "value": "<p>Your durian crab curls itself up tightly, taking the shape of a ball. It then launches itself with its powerful claw at a target within 20 feet. When it lands, it makes a claw Strike, except the damage is bludgeoning instead of piercing. On a hit, the target becomes @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round and the Strike deals an additional @Damage[1d8[untyped]] damage, or 2d8 additional damage if your crab is specialized.</p>",
       "gm": ""
     },
     "publication": {

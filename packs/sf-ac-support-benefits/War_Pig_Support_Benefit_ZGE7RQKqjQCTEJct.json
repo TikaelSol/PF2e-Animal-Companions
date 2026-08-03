@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>Your war pig bodychecks your enemies, leaving them numb from the impact. Until the start of your next turn, Strikes you make that deal damage to a creature within your war pig's reach make the target @UUID[Compendium.pf2e-anachronism.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.EutUqr7s9d9bRy9b]{Effect: War Pig Support Benefit}</p>",
+      "value": "<p>Your war pig bodychecks your enemies, leaving them numb from the impact. Until the start of your next turn, Strikes you make that deal damage to a creature within your war pig's reach make the target @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.EutUqr7s9d9bRy9b]{Effect: War Pig Support Benefit}</p>",
       "gm": ""
     },
     "publication": {

@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your mole leaps into the ground and burrows beneath your foes, disturbing their footing. Until the end of your next turn, if you hit and damage a creature adjacent to your mole, that creature is @UUID[Compendium.pf2e-anachronism.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until it moves from its current position.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.6X2STQsZYQ4pY6BA]{Effect: Mole Support Benefit}</p>"
+      "value": "<p>Your mole leaps into the ground and burrows beneath your foes, disturbing their footing. Until the end of your next turn, if you hit and damage a creature adjacent to your mole, that creature is @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until it moves from its current position.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.6X2STQsZYQ4pY6BA]{Effect: Mole Support Benefit}</p>"
     },
     "rules": [],
     "slug": "mole-support-benefit",

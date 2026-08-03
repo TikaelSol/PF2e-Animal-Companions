@@ -10,12 +10,12 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon expands your primal magic with illusion and mental magic, allowing both of you to wield the power of fey glamour. When you add spells to your repertoire, you can choose from the primal list as well as from spells that have the illusion or mental traits that appear on the arcane spell list. As usual for when you add spells of a different tradition to your spell list, you're still a primal spellcaster, so all your spells are primal spells. Your eidolon gains the @UUID[Compendium.pf2e-anachronism.feats.Item.WfbmFsRxbVyzMmCz]{Magical Understudy} summoner feat, despite not meeting the prerequisite level, and can choose fey gift cantrips in addition to primal cantrips. As normal for a feat you are granted by name, you can't retrain Magical Understudy into another feat.</p>"
+      "value": "<p>Your eidolon expands your primal magic with illusion and mental magic, allowing both of you to wield the power of fey glamour. When you add spells to your repertoire, you can choose from the primal list as well as from spells that have the illusion or mental traits that appear on the arcane spell list. As usual for when you add spells of a different tradition to your spell list, you're still a primal spellcaster, so all your spells are primal spells. Your eidolon gains the @UUID[Compendium.pf2e-animal-companions.sf-AC-Evolution-Feats.Item.V4rqSvDeIlZCdbVQ]{Magical Understudy} summoner feat, despite not meeting the prerequisite level, and can choose fey gift cantrips in addition to primal cantrips. As normal for a feat you are granted by name, you can't retrain Magical Understudy into another feat.</p>"
     },
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-anachronism.feats.Item.WfbmFsRxbVyzMmCz"
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Evolution-Feats.Item.V4rqSvDeIlZCdbVQ"
       }
     ],
     "slug": "fey-gift-spells",
