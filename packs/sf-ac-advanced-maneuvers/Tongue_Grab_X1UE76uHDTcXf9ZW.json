@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The giant frog lashes out with its tongue, making a tongue Strike. If the Strike hits, the target is automatically @UUID[Compendium.pf2e-anachronism.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed} by the giant frog and pulled into a square adjacent to the frog. The grabbed condition lasts until the end of your next turn.</p>"
+      "value": "<p>The giant frog lashes out with its tongue, making a tongue Strike. If the Strike hits, the target is automatically @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed} by the giant frog and pulled into a square adjacent to the frog. The grabbed condition lasts until the end of your next turn.</p>"
     },
     "rules": [],
     "slug": "tongue-grab",

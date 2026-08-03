@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> The urchinpad's last action was a successful tendril Strike. </p><hr /><p>The urchinpad makes another tendril Strike against the same target. If this Strike hits, the target is also @UUID[Compendium.pf2e-anachronism.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed}, as if the urchinpad had successfully Grappled the target.</p>",
+      "value": "<p><strong>Requirements</strong> The urchinpad's last action was a successful tendril Strike. </p><hr /><p>The urchinpad makes another tendril Strike against the same target. If this Strike hits, the target is also @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed}, as if the urchinpad had successfully Grappled the target.</p>",
       "gm": ""
     },
     "publication": {

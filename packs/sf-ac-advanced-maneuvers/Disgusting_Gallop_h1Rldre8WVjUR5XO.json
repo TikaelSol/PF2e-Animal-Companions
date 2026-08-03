@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The zombie mount Strides twice, spraying putrid spittle as it runs. Once during this movement, choose a creature adjacent to the zombie mount. The spittle splashes on it, and the creature must succeed at a @Check[fortitude|against:disgusting-gallop] save or be @UUID[Compendium.pf2e-anachronism.conditions.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><p>The creature is then temporarily immune to the spittle for 24 hours. This uses a trained DC using the zombie mount's Constitution modifier, or an expert DC if the mount is specialized.</p>"
+      "value": "<p>The zombie mount Strides twice, spraying putrid spittle as it runs. Once during this movement, choose a creature adjacent to the zombie mount. The spittle splashes on it, and the creature must succeed at a @Check[fortitude|against:disgusting-gallop] save or be @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><p>The creature is then temporarily immune to the spittle for 24 hours. This uses a trained DC using the zombie mount's Constitution modifier, or an expert DC if the mount is specialized.</p>"
     },
     "rules": [
       {

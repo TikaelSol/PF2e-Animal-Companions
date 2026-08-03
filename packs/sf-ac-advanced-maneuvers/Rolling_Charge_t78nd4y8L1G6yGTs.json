@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>The cragstone bear tucks itself into a ball and Strides twice in a straight line. It can make a slam Strike against one creature it's adjacent to at any point during this movement. If the Strike is a critical hit, the target is also knocked @UUID[Compendium.pf2e-anachronism.conditions.Item.j91X7x0XSomq8d60]{Prone}.</p>",
+      "value": "<p>The cragstone bear tucks itself into a ball and Strides twice in a straight line. It can make a slam Strike against one creature it's adjacent to at any point during this movement. If the Strike is a critical hit, the target is also knocked @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}.</p>",
       "gm": ""
     },
     "publication": {

@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.7rhcqwMDt2xqnI1N]{Bird Support Benefit}</p><p>Your Strikes that damage a creature that your bird threatens also deal persistent bleed damage, and the target is @UUID[Compendium.pf2e-anachronism.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the bleed damage.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.7rhcqwMDt2xqnI1N]{Bird Support Benefit}</p><p>Your Strikes that damage a creature that your bird threatens also deal persistent bleed damage, and the target is @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the bleed damage.</p>"
     },
     "rules": [
       {

@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> The medic Strides and then uses @UUID[Compendium.pf2e-anachronism.actions.Item.MHLuKy4nQO2Z4Am1]{Administer First Aid}, @UUID[Compendium.pf2e-anachronism.feats.Item.wYerMk6F1RZb0Fwt]{Battle Medicine}, @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.ma45EqTK72KQLca3]{Medic's Treatment}, or @UUID[Compendium.pf2e-anachronism.actions.Item.KjoCEEmPGTeFE4hh]{Treat Poison}.</p>",
+      "value": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> The medic Strides and then uses @UUID[Compendium.sf2e.actions.Item.MHLuKy4nQO2Z4Am1]{Administer First Aid}, @UUID[Compendium.pf2e-anachronism.feats.Item.wYerMk6F1RZb0Fwt]{Battle Medicine}, @UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.ma45EqTK72KQLca3]{Medic's Treatment}, or @UUID[Compendium.sf2e.actions.Item.KjoCEEmPGTeFE4hh]{Treat Poison}.</p>",
       "gm": ""
     },
     "publication": {

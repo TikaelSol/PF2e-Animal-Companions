@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>The gray bladeling slashes viciously at your enemy when you create an opening. Until the start of your next turn, each time you hit a creature in the bladeling's reach with a Strike, the creature takes @Damage[1d4[persistent,bleed]] damage or becomes @UUID[Compendium.pf2e-anachronism.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1} if it's already taking persistent bleed damage. If the gray bladeling is specialized, the persistent bleed damage increases to 1d8.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.jHISsCN6eVEYNtrw]{Effect: Gray Bladeling Support Benefit}</p>",
+      "value": "<p>The gray bladeling slashes viciously at your enemy when you create an opening. Until the start of your next turn, each time you hit a creature in the bladeling's reach with a Strike, the creature takes @Damage[1d4[persistent,bleed]] damage or becomes @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1} if it's already taking persistent bleed damage. If the gray bladeling is specialized, the persistent bleed damage increases to 1d8.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.jHISsCN6eVEYNtrw]{Effect: Gray Bladeling Support Benefit}</p>",
       "gm": ""
     },
     "publication": {

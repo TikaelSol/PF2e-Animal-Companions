@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>The cephalopod wraps its tentacles around a foe and crushes them. It makes an arm Strike. If the Strike hits, the target creature automatically becomes @UUID[Compendium.pf2e-anachronism.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed} by the cephalopod, then takes @Damage[1d6[bludgeoning]] damage. If your cephalopod is nimble or savage, the bludgeoning damage increases to @Damage[2d6[bludgeoning]|shortLabel].</p>",
+      "value": "<p>The cephalopod wraps its tentacles around a foe and crushes them. It makes an arm Strike. If the Strike hits, the target creature automatically becomes @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{Grabbed} by the cephalopod, then takes @Damage[1d6[bludgeoning]] damage. If your cephalopod is nimble or savage, the bludgeoning damage increases to @Damage[2d6[bludgeoning]|shortLabel].</p>",
       "gm": ""
     },
     "publication": {

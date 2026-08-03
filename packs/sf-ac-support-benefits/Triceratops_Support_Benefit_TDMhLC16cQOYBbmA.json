@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your triceratops gores @UUID[Compendium.pf2e-anachronism.conditions.Item.j91X7x0XSomq8d60]{Prone} targets in your wake. Until the start of your next turn, your Strikes that damage a prone creature in your triceratops's reach also deal @Damage[1d8[persistent,bleed]] damage. If your triceratops is nimble or savage, the persistent bleed damage increases to @Damage[2d8[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.VK0u5yF0dO2YlGra]{Effect: Triceratops Support Benefit}</p>"
+      "value": "<p>Your triceratops gores @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone} targets in your wake. Until the start of your next turn, your Strikes that damage a prone creature in your triceratops's reach also deal @Damage[1d8[persistent,bleed]] damage. If your triceratops is nimble or savage, the persistent bleed damage increases to @Damage[2d8[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.VK0u5yF0dO2YlGra]{Effect: Triceratops Support Benefit}</p>"
     },
     "rules": [
       {

@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.BgqGqrzRNnm8QaN9]{Giant Rock Tuatara Support}</p><p>Creatures within your giant rock tuatara's reach that you damage with your Strikes are @UUID[Compendium.pf2e-anachronism.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.BgqGqrzRNnm8QaN9]{Giant Rock Tuatara Support}</p><p>Creatures within your giant rock tuatara's reach that you damage with your Strikes are @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p>",
       "gm": ""
     },
     "publication": {

@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your salamander reflects the light on its scales that shine brightly. Until the start of your next turn, if you hit and deal damage to a creature adjacent to your salamander, the creature is @UUID[Compendium.pf2e-anachronism.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn unless its level is higher than yours.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.N61xXQczvAV2Xrnj]{Effect: Iridescent Salamander Support Benefit}</p>",
+      "value": "<p>Your salamander reflects the light on its scales that shine brightly. Until the start of your next turn, if you hit and deal damage to a creature adjacent to your salamander, the creature is @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn unless its level is higher than yours.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.N61xXQczvAV2Xrnj]{Effect: Iridescent Salamander Support Benefit}</p>",
       "gm": ""
     },
     "publication": {

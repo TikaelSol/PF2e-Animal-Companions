@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.IUXX1lUd9kMzV4bq]{Water Wraith Support Benefit}</p><p>Each time you hit a creature within your water wraith's reach, the creature is @UUID[Compendium.pf2e-anachronism.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.IUXX1lUd9kMzV4bq]{Water Wraith Support Benefit}</p><p>Each time you hit a creature within your water wraith's reach, the creature is @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p>"
     },
     "rules": [
       {

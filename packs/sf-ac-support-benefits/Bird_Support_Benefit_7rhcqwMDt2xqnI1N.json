@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The bird pecks at your foes' eyes when you create an opening. Until the start of your next turn, your Strikes that damage a creature that your bird threatens also deal @Damage[1d4[persistent,bleed]] damage, and the target is @UUID[Compendium.pf2e-anachronism.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the bleed damage. If your bird is nimble or savage, the persistent bleed damage increases to @Damage[2d4[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.s2tD44BtYMJpEXjO]{Effect: Bird Support Benefit}</p>"
+      "value": "<p>The bird pecks at your foes' eyes when you create an opening. Until the start of your next turn, your Strikes that damage a creature that your bird threatens also deal @Damage[1d4[persistent,bleed]] damage, and the target is @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the bleed damage. If your bird is nimble or savage, the persistent bleed damage increases to @Damage[2d4[persistent,bleed]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.s2tD44BtYMJpEXjO]{Effect: Bird Support Benefit}</p>"
     },
     "rules": [
       {

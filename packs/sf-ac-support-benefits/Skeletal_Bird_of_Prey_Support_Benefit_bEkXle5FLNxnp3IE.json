@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The bird flaps around and throws your foe off balance. Until the start of your next turn, when you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.pf2e-anachronism.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.tyTTl3B8OWtWYhcX]{Effect: Skeletal Bird of Prey Support Benefit}</p>"
+      "value": "<p>The bird flaps around and throws your foe off balance. Until the start of your next turn, when you damage a creature in the bird's reach with a Strike, that creature becomes @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your next turn.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.tyTTl3B8OWtWYhcX]{Effect: Skeletal Bird of Prey Support Benefit}</p>"
     },
     "rules": [],
     "slug": "skeletal-bird-of-prey-support-benefit",

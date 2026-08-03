@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your wasp drones its wings, unnerving your enemies. Until the start of your next turn, if you hit and deal damage to a creature in your giant wasp's reach, the creature becomes @UUID[Compendium.pf2e-anachronism.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.nftqFOord0y2cTTi]{Effect: Giant Wasp Support Benefit}</p>"
+      "value": "<p>Your wasp drones its wings, unnerving your enemies. Until the start of your next turn, if you hit and deal damage to a creature in your giant wasp's reach, the creature becomes @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-effects.Item.nftqFOord0y2cTTi]{Effect: Giant Wasp Support Benefit}</p>"
     },
     "rules": [],
     "slug": "giant-wasp-support-benefit",

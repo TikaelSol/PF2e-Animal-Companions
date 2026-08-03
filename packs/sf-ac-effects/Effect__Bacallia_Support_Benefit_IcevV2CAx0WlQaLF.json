@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.ZQZD767JGaTcOfWd]{Bacallia Support Benefit}</p><p>Creatures within your bacallia's reach that you damage with your Strikes are @UUID[Compendium.pf2e-anachronism.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.ZQZD767JGaTcOfWd]{Bacallia Support Benefit}</p><p>Creatures within your bacallia's reach that you damage with your Strikes are @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p>",
       "gm": ""
     },
     "publication": {

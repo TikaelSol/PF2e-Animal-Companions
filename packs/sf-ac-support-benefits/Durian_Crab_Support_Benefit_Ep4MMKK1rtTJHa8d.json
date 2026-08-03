@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Your durian crab launches itself as part of your ranged attack to throw your enemies off balance. Until the start of your next turn, as long as your crab is within your reach, your ranged Strikes that deal damage to a creature within 30 feet make the target @UUID[Compendium.pf2e-anachronism.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn. Your crab scuttles or launches itself back to the same space from which you threw it immediately after making a Strike, allowing you to hurl it multiple times.</p>",
+      "value": "<p>Your durian crab launches itself as part of your ranged attack to throw your enemies off balance. Until the start of your next turn, as long as your crab is within your reach, your ranged Strikes that deal damage to a creature within 30 feet make the target @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn. Your crab scuttles or launches itself back to the same space from which you threw it immediately after making a Strike, allowing you to hurl it multiple times.</p>",
       "gm": ""
     },
     "publication": {

@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companion joins the fray with graceful leaps and dives. It gains the @UUID[Compendium.pf2e-anachronism.class-features.Item.PNpmVmD21zViDtGC]{deny advantage} ability, so it isn't @UUID[Compendium.pf2e-anachronism.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} to @UUID[Compendium.pf2e-anachronism.conditions.Item.iU0fEDdBp3rXpTMC]{Hidden}, @UUID[Compendium.pf2e-anachronism.conditions.Item.VRSef5y1LmL2Hkjf]{Undetected}, or flanking creatures unless such a creature's level is greater than yours. Its proficiency rank in Acrobatics increases to master, and its Dexterity modifier increases by 1. Its proficiency rank in unarmored defense increases to expert.</p>"
+      "value": "<p>Your companion joins the fray with graceful leaps and dives. It gains the @UUID[Compendium.pf2e-anachronism.class-features.Item.PNpmVmD21zViDtGC]{deny advantage} ability, so it isn't @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} to @UUID[Compendium.sf2e.conditions.Item.iU0fEDdBp3rXpTMC]{Hidden}, @UUID[Compendium.sf2e.conditions.Item.VRSef5y1LmL2Hkjf]{Undetected}, or flanking creatures unless such a creature's level is greater than yours. Its proficiency rank in Acrobatics increases to master, and its Dexterity modifier increases by 1. Its proficiency rank in unarmored defense increases to expert.</p>"
     },
     "rules": [
       {

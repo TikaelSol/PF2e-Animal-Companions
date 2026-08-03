@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your eidolon's fury boils over into a reckless, out- of-control frenzy. While frenzied, your eidolon is affected by <em>@Compendium[sf2e.spells.HStu2Yhw3iQER9tY]{Boost Eidolon}</em> and gains temporary Hit Points equal to your level, but it takes a -2 penalty to AC. Your eidolon can't voluntarily end the frenzy or start another frenzy while in the frenzy. The frenzy lasts for 1 minute, after which it's @Compendium[sf2e.conditions.Fatigued]{Fatigued} for 1 minute and can't start another frenzy for 1 minute.</p>\n<p>@Compendium[pf2e-animal-companions.AC-Features.yE9n6h53psgbYThV]{Effect: Seething Frenzy}</p>"
+      "value": "<p>Your eidolon's fury boils over into a reckless, out- of-control frenzy. While frenzied, your eidolon is affected by @UUID[Compendium.pf2e-anachronism.spells.HStu2Yhw3iQER9tY]{Boost Eidolon} and gains temporary Hit Points equal to your level, but it takes a -2 penalty to AC. Your eidolon can't voluntarily end the frenzy or start another frenzy while in the frenzy. The frenzy lasts for 1 minute, after which it's @Compendium[sf2e.conditions.Fatigued]{Fatigued} for 1 minute and can't start another frenzy for 1 minute.</p><p>@UUID[Compendium.pf2e-animal-companions.sf-AC-Features.Item.yE9n6h53psgbYThV]{Effect: Seething Frenzy}</p>"
     },
     "rules": [],
     "slug": "seething-frenzy",

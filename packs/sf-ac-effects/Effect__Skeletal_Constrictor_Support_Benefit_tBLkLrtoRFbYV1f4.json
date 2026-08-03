@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.Si13B4VFANZN8mi1]{Skeletal Constrictor Support Benefit}</p><p>Your Strikes that deal damage to the chosen creature make the target @UUID[Compendium.pf2e-anachronism.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard}.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.sf-AC-Support.Item.Si13B4VFANZN8mi1]{Skeletal Constrictor Support Benefit}</p><p>Your Strikes that deal damage to the chosen creature make the target @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard}.</p>"
     },
     "rules": [
       {

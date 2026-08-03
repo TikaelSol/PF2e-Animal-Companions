@@ -12,7 +12,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The moth flaps its wings and emits ultrasonic squeaks that scramble the senses of nearby creatures. Choose one creature within 30 feet of the moth. That creature must attempt a @Check[fortitude|against:ultrasonic-scream] save. This uses a trained DC using the moth's Constitution modifier or an expert DC if the moth is specialized.</p><hr /><p><strong>Success</strong> The target treats all creatures as @UUID[Compendium.pf2e-anachronism.conditions.Item.DmAIPqOBomZ7H95W]{Concealed} on its next attack before the start of your next turn.</p><p><strong>Failure</strong> The target treats all creatures as concealed until the start of your next turn.</p><p><strong>Critical Failure</strong> As failure, and the target is also @UUID[Compendium.pf2e-anachronism.conditions.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
+      "value": "<p>The moth flaps its wings and emits ultrasonic squeaks that scramble the senses of nearby creatures. Choose one creature within 30 feet of the moth. That creature must attempt a @Check[fortitude|against:ultrasonic-scream] save. This uses a trained DC using the moth's Constitution modifier or an expert DC if the moth is specialized.</p><hr /><p><strong>Success</strong> The target treats all creatures as @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{Concealed} on its next attack before the start of your next turn.</p><p><strong>Failure</strong> The target treats all creatures as concealed until the start of your next turn.</p><p><strong>Critical Failure</strong> As failure, and the target is also @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
     },
     "rules": [
       {

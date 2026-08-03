@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.N61xXQczvAV2Xrnj]{Iridescent Salamander Support Benefit}</p><p>If you hit and deal damage to a creature adjacent to your salamander, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn unless its level is higher than yours.</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Sd56dzX528tdkhZX]{Iridescent Salamander Support Benefit}{Iridescent Salamander Support Benefit}</p><p>If you hit and deal damage to a creature adjacent to your salamander, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn unless its level is higher than yours.</p>",
       "gm": ""
     },
     "publication": {
