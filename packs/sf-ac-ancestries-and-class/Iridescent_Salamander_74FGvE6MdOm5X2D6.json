@@ -141,9 +141,7 @@
       }
     },
     "languages": {
-      "value": [
-        "common"
-      ],
+      "value": [],
       "custom": ""
     },
     "additionalLanguages": {

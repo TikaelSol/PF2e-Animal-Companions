@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "<p>The war pig transforms any fear it feels into fury before kicking wildly. Reduce the war pig's frightened value by 1 (minimum 0). The war pig then makes hoof Strikes against up to three different foes within its reach. These Strikes each take a –2 penalty to their attack rolls unless the war pig began its turn with the frightened condition. Each attack counts toward the war pig's multiple attack penalty, but the penalty only increases after all the attacks have been made.</p>",
+      "value": "<p>The war pig transforms any fear it feels into fury before kicking wildly. Reduce the war pig's @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL] value by 1 (minimum 0). The war pig then makes hoof Strikes against up to three different foes within its reach. These Strikes each take a –2 penalty to their attack rolls unless the war pig began its turn with the frightened condition. Each attack counts toward the war pig's multiple attack penalty, but the penalty only increases after all the attacks have been made.</p>",
       "gm": ""
     },
     "publication": {
