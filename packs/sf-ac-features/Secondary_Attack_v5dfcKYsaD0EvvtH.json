@@ -48,8 +48,11 @@
         "mode": "override",
         "property": "damage-type",
         "value": "{item|flags.system.rulesSelections.secondaryStrikeDamage}",
+        "predicate": [
+          "dice:slug:base"
+        ],
         "selectors": [
-          "item:slug:secondary-attack"
+          "{item|id}-damage"
         ]
       }
     ],
@@ -170,11 +173,14 @@
   },
   "_stats": {
     "systemId": "sf2e",
-    "systemVersion": "8.4.0",
-    "coreVersion": "14.365",
+    "systemVersion": "8.6.1",
+    "coreVersion": "14.369",
     "compendiumSource": "Item.plHqkYSxSSPZ4mHQ",
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "createdTime": 1792280276998,
+    "modifiedTime": 1792280380182,
+    "lastModifiedBy": "XUrhfvb05TiIl7Al"
   },
   "folder": "bEsp8rfXg8Q7Fn0G",
   "sort": 800000,

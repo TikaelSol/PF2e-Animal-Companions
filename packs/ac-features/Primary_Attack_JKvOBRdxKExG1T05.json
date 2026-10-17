@@ -177,7 +177,10 @@
         "property": "damage-type",
         "value": "{item|flags.system.rulesSelections.primaryStrikeDamage}",
         "selectors": [
-          "item:slug:primary-attack"
+          "{item|id}-damage"
+        ],
+        "predicate": [
+          "dice:slug:base"
         ]
       }
     ],
@@ -296,8 +299,8 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
-    "coreVersion": "14.365",
+    "systemVersion": "8.6.1",
+    "coreVersion": "14.369",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

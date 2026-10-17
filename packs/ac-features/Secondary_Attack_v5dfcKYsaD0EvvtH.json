@@ -48,8 +48,11 @@
         "mode": "override",
         "property": "damage-type",
         "value": "{item|flags.system.rulesSelections.secondaryStrikeDamage}",
+        "predicate": [
+          "dice:slug:base"
+        ],
         "selectors": [
-          "item:slug:secondary-attack"
+          "{item|id}-damage"
         ]
       }
     ],
@@ -170,8 +173,8 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
-    "coreVersion": "14.365",
+    "systemVersion": "8.6.1",
+    "coreVersion": "14.369",
     "compendiumSource": "Item.plHqkYSxSSPZ4mHQ",
     "duplicateSource": null,
     "exportSource": null
