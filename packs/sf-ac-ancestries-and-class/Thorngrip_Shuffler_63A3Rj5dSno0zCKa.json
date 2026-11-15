@@ -1,0 +1,177 @@
+{
+  "name": "Thorngrip Shuffler",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Access</strong> You are a bugbear.</p><hr><p>Your companion is a mass of thorns supported on three barbed legs that moves in a disconcerting scuttle. These creatures are popular among bugbear hunters, who prize their ability to frighten and trap prey.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> barbs (finesse), Damage 1d6 piercing</p><p><strong>Str</strong> +1, <strong>Dex</strong> +3, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +1</p><p><strong>Hit Points</strong> 6</p><p><strong>Skill</strong> Intimidation</p><p><strong>Speed</strong> 30 feet</p><p><strong>Support Benefit</strong> Your Thorngrip shuffler convulses, readying its barbs to snag prey. Until the start of your next turn, your Strikes that damage a creature in the shuffler's reach also hook that creature. A creature remains hooked until the start of your next turn. If a hooked creature within the shuffler's reach takes an action with the move trait other than Step, that creature takes 1d6 piercing damage. If your Thorngrip shuffler is nimble or savage, the damage increases to 2d6. A creature takes this damage only once per round.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.xmEqaoDRkp29WZsj]{Unsettling Stridulation}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Cheliax, Infernal Inheritance",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.cha.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.intimidation.rank"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "COMP.UnarmedAttacks.Barbs",
+        "range": null,
+        "slug": "barbs",
+        "traits": [
+          "finesse",
+          "unarmed"
+        ],
+        "img": "icons/magic/nature/root-vine-entwined-thorns.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.sf-AC-Support.Item.PdxIA2j0QwwMlNEG"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.system.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.sf-AC-Advanced-Maneuvers.Item.xmEqaoDRkp29WZsj"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "plant"
+      ],
+      "rarity": "uncommon"
+    },
+    "items": {},
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "alternateAncestryBoosts": null,
+    "boosts": {
+      "0": {
+        "value": [],
+        "selected": null
+      },
+      "1": {
+        "value": [],
+        "selected": null
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ],
+        "selected": null
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [],
+        "selected": null
+      }
+    },
+    "voluntary": {
+      "legacy": false,
+      "boost": null,
+      "flaws": []
+    },
+    "hp": 6,
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "speed": 30,
+    "size": "sm",
+    "hands": 2,
+    "reach": 5,
+    "vision": "normal"
+  },
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "folder": "Rn81F1uZdgYGoXoS",
+  "ownership": {
+    "default": 0,
+    "bIAE8qj8XWx84bFT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "sf2e",
+    "systemVersion": "8.7.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "63A3Rj5dSno0zCKa",
+  "sort": 0,
+  "_key": "!items!63A3Rj5dSno0zCKa"
+}
