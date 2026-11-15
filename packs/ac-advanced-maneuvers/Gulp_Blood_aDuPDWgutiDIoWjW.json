@@ -47,13 +47,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "coreVersion": "14.370",
     "compendiumSource": "Item.g1QzcWAHw8EjBxNs",
     "duplicateSource": null,
     "exportSource": null
   },
   "folder": null,
-  "sort": 4900000,
+  "sort": 7600000,
   "_id": "aDuPDWgutiDIoWjW",
   "_key": "!items!aDuPDWgutiDIoWjW"
 }

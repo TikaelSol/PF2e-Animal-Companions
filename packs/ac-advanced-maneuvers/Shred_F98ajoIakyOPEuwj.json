@@ -5,7 +5,7 @@
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
   "folder": null,
-  "sort": 2700000,
+  "sort": 5500000,
   "flags": {
     "core": {}
   },
@@ -80,7 +80,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "8.1.2",
-    "coreVersion": "14.363",
+    "coreVersion": "14.370",
     "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.F98ajoIakyOPEuwj",
     "duplicateSource": null,
     "exportSource": null

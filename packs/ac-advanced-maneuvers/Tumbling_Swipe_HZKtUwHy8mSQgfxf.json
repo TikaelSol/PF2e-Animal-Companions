@@ -43,7 +43,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.365",
+    "coreVersion": "14.370",
     "systemId": "pf2e",
     "systemVersion": "8.3.0",
     "compendiumSource": null,
@@ -51,6 +51,6 @@
     "exportSource": null
   },
   "_id": "HZKtUwHy8mSQgfxf",
-  "sort": 0,
+  "sort": 900000,
   "_key": "!items!HZKtUwHy8mSQgfxf"
 }

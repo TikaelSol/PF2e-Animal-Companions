@@ -52,12 +52,12 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "coreVersion": "14.370",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
   },
   "_id": "HY6rzDpBJ4L5OmgI",
-  "sort": 100000,
+  "sort": 2900000,
   "_key": "!items!HY6rzDpBJ4L5OmgI"
 }

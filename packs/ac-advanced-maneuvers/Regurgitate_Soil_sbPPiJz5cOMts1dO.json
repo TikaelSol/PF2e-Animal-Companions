@@ -1,0 +1,80 @@
+{
+  "name": "Regurgitate Soil",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your knurled worm violently regurgitates a @Template[type:cone|distance:30] of dirt and soil, dealing @Damage[floor(@actor.level/2)d6[bludgeoning]|options:area-damage] damage for every 2 levels the worm has to all creatures in the area (@Check[type:reflex|against:regurgitate-soil|basic:true]). This uses a trained DC using the worm's Constitution modifier or an expert DC if the worm is specialized.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Cheliax, Infernal Inheritance",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "attribute": "con",
+        "key": "SpecialStatistic",
+        "slug": "regurgitate-soil"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "regurgitate-soil",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "regurgitate-soil-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "regurgitate-soil-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "regurgitate-soil",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "bIAE8qj8XWx84bFT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "pf2e",
+    "systemVersion": "8.7.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "sbPPiJz5cOMts1dO",
+  "sort": 0,
+  "_key": "!items!sbPPiJz5cOMts1dO"
+}

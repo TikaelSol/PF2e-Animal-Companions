@@ -39,7 +39,7 @@
   "_id": "VSsW37hmpmXNOUwd",
   "img": "systems/pf2e/icons/actions/Reaction.webp",
   "folder": null,
-  "sort": 0,
+  "sort": 1400000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -52,7 +52,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
-    "coreVersion": "13.350",
+    "coreVersion": "14.370",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

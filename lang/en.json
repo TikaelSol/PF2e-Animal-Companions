@@ -223,6 +223,12 @@
                 "StingerPoison": {
                     "Label": "Stinger Poison"
                 }
+            },
+            "Yzobu": {
+                "Name": {
+                    "Ancestry": "Yzobu",
+                    "SupportBenefit": "Yzobu Support Benefit"
+                }
             }
         },
         "UnarmedAttacks": {

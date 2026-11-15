@@ -81,12 +81,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "14.370",
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
     "exportSource": null
   },
   "_id": "5gK05d4qc7frX6zr",
-  "sort": 0,
+  "sort": 200000,
   "_key": "!items!5gK05d4qc7frX6zr"
 }

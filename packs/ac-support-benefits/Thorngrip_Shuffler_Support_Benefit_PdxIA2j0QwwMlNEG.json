@@ -1,0 +1,86 @@
+{
+  "name": "Thorngrip Shuffler Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your Thorngrip shuffler convulses, readying its barbs to snag prey. Until the start of your next turn, your Strikes that damage a creature in the shuffler's reach also hook that creature. A creature remains hooked until the start of your next turn. If a hooked creature within the shuffler's reach takes an action with the move trait other than Step, that creature takes @Damage[1d6[piercing]] damage. If your Thorngrip shuffler is nimble or savage, the damage increases to @Damage[2d6[piercing]]. A creature takes this damage only once per round.</p><p></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Cheliax, Infernal Inheritance",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:thorngrip-shuffler-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:thorngrip-shuffler-support-benefit",
+          {
+            "or": [
+              "feature:savage-animal-companion",
+              "feature:nimble-animal-companion"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "support-benefit:thorngrip-shuffler"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "bIAE8qj8XWx84bFT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "pf2e",
+    "systemVersion": "8.7.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "PdxIA2j0QwwMlNEG",
+  "sort": 0,
+  "_key": "!items!PdxIA2j0QwwMlNEG"
+}

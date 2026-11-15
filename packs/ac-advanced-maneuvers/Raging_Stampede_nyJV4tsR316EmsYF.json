@@ -46,12 +46,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "14.370",
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
     "exportSource": null
   },
   "_id": "nyJV4tsR316EmsYF",
-  "sort": 0,
+  "sort": 2400000,
   "_key": "!items!nyJV4tsR316EmsYF"
 }
