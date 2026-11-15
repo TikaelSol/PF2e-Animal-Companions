@@ -1,0 +1,83 @@
+{
+  "name": "Bellowing Croak",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your regal toad lets loose an ear-bleeding croak. All creatures in a @Template[type:emanation|distance:15] take @Damage[floor(@actor.level/2)d6[sonic]|options:area-damage] damage for every 2 levels the toad has (@Check[type:fortitude|against:bellowing-croak|basic:true]). This uses a trained DC using the regal toad's Constitution modifier or an expert DC if the toad is specialized.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Cheliax, Infernal Inheritance",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "attribute": "con",
+        "key": "SpecialStatistic",
+        "slug": "bellowing-croak"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "bellowing-croak",
+        "value": "2 + @actor.level",
+        "type": "proficiency",
+        "slug": "bellowing-croak-proficiency"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "bellowing-croak-proficiency",
+        "value": "4 + @actor.level",
+        "selector": "bellowing-croak",
+        "predicate": [
+          "feature:specialized-animal-companion"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "sonic"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "bIAE8qj8XWx84bFT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "pf2e",
+    "systemVersion": "8.7.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Mtc8ep0VRdbTNSL5",
+  "sort": 1300000,
+  "_key": "!items!Mtc8ep0VRdbTNSL5"
+}

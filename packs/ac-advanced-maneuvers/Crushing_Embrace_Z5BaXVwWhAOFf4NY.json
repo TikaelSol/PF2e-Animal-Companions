@@ -41,13 +41,13 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.364",
+    "coreVersion": "14.370",
     "systemId": "pf2e",
     "systemVersion": "8.2.0",
     "exportSource": null,
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "sort": 0,
+  "sort": 1500000,
   "_key": "!items!Z5BaXVwWhAOFf4NY"
 }

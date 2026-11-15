@@ -40,7 +40,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.364",
+    "coreVersion": "14.370",
     "systemId": "pf2e",
     "systemVersion": "8.2.0",
     "exportSource": null,
@@ -48,6 +48,6 @@
     "duplicateSource": null
   },
   "_id": "lT6TzZ5XL3R0Z0E2",
-  "sort": 0,
+  "sort": 2100000,
   "_key": "!items!lT6TzZ5XL3R0Z0E2"
 }

@@ -1,0 +1,53 @@
+{
+  "name": "Bucking Trample",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The yzobu Strides up to its Speed. During this movement, it can Strike up to two times. Each of these Strikes can be made at any point during its movement, but they must be made against different targets.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Cheliax, Infernal Inheritance",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "bIAE8qj8XWx84bFT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "pf2e",
+    "systemVersion": "8.7.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "sRFMyNz46TAxRUy3",
+  "sort": 0,
+  "_key": "!items!sRFMyNz46TAxRUy3"
+}

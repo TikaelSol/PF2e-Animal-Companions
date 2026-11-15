@@ -67,7 +67,7 @@
   "_id": "tLUBgSE9Mm6ic6sY",
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "folder": null,
-  "sort": 0,
+  "sort": 2600000,
   "ownership": {
     "default": 0,
     "AhhBYTk3xYRMuz4T": 3
@@ -76,7 +76,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "14.363",
+    "coreVersion": "14.370",
     "systemId": "pf2e",
     "systemVersion": "8.1.2",
     "exportSource": null

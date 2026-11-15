@@ -46,12 +46,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "14.370",
     "systemId": "pf2e",
     "systemVersion": "7.7.1",
     "exportSource": null
   },
   "_id": "uhv8V9STpaCXdkCf",
-  "sort": 0,
+  "sort": 2700000,
   "_key": "!items!uhv8V9STpaCXdkCf"
 }

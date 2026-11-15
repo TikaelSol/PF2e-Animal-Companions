@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The tarantula flicks its legs, flinging spiky hairs in a @Template[type:cone|distance:15]. This deals @Damage[(4 + max(0,floor((@actor.level - 6) / 4)))d6[piercing]] damage with a @Check[type:reflex|against:hair-barrage|basic:true]. This uses a trained DC using the tarantula's Dexterity modifier or an expert DC if the tarantula is specialized. This damage increases by an additional 1d6 for every 4 levels you have beyond 6th.</p>"
+      "value": "<p>The tarantula flicks its legs, flinging spiky hairs in a @Template[type:cone|distance:15]. This deals @Damage[(4 + max(0,floor((@actor.level - 6) / 4)))d6[piercing]|options:area-damage] damage with a @Check[type:reflex|against:hair-barrage|basic:true]. This uses a trained DC using the tarantula's Dexterity modifier or an expert DC if the tarantula is specialized. This damage increases by an additional 1d6 for every 4 levels you have beyond 6th.</p>"
     },
     "rules": [
       {
@@ -62,7 +62,7 @@
   "_id": "eFZtA8LHdw4mWJVt",
   "img": "systems/pf2e/icons/actions/TwoActions.webp",
   "folder": null,
-  "sort": 0,
+  "sort": 1800000,
   "ownership": {
     "default": 0,
     "vawHfUxddL5ZhUl0": 3
@@ -74,8 +74,8 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "8.2.0",
-    "coreVersion": "14.364",
+    "systemVersion": "8.7.0",
+    "coreVersion": "14.370",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
