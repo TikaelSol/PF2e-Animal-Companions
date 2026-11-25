@@ -24,7 +24,11 @@
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
-      "flags": {}
+      "flags": {
+        "pf2e": {
+          "skipABC": true
+        }
+      }
     },
     {
       "label": "Animal Companion Feats",
@@ -76,7 +80,11 @@
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
-      "flags": {}
+      "flags": {
+        "pf2e": {
+          "skipABC": true
+        }
+      }
     },
     {
       "label": "Support Benefits",
@@ -102,7 +110,11 @@
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
-      "flags": {}
+      "flags": {
+        "pf2e": {
+          "skipABC": true
+        }
+      }
     },
     {
       "label": "Construct Breakthroughs",
@@ -128,7 +140,11 @@
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
-      "flags": {}
+      "flags": {
+        "pf2e": {
+          "skipABC": true
+        }
+      }
     },
     {
       "label": "Evolution Feats",
@@ -153,6 +169,11 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
+      },
+      "flags": {
+        "pf2e": {
+          "skipABC": true
+        }
       }
     },
     {
@@ -166,7 +187,11 @@
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
-      "flags": {}
+      "flags": {
+        "pf2e": {
+          "skipABC": true
+        }
+      }
     },
     {
       "label": "Animal Companion Feats",
@@ -218,7 +243,11 @@
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
-      "flags": {}
+      "flags": {
+        "pf2e": {
+          "skipABC": true
+        }
+      }
     },
     {
       "label": "Support Benefits",
@@ -244,7 +273,11 @@
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
-      "flags": {}
+      "flags": {
+        "pf2e": {
+          "skipABC": true
+        }
+      }
     },
     {
       "label": "Construct Breakthroughs",
@@ -270,7 +303,11 @@
         "ASSISTANT": "OWNER"
       },
       "type": "Item",
-      "flags": {}
+      "flags": {
+        "pf2e": {
+          "skipABC": true
+        }
+      }
     },
     {
       "label": "Evolution Feats",
@@ -295,6 +332,11 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
+      },
+      "flags": {
+        "pf2e": {
+          "skipABC": true
+        }
       }
     }
   ],
