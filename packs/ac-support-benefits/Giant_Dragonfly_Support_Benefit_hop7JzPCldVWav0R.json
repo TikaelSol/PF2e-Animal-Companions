@@ -1,0 +1,53 @@
+{
+  "name": "Giant Dragonfly Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your giant dragonfly soars, potentially carrying off a foe with it. Until the start of your next turn, when you hit and deal damage to a creature within your giant dragonfly's reach, the giant dragonfly can Fly as a free action. If your giant dragonfly has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, it can carry the creature with it, treating all spaces as difficult terrain.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Feybound",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "pf2e",
+    "systemVersion": "8.7.1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "hop7JzPCldVWav0R",
+  "sort": 0,
+  "_key": "!items!hop7JzPCldVWav0R"
+}

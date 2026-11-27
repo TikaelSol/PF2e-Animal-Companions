@@ -1,0 +1,58 @@
+{
+  "name": "Invigorating Nobility",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The unicorn touches their horn to the virtuous fallen, bringing them away from death's brink. The unicorn heals an adjacent creature an amount of Hit Points equal to your @Damage[(2d8+@actor.level)[healing,vitality]]{2d8 + your level}. If the target is @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, it can Stand as a free action. The creature then becomes immune to Invigorating Nobility for 10 minutes.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Feybound",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "healing",
+        "manipulate",
+        "primal",
+        "vitality"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.371",
+    "systemId": "pf2e",
+    "systemVersion": "8.7.1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "EVoA5xmVjUUxPMWG",
+  "sort": 0,
+  "_key": "!items!EVoA5xmVjUUxPMWG"
+}

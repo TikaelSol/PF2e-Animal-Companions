@@ -1,0 +1,173 @@
+{
+  "name": "Cu Sith",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "Rn81F1uZdgYGoXoS",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Despite their canine appearance, a cu sith is no simple hound but a terrifying guardian of fey crossings whose baying howl portends mortality's collapse.</p><p><strong>Size</strong> Large</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 1d8 piercing plus Grab</p><p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –3, <strong>Wis</strong> +0, <strong>Cha</strong> +1</p><p><strong>Hit Points</strong> 6</p><p><strong>Skill</strong> Intimidation</p><p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p><p><strong>Speed</strong> 40 feet</p><p><strong>Special</strong> The cu sith can understand Fey but does not speak any languages. They also don't take a –4 circumstance penalty to [[/act demoralize]] targets due to not speaking or sharing languages.</p><p><strong>Support Benefit</strong> Your cu sith barks fearsomely, robbing your foe of their wits. Until the start of your next turn, when you hit and deal damage to a creature within your cu sith's reach, the target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}.</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.B9xO4pLtRMCSoLNG]{Worrying Doom}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -3,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.cha.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.intimidation.rank"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.jaws",
+        "range": null,
+        "traits": [
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp"
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "scent"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.d21ssjt6AbL2guYQ"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.B9xO4pLtRMCSoLNG"
+      }
+    ],
+    "slug": "cu-sith",
+    "_migration": {
+      "version": 0.961,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "14.370",
+        "system": "8.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fey"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Feybound",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 6,
+    "size": "lg",
+    "hands": 2,
+    "reach": 5,
+    "speed": 40,
+    "boosts": {
+      "0": {
+        "value": [],
+        "selected": null
+      },
+      "1": {
+        "value": [],
+        "selected": null
+      },
+      "2": {
+        "value": [],
+        "selected": null
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [],
+        "selected": null
+      }
+    },
+    "languages": {
+      "value": [
+        "fey"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "low-light-vision",
+    "alternateAncestryBoosts": null,
+    "voluntary": {
+      "legacy": false,
+      "boost": null,
+      "flaws": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.7.1",
+    "coreVersion": "14.371",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "G1Y31ZS4A1yv99Ak",
+  "sort": 0,
+  "_key": "!items!G1Y31ZS4A1yv99Ak"
+}
