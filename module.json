@@ -188,7 +188,7 @@
       },
       "type": "Item",
       "flags": {
-        "pf2e": {
+        "sf2e": {
           "skipABC": true
         }
       }
@@ -244,7 +244,7 @@
       },
       "type": "Item",
       "flags": {
-        "pf2e": {
+        "sf2e": {
           "skipABC": true
         }
       }
@@ -274,7 +274,7 @@
       },
       "type": "Item",
       "flags": {
-        "pf2e": {
+        "sf2e": {
           "skipABC": true
         }
       }
@@ -304,7 +304,7 @@
       },
       "type": "Item",
       "flags": {
-        "pf2e": {
+        "sf2e": {
           "skipABC": true
         }
       }
@@ -334,7 +334,7 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {
-        "pf2e": {
+        "sf2e": {
           "skipABC": true
         }
       }
