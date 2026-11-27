@@ -1,0 +1,55 @@
+{
+  "name": "Dragonfly Swoop",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The giant dragonfly Flies and makes a mandible Strike at any point during its movement.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Feybound",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/sf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "pf2e",
+    "systemVersion": "8.7.1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "GU0PFBSV7n5Ge0j8",
+  "sort": 0,
+  "_key": "!items!GU0PFBSV7n5Ge0j8"
+}

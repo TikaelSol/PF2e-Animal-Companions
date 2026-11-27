@@ -1,0 +1,55 @@
+{
+  "name": "Worrying Doom",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The cu sith tears into a creature they have @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, dragging it closer to its demise. The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} and can't reduce its frightened condition below 1 until the beginning of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Feybound",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "_id": "B9xO4pLtRMCSoLNG",
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "pf2e",
+    "systemVersion": "8.7.1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "_key": "!items!B9xO4pLtRMCSoLNG"
+}

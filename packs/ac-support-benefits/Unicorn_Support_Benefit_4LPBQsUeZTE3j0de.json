@@ -1,0 +1,53 @@
+{
+  "name": "Unicorn Support Benefit",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your unicorn's horn shines with a pearlescent, sacred light that chases away the darkness. Until the start of your next turn, your unicorn sheds bright light in a 10-foot radius; within this light, you and your Strikes gain the holy trait and receive the benefits of a ghost touch rune.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Feybound",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.371",
+    "systemId": "pf2e",
+    "systemVersion": "8.7.1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "4LPBQsUeZTE3j0de",
+  "sort": 0,
+  "_key": "!items!4LPBQsUeZTE3j0de"
+}
